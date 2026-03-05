@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<title>Daily Brief · Thursday, March 5, 2026</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lora:ital,wght@0,400;0,600;1,400&family=DM+Mono:wght@300;400;500&display=swap');
+:root{--bg:#f5f0e8;--ink:#1a1410;--muted:#7a7060;--dim:#c8c0b0;--rule:#d8d0c0;--accent:#c8390a;--card:#ede8e0}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--ink);font-family:'Lora',Georgia,serif;padding-bottom:130px}
+.mast{border-bottom:3px double var(--ink);padding:16px 20px 12px;text-align:center}
+.mast-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px}
+.meta,.badge{font-family:'DM Mono',monospace;font-size:9px;letter-spacing:.12em;text-transform:uppercase}
+.meta{color:var(--muted)}.badge{color:#2a7a3a;border:1px solid #2a7a3a;padding:2px 8px}
+.logo{font-family:'Bebas Neue',sans-serif;font-size:clamp(42px,12vw,72px);letter-spacing:.04em;line-height:1}
+.logo span{color:var(--accent)}
+.hrule{height:1px;background:var(--ink);margin:8px 0 6px}
+.tagline{font-family:'Lora',serif;font-style:italic;font-size:11px;color:var(--muted)}
+.stats{display:flex;border-bottom:1px solid var(--rule);font-family:'DM Mono',monospace;font-size:10px;color:var(--muted)}
+.stat{flex:1;padding:8px 12px;border-right:1px solid var(--rule);text-align:center}
+.stat:last-child{border-right:none}
+.sv{font-size:18px;color:var(--ink);display:block;font-weight:500}
+.pa-wrap{padding:14px 20px;border-bottom:1px solid var(--rule)}
+.pa{width:100%;display:flex;align-items:center;justify-content:center;gap:10px;background:var(--ink);color:var(--bg);border:none;padding:14px;font-family:'Bebas Neue',sans-serif;font-size:18px;letter-spacing:.12em;cursor:pointer;transition:background .15s}
+.pa:hover{background:var(--accent)}
+.sh{display:flex;align-items:center;padding:0 20px;margin-top:24px}
+.sl{font-family:'Bebas Neue',sans-serif;font-size:11px;letter-spacing:.25em;color:#fff;padding:3px 10px}
+.sln{flex:1;height:2px;background:var(--rule);margin-left:10px}
+.sl-list{padding:0 20px}
+.card{border-bottom:1px solid var(--rule);padding:14px 0;cursor:pointer;position:relative;transition:background .15s}
+.card:hover,.card.active{background:var(--card);margin:0 -20px;padding:14px 20px}
+.card.active::before{content:'';position:absolute;left:0;top:0;bottom:0;width:4px;background:var(--accent)}
+.kicker{display:flex;align-items:center;gap:8px;margin-bottom:5px}
+.num{font-family:'DM Mono',monospace;font-size:9px;color:var(--dim)}
+.stag{font-family:'DM Mono',monospace;font-size:8px;letter-spacing:.15em;text-transform:uppercase;padding:1px 6px;color:#fff;border-radius:1px}
+.stitle{font-family:'Lora',serif;font-size:15px;font-weight:600;line-height:1.35;color:var(--ink);margin-bottom:5px}
+.sbody{font-size:13px;line-height:1.65;color:var(--muted)}
+.bars{display:none;align-items:flex-end;gap:2px;height:14px;margin-top:8px}
+.card.active .bars{display:flex}
+.bars span{display:block;width:3px;border-radius:1px;background:var(--accent);animation:bw .8s ease-in-out infinite}
+.bars span:nth-child(1){height:6px}.bars span:nth-child(2){height:12px;animation-delay:.1s}
+.bars span:nth-child(3){height:8px;animation-delay:.2s}.bars span:nth-child(4){height:14px;animation-delay:.05s}
+.bars span:nth-child(5){height:5px;animation-delay:.15s}
+@keyframes bw{0%,100%{transform:scaleY(.4);opacity:.5}50%{transform:scaleY(1);opacity:1}}
+.footer{padding:20px;font-family:'DM Mono',monospace;font-size:9px;color:var(--dim);border-top:1px solid var(--rule);margin-top:20px;text-align:center;line-height:1.8}
+.player{position:fixed;bottom:0;left:0;right:0;background:var(--ink);border-top:3px solid var(--accent);padding:10px 16px 20px;z-index:100}
+.pnow{font-family:'DM Mono',monospace;font-size:9px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-bottom:8px;display:flex;justify-content:space-between;align-items:center}
+.pnow-t{color:#f5f0e8;font-size:10px;flex:1;margin-left:8px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.pctrl{display:flex;align-items:center;gap:10px}
+.pbtn{width:42px;height:42px;border-radius:50%;background:var(--accent);border:none;cursor:pointer;display:flex;align-items:center;justify-content:center;flex-shrink:0;transition:background .15s}
+.pbtn:hover{background:#e04010}.pbtn:active{transform:scale(.95)}.pbtn svg{fill:white}
+.pskip{width:34px;height:34px;border-radius:50%;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.15);cursor:pointer;display:flex;align-items:center;justify-content:center}
+.pskip svg{fill:rgba(255,255,255,.6)}
+.pw{flex:1}
+.pt{width:100%;height:3px;background:rgba(255,255,255,.12);border-radius:2px;cursor:pointer;margin-bottom:4px}
+.pf{height:100%;background:var(--accent);border-radius:2px;width:0%;transition:width .5s linear}
+.tr{display:flex;justify-content:space-between;font-family:'DM Mono',monospace;font-size:9px;color:rgba(255,255,255,.35)}
+.spd{font-family:'DM Mono',monospace;font-size:10px;color:rgba(255,255,255,.5);background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.15);padding:5px 8px;cursor:pointer;border-radius:2px}
+</style>
+</head>
+<body>
+<div class="mast">
+  <div class="mast-top">
+    <span class="meta">THURSDAY, MARCH 5, 2026</span>
+    <span class="badge">● AI GENERATED</span>
+  </div>
+  <div class="logo">Daily <span>Brief</span></div>
+  <div class="hrule"></div>
+  <div class="tagline">Your morning commute companion · 15 stories · ~30 minutes</div>
+</div>
+<div class="stats">
+  <div class="stat"><span class="sv">15</span>Stories</div>
+  <div class="stat"><span class="sv">6</span>Sections</div>
+  <div class="stat"><span class="sv">~30m</span>Drive</div>
+</div>
+<div class="pa-wrap">
+  <button class="pa" onclick="startAll()">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="white"><path d="M8 5v14l11-7z"/></svg>
+    PLAY ALL STORIES
+  </button>
+</div>
+<div class="sh"><span class="sl" style="background:#c8390a">WORLD</span><div class="sln"></div></div><div class="sl-list"><div class="card" data-idx="0" data-speech="World News. Iran Strikes Kurdish Forces in Iraq Amid Regional Tensions. Iranian military forces have targeted headquarters of Iranian Kurdish groups operating in Iraq, escalating tensions in the region. The strikes come as speculation grows that the United States is seeking to involve these Kurdish forces in its broader conflict with Iran. The attacks represent a significant cross-border military action by Tehran against opposition groups it considers a threat to its security." onclick="playStory(0)">
+<div class="kicker"><span class="num">01</span><span class="stag" style="background:#c8390a">WORLD</span></div>
+<div class="stitle">Iran Strikes Kurdish Forces in Iraq Amid Regional Tensions</div>
+<div class="sbody">Iranian military forces have targeted headquarters of Iranian Kurdish groups operating in Iraq, escalating tensions in the region. The strikes come as speculation grows that the United States is seeking to involve these Kurdish forces in its broader conflict with Iran. The attacks represent a significant cross-border military action by Tehran against opposition groups it considers a threat to its security.</div>
+<div class="bars"><span></span><span></span><span></span><span></span><span></span></div>
+</div><div class="card" data-idx="1" data-speech="World News. Ukraine Offers Conditional Help Against Iranian Drones. Ukrainian President Volodymyr Zelensky says his country is willing to help the United States combat Iranian drones, but only under specific conditions. Ukraine will provide assistance as long as doing so doesn&#39;t weaken its own critical air defense systems. The request highlights how Iranian drone technology has become a shared concern for both Ukraine and the U.S. as the weapons are used in multiple conflicts." onclick="playStory(1)">
+<div class="kicker"><span class="num">02</span><span class="stag" style="background:#c8390a">WORLD</span></div>
+<div class="stitle">Ukraine Offers Conditional Help Against Iranian Drones</div>
+<div class="sbody">Ukrainian President Volodymyr Zelensky says his country is willing to help the United States combat Iranian drones, but only under specific conditions. Ukraine will provide assistance as long as doing so doesn&#39;t weaken its own critical air defense systems. The request highlights how Iranian drone technology has become a shared concern for both Ukraine and the U.S. as the weapons are used in multiple conflicts.</div>
+<div class="bars"><span></span><span></span><span></span><span></span><span></span></div>
+</div><div class="card" data-idx="2" data-speech="World News. Ecuador Discovers Massive Drug Submarine in Nature Reserve. Ecuadorean military forces have uncovered a 35-meter-long narco-submarine hidden in a nature reserve, fully fueled and ready for operation. The discovery highlights the sophisticated methods drug trafficking organizations use to transport illegal substances. Military officials say the submersible represents a significant blow to drug smuggling operations in the region." onclick="playStory(2)">
+<div class="kicker"><span class="num">03</span><span class="stag" style="background:#c8390a">WORLD</span></div>
+<div class="stitle">Ecuador Discovers Massive Drug Submarine in Nature Reserve</div>
+<div class="sbody">Ecuadorean military forces have uncovered a 35-meter-long narco-submarine hidden in a nature reserve, fully fueled and ready for operation. The discovery highlights the sophisticated methods drug trafficking organizations use to transport illegal substances. Military officials say the submersible represents a significant blow to drug smuggling operations in the region.</div>
+<div class="bars"><span></span><span></span><span></span><span></span><span></span></div>
+</div></div><div class="sh"><span class="sl" style="background:#1a5c8a">US</span><div class="sln"></div></div><div class="sl-list"><div class="card" data-idx="3" data-speech="US News. PM Sends More Jets to Qatar, Refuses to Join Iran Strikes. The Prime Minister is standing firm on his decision not to join US-Israeli military strikes against Iran, instead sending additional fighter jets to Qatar. He&#39;s calling for a &quot;negotiated settlement with Iran where they give up their nuclear ambitions&quot; as the best path forward. The move puts the UK in a delicate position as strikes against Iranian targets continue to intensify across the region." onclick="playStory(3)">
+<div class="kicker"><span class="num">04</span><span class="stag" style="background:#1a5c8a">US</span></div>
+<div class="stitle">PM Sends More Jets to Qatar, Refuses to Join Iran Strikes</div>
+<div class="sbody">The Prime Minister is standing firm on his decision not to join US-Israeli military strikes against Iran, instead sending additional fighter jets to Qatar. He&#39;s calling for a &quot;negotiated settlement with Iran where they give up their nuclear ambitions&quot; as the best path forward. The move puts the UK in a delicate position as strikes against Iranian targets continue to intensify across the region.</div>
+<div class="bars"><span></span><span></span><span></span><span></span><span></span></div>
+</div><div class="card" data-idx="4" data-speech="US News. Failed Asylum Seekers Offered £40,000 to Leave UK. The Home Secretary is rolling out a new program offering failed asylum seeker families up to forty thousand pounds in &quot;incentives&quot; to voluntarily leave the country. Officials say the payments will actually deliver &quot;significant savings to the taxpayer&quot; compared to the costs of deportation proceedings. The controversial scheme aims to reduce the backlog of immigration cases while encouraging voluntary departures." onclick="playStory(4)">
+<div class="kicker"><span class="num">05</span><span class="stag" style="background:#1a5c8a">US</span></div>
+<div class="stitle">Failed Asylum Seekers Offered £40,000 to Leave UK</div>
+<div class="sbody">The Home Secretary is rolling out a new program offering failed asylum seeker families up to forty thousand pounds in &quot;incentives&quot; to voluntarily leave the country. Officials say the payments will actually deliver &quot;significant savings to the taxpayer&quot; compared to the costs of deportation proceedings. The controversial scheme aims to reduce the backlog of immigration cases while encouraging voluntary departures.</div>
+<div class="bars"><span></span><span></span><span></span><span></span><span></span></div>
+</div></div><div class="sh"><span class="sl" style="background:#1a6a5a">ECONOMY</span><div class="sln"></div></div><div class="sl-list"><div class="card" data-idx="5" data-speech="Economy. Persian Gulf Tensions Threaten US Economic Recovery. War in the Persian Gulf is creating new headaches for American consumers and the broader economy. Energy prices are climbing as supply chain disruptions spread across multiple sectors. The conflict is also pushing up government debt as military spending increases. Economists warn that sustained higher energy costs could dampen consumer spending and slow economic growth in the coming quarters." onclick="playStory(5)">
+<div class="kicker"><span class="num">06</span><span class="stag" style="background:#1a6a5a">ECONOMY</span></div>
+<div class="stitle">Persian Gulf Tensions Threaten US Economic Recovery</div>
+<div class="sbody">War in the Persian Gulf is creating new headaches for American consumers and the broader economy. Energy prices are climbing as supply chain disruptions spread across multiple sectors. The conflict is also pushing up government debt as military spending increases. Economists warn that sustained higher energy costs could dampen consumer spending and slow economic growth in the coming quarters.</div>
+<div class="bars"><span></span><span></span><span></span><span></span><span></span></div>
+</div><div class="card" data-idx="6" data-speech="Economy. Trump&#39;s Tariff Policies Create Mixed Results for US Industry. Treasury Secretary Scott Bessent announced global tariffs will rise to 15% this week, with overall rates returning to previous levels within five months after last month&#39;s Supreme Court ruling. The tariff increases are adding steel mill jobs but crushing American factories that rely on imported materials. Small businesses from chocolate makers to specialty food importers face mounting costs and uncertainty about whether they can recover payments on tariffs the Supreme Court invalidated. While some previously high-tariff nations benefit from Trump&#39;s flat 10% rate, manufacturers using steel report limited exports and potential job losses." onclick="playStory(6)">
+<div class="kicker"><span class="num">07</span><span class="stag" style="background:#1a6a5a">ECONOMY</span></div>
+<div class="stitle">Trump&#39;s Tariff Policies Create Mixed Results for US Industry</div>
+<div class="sbody">Treasury Secretary Scott Bessent announced global tariffs will rise to 15% this week, with overall rates returning to previous levels within five months after last month&#39;s Supreme Court ruling. The tariff increases are adding steel mill jobs but crushing American factories that rely on imported materials. Small businesses from chocolate makers to specialty food importers face mounting costs and uncertainty about whether they can recover payments on tariffs the Supreme Court invalidated. While some previously high-tariff nations benefit from Trump&#39;s flat 10% rate, manufacturers using steel report limited exports and potential job losses.</div>
+<div class="bars"><span></span><span></span><span></span><span></span><span></span></div>
+</div><div class="card" data-idx="7" data-speech="Economy. Global Economic Pressures Mount as China Cuts Growth Target. China has set its lowest economic growth target since 1991, marking the first reduction since the target dropped to &quot;around 5%&quot; in 2023. The move signals growing concerns about the world&#39;s second-largest economy. Meanwhile, the Iran conflict is rippling through UK energy markets, with firms pulling fixed energy deals as wholesale prices surge. UK fixed-term energy deals have fallen by more than half as businesses brace for sustained higher costs." onclick="playStory(7)">
+<div class="kicker"><span class="num">08</span><span class="stag" style="background:#1a6a5a">ECONOMY</span></div>
+<div class="stitle">Global Economic Pressures Mount as China Cuts Growth Target</div>
+<div class="sbody">China has set its lowest economic growth target since 1991, marking the first reduction since the target dropped to &quot;around 5%&quot; in 2023. The move signals growing concerns about the world&#39;s second-largest economy. Meanwhile, the Iran conflict is rippling through UK energy markets, with firms pulling fixed energy deals as wholesale prices surge. UK fixed-term energy deals have fallen by more than half as businesses brace for sustained higher costs.</div>
+<div class="bars"><span></span><span></span><span></span><span></span><span></span></div>
+</div></div><div class="sh"><span class="sl" style="background:#2a7a3a">RE · NYC</span><div class="sln"></div></div><div class="sl-list"><div class="card" data-idx="8" data-speech="US Real Estate (NYC Focus). Tribeca Condo Sells for $21 Million in Top NYC Deal. A Tribeca condominium at 250 West Street changed hands for $21.4 million, leading yesterday&#39;s residential transactions in the city. The seller, Amirali Handjani, more than doubled his investment after purchasing the unit for $10.5 million back in 2013. The buyer was listed as a trust, keeping their identity private. Overall, 219 property transactions totaling $467 million were filed in city records yesterday." onclick="playStory(8)">
+<div class="kicker"><span class="num">09</span><span class="stag" style="background:#2a7a3a">RE · NYC</span></div>
+<div class="stitle">Tribeca Condo Sells for $21 Million in Top NYC Deal</div>
+<div class="sbody">A Tribeca condominium at 250 West Street changed hands for $21.4 million, leading yesterday&#39;s residential transactions in the city. The seller, Amirali Handjani, more than doubled his investment after purchasing the unit for $10.5 million back in 2013. The buyer was listed as a trust, keeping their identity private. Overall, 219 property transactions totaling $467 million were filed in city records yesterday.</div>
+<div class="bars"><span></span><span></span><span></span><span></span><span></span></div>
+</div><div class="card" data-idx="9" data-speech="US Real Estate (NYC Focus). SoHo Corner Lot Sells at Steep Discount. City Urban Realty scored a deal on one of SoHo&#39;s last developable sites, paying $14 million for a vacant corner lot at 144 Spring Street. That&#39;s a significant markdown from the $24.7 million that Travelzoo founder Ralph Bartel paid for the same property in 2012. Bartel had originally planned to build a modern glass structure on the site. The off-market transaction gives City Urban a prime canvas in one of Manhattan&#39;s most coveted neighborhoods." onclick="playStory(9)">
+<div class="kicker"><span class="num">10</span><span class="stag" style="background:#2a7a3a">RE · NYC</span></div>
+<div class="stitle">SoHo Corner Lot Sells at Steep Discount</div>
+<div class="sbody">City Urban Realty scored a deal on one of SoHo&#39;s last developable sites, paying $14 million for a vacant corner lot at 144 Spring Street. That&#39;s a significant markdown from the $24.7 million that Travelzoo founder Ralph Bartel paid for the same property in 2012. Bartel had originally planned to build a modern glass structure on the site. The off-market transaction gives City Urban a prime canvas in one of Manhattan&#39;s most coveted neighborhoods.</div>
+<div class="bars"><span></span><span></span><span></span><span></span><span></span></div>
+</div><div class="card" data-idx="10" data-speech="US Real Estate (NYC Focus). Fifth Avenue Property Sells for Just $100,000 at Foreclosure Auction. A Fifth Avenue property tied to developer Robert Siegel&#39;s Metropole Realty Advisors sold for a shocking $100,000 at Tuesday&#39;s foreclosure auction. The building at 681 Fifth Avenue went to lender Wells Fargo, with Siegel himself attending the courthouse proceedings. While the sale price seems impossibly low for prime Manhattan real estate, this may not be the final chapter in what&#39;s been an ongoing financial saga for the property." onclick="playStory(10)">
+<div class="kicker"><span class="num">11</span><span class="stag" style="background:#2a7a3a">RE · NYC</span></div>
+<div class="stitle">Fifth Avenue Property Sells for Just $100,000 at Foreclosure Auction</div>
+<div class="sbody">A Fifth Avenue property tied to developer Robert Siegel&#39;s Metropole Realty Advisors sold for a shocking $100,000 at Tuesday&#39;s foreclosure auction. The building at 681 Fifth Avenue went to lender Wells Fargo, with Siegel himself attending the courthouse proceedings. While the sale price seems impossibly low for prime Manhattan real estate, this may not be the final chapter in what&#39;s been an ongoing financial saga for the property.</div>
+<div class="bars"><span></span><span></span><span></span><span></span><span></span></div>
+</div></div><div class="sh"><span class="sl" style="background:#8a4a1a">SPORTS</span><div class="sln"></div></div><div class="sl-list"><div class="card" data-idx="11" data-speech="Sports. Bills Trade for Bears Star Receiver DJ Moore. The Buffalo Bills have made a big splash, acquiring wide receiver DJ Moore from the Chicago Bears in a trade that could shake up the AFC playoff picture. Moore brings elite speed and playmaking ability to a Bills offense that&#39;s looking to make another deep postseason run. The deal gives Josh Allen another top weapon alongside Stefon Diggs as Buffalo continues building toward a Super Bowl push." onclick="playStory(11)">
+<div class="kicker"><span class="num">12</span><span class="stag" style="background:#8a4a1a">SPORTS</span></div>
+<div class="stitle">Bills Trade for Bears Star Receiver DJ Moore</div>
+<div class="sbody">The Buffalo Bills have made a big splash, acquiring wide receiver DJ Moore from the Chicago Bears in a trade that could shake up the AFC playoff picture. Moore brings elite speed and playmaking ability to a Bills offense that&#39;s looking to make another deep postseason run. The deal gives Josh Allen another top weapon alongside Stefon Diggs as Buffalo continues building toward a Super Bowl push.</div>
+<div class="bars"><span></span><span></span><span></span><span></span><span></span></div>
+</div><div class="card" data-idx="12" data-speech="Sports. Capitals and Rangers Getting Pixar Treatment. Hockey meets Hollywood as the April 5th matchup between the Washington Capitals and New York Rangers will feature an &quot;Inside Out Classic&quot; broadcast. Players will skate alongside animated characters Joy and Sadness from the hit Pixar films in a real-time animated alternative broadcast. It&#39;s the latest creative attempt by sports networks to attract new audiences to traditional games." onclick="playStory(12)">
+<div class="kicker"><span class="num">13</span><span class="stag" style="background:#8a4a1a">SPORTS</span></div>
+<div class="stitle">Capitals and Rangers Getting Pixar Treatment</div>
+<div class="sbody">Hockey meets Hollywood as the April 5th matchup between the Washington Capitals and New York Rangers will feature an &quot;Inside Out Classic&quot; broadcast. Players will skate alongside animated characters Joy and Sadness from the hit Pixar films in a real-time animated alternative broadcast. It&#39;s the latest creative attempt by sports networks to attract new audiences to traditional games.</div>
+<div class="bars"><span></span><span></span><span></span><span></span><span></span></div>
+</div></div><div class="sh"><span class="sl" style="background:#6a2a8a">BBALL</span><div class="sln"></div></div><div class="sl-list"><div class="card" data-idx="13" data-speech="Basketball (NBA &amp; College). Thunder&#39;s Shai Gilgeous-Alexander Masters the Art of Drawing Fouls. The Oklahoma City Thunder beat the New York Knicks 103-100 Wednesday night, but it was Knicks coach Mike Brown&#39;s postgame comments that caught attention. Brown praised Thunder star Shai Gilgeous-Alexander&#39;s ability to sell contact to referees, calling him the best in the league at &quot;convincing the referees that he&#39;s getting hit.&quot; It&#39;s quite the compliment from an opposing coach after a tough loss. The skill of drawing fouls has become increasingly valuable in today&#39;s NBA, and apparently SGA has mastered it." onclick="playStory(13)">
+<div class="kicker"><span class="num">14</span><span class="stag" style="background:#6a2a8a">BBALL</span></div>
+<div class="stitle">Thunder&#39;s Shai Gilgeous-Alexander Masters the Art of Drawing Fouls</div>
+<div class="sbody">The Oklahoma City Thunder beat the New York Knicks 103-100 Wednesday night, but it was Knicks coach Mike Brown&#39;s postgame comments that caught attention. Brown praised Thunder star Shai Gilgeous-Alexander&#39;s ability to sell contact to referees, calling him the best in the league at &quot;convincing the referees that he&#39;s getting hit.&quot; It&#39;s quite the compliment from an opposing coach after a tough loss. The skill of drawing fouls has become increasingly valuable in today&#39;s NBA, and apparently SGA has mastered it.</div>
+<div class="bars"><span></span><span></span><span></span><span></span><span></span></div>
+</div><div class="card" data-idx="14" data-speech="Basketball (NBA &amp; College). Spurs&#39; Wembanyama Relieved as Missing Friend Found Safe. San Antonio Spurs star Victor Wembanyama shared some personal good news, expressing gratitude after a longtime friend who had gone missing was located safely. The friend had disappeared after being dropped off at a Chicago airport, prompting a search effort. Wembanyama thanked the public for their help in the search, saying he was &quot;so happy&quot; to hear his friend had been found. It&#39;s a reminder that even NBA superstars deal with the same personal worries and concerns as everyone else." onclick="playStory(14)">
+<div class="kicker"><span class="num">15</span><span class="stag" style="background:#6a2a8a">BBALL</span></div>
+<div class="stitle">Spurs&#39; Wembanyama Relieved as Missing Friend Found Safe</div>
+<div class="sbody">San Antonio Spurs star Victor Wembanyama shared some personal good news, expressing gratitude after a longtime friend who had gone missing was located safely. The friend had disappeared after being dropped off at a Chicago airport, prompting a search effort. Wembanyama thanked the public for their help in the search, saying he was &quot;so happy&quot; to hear his friend had been found. It&#39;s a reminder that even NBA superstars deal with the same personal worries and concerns as everyone else.</div>
+<div class="bars"><span></span><span></span><span></span><span></span><span></span></div>
+</div></div>
+<div class="footer">
+  Generated by Claude AI · BBC · Reuters · FT · MarketWatch · NYT · ESPN · The Real Deal<br>
+  Thursday, March 5, 2026 · Your Daily Brief
+</div>
+<div class="player">
+  <div class="pnow"><span>Now Playing</span><span class="pnow-t" id="nt">Tap Play All to begin</span></div>
+  <div class="pctrl">
+    <button class="pbtn" onclick="togglePlay()"><svg id="pi" width="20" height="20" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></button>
+    <button class="pskip" onclick="skipNext()"><svg width="16" height="16" viewBox="0 0 24 24"><path d="M6 18l8.5-6L6 6v12zM16 6v12h2V6h-2z"/></svg></button>
+    <div class="pw">
+      <div class="pt" onclick="seek(event)"><div class="pf" id="pf"></div></div>
+      <div class="tr"><span id="tc">0:00</span><span id="tt">0:00</span></div>
+    </div>
+    <button class="spd" id="sb" onclick="cycleSpd()">1×</button>
+  </div>
+</div>
+<script>
+const cards=Array.from(document.querySelectorAll('.card'));
+const stories=cards.map(c=>({title:c.querySelector('.stitle').textContent,speech:c.dataset.speech}));
+let cur=-1,going=false,paused=false,allMode=false,si=1,utt=null,dur=0,el=0,ts=null,tid=null;
+const spds=[0.85,1,1.2,1.5,1.75],slab=['0.85×','1×','1.2×','1.5×','1.75×'];
+const syn=window.speechSynthesis;
+function gv(){const v=syn.getVoices();return v.find(x=>x.lang==='en-US'&&(x.name.includes('Samantha')||x.name.includes('Google')))||v.find(x=>x.lang.startsWith('en'))||v[0];}
+function fmt(s){if(!s||isNaN(s))return'0:00';return Math.floor(s/60)+':'+(Math.floor(s%60)+'').padStart(2,'0');}
+function tick(){if(!ts)return;el=(Date.now()-ts)/1000;document.getElementById('pf').style.width=Math.min(el/dur*100,100)+'%';document.getElementById('tc').textContent=fmt(el);}
+function setActive(i){cards.forEach(c=>c.classList.remove('active'));if(i>=0){cards[i].classList.add('active');cards[i].scrollIntoView({behavior:'smooth',block:'center'});}}
+function playStory(i,auto=false){
+  if(!auto)allMode=false;
+  syn.cancel();clearInterval(tid);going=false;paused=false;
+  cur=i;const s=stories[i];
+  document.getElementById('nt').textContent=s.title;
+  setActive(i);
+  utt=new SpeechSynthesisUtterance(s.speech);
+  utt.rate=spds[si];utt.pitch=1;utt.volume=1;
+  const v=gv();if(v)utt.voice=v;
+  dur=s.speech.split(' ').length/(150*spds[si])*60;
+  document.getElementById('tt').textContent=fmt(dur);
+  document.getElementById('tc').textContent='0:00';
+  document.getElementById('pf').style.width='0%';
+  utt.onstart=()=>{going=true;ts=Date.now();tid=setInterval(tick,600);document.getElementById('pi').innerHTML='<path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/>';};
+  utt.onend=()=>{going=false;clearInterval(tid);document.getElementById('pf').style.width='100%';document.getElementById('pi').innerHTML='<path d="M8 5v14l11-7z"/>';if(allMode&&cur<stories.length-1)setTimeout(()=>playStory(cur+1,true),700);else if(allMode){document.getElementById('nt').textContent='✓ All stories complete!';setActive(-1);allMode=false;}};
+  utt.onerror=()=>{going=false;clearInterval(tid);document.getElementById('pi').innerHTML='<path d="M8 5v14l11-7z"/>'};
+  syn.speak(utt);
+}
+function togglePlay(){
+  if(!going&&!paused){if(cur===-1&&stories.length){allMode=true;playStory(0,true);}else if(cur>=0)playStory(cur,allMode);return;}
+  if(going){syn.pause();going=false;paused=true;clearInterval(tid);document.getElementById('pi').innerHTML='<path d="M8 5v14l11-7z"/>';}
+  else{syn.resume();going=true;paused=false;ts=Date.now()-(el*1000);tid=setInterval(tick,600);document.getElementById('pi').innerHTML='<path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/>';}
+}
+function skipNext(){if(cur<stories.length-1)playStory(cur+1,allMode);}
+function startAll(){allMode=true;playStory(0,true);}
+function cycleSpd(){si=(si+1)%spds.length;document.getElementById('sb').textContent=slab[si];if(going||paused){const i=cur;syn.cancel();clearInterval(tid);going=false;paused=false;playStory(i,allMode);}}
+function seek(e){el=(e.offsetX/e.currentTarget.offsetWidth)*dur;if(cur>=0){const i=cur;syn.cancel();clearInterval(tid);going=false;paused=false;playStory(i,allMode);}}
+if(syn.onvoiceschanged!==undefined)syn.onvoiceschanged=()=>{};
+</script>
+</body>
+</html>
