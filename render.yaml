@@ -1,0 +1,22 @@
+services:
+  - type: cron
+    name: daily-brief-generator
+    runtime: python
+    schedule: "30 12 * * *"   # 12:30 UTC = 7:30am EST (adjust to 11:30 for EDT in summer)
+    buildCommand: pip install -r requirements.txt
+    startCommand: python generate.py
+    envVars:
+      - key: ANTHROPIC_API_KEY
+        sync: false
+      - key: GITHUB_TOKEN
+        sync: false
+      - key: GITHUB_USER
+        sync: false
+      - key: GITHUB_REPO
+        sync: false
+      - key: GMAIL_USER
+        sync: false
+      - key: GMAIL_APP_PASS
+        sync: false
+      - key: YOUR_EMAIL
+        sync: false
