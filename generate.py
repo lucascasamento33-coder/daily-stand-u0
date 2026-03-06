@@ -60,8 +60,11 @@ FEEDS = {
         "https://www.6sqft.com/feed/",
     ],
     "Sports": [
-        "https://www.espn.com/espn/rss/news",
-        "https://sports.yahoo.com/rss/",
+        "https://www.espn.com/espn/rss/soccer/news",
+        "https://www.espn.com/espn/rss/nfl/news",
+        "https://www.espn.com/espn/rss/mlb/news",
+        "https://sports.yahoo.com/soccer/rss/",
+        "https://sports.yahoo.com/nfl/rss/",
     ],
     "Basketball (NBA & College)": [
         "https://www.espn.com/espn/rss/nba/news",
@@ -84,6 +87,7 @@ SECTION_CONFIG = {
 
 def fetch_headlines(urls, count=6):
     items = []
+    seen_titles = set()
     for url in urls:
         try:
             feed = feedparser.parse(url)
@@ -91,7 +95,10 @@ def fetch_headlines(urls, count=6):
                 title   = entry.get("title", "").strip()
                 summary = re.sub(r"<[^>]+>", "",
                     entry.get("summary", entry.get("description", ""))).strip()[:400]
-                if title and len(title) > 10:
+                # Deduplicate by normalized title
+                title_key = re.sub(r"[^a-z0-9]", "", title.lower())[:60]
+                if title and len(title) > 10 and title_key not in seen_titles:
+                    seen_titles.add(title_key)
                     items.append(f"- {title}. {summary}")
             if len(items) >= count:
                 break
@@ -104,9 +111,13 @@ def fetch_headlines(urls, count=6):
 
 def summarize_standard(client, section, headlines):
     """3 stories from a flat list of headlines."""
+    sports_note = ""
+    if section == "Sports":
+        sports_note = "\nIMPORTANT: Focus ONLY on soccer, football (NFL/college), and baseball. Do NOT include any basketball stories — basketball has its own dedicated section later.\n"
+
     prompt = f"""You are a professional radio news writer for a morning commute audio brief.
 
-Section: {section}
+Section: {section}{sports_note}
 Today's headlines:
 {chr(10).join(headlines)}
 
