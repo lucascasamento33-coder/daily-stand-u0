@@ -5,7 +5,7 @@ Runs at 7:30am EST via Render cron job.
 6 sections, 18 stories, ~36 min listen.
 """
 
-import os, re, base64, smtplib, datetime, feedparser, requests
+import os, re, base64, smtplib, datetime, feedparser, requests, json
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from anthropic import Anthropic
@@ -56,8 +56,11 @@ FEEDS = {
         ],
     },
     "US Real Estate (NYC Focus)": [
+        "https://www.curbed.com/rss/index.xml",
         "https://therealdeal.com/new-york/feed/",
         "https://www.6sqft.com/feed/",
+        "https://feeds.feedburner.com/StreetsOfNewYork",
+        "https://www.housingwire.com/feed/",
     ],
     "Sports": [
         "https://www.espn.com/espn/rss/soccer/news",
@@ -85,9 +88,11 @@ SECTION_CONFIG = {
 
 # ── FETCH ─────────────────────────────────────────────────────────────────────
 
-def fetch_headlines(urls, count=6):
+def fetch_headlines(urls, count=6, seen_titles=None):
+    """Fetch headlines deduplicating across all feeds. Pass seen_titles to share across calls."""
+    if seen_titles is None:
+        seen_titles = set()
     items = []
-    seen_titles = set()
     for url in urls:
         try:
             feed = feedparser.parse(url)
@@ -95,29 +100,92 @@ def fetch_headlines(urls, count=6):
                 title   = entry.get("title", "").strip()
                 summary = re.sub(r"<[^>]+>", "",
                     entry.get("summary", entry.get("description", ""))).strip()[:400]
-                # Deduplicate by normalized title
                 title_key = re.sub(r"[^a-z0-9]", "", title.lower())[:60]
                 if title and len(title) > 10 and title_key not in seen_titles:
                     seen_titles.add(title_key)
                     items.append(f"- {title}. {summary}")
-            if len(items) >= count:
-                break
+                if len(items) >= count:
+                    break
         except Exception as e:
             print(f"  Feed error {url}: {e}")
+        if len(items) >= count:
+            break
     return items[:count]
+
+
+def fetch_sports_headlines():
+    """Fetch 4 headlines each from soccer, NFL, and MLB so Claude can pick the most impactful."""
+    sports_feeds = {
+        "soccer": [
+            "https://www.espn.com/espn/rss/soccer/news",
+            "https://sports.yahoo.com/soccer/rss/",
+        ],
+        "NFL/football": [
+            "https://www.espn.com/espn/rss/nfl/news",
+            "https://sports.yahoo.com/nfl/rss/",
+        ],
+        "MLB/baseball": [
+            "https://www.espn.com/espn/rss/mlb/news",
+            "https://sports.yahoo.com/mlb/rss/",
+        ],
+    }
+    all_items = []
+    seen_titles = set()
+    for sport, urls in sports_feeds.items():
+        items = fetch_headlines(urls, count=4, seen_titles=seen_titles)
+        print(f"  {sport}: {len(items)} headlines")
+        all_items.extend(items)
+    return all_items
 
 
 # ── SUMMARIZE ─────────────────────────────────────────────────────────────────
 
-def summarize_standard(client, section, headlines):
+def summarize_standard(client, section, headlines, is_monday=False, recent_titles=None):
+    if recent_titles is None: recent_titles = set()
     """3 stories from a flat list of headlines."""
+    re_note = ""
+    if section == "US Real Estate (NYC Focus)":
+        re_note = """
+IMPORTANT — AUDIENCE AND FOCUS FOR THIS SECTION:
+You are writing for a NYC residential real estate OWNER, not an agent or developer.
+COVER: mortgage rate trends and forecasts, rent growth and rental market conditions, neighborhood trends (up-and-coming areas, quality of life changes), property tax or policy changes affecting owners, housing supply/inventory trends, economic factors affecting home values.
+DO NOT COVER: specific individual home sale prices, broker commissions, agent tips, new luxury condo launches, or commercial real estate deals.
+The listener owns property in NYC and wants to understand how the market is moving and what it means for their investment and living situation.
+"""
+
     sports_note = ""
     if section == "Sports":
-        sports_note = "\nIMPORTANT: Focus ONLY on soccer, football (NFL/college), and baseball. Do NOT include any basketball stories — basketball has its own dedicated section later.\n"
+        sports_note = """
+IMPORTANT RULES FOR SPORTS SECTION:
+- Cover soccer, football (NFL/college), and baseball ONLY. No basketball — it has its own section.
+- You have headlines from all three sports. Pick the 3 most NEWSWORTHY and HIGH-IMPACT stories overall.
+- Prioritize: blockbuster trades, major signings, championship results, serious injuries to star players, historic achievements, big upsets.
+- Deprioritize: routine game recaps, minor roster moves, preview fluff.
+- It's fine to have 2 stories from one sport if they're both genuinely big news.
+- If something is a genuine blockbuster (e.g. a massive trade or a historic result), lead with it regardless of sport.
+"""
+
+    monday_note = ""
+    if is_monday:
+        monday_note = """
+IMPORTANT — TODAY IS MONDAY:
+This brief covers THREE days of news: Saturday, Sunday, and Monday morning.
+- Include the most important stories from the weekend (Saturday + Sunday) AND any breaking Monday morning news.
+- Do not limit yourself to just the weekend — if there is significant Monday morning news, include it.
+- Across the 3 stories for this section, aim to balance weekend recap with any fresh Monday news where relevant.
+- Label weekend stories naturally in the text (e.g. "Over the weekend..." or "On Sunday...") and Monday news as current.
+"""
+
+    recent_note = ""
+    if recent_titles:
+        recent_note = f"""
+AVOID DUPLICATE TOPICS: The following story topics have already been covered in recent days. Do NOT write about these topics again unless there is a major NEW development that significantly changes the story:
+{chr(10).join(f"- {t}" for t in list(recent_titles)[:30])}
+"""
 
     prompt = f"""You are a professional radio news writer for a morning commute audio brief.
 
-Section: {section}{sports_note}
+Section: {section}{re_note}{sports_note}{monday_note}{recent_note}
 Today's headlines:
 {chr(10).join(headlines)}
 
@@ -138,11 +206,28 @@ Output only the 3 stories. No extra text."""
     return msg.content[0].text.strip()
 
 
-def summarize_economy(client, us_headlines, world_headlines):
+def summarize_economy(client, us_headlines, world_headlines, is_monday=False, recent_titles=None):
+    if recent_titles is None: recent_titles = set()
     """2 US economy stories + 1 world economy story."""
+    monday_note = ""
+    if is_monday:
+        monday_note = """
+IMPORTANT — TODAY IS MONDAY:
+Cover the most important economic stories from Saturday, Sunday, AND Monday morning.
+Include weekend market moves, policy announcements, or economic news that broke over the weekend, plus any fresh Monday morning economic news.
+Label weekend stories naturally (e.g. "Over the weekend...") and Monday news as current.
+"""
+
+    recent_note_econ = ""
+    if recent_titles:
+        recent_note_econ = f"""
+AVOID DUPLICATE TOPICS: The following story topics have already been covered in recent days. Do NOT repeat them unless there is a major new development:
+{chr(10).join(f"- {t}" for t in list(recent_titles)[:20])}
+"""
+
     prompt = f"""You are a professional radio news writer for a morning commute audio brief.
 
-Section: Economy
+Section: Economy{monday_note}{recent_note_econ}
 
 US Economy headlines:
 {chr(10).join(us_headlines)}
@@ -191,7 +276,7 @@ def esc(s):
     return (s.replace("&","&amp;").replace("<","&lt;").replace(">","&gt;")
              .replace('"',"&quot;").replace("'","&#39;"))
 
-def build_html(sections_data, date_str):
+def build_html(sections_data, date_str, brief_label=None):
     total    = sum(len(v) for v in sections_data.values())
     est_mins = total * 2
 
@@ -284,7 +369,7 @@ body{{background:var(--bg);color:var(--ink);font-family:'Lora',Georgia,serif;pad
   </div>
   <div class="logo">Daily <span>Brief</span></div>
   <div class="hrule"></div>
-  <div class="tagline">Your morning commute companion · {total} stories · ~{est_mins} minutes</div>
+  <div class="tagline">{brief_label or date_str} · {total} stories · ~{est_mins} minutes</div>
 </div>
 <div class="stats">
   <div class="stat"><span class="sv">{total}</span>Stories</div>
@@ -357,6 +442,71 @@ if(syn.onvoiceschanged!==undefined)syn.onvoiceschanged=()=>{{}};
 </html>'''
 
 
+
+# ── CROSS-DAY DEDUPLICATION ───────────────────────────────────────────────────
+
+HISTORY_FILE = "story_history.json"
+MAX_HISTORY_DAYS = 5  # keep titles for this many days to prevent repeats
+
+def load_story_history():
+    """Load previously used story titles from GitHub."""
+    url     = f"https://api.github.com/repos/{GITHUB_USER}/{GITHUB_REPO}/contents/{HISTORY_FILE}"
+    headers = {"Authorization": f"token {GITHUB_TOKEN}", "Accept": "application/vnd.github.v3+json"}
+    r = requests.get(url, headers=headers)
+    if r.status_code == 200:
+        data = r.json()
+        raw  = base64.b64decode(data["content"]).decode("utf-8")
+        return json.loads(raw), data.get("sha")
+    return {}, None
+
+
+def save_story_history(history, sha=None):
+    """Save used story titles back to GitHub."""
+    url     = f"https://api.github.com/repos/{GITHUB_USER}/{GITHUB_REPO}/contents/{HISTORY_FILE}"
+    headers = {"Authorization": f"token {GITHUB_TOKEN}", "Accept": "application/vnd.github.v3+json"}
+    payload = {
+        "message": "Update story history",
+        "content": base64.b64encode(json.dumps(history, indent=2).encode()).decode()
+    }
+    if sha:
+        payload["sha"] = sha
+    requests.put(url, headers=headers, json=payload)
+
+
+def get_recent_titles(history, is_monday=False):
+    """Return a set of normalized titles used in recent days."""
+    today = datetime.date.today()
+    cutoff_days = MAX_HISTORY_DAYS + (2 if is_monday else 0)  # on Monday, also exclude weekend
+    seen = set()
+    for date_key, titles in history.items():
+        try:
+            d = datetime.date.fromisoformat(date_key)
+            if (today - d).days <= cutoff_days:
+                seen.update(titles)
+        except Exception:
+            pass
+    return seen
+
+
+def normalize_title(title):
+    return re.sub(r"[^a-z0-9]", "", title.lower())[:80]
+
+
+def update_history(history, stories_by_section):
+    """Add today's story titles to history, pruning old entries."""
+    today_key = datetime.date.today().isoformat()
+    today_titles = []
+    for stories in stories_by_section.values():
+        for story in stories:
+            today_titles.append(normalize_title(story["title"]))
+    history[today_key] = today_titles
+    # Prune entries older than MAX_HISTORY_DAYS + 3
+    cutoff = datetime.date.today() - datetime.timedelta(days=MAX_HISTORY_DAYS + 3)
+    history = {k: v for k, v in history.items()
+               if datetime.date.fromisoformat(k) >= cutoff}
+    return history
+
+
 # ── PUSH TO GITHUB ────────────────────────────────────────────────────────────
 
 def push_to_github(html, date_str):
@@ -374,14 +524,14 @@ def push_to_github(html, date_str):
 
 # ── SEND EMAIL ────────────────────────────────────────────────────────────────
 
-def send_email(date_str, page_url, total, est_mins):
+def send_email(date_str, page_url, total, est_mins, brief_label=None, is_monday=False):
     body_html = f"""
 <div style="font-family:Georgia,serif;max-width:500px;margin:0 auto;padding:24px;background:#f5f0e8">
   <div style="border-bottom:3px double #1a1410;padding-bottom:16px;margin-bottom:20px;text-align:center">
     <div style="font-family:sans-serif;font-size:48px;font-weight:900;letter-spacing:4px;line-height:1">
       DAILY <span style="color:#c8390a">BRIEF</span>
     </div>
-    <div style="font-size:12px;color:#7a7060;margin-top:6px;font-style:italic">{date_str}</div>
+    <div style="font-size:12px;color:#7a7060;margin-top:6px;font-style:italic">{brief_label or date_str}</div>
   </div>
   <table style="width:100%;border-collapse:collapse;margin-bottom:20px;font-family:sans-serif;font-size:11px;color:#7a7060;text-align:center">
     <tr>
@@ -400,7 +550,8 @@ def send_email(date_str, page_url, total, est_mins):
 </div>"""
 
     msg = MIMEMultipart("alternative")
-    msg["Subject"] = f"☀️ Your Daily Brief is ready — {date_str}"
+    subject = f"📰 Monday Brief (Weekend + Today) — {date_str}" if is_monday else f"☀️ Your Daily Brief is ready — {date_str}"
+    msg["Subject"] = subject
     msg["From"]    = GMAIL_USER
     msg["To"]      = YOUR_EMAIL
     msg.attach(MIMEText(body_html, "html"))
@@ -415,11 +566,24 @@ def send_email(date_str, page_url, total, est_mins):
 def main():
     today    = datetime.date.today()
     date_str = today.strftime("%A, %B %-d, %Y")
+    is_monday = today.weekday() == 0  # Monday = 0
     page_url = f"https://{GITHUB_USER}.github.io/{GITHUB_REPO}/"
-    print(f"\n{'='*50}\nDaily Brief Generator — {date_str}\n{'='*50}\n")
+    if is_monday:
+        sat = (today - datetime.timedelta(days=2)).strftime("%B %-d")
+        sun = (today - datetime.timedelta(days=1)).strftime("%B %-d")
+        brief_label = f"Monday Brief · Weekend + Today · {sat}–{sun} & {today.strftime('%B %-d')}"
+        print(f"\n{'='*50}\nMonday — Weekend Catch-Up Brief — {date_str}\n{'='*50}\n")
+    else:
+        brief_label = date_str
+        print(f"\n{'='*50}\nDaily Brief Generator — {date_str}\n{'='*50}\n")
 
     client = Anthropic(api_key=ANTHROPIC_API_KEY)
     sections_data = {}
+
+    print("Loading story history for deduplication...")
+    history, history_sha = load_story_history()
+    recent_titles = get_recent_titles(history, is_monday=is_monday)
+    print(f"  {len(recent_titles)} recent topic keys loaded")
 
     for section in SECTION_ORDER:
         feed_cfg = FEEDS[section]
@@ -432,14 +596,21 @@ def main():
             if not us_h and not world_h:
                 print("  ⚠ No headlines, skipping.")
                 continue
-            raw = summarize_economy(client, us_h, world_h)
+            raw = summarize_economy(client, us_h, world_h, is_monday=is_monday, recent_titles=recent_titles)
+        elif section == "Sports":
+            headlines = fetch_sports_headlines()
+            print(f"  {len(headlines)} mixed sports headlines → Claude writing 3 stories...")
+            if not headlines:
+                print("  ⚠ No headlines, skipping.")
+                continue
+            raw = summarize_standard(client, section, headlines)
         else:
             headlines = fetch_headlines(feed_cfg, count=6)
             print(f"  {len(headlines)} headlines → Claude writing 3 stories...")
             if not headlines:
                 print("  ⚠ No headlines, skipping.")
                 continue
-            raw = summarize_standard(client, section, headlines)
+            raw = summarize_standard(client, section, headlines, is_monday=is_monday, recent_titles=recent_titles)
 
         stories = parse_stories(raw, section)
         print(f"  ✓ {len(stories)} stories done")
@@ -449,14 +620,19 @@ def main():
     est_mins = total * 2
     print(f"\nTotal: {total} stories (~{est_mins} min)")
 
+    print("Saving story history...")
+    history = update_history(history, sections_data)
+    save_story_history(history, sha=history_sha)
+    print("  ✓ Story history saved")
+
     print("Building HTML...")
-    html = build_html(sections_data, date_str)
+    html = build_html(sections_data, date_str, brief_label=brief_label)
 
     print("Pushing to GitHub Pages...")
     push_to_github(html, date_str)
 
     print("Sending Gmail...")
-    send_email(date_str, page_url, total, est_mins)
+    send_email(date_str, page_url, total, est_mins, brief_label=brief_label, is_monday=is_monday)
 
     print(f"\n✅ Done! {page_url}\n")
 
