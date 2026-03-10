@@ -455,13 +455,13 @@ body{{background:var(--bg);color:var(--ink);font-family:'Lora',Georgia,serif;pad
       <div class="pt" onclick="seek(event)"><div class="pf" id="pf"></div></div>
       <div class="tr"><span id="tc">0:00</span><span id="tt">0:00</span></div>
     </div>
-    <button class="spd" id="sb" onclick="cycleSpd()">1×</button>
+    <button class="spd" id="sb" onclick="cycleSpd()">1.2×</button>
   </div>
 </div>
 <script>
 const cards=Array.from(document.querySelectorAll('.card'));
 const stories=cards.map(c=>({{title:c.querySelector('.stitle').textContent,speech:c.dataset.speech}}));
-let cur=-1,going=false,paused=false,allMode=false,si=1,utt=null,dur=0,el=0,ts=null,tid=null;
+let cur=-1,going=false,paused=false,allMode=false,si=2,utt=null,dur=0,el=0,ts=null,tid=null;
 const spds=[0.85,1,1.2,1.5,1.75],slab=['0.85×','1×','1.2×','1.5×','1.75×'];
 const syn=window.speechSynthesis;
 function gv(){{const v=syn.getVoices();return v.find(x=>x.lang==='en-US'&&(x.name.includes('Samantha')||x.name.includes('Google')))||v.find(x=>x.lang.startsWith('en'))||v[0];}}
