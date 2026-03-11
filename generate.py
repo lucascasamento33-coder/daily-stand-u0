@@ -59,6 +59,8 @@ FEEDS = {
         "https://therealdeal.com/new-york/feed/",
         "https://www.housingwire.com/feed/",
         "https://www.6sqft.com/feed/",
+        "https://therealdeal.com/miami/feed/",
+        "https://therealdeal.com/new-jersey/feed/",
     ],
     "Sports": [],  # built dynamically by fetch_sports_headlines()
     "Basketball (NBA & College)": [
@@ -83,10 +85,12 @@ MAX_HISTORY_DAYS = 5
 
 # ── FETCH ─────────────────────────────────────────────────────────────────────
 
-def fetch_headlines(urls, count=8, seen_titles=None):
-    """Fetch deduplicated headlines from a list of RSS feeds."""
+def fetch_headlines(urls, count=8, seen_titles=None, max_age_hours=40):
+    """Fetch deduplicated headlines, skipping stories older than max_age_hours."""
+    import time, calendar
     if seen_titles is None:
         seen_titles = set()
+    cutoff = time.time() - (max_age_hours * 3600)
     items = []
     for url in urls:
         try:
@@ -96,6 +100,11 @@ def fetch_headlines(urls, count=8, seen_titles=None):
                 summary = re.sub(r"<[^>]+>", "",
                     entry.get("summary", entry.get("description", ""))).strip()[:600]
                 key = re.sub(r"[^a-z0-9]", "", title.lower())[:60]
+                # Skip stories older than max_age_hours if date is available
+                published = entry.get("published_parsed") or entry.get("updated_parsed")
+                if published:
+                    if calendar.timegm(published) < cutoff:
+                        continue
                 if title and len(title) > 10 and key not in seen_titles:
                     seen_titles.add(key)
                     items.append(f"- {title}. {summary}")
@@ -261,9 +270,11 @@ def summarize_standard(client, section, headlines, is_monday=False, recent_title
     if section == "US Real Estate (NYC Focus)":
         extra = """
 REAL ESTATE AUDIENCE NOTE:
-Write for a NYC residential property OWNER — not an agent or developer.
-COVER: mortgage rate trends and forecasts, rent growth, neighborhood trends (up-and-coming areas, quality of life, crime trends), property tax and policy changes affecting owners, housing supply, economic factors affecting home values.
+Write for a residential property OWNER — not an agent or developer.
+PRIMARY FOCUS: NYC (Manhattan, Brooklyn, Queens, Bronx, Staten Island). If there is not enough fresh NYC news, expand to cover Miami or New Jersey real estate markets.
+COVER: mortgage rate trends and forecasts, rent growth, neighborhood trends (up-and-coming areas, quality of life, crime trends), property tax and policy changes affecting owners, housing supply, economic factors affecting home values, regional market comparisons.
 DO NOT COVER: individual home sales, broker tips, luxury condo launches, commercial real estate.
+If covering Miami or NJ, clearly note which market you are discussing.
 """
 
     if section == "Sports":
@@ -455,14 +466,14 @@ body{{background:var(--bg);color:var(--ink);font-family:'Lora',Georgia,serif;pad
       <div class="pt" onclick="seek(event)"><div class="pf" id="pf"></div></div>
       <div class="tr"><span id="tc">0:00</span><span id="tt">0:00</span></div>
     </div>
-    <button class="spd" id="sb" onclick="cycleSpd()">1.2×</button>
+    <button class="spd" id="sb" onclick="cycleSpd()">1.1×</button>
   </div>
 </div>
 <script>
 const cards=Array.from(document.querySelectorAll('.card'));
 const stories=cards.map(c=>({{title:c.querySelector('.stitle').textContent,speech:c.dataset.speech}}));
 let cur=-1,going=false,paused=false,allMode=false,si=2,utt=null,dur=0,el=0,ts=null,tid=null;
-const spds=[0.85,1,1.2,1.5,1.75],slab=['0.85×','1×','1.2×','1.5×','1.75×'];
+const spds=[0.85,1,1.1,1.2,1.5,1.75],slab=['0.85×','1×','1.1×','1.2×','1.5×','1.75×'];
 const syn=window.speechSynthesis;
 function gv(){{const v=syn.getVoices();return v.find(x=>x.lang==='en-US'&&(x.name.includes('Samantha')||x.name.includes('Google')))||v.find(x=>x.lang.startsWith('en'))||v[0];}}
 function fmt(s){{if(!s||isNaN(s))return'0:00';return Math.floor(s/60)+':'+(Math.floor(s%60)+'').padStart(2,'0');}}
