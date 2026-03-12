@@ -23,6 +23,7 @@ SECTION_ORDER = [
     "World News",
     "US News",
     "Economy",
+    "US Stocks",
     "US Real Estate (NYC Focus)",
     "Sports",
     "Basketball (NBA & College)",
@@ -62,6 +63,18 @@ FEEDS = {
         "https://therealdeal.com/miami/feed/",
         "https://therealdeal.com/new-jersey/feed/",
     ],
+    "US Stocks": [
+        "https://feeds.marketwatch.com/marketwatch/topstories/",
+        "https://feeds.reuters.com/reuters/businessNews",
+        "https://rss.nytimes.com/services/xml/rss/nyt/Markets.xml",
+        "https://feeds.finance.yahoo.com/rss/2.0/headline?s=^GSPC&region=US&lang=en-US",
+    ],
+    "US Stocks": [
+        "https://feeds.marketwatch.com/marketwatch/topstories/",
+        "https://feeds.reuters.com/reuters/businessNews",
+        "https://rss.nytimes.com/services/xml/rss/nyt/Markets.xml",
+        "https://feeds.finance.yahoo.com/rss/2.0/headline?s=^GSPC&region=US&lang=en-US",
+    ],
     "Sports": [],  # built dynamically by fetch_sports_headlines()
     "Basketball (NBA & College)": [
         "https://www.espn.com/espn/rss/nba/news",
@@ -75,6 +88,8 @@ SECTION_CONFIG = {
     "US News":                    {"color": "#1a5c8a", "tag": "US"},
     "Economy":                    {"color": "#1a6a5a", "tag": "ECONOMY"},
     "US Real Estate (NYC Focus)": {"color": "#2a7a3a", "tag": "RE · NYC"},
+    "US Stocks":                  {"color": "#1a4a8a", "tag": "STOCKS"},
+    "US Stocks":                  {"color": "#1a4a8a", "tag": "STOCKS"},
     "Sports":                     {"color": "#8a4a1a", "tag": "SPORTS"},
     "Basketball (NBA & College)": {"color": "#6a2a8a", "tag": "BBALL"},
 }
@@ -214,10 +229,14 @@ ACCURACY RULES — CRITICAL:
 """
 
 STORY_LENGTH_NOTE = """
-STORY LENGTH — IMPORTANT:
-Each story should be 8-10 sentences long. This is an audio brief for a 30+ minute commute. 
-Give full context: who, what, when, where, why it matters, what happens next. 
-Do not write a short paragraph. Write a full, substantive radio segment.
+STORY LENGTH AND TONE — IMPORTANT:
+Each story should be 8-10 sentences long. This is an audio brief for a commute — write for the ear, not the eye.
+- SOUND HUMAN: Use contractions (it's, there's, we're, that's). Vary sentence length — mix short punchy sentences with longer ones.
+- LEAD STRONG: Open with the most compelling angle, not a dry summary of facts.
+- ACTIVE VOICE: "The Fed raised rates" not "Rates were raised by the Fed."
+- SIGNPOST: Use natural transitions like "Here's why this matters...", "What makes this significant...", "The bottom line..."
+- CONVERSATIONAL: Write how a confident, well-informed radio anchor actually speaks — not how a press release reads.
+- Give full context: who, what, when, where, why it matters, what happens next.
 """
 
 BALANCE_NOTE = """
@@ -234,7 +253,19 @@ Every story involving politics, policy, government, or social issues MUST be rep
 """
 
 
-def build_prompt(section, headlines, is_monday=False, recent_titles=None, extra_note=""):
+# Stories per section
+SECTION_STORY_COUNTS = {
+    "World News": 3,
+    "US News": 3,
+    "Economy": 3,
+    "US Stocks": 2,
+    "US Real Estate (NYC Focus)": 2,
+    "Sports": 2,
+    "Basketball (NBA & College)": 3,
+}
+
+def build_prompt(section, headlines, is_monday=False, recent_titles=None, extra_note="", n_stories=3):
+    n = SECTION_STORY_COUNTS.get(section, 3)
     monday_note = ""
     if is_monday:
         monday_note = """
@@ -273,21 +304,21 @@ Today's headlines and summaries:
 
 STEP 1 — RANK BY IMPORTANCE: Before writing anything, mentally rank all headlines by newsworthiness. Trades, signings, injuries to stars, championship outcomes, historic milestones, and major policy changes rank highest. Routine game recaps, minor roster moves, and repeated topics rank lowest.
 STEP 2 — ELIMINATE REPEATS: Cross off any story that matches a topic already covered recently (listed above).
-STEP 3 — WRITE THE TOP 3: Write the 3 highest-ranked, non-repeated stories.
+STEP 3 — WRITE THE TOP {n}: Write the {n} highest-ranked, non-repeated stories.
 
 Format each story like this:
 
 ###
 TITLE: The story title
-The full story — 8 to 10 sentences. Conversational audio tone, like a confident radio anchor. 
-Give context, key details, numbers, names, and why it matters. No filler phrases.
+The full story — 8 to 10 sentences. Conversational audio tone, like a real radio news anchor — not a robot. Use contractions (it's, there's, we're), vary your sentence length, lead with a compelling hook, use active voice, and signpost why it matters to the listener. Write how a confident human anchor actually speaks.
 ###
 
-Output only the 3 stories in this format. No preamble, no extra text."""
+Output only the {n} stories in this format. No preamble, no extra text."""
 
 
 def summarize_standard(client, section, headlines, is_monday=False, recent_titles=None):
     extra = ""
+    n_stories = SECTION_STORY_COUNTS.get(section, 3)
 
     if section == "US Real Estate (NYC Focus)":
         extra = """
@@ -299,12 +330,21 @@ DO NOT COVER: individual home sales, broker tips, luxury condo launches, commerc
 If covering Miami or NJ, clearly note which market you are discussing.
 """
 
+    if section == "US Stocks":
+        extra = """
+US STOCKS SECTION RULES:
+- Cover US stock market news ONLY.
+- COVER: Major index moves (S&P 500, Dow, Nasdaq), significant earnings results, big individual stock surges or crashes, sector-wide moves, analyst upgrades/downgrades with major impact, IPOs, Fed decisions as they affect markets.
+- DO NOT COVER: general macro economy, inflation, jobs data — those belong in the Economy section.
+- Always give context: what moved, by how much, and why it matters to an investor.
+"""
+
     if section == "Sports":
         extra = """
 SPORTS SECTION RULES:
 - Cover soccer, NFL/football, and baseball ONLY. No basketball — it has its own section.
-- Pick the 3 most impactful stories from across all sports. A blockbuster trade trumps a routine game recap regardless of sport.
-- It is fine to have 2 stories from one sport if they are genuinely more important.
+- Pick the 2 most impactful stories from across all sports. A blockbuster trade trumps a routine game recap regardless of sport.
+- It is fine to have both stories from one sport if they are genuinely more important.
 - Prioritize: trades, signings, injuries to stars, championship results, historic milestones, major upsets.
 """
 
@@ -318,8 +358,17 @@ BASKETBALL SECTION RULES:
 - Do not describe a player's experience level unless explicitly stated in the source material.
 """
 
+    if section == "US Stocks":
+        extra = """
+US STOCKS SECTION RULES:
+- Cover US stock market performance only. Do NOT cover general macro economy — that is in the Economy section.
+- COVER: Major index moves (S&P 500, Dow, Nasdaq) with specific numbers, big earnings beats/misses, major individual stock surges or crashes, sector-wide moves, Fed decisions that moved markets.
+- Always include specific numbers: index levels, percentage moves, price changes.
+- Explain what the moves mean for ordinary investors.
+"""
+
     prompt = build_prompt(section, headlines, is_monday=is_monday,
-                          recent_titles=recent_titles, extra_note=extra)
+                          recent_titles=recent_titles, extra_note=extra, n_stories=n_stories)
 
     msg = client.messages.create(
         model="claude-sonnet-4-20250514",
@@ -332,15 +381,16 @@ BASKETBALL SECTION RULES:
 def summarize_economy(client, us_headlines, world_headlines, is_monday=False, recent_titles=None):
     extra = """
 ECONOMY SECTION RULES:
-- Story 1: US economy
-- Story 2: US economy  
-- Story 3: World economy
-- Include specific numbers: market levels, percentage moves, rate changes, GDP figures.
+- Story 1: US macro economy (Fed policy, jobs, inflation, GDP, consumer spending)
+- Story 2: US macro economy (second most important US economic story)
+- Story 3: World economy (international markets, trade, foreign economies)
+- Include specific numbers: rate changes, GDP figures, jobs numbers, inflation percentages.
 - Explain what the data means for ordinary people, not just markets.
+- Do NOT cover stock market performance or individual stocks — that is covered in the Stocks section.
 """
     all_headlines = us_headlines + ["--- WORLD ECONOMY ---"] + world_headlines
     prompt = build_prompt("Economy", all_headlines, is_monday=is_monday,
-                          recent_titles=recent_titles, extra_note=extra)
+                          recent_titles=recent_titles, extra_note=extra, n_stories=3)
 
     msg = client.messages.create(
         model="claude-sonnet-4-20250514",
@@ -351,6 +401,7 @@ ECONOMY SECTION RULES:
 
 
 def parse_stories(raw, section):
+    n = SECTION_STORY_COUNTS.get(section, 3)
     stories = []
     blocks = re.findall(r"###\s*(.*?)\s*###", raw, re.DOTALL)
     for block in blocks:
@@ -360,7 +411,7 @@ def parse_stories(raw, section):
         body  = re.sub(r"TITLE:.+\n?", "", block).strip()
         if body:
             stories.append({"title": title, "body": body})
-    return stories[:3]
+    return stories[:n]
 
 
 # ── BUILD HTML ────────────────────────────────────────────────────────────────
@@ -371,7 +422,7 @@ def esc(s):
 
 def build_html(sections_data, date_str, brief_label=None):
     total    = sum(len(v) for v in sections_data.values())
-    est_mins = total * 3  # ~3 min per story at full length
+    est_mins = round(total * 2.5 / 1.1)  # ~2.5 min per story at 1.1x speed
 
     cards_html = ""
     idx = 0
@@ -466,7 +517,7 @@ body{{background:var(--bg);color:var(--ink);font-family:'Lora',Georgia,serif;pad
 </div>
 <div class="stats">
   <div class="stat"><span class="sv">{total}</span>Stories</div>
-  <div class="stat"><span class="sv">6</span>Sections</div>
+  <div class="stat"><span class="sv">7</span>Sections</div>
   <div class="stat"><span class="sv">~{est_mins}m</span>Drive</div>
 </div>
 <div class="pa-wrap">
@@ -498,7 +549,12 @@ const stories=cards.map(c=>({{title:c.querySelector('.stitle').textContent,speec
 let cur=-1,going=false,paused=false,allMode=false,si=2,utt=null,dur=0,el=0,ts=null,tid=null;
 const spds=[0.85,1,1.1,1.2,1.5,1.75],slab=['0.85×','1×','1.1×','1.2×','1.5×','1.75×'];
 const syn=window.speechSynthesis;
-function gv(){{const v=syn.getVoices();return v.find(x=>x.lang==='en-US'&&(x.name.includes('Samantha')||x.name.includes('Google')))||v.find(x=>x.lang.startsWith('en'))||v[0];}}
+function gv(){{
+  const v=syn.getVoices();
+  const preferred=['Samantha','Karen','Daniel','Google US English','Google UK English Female','Microsoft Zira','Microsoft Mark','Moira','Tessa'];
+  for(const name of preferred){{const f=v.find(x=>x.name.includes(name)&&x.lang.startsWith('en'));if(f)return f;}}
+  return v.find(x=>x.lang==='en-US')||v.find(x=>x.lang.startsWith('en'))||v[0];
+}}
 function fmt(s){{if(!s||isNaN(s))return'0:00';return Math.floor(s/60)+':'+(Math.floor(s%60)+'').padStart(2,'0');}}
 function tick(){{if(!ts)return;el=(Date.now()-ts)/1000;document.getElementById('pf').style.width=Math.min(el/dur*100,100)+'%';document.getElementById('tc').textContent=fmt(el);}}
 function setActive(i){{cards.forEach(c=>c.classList.remove('active'));if(i>=0){{cards[i].classList.add('active');cards[i].scrollIntoView({{behavior:'smooth',block:'center'}});}}}}
@@ -509,7 +565,7 @@ function playStory(i,auto=false){{
   document.getElementById('nt').textContent=s.title;
   setActive(i);
   utt=new SpeechSynthesisUtterance(s.speech);
-  utt.rate=spds[si];utt.pitch=1;utt.volume=1;
+  utt.rate=spds[si];utt.pitch=1.05;utt.volume=1;
   const v=gv();if(v)utt.voice=v;
   dur=s.speech.split(' ').length/(150*spds[si])*60;
   document.getElementById('tt').textContent=fmt(dur);
@@ -649,7 +705,7 @@ def main():
         sections_data[section] = stories
 
     total    = sum(len(v) for v in sections_data.values())
-    est_mins = total * 3
+    est_mins = round(total * 2.5 / 1.1)
     print(f"\nTotal: {total} stories (~{est_mins} min)")
 
     print("\nSaving story history...")
