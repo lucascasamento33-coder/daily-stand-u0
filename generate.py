@@ -202,6 +202,7 @@ Only cover stories that genuinely matter. Apply this standard before picking any
 - COVER: Major geopolitical events, significant policy changes, large economic moves, serious crimes or disasters with wide impact, major sports milestones, blockbuster trades, championship results, election outcomes, notable deaths of public figures.
 - DO NOT COVER: Soft features, lifestyle stories, things blooming or growing somewhere, minor local events with no broader significance, celebrity gossip, weather unless catastrophic, anything a well-informed person would consider trivial.
 - If a story wouldn't make the front page of a serious newspaper, skip it.
+- VARIETY RULE: Each of the 3 stories must cover a distinctly different topic, event, or subject. No two stories should overlap in subject matter.
 """
 
 ACCURACY_NOTE = """
@@ -219,6 +220,19 @@ Give full context: who, what, when, where, why it matters, what happens next.
 Do not write a short paragraph. Write a full, substantive radio segment.
 """
 
+BALANCE_NOTE = """
+POLITICAL BALANCE — MANDATORY:
+Every story involving politics, policy, government, or social issues MUST be reported with strict neutrality.
+- Present facts only. Do not editorialize, imply approval or disapproval, or use loaded language.
+- If a policy or decision is controversial, briefly note that it has supporters and critics without favoring either side.
+- Do not characterize politicians, parties, or movements positively or negatively beyond what the source material states as fact.
+- Use neutral verbs: "said", "announced", "signed", "proposed" — not "claimed", "admitted", "pushed through", "slammed".
+- If a story only has one political perspective in the source material, present it as such without amplifying it.
+- This applies equally regardless of political party, ideology, or country.
+- Do not select stories because they reflect well or poorly on any political figure or party. Select purely on newsworthiness.
+- Do not use adjectives that imply a value judgment about a politician or policy (e.g. "controversial", "radical", "extreme", "sensible", "landmark") unless directly quoted from a neutral source.
+"""
+
 
 def build_prompt(section, headlines, is_monday=False, recent_titles=None, extra_note=""):
     monday_note = ""
@@ -234,8 +248,11 @@ Do not skip major Monday morning news just because it's also a weekend recap bri
     if recent_titles:
         titles_list = "\n".join(f"- {t}" for t in recent_titles[:25])
         recent_note = f"""
-AVOID REPEAT STORIES:
-The following stories have already been covered in recent days. Do NOT cover the same topic again unless something major and NEW has happened that significantly changes or advances the story:
+AVOID REPEAT STORIES — CRITICAL:
+The following stories were already covered in recent days. DO NOT cover the same topic, player, team, or event again — even if the headline is worded differently.
+Ask yourself: "Is this essentially the same story?" If yes, skip it entirely.
+Only cover a previously-covered topic if something genuinely NEW and significant has changed (e.g. a trade was completed vs. just rumored, a player returned vs. was injured).
+Recent stories to avoid repeating:
 {titles_list}
 """
 
@@ -246,6 +263,7 @@ Section: {section}
 {IMPACT_NOTE}
 {ACCURACY_NOTE}
 {STORY_LENGTH_NOTE}
+{BALANCE_NOTE}
 {extra_note}
 {monday_note}
 {recent_note}
@@ -253,7 +271,11 @@ Section: {section}
 Today's headlines and summaries:
 {chr(10).join(headlines)}
 
-Write exactly 3 news stories. Format each one like this:
+STEP 1 — RANK BY IMPORTANCE: Before writing anything, mentally rank all headlines by newsworthiness. Trades, signings, injuries to stars, championship outcomes, historic milestones, and major policy changes rank highest. Routine game recaps, minor roster moves, and repeated topics rank lowest.
+STEP 2 — ELIMINATE REPEATS: Cross off any story that matches a topic already covered recently (listed above).
+STEP 3 — WRITE THE TOP 3: Write the 3 highest-ranked, non-repeated stories.
+
+Format each story like this:
 
 ###
 TITLE: The story title
@@ -290,7 +312,8 @@ SPORTS SECTION RULES:
         extra = """
 BASKETBALL SECTION RULES:
 - Cover NBA and college basketball.
-- Prioritize: trades, major injuries, MVP race developments, playoff implications, historic performances, upsets.
+- RANK stories in this order of importance: trades/signings, major injuries to star players, MVP race shifts, playoff standings changes, historic individual performances, major upsets. Routine game recaps are lowest priority.
+- If a routine game recap is the only option for a story, skip it and find a more impactful angle.
 - When a record is mentioned, state exactly what the record is and provide full context.
 - Do not describe a player's experience level unless explicitly stated in the source material.
 """
