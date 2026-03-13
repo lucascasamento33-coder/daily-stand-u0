@@ -12,6 +12,7 @@ from anthropic import Anthropic
 
 # ── ENV VARS ──────────────────────────────────────────────────────────────────
 ANTHROPIC_API_KEY = os.environ["ANTHROPIC_API_KEY"]
+OPENAI_API_KEY    = os.environ["OPENAI_API_KEY"]
 GITHUB_TOKEN      = os.environ["GITHUB_TOKEN"]
 GITHUB_USER       = os.environ["GITHUB_USER"]
 GITHUB_REPO       = os.environ["GITHUB_REPO"]
@@ -69,12 +70,6 @@ FEEDS = {
         "https://rss.nytimes.com/services/xml/rss/nyt/Markets.xml",
         "https://feeds.finance.yahoo.com/rss/2.0/headline?s=^GSPC&region=US&lang=en-US",
     ],
-    "US Stocks": [
-        "https://feeds.marketwatch.com/marketwatch/topstories/",
-        "https://feeds.reuters.com/reuters/businessNews",
-        "https://rss.nytimes.com/services/xml/rss/nyt/Markets.xml",
-        "https://feeds.finance.yahoo.com/rss/2.0/headline?s=^GSPC&region=US&lang=en-US",
-    ],
     "Sports": [],  # built dynamically by fetch_sports_headlines()
     "Basketball (NBA & College)": [
         "https://www.espn.com/espn/rss/nba/news",
@@ -88,7 +83,6 @@ SECTION_CONFIG = {
     "US News":                    {"color": "#1a5c8a", "tag": "US"},
     "Economy":                    {"color": "#1a6a5a", "tag": "ECONOMY"},
     "US Real Estate (NYC Focus)": {"color": "#2a7a3a", "tag": "RE · NYC"},
-    "US Stocks":                  {"color": "#1a4a8a", "tag": "STOCKS"},
     "US Stocks":                  {"color": "#1a4a8a", "tag": "STOCKS"},
     "Sports":                     {"color": "#8a4a1a", "tag": "SPORTS"},
     "Basketball (NBA & College)": {"color": "#6a2a8a", "tag": "BBALL"},
@@ -606,9 +600,95 @@ def push_to_github(html, date_str):
     print(f"✓ Pushed to GitHub ({r.status_code})")
 
 
+
+# ── GENERATE AUDIO ────────────────────────────────────────────────────────────
+
+def generate_audio(sections_data, date_str, brief_label=None):
+    """Generate a single MP3 of the full brief using OpenAI TTS, push to GitHub."""
+    print("Generating audio via OpenAI TTS...")
+    import io
+
+    # Build full script with section announcements
+    script_parts = []
+    lbl = brief_label or date_str
+    script_parts.append(f"Your Daily Brief. {lbl}.")
+
+    for section in SECTION_ORDER:
+        stories = sections_data.get(section, [])
+        if not stories:
+            continue
+        script_parts.append(f"Section: {section}.")
+        for story in stories:
+            script_parts.append(f"{story['title']}. {story['body']}")
+            script_parts.append("Next story.")
+        script_parts.append(f"That's all for {section}.")
+
+    script_parts.append("That's your Daily Brief. Have a great day.")
+    full_script = " ".join(script_parts)
+
+    # Split into chunks of ~4000 chars (OpenAI TTS limit is 4096)
+    chunks = []
+    words = full_script.split()
+    current = []
+    current_len = 0
+    for word in words:
+        if current_len + len(word) + 1 > 3800:
+            chunks.append(" ".join(current))
+            current = [word]
+            current_len = len(word)
+        else:
+            current.append(word)
+            current_len += len(word) + 1
+    if current:
+        chunks.append(" ".join(current))
+
+    print(f"  {len(chunks)} audio chunks to generate")
+
+    # Call OpenAI TTS for each chunk
+    audio_parts = []
+    headers = {
+        "Authorization": f"Bearer {OPENAI_API_KEY}",
+        "Content-Type": "application/json"
+    }
+    for i, chunk in enumerate(chunks):
+        print(f"  Chunk {i+1}/{len(chunks)}...")
+        r = requests.post(
+            "https://api.openai.com/v1/audio/speech",
+            headers=headers,
+            json={
+                "model": "tts-1",
+                "input": chunk,
+                "voice": "alloy",
+                "speed": 1.1
+            }
+        )
+        r.raise_for_status()
+        audio_parts.append(r.content)
+
+    # Concatenate all MP3 chunks (simple binary concat works for MP3)
+    full_audio = b"".join(audio_parts)
+    print(f"  ✓ Audio generated ({len(full_audio)//1024}KB)")
+
+    # Push MP3 to GitHub
+    url     = f"https://api.github.com/repos/{GITHUB_USER}/{GITHUB_REPO}/contents/brief.mp3"
+    gh_headers = {"Authorization": f"token {GITHUB_TOKEN}", "Accept": "application/vnd.github.v3+json"}
+    r = requests.get(url, headers=gh_headers)
+    sha = r.json().get("sha") if r.status_code == 200 else None
+    payload = {
+        "message": f"Audio Brief: {date_str}",
+        "content": base64.b64encode(full_audio).decode()
+    }
+    if sha:
+        payload["sha"] = sha
+    r = requests.put(url, headers=gh_headers, json=payload)
+    r.raise_for_status()
+    audio_url = f"https://{GITHUB_USER}.github.io/{GITHUB_REPO}/brief.mp3"
+    print(f"  ✓ Audio pushed to GitHub")
+    return audio_url
+
 # ── SEND EMAIL ────────────────────────────────────────────────────────────────
 
-def send_email(date_str, page_url, total, est_mins, brief_label=None, is_monday=False):
+def send_email(date_str, page_url, audio_url, total, est_mins, brief_label=None, is_monday=False):
     body_html = f"""
 <div style="font-family:Georgia,serif;max-width:500px;margin:0 auto;padding:24px;background:#f5f0e8">
   <div style="border-bottom:3px double #1a1410;padding-bottom:16px;margin-bottom:20px;text-align:center">
@@ -624,12 +704,15 @@ def send_email(date_str, page_url, total, est_mins, brief_label=None, is_monday=
       <td style="padding:8px"><strong style="font-size:20px;color:#1a1410;display:block">~{est_mins}m</strong>Drive</td>
     </tr>
   </table>
-  <a href="{page_url}" style="display:block;background:#1a1410;color:white;text-align:center;padding:18px;font-size:20px;text-decoration:none;letter-spacing:3px;font-family:sans-serif;font-weight:700;margin-bottom:16px">
-    ▶&nbsp; OPEN &amp; PLAY
+  <a href="{audio_url}" style="display:block;background:#c8390a;color:white;text-align:center;padding:18px;font-size:20px;text-decoration:none;letter-spacing:3px;font-family:sans-serif;font-weight:700;margin-bottom:10px">
+    ▶&nbsp; PLAY AUDIO (MP3)
+  </a>
+  <a href="{page_url}" style="display:block;background:#1a1410;color:white;text-align:center;padding:14px;font-size:14px;text-decoration:none;letter-spacing:2px;font-family:sans-serif;font-weight:700;margin-bottom:16px">
+    OPEN WEB VERSION
   </a>
   <div style="font-size:11px;color:#c8c0b0;text-align:center;line-height:1.8;font-family:sans-serif">
-    World · US · Economy · Real Estate · Sports · Basketball<br>
-    Connect Bluetooth · Tap Play All · Drive
+    World · US · Economy · Stocks · Real Estate · Sports · Basketball<br>
+    Tap Play Audio → connects to Bluetooth automatically
   </div>
 </div>"""
 
@@ -719,8 +802,11 @@ def main():
     print("Pushing to GitHub Pages...")
     push_to_github(html, date_str)
 
+    print("Generating audio...")
+    audio_url = generate_audio(sections_data, date_str, brief_label=brief_label)
+
     print("Sending email...")
-    send_email(date_str, page_url, total, est_mins,
+    send_email(date_str, page_url, audio_url, total, est_mins,
                brief_label=brief_label, is_monday=is_monday)
 
     print(f"\n✅ Done! {page_url}\n")
