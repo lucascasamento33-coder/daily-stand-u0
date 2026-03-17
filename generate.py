@@ -94,6 +94,53 @@ MAX_HISTORY_DAYS = 5
 
 # ── FETCH ─────────────────────────────────────────────────────────────────────
 
+def fetch_nyc_weather():
+    """Fetch current NYC weather from wttr.in and return a natural spoken intro."""
+    try:
+        r = requests.get(
+            "https://wttr.in/New+York+City?format=j1",
+            timeout=10,
+            headers={"User-Agent": "DailyBriefBot/1.0"}
+        )
+        r.raise_for_status()
+        data = r.json()
+        current = data["current_condition"][0]
+        weather_desc = current["weatherDesc"][0]["value"]
+        temp_f       = current["temp_F"]
+        feels_like_f = current["FeelsLikeF"]
+        humidity     = current["humidity"]
+
+        # Today's high/low from first forecast day
+        today_fc  = data["weather"][0]
+        high_f    = today_fc["maxtempF"]
+        low_f     = today_fc["mintempF"]
+
+        # Hourly chance of rain — take max across daylight hours
+        hourly = today_fc.get("hourly", [])
+        rain_chances = [int(h.get("chanceofrain", 0)) for h in hourly]
+        max_rain = max(rain_chances) if rain_chances else 0
+
+        rain_note = ""
+        if max_rain >= 60:
+            rain_note = " Bring an umbrella — there's a good chance of rain today."
+        elif max_rain >= 30:
+            rain_note = " There's a slight chance of rain, so keep that in mind."
+
+        script = (
+            f"Good morning. Here's your New York City weather. "
+            f"It's currently {temp_f} degrees and {weather_desc.lower()}, "
+            f"feeling like {feels_like_f}. "
+            f"Today's high will be {high_f}, with a low of {low_f}."
+            f"{rain_note} "
+            f"Now, here's what's happening in the world."
+        )
+        print(f"  ✓ NYC weather fetched ({temp_f}°F, {weather_desc})")
+        return script
+    except Exception as e:
+        print(f"  ⚠ Weather fetch failed: {e}")
+        return "Good morning. Let's get into today's news."
+
+
 def fetch_headlines(urls, count=8, seen_titles=None, max_age_hours=40):
     """Fetch deduplicated headlines, skipping stories older than max_age_hours."""
     import time, calendar
@@ -228,9 +275,10 @@ Each story should be 8-10 sentences long. This is an audio brief for a commute �
 - SOUND HUMAN: Use contractions (it's, there's, we're, that's). Vary sentence length — mix short punchy sentences with longer ones.
 - LEAD STRONG: Open with the most compelling angle, not a dry summary of facts.
 - ACTIVE VOICE: "The Fed raised rates" not "Rates were raised by the Fed."
-- SIGNPOST: Use natural transitions like "Here's why this matters...", "What makes this significant...", "The bottom line..."
+- SIGNPOST: Use a variety of natural transitions — but NEVER repeat the same phrase across stories. Do not use "Here's why this matters", "What makes this significant", "The bottom line", or "worth noting" more than once across the entire brief. Find fresh, specific angles for each story.
 - CONVERSATIONAL: Write how a confident, well-informed radio anchor actually speaks — not how a press release reads.
 - Give full context: who, what, when, where, why it matters, what happens next.
+- NO CATCHLINES: Do not reuse opening structures. Each story must start differently — no two stories can open with the same construction (e.g., do not start multiple stories with "It's official", "A major development", "For the first time").
 """
 
 BALANCE_NOTE = """
@@ -608,22 +656,19 @@ def generate_audio(sections_data, date_str, brief_label=None):
     print("Generating audio via OpenAI TTS...")
     import io
 
-    # Build full script with section announcements
+    # Build full script — weather intro then stories flow without section announcements
     script_parts = []
-    lbl = brief_label or date_str
-    script_parts.append(f"Your Daily Brief. {lbl}.")
+    weather_intro = fetch_nyc_weather()
+    script_parts.append(weather_intro)
 
     for section in SECTION_ORDER:
         stories = sections_data.get(section, [])
         if not stories:
             continue
-        script_parts.append(f"Section: {section}.")
         for story in stories:
             script_parts.append(f"{story['title']}. {story['body']}")
-            script_parts.append("Next story.")
-        script_parts.append(f"That's all for {section}.")
 
-    script_parts.append("That's your Daily Brief. Have a great day.")
+    script_parts.append("That's a wrap on today's brief.")
     full_script = " ".join(script_parts)
 
     # Split into chunks of ~4000 chars (OpenAI TTS limit is 4096)
@@ -786,6 +831,42 @@ def main():
         stories = parse_stories(raw, section)
         print(f"  ✓ {len(stories)} stories written")
         sections_data[section] = stories
+
+    # ── CROSS-SECTION BODY DEDUP ──────────────────────────────────────────────
+    def body_tokens(text):
+        stopwords = {"the","a","an","in","on","at","of","to","and","or","but",
+                     "is","are","was","were","it","its","this","that","for",
+                     "with","as","by","from","has","have","had","he","she",
+                     "they","their","be","been","will","would","said","also"}
+        words = re.findall(r"[a-z]+", text.lower())
+        return set(w for w in words if w not in stopwords and len(w) > 3)
+
+    all_stories_flat = []
+    for section in SECTION_ORDER:
+        for idx, story in enumerate(sections_data.get(section, [])):
+            tokens = body_tokens(story["title"] + " " + story["body"])
+            all_stories_flat.append((section, idx, tokens))
+
+    to_drop = {}
+    for i in range(len(all_stories_flat)):
+        sec_i, idx_i, tok_i = all_stories_flat[i]
+        if not tok_i:
+            continue
+        for j in range(i + 1, len(all_stories_flat)):
+            sec_j, idx_j, tok_j = all_stories_flat[j]
+            if not tok_j:
+                continue
+            overlap = len(tok_i & tok_j) / min(len(tok_i), len(tok_j))
+            if overlap >= 0.55:
+                print(f"  ⚠ Overlap ({overlap:.0%}) — dropping [{sec_j}] story {idx_j+1} "
+                      f"(similar to [{sec_i}] story {idx_i+1})")
+                to_drop.setdefault(sec_j, set()).add(idx_j)
+
+    for section, drop_indices in to_drop.items():
+        sections_data[section] = [
+            s for i, s in enumerate(sections_data[section])
+            if i not in drop_indices
+        ]
 
     total    = sum(len(v) for v in sections_data.values())
     est_mins = round(total * 2.5 / 1.1)
