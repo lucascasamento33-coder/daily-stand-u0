@@ -31,12 +31,28 @@ SECTION_ORDER = [
 ]
 
 FEEDS = {
-    "World News": [
-        "https://feeds.bbci.co.uk/news/world/rss.xml",
-        "https://feeds.reuters.com/reuters/worldNews",
-        "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
-        "https://www.aljazeera.com/xml/rss/all.xml",
-    ],
+    "World News": {
+        "latin_america": [
+            "https://feeds.reuters.com/reuters/worldNews",
+            "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+            "https://feeds.bbci.co.uk/news/world/rss.xml",
+        ],
+        "europe": [
+            "https://feeds.reuters.com/reuters/worldNews",
+            "https://feeds.bbci.co.uk/news/world/rss.xml",
+            "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+        ],
+        "asia": [
+            "https://feeds.reuters.com/reuters/worldNews",
+            "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+            "https://feeds.bbci.co.uk/news/world/rss.xml",
+        ],
+        "middle_east": [
+            "https://www.aljazeera.com/xml/rss/all.xml",
+            "https://feeds.reuters.com/reuters/worldNews",
+            "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+        ],
+    },
     "US News": [
         "https://rss.nytimes.com/services/xml/rss/nyt/US.xml",
         "https://feeds.reuters.com/reuters/domesticNews",
@@ -89,7 +105,7 @@ SECTION_CONFIG = {
 }
 
 HISTORY_FILE     = "story_history.json"
-MAX_HISTORY_DAYS = 5
+MAX_HISTORY_DAYS = 7
 
 
 # ── FETCH ─────────────────────────────────────────────────────────────────────
@@ -258,7 +274,9 @@ Only cover stories that genuinely matter. Apply this standard before picking any
 - COVER: Major geopolitical events, significant policy changes, large economic moves, serious crimes or disasters with wide impact, major sports milestones, blockbuster trades, championship results, election outcomes, notable deaths of public figures.
 - DO NOT COVER: Soft features, lifestyle stories, things blooming or growing somewhere, minor local events with no broader significance, celebrity gossip, weather unless catastrophic, anything a well-informed person would consider trivial.
 - If a story wouldn't make the front page of a serious newspaper, skip it.
-- VARIETY RULE: Each of the 3 stories must cover a distinctly different topic, event, or subject. No two stories should overlap in subject matter.
+- VARIETY RULE: Every story in this section MUST cover a completely different topic, event, entity, and subject. No two stories can share the same person, team, company, country, or event — even from different angles.
+- SELF-CHECK — MANDATORY: After drafting all stories, re-read them together. If any two stories are about the same underlying event or subject, discard the weaker one and replace it with something entirely different before submitting output.
+- NO-REPEAT ACROSS DAYS: The recent story list below reflects the last 7 days. Do not revisit any topic, person, team, or event that appeared recently unless something fundamentally new has happened (e.g. a verdict was reached, a deal was signed, a conflict escalated significantly).
 """
 
 ACCURACY_NOTE = """
@@ -275,10 +293,10 @@ Each story should be 8-10 sentences long. This is an audio brief for a commute �
 - SOUND HUMAN: Use contractions (it's, there's, we're, that's). Vary sentence length — mix short punchy sentences with longer ones.
 - LEAD STRONG: Open with the most compelling angle, not a dry summary of facts.
 - ACTIVE VOICE: "The Fed raised rates" not "Rates were raised by the Fed."
-- SIGNPOST: Use a variety of natural transitions — but NEVER repeat the same phrase across stories. Do not use "Here's why this matters", "What makes this significant", "The bottom line", or "worth noting" more than once across the entire brief. Find fresh, specific angles for each story.
+- SIGNPOST: Use a variety of natural transitions — but NEVER repeat the same signpost phrase across stories in this section or across the entire brief. Banned overused phrases: "Here's why this matters", "What makes this significant", "The bottom line", "worth noting", "make no mistake", "at the end of the day". Find a fresh, specific angle for every story.
 - CONVERSATIONAL: Write how a confident, well-informed radio anchor actually speaks — not how a press release reads.
 - Give full context: who, what, when, where, why it matters, what happens next.
-- NO CATCHLINES: Do not reuse opening structures. Each story must start differently — no two stories can open with the same construction (e.g., do not start multiple stories with "It's official", "A major development", "For the first time").
+- NO CATCHLINES OR REPEATED OPENERS: Each story must begin with a completely unique construction. Never open two stories the same way. Banned opening patterns: "It's official", "A major development", "For the first time", "In a major", "In what could be", "Officials say", "Authorities announced". Start each story with the most gripping specific fact.
 """
 
 BALANCE_NOTE = """
@@ -297,13 +315,13 @@ Every story involving politics, policy, government, or social issues MUST be rep
 
 # Stories per section
 SECTION_STORY_COUNTS = {
-    "World News": 3,
+    "World News": 4,
     "US News": 3,
     "Economy": 3,
     "US Stocks": 2,
     "US Real Estate (NYC Focus)": 2,
     "Sports": 2,
-    "Basketball (NBA & College)": 3,
+    "Basketball (NBA & College)": 2,
 }
 
 def build_prompt(section, headlines, is_monday=False, recent_titles=None, extra_note="", n_stories=3):
@@ -358,6 +376,78 @@ The full story — 8 to 10 sentences. Conversational audio tone, like a real rad
 Output only the {n} stories in this format. No preamble, no extra text."""
 
 
+def summarize_world_news(client, la_headlines, eu_headlines, asia_headlines, me_headlines,
+                         is_monday=False, recent_titles=None):
+    """Generate one story per global region for World News."""
+    regions = [
+        ("Latin America", "Cover ONE story from Latin America — Mexico, Central America, Caribbean, or South America. This story must be set in that region. Do not cover Europe, Asia, or the Middle East here."),
+        ("Europe", "Cover ONE story from Europe — EU, UK, France, Germany, Eastern Europe, Ukraine, Russia (west of Urals). This story must be set in that region. Do not cover Latin America, Asia, or the Middle East here."),
+        ("Asia and Russia/Central Asia", "Cover ONE story from Asia, Russia, or Central Asia — China, India, Japan, Korea, Southeast Asia, Australia, Russia, Kazakhstan, Afghanistan, Pakistan. This story must be set in that region. Do not cover Europe, Latin America, or the Middle East here."),
+        ("Middle East", "Cover ONE story from the Middle East — Israel, Gaza, Iran, Saudi Arabia, Turkey, UAE, Syria, Iraq, Yemen. This story must be set in that region. Do not cover Europe, Asia, or Latin America here."),
+    ]
+    headline_sets = [la_headlines, eu_headlines, asia_headlines, me_headlines]
+
+    all_stories_raw = []
+    for (region_name, region_instruction), headlines in zip(regions, headline_sets):
+        if not headlines:
+            print(f"  ⚠ No headlines for {region_name}, skipping.")
+            continue
+
+        monday_note = ""
+        if is_monday:
+            monday_note = """
+TODAY IS MONDAY — COVERAGE WINDOW:
+Cover the most important stories from Saturday, Sunday, AND Monday morning combined.
+Label weekend stories naturally and Monday news as current.
+"""
+        recent_note = ""
+        if recent_titles:
+            titles_list = "\n".join(f"- {t}" for t in recent_titles[:30])
+            recent_note = f"""
+AVOID REPEAT STORIES — CRITICAL (7-DAY WINDOW):
+Do not cover any topic, country, leader, or event that appeared in the recent story list below.
+Only revisit if something fundamentally new has happened.
+Recent stories to avoid:
+{titles_list}
+"""
+
+        prompt = f"""You are a professional radio news writer producing a daily audio brief.
+
+REGION: {region_name}
+{region_instruction}
+
+{IMPACT_NOTE}
+{ACCURACY_NOTE}
+{STORY_LENGTH_NOTE}
+{BALANCE_NOTE}
+{monday_note}
+{recent_note}
+
+Today's headlines from this region:
+{chr(10).join(headlines)}
+
+Write exactly ONE story about the single most important event from {region_name} today.
+The story must be geographically set in {region_name} — no exceptions.
+
+Format:
+###
+TITLE: The story title
+The full story — 8 to 10 sentences. Conversational audio tone, no robots, no catchlines.
+###
+
+Output only the story in this format. No preamble."""
+
+        msg = client.messages.create(
+            model="claude-sonnet-4-20250514",
+            max_tokens=1200,
+            messages=[{"role": "user", "content": prompt}]
+        )
+        all_stories_raw.append(msg.content[0].text.strip())
+        print(f"  ✓ {region_name} story written")
+
+    return "\n\n".join(all_stories_raw)
+
+
 def summarize_standard(client, section, headlines, is_monday=False, recent_titles=None):
     extra = ""
     n_stories = SECTION_STORY_COUNTS.get(section, 3)
@@ -398,6 +488,8 @@ BASKETBALL SECTION RULES:
 - If a routine game recap is the only option for a story, skip it and find a more impactful angle.
 - When a record is mentioned, state exactly what the record is and provide full context.
 - Do not describe a player's experience level unless explicitly stated in the source material.
+- SELF-CHECK MANDATORY: After drafting both stories, re-read them. If they cover the same player, the same team, or the same game from different angles, replace the less important one with a completely different story before submitting.
+- Each story must feature a different team or player as the primary subject.
 """
 
     if section == "US Stocks":
@@ -415,6 +507,37 @@ US STOCKS SECTION RULES:
     msg = client.messages.create(
         model="claude-sonnet-4-20250514",
         max_tokens=2500,
+        messages=[{"role": "user", "content": prompt}]
+    )
+    return msg.content[0].text.strip()
+
+
+
+def summarize_world_news(client, la_headlines, eu_headlines, as_headlines, me_headlines,
+                         is_monday=False, recent_titles=None):
+    """Generate 4 world news stories — one per region."""
+    extra = """
+WORLD NEWS REGION RULES — CRITICAL:
+You must produce exactly 4 stories, one from each of these regions:
+- Story 1: LATIN AMERICA (Mexico, Central America, Caribbean, South America)
+- Story 2: EUROPE (EU, UK, Ukraine, Russia from a European angle, NATO)
+- Story 3: ASIA & RUSSIA/CENTRAL ASIA (China, India, Japan, Korea, Southeast Asia, Australia, Russia, Central Asia, Afghanistan, Pakistan)
+- Story 4: MIDDLE EAST (Israel, Gaza, Iran, Saudi Arabia, Turkey, UAE, Syria, Iraq, Yemen)
+
+Each story MUST come from its assigned region. Do not swap regions or skip one.
+Label each story only by its headline — do not include region labels in the output.
+"""
+    all_headlines = (
+        ["--- LATIN AMERICA ---"] + la_headlines +
+        ["--- EUROPE ---"]        + eu_headlines +
+        ["--- ASIA & RUSSIA ---"] + as_headlines +
+        ["--- MIDDLE EAST ---"]   + me_headlines
+    )
+    prompt = build_prompt("World News", all_headlines, is_monday=is_monday,
+                          recent_titles=recent_titles, extra_note=extra, n_stories=4)
+    msg = client.messages.create(
+        model="claude-sonnet-4-20250514",
+        max_tokens=3000,
         messages=[{"role": "user", "content": prompt}]
     )
     return msg.content[0].text.strip()
@@ -802,7 +925,17 @@ def main():
         print(f"\n[{section}]")
         feed_cfg = FEEDS[section]
 
-        if section == "Economy":
+        if section == "World News":
+            feed_cfg = FEEDS[section]
+            la_h   = fetch_headlines(feed_cfg["latin_america"], count=6)
+            eu_h   = fetch_headlines(feed_cfg["europe"],        count=6)
+            asia_h = fetch_headlines(feed_cfg["asia"],          count=6)
+            me_h   = fetch_headlines(feed_cfg["middle_east"],   count=6)
+            print(f"  {len(la_h)} LatAm + {len(eu_h)} Europe + {len(asia_h)} Asia + {len(me_h)} MidEast headlines")
+            raw = summarize_world_news(client, la_h, eu_h, asia_h, me_h,
+                                       is_monday=is_monday, recent_titles=recent_titles)
+
+        elif section == "Economy":
             us_h    = fetch_headlines(feed_cfg["us"],    count=8)
             world_h = fetch_headlines(feed_cfg["world"], count=5)
             print(f"  {len(us_h)} US + {len(world_h)} world headlines")
@@ -857,7 +990,7 @@ def main():
             if not tok_j:
                 continue
             overlap = len(tok_i & tok_j) / min(len(tok_i), len(tok_j))
-            if overlap >= 0.55:
+            if overlap >= 0.45:
                 print(f"  ⚠ Overlap ({overlap:.0%}) — dropping [{sec_j}] story {idx_j+1} "
                       f"(similar to [{sec_i}] story {idx_i+1})")
                 to_drop.setdefault(sec_j, set()).add(idx_j)
