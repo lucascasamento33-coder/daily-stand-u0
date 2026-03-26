@@ -91,6 +91,9 @@ FEEDS = {
         "https://www.espn.com/espn/rss/nba/news",
         "https://sports.yahoo.com/nba/rss/",
         "https://www.espn.com/espn/rss/ncb/news",
+        "https://www.cbssports.com/rss/headlines/nba/",
+        "https://www.cbssports.com/rss/headlines/college-basketball/",
+        "https://bleacherreport.com/articles/feed?tag_id=19",
     ],
 }
 
