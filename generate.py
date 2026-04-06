@@ -879,14 +879,14 @@ def send_email(date_str, page_url, audio_url, total, est_mins, brief_label=None,
     </tr>
   </table>
   <a href="{audio_url}" style="display:block;background:#c8390a;color:white;text-align:center;padding:18px;font-size:20px;text-decoration:none;letter-spacing:3px;font-family:sans-serif;font-weight:700;margin-bottom:10px">
-    â¶&nbsp; PLAY AUDIO (MP3)
+    &#9654;&nbsp; PLAY AUDIO (MP3)
   </a>
   <a href="{page_url}" style="display:block;background:#1a1410;color:white;text-align:center;padding:14px;font-size:14px;text-decoration:none;letter-spacing:2px;font-family:sans-serif;font-weight:700;margin-bottom:16px">
     OPEN WEB VERSION
   </a>
   <div style="font-size:11px;color:#c8c0b0;text-align:center;line-height:1.8;font-family:sans-serif">
-    World Â· US Â· Economy Â· Stocks Â· Real Estate Â· Sports Â· Basketball<br>
-    Tap Play Audio â connects to Bluetooth automatically
+    World &middot; US &middot; Economy &middot; Stocks &middot; Real Estate &middot; Sports &middot; Basketball<br>
+    Tap Play Audio &rarr; connects to Bluetooth automatically
   </div>
 </div>"""
 
@@ -913,7 +913,7 @@ def main():
     if is_monday:
         sat = (today - datetime.timedelta(days=2)).strftime("%B %-d")
         sun = (today - datetime.timedelta(days=1)).strftime("%B %-d")
-        brief_label = f"Monday Brief Â· {sat}â{sun} + Today"
+        brief_label = f"Monday Brief &middot; {sat}&ndash;{sun} + Today"
         print(f"\n{'='*50}\nMonday Brief â {date_str}\n{'='*50}\n")
     else:
         brief_label = date_str
