@@ -1,4 +1,4 @@
-   #!/usr/bin/env python3
+#!/usr/bin/env python3
 """
 Daily Brief Generator
 Runs at 7:30am EST via Render cron job.
@@ -1057,37 +1057,3 @@ def main():
 if __name__ == "__main__":
     main()
 """
-Daily Brief Generator
-Runs at 7:30am EST via Render cron job.
-6 sections, 18 stories, ~32 min listen.
-"""
-
-import os, re, base64, smtplib, datetime, feedparser, requests, json
-from email.mime.text import MIMEText
-from email.mime.multipart import MIMEMultipart
-from anthropic import Anthropic
-
-# ââ ENV VARS ââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ
-ANTHROPIC_API_KEY = os.environ["ANTHROPIC_API_KEY"]
-OPENAI_API_KEY    = os.environ["OPENAI_API_KEY"]
-GITHUB_TOKEN      = os.environ["GITHUB_TOKEN"]
-GITHUB_USER       = os.environ["GITHUB_USER"]
-GITHUB_REPO       = os.environ["GITHUB_REPO"]
-GMAIL_USER        = os.environ["GMAIL_USER"]
-GMAIL_APP_PASS    = os.environ["GMAIL_APP_PASS"]
-YOUR_EMAIL        = os.environ["YOUR_EMAIL"]
-
-SECTION_ORDER = [
-    "World News",
-    "US News",
-    "Economy",
-    "US Stocks",
-    "US Real Estate (NYC Focus)",
-    "Sports",
-    "Basketball (NBA & College)",
-]
-
-FEEDS = {
-    "World News": {
-        "latin_america": [
-            
