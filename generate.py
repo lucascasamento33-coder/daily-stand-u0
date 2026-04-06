@@ -1,4 +1,4 @@
-  #!/usr/bin/env python3
+#!/usr/bin/env python
 """
 Daily Brief Generator
 Runs at 7:30am EST via Render cron job.
