@@ -891,11 +891,11 @@ def send_email(date_str, page_url, audio_url, total, est_mins, brief_label=None,
 </div>"""
 
     msg = MIMEMultipart("alternative")
-    subject = f"ð° Monday Brief (Weekend + Today) â {date_str}" if is_monday else f"âï¸ Your Daily Brief is ready â {date_str}"
+    subject = f"\U0001F4F0 Monday Brief (Weekend + Today) \u2014 {date_str}" if is_monday else f"\u2600\uFE0F Your Daily Brief is ready \u2014 {date_str}"
     msg["Subject"] = subject
     msg["From"]    = GMAIL_USER
     msg["To"]      = YOUR_EMAIL
-    msg.attach(MIMEText(body_html, "html"))
+    msg.attach(MIMEText(body_html, "html", "utf-8"))
     with smtplib.SMTP_SSL("smtp.gmail.com", 465) as s:
         s.login(GMAIL_USER, GMAIL_APP_PASS)
         s.sendmail(GMAIL_USER, YOUR_EMAIL, msg.as_string())
@@ -1056,3 +1056,38 @@ def main():
 
 if __name__ == "__main__":
     main()
+"""
+Daily Brief Generator
+Runs at 7:30am EST via Render cron job.
+6 sections, 18 stories, ~32 min listen.
+"""
+
+import os, re, base64, smtplib, datetime, feedparser, requests, json
+from email.mime.text import MIMEText
+from email.mime.multipart import MIMEMultipart
+from anthropic import Anthropic
+
+# ââ ENV VARS ââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ
+ANTHROPIC_API_KEY = os.environ["ANTHROPIC_API_KEY"]
+OPENAI_API_KEY    = os.environ["OPENAI_API_KEY"]
+GITHUB_TOKEN      = os.environ["GITHUB_TOKEN"]
+GITHUB_USER       = os.environ["GITHUB_USER"]
+GITHUB_REPO       = os.environ["GITHUB_REPO"]
+GMAIL_USER        = os.environ["GMAIL_USER"]
+GMAIL_APP_PASS    = os.environ["GMAIL_APP_PASS"]
+YOUR_EMAIL        = os.environ["YOUR_EMAIL"]
+
+SECTION_ORDER = [
+    "World News",
+    "US News",
+    "Economy",
+    "US Stocks",
+    "US Real Estate (NYC Focus)",
+    "Sports",
+    "Basketball (NBA & College)",
+]
+
+FEEDS = {
+    "World News": {
+        "latin_america": [
+            
