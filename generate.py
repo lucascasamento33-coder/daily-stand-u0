@@ -5,7 +5,7 @@ Runs at 7:30am EST via Render cron job.
 6 sections, 18 stories, ~32 min listen.
 """
 
-import os, re, base64, smtplib, datetime, feedparser, requests, json
+import os, re, base64, smtplib, datetime, feedparser, requests, json, time
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from anthropic import Anthropic
@@ -115,49 +115,54 @@ MAX_HISTORY_DAYS = 7
 
 def fetch_nyc_weather():
     """Fetch current NYC weather from wttr.in and return a natural spoken intro."""
-    try:
-        r = requests.get(
-            "https://wttr.in/New+York+City?format=j1",
-            timeout=10,
-            headers={"User-Agent": "DailyBriefBot/1.0"}
-        )
-        r.raise_for_status()
-        data = r.json()
-        current = data["current_condition"][0]
-        weather_desc = current["weatherDesc"][0]["value"]
-        temp_f       = current["temp_F"]
-        feels_like_f = current["FeelsLikeF"]
-        humidity     = current["humidity"]
+    for _attempt in range(3):
+        try:
+            r = requests.get(
+                "https://wttr.in/New+York+City?format=j1",
+                timeout=20,
+                headers={"User-Agent": "DailyBriefBot/1.0"}
+            )
+            r.raise_for_status()
+            data = r.json()
+            current = data["current_condition"][0]
+            weather_desc = current["weatherDesc"][0]["value"]
+            temp_f       = current["temp_F"]
+            feels_like_f = current["FeelsLikeF"]
+            humidity     = current["humidity"]
 
-        # Today's high/low from first forecast day
-        today_fc  = data["weather"][0]
-        high_f    = today_fc["maxtempF"]
-        low_f     = today_fc["mintempF"]
+            # Today's high/low from first forecast day
+            today_fc  = data["weather"][0]
+            high_f    = today_fc["maxtempF"]
+            low_f     = today_fc["mintempF"]
 
-        # Hourly chance of rain â take max across daylight hours
-        hourly = today_fc.get("hourly", [])
-        rain_chances = [int(h.get("chanceofrain", 0)) for h in hourly]
-        max_rain = max(rain_chances) if rain_chances else 0
+            # Hourly chance of rain - take max across daylight hours
+            hourly = today_fc.get("hourly", [])
+            rain_chances = [int(h.get("chanceofrain", 0)) for h in hourly]
+            max_rain = max(rain_chances) if rain_chances else 0
 
-        rain_note = ""
-        if max_rain >= 60:
-            rain_note = " Bring an umbrella â there's a good chance of rain today."
-        elif max_rain >= 30:
-            rain_note = " There's a slight chance of rain, so keep that in mind."
+            rain_note = ""
+            if max_rain >= 60:
+                rain_note = " Bring an umbrella \u2014 there's a good chance of rain today."
+            elif max_rain >= 30:
+                rain_note = " There's a slight chance of rain, so keep that in mind."
 
-        script = (
-            f"Good morning. Here's your New York City weather. "
-            f"It's currently {temp_f} degrees and {weather_desc.lower()}, "
-            f"feeling like {feels_like_f}. "
-            f"Today's high will be {high_f}, with a low of {low_f}."
-            f"{rain_note} "
-            f"Now, here's what's happening in the world."
-        )
-        print(f"  â NYC weather fetched ({temp_f}Â°F, {weather_desc})")
-        return script
-    except Exception as e:
-        print(f"  â  Weather fetch failed: {e}")
-        return "Good morning. Let's get into today's news."
+            script = (
+                f"Good morning. Here's your New York City weather. "
+                f"It's currently {temp_f} degrees and {weather_desc.lower()}, "
+                f"feeling like {feels_like_f}. "
+                f"Today's high will be {high_f}, with a low of {low_f}."
+                f"{rain_note} "
+                f"Now, here's what's happening in the world."
+            )
+            print(f"  \u2713 NYC weather fetched ({temp_f}\u00b0F, {weather_desc})")
+            return script
+        except Exception as e:
+            if _attempt < 2:
+                print(f"  \u26a0 Weather fetch attempt {_attempt+1} failed: {e}. Retrying...")
+                time.sleep(5)
+            else:
+                print(f"  \u26a0 Weather fetch failed after 3 attempts: {e}")
+    return "Good morning. Let's get into today's news."
 
 
 def fetch_headlines(urls, count=8, seen_titles=None, max_age_hours=40):
