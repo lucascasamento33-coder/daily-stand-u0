@@ -785,6 +785,21 @@ def push_to_github(html, date_str):
 
 # ââ GENERATE AUDIO ââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ
 
+def mp3_duration_mins(data):
+    """Calculate MP3 audio duration in minutes by parsing frame headers."""
+    for i in range(min(len(data) - 3, 20000)):
+        if data[i] == 0xFF and (data[i+1] & 0xE0) == 0xE0:
+            b1, b2 = data[i+1], data[i+2]
+            if ((b1 >> 3) & 0x3) == 3 and ((b1 >> 1) & 0x3) == 1:
+                br_idx = (b2 >> 4) & 0xF
+                sr_idx = (b2 >> 2) & 0x3
+                if 0 < br_idx < 15 and sr_idx < 3:
+                    bitrate = [0,32,40,48,56,64,80,96,112,128,160,192,224,256,320][br_idx] * 1000
+                    duration_secs = len(data) * 8 / bitrate
+                    return max(1, round(duration_secs / 60))
+    return max(1, round(len(data) / 16000 / 60))  # fallback: ~128kbps
+
+
 def generate_audio(sections_data, date_str, brief_label=None):
     """Generate a single MP3 of the full brief using OpenAI TTS, push to GitHub."""
     print("Generating audio via OpenAI TTS...")
@@ -846,6 +861,7 @@ def generate_audio(sections_data, date_str, brief_label=None):
 
     # Concatenate all MP3 chunks (simple binary concat works for MP3)
     full_audio = b"".join(audio_parts)
+    audio_mins = mp3_duration_mins(full_audio)
     print(f"  â Audio generated ({len(full_audio)//1024}KB)")
 
     # Push MP3 to GitHub
@@ -863,7 +879,7 @@ def generate_audio(sections_data, date_str, brief_label=None):
     r.raise_for_status()
     audio_url = f"https://{GITHUB_USER}.github.io/{GITHUB_REPO}/brief.mp3"
     print(f"  â Audio pushed to GitHub")
-    return audio_url
+    return audio_url, audio_mins
 
 # ââ SEND EMAIL ââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ
 
@@ -1050,7 +1066,7 @@ def main():
     push_to_github(html, date_str)
 
     print("Generating audio...")
-    audio_url = generate_audio(sections_data, date_str, brief_label=brief_label)
+    audio_url, est_mins = generate_audio(sections_data, date_str, brief_label=brief_label)
 
     print("Sending email...")
     send_email(date_str, page_url, audio_url, total, est_mins,
