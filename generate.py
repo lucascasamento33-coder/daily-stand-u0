@@ -694,7 +694,7 @@ body{{background:var(--bg);color:var(--ink);font-family:'Lora',Georgia,serif;pad
 <div class="stats">
   <div class="stat"><span class="sv">{total}</span>Stories</div>
   <div class="stat"><span class="sv">7</span>Sections</div>
-  <div class="stat"><span class="sv">~{est_mins}m</span>Drive</div>
+  <div class="stat"><span class="sv">~{est_mins}m</span>Duration</div>
 </div>
 <div class="pa-wrap">
   <button class="pa" onclick="startAll()">
