@@ -770,7 +770,7 @@ if(syn.onvoiceschanged!==undefined)syn.onvoiceschanged=()=>{{}};
 # ââ PUSH TO GITHUB ââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ
 
 def push_to_github(html, date_str):
-    url     = f"https://api.github.com/repos/{GITHUB_USER}/{GITHUB_REPO}/contents/index.html"
+    url     = f"https://api.github.com/repos/{GITHUB_USER}/{GITHUB_REPO}/contents/brief-{date_str}.html"
     headers = {"Authorization": f"token {GITHUB_TOKEN}", "Accept": "application/vnd.github.v3+json"}
     r   = requests.get(url, headers=headers)
     sha = r.json().get("sha") if r.status_code == 200 else None
@@ -865,7 +865,7 @@ def generate_audio(sections_data, date_str, brief_label=None):
     print(f"  â Audio generated ({len(full_audio)//1024}KB)")
 
     # Push MP3 to GitHub
-    url     = f"https://api.github.com/repos/{GITHUB_USER}/{GITHUB_REPO}/contents/brief.mp3"
+    url     = f"https://api.github.com/repos/{GITHUB_USER}/{GITHUB_REPO}/contents/brief-{date_str}.mp3"
     gh_headers = {"Authorization": f"token {GITHUB_TOKEN}", "Accept": "application/vnd.github.v3+json"}
     r = requests.get(url, headers=gh_headers)
     sha = r.json().get("sha") if r.status_code == 200 else None
@@ -877,7 +877,7 @@ def generate_audio(sections_data, date_str, brief_label=None):
         payload["sha"] = sha
     r = requests.put(url, headers=gh_headers, json=payload)
     r.raise_for_status()
-    audio_url = f"https://{GITHUB_USER}.github.io/{GITHUB_REPO}/brief.mp3"
+    audio_url = f"https://{GITHUB_USER}.github.io/{GITHUB_REPO}/brief-{date_str}.mp3"
     print(f"  â Audio pushed to GitHub")
     return audio_url, audio_mins
 
@@ -925,11 +925,42 @@ def send_email(date_str, page_url, audio_url, total, est_mins, brief_label=None,
 
 # ââ MAIN ââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ
 
+def cleanup_old_briefs():
+    """Delete brief-*.html and brief-*.mp3 files older than the last 7 days."""
+    import re as _re
+    url = f"https://api.github.com/repos/{GITHUB_USER}/{GITHUB_REPO}/contents/"
+    headers = {"Authorization": f"token {GITHUB_TOKEN}", "Accept": "application/vnd.github.v3+json"}
+    r = requests.get(url, headers=headers)
+    if r.status_code != 200:
+        print(f"  \u26a0 Could not list repo for cleanup: {r.status_code}")
+        return
+    files = r.json()
+    dated = {}
+    for f in files:
+        m = _re.match(r'brief-(\d{4}-\d{2}-\d{2})\.(html|mp3)$', f['name'])
+        if m:
+            ds, ext = m.group(1), m.group(2)
+            if ds not in dated:
+                dated[ds] = {}
+            dated[ds][ext] = {'name': f['name'], 'sha': f['sha']}
+    sorted_dates = sorted(dated.keys())
+    to_delete = sorted_dates[:-7] if len(sorted_dates) > 7 else []
+    for ds in to_delete:
+        for ext, info in dated[ds].items():
+            del_url = f"https://api.github.com/repos/{GITHUB_USER}/{GITHUB_REPO}/contents/{info['name']}"
+            payload = {"message": f"Cleanup: remove {info['name']}", "sha": info['sha']}
+            rd = requests.delete(del_url, headers=headers, json=payload)
+            status = "deleted" if rd.status_code in (200, 204) else f"error {rd.status_code}"
+            print(f"  \u2713 {info['name']}: {status}")
+    if not to_delete:
+        print("  \u2713 No old brief files to clean up")
+
+
 def main():
     today    = datetime.date.today()
     date_str = today.strftime("%A, %B %-d, %Y")
     is_monday = today.weekday() == 0
-    page_url = f"https://{GITHUB_USER}.github.io/{GITHUB_REPO}/"
+    page_url = f"https://{GITHUB_USER}.github.io/{GITHUB_REPO}/brief-{date_str}.html"
 
     if is_monday:
         sat = (today - datetime.timedelta(days=2)).strftime("%B %-d")
@@ -1064,6 +1095,7 @@ def main():
 
     print("Pushing to GitHub Pages...")
     push_to_github(html, date_str)
+    cleanup_old_briefs()
 
     print("Generating audio...")
     audio_url, est_mins = generate_audio(sections_data, date_str, brief_label=brief_label)
