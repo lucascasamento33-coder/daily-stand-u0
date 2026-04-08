@@ -247,7 +247,7 @@ def save_story_history(history, sha=None):
     requests.put(url, headers=headers, json=payload)
 
 
-def get_recent_titles(history, is_monday=False):
+def get_recent_titles(history, is_monday=False, sections_count=7):
     today = datetime.date.today()
     cutoff = MAX_HISTORY_DAYS + (2 if is_monday else 0)
     seen = []
@@ -896,8 +896,8 @@ def send_email(date_str, page_url, audio_url, total, est_mins, brief_label=None,
   <table style="width:100%;border-collapse:collapse;margin-bottom:20px;font-family:sans-serif;font-size:11px;color:#7a7060;text-align:center">
     <tr>
       <td style="padding:8px;border-right:1px solid #d8d0c0"><strong style="font-size:20px;color:#1a1410;display:block">{total}</strong>Stories</td>
-      <td style="padding:8px;border-right:1px solid #d8d0c0"><strong style="font-size:20px;color:#1a1410;display:block">6</strong>Sections</td>
-      <td style="padding:8px"><strong style="font-size:20px;color:#1a1410;display:block">~{est_mins}m</strong>Drive</td>
+      <td style="padding:8px;border-right:1px solid #d8d0c0"><strong style="font-size:20px;color:#1a1410;display:block">{sections_count}</strong>Sections</td>
+      <td style="padding:8px"><strong style="font-size:20px;color:#1a1410;display:block">~{est_mins}m</strong>Duration</td>
     </tr>
   </table>
   <a href="{audio_url}" style="display:block;background:#c8390a;color:white;text-align:center;padding:18px;font-size:20px;text-decoration:none;letter-spacing:3px;font-family:sans-serif;font-weight:700;margin-bottom:10px">
@@ -1100,9 +1100,10 @@ def main():
     push_to_github(html, date_str)
     cleanup_old_briefs()
 
+    sections_count = sum(1 for s in SECTION_ORDER if sections_data.get(s))
     print("Sending email...")
     send_email(date_str, page_url, audio_url, total, est_mins,
-               brief_label=brief_label, is_monday=is_monday)
+               brief_label=brief_label, is_monday=is_monday, sections_count=sections_count)
 
     print(f"\nâ Done! {page_url}\n")
 
