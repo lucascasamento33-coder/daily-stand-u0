@@ -247,7 +247,7 @@ def save_story_history(history, sha=None):
     requests.put(url, headers=headers, json=payload)
 
 
-def get_recent_titles(history, is_monday=False, sections_count=7):
+def get_recent_titles(history, is_monday=False):
     today = datetime.date.today()
     cutoff = MAX_HISTORY_DAYS + (2 if is_monday else 0)
     seen = []
@@ -884,7 +884,7 @@ def generate_audio(sections_data, date_str, brief_label=None):
 
 # ââ SEND EMAIL ââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ
 
-def send_email(date_str, page_url, audio_url, total, est_mins, brief_label=None, is_monday=False):
+def send_email(date_str, page_url, audio_url, total, est_mins, brief_label=None, is_monday=False, sections_count=7):
     body_html = f"""
 <div style="font-family:Georgia,serif;max-width:500px;margin:0 auto;padding:24px;background:#f5f0e8">
   <div style="border-bottom:3px double #1a1410;padding-bottom:16px;margin-bottom:20px;text-align:center">
