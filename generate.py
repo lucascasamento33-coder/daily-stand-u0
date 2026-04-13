@@ -1108,5 +1108,29 @@ def main():
     print(f"\nâ Done! {page_url}\n")
 
 
+def send_mms_alert(error_msg):
+    """Send an MMS to phone when the brief generator fails."""
+    try:
+        msg = MIMEMultipart()
+        msg["From"] = GMAIL_USER
+        msg["To"] = "5514868234@vzwpix.com"
+        msg["Subject"] = "Daily Brief Error"
+        body = "Daily Brief FAILED:\n" + str(error_msg)[:1000]
+        msg.attach(MIMEText(body, "plain"))
+        with smtplib.SMTP_SSL("smtp.gmail.com", 465) as s:
+            s.login(GMAIL_USER, GMAIL_APP_PASS)
+            s.sendmail(GMAIL_USER, "5514868234@vzwpix.com", msg.as_string())
+        print("MMS alert sent.")
+    except Exception as e:
+        print("Failed to send MMS alert:", e)
+
+
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except Exception as e:
+        import traceback
+        error_details = traceback.format_exc()
+        print("ERROR:", error_details)
+        send_mms_alert(error_details)
+        raise
