@@ -10,7 +10,7 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from anthropic import Anthropic
 
-# ââ ENV VARS ââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ
+# Ã¢ÂÂÃ¢ÂÂ ENV VARS Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂ
 ANTHROPIC_API_KEY = os.environ["ANTHROPIC_API_KEY"]
 OPENAI_API_KEY    = os.environ["OPENAI_API_KEY"]
 GITHUB_TOKEN      = os.environ["GITHUB_TOKEN"]
@@ -101,7 +101,7 @@ SECTION_CONFIG = {
     "World News":                 {"color": "#c8390a", "tag": "WORLD"},
     "US News":                    {"color": "#1a5c8a", "tag": "US"},
     "Economy":                    {"color": "#1a6a5a", "tag": "ECONOMY"},
-    "US Real Estate (NYC Focus)": {"color": "#2a7a3a", "tag": "RE Â· NYC"},
+    "US Real Estate (NYC Focus)": {"color": "#2a7a3a", "tag": "RE ÃÂ· NYC"},
     "US Stocks":                  {"color": "#1a4a8a", "tag": "STOCKS"},
     "Sports":                     {"color": "#8a4a1a", "tag": "SPORTS"},
     "Basketball (NBA & College)": {"color": "#6a2a8a", "tag": "BBALL"},
@@ -111,7 +111,7 @@ HISTORY_FILE     = "story_history.json"
 MAX_HISTORY_DAYS = 7
 
 
-# ââ FETCH âââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ
+# Ã¢ÂÂÃ¢ÂÂ FETCH Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂ
 
 def fetch_nyc_weather():
     """Fetch current NYC weather from wttr.in and return a natural spoken intro."""
@@ -222,7 +222,7 @@ def fetch_sports_headlines():
     return all_items
 
 
-# ââ STORY HISTORY âââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ
+# Ã¢ÂÂÃ¢ÂÂ STORY HISTORY Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂ
 
 def load_story_history():
     url     = f"https://api.github.com/repos/{GITHUB_USER}/{GITHUB_REPO}/contents/{HISTORY_FILE}"
@@ -274,46 +274,46 @@ def update_history(history, sections_data):
     return history
 
 
-# ââ SUMMARIZE âââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ
+# Ã¢ÂÂÃ¢ÂÂ SUMMARIZE Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂ
 
 IMPACT_NOTE = """
-STORY SELECTION â IMPACT AND IMPORTANCE:
+STORY SELECTION Ã¢ÂÂ IMPACT AND IMPORTANCE:
 Only cover stories that genuinely matter. Apply this standard before picking any story:
 - COVER: Major geopolitical events, significant policy changes, large economic moves, serious crimes or disasters with wide impact, major sports milestones, blockbuster trades, championship results, election outcomes, notable deaths of public figures.
 - DO NOT COVER: Soft features, lifestyle stories, things blooming or growing somewhere, minor local events with no broader significance, celebrity gossip, weather unless catastrophic, anything a well-informed person would consider trivial.
 - If a story wouldn't make the front page of a serious newspaper, skip it.
-- VARIETY RULE: Every story in this section MUST cover a completely different topic, event, entity, and subject. No two stories can share the same person, team, company, country, or event â even from different angles.
-- SELF-CHECK â MANDATORY: After drafting all stories, re-read them together. If any two stories are about the same underlying event or subject, discard the weaker one and replace it with something entirely different before submitting output.
+- VARIETY RULE: Every story in this section MUST cover a completely different topic, event, entity, and subject. No two stories can share the same person, team, company, country, or event Ã¢ÂÂ even from different angles.
+- SELF-CHECK Ã¢ÂÂ MANDATORY: After drafting all stories, re-read them together. If any two stories are about the same underlying event or subject, discard the weaker one and replace it with something entirely different before submitting output.
 - NO-REPEAT ACROSS DAYS: The recent story list below reflects the last 7 days. Do not revisit any topic, person, team, or event that appeared recently unless something fundamentally new has happened (e.g. a verdict was reached, a deal was signed, a conflict escalated significantly).
 """
 
 ACCURACY_NOTE = """
-ACCURACY RULES â CRITICAL:
+ACCURACY RULES Ã¢ÂÂ CRITICAL:
 - Only state facts that are directly supported by the headlines and summaries provided. Do NOT invent statistics, records, names, ages, or details not present in the source material.
-- If a headline mentions a record was broken, you MUST state what the actual record is if it appears in the summary. If the summary doesn't say, do not guess â instead say the record was broken without fabricating the specifics.
+- If a headline mentions a record was broken, you MUST state what the actual record is if it appears in the summary. If the summary doesn't say, do not guess Ã¢ÂÂ instead say the record was broken without fabricating the specifics.
 - Do not describe a player's experience level (e.g. "rookie", "veteran") unless it is explicitly stated in the source material.
 - Do not attribute quotes unless they appear in the source material.
 """
 
 STORY_LENGTH_NOTE = """
-STORY LENGTH AND TONE â IMPORTANT:
-Each story should be 8-10 sentences long. This is an audio brief for a commute â write for the ear, not the eye.
-- SOUND HUMAN: Use contractions (it's, there's, we're, that's). Vary sentence length â mix short punchy sentences with longer ones.
+STORY LENGTH AND TONE Ã¢ÂÂ IMPORTANT:
+Each story should be 8-10 sentences long. This is an audio brief for a commute Ã¢ÂÂ write for the ear, not the eye.
+- SOUND HUMAN: Use contractions (it's, there's, we're, that's). Vary sentence length Ã¢ÂÂ mix short punchy sentences with longer ones.
 - LEAD STRONG: Open with the most compelling angle, not a dry summary of facts.
 - ACTIVE VOICE: "The Fed raised rates" not "Rates were raised by the Fed."
-- SIGNPOST: Use a variety of natural transitions â but NEVER repeat the same signpost phrase across stories in this section or across the entire brief. Banned overused phrases: "Here's why this matters", "What makes this significant", "The bottom line", "worth noting", "make no mistake", "at the end of the day". Find a fresh, specific angle for every story.
-- CONVERSATIONAL: Write how a confident, well-informed radio anchor actually speaks â not how a press release reads.
+- SIGNPOST: Use a variety of natural transitions Ã¢ÂÂ but NEVER repeat the same signpost phrase across stories in this section or across the entire brief. Banned overused phrases: "Here's why this matters", "What makes this significant", "The bottom line", "worth noting", "make no mistake", "at the end of the day". Find a fresh, specific angle for every story.
+- CONVERSATIONAL: Write how a confident, well-informed radio anchor actually speaks Ã¢ÂÂ not how a press release reads.
 - Give full context: who, what, when, where, why it matters, what happens next.
 - NO CATCHLINES OR REPEATED OPENERS: Each story must begin with a completely unique construction. Never open two stories the same way. Banned opening patterns: "It's official", "A major development", "For the first time", "In a major", "In what could be", "Officials say", "Authorities announced". Start each story with the most gripping specific fact.
 """
 
 BALANCE_NOTE = """
-POLITICAL BALANCE â MANDATORY:
+POLITICAL BALANCE Ã¢ÂÂ MANDATORY:
 Every story involving politics, policy, government, or social issues MUST be reported with strict neutrality.
 - Present facts only. Do not editorialize, imply approval or disapproval, or use loaded language.
 - If a policy or decision is controversial, briefly note that it has supporters and critics without favoring either side.
 - Do not characterize politicians, parties, or movements positively or negatively beyond what the source material states as fact.
-- Use neutral verbs: "said", "announced", "signed", "proposed" â not "claimed", "admitted", "pushed through", "slammed".
+- Use neutral verbs: "said", "announced", "signed", "proposed" Ã¢ÂÂ not "claimed", "admitted", "pushed through", "slammed".
 - If a story only has one political perspective in the source material, present it as such without amplifying it.
 - This applies equally regardless of political party, ideology, or country.
 - Do not select stories because they reflect well or poorly on any political figure or party. Select purely on newsworthiness.
@@ -337,7 +337,7 @@ def build_prompt(section, headlines, is_monday=False, recent_titles=None, extra_
     monday_note = ""
     if is_monday:
         monday_note = """
-TODAY IS MONDAY â COVERAGE WINDOW:
+TODAY IS MONDAY Ã¢ÂÂ COVERAGE WINDOW:
 Cover the most important stories from Saturday, Sunday, AND Monday morning combined.
 Label weekend stories naturally ("Over the weekend...", "On Sunday...") and Monday news as current.
 Do not skip major Monday morning news just because it's also a weekend recap brief.
@@ -347,8 +347,8 @@ Do not skip major Monday morning news just because it's also a weekend recap bri
     if recent_titles:
         titles_list = "\n".join(f"- {t}" for t in recent_titles[:25])
         recent_note = f"""
-AVOID REPEAT STORIES â CRITICAL:
-The following stories were already covered in recent days. DO NOT cover the same topic, player, team, or event again â even if the headline is worded differently.
+AVOID REPEAT STORIES Ã¢ÂÂ CRITICAL:
+The following stories were already covered in recent days. DO NOT cover the same topic, player, team, or event again Ã¢ÂÂ even if the headline is worded differently.
 Ask yourself: "Is this essentially the same story?" If yes, skip it entirely.
 Only cover a previously-covered topic if something genuinely NEW and significant has changed (e.g. a trade was completed vs. just rumored, a player returned vs. was injured).
 Recent stories to avoid repeating:
@@ -370,15 +370,15 @@ Section: {section}
 Today's headlines and summaries:
 {chr(10).join(headlines)}
 
-STEP 1 â RANK BY IMPORTANCE: Before writing anything, mentally rank all headlines by newsworthiness. Trades, signings, injuries to stars, championship outcomes, historic milestones, and major policy changes rank highest. Routine game recaps, minor roster moves, and repeated topics rank lowest.
-STEP 2 â ELIMINATE REPEATS: Cross off any story that matches a topic already covered recently (listed above).
-STEP 3 â WRITE THE TOP {n}: Write the {n} highest-ranked, non-repeated stories.
+STEP 1 Ã¢ÂÂ RANK BY IMPORTANCE: Before writing anything, mentally rank all headlines by newsworthiness. Trades, signings, injuries to stars, championship outcomes, historic milestones, and major policy changes rank highest. Routine game recaps, minor roster moves, and repeated topics rank lowest.
+STEP 2 Ã¢ÂÂ ELIMINATE REPEATS: Cross off any story that matches a topic already covered recently (listed above).
+STEP 3 Ã¢ÂÂ WRITE THE TOP {n}: Write the {n} highest-ranked, non-repeated stories.
 
 Format each story like this:
 
 ###
 TITLE: The story title
-The full story â 8 to 10 sentences. Conversational audio tone, like a real radio news anchor â not a robot. Use contractions (it's, there's, we're), vary your sentence length, lead with a compelling hook, use active voice, and signpost why it matters to the listener. Write how a confident human anchor actually speaks.
+The full story Ã¢ÂÂ 8 to 10 sentences. Conversational audio tone, like a real radio news anchor Ã¢ÂÂ not a robot. Use contractions (it's, there's, we're), vary your sentence length, lead with a compelling hook, use active voice, and signpost why it matters to the listener. Write how a confident human anchor actually speaks.
 ###
 
 Output only the {n} stories in this format. No preamble, no extra text."""
@@ -388,23 +388,23 @@ def summarize_world_news(client, la_headlines, eu_headlines, asia_headlines, me_
                          is_monday=False, recent_titles=None):
     """Generate one story per global region for World News."""
     regions = [
-        ("Latin America", "Cover ONE story from Latin America â Mexico, Central America, Caribbean, or South America. This story must be set in that region. Do not cover Europe, Asia, or the Middle East here."),
-        ("Europe", "Cover ONE story from Europe â EU, UK, France, Germany, Eastern Europe, Ukraine, Russia (west of Urals). This story must be set in that region. Do not cover Latin America, Asia, or the Middle East here."),
-        ("Asia and Russia/Central Asia", "Cover ONE story from Asia, Russia, or Central Asia â China, India, Japan, Korea, Southeast Asia, Australia, Russia, Kazakhstan, Afghanistan, Pakistan. This story must be set in that region. Do not cover Europe, Latin America, or the Middle East here."),
-        ("Middle East", "Cover ONE story from the Middle East â Israel, Gaza, Iran, Saudi Arabia, Turkey, UAE, Syria, Iraq, Yemen. This story must be set in that region. Do not cover Europe, Asia, or Latin America here."),
+        ("Latin America", "Cover ONE story from Latin America Ã¢ÂÂ Mexico, Central America, Caribbean, or South America. This story must be set in that region. Do not cover Europe, Asia, or the Middle East here."),
+        ("Europe", "Cover ONE story from Europe Ã¢ÂÂ EU, UK, France, Germany, Eastern Europe, Ukraine, Russia (west of Urals). This story must be set in that region. Do not cover Latin America, Asia, or the Middle East here."),
+        ("Asia and Russia/Central Asia", "Cover ONE story from Asia, Russia, or Central Asia Ã¢ÂÂ China, India, Japan, Korea, Southeast Asia, Australia, Russia, Kazakhstan, Afghanistan, Pakistan. This story must be set in that region. Do not cover Europe, Latin America, or the Middle East here."),
+        ("Middle East", "Cover ONE story from the Middle East Ã¢ÂÂ Israel, Gaza, Iran, Saudi Arabia, Turkey, UAE, Syria, Iraq, Yemen. This story must be set in that region. Do not cover Europe, Asia, or Latin America here."),
     ]
     headline_sets = [la_headlines, eu_headlines, asia_headlines, me_headlines]
 
     all_stories_raw = []
     for (region_name, region_instruction), headlines in zip(regions, headline_sets):
         if not headlines:
-            print(f"  â  No headlines for {region_name}, skipping.")
+            print(f"  Ã¢ÂÂ  No headlines for {region_name}, skipping.")
             continue
 
         monday_note = ""
         if is_monday:
             monday_note = """
-TODAY IS MONDAY â COVERAGE WINDOW:
+TODAY IS MONDAY Ã¢ÂÂ COVERAGE WINDOW:
 Cover the most important stories from Saturday, Sunday, AND Monday morning combined.
 Label weekend stories naturally and Monday news as current.
 """
@@ -412,7 +412,7 @@ Label weekend stories naturally and Monday news as current.
         if recent_titles:
             titles_list = "\n".join(f"- {t}" for t in recent_titles[:30])
             recent_note = f"""
-AVOID REPEAT STORIES â CRITICAL (7-DAY WINDOW):
+AVOID REPEAT STORIES Ã¢ÂÂ CRITICAL (7-DAY WINDOW):
 Do not cover any topic, country, leader, or event that appeared in the recent story list below.
 Only revisit if something fundamentally new has happened.
 Recent stories to avoid:
@@ -435,12 +435,12 @@ Today's headlines from this region:
 {chr(10).join(headlines)}
 
 Write exactly ONE story about the single most important event from {region_name} today.
-The story must be geographically set in {region_name} â no exceptions.
+The story must be geographically set in {region_name} Ã¢ÂÂ no exceptions.
 
 Format:
 ###
 TITLE: The story title
-The full story â 8 to 10 sentences. Conversational audio tone, no robots, no catchlines.
+The full story Ã¢ÂÂ 8 to 10 sentences. Conversational audio tone, no robots, no catchlines.
 ###
 
 Output only the story in this format. No preamble."""
@@ -451,7 +451,7 @@ Output only the story in this format. No preamble."""
             messages=[{"role": "user", "content": prompt}]
         )
         all_stories_raw.append(msg.content[0].text.strip())
-        print(f"  â {region_name} story written")
+        print(f"  Ã¢ÂÂ {region_name} story written")
 
     return "\n\n".join(all_stories_raw)
 
@@ -463,7 +463,7 @@ def summarize_standard(client, section, headlines, is_monday=False, recent_title
     if section == "US Real Estate (NYC Focus)":
         extra = """
 REAL ESTATE AUDIENCE NOTE:
-Write for a residential property OWNER â not an agent or developer.
+Write for a residential property OWNER Ã¢ÂÂ not an agent or developer.
 PRIMARY FOCUS: NYC (Manhattan, Brooklyn, Queens, Bronx, Staten Island). If there is not enough fresh NYC news, expand to cover Miami or New Jersey real estate markets.
 COVER: mortgage rate trends and forecasts, rent growth, neighborhood trends (up-and-coming areas, quality of life, crime trends), property tax and policy changes affecting owners, housing supply, economic factors affecting home values, regional market comparisons.
 DO NOT COVER: individual home sales, broker tips, luxury condo launches, commercial real estate.
@@ -475,14 +475,14 @@ If covering Miami or NJ, clearly note which market you are discussing.
 US STOCKS SECTION RULES:
 - Cover US stock market news ONLY.
 - COVER: Major index moves (S&P 500, Dow, Nasdaq), significant earnings results, big individual stock surges or crashes, sector-wide moves, analyst upgrades/downgrades with major impact, IPOs, Fed decisions as they affect markets.
-- DO NOT COVER: general macro economy, inflation, jobs data â those belong in the Economy section.
+- DO NOT COVER: general macro economy, inflation, jobs data Ã¢ÂÂ those belong in the Economy section.
 - Always give context: what moved, by how much, and why it matters to an investor.
 """
 
     if section == "Sports":
         extra = """
 SPORTS SECTION RULES:
-- Cover soccer, NFL/football, and baseball ONLY. No basketball â it has its own section.
+- Cover soccer, NFL/football, and baseball ONLY. No basketball Ã¢ÂÂ it has its own section.
 - Pick the 2 most impactful stories from across all sports. A blockbuster trade trumps a routine game recap regardless of sport.
 - It is fine to have both stories from one sport if they are genuinely more important.
 - Prioritize: trades, signings, injuries to stars, championship results, historic milestones, major upsets.
@@ -503,7 +503,7 @@ BASKETBALL SECTION RULES:
     if section == "US Stocks":
         extra = """
 US STOCKS SECTION RULES:
-- Cover US stock market performance only. Do NOT cover general macro economy â that is in the Economy section.
+- Cover US stock market performance only. Do NOT cover general macro economy Ã¢ÂÂ that is in the Economy section.
 - COVER: Major index moves (S&P 500, Dow, Nasdaq) with specific numbers, big earnings beats/misses, major individual stock surges or crashes, sector-wide moves, Fed decisions that moved markets.
 - Always include specific numbers: index levels, percentage moves, price changes.
 - Explain what the moves mean for ordinary investors.
@@ -523,9 +523,9 @@ US STOCKS SECTION RULES:
 
 def summarize_world_news(client, la_headlines, eu_headlines, as_headlines, me_headlines,
                          is_monday=False, recent_titles=None):
-    """Generate 4 world news stories â one per region."""
+    """Generate 4 world news stories Ã¢ÂÂ one per region."""
     extra = """
-WORLD NEWS REGION RULES â CRITICAL:
+WORLD NEWS REGION RULES Ã¢ÂÂ CRITICAL:
 You must produce exactly 4 stories, one from each of these regions:
 - Story 1: LATIN AMERICA (Mexico, Central America, Caribbean, South America)
 - Story 2: EUROPE (EU, UK, Ukraine, Russia from a European angle, NATO)
@@ -533,7 +533,7 @@ You must produce exactly 4 stories, one from each of these regions:
 - Story 4: MIDDLE EAST (Israel, Gaza, Iran, Saudi Arabia, Turkey, UAE, Syria, Iraq, Yemen)
 
 Each story MUST come from its assigned region. Do not swap regions or skip one.
-Label each story only by its headline â do not include region labels in the output.
+Label each story only by its headline Ã¢ÂÂ do not include region labels in the output.
 """
     all_headlines = (
         ["--- LATIN AMERICA ---"] + la_headlines +
@@ -559,7 +559,7 @@ ECONOMY SECTION RULES:
 - Story 3: World economy (international markets, trade, foreign economies)
 - Include specific numbers: rate changes, GDP figures, jobs numbers, inflation percentages.
 - Explain what the data means for ordinary people, not just markets.
-- Do NOT cover stock market performance or individual stocks â that is covered in the Stocks section.
+- Do NOT cover stock market performance or individual stocks Ã¢ÂÂ that is covered in the Stocks section.
 
 - Do NOT cover UK/London housing, mortgages, or property markets. The listener does not care about British real estate. Skip any headline about UK home prices, London rents, Bank of England mortgage policy, etc.
 - CROSS-SECTION OVERLAP BAN: Do NOT cover a topic that is already naturally covered by another section. Specifically: gas prices, oil prices, and energy costs should appear in ONLY ONE section across the entire brief. If gas/oil prices are a stock market story, cover them there not here. If they are a consumer economy story, cover them here but only once.
@@ -590,7 +590,7 @@ def parse_stories(raw, section):
     return stories[:n]
 
 
-# ââ BUILD HTML ââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ
+# Ã¢ÂÂÃ¢ÂÂ BUILD HTML Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂ
 
 def esc(s):
     return (s.replace("&","&amp;").replace("<","&lt;").replace(">","&gt;")
@@ -686,7 +686,7 @@ body{{background:var(--bg);color:var(--ink);font-family:'Lora',Georgia,serif;pad
 <div class="mast">
   <div class="mast-top">
     <span class="meta">{date_str.upper()}</span>
-    <span class="badge">â AI GENERATED</span>
+    <span class="badge">Ã¢ÂÂ AI GENERATED</span>
   </div>
   <div class="logo">Daily <span>Brief</span></div>
   <div class="hrule"></div>
@@ -749,7 +749,7 @@ function playStory(i,auto=false){{
   document.getElementById('tc').textContent='0:00';
   document.getElementById('pf').style.width='0%';
   utt.onstart=()=>{{going=true;ts=Date.now();tid=setInterval(tick,600);document.getElementById('pi').innerHTML='<path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/>';}};
-  utt.onend=()=>{{going=false;clearInterval(tid);document.getElementById('pf').style.width='100%';document.getElementById('pi').innerHTML='<path d="M8 5v14l11-7z"/>';if(allMode&&cur<stories.length-1)setTimeout(()=>playStory(cur+1,true),700);else if(allMode){{document.getElementById('nt').textContent='â All stories complete!';setActive(-1);allMode=false;}}}};
+  utt.onend=()=>{{going=false;clearInterval(tid);document.getElementById('pf').style.width='100%';document.getElementById('pi').innerHTML='<path d="M8 5v14l11-7z"/>';if(allMode&&cur<stories.length-1)setTimeout(()=>playStory(cur+1,true),700);else if(allMode){{document.getElementById('nt').textContent='Ã¢ÂÂ All stories complete!';setActive(-1);allMode=false;}}}};
   utt.onerror=()=>{{going=false;clearInterval(tid);document.getElementById('pi').innerHTML='<path d="M8 5v14l11-7z"/>'}};
   syn.speak(utt);
 }}
@@ -768,10 +768,10 @@ if(syn.onvoiceschanged!==undefined)syn.onvoiceschanged=()=>{{}};
 </html>'''
 
 
-# ââ PUSH TO GITHUB ââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ
+# Ã¢ÂÂÃ¢ÂÂ PUSH TO GITHUB Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂ
 
 def push_to_github(html, date_str):
-    url     = f"https://api.github.com/repos/{GITHUB_USER}/{GITHUB_REPO}/contents/brief-{date_str}.html"
+    url     = f"https://api.github.com/repos/{GITHUB_USER}/{GITHUB_REPO}/contents/brief-{datetime.date.today().strftime('%Y-%m-%d')}.html"
     headers = {"Authorization": f"token {GITHUB_TOKEN}", "Accept": "application/vnd.github.v3+json"}
     r   = requests.get(url, headers=headers)
     sha = r.json().get("sha") if r.status_code == 200 else None
@@ -780,11 +780,11 @@ def push_to_github(html, date_str):
         payload["sha"] = sha
     r = requests.put(url, headers=headers, json=payload)
     r.raise_for_status()
-    print(f"â Pushed to GitHub ({r.status_code})")
+    print(f"Ã¢ÂÂ Pushed to GitHub ({r.status_code})")
 
 
 
-# ââ GENERATE AUDIO ââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ
+# Ã¢ÂÂÃ¢ÂÂ GENERATE AUDIO Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂ
 
 def mp3_duration_mins(data):
     """Calculate MP3 audio duration in minutes by parsing frame headers."""
@@ -806,7 +806,7 @@ def generate_audio(sections_data, date_str, brief_label=None):
     print("Generating audio via OpenAI TTS...")
     import io
 
-    # Build full script â weather intro then stories flow without section announcements
+    # Build full script Ã¢ÂÂ weather intro then stories flow without section announcements
     script_parts = []
     weather_intro = fetch_nyc_weather()
     script_parts.append(weather_intro)
@@ -863,10 +863,10 @@ def generate_audio(sections_data, date_str, brief_label=None):
     # Concatenate all MP3 chunks (simple binary concat works for MP3)
     full_audio = b"".join(audio_parts)
     audio_mins = mp3_duration_mins(full_audio)
-    print(f"  â Audio generated ({len(full_audio)//1024}KB)")
+    print(f"  Ã¢ÂÂ Audio generated ({len(full_audio)//1024}KB)")
 
     # Push MP3 to GitHub
-    url     = f"https://api.github.com/repos/{GITHUB_USER}/{GITHUB_REPO}/contents/brief-{date_str}.mp3"
+    url     = f"https://api.github.com/repos/{GITHUB_USER}/{GITHUB_REPO}/contents/brief-{datetime.date.today().strftime('%Y-%m-%d')}.mp3"
     gh_headers = {"Authorization": f"token {GITHUB_TOKEN}", "Accept": "application/vnd.github.v3+json"}
     r = requests.get(url, headers=gh_headers)
     sha = r.json().get("sha") if r.status_code == 200 else None
@@ -878,11 +878,11 @@ def generate_audio(sections_data, date_str, brief_label=None):
         payload["sha"] = sha
     r = requests.put(url, headers=gh_headers, json=payload)
     r.raise_for_status()
-    audio_url = f"https://{GITHUB_USER}.github.io/{GITHUB_REPO}/brief-{date_str}.mp3"
-    print(f"  â Audio pushed to GitHub")
+    audio_url = f"https://{GITHUB_USER}.github.io/{GITHUB_REPO}/brief-{datetime.date.today().strftime('%Y-%m-%d')}.mp3"
+    print(f"  Ã¢ÂÂ Audio pushed to GitHub")
     return audio_url, audio_mins
 
-# ââ SEND EMAIL ââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ
+# Ã¢ÂÂÃ¢ÂÂ SEND EMAIL Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂ
 
 def send_email(date_str, page_url, audio_url, total, est_mins, brief_label=None, is_monday=False, sections_count=7):
     body_html = f"""
@@ -921,10 +921,10 @@ def send_email(date_str, page_url, audio_url, total, est_mins, brief_label=None,
     with smtplib.SMTP_SSL("smtp.gmail.com", 465) as s:
         s.login(GMAIL_USER, GMAIL_APP_PASS)
         s.sendmail(GMAIL_USER, YOUR_EMAIL, msg.as_string())
-    print(f"â Email sent to {YOUR_EMAIL}")
+    print(f"Ã¢ÂÂ Email sent to {YOUR_EMAIL}")
 
 
-# ââ MAIN ââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ
+# Ã¢ÂÂÃ¢ÂÂ MAIN Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂ
 
 def cleanup_old_briefs():
     """Delete brief-*.html and brief-*.mp3 files older than the last 7 days."""
@@ -961,16 +961,16 @@ def main():
     today    = datetime.date.today()
     date_str = today.strftime("%A, %B %-d, %Y")
     is_monday = today.weekday() == 0
-    page_url = f"https://{GITHUB_USER}.github.io/{GITHUB_REPO}/brief-{date_str}.html"
+    page_url = f"https://{GITHUB_USER}.github.io/{GITHUB_REPO}/brief-{datetime.date.today().strftime('%Y-%m-%d')}.html"
 
     if is_monday:
         sat = (today - datetime.timedelta(days=2)).strftime("%B %-d")
         sun = (today - datetime.timedelta(days=1)).strftime("%B %-d")
         brief_label = f"Monday Brief &middot; {sat}&ndash;{sun} + Today"
-        print(f"\n{'='*50}\nMonday Brief â {date_str}\n{'='*50}\n")
+        print(f"\n{'='*50}\nMonday Brief Ã¢ÂÂ {date_str}\n{'='*50}\n")
     else:
         brief_label = date_str
-        print(f"\n{'='*50}\nDaily Brief â {date_str}\n{'='*50}\n")
+        print(f"\n{'='*50}\nDaily Brief Ã¢ÂÂ {date_str}\n{'='*50}\n")
 
     client = Anthropic(api_key=ANTHROPIC_API_KEY)
     sections_data = {}
@@ -999,7 +999,7 @@ def main():
             world_h = fetch_headlines(feed_cfg["world"], count=5)
             print(f"  {len(us_h)} US + {len(world_h)} world headlines")
             if not us_h and not world_h:
-                print("  â  No headlines, skipping.")
+                print("  Ã¢ÂÂ  No headlines, skipping.")
                 continue
             raw = summarize_economy(client, us_h, world_h,
                                     is_monday=is_monday, recent_titles=recent_titles)
@@ -1007,7 +1007,7 @@ def main():
             headlines = fetch_sports_headlines()
             print(f"  {len(headlines)} total sports headlines")
             if not headlines:
-                print("  â  No headlines, skipping.")
+                print("  Ã¢ÂÂ  No headlines, skipping.")
                 continue
             raw = summarize_standard(client, section, headlines,
                                      is_monday=is_monday, recent_titles=recent_titles)
@@ -1015,16 +1015,16 @@ def main():
             headlines = fetch_headlines(feed_cfg, count=8)
             print(f"  {len(headlines)} headlines")
             if not headlines:
-                print("  â  No headlines, skipping.")
+                print("  Ã¢ÂÂ  No headlines, skipping.")
                 continue
             raw = summarize_standard(client, section, headlines,
                                      is_monday=is_monday, recent_titles=recent_titles)
 
         stories = parse_stories(raw, section)
-        print(f"  â {len(stories)} stories written")
+        print(f"  Ã¢ÂÂ {len(stories)} stories written")
         sections_data[section] = stories
 
-    # ââ CROSS-SECTION BODY DEDUP ââââââââââââââââââââââââââââââââââââââââââââââ
+    # Ã¢ÂÂÃ¢ÂÂ CROSS-SECTION BODY DEDUP Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂÃ¢ÂÂ
     def body_tokens(text):
         stopwords = {"the","a","an","in","on","at","of","to","and","or","but",
                      "is","are","was","were","it","its","this","that","for",
@@ -1072,7 +1072,7 @@ def main():
             overlap = len(tok_i & tok_j) / min(len(tok_i), len(tok_j))
             topic_overlap = len(top_i & top_j) / max(min(len(top_i), len(top_j)), 1) if (top_i and top_j) else 0
             if overlap >= 0.30 or topic_overlap >= 0.40:
-                print(f"  â  Overlap ({overlap:.0%}) â dropping [{sec_j}] story {idx_j+1} "
+                print(f"  Ã¢ÂÂ  Overlap ({overlap:.0%}) Ã¢ÂÂ dropping [{sec_j}] story {idx_j+1} "
                       f"(similar to [{sec_i}] story {idx_i+1}, token={overlap:.0%} topic={topic_overlap:.0%})")
                 to_drop.setdefault(sec_j, set()).add(idx_j)
 
@@ -1089,7 +1089,7 @@ def main():
     print("\nSaving story history...")
     history = update_history(history, sections_data)
     save_story_history(history, sha=history_sha)
-    print("  â Saved")
+    print("  Ã¢ÂÂ Saved")
 
     print("Building HTML...")
     print("Generating audio...")
@@ -1105,7 +1105,7 @@ def main():
     send_email(date_str, page_url, audio_url, total, est_mins,
                brief_label=brief_label, is_monday=is_monday, sections_count=sections_count)
 
-    print(f"\nâ Done! {page_url}\n")
+    print(f"\nÃ¢ÂÂ Done! {page_url}\n")
 
 
 def send_mms_alert(error_msg):
