@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+<meta name="apple-mobile-web-app-capable" content="yes">
+    <title>Daily Brief &middot; Sunday, May 3, 2026</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lora:ital,wght@0,400;0,600;1,400&family=DM+Mono:wght@300;400;500&display=swap');
+:root{--bg:#f5f0e8;--ink:#1a1410;--muted:#7a7060;--dim:#c8c0b0;--rule:#d8d0c0;--accent:#c8390a;--card:#ede8e0}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--ink);font-family:'Lora',Georgia,serif;padding-bottom:130px}
+.mast{border-bottom:3px double var(--ink);padding:16px 20px 12px;text-align:center}
+.mast-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px}
+.meta,.badge{font-family:'DM Mono',monospace;font-size:9px;letter-spacing:.12em;text-transform:uppercase}
+.meta{color:var(--muted)}.badge{color:#2a7a3a;border:1px solid #2a7a3a;padding:2px 8px}
+.logo{font-family:'Bebas Neue',sans-serif;font-size:clamp(42px,12vw,72px);letter-spacing:.04em;line-height:1}
+.logo span{color:var(--accent)}
+.hrule{height:1px;background:var(--ink);margin:8px 0 6px}
+.tagline{font-family:'Lora',serif;font-style:italic;font-size:11px;color:var(--muted)}
+.stats{display:flex;border-bottom:1px solid var(--rule);font-family:'DM Mono',monospace;font-size:10px;color:var(--muted)}
+.stat{flex:1;padding:8px 12px;border-right:1px solid var(--rule);text-align:center}
+.stat:last-child{border-right:none}
+.sv{font-size:18px;color:var(--ink);display:block;font-weight:500}
+.pa-wrap{padding:14px 20px;border-bottom:1px solid var(--rule)}
+.pa{width:100%;display:flex;align-items:center;justify-content:center;gap:10px;background:var(--ink);color:var(--bg);border:none;padding:14px;font-family:'Bebas Neue',sans-serif;font-size:18px;letter-spacing:.12em;cursor:pointer;transition:background .15s}
+.pa:hover{background:var(--accent)}
+.sh{display:flex;align-items:center;padding:0 20px;margin-top:24px}
+.sl{font-family:'Bebas Neue',sans-serif;font-size:11px;letter-spacing:.25em;color:#fff;padding:3px 10px}
+.sln{flex:1;height:2px;background:var(--rule);margin-left:10px}
+.sl-list{padding:0 20px}
+.card{border-bottom:1px solid var(--rule);padding:14px 0;cursor:pointer;position:relative;transition:background .15s}
+.card:hover,.card.active{background:var(--card);margin:0 -20px;padding:14px 20px}
+.card.active::before{content:'';position:absolute;left:0;top:0;bottom:0;width:4px;background:var(--accent)}
+.kicker{display:flex;align-items:center;gap:8px;margin-bottom:5px}
+.num{font-family:'DM Mono',monospace;font-size:9px;color:var(--dim)}
+.stag{font-family:'DM Mono',monospace;font-size:8px;letter-spacing:.15em;text-transform:uppercase;padding:1px 6px;color:#fff;border-radius:1px}
+.stitle{font-family:'Lora',serif;font-size:15px;font-weight:600;line-height:1.35;color:var(--ink);margin-bottom:5px}
+.sbody{font-size:13px;line-height:1.65;color:var(--muted)}
+.bars{display:none;align-items:flex-end;gap:2px;height:14px;margin-top:8px}
+.card.active .bars{display:flex}
+.bars span{display:block;width:3px;border-radius:1px;background:var(--accent);animation:bw .8s ease-in-out infinite}
+.bars span:nth-child(1){height:6px}.bars span:nth-child(2){height:12px;animation-delay:.1s}
+.bars span:nth-child(3){height:8px;animation-delay:.2s}.bars span:nth-child(4){height:14px;animation-delay:.05s}
+.bars span:nth-child(5){height:5px;animation-delay:.15s}
+@keyframes bw{0%,100%{transform:scaleY(.4);opacity:.5}50%{transform:scaleY(1);opacity:1}}
+.footer{padding:20px;font-family:'DM Mono',monospace;font-size:9px;color:var(--dim);border-top:1px solid var(--rule);margin-top:20px;text-align:center;line-height:1.8}
+.player{position:fixed;bottom:0;left:0;right:0;background:var(--ink);border-top:3px solid var(--accent);padding:10px 16px 20px;z-index:100}
+.pnow{font-family:'DM Mono',monospace;font-size:9px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-bottom:8px;display:flex;justify-content:space-between;align-items:center}
+.pnow-t{color:#f5f0e8;font-size:10px;flex:1;margin-left:8px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.pctrl{display:flex;align-items:center;gap:10px}
+.pbtn{width:42px;height:42px;border-radius:50%;background:var(--accent);border:none;cursor:pointer;display:flex;align-items:center;justify-content:center;flex-shrink:0;transition:background .15s}
+.pbtn:hover{background:#e04010}.pbtn:active{transform:scale(.95)}.pbtn svg{fill:white}
+.pskip{width:34px;height:34px;border-radius:50%;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.15);cursor:pointer;display:flex;align-items:center;justify-content:center}
+.pskip svg{fill:rgba(255,255,255,.6)}
+.pw{flex:1}
+.pt{width:100%;height:3px;background:rgba(255,255,255,.12);border-radius:2px;cursor:pointer;margin-bottom:4px}
+.pf{height:100%;background:var(--accent);border-radius:2px;width:0%;transition:width .5s linear}
+.tr{display:flex;justify-content:space-between;font-family:'DM Mono',monospace;font-size:9px;color:rgba(255,255,255,.35)}
+.spd{font-family:'DM Mono',monospace;font-size:10px;color:rgba(255,255,255,.5);background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.15);padding:5px 8px;cursor:pointer;border-radius:2px}
+</style>
+</head>
+<body>
+<div class="mast">
+  <div class="mast-top">
+    <span class="meta">SUNDAY, MAY 3, 2026</span>
+    <span class="badge">ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ AI GENERATED</span>
+  </div>
+  <div class="logo">Daily <span>Brief</span></div>
+  <div class="hrule"></div>
+    <div class="tagline">Sunday, May 3, 2026 &middot; 9 stories &middot; ~13 min</div>
+</div>
+<div class="stats">
+  <div class="stat"><span class="sv">9</span>Stories</div>
+    <div class="stat"><span class="sv">6</span>Sections</div>
+  <div class="stat"><span class="sv">~13m</span>Duration</div>
+</div>
+<div class="pa-wrap">
+  <button class="pa" onclick="startAll()">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="white"><path d="M8 5v14l11-7z"/></svg>
+    PLAY ALL STORIES
+  </button>
+</div>
+<div class="sh"><span class="sl" style="background:#c8390a">WORLD</span><div class="sln"></div></div><div class="sl-list"><div class="card" data-idx="0" data-speech="WORLD. Global Demand for Rare Earth Minerals Is Intensifying Criminal Threats in the Amazon Rainforest. The race for critical minerals needed in electric cars and military drones is turning the Amazon into a new battleground for organized crime. Global demand for these rare earth elements has surged as countries push toward green energy and advanced weapons systems. Criminal groups are now targeting mining operations deep in the world&#39;s largest rainforest, creating a dangerous new front in the fight over resources that power modern technology. The minerals are essential for manufacturing everything from smartphone batteries to sophisticated military equipment. Environmental experts warn that this criminal infiltration could accelerate deforestation while making mining operations increasingly perilous for legitimate workers. The situation puts governments in a bind—they need these materials for national security and climate goals, but extracting them safely is becoming nearly impossible. Indigenous communities living in these remote areas are caught in the crossfire as armed groups compete for control. This criminal expansion threatens to undermine both environmental protection efforts and the stable supply chains that tech companies depend on." onclick="playStory(0)">
+<div class="kicker"><span class="num">01</span><span class="stag" style="background:#c8390a">WORLD</span></div>
+<div class="stitle">Global Demand for Rare Earth Minerals Is Intensifying Criminal Threats in the Amazon Rainforest</div>
+<div class="sbody">The race for critical minerals needed in electric cars and military drones is turning the Amazon into a new battleground for organized crime. Global demand for these rare earth elements has surged as countries push toward green energy and advanced weapons systems. Criminal groups are now targeting mining operations deep in the world&#39;s largest rainforest, creating a dangerous new front in the fight over resources that power modern technology. The minerals are essential for manufacturing everything from smartphone batteries to sophisticated military equipment. Environmental experts warn that this criminal infiltration could accelerate deforestation while making mining operations increasingly perilous for legitimate workers. The situation puts governments in a bind—they need these materials for national security and climate goals, but extracting them safely is becoming nearly impossible. Indigenous communities living in these remote areas are caught in the crossfire as armed groups compete for control. This criminal expansion threatens to undermine both environmental protection efforts and the stable supply chains that tech companies depend on.</div>
+<div class="bars"><span></span><span></span><span></span><span></span><span></span></div>
+</div><div class="card" data-idx="1" data-speech="WORLD. Elections in West Bengal and Other Indian States Could Reshape National Politics. Over 154 million Indians cast their ballots last month in crucial state legislature elections, and vote counting begins Monday morning. These aren&#39;t just local contests—they have the power to shift the entire balance of political power across the country. West Bengal is the marquee race, where the outcome could signal whether Prime Minister Modi&#39;s party can expand its influence or faces growing resistance. State elections in India often serve as a barometer for national political trends and can make or break careers in New Delhi. The massive turnout shows voters are deeply engaged, with many seeing these races as a referendum on current policies. Results from these states will determine who controls key regional governments and their substantial budgets. Opposition parties are hoping strong showings here could build momentum for future national campaigns. The counting process itself will be closely watched, as election officials work through millions of paper ballots. Political analysts expect the results to reshape strategies for both ruling and opposition parties heading into the next general election cycle." onclick="playStory(1)">
+<div class="kicker"><span class="num">02</span><span class="stag" style="background:#c8390a">WORLD</span></div>
+<div class="stitle">Elections in West Bengal and Other Indian States Could Reshape National Politics</div>
+<div class="sbody">Over 154 million Indians cast their ballots last month in crucial state legislature elections, and vote counting begins Monday morning. These aren&#39;t just local contests—they have the power to shift the entire balance of political power across the country. West Bengal is the marquee race, where the outcome could signal whether Prime Minister Modi&#39;s party can expand its influence or faces growing resistance. State elections in India often serve as a barometer for national political trends and can make or break careers in New Delhi. The massive turnout shows voters are deeply engaged, with many seeing these races as a referendum on current policies. Results from these states will determine who controls key regional governments and their substantial budgets. Opposition parties are hoping strong showings here could build momentum for future national campaigns. The counting process itself will be closely watched, as election officials work through millions of paper ballots. Political analysts expect the results to reshape strategies for both ruling and opposition parties heading into the next general election cycle.</div>
+<div class="bars"><span></span><span></span><span></span><span></span><span></span></div>
+</div></div><div class="sh"><span class="sl" style="background:#1a5c8a">US</span><div class="sln"></div></div><div class="sl-list"><div class="card" data-idx="2" data-speech="US. Supreme Court Raises Bar for Proving Racial Discrimination in Voting. The Supreme Court just made it much harder to challenge voting laws that allegedly discriminate against racial minorities. The court ruled that plaintiffs must now prove a racial group was &quot;intentionally&quot; disadvantaged by voting restrictions, not just that they were disproportionately affected. This represents a significant shift in how voting rights cases will be argued going forward. The decision splits along familiar lines, with the majority saying clear intent must be demonstrated to prove discrimination. But the dissenting justices called this standard &quot;well-nigh impossible&quot; to meet in practice. Civil rights advocates worry this could undermine challenges to voter ID laws, redistricting plans, and polling place changes that affect minority communities. The ruling comes as voting access remains a contentious issue in statehouses across the country. Legal experts say the decision will force civil rights groups to completely rethink their litigation strategies. It&#39;s another major shift in voting rights law from a court that&#39;s been steadily narrowing protections over the past decade." onclick="playStory(2)">
+<div class="kicker"><span class="num">03</span><span class="stag" style="background:#1a5c8a">US</span></div>
+<div class="stitle">Supreme Court Raises Bar for Proving Racial Discrimination in Voting</div>
+<div class="sbody">The Supreme Court just made it much harder to challenge voting laws that allegedly discriminate against racial minorities. The court ruled that plaintiffs must now prove a racial group was &quot;intentionally&quot; disadvantaged by voting restrictions, not just that they were disproportionately affected. This represents a significant shift in how voting rights cases will be argued going forward. The decision splits along familiar lines, with the majority saying clear intent must be demonstrated to prove discrimination. But the dissenting justices called this standard &quot;well-nigh impossible&quot; to meet in practice. Civil rights advocates worry this could undermine challenges to voter ID laws, redistricting plans, and polling place changes that affect minority communities. The ruling comes as voting access remains a contentious issue in statehouses across the country. Legal experts say the decision will force civil rights groups to completely rethink their litigation strategies. It&#39;s another major shift in voting rights law from a court that&#39;s been steadily narrowing protections over the past decade.</div>
+<div class="bars"><span></span><span></span><span></span><span></span><span></span></div>
+</div><div class="card" data-idx="3" data-speech="US. Bipartisan Anxiety Emerges Over Artificial Intelligence Threats. Something&#39;s happening that almost never occurs in today&#39;s polarized political climate – Democrats and Republicans are finding common ground on artificial intelligence concerns. Both parties are expressing growing unease about AI&#39;s rapid development and potential risks to society. The shared anxiety cuts across traditional ideological divides in ways that few issues manage anymore. Liberal lawmakers worry about job displacement and algorithmic bias affecting marginalized communities. Conservative politicians focus on national security threats and the concentration of AI power in tech companies. But there&#39;s genuine overlap in concerns about AI moving too fast without proper oversight. This rare moment of bipartisan agreement could create opportunities for actual legislation in a Congress that struggles to pass anything controversial. The question now is whether this unity will translate into meaningful action or just shared hand-wringing. Tech companies are watching closely as Washington finally starts paying serious attention to AI regulation." onclick="playStory(3)">
+<div class="kicker"><span class="num">04</span><span class="stag" style="background:#1a5c8a">US</span></div>
+<div class="stitle">Bipartisan Anxiety Emerges Over Artificial Intelligence Threats</div>
+<div class="sbody">Something&#39;s happening that almost never occurs in today&#39;s polarized political climate – Democrats and Republicans are finding common ground on artificial intelligence concerns. Both parties are expressing growing unease about AI&#39;s rapid development and potential risks to society. The shared anxiety cuts across traditional ideological divides in ways that few issues manage anymore. Liberal lawmakers worry about job displacement and algorithmic bias affecting marginalized communities. Conservative politicians focus on national security threats and the concentration of AI power in tech companies. But there&#39;s genuine overlap in concerns about AI moving too fast without proper oversight. This rare moment of bipartisan agreement could create opportunities for actual legislation in a Congress that struggles to pass anything controversial. The question now is whether this unity will translate into meaningful action or just shared hand-wringing. Tech companies are watching closely as Washington finally starts paying serious attention to AI regulation.</div>
+<div class="bars"><span></span><span></span><span></span><span></span><span></span></div>
+</div></div><div class="sh"><span class="sl" style="background:#1a6a5a">ECONOMY</span><div class="sln"></div></div><div class="sl-list"><div class="card" data-idx="4" data-speech="ECONOMY. Spirit Airlines Shuts Down After Bailout Talks Collapse. Spirit Airlines is officially grounding all flights and shutting down immediately after rescue negotiations with the Trump administration fell through. The budget carrier had been desperately seeking a $500 million federal bailout to stay afloat, but those talks collapsed yesterday. Spirit&#39;s sudden closure leaves thousands of passengers stranded and scrambling to rebook on other airlines during what&#39;s already a busy travel period. The airline&#39;s demise marks the end of one of America&#39;s most recognizable ultra-low-cost carriers, known for its no-frills approach and rock-bottom fares. Spirit&#39;s business model of charging for everything from carry-on bags to seat selection worked well during good times but couldn&#39;t survive rising fuel costs and increased competition. The shutdown will likely push airfares higher across the board as the industry loses a major price competitor. Airlines like Southwest and Frontier are expected to absorb most of Spirit&#39;s routes, but capacity will be tighter in many markets. For travelers who booked with Spirit, credit card companies and travel insurance may be their best bet for recovering costs, though the process could take months." onclick="playStory(4)">
+<div class="kicker"><span class="num">05</span><span class="stag" style="background:#1a6a5a">ECONOMY</span></div>
+<div class="stitle">Spirit Airlines Shuts Down After Bailout Talks Collapse</div>
+<div class="sbody">Spirit Airlines is officially grounding all flights and shutting down immediately after rescue negotiations with the Trump administration fell through. The budget carrier had been desperately seeking a $500 million federal bailout to stay afloat, but those talks collapsed yesterday. Spirit&#39;s sudden closure leaves thousands of passengers stranded and scrambling to rebook on other airlines during what&#39;s already a busy travel period. The airline&#39;s demise marks the end of one of America&#39;s most recognizable ultra-low-cost carriers, known for its no-frills approach and rock-bottom fares. Spirit&#39;s business model of charging for everything from carry-on bags to seat selection worked well during good times but couldn&#39;t survive rising fuel costs and increased competition. The shutdown will likely push airfares higher across the board as the industry loses a major price competitor. Airlines like Southwest and Frontier are expected to absorb most of Spirit&#39;s routes, but capacity will be tighter in many markets. For travelers who booked with Spirit, credit card companies and travel insurance may be their best bet for recovering costs, though the process could take months.</div>
+<div class="bars"><span></span><span></span><span></span><span></span><span></span></div>
+</div><div class="card" data-idx="5" data-speech="ECONOMY. Trump Threatens 25% Tariffs on European Cars. President Trump announced plans to slap 25% tariffs on European Union automobiles, a sharp increase from the current 15% rate established last July. The move would make German luxury brands like BMW and Mercedes significantly more expensive for American buyers, potentially adding thousands to sticker prices. European automakers are already bracing for the impact, with some considering accelerating their plans to build more vehicles in U.S. factories. The proposed tariffs come as Trump continues his aggressive trade approach, arguing that European countries have unfair advantages in the automotive sector. Currently, the EU exports roughly 1.2 million vehicles annually to the United States, making this a substantial revenue target. Industry analysts warn the higher tariffs could backfire by reducing competition and driving up prices for all cars, not just imports. European officials haven&#39;t yet responded formally, but retaliatory measures seem likely given the continent&#39;s history of matching U.S. trade actions. The auto industry is particularly vulnerable since manufacturers have spent billions integrating global supply chains that tariffs can disrupt overnight." onclick="playStory(5)">
+<div class="kicker"><span class="num">06</span><span class="stag" style="background:#1a6a5a">ECONOMY</span></div>
+<div class="stitle">Trump Threatens 25% Tariffs on European Cars</div>
+<div class="sbody">President Trump announced plans to slap 25% tariffs on European Union automobiles, a sharp increase from the current 15% rate established last July. The move would make German luxury brands like BMW and Mercedes significantly more expensive for American buyers, potentially adding thousands to sticker prices. European automakers are already bracing for the impact, with some considering accelerating their plans to build more vehicles in U.S. factories. The proposed tariffs come as Trump continues his aggressive trade approach, arguing that European countries have unfair advantages in the automotive sector. Currently, the EU exports roughly 1.2 million vehicles annually to the United States, making this a substantial revenue target. Industry analysts warn the higher tariffs could backfire by reducing competition and driving up prices for all cars, not just imports. European officials haven&#39;t yet responded formally, but retaliatory measures seem likely given the continent&#39;s history of matching U.S. trade actions. The auto industry is particularly vulnerable since manufacturers have spent billions integrating global supply chains that tariffs can disrupt overnight.</div>
+<div class="bars"><span></span><span></span><span></span><span></span><span></span></div>
+</div></div><div class="sh"><span class="sl" style="background:#2a7a3a">RE ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ· NYC</span><div class="sln"></div></div><div class="sl-list"><div class="card" data-idx="6" data-speech="RE ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ· NYC. Japanese Investors Pour $2.1 Billion Into NYC Real Estate. Japanese capital is reshaping New York City&#39;s real estate landscape in a big way. Japan-linked firms have poured at least $2.1 billion into NYC property since the start of 2024, making them the dominant foreign buyers in the market. What&#39;s particularly striking is where this money&#39;s going – it&#39;s not just the usual trophy office towers anymore. Japanese investors are increasingly targeting smaller multifamily walk-ups, buying up 326 units across $233 million in deals. This shift is providing a crucial lifeline to NYC&#39;s sluggish investment sales market, especially for aging apartment buildings that need capital infusion. The trend represents a strategic pivot for Japanese buyers who&#39;ve historically focused on flashy retail and office properties. For property owners in multifamily buildings, this influx of foreign capital could mean more competitive bidding and higher sale prices. The timing couldn&#39;t be better for the city&#39;s real estate market, which has been struggling with reduced transaction volumes since the pandemic." onclick="playStory(6)">
+<div class="kicker"><span class="num">07</span><span class="stag" style="background:#2a7a3a">RE ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ· NYC</span></div>
+<div class="stitle">Japanese Investors Pour $2.1 Billion Into NYC Real Estate</div>
+<div class="sbody">Japanese capital is reshaping New York City&#39;s real estate landscape in a big way. Japan-linked firms have poured at least $2.1 billion into NYC property since the start of 2024, making them the dominant foreign buyers in the market. What&#39;s particularly striking is where this money&#39;s going – it&#39;s not just the usual trophy office towers anymore. Japanese investors are increasingly targeting smaller multifamily walk-ups, buying up 326 units across $233 million in deals. This shift is providing a crucial lifeline to NYC&#39;s sluggish investment sales market, especially for aging apartment buildings that need capital infusion. The trend represents a strategic pivot for Japanese buyers who&#39;ve historically focused on flashy retail and office properties. For property owners in multifamily buildings, this influx of foreign capital could mean more competitive bidding and higher sale prices. The timing couldn&#39;t be better for the city&#39;s real estate market, which has been struggling with reduced transaction volumes since the pandemic.</div>
+<div class="bars"><span></span><span></span><span></span><span></span><span></span></div>
+</div></div><div class="sh"><span class="sl" style="background:#8a4a1a">SPORTS</span><div class="sln"></div></div><div class="sl-list"><div class="card" data-idx="7" data-speech="SPORTS. Padres Sale Signals Major Ownership Change in MLB. The San Diego Padres have reached an agreement to sell control of the team to an investor group led by Kwanza Jones and José E. Feliciano. This marks a significant ownership transition for one of baseball&#39;s most ambitious franchises in recent years. The Padres have been aggressive spenders under current ownership, making major moves like signing Manny Machado and trading for Juan Soto. Now they&#39;re changing hands entirely. The Jones-Feliciano group will take control of a team that&#39;s been trying to build a championship contender in one of MLB&#39;s most challenging markets. Financial terms of the deal weren&#39;t disclosed, but ownership changes in Major League Baseball typically involve hundreds of millions of dollars. The sale still needs approval from other MLB owners, which is standard procedure for any franchise transaction. This represents one of the biggest ownership shakeups in baseball this year. The new ownership group will inherit a team with playoff aspirations and a hefty payroll to match." onclick="playStory(7)">
+<div class="kicker"><span class="num">08</span><span class="stag" style="background:#8a4a1a">SPORTS</span></div>
+<div class="stitle">Padres Sale Signals Major Ownership Change in MLB</div>
+<div class="sbody">The San Diego Padres have reached an agreement to sell control of the team to an investor group led by Kwanza Jones and José E. Feliciano. This marks a significant ownership transition for one of baseball&#39;s most ambitious franchises in recent years. The Padres have been aggressive spenders under current ownership, making major moves like signing Manny Machado and trading for Juan Soto. Now they&#39;re changing hands entirely. The Jones-Feliciano group will take control of a team that&#39;s been trying to build a championship contender in one of MLB&#39;s most challenging markets. Financial terms of the deal weren&#39;t disclosed, but ownership changes in Major League Baseball typically involve hundreds of millions of dollars. The sale still needs approval from other MLB owners, which is standard procedure for any franchise transaction. This represents one of the biggest ownership shakeups in baseball this year. The new ownership group will inherit a team with playoff aspirations and a hefty payroll to match.</div>
+<div class="bars"><span></span><span></span><span></span><span></span><span></span></div>
+</div></div><div class="sh"><span class="sl" style="background:#6a2a8a">BBALL</span><div class="sln"></div></div><div class="sl-list"><div class="card" data-idx="8" data-speech="BBALL. 76ers Complete Historic Comeback Against Celtics. The Philadelphia 76ers just pulled off one of the most improbable turnarounds in NBA playoff history. They knocked out the Boston Celtics in a Game 7 thriller, becoming just the 14th team ever to rally from a 3-1 series deficit. Joel Embiid led the charge in what&#39;s being called one of the most dramatic finishes we&#39;ve seen this postseason. The comeback caps an incredible resurrection for Philadelphia, who looked dead in the water after falling behind three games to one. Only thirteen other teams in NBA history have managed to claw back from that kind of hole, making this achievement truly special. The victory sends the 76ers into the second round, where they&#39;ll face a much different kind of pressure. For Boston, it&#39;s a devastating end to what looked like a sure thing just days ago. The Celtics had multiple chances to close out the series but couldn&#39;t deliver the knockout punch. This result completely reshapes the Eastern Conference playoff picture moving forward." onclick="playStory(8)">
+<div class="kicker"><span class="num">09</span><span class="stag" style="background:#6a2a8a">BBALL</span></div>
+<div class="stitle">76ers Complete Historic Comeback Against Celtics</div>
+<div class="sbody">The Philadelphia 76ers just pulled off one of the most improbable turnarounds in NBA playoff history. They knocked out the Boston Celtics in a Game 7 thriller, becoming just the 14th team ever to rally from a 3-1 series deficit. Joel Embiid led the charge in what&#39;s being called one of the most dramatic finishes we&#39;ve seen this postseason. The comeback caps an incredible resurrection for Philadelphia, who looked dead in the water after falling behind three games to one. Only thirteen other teams in NBA history have managed to claw back from that kind of hole, making this achievement truly special. The victory sends the 76ers into the second round, where they&#39;ll face a much different kind of pressure. For Boston, it&#39;s a devastating end to what looked like a sure thing just days ago. The Celtics had multiple chances to close out the series but couldn&#39;t deliver the knockout punch. This result completely reshapes the Eastern Conference playoff picture moving forward.</div>
+<div class="bars"><span></span><span></span><span></span><span></span><span></span></div>
+</div></div>
+<div class="footer">
+    Generated by Claude AI &middot; Reuters &middot; NYT &middot; BBC &middot; FT &middot; MarketWatch &middot; ESPN &middot; The Real Deal &middot; HousingWire<br>
+    Sunday, May 3, 2026 &middot; Your Daily Brief
+</div>
+<div class="player">
+  <div class="pnow"><span>Now Playing</span><span class="pnow-t" id="nt">Tap Play All to begin</span></div>
+  <div class="pctrl">
+    <button class="pbtn" onclick="togglePlay()"><svg id="pi" width="20" height="20" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></button>
+    <button class="pskip" onclick="skipNext()"><svg width="16" height="16" viewBox="0 0 24 24"><path d="M6 18l8.5-6L6 6v12zM16 6v12h2V6h-2z"/></svg></button>
+    <div class="pw">
+      <div class="pt" onclick="seek(event)"><div class="pf" id="pf"></div></div>
+      <div class="tr"><span id="tc">0:00</span><span id="tt">0:00</span></div>
+    </div>
+    <button class="spd" id="sb" onclick="cycleSPd()">1.1x</button>
+  </div>
+</div>
+<script>
+const cards=Array.from(document.querySelectorAll('.card'));
+const stories=cards.map(c=>({title:c.querySelector('.stitle').textContent,speech:c.dataset.speech}));
+let cur=-1,going=false,paused=false,allMode=false,si=2,utt=null,dur=0,el=0,ts=null,tid=null;
+    const spds=[0.85,1,1.1,1.2,1.5,1.75],slab=['0.85x','1x','1.1x','1.2x','1.5x','1.75x'];
+const syn=window.speechSynthesis;
+function gv(){
+  const v=syn.getVoices();
+  const preferred=['Samantha','Karen','Daniel','Google US English','Google UK English Female','Microsoft Zira','Microsoft Mark','Moira','Tessa'];
+  for(const name of preferred){const f=v.find(x=>x.name.includes(name)&&x.lang.startsWith('en'));if(f)return f;}
+  return v.find(x=>x.lang==='en-US')||v.find(x=>x.lang.startsWith('en'))||v[0];
+}
+function fmt(s){if(!s||isNaN(s))return'0:00';return Math.floor(s/60)+':'+(Math.floor(s%60)+'').padStart(2,'0');}
+function tick(){if(!ts)return;el=(Date.now()-ts)/1000;document.getElementById('pf').style.width=Math.min(el/dur*100,100)+'%';document.getElementById('tc').textContent=fmt(el);}
+function setActive(i){cards.forEach(c=>c.classList.remove('active'));if(i>=0){cards[i].classList.add('active');cards[i].scrollIntoView({behavior:'smooth',block:'center'});}}
+function playStory(i,auto=false){
+  if(!auto)allMode=false;
+  syn.cancel();clearInterval(tid);going=false;paused=false;
+  cur=i;const s=stories[i];
+  document.getElementById('nt').textContent=s.title;
+  setActive(i);
+  utt=new SpeechSynthesisUtterance(s.speech);
+  utt.rate=spds[si];utt.pitch=1.05;utt.volume=1;
+  const v=gv();if(v)utt.voice=v;
+  dur=s.speech.split(' ').length/(150*spds[si])*60;
+  document.getElementById('tt').textContent=fmt(dur);
+  document.getElementById('tc').textContent='0:00';
+  document.getElementById('pf').style.width='0%';
+  utt.onstart=()=>{going=true;ts=Date.now();tid=setInterval(tick,600);document.getElementById('pi').innerHTML='<path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/>';};
+  utt.onend=()=>{going=false;clearInterval(tid);document.getElementById('pf').style.width='100%';document.getElementById('pi').innerHTML='<path d="M8 5v14l11-7z"/>';if(allMode&&cur<stories.length-1)setTimeout(()=>playStory(cur+1,true),700);else if(allMode){document.getElementById('nt').textContent='ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ All stories complete!';setActive(-1);allMode=false;}};
+  utt.onerror=()=>{going=false;clearInterval(tid);document.getElementById('pi').innerHTML='<path d="M8 5v14l11-7z"/>'};
+  syn.speak(utt);
+}
+function togglePlay(){
+  if(!going&&!paused){if(cur===-1&&stories.length){allMode=true;playStory(0,true);}else if(cur>=0)playStory(cur,allMode);return;}
+  if(going){syn.pause();going=false;paused=true;clearInterval(tid);document.getElementById('pi').innerHTML='<path d="M8 5v14l11-7z"/>';}
+  else{syn.resume();going=true;paused=false;ts=Date.now()-(el*1000);tid=setInterval(tick,600);document.getElementById('pi').innerHTML='<path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/>';}
+}
+function skipNext(){if(cur<stories.length-1)playStory(cur+1,allMode);}
+function startAll(){allMode=true;playStory(0,true);}
+function cycleSpd(){si=(si+1)%spds.length;document.getElementById('sb').textContent=slab[si];if(going||paused){const i=cur;syn.cancel();clearInterval(tid);going=false;paused=false;playStory(i,allMode);}}
+function seek(e){el=(e.offsetX/e.currentTarget.offsetWidth)*dur;if(cur>=0){const i=cur;syn.cancel();clearInterval(tid);going=false;paused=false;playStory(i,allMode);}}
+if(syn.onvoiceschanged!==undefined)syn.onvoiceschanged=()=>{};
+</script>
+</body>
+</html>
