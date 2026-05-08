@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+<meta name="apple-mobile-web-app-capable" content="yes">
+    <title>Daily Brief &middot; Friday, May 8, 2026</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lora:ital,wght@0,400;0,600;1,400&family=DM+Mono:wght@300;400;500&display=swap');
+:root{--bg:#f5f0e8;--ink:#1a1410;--muted:#7a7060;--dim:#c8c0b0;--rule:#d8d0c0;--accent:#c8390a;--card:#ede8e0}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--ink);font-family:'Lora',Georgia,serif;padding-bottom:130px}
+.mast{border-bottom:3px double var(--ink);padding:16px 20px 12px;text-align:center}
+.mast-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px}
+.meta,.badge{font-family:'DM Mono',monospace;font-size:9px;letter-spacing:.12em;text-transform:uppercase}
+.meta{color:var(--muted)}.badge{color:#2a7a3a;border:1px solid #2a7a3a;padding:2px 8px}
+.logo{font-family:'Bebas Neue',sans-serif;font-size:clamp(42px,12vw,72px);letter-spacing:.04em;line-height:1}
+.logo span{color:var(--accent)}
+.hrule{height:1px;background:var(--ink);margin:8px 0 6px}
+.tagline{font-family:'Lora',serif;font-style:italic;font-size:11px;color:var(--muted)}
+.stats{display:flex;border-bottom:1px solid var(--rule);font-family:'DM Mono',monospace;font-size:10px;color:var(--muted)}
+.stat{flex:1;padding:8px 12px;border-right:1px solid var(--rule);text-align:center}
+.stat:last-child{border-right:none}
+.sv{font-size:18px;color:var(--ink);display:block;font-weight:500}
+.pa-wrap{padding:14px 20px;border-bottom:1px solid var(--rule)}
+.pa{width:100%;display:flex;align-items:center;justify-content:center;gap:10px;background:var(--ink);color:var(--bg);border:none;padding:14px;font-family:'Bebas Neue',sans-serif;font-size:18px;letter-spacing:.12em;cursor:pointer;transition:background .15s}
+.pa:hover{background:var(--accent)}
+.sh{display:flex;align-items:center;padding:0 20px;margin-top:24px}
+.sl{font-family:'Bebas Neue',sans-serif;font-size:11px;letter-spacing:.25em;color:#fff;padding:3px 10px}
+.sln{flex:1;height:2px;background:var(--rule);margin-left:10px}
+.sl-list{padding:0 20px}
+.card{border-bottom:1px solid var(--rule);padding:14px 0;cursor:pointer;position:relative;transition:background .15s}
+.card:hover,.card.active{background:var(--card);margin:0 -20px;padding:14px 20px}
+.card.active::before{content:'';position:absolute;left:0;top:0;bottom:0;width:4px;background:var(--accent)}
+.kicker{display:flex;align-items:center;gap:8px;margin-bottom:5px}
+.num{font-family:'DM Mono',monospace;font-size:9px;color:var(--dim)}
+.stag{font-family:'DM Mono',monospace;font-size:8px;letter-spacing:.15em;text-transform:uppercase;padding:1px 6px;color:#fff;border-radius:1px}
+.stitle{font-family:'Lora',serif;font-size:15px;font-weight:600;line-height:1.35;color:var(--ink);margin-bottom:5px}
+.sbody{font-size:13px;line-height:1.65;color:var(--muted)}
+.bars{display:none;align-items:flex-end;gap:2px;height:14px;margin-top:8px}
+.card.active .bars{display:flex}
+.bars span{display:block;width:3px;border-radius:1px;background:var(--accent);animation:bw .8s ease-in-out infinite}
+.bars span:nth-child(1){height:6px}.bars span:nth-child(2){height:12px;animation-delay:.1s}
+.bars span:nth-child(3){height:8px;animation-delay:.2s}.bars span:nth-child(4){height:14px;animation-delay:.05s}
+.bars span:nth-child(5){height:5px;animation-delay:.15s}
+@keyframes bw{0%,100%{transform:scaleY(.4);opacity:.5}50%{transform:scaleY(1);opacity:1}}
+.footer{padding:20px;font-family:'DM Mono',monospace;font-size:9px;color:var(--dim);border-top:1px solid var(--rule);margin-top:20px;text-align:center;line-height:1.8}
+.player{position:fixed;bottom:0;left:0;right:0;background:var(--ink);border-top:3px solid var(--accent);padding:10px 16px 20px;z-index:100}
+.pnow{font-family:'DM Mono',monospace;font-size:9px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-bottom:8px;display:flex;justify-content:space-between;align-items:center}
+.pnow-t{color:#f5f0e8;font-size:10px;flex:1;margin-left:8px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.pctrl{display:flex;align-items:center;gap:10px}
+.pbtn{width:42px;height:42px;border-radius:50%;background:var(--accent);border:none;cursor:pointer;display:flex;align-items:center;justify-content:center;flex-shrink:0;transition:background .15s}
+.pbtn:hover{background:#e04010}.pbtn:active{transform:scale(.95)}.pbtn svg{fill:white}
+.pskip{width:34px;height:34px;border-radius:50%;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.15);cursor:pointer;display:flex;align-items:center;justify-content:center}
+.pskip svg{fill:rgba(255,255,255,.6)}
+.pw{flex:1}
+.pt{width:100%;height:3px;background:rgba(255,255,255,.12);border-radius:2px;cursor:pointer;margin-bottom:4px}
+.pf{height:100%;background:var(--accent);border-radius:2px;width:0%;transition:width .5s linear}
+.tr{display:flex;justify-content:space-between;font-family:'DM Mono',monospace;font-size:9px;color:rgba(255,255,255,.35)}
+.spd{font-family:'DM Mono',monospace;font-size:10px;color:rgba(255,255,255,.5);background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.15);padding:5px 8px;cursor:pointer;border-radius:2px}
+</style>
+</head>
+<body>
+<div class="mast">
+  <div class="mast-top">
+    <span class="meta">FRIDAY, MAY 8, 2026</span>
+    <span class="badge">ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ AI GENERATED</span>
+  </div>
+  <div class="logo">Daily <span>Brief</span></div>
+  <div class="hrule"></div>
+    <div class="tagline">Friday, May 8, 2026 &middot; 10 stories &middot; ~7 min</div>
+</div>
+<div class="stats">
+  <div class="stat"><span class="sv">10</span>Stories</div>
+    <div class="stat"><span class="sv">8</span>Sections</div>
+  <div class="stat"><span class="sv">~7m</span>Duration</div>
+</div>
+<div class="pa-wrap">
+  <button class="pa" onclick="startAll()">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="white"><path d="M8 5v14l11-7z"/></svg>
+    PLAY ALL STORIES
+  </button>
+</div>
+<div class="sh"><span class="sl" style="background:#c8390a">WORLD</span><div class="sln"></div></div><div class="sl-list"><div class="card" data-idx="0" data-speech="WORLD. South Africa&#39;s President Faces Impeachment After Court Ruling. South Africa&#39;s Constitutional Court just handed President Cyril Ramaphosa a major political blow. The judges ruled that parliament was wrong to block impeachment proceedings against him over a bizarre case from six years ago. The controversy centers on money that was stolen from a couch at Ramaphosa&#39;s farm. The case has lingered for years, but now lawmakers will be required to hold an impeachment inquiry. Ramaphosa is facing calls to resign as the legal pressure mounts. His presidency, which began with promises to tackle corruption after the scandal-plagued Jacob Zuma era, now finds itself mired in questions about his own conduct. The timing couldn&#39;t be worse for the African National Congress, which has already seen its electoral dominance slip. Whether Ramaphosa survives this politically depends on how much support he retains within his own party." onclick="playStory(0)">
+<div class="kicker"><span class="num">01</span><span class="stag" style="background:#c8390a">WORLD</span></div>
+<div class="stitle">South Africa&#39;s President Faces Impeachment After Court Ruling</div>
+<div class="sbody">South Africa&#39;s Constitutional Court just handed President Cyril Ramaphosa a major political blow. The judges ruled that parliament was wrong to block impeachment proceedings against him over a bizarre case from six years ago. The controversy centers on money that was stolen from a couch at Ramaphosa&#39;s farm. The case has lingered for years, but now lawmakers will be required to hold an impeachment inquiry. Ramaphosa is facing calls to resign as the legal pressure mounts. His presidency, which began with promises to tackle corruption after the scandal-plagued Jacob Zuma era, now finds itself mired in questions about his own conduct. The timing couldn&#39;t be worse for the African National Congress, which has already seen its electoral dominance slip. Whether Ramaphosa survives this politically depends on how much support he retains within his own party.</div>
+<div class="bars"><span></span><span></span><span></span><span></span><span></span></div>
+</div><div class="card" data-idx="1" data-speech="WORLD. Pakistan&#39;s Mediation Role Sparks Mass Expulsion from UAE. The United Arab Emirates is expelling Pakistani workers en masse, and it&#39;s tied directly to Pakistan&#39;s diplomatic efforts between the U.S. and Iran. As Islamabad mediates in the ongoing conflict, its relationship with the Emirates has deteriorated sharply. Pakistani workers in the UAE say they&#39;re being sent home in large numbers, disrupting lives and livelihoods built over years. The Emirates hasn&#39;t officially explained the expulsions, but the timing makes the connection clear. Pakistan&#39;s balancing act between Washington and Tehran has put it at odds with Abu Dhabi, which maintains its own complex relationship with Iran. For the workers caught in this geopolitical crossfire, it&#39;s a personal disaster. Many Pakistani families depend on remittances from relatives working in the Gulf. This crisis shows how regional diplomacy can have immediate, painful consequences for ordinary people far from the negotiating table." onclick="playStory(1)">
+<div class="kicker"><span class="num">02</span><span class="stag" style="background:#c8390a">WORLD</span></div>
+<div class="stitle">Pakistan&#39;s Mediation Role Sparks Mass Expulsion from UAE</div>
+<div class="sbody">The United Arab Emirates is expelling Pakistani workers en masse, and it&#39;s tied directly to Pakistan&#39;s diplomatic efforts between the U.S. and Iran. As Islamabad mediates in the ongoing conflict, its relationship with the Emirates has deteriorated sharply. Pakistani workers in the UAE say they&#39;re being sent home in large numbers, disrupting lives and livelihoods built over years. The Emirates hasn&#39;t officially explained the expulsions, but the timing makes the connection clear. Pakistan&#39;s balancing act between Washington and Tehran has put it at odds with Abu Dhabi, which maintains its own complex relationship with Iran. For the workers caught in this geopolitical crossfire, it&#39;s a personal disaster. Many Pakistani families depend on remittances from relatives working in the Gulf. This crisis shows how regional diplomacy can have immediate, painful consequences for ordinary people far from the negotiating table.</div>
+<div class="bars"><span></span><span></span><span></span><span></span><span></span></div>
+</div></div><div class="sh"><span class="sl" style="background:#1a5c8a">US</span><div class="sln"></div></div><div class="sl-list"><div class="card" data-idx="2" data-speech="US. Former Deputy Convicted in Rare Police Shooting Case. A former Franklin County sheriff&#39;s deputy has been found guilty in the 2020 fatal shooting of Casey Goodson Junior in Ohio. Jason Meade shot Goodson while searching for a fugitive, and the case marks one of the rare instances where a law enforcement officer has been convicted for a killing that occurred on duty. The shooting happened four years ago and has been closely watched as part of the broader national conversation around police use of force. Convictions in these cases remain exceptionally uncommon, even when officers face charges. The verdict comes after what&#39;s been a lengthy legal process since Goodson&#39;s death. Meade&#39;s defense centered on his actions during the fugitive search, though details of the specific circumstances weren&#39;t provided in court documents. The case now moves to sentencing, where Meade faces potential prison time. This outcome represents a significant development in accountability for on-duty police shootings." onclick="playStory(2)">
+<div class="kicker"><span class="num">03</span><span class="stag" style="background:#1a5c8a">US</span></div>
+<div class="stitle">Former Deputy Convicted in Rare Police Shooting Case</div>
+<div class="sbody">A former Franklin County sheriff&#39;s deputy has been found guilty in the 2020 fatal shooting of Casey Goodson Junior in Ohio. Jason Meade shot Goodson while searching for a fugitive, and the case marks one of the rare instances where a law enforcement officer has been convicted for a killing that occurred on duty. The shooting happened four years ago and has been closely watched as part of the broader national conversation around police use of force. Convictions in these cases remain exceptionally uncommon, even when officers face charges. The verdict comes after what&#39;s been a lengthy legal process since Goodson&#39;s death. Meade&#39;s defense centered on his actions during the fugitive search, though details of the specific circumstances weren&#39;t provided in court documents. The case now moves to sentencing, where Meade faces potential prison time. This outcome represents a significant development in accountability for on-duty police shootings.</div>
+<div class="bars"><span></span><span></span><span></span><span></span><span></span></div>
+</div></div><div class="sh"><span class="sl" style="background:#1a6a5a">ECONOMY</span><div class="sln"></div></div><div class="sl-list"><div class="card" data-idx="3" data-speech="ECONOMY. Federal Court Strikes Down Trump&#39;s Global Tariff. A federal trade court just ruled that President Trump&#39;s 10 percent tariff on most imports is illegal. The panel of judges found Trump lacked the legal authority to impose the sweeping duty that&#39;s been in place on goods from around the world. It&#39;s a major legal setback for the administration&#39;s trade policy, which has relied heavily on tariffs as an economic tool. The ruling doesn&#39;t address the specific tariffs tied to national security concerns or targeted at individual countries—just the broad-based levy. The White House hasn&#39;t yet announced whether it&#39;ll appeal the decision. For consumers, the ruling could eventually mean lower prices on imported goods if the tariff gets rolled back. But that depends entirely on how the administration responds and how quickly any changes take effect. The timing is particularly sensitive given the current economic pressures from soaring fuel costs." onclick="playStory(3)">
+<div class="kicker"><span class="num">04</span><span class="stag" style="background:#1a6a5a">ECONOMY</span></div>
+<div class="stitle">Federal Court Strikes Down Trump&#39;s Global Tariff</div>
+<div class="sbody">A federal trade court just ruled that President Trump&#39;s 10 percent tariff on most imports is illegal. The panel of judges found Trump lacked the legal authority to impose the sweeping duty that&#39;s been in place on goods from around the world. It&#39;s a major legal setback for the administration&#39;s trade policy, which has relied heavily on tariffs as an economic tool. The ruling doesn&#39;t address the specific tariffs tied to national security concerns or targeted at individual countries—just the broad-based levy. The White House hasn&#39;t yet announced whether it&#39;ll appeal the decision. For consumers, the ruling could eventually mean lower prices on imported goods if the tariff gets rolled back. But that depends entirely on how the administration responds and how quickly any changes take effect. The timing is particularly sensitive given the current economic pressures from soaring fuel costs.</div>
+<div class="bars"><span></span><span></span><span></span><span></span><span></span></div>
+</div><div class="card" data-idx="4" data-speech="ECONOMY. European Airlines Face Jet Fuel Crunch. European airlines are scrambling as jet fuel prices have jumped by half since the Iran war began. The price of the specific fuel grade most European carriers use has skyrocketed, threatening potential shortages across the continent. One possible solution being explored: importing jet fuel from the United States to bridge the gap. It&#39;s an unusual move that shows just how severely the conflict in the Persian Gulf has disrupted global energy markets. Aviation fuel supplies have been hit harder than other refined products because of how specialized the market is and where refining capacity sits. Airlines are already dealing with the twin pressures of higher costs and nervous travelers reconsidering flights. If European carriers can&#39;t secure adequate fuel supplies at manageable prices, we could see flight cancellations or route reductions in the coming weeks. The situation underscores how a regional military conflict halfway around the world can rapidly reshape transportation economics across an entire continent." onclick="playStory(4)">
+<div class="kicker"><span class="num">05</span><span class="stag" style="background:#1a6a5a">ECONOMY</span></div>
+<div class="stitle">European Airlines Face Jet Fuel Crunch</div>
+<div class="sbody">European airlines are scrambling as jet fuel prices have jumped by half since the Iran war began. The price of the specific fuel grade most European carriers use has skyrocketed, threatening potential shortages across the continent. One possible solution being explored: importing jet fuel from the United States to bridge the gap. It&#39;s an unusual move that shows just how severely the conflict in the Persian Gulf has disrupted global energy markets. Aviation fuel supplies have been hit harder than other refined products because of how specialized the market is and where refining capacity sits. Airlines are already dealing with the twin pressures of higher costs and nervous travelers reconsidering flights. If European carriers can&#39;t secure adequate fuel supplies at manageable prices, we could see flight cancellations or route reductions in the coming weeks. The situation underscores how a regional military conflict halfway around the world can rapidly reshape transportation economics across an entire continent.</div>
+<div class="bars"><span></span><span></span><span></span><span></span><span></span></div>
+</div></div><div class="sh"><span class="sl" style="background:#1a4a8a">STOCKS</span><div class="sln"></div></div><div class="sl-list"><div class="card" data-idx="5" data-speech="STOCKS. Momentum Stocks Hit the Brakes in Sharp Reversal. Momentum stocks just experienced one of their biggest reversals in five years, and Thursday&#39;s selloff came after plenty of warning signs. These are the stocks that had been racing higher simply because they&#39;d been going up—think names riding the AI wave and other hot sectors that attracted piling-on from investors. The reversal was sharp enough to rank among the top five momentum unwinds over the past half-decade. Wall Street analysts had been cautioning for weeks that these stocks had climbed too fast, too far. Now gravity&#39;s done its work. What typically happens after momentum reversals like this? History suggests the market often takes a breather, but it doesn&#39;t necessarily mean a prolonged downturn. For investors, it&#39;s a reminder that what goes straight up can come down just as quickly. The question now is whether this is a healthy reset or the start of something more significant." onclick="playStory(5)">
+<div class="kicker"><span class="num">06</span><span class="stag" style="background:#1a4a8a">STOCKS</span></div>
+<div class="stitle">Momentum Stocks Hit the Brakes in Sharp Reversal</div>
+<div class="sbody">Momentum stocks just experienced one of their biggest reversals in five years, and Thursday&#39;s selloff came after plenty of warning signs. These are the stocks that had been racing higher simply because they&#39;d been going up—think names riding the AI wave and other hot sectors that attracted piling-on from investors. The reversal was sharp enough to rank among the top five momentum unwinds over the past half-decade. Wall Street analysts had been cautioning for weeks that these stocks had climbed too fast, too far. Now gravity&#39;s done its work. What typically happens after momentum reversals like this? History suggests the market often takes a breather, but it doesn&#39;t necessarily mean a prolonged downturn. For investors, it&#39;s a reminder that what goes straight up can come down just as quickly. The question now is whether this is a healthy reset or the start of something more significant.</div>
+<div class="bars"><span></span><span></span><span></span><span></span><span></span></div>
+</div></div><div class="sh"><span class="sl" style="background:#2a7a3a">RE ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ· NYC</span><div class="sln"></div></div><div class="sl-list"><div class="card" data-idx="6" data-speech="RE ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ· NYC. Rent Freeze Back on the Table for Regulated Apartments. New York&#39;s Rent Guidelines Board just opened the door to something we haven&#39;t seen since the de Blasio era: a rent freeze. The board voted Thursday to set the range for regulated apartment increases starting at zero percent—that&#39;s right, zero—on one-year leases, with a top end of two percent. Two-year leases would see a range of zero to four percent. The increases would kick in this October, and the final decision comes at the board&#39;s next meeting. This is exactly what Mayor Zohran Mamdani has been pushing for since taking office. The vote was 7-1 with one abstention, but tenant advocates at the meeting weren&#39;t celebrating—they actually booed the result. Why? They&#39;re pushing for something even more aggressive: a negative range, which would roll back existing rents. If you&#39;re a landlord with rent-stabilized units, you&#39;re watching this closely. And if you&#39;re a regulated tenant, well, you might not see your rent go up at all this year." onclick="playStory(6)">
+<div class="kicker"><span class="num">07</span><span class="stag" style="background:#2a7a3a">RE ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ· NYC</span></div>
+<div class="stitle">Rent Freeze Back on the Table for Regulated Apartments</div>
+<div class="sbody">New York&#39;s Rent Guidelines Board just opened the door to something we haven&#39;t seen since the de Blasio era: a rent freeze. The board voted Thursday to set the range for regulated apartment increases starting at zero percent—that&#39;s right, zero—on one-year leases, with a top end of two percent. Two-year leases would see a range of zero to four percent. The increases would kick in this October, and the final decision comes at the board&#39;s next meeting. This is exactly what Mayor Zohran Mamdani has been pushing for since taking office. The vote was 7-1 with one abstention, but tenant advocates at the meeting weren&#39;t celebrating—they actually booed the result. Why? They&#39;re pushing for something even more aggressive: a negative range, which would roll back existing rents. If you&#39;re a landlord with rent-stabilized units, you&#39;re watching this closely. And if you&#39;re a regulated tenant, well, you might not see your rent go up at all this year.</div>
+<div class="bars"><span></span><span></span><span></span><span></span><span></span></div>
+</div></div><div class="sh"><span class="sl" style="background:#8a4a1a">SPORTS</span><div class="sln"></div></div><div class="sl-list"><div class="card" data-idx="7" data-speech="SPORTS. Aaron Rodgers Headed to Pittsburgh. Aaron Rodgers is expected to suit up for the Pittsburgh Steelers this season, according to sources who spoke with NFL Network&#39;s Ian Rapoport on Thursday. The quarterback is set to visit Pittsburgh this weekend to finalize what would be one of the most significant moves of the NFL offseason. This marks a dramatic turn for Rodgers, whose tenure with the Jets never materialized into the playoff run New York had hoped for. The Steelers have been searching for quarterback stability after cycling through several starters in recent seasons. Rodgers brings four MVP awards and a Super Bowl ring to a franchise that&#39;s built around defense and a strong running game. It&#39;s a pairing that could make Pittsburgh an immediate contender in the AFC. The move also signals the Steelers&#39; willingness to go all-in with a win-now approach. For Rodgers, it&#39;s a chance to prove he can still compete at the highest level in what&#39;s likely the final chapter of his Hall of Fame career." onclick="playStory(7)">
+<div class="kicker"><span class="num">08</span><span class="stag" style="background:#8a4a1a">SPORTS</span></div>
+<div class="stitle">Aaron Rodgers Headed to Pittsburgh</div>
+<div class="sbody">Aaron Rodgers is expected to suit up for the Pittsburgh Steelers this season, according to sources who spoke with NFL Network&#39;s Ian Rapoport on Thursday. The quarterback is set to visit Pittsburgh this weekend to finalize what would be one of the most significant moves of the NFL offseason. This marks a dramatic turn for Rodgers, whose tenure with the Jets never materialized into the playoff run New York had hoped for. The Steelers have been searching for quarterback stability after cycling through several starters in recent seasons. Rodgers brings four MVP awards and a Super Bowl ring to a franchise that&#39;s built around defense and a strong running game. It&#39;s a pairing that could make Pittsburgh an immediate contender in the AFC. The move also signals the Steelers&#39; willingness to go all-in with a win-now approach. For Rodgers, it&#39;s a chance to prove he can still compete at the highest level in what&#39;s likely the final chapter of his Hall of Fame career.</div>
+<div class="bars"><span></span><span></span><span></span><span></span><span></span></div>
+</div></div><div class="sh"><span class="sl" style="background:#6a2a8a">BBALL</span><div class="sln"></div></div><div class="sl-list"><div class="card" data-idx="8" data-speech="BBALL. Hornets Reward Coach Lee with Extension After Historic Turnaround. The Charlotte Hornets locked up coach Charles Lee with a contract extension Thursday, and it&#39;s easy to see why. Lee just guided the team to a 25-game improvement in wins over last season—that&#39;s one of the biggest single-season turnarounds in NBA history. The extension comes as Charlotte looks to build on momentum from a campaign that exceeded all expectations. Lee took over a franchise that had been mired in the lottery and transformed the culture in year one. The organization&#39;s front office moved quickly to secure him before other teams could come calling. It&#39;s a statement of faith in Lee&#39;s system and his ability to develop young talent. Charlotte hasn&#39;t made the playoffs since 2016, but this turnaround suggests that drought could end soon. The Hornets haven&#39;t disclosed the length or financial terms of the extension. For a franchise that&#39;s cycled through coaches in recent years, stability at the top could be just as valuable as the wins themselves." onclick="playStory(8)">
+<div class="kicker"><span class="num">09</span><span class="stag" style="background:#6a2a8a">BBALL</span></div>
+<div class="stitle">Hornets Reward Coach Lee with Extension After Historic Turnaround</div>
+<div class="sbody">The Charlotte Hornets locked up coach Charles Lee with a contract extension Thursday, and it&#39;s easy to see why. Lee just guided the team to a 25-game improvement in wins over last season—that&#39;s one of the biggest single-season turnarounds in NBA history. The extension comes as Charlotte looks to build on momentum from a campaign that exceeded all expectations. Lee took over a franchise that had been mired in the lottery and transformed the culture in year one. The organization&#39;s front office moved quickly to secure him before other teams could come calling. It&#39;s a statement of faith in Lee&#39;s system and his ability to develop young talent. Charlotte hasn&#39;t made the playoffs since 2016, but this turnaround suggests that drought could end soon. The Hornets haven&#39;t disclosed the length or financial terms of the extension. For a franchise that&#39;s cycled through coaches in recent years, stability at the top could be just as valuable as the wins themselves.</div>
+<div class="bars"><span></span><span></span><span></span><span></span><span></span></div>
+</div></div><div class="sh"><span class="sl" style="background:#d4660a">AI</span><div class="sln"></div></div><div class="sl-list"><div class="card" data-idx="9" data-speech="AI. Anthropic Teaches Claude to &quot;Dream&quot; Between Tasks. Anthropic&#39;s rolling out a fascinating new feature for Claude that borrows a page from human cognition. The company&#39;s letting its AI agents enter what they&#39;re calling a &quot;dream&quot; state during idle periods between tasks. Instead of just sitting dormant when not actively working, Claude now processes and consolidates information in the background, much like how human brains work during sleep. The dreaming mechanism helps agents retain context better and perform more consistently across longer workflows. It&#39;s designed to address one of the persistent challenges with AI agents: they tend to lose track of important details when juggling multiple tasks over extended periods. By synthesizing information during downtime, Claude can maintain better continuity in complex projects. The feature&#39;s already available for developers using Claude&#39;s agentic capabilities through Anthropic&#39;s API. This marks a shift from treating AI as purely reactive to building in more sophisticated cognitive processes. For anyone deploying Claude agents in production, it means more reliable performance on multi-step workflows without constant human intervention to keep things on track." onclick="playStory(9)">
+<div class="kicker"><span class="num">10</span><span class="stag" style="background:#d4660a">AI</span></div>
+<div class="stitle">Anthropic Teaches Claude to &quot;Dream&quot; Between Tasks</div>
+<div class="sbody">Anthropic&#39;s rolling out a fascinating new feature for Claude that borrows a page from human cognition. The company&#39;s letting its AI agents enter what they&#39;re calling a &quot;dream&quot; state during idle periods between tasks. Instead of just sitting dormant when not actively working, Claude now processes and consolidates information in the background, much like how human brains work during sleep. The dreaming mechanism helps agents retain context better and perform more consistently across longer workflows. It&#39;s designed to address one of the persistent challenges with AI agents: they tend to lose track of important details when juggling multiple tasks over extended periods. By synthesizing information during downtime, Claude can maintain better continuity in complex projects. The feature&#39;s already available for developers using Claude&#39;s agentic capabilities through Anthropic&#39;s API. This marks a shift from treating AI as purely reactive to building in more sophisticated cognitive processes. For anyone deploying Claude agents in production, it means more reliable performance on multi-step workflows without constant human intervention to keep things on track.</div>
+<div class="bars"><span></span><span></span><span></span><span></span><span></span></div>
+</div></div>
+<div class="footer">
+    Generated by Claude AI &middot; Reuters &middot; NYT &middot; BBC &middot; FT &middot; MarketWatch &middot; ESPN &middot; The Real Deal &middot; HousingWire<br>
+    Friday, May 8, 2026 &middot; Your Daily Brief
+</div>
+<div class="player">
+  <div class="pnow"><span>Now Playing</span><span class="pnow-t" id="nt">Tap Play All to begin</span></div>
+  <div class="pctrl">
+    <button class="pbtn" onclick="togglePlay()"><svg id="pi" width="20" height="20" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></button>
+    <button class="pskip" onclick="skipNext()"><svg width="16" height="16" viewBox="0 0 24 24"><path d="M6 18l8.5-6L6 6v12zM16 6v12h2V6h-2z"/></svg></button>
+    <div class="pw">
+      <div class="pt" onclick="seek(event)"><div class="pf" id="pf"></div></div>
+      <div class="tr"><span id="tc">0:00</span><span id="tt">0:00</span></div>
+    </div>
+    <button class="spd" id="sb" onclick="cycleSPd()">1.1x</button>
+  </div>
+</div>
+<script>
+const cards=Array.from(document.querySelectorAll('.card'));
+const stories=cards.map(c=>({title:c.querySelector('.stitle').textContent,speech:c.dataset.speech}));
+let cur=-1,going=false,paused=false,allMode=false,si=2,utt=null,dur=0,el=0,ts=null,tid=null;
+    const spds=[0.85,1,1.1,1.2,1.5,1.75],slab=['0.85x','1x','1.1x','1.2x','1.5x','1.75x'];
+const syn=window.speechSynthesis;
+function gv(){
+  const v=syn.getVoices();
+  const preferred=['Samantha','Karen','Daniel','Google US English','Google UK English Female','Microsoft Zira','Microsoft Mark','Moira','Tessa'];
+  for(const name of preferred){const f=v.find(x=>x.name.includes(name)&&x.lang.startsWith('en'));if(f)return f;}
+  return v.find(x=>x.lang==='en-US')||v.find(x=>x.lang.startsWith('en'))||v[0];
+}
+function fmt(s){if(!s||isNaN(s))return'0:00';return Math.floor(s/60)+':'+(Math.floor(s%60)+'').padStart(2,'0');}
+function tick(){if(!ts)return;el=(Date.now()-ts)/1000;document.getElementById('pf').style.width=Math.min(el/dur*100,100)+'%';document.getElementById('tc').textContent=fmt(el);}
+function setActive(i){cards.forEach(c=>c.classList.remove('active'));if(i>=0){cards[i].classList.add('active');cards[i].scrollIntoView({behavior:'smooth',block:'center'});}}
+function playStory(i,auto=false){
+  if(!auto)allMode=false;
+  syn.cancel();clearInterval(tid);going=false;paused=false;
+  cur=i;const s=stories[i];
+  document.getElementById('nt').textContent=s.title;
+  setActive(i);
+  utt=new SpeechSynthesisUtterance(s.speech);
+  utt.rate=spds[si];utt.pitch=1.05;utt.volume=1;
+  const v=gv();if(v)utt.voice=v;
+  dur=s.speech.split(' ').length/(150*spds[si])*60;
+  document.getElementById('tt').textContent=fmt(dur);
+  document.getElementById('tc').textContent='0:00';
+  document.getElementById('pf').style.width='0%';
+  utt.onstart=()=>{going=true;ts=Date.now();tid=setInterval(tick,600);document.getElementById('pi').innerHTML='<path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/>';};
+  utt.onend=()=>{going=false;clearInterval(tid);document.getElementById('pf').style.width='100%';document.getElementById('pi').innerHTML='<path d="M8 5v14l11-7z"/>';if(allMode&&cur<stories.length-1)setTimeout(()=>playStory(cur+1,true),700);else if(allMode){document.getElementById('nt').textContent='ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ All stories complete!';setActive(-1);allMode=false;}};
+  utt.onerror=()=>{going=false;clearInterval(tid);document.getElementById('pi').innerHTML='<path d="M8 5v14l11-7z"/>'};
+  syn.speak(utt);
+}
+function togglePlay(){
+  if(!going&&!paused){if(cur===-1&&stories.length){allMode=true;playStory(0,true);}else if(cur>=0)playStory(cur,allMode);return;}
+  if(going){syn.pause();going=false;paused=true;clearInterval(tid);document.getElementById('pi').innerHTML='<path d="M8 5v14l11-7z"/>';}
+  else{syn.resume();going=true;paused=false;ts=Date.now()-(el*1000);tid=setInterval(tick,600);document.getElementById('pi').innerHTML='<path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/>';}
+}
+function skipNext(){if(cur<stories.length-1)playStory(cur+1,allMode);}
+function startAll(){allMode=true;playStory(0,true);}
+function cycleSpd(){si=(si+1)%spds.length;document.getElementById('sb').textContent=slab[si];if(going||paused){const i=cur;syn.cancel();clearInterval(tid);going=false;paused=false;playStory(i,allMode);}}
+function seek(e){el=(e.offsetX/e.currentTarget.offsetWidth)*dur;if(cur>=0){const i=cur;syn.cancel();clearInterval(tid);going=false;paused=false;playStory(i,allMode);}}
+if(syn.onvoiceschanged!==undefined)syn.onvoiceschanged=()=>{};
+</script>
+</body>
+</html>
