@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+<meta name="apple-mobile-web-app-capable" content="yes">
+    <title>Daily Brief &middot; Monday, May 11, 2026</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lora:ital,wght@0,400;0,600;1,400&family=DM+Mono:wght@300;400;500&display=swap');
+:root{--bg:#f5f0e8;--ink:#1a1410;--muted:#7a7060;--dim:#c8c0b0;--rule:#d8d0c0;--accent:#c8390a;--card:#ede8e0}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--ink);font-family:'Lora',Georgia,serif;padding-bottom:130px}
+.mast{border-bottom:3px double var(--ink);padding:16px 20px 12px;text-align:center}
+.mast-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px}
+.meta,.badge{font-family:'DM Mono',monospace;font-size:9px;letter-spacing:.12em;text-transform:uppercase}
+.meta{color:var(--muted)}.badge{color:#2a7a3a;border:1px solid #2a7a3a;padding:2px 8px}
+.logo{font-family:'Bebas Neue',sans-serif;font-size:clamp(42px,12vw,72px);letter-spacing:.04em;line-height:1}
+.logo span{color:var(--accent)}
+.hrule{height:1px;background:var(--ink);margin:8px 0 6px}
+.tagline{font-family:'Lora',serif;font-style:italic;font-size:11px;color:var(--muted)}
+.stats{display:flex;border-bottom:1px solid var(--rule);font-family:'DM Mono',monospace;font-size:10px;color:var(--muted)}
+.stat{flex:1;padding:8px 12px;border-right:1px solid var(--rule);text-align:center}
+.stat:last-child{border-right:none}
+.sv{font-size:18px;color:var(--ink);display:block;font-weight:500}
+.pa-wrap{padding:14px 20px;border-bottom:1px solid var(--rule)}
+.pa{width:100%;display:flex;align-items:center;justify-content:center;gap:10px;background:var(--ink);color:var(--bg);border:none;padding:14px;font-family:'Bebas Neue',sans-serif;font-size:18px;letter-spacing:.12em;cursor:pointer;transition:background .15s}
+.pa:hover{background:var(--accent)}
+.sh{display:flex;align-items:center;padding:0 20px;margin-top:24px}
+.sl{font-family:'Bebas Neue',sans-serif;font-size:11px;letter-spacing:.25em;color:#fff;padding:3px 10px}
+.sln{flex:1;height:2px;background:var(--rule);margin-left:10px}
+.sl-list{padding:0 20px}
+.card{border-bottom:1px solid var(--rule);padding:14px 0;cursor:pointer;position:relative;transition:background .15s}
+.card:hover,.card.active{background:var(--card);margin:0 -20px;padding:14px 20px}
+.card.active::before{content:'';position:absolute;left:0;top:0;bottom:0;width:4px;background:var(--accent)}
+.kicker{display:flex;align-items:center;gap:8px;margin-bottom:5px}
+.num{font-family:'DM Mono',monospace;font-size:9px;color:var(--dim)}
+.stag{font-family:'DM Mono',monospace;font-size:8px;letter-spacing:.15em;text-transform:uppercase;padding:1px 6px;color:#fff;border-radius:1px}
+.stitle{font-family:'Lora',serif;font-size:15px;font-weight:600;line-height:1.35;color:var(--ink);margin-bottom:5px}
+.sbody{font-size:13px;line-height:1.65;color:var(--muted)}
+.bars{display:none;align-items:flex-end;gap:2px;height:14px;margin-top:8px}
+.card.active .bars{display:flex}
+.bars span{display:block;width:3px;border-radius:1px;background:var(--accent);animation:bw .8s ease-in-out infinite}
+.bars span:nth-child(1){height:6px}.bars span:nth-child(2){height:12px;animation-delay:.1s}
+.bars span:nth-child(3){height:8px;animation-delay:.2s}.bars span:nth-child(4){height:14px;animation-delay:.05s}
+.bars span:nth-child(5){height:5px;animation-delay:.15s}
+@keyframes bw{0%,100%{transform:scaleY(.4);opacity:.5}50%{transform:scaleY(1);opacity:1}}
+.footer{padding:20px;font-family:'DM Mono',monospace;font-size:9px;color:var(--dim);border-top:1px solid var(--rule);margin-top:20px;text-align:center;line-height:1.8}
+.player{position:fixed;bottom:0;left:0;right:0;background:var(--ink);border-top:3px solid var(--accent);padding:10px 16px 20px;z-index:100}
+.pnow{font-family:'DM Mono',monospace;font-size:9px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-bottom:8px;display:flex;justify-content:space-between;align-items:center}
+.pnow-t{color:#f5f0e8;font-size:10px;flex:1;margin-left:8px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.pctrl{display:flex;align-items:center;gap:10px}
+.pbtn{width:42px;height:42px;border-radius:50%;background:var(--accent);border:none;cursor:pointer;display:flex;align-items:center;justify-content:center;flex-shrink:0;transition:background .15s}
+.pbtn:hover{background:#e04010}.pbtn:active{transform:scale(.95)}.pbtn svg{fill:white}
+.pskip{width:34px;height:34px;border-radius:50%;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.15);cursor:pointer;display:flex;align-items:center;justify-content:center}
+.pskip svg{fill:rgba(255,255,255,.6)}
+.pw{flex:1}
+.pt{width:100%;height:3px;background:rgba(255,255,255,.12);border-radius:2px;cursor:pointer;margin-bottom:4px}
+.pf{height:100%;background:var(--accent);border-radius:2px;width:0%;transition:width .5s linear}
+.tr{display:flex;justify-content:space-between;font-family:'DM Mono',monospace;font-size:9px;color:rgba(255,255,255,.35)}
+.spd{font-family:'DM Mono',monospace;font-size:10px;color:rgba(255,255,255,.5);background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.15);padding:5px 8px;cursor:pointer;border-radius:2px}
+</style>
+</head>
+<body>
+<div class="mast">
+  <div class="mast-top">
+    <span class="meta">MONDAY, MAY 11, 2026</span>
+    <span class="badge">ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ AI GENERATED</span>
+  </div>
+  <div class="logo">Daily <span>Brief</span></div>
+  <div class="hrule"></div>
+    <div class="tagline">Monday Brief &middot; May 9&ndash;May 10 + Today &middot; 11 stories &middot; ~14 min</div>
+</div>
+<div class="stats">
+  <div class="stat"><span class="sv">11</span>Stories</div>
+    <div class="stat"><span class="sv">7</span>Sections</div>
+  <div class="stat"><span class="sv">~14m</span>Duration</div>
+</div>
+<div class="pa-wrap">
+  <button class="pa" onclick="startAll()">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="white"><path d="M8 5v14l11-7z"/></svg>
+    PLAY ALL STORIES
+  </button>
+</div>
+<div class="sh"><span class="sl" style="background:#c8390a">WORLD</span><div class="sln"></div></div><div class="sl-list"><div class="card" data-idx="0" data-speech="WORLD. Hantavirus Outbreak Spreads as Cruise Ship Passengers Evacuate. A cruise ship health emergency has turned into an international crisis after multiple passengers tested positive for hantavirus following their evacuation from a vessel in Spain&#39;s Canary Islands. The ship anchored off the islands on Sunday, and small groups of passengers and crew began disembarking. An American national who tested positive has arrived in Nebraska, while a French woman is now isolating in Paris. France&#39;s prime minister announced that five passengers will be quarantined in Paris &quot;until further notice.&quot; The rare viral disease, typically transmitted through contact with rodent droppings or urine, has health officials concerned about how it spread aboard the ship. Hantavirus can cause severe respiratory illness and has no specific treatment or vaccine. Authorities are now working to fly all passengers back to their home countries while monitoring anyone who may have been exposed. The outbreak raises questions about sanitation protocols on cruise vessels and how rodents may have gotten aboard." onclick="playStory(0)">
+<div class="kicker"><span class="num">01</span><span class="stag" style="background:#c8390a">WORLD</span></div>
+<div class="stitle">Hantavirus Outbreak Spreads as Cruise Ship Passengers Evacuate</div>
+<div class="sbody">A cruise ship health emergency has turned into an international crisis after multiple passengers tested positive for hantavirus following their evacuation from a vessel in Spain&#39;s Canary Islands. The ship anchored off the islands on Sunday, and small groups of passengers and crew began disembarking. An American national who tested positive has arrived in Nebraska, while a French woman is now isolating in Paris. France&#39;s prime minister announced that five passengers will be quarantined in Paris &quot;until further notice.&quot; The rare viral disease, typically transmitted through contact with rodent droppings or urine, has health officials concerned about how it spread aboard the ship. Hantavirus can cause severe respiratory illness and has no specific treatment or vaccine. Authorities are now working to fly all passengers back to their home countries while monitoring anyone who may have been exposed. The outbreak raises questions about sanitation protocols on cruise vessels and how rodents may have gotten aboard.</div>
+<div class="bars"><span></span><span></span><span></span><span></span><span></span></div>
+</div><div class="card" data-idx="1" data-speech="WORLD. Thailand&#39;s Thaksin Shinawatra Walks Free From Prison. Thailand&#39;s most influential and controversial political figure has been released from prison, setting up what could be a dramatic new chapter in the country&#39;s turbulent politics. Thaksin Shinawatra, who has long been a foil to Thailand&#39;s conservative establishment, walked free with questions swirling about what he&#39;ll do next. He still holds significant influence over Thai politics, with his political party now part of the governing coalition. Thaksin&#39;s political career has been defined by his populist appeal and his bitter rivalry with Thailand&#39;s traditional power brokers, including the military and royalist establishment. He was ousted in a military coup in 2006 and has spent years in exile before returning to face legal charges. His release comes at a delicate moment for Thailand&#39;s coalition government, which relies on support from his party. Observers expect Thaksin to play a major behind-the-scenes role in shaping policy and political strategy. The question now is whether his return will stabilize Thai politics or reignite the street protests and instability that have plagued the country for years." onclick="playStory(1)">
+<div class="kicker"><span class="num">02</span><span class="stag" style="background:#c8390a">WORLD</span></div>
+<div class="stitle">Thailand&#39;s Thaksin Shinawatra Walks Free From Prison</div>
+<div class="sbody">Thailand&#39;s most influential and controversial political figure has been released from prison, setting up what could be a dramatic new chapter in the country&#39;s turbulent politics. Thaksin Shinawatra, who has long been a foil to Thailand&#39;s conservative establishment, walked free with questions swirling about what he&#39;ll do next. He still holds significant influence over Thai politics, with his political party now part of the governing coalition. Thaksin&#39;s political career has been defined by his populist appeal and his bitter rivalry with Thailand&#39;s traditional power brokers, including the military and royalist establishment. He was ousted in a military coup in 2006 and has spent years in exile before returning to face legal charges. His release comes at a delicate moment for Thailand&#39;s coalition government, which relies on support from his party. Observers expect Thaksin to play a major behind-the-scenes role in shaping policy and political strategy. The question now is whether his return will stabilize Thai politics or reignite the street protests and instability that have plagued the country for years.</div>
+<div class="bars"><span></span><span></span><span></span><span></span><span></span></div>
+</div></div><div class="sh"><span class="sl" style="background:#1a5c8a">US</span><div class="sln"></div></div><div class="sl-list"><div class="card" data-idx="2" data-speech="US. Trump Delays Taiwan Arms Sale Ahead of Xi Meeting. The Trump administration has put the brakes on a major arms sale to Taiwan, freezing the deal for months as President Trump prepares to sit down with Chinese President Xi Jinping this week. The timing isn&#39;t subtle. Taiwan has been waiting on these weapons systems while the White House apparently uses the sale as leverage in broader negotiations with Beijing. Lawmakers from both parties are pushing Trump to move forward with the deal, arguing that delaying arms to Taiwan sends the wrong signal about American commitments in the Pacific. The sale has been in the pipeline but got shelved as the administration weighs its approach to China. Taiwan&#39;s defense needs haven&#39;t changed, but the geopolitical calculus clearly has. The meeting between Trump and Xi could determine whether the arms package finally moves ahead or remains frozen. This comes at a time when tensions in the Taiwan Strait remain high, with China continuing military exercises near the island. Congress typically has broad bipartisan support for Taiwan arms sales, making this delay particularly notable." onclick="playStory(2)">
+<div class="kicker"><span class="num">03</span><span class="stag" style="background:#1a5c8a">US</span></div>
+<div class="stitle">Trump Delays Taiwan Arms Sale Ahead of Xi Meeting</div>
+<div class="sbody">The Trump administration has put the brakes on a major arms sale to Taiwan, freezing the deal for months as President Trump prepares to sit down with Chinese President Xi Jinping this week. The timing isn&#39;t subtle. Taiwan has been waiting on these weapons systems while the White House apparently uses the sale as leverage in broader negotiations with Beijing. Lawmakers from both parties are pushing Trump to move forward with the deal, arguing that delaying arms to Taiwan sends the wrong signal about American commitments in the Pacific. The sale has been in the pipeline but got shelved as the administration weighs its approach to China. Taiwan&#39;s defense needs haven&#39;t changed, but the geopolitical calculus clearly has. The meeting between Trump and Xi could determine whether the arms package finally moves ahead or remains frozen. This comes at a time when tensions in the Taiwan Strait remain high, with China continuing military exercises near the island. Congress typically has broad bipartisan support for Taiwan arms sales, making this delay particularly notable.</div>
+<div class="bars"><span></span><span></span><span></span><span></span><span></span></div>
+</div><div class="card" data-idx="3" data-speech="US. Justice Department Cancels Sewage Solution for Rural Alabama. Families in rural Alabama who were promised new septic tanks just had that promise yanked away after President Trump labeled the program &quot;illegal DEI.&quot; The Justice Department ended a settlement deal that would&#39;ve funded a solution to the sewage crisis affecting poor, predominantly Black communities in Lowndes County. Residents there have been dealing with raw sewage in their yards for years because they can&#39;t afford proper septic systems and the soil won&#39;t support traditional drain fields. The original agreement came out of a civil rights investigation into whether Alabama violated the law by failing to provide adequate sanitation infrastructure. Now that deal is dead, leaving communities back where they started. One local activist said it feels like they&#39;re starting all over again after years of advocacy and legal work. The sewage problem isn&#39;t just unpleasant—it&#39;s a serious health hazard, with families exposed to pathogens that cause hookworm and other diseases rarely seen in developed countries. The cancellation leaves no clear alternative plan for addressing the sanitation crisis." onclick="playStory(3)">
+<div class="kicker"><span class="num">04</span><span class="stag" style="background:#1a5c8a">US</span></div>
+<div class="stitle">Justice Department Cancels Sewage Solution for Rural Alabama</div>
+<div class="sbody">Families in rural Alabama who were promised new septic tanks just had that promise yanked away after President Trump labeled the program &quot;illegal DEI.&quot; The Justice Department ended a settlement deal that would&#39;ve funded a solution to the sewage crisis affecting poor, predominantly Black communities in Lowndes County. Residents there have been dealing with raw sewage in their yards for years because they can&#39;t afford proper septic systems and the soil won&#39;t support traditional drain fields. The original agreement came out of a civil rights investigation into whether Alabama violated the law by failing to provide adequate sanitation infrastructure. Now that deal is dead, leaving communities back where they started. One local activist said it feels like they&#39;re starting all over again after years of advocacy and legal work. The sewage problem isn&#39;t just unpleasant—it&#39;s a serious health hazard, with families exposed to pathogens that cause hookworm and other diseases rarely seen in developed countries. The cancellation leaves no clear alternative plan for addressing the sanitation crisis.</div>
+<div class="bars"><span></span><span></span><span></span><span></span><span></span></div>
+</div></div><div class="sh"><span class="sl" style="background:#1a6a5a">ECONOMY</span><div class="sln"></div></div><div class="sl-list"><div class="card" data-idx="4" data-speech="ECONOMY. Trump&#39;s Tariff Regime in Constant Flux. President Trump has rewritten his tariff playbook so many times that even trade experts are struggling to keep up. Some of his tariffs have been declared illegal and pulled back, while others remain in place, and still more changes are reportedly in the works. The constant shifts have left businesses uncertain about what they&#39;ll pay for imports from one month to the next. It&#39;s not just about trade policy anymore—companies are finding it nearly impossible to plan their supply chains or set prices when the rules keep changing. The legal challenges haven&#39;t helped clarify things either. Courts have struck down certain tariffs, forcing the administration to adjust its approach mid-stream. For consumers, this chaos translates into unpredictable prices on everything from electronics to clothing. The administration says more tariff updates are coming, though it hasn&#39;t specified what or when." onclick="playStory(4)">
+<div class="kicker"><span class="num">05</span><span class="stag" style="background:#1a6a5a">ECONOMY</span></div>
+<div class="stitle">Trump&#39;s Tariff Regime in Constant Flux</div>
+<div class="sbody">President Trump has rewritten his tariff playbook so many times that even trade experts are struggling to keep up. Some of his tariffs have been declared illegal and pulled back, while others remain in place, and still more changes are reportedly in the works. The constant shifts have left businesses uncertain about what they&#39;ll pay for imports from one month to the next. It&#39;s not just about trade policy anymore—companies are finding it nearly impossible to plan their supply chains or set prices when the rules keep changing. The legal challenges haven&#39;t helped clarify things either. Courts have struck down certain tariffs, forcing the administration to adjust its approach mid-stream. For consumers, this chaos translates into unpredictable prices on everything from electronics to clothing. The administration says more tariff updates are coming, though it hasn&#39;t specified what or when.</div>
+<div class="bars"><span></span><span></span><span></span><span></span><span></span></div>
+</div><div class="card" data-idx="5" data-speech="ECONOMY. British Steel Set for Nationalisation. Britain&#39;s Prime Minister Starmer announced plans to fully nationalise British Steel, bringing the struggling steelworks permanently under government control. The facility has been run by the state for nearly a year already, but legislation to formalise the takeover will be introduced in Parliament this week. It&#39;s a major shift for one of the UK&#39;s signature industrial companies, which has struggled to compete amid high energy costs and cheap imports. The government says nationalisation will protect thousands of jobs and preserve Britain&#39;s domestic steel production capacity. Critics argue it&#39;s throwing taxpayer money at an industry that can&#39;t survive without constant subsidies. The steelworks had been searching for a private buyer, but no deal materialised. For British workers at the plant, nationalisation offers short-term job security but raises questions about the facility&#39;s long-term viability. The move also signals Labour&#39;s willingness to use state ownership as an economic tool." onclick="playStory(5)">
+<div class="kicker"><span class="num">06</span><span class="stag" style="background:#1a6a5a">ECONOMY</span></div>
+<div class="stitle">British Steel Set for Nationalisation</div>
+<div class="sbody">Britain&#39;s Prime Minister Starmer announced plans to fully nationalise British Steel, bringing the struggling steelworks permanently under government control. The facility has been run by the state for nearly a year already, but legislation to formalise the takeover will be introduced in Parliament this week. It&#39;s a major shift for one of the UK&#39;s signature industrial companies, which has struggled to compete amid high energy costs and cheap imports. The government says nationalisation will protect thousands of jobs and preserve Britain&#39;s domestic steel production capacity. Critics argue it&#39;s throwing taxpayer money at an industry that can&#39;t survive without constant subsidies. The steelworks had been searching for a private buyer, but no deal materialised. For British workers at the plant, nationalisation offers short-term job security but raises questions about the facility&#39;s long-term viability. The move also signals Labour&#39;s willingness to use state ownership as an economic tool.</div>
+<div class="bars"><span></span><span></span><span></span><span></span><span></span></div>
+</div></div><div class="sh"><span class="sl" style="background:#1a4a8a">STOCKS</span><div class="sln"></div></div><div class="sl-list"><div class="card" data-idx="6" data-speech="STOCKS. Oil Prices Could Surge to $150 as Hormuz Standoff Escalates. Morgan Stanley is warning that crude oil prices are sitting on a powder keg. The bank says Brent crude could hit $150 a barrel by summer if the Strait of Hormuz closure continues—calling it a &quot;race against time.&quot; Right now, crude prices are climbing but staying relatively contained. That restraint won&#39;t last if the vital shipping lane stays blocked, according to the bank&#39;s analysts. The Strait of Hormuz is the world&#39;s most important oil chokepoint, with roughly a fifth of global petroleum passing through it daily. Any prolonged disruption there sends shockwaves through energy markets worldwide. For American drivers and businesses, that could mean significantly higher fuel costs in the months ahead. The scenario underscores how geopolitical tensions in the Middle East continue to hold sway over your wallet at the pump." onclick="playStory(6)">
+<div class="kicker"><span class="num">07</span><span class="stag" style="background:#1a4a8a">STOCKS</span></div>
+<div class="stitle">Oil Prices Could Surge to $150 as Hormuz Standoff Escalates</div>
+<div class="sbody">Morgan Stanley is warning that crude oil prices are sitting on a powder keg. The bank says Brent crude could hit $150 a barrel by summer if the Strait of Hormuz closure continues—calling it a &quot;race against time.&quot; Right now, crude prices are climbing but staying relatively contained. That restraint won&#39;t last if the vital shipping lane stays blocked, according to the bank&#39;s analysts. The Strait of Hormuz is the world&#39;s most important oil chokepoint, with roughly a fifth of global petroleum passing through it daily. Any prolonged disruption there sends shockwaves through energy markets worldwide. For American drivers and businesses, that could mean significantly higher fuel costs in the months ahead. The scenario underscores how geopolitical tensions in the Middle East continue to hold sway over your wallet at the pump.</div>
+<div class="bars"><span></span><span></span><span></span><span></span><span></span></div>
+</div></div><div class="sh"><span class="sl" style="background:#2a7a3a">RE ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ· NYC</span><div class="sln"></div></div><div class="sl-list"><div class="card" data-idx="7" data-speech="RE ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ· NYC. NYC Real Estate Leaders Push for Tax and Regulatory Reform. Related Companies CEO Jeff Blau made headlines at The Real Deal&#39;s NYC Real Estate Forum this week with a passionate defense of New York City&#39;s future. Blau pointed to Hudson Yards as proof that his firm remains committed to the city, but he didn&#39;t hold back criticism of local policy. He called out the 485x tax abatement program and pushed hard for regulatory reform. The speech was interrupted three times, suggesting the audience had strong reactions to his message. Blau&#39;s comments come as developers navigate an increasingly difficult environment in the city. The forum brought together the year&#39;s most important voices in NYC real estate. For property owners, the takeaway is clear: even the biggest players are feeling the squeeze from tax policy and red tape. Expect the debate over 485x and development incentives to heat up in the months ahead." onclick="playStory(7)">
+<div class="kicker"><span class="num">08</span><span class="stag" style="background:#2a7a3a">RE ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ· NYC</span></div>
+<div class="stitle">NYC Real Estate Leaders Push for Tax and Regulatory Reform</div>
+<div class="sbody">Related Companies CEO Jeff Blau made headlines at The Real Deal&#39;s NYC Real Estate Forum this week with a passionate defense of New York City&#39;s future. Blau pointed to Hudson Yards as proof that his firm remains committed to the city, but he didn&#39;t hold back criticism of local policy. He called out the 485x tax abatement program and pushed hard for regulatory reform. The speech was interrupted three times, suggesting the audience had strong reactions to his message. Blau&#39;s comments come as developers navigate an increasingly difficult environment in the city. The forum brought together the year&#39;s most important voices in NYC real estate. For property owners, the takeaway is clear: even the biggest players are feeling the squeeze from tax policy and red tape. Expect the debate over 485x and development incentives to heat up in the months ahead.</div>
+<div class="bars"><span></span><span></span><span></span><span></span><span></span></div>
+</div></div><div class="sh"><span class="sl" style="background:#8a4a1a">SPORTS</span><div class="sln"></div></div><div class="sl-list"><div class="card" data-idx="8" data-speech="SPORTS. Arsenal&#39;s Title Hopes Hinge on Controversial VAR Decision. Arsenal&#39;s Premier League title chase came down to the final seconds Sunday, and a VAR decision that&#39;s set social media ablaze. West Ham thought they&#39;d equalized in the 94th minute, but video review disallowed the goal, preserving Arsenal&#39;s lead and keeping them on track for the championship. Arsenal manager Mikel Arteta called it a &quot;brave&quot; decision by the match officials, one that could alter the club&#39;s history. West Ham&#39;s captain Jarrod Bowen wasn&#39;t having it, though—he and manager Nuno Espirito Santo slammed the officials for inconsistency. The decision leaves West Ham stuck in the relegation zone while Arsenal maintain their position at the top of the table. There&#39;s plenty of debate over whether VAR is helping or hurting the game, but this call will have massive consequences either way. If Arsenal go on to lift the trophy, this moment will be replayed for years. The Premier League season is reaching its climax, and the stakes couldn&#39;t be higher." onclick="playStory(8)">
+<div class="kicker"><span class="num">09</span><span class="stag" style="background:#8a4a1a">SPORTS</span></div>
+<div class="stitle">Arsenal&#39;s Title Hopes Hinge on Controversial VAR Decision</div>
+<div class="sbody">Arsenal&#39;s Premier League title chase came down to the final seconds Sunday, and a VAR decision that&#39;s set social media ablaze. West Ham thought they&#39;d equalized in the 94th minute, but video review disallowed the goal, preserving Arsenal&#39;s lead and keeping them on track for the championship. Arsenal manager Mikel Arteta called it a &quot;brave&quot; decision by the match officials, one that could alter the club&#39;s history. West Ham&#39;s captain Jarrod Bowen wasn&#39;t having it, though—he and manager Nuno Espirito Santo slammed the officials for inconsistency. The decision leaves West Ham stuck in the relegation zone while Arsenal maintain their position at the top of the table. There&#39;s plenty of debate over whether VAR is helping or hurting the game, but this call will have massive consequences either way. If Arsenal go on to lift the trophy, this moment will be replayed for years. The Premier League season is reaching its climax, and the stakes couldn&#39;t be higher.</div>
+<div class="bars"><span></span><span></span><span></span><span></span><span></span></div>
+</div></div><div class="sh"><span class="sl" style="background:#6a2a8a">BBALL</span><div class="sln"></div></div><div class="sl-list"><div class="card" data-idx="9" data-speech="BBALL. Wizards Win Draft Lottery as Clippers Land Top-Five Pick. The Washington Wizards will select first overall in next month&#39;s NBA draft after winning the 2026 lottery. It&#39;s a potential franchise-altering moment for a team that&#39;s struggled in recent years. Meanwhile, the Clippers landed the fifth pick—but here&#39;s the twist: they don&#39;t own it outright. That pick originally belonged to the Indiana Pacers, who traded it to Los Angeles with protections as part of the deal that brought center Ivica Zubac to Indiana. Pacers president Kevin Pritchard publicly apologized to fans, saying he owns the loss of what turned out to be a valuable asset. The draft protections clearly didn&#39;t work out in Indiana&#39;s favor. For the Clippers, it&#39;s an unexpected windfall that gives them a shot at adding young talent to their roster. The Wizards, though, have the clearest path forward—they&#39;ll have their choice of the draft class when selections begin next month." onclick="playStory(9)">
+<div class="kicker"><span class="num">10</span><span class="stag" style="background:#6a2a8a">BBALL</span></div>
+<div class="stitle">Wizards Win Draft Lottery as Clippers Land Top-Five Pick</div>
+<div class="sbody">The Washington Wizards will select first overall in next month&#39;s NBA draft after winning the 2026 lottery. It&#39;s a potential franchise-altering moment for a team that&#39;s struggled in recent years. Meanwhile, the Clippers landed the fifth pick—but here&#39;s the twist: they don&#39;t own it outright. That pick originally belonged to the Indiana Pacers, who traded it to Los Angeles with protections as part of the deal that brought center Ivica Zubac to Indiana. Pacers president Kevin Pritchard publicly apologized to fans, saying he owns the loss of what turned out to be a valuable asset. The draft protections clearly didn&#39;t work out in Indiana&#39;s favor. For the Clippers, it&#39;s an unexpected windfall that gives them a shot at adding young talent to their roster. The Wizards, though, have the clearest path forward—they&#39;ll have their choice of the draft class when selections begin next month.</div>
+<div class="bars"><span></span><span></span><span></span><span></span><span></span></div>
+</div><div class="card" data-idx="10" data-speech="BBALL. Steve Kerr Returning to Warriors on Two-Year Deal. Steve Kerr isn&#39;t going anywhere. The Warriors coach has agreed to a two-year contract extension to stay in Golden Bay, according to his agents at Priority Sports. Kerr has been the architect of Golden State&#39;s dynastic run, leading the team to multiple championships since taking over in 2014. This extension keeps him on the sidelines through at least the 2027 season. The move brings stability to a franchise that&#39;s navigating life after its championship core has aged. Kerr&#39;s offensive system and player management style have made him one of the most respected coaches in the league. The Warriors clearly want continuity as they figure out their next competitive window. Financial terms weren&#39;t disclosed, but Kerr has consistently ranked among the highest-paid coaches in the NBA. It&#39;s a straightforward decision for both sides—Kerr gets security, and Golden State keeps the coach who&#39;s defined their success for more than a decade." onclick="playStory(10)">
+<div class="kicker"><span class="num">11</span><span class="stag" style="background:#6a2a8a">BBALL</span></div>
+<div class="stitle">Steve Kerr Returning to Warriors on Two-Year Deal</div>
+<div class="sbody">Steve Kerr isn&#39;t going anywhere. The Warriors coach has agreed to a two-year contract extension to stay in Golden Bay, according to his agents at Priority Sports. Kerr has been the architect of Golden State&#39;s dynastic run, leading the team to multiple championships since taking over in 2014. This extension keeps him on the sidelines through at least the 2027 season. The move brings stability to a franchise that&#39;s navigating life after its championship core has aged. Kerr&#39;s offensive system and player management style have made him one of the most respected coaches in the league. The Warriors clearly want continuity as they figure out their next competitive window. Financial terms weren&#39;t disclosed, but Kerr has consistently ranked among the highest-paid coaches in the NBA. It&#39;s a straightforward decision for both sides—Kerr gets security, and Golden State keeps the coach who&#39;s defined their success for more than a decade.</div>
+<div class="bars"><span></span><span></span><span></span><span></span><span></span></div>
+</div></div>
+<div class="footer">
+    Generated by Claude AI &middot; Reuters &middot; NYT &middot; BBC &middot; FT &middot; MarketWatch &middot; ESPN &middot; The Real Deal &middot; HousingWire<br>
+    Monday, May 11, 2026 &middot; Your Daily Brief
+</div>
+<div class="player">
+  <div class="pnow"><span>Now Playing</span><span class="pnow-t" id="nt">Tap Play All to begin</span></div>
+  <div class="pctrl">
+    <button class="pbtn" onclick="togglePlay()"><svg id="pi" width="20" height="20" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></button>
+    <button class="pskip" onclick="skipNext()"><svg width="16" height="16" viewBox="0 0 24 24"><path d="M6 18l8.5-6L6 6v12zM16 6v12h2V6h-2z"/></svg></button>
+    <div class="pw">
+      <div class="pt" onclick="seek(event)"><div class="pf" id="pf"></div></div>
+      <div class="tr"><span id="tc">0:00</span><span id="tt">0:00</span></div>
+    </div>
+    <button class="spd" id="sb" onclick="cycleSPd()">1.1x</button>
+  </div>
+</div>
+<script>
+const cards=Array.from(document.querySelectorAll('.card'));
+const stories=cards.map(c=>({title:c.querySelector('.stitle').textContent,speech:c.dataset.speech}));
+let cur=-1,going=false,paused=false,allMode=false,si=2,utt=null,dur=0,el=0,ts=null,tid=null;
+    const spds=[0.85,1,1.1,1.2,1.5,1.75],slab=['0.85x','1x','1.1x','1.2x','1.5x','1.75x'];
+const syn=window.speechSynthesis;
+function gv(){
+  const v=syn.getVoices();
+  const preferred=['Samantha','Karen','Daniel','Google US English','Google UK English Female','Microsoft Zira','Microsoft Mark','Moira','Tessa'];
+  for(const name of preferred){const f=v.find(x=>x.name.includes(name)&&x.lang.startsWith('en'));if(f)return f;}
+  return v.find(x=>x.lang==='en-US')||v.find(x=>x.lang.startsWith('en'))||v[0];
+}
+function fmt(s){if(!s||isNaN(s))return'0:00';return Math.floor(s/60)+':'+(Math.floor(s%60)+'').padStart(2,'0');}
+function tick(){if(!ts)return;el=(Date.now()-ts)/1000;document.getElementById('pf').style.width=Math.min(el/dur*100,100)+'%';document.getElementById('tc').textContent=fmt(el);}
+function setActive(i){cards.forEach(c=>c.classList.remove('active'));if(i>=0){cards[i].classList.add('active');cards[i].scrollIntoView({behavior:'smooth',block:'center'});}}
+function playStory(i,auto=false){
+  if(!auto)allMode=false;
+  syn.cancel();clearInterval(tid);going=false;paused=false;
+  cur=i;const s=stories[i];
+  document.getElementById('nt').textContent=s.title;
+  setActive(i);
+  utt=new SpeechSynthesisUtterance(s.speech);
+  utt.rate=spds[si];utt.pitch=1.05;utt.volume=1;
+  const v=gv();if(v)utt.voice=v;
+  dur=s.speech.split(' ').length/(150*spds[si])*60;
+  document.getElementById('tt').textContent=fmt(dur);
+  document.getElementById('tc').textContent='0:00';
+  document.getElementById('pf').style.width='0%';
+  utt.onstart=()=>{going=true;ts=Date.now();tid=setInterval(tick,600);document.getElementById('pi').innerHTML='<path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/>';};
+  utt.onend=()=>{going=false;clearInterval(tid);document.getElementById('pf').style.width='100%';document.getElementById('pi').innerHTML='<path d="M8 5v14l11-7z"/>';if(allMode&&cur<stories.length-1)setTimeout(()=>playStory(cur+1,true),700);else if(allMode){document.getElementById('nt').textContent='ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ All stories complete!';setActive(-1);allMode=false;}};
+  utt.onerror=()=>{going=false;clearInterval(tid);document.getElementById('pi').innerHTML='<path d="M8 5v14l11-7z"/>'};
+  syn.speak(utt);
+}
+function togglePlay(){
+  if(!going&&!paused){if(cur===-1&&stories.length){allMode=true;playStory(0,true);}else if(cur>=0)playStory(cur,allMode);return;}
+  if(going){syn.pause();going=false;paused=true;clearInterval(tid);document.getElementById('pi').innerHTML='<path d="M8 5v14l11-7z"/>';}
+  else{syn.resume();going=true;paused=false;ts=Date.now()-(el*1000);tid=setInterval(tick,600);document.getElementById('pi').innerHTML='<path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/>';}
+}
+function skipNext(){if(cur<stories.length-1)playStory(cur+1,allMode);}
+function startAll(){allMode=true;playStory(0,true);}
+function cycleSpd(){si=(si+1)%spds.length;document.getElementById('sb').textContent=slab[si];if(going||paused){const i=cur;syn.cancel();clearInterval(tid);going=false;paused=false;playStory(i,allMode);}}
+function seek(e){el=(e.offsetX/e.currentTarget.offsetWidth)*dur;if(cur>=0){const i=cur;syn.cancel();clearInterval(tid);going=false;paused=false;playStory(i,allMode);}}
+if(syn.onvoiceschanged!==undefined)syn.onvoiceschanged=()=>{};
+</script>
+</body>
+</html>
