@@ -568,7 +568,9 @@ CLAUDE & AI SECTION RULES:
 - It is fine to occasionally cover a major capability advancement from a competing AI (OpenAI, Google, Meta, xAI) ONLY if it directly compares to Claude or sets a new bar Claude must respond to.
 - DO NOT COVER: AI ethics debates, AI regulation politics, AI industry layoffs, AI hype takes, AI investment/funding rounds unless tied to a concrete capability shipping, or general "AI is changing X industry" stories.
 - Each story must answer: what new thing can Claude (or a comparable model) now do that it could not do before, and what does that unlock for users.
-- If headlines are sparse or only contain ethics/policy/funding chatter, return fewer than the requested number of stories rather than padding.
+
+FALLBACK — IF NO USABLE NEWS TODAY:
+If none of the headlines describe an actual capability advancement (they are all ethics/policy/funding/hype/empty), do NOT skip or return zero stories. Instead, produce ONE educational "story" in the same headline + body format that teaches the user about a specific existing Claude capability they may not know about. Pick something concrete and useful — examples to choose from: computer use / browser automation, the Agent SDK, MCP (Model Context Protocol) connectors, extended thinking / reasoning mode, prompt caching, batch API, tool use, structured outputs, vision / image analysis, PDF understanding, code execution, file creation skills, projects, artifacts, memory, sub-agents, hooks, slash commands, plan mode, the 1M-token context window, or message batches. Explain in plain English: what the capability is, one concrete example of when to use it, and how it would help a non-developer like a property manager. Make the headline clearly signal it is a capability explainer (e.g. "What you can do with Claude\u2019s computer use" or "Claude\u2019s MCP connectors, explained"). Pick a different capability each day — do not repeat any titles in the recent_titles list.
 """
 
     prompt = build_prompt(section, headlines, is_monday=is_monday,
