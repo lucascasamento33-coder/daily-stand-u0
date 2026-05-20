@@ -339,11 +339,15 @@ Only cover stories that genuinely matter. Apply this standard before picking any
 """
 
 ACCURACY_NOTE = """
-ACCURACY RULES ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ CRITICAL:
+ACCURACY RULES - CRITICAL:
 - Only state facts that are directly supported by the headlines and summaries provided. Do NOT invent statistics, records, names, ages, or details not present in the source material.
-- If a headline mentions a record was broken, you MUST state what the actual record is if it appears in the summary. If the summary doesn't say, do not guess ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ instead say the record was broken without fabricating the specifics.
-- Do not describe a player's experience level (e.g. "rookie", "veteran") unless it is explicitly stated in the source material.
-- Do not attribute quotes unless they appear in the source material.
+- NEVER fill in team affiliations, current employers, job titles, ages, relationships, or roles from your own training knowledge. Players get traded, executives change jobs, politicians lose elections. Your training data is outdated and will produce wrong facts.
+- If a headline mentions a person by name without their current team/role/affiliation, refer to them ONLY by name. Do NOT add "of the Mavericks", "the CEO of X", "the senator from Y", etc. unless that affiliation is EXPLICITLY in the headline.
+- If a headline mentions a team's roster, schedule, conference, or recent transactions, use ONLY what the headline says about it. Do not infer the rest of the roster from memory.
+- If a fact would require knowledge of "what is currently true" (current rosters, current employees, current officeholders, current stock prices, current standings), it must come from the headlines or be omitted entirely.
+- When in doubt, OMIT the detail rather than guess. A shorter accurate story beats a richer story with an invented fact.
+- If you're tempted to add color from training memory (a player's nickname, a team's recent history, etc.), STOP and re-read the headlines. Only include color that's in the headlines.
+- Use accurate language about numbers. "Several" means 3+. "Multiple" means 2+. Use vague quantifiers only when the source uses them.
 """
 
 STORY_LENGTH_NOTE = """
