@@ -415,6 +415,8 @@ Recent stories to avoid repeating:
 
 Section: {section}
 
+CROSS-SECTION EXCLUSION: NEVER include in this section any news about Anthropic, OpenAI, Google DeepMind, Meta AI, Mistral, or any other AI company corporate news -- including IPOs, funding rounds, valuations, executive changes, layoffs, partnerships, or product announcements. ALL Claude/AI/Anthropic topics belong exclusively in the dedicated Claude capability spotlight section. If a headline below is about an AI company, skip it and pick a different story.
+
 {IMPACT_NOTE}
 {ACCURACY_NOTE}
 {STORY_LENGTH_NOTE}
@@ -567,15 +569,7 @@ US STOCKS SECTION RULES:
 
     if section == "Claude & AI":
         extra = """
-CLAUDE & AI SECTION RULES:
-- Focus EXCLUSIVELY on advancements in what Claude (made by Anthropic) can do: new model releases, new capabilities, new product features, new tools, new integrations, expanded context windows, agentic abilities, coding skills, browser/computer use, vision, audio, API changes, pricing changes, and notable benchmark results.
-- It is fine to occasionally cover a major capability advancement from a competing AI (OpenAI, Google, Meta, xAI) ONLY if it directly compares to Claude or sets a new bar Claude must respond to.
-- DO NOT COVER: AI ethics debates, AI regulation politics, AI industry layoffs, AI hype takes, AI investment/funding rounds unless tied to a concrete capability shipping, or general "AI is changing X industry" stories.
-- Each story must answer: what new thing can Claude (or a comparable model) now do that it could not do before, and what does that unlock for users.
-
-FALLBACK — IF NO USABLE NEWS TODAY:
-If none of the headlines describe an actual capability advancement (they are all ethics/policy/funding/hype/empty), do NOT skip or return zero stories. Instead, produce ONE educational "story" in the same headline + body format that teaches the user about a specific existing Claude capability they may not know about. Pick something concrete and useful — examples to choose from: computer use / browser automation, the Agent SDK, MCP (Model Context Protocol) connectors, extended thinking / reasoning mode, prompt caching, batch API, tool use, structured outputs, vision / image analysis, PDF understanding, code execution, file creation skills, projects, artifacts, memory, sub-agents, hooks, slash commands, plan mode, the 1M-token context window, or message batches. Explain in plain English: what the capability is, one concrete example of when to use it, and how it would help a non-developer like a property manager. Make the headline clearly signal it is a capability explainer (e.g. "What you can do with Claude\u2019s computer use" or "Claude\u2019s MCP connectors, explained"). Pick a different capability each day — do not repeat any titles in the recent_titles list.
-"""
+CLAUDE CAPABILITY SPOTLIGHT - DAILY TUTORIAL (NOT NEWS): - IGNORE the news headlines below. This section is a daily mini-lesson teaching Lucas one Claude capability. - Pick ONE capability from this rotating list, choosing one NOT covered in recent_titles: Skills (reusable workflow packages); slash commands; MCP connectors (Slack/Gmail/Drive/Buildium); Agent SDK; prompting techniques (few-shot, chain-of-thought, XML tags); Computer Use; Claude in Chrome; Claude Code; vision and PDF reading; tool use / function calling; Artifacts (live HTML widgets); Batch API; extended thinking; system prompts; prompt caching; multi-turn workflows; project knowledge / context files; Claude in Excel; Haiku vs Sonnet vs Opus model selection; Files API. - Format the spotlight as: (1) name the capability and plainly explain it in 2-3 sentences; (2) give ONE concrete specific example of using it -- not abstract; (3) where natural, tie it to property management work (lease summarization, tenant email drafting, vendor bill review, rent-roll auditing, violation tracking, market-rent research) -- but do not force a property angle if the capability is general. - Length: 12-15 sentences total. Conversational, audio-friendly, no jargon. Lucas is a property manager, not an engineer. - ABSOLUTELY DO NOT discuss: Anthropic as a company, IPOs, funding rounds, valuations, executive changes, hiring, layoffs, AI industry politics, ethics debates, regulation, AI safety, or competitor news. None of that belongs in this brief. OUTPUT: A single capability spotlight with title + body, same format as other sections, but exactly ONE story not multiple."""
 
     prompt = build_prompt(section, headlines, is_monday=is_monday,
                           recent_titles=recent_titles, extra_note=extra, n_stories=n_stories)
