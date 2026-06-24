@@ -318,19 +318,28 @@ def get_recent_titles(history, is_monday=False):
         try:
             d = datetime.date.fromisoformat(date_key)
             if (today - d).days <= cutoff:
-                seen.extend(entries)
+                for e in entries:
+                    if isinstance(e, dict):
+                        title = e.get("title", "").strip()
+                        facts = e.get("facts", "").strip()
+                        seen.append(f"{title} — already reported: {facts}" if facts else title)
+                    else:
+                        seen.append(str(e))
         except Exception:
             pass
-    return seen  # list of human-readable titles, not normalized keys
+    return seen
 
 
 def update_history(history, sections_data):
     today_key = datetime.date.today().isoformat()
-    today_titles = []
+    today_entries = []
     for stories in sections_data.values():
         for story in stories:
-            today_titles.append(story["title"])  # store readable titles
-    history[today_key] = today_titles
+            body = story.get("body", "")
+            sentences = re.split(r'(?<=[.!?])\s+', body.strip())
+            facts = " ".join(sentences[:2]).strip()
+            today_entries.append({"title": story["title"], "facts": facts})
+    history[today_key] = today_entries
     cutoff = datetime.date.today() - datetime.timedelta(days=MAX_HISTORY_DAYS + 3)
     history = {k: v for k, v in history.items()
                if datetime.date.fromisoformat(k) >= cutoff}
@@ -347,7 +356,7 @@ Only cover stories that genuinely matter. Apply this standard before picking any
 - If a story wouldn't make the front page of a serious newspaper, skip it.
 - VARIETY RULE: Every story in this section MUST cover a completely different topic, event, entity, and subject. No two stories can share the same person, team, company, country, or event ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ even from different angles.
 - SELF-CHECK ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ MANDATORY: After drafting all stories, re-read them together. If any two stories are about the same underlying event or subject, discard the weaker one and replace it with something entirely different before submitting output.
-- NO-REPEAT ACROSS DAYS: The recent story list below reflects the last 7 days. Do not revisit any topic, person, team, or event that appeared recently unless something fundamentally new has happened (e.g. a verdict was reached, a deal was signed, a conflict escalated significantly).
+- ONGOING STORIES: The recent story list below shows what was already reported in the last 7 days, with key facts. Re-cover an ongoing story only if there’s a tangible new development since then, and lead with what changed. If nothing material has changed, skip it and backfill with a different front-page story.
 """
 
 ACCURACY_NOTE = """
@@ -415,11 +424,20 @@ Do not skip major Monday morning news just because it's also a weekend recap bri
     if recent_titles:
         titles_list = "\n".join(f"- {t}" for t in recent_titles[:25])
         recent_note = f"""
-AVOID REPEAT STORIES ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ CRITICAL:
-The following stories were already covered in recent days. DO NOT cover the same topic, player, team, or event again ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ even if the headline is worded differently.
-Ask yourself: "Is this essentially the same story?" If yes, skip it entirely.
-Only cover a previously-covered topic if something genuinely NEW and significant has changed (e.g. a trade was completed vs. just rumored, a player returned vs. was injured).
-Recent stories to avoid repeating:
+ONGOING STORIES — TANGIBLE-UPDATE RULE (last 7 days):
+
+Below is what was already reported recently, with the key facts that were covered.
+
+For any of today’s headlines that continues one of these stories:
+
+- Cover it ONLY if there is a concrete, tangible NEW development since it was last reported — e.g. a verdict reached, a deal signed, a vote held, a casualty/figure confirmed, a significant escalation, an arrest, or a new official number. A fresh article that merely restates the same situation is NOT a new development.
+
+- If you cover it, LEAD with what changed and make explicit what is new since last time. Do not rehash the prior coverage.
+
+- If there is NO material new development, do NOT cover it. Drop it and use the next most newsworthy, entirely different story instead, so the brief stays full length.
+
+Already reported recently:
+
 {titles_list}
 """
 
@@ -480,10 +498,20 @@ Label weekend stories naturally and Monday news as current.
         if recent_titles:
             titles_list = "\n".join(f"- {t}" for t in recent_titles[:30])
             recent_note = f"""
-AVOID REPEAT STORIES ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ CRITICAL (7-DAY WINDOW):
-Do not cover any topic, country, leader, or event that appeared in the recent story list below.
-Only revisit if something fundamentally new has happened.
-Recent stories to avoid:
+ONGOING STORIES — TANGIBLE-UPDATE RULE (last 7 days):
+
+Below is what was already reported recently, with the key facts that were covered.
+
+For any of today’s headlines that continues one of these stories:
+
+- Cover it ONLY if there is a concrete, tangible NEW development since it was last reported — e.g. a verdict reached, a deal signed, a vote held, a casualty/figure confirmed, a significant escalation, an arrest, or a new official number. A fresh article that merely restates the same situation is NOT a new development.
+
+- If you cover it, LEAD with what changed and make explicit what is new since last time. Do not rehash the prior coverage.
+
+- If there is NO material new development, do NOT cover it. Drop it and use the next most newsworthy, entirely different story instead, so the brief stays full length.
+
+Already reported recently:
+
 {titles_list}
 """
 
