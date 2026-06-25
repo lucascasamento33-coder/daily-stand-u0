@@ -1,20 +1,4 @@
 {
-  "2026-06-14": [
-    "Cura\u00e7ao Makes History at the World Cup",
-    "Swiss Voters Reject Population Cap",
-    "Japan Weighs Expanding Royal Family with Male Adoptions",
-    "Israel Strikes Beirut Amid Fragile Ceasefire",
-    "Universities Face Mounting Legal Bills Under Trump Administration Pressure",
-    "Trump Administration Cuts Foreign Access to Latest AI Models",
-    "US Economy Continues to Outpace Global Peers",
-    "UK to Phase Out Russian Fuel Imports",
-    "Anthropic Suspends New AI Tools Amid Security Concerns",
-    "New York Poised to Ban Private Listings Unless Sellers Opt Out",
-    "Former NFL Pass Rusher Aldon Smith Dies at 36",
-    "Knicks Capture First NBA Championship in 53 Years",
-    "Cavaliers Guard James Harden Arrested in Houston",
-    "Anthropic Suspends Advanced Claude Models After U.S. Restricts Foreign Access"
-  ],
   "2026-06-15": [
     "American Musician Among Six Dead in Rio Helicopter Crash",
     "Britain Bans Social Media for Children Under 16",
@@ -170,5 +154,67 @@
     "Ronaldo Makes World Cup History with Sixth Tournament Goal",
     "Wizards Take Dybantsa First Overall in NBA Draft",
     "Claude Tag Turns Slack Into a Company Memory Engine"
+  ],
+  "2026-06-25": [
+    {
+      "title": "Twin Earthquakes Devastate Venezuela",
+      "facts": "Twin earthquakes have devastated Venezuela, killing at least 164 people and leaving hundreds more missing. The 7.2- and 7.5-magnitude quakes struck the capital Caracas, flattening buildings and trapping survivors under rubble."
+    },
+    {
+      "title": "Europe's Heat Wave Turns Deadly",
+      "facts": "Spain's health ministry says about 200 people may have died since Sunday as a punishing heat wave grips western Europe. Temperatures soared above 100 degrees Fahrenheit in Paris, driving crowds to jump into the Canal Saint-Martin to escape the extreme conditions."
+    },
+    {
+      "title": "North Korea Launches First Destroyer Armed with Nuclear Missiles",
+      "facts": "North Korea has deployed its first-ever destroyer, signaling a major expansion of its naval capabilities. The 5,000-ton Choe Hyon is the largest warship North Korea has ever built."
+    },
+    {
+      "title": "Oil Prices Drop as Hormuz Strait Gradually Reopens",
+      "facts": "Oil prices have fallen back to pre-war levels as traffic through the critical Strait of Hormuz shipping route gradually resumes. Brent crude has dropped to its lowest point since February 27, before the recent conflict in the region began."
+    },
+    {
+      "title": "Police Find Kansas City Shooting Suspect Dead After Week-Long Manhunt",
+      "facts": "The suspect in last week's series of roadway shootings in Kansas City has been found dead. Police discovered the body of Oscar Sanchez-Munoz in the basement of a home they'd already searched during the manhunt."
+    },
+    {
+      "title": "Senate Republicans Reverse Iran War Vote After Presidential Pressure",
+      "facts": "Senate Republicans staged a dramatic about-face on the Iran conflict overnight. In a late-night vote, they rejected a resolution that would have directed President Trump to end military operations against Iran."
+    },
+    {
+      "title": "Ex-Pastor Charged With Murder Two Decades After Wife's Fatal Fall",
+      "facts": "A former youth pastor is facing murder charges twenty years after his wife died in what was originally ruled an accident. Bernadette Vander Meer fell to her death at Zion National Park in Utah back in 2004."
+    },
+    {
+      "title": "Tech Giants Promise Worker Retraining as A.I. Reshapes Jobs",
+      "facts": "OpenAI, Anthropic, Amazon, and Microsoft have joined a new effort to help American workers adapt as artificial intelligence transforms the workplace. The initiative is led by former Commerce Secretary Gina Raimondo and aims to ease what many see as an inevitable but disruptive transition."
+    },
+    {
+      "title": "U.S. Worries About Dependence on Chinese Tech Dominance",
+      "facts": "American officials are raising alarms that the United States could become dangerously reliant on Chinese technology as firms there race ahead in key sectors. Chinese companies now hold some of the world's most advanced capabilities in areas like telecommunications, battery production, and certain A.I."
+    },
+    {
+      "title": "SK Hynix's U.S. Listing Plans Could Shake Up Memory Chip Investing",
+      "facts": "South Korean memory chip giant SK Hynix is planning a U.S. stock listing, and the move's got Wall Street thinking about what it means for Micron's near-monopoly on American memory chip investment."
+    },
+    {
+      "title": "Wall Street Braces for One of the Year's Biggest Trading Days",
+      "facts": "Friday's shaping up to be one of the highest-volume trading days of 2025, and it's got nothing to do with earnings or economic data. FTSE Russell is conducting its semi-annual index rebalancing\u2014what the firm calls its reconstitution\u2014and the sheer scale of the shuffle could move markets on its own."
+    },
+    {
+      "title": "Hell's Kitchen Office Tower Gets $102 Million for Residential Conversion",
+      "facts": "Brooklyn developer Hershy Silberstein just locked down $102 million in construction financing to turn the Press Building at 311 West 43rd Street into apartments. S3 Capital provided the debt for the project, which involves converting the 193,000-square-foot Hell's Kitchen office tower into residential units."
+    },
+    {
+      "title": "Lions Cornerback Arrested on Kidnapping and Robbery Charges",
+      "facts": "Detroit Lions cornerback Terrion Arnold is facing multiple felony charges after his arrest Wednesday in Tampa, Florida. The charges stem from an alleged robbery and kidnapping that took place in early February."
+    },
+    {
+      "title": "Austin Reaves Signs Maximum Extension with Lakers",
+      "facts": "Austin Reaves is about to become one of the NBA's highest-paid players. The Lakers star intends to sign a four-year, $185 million maximum contract extension to stay with the franchise, according to sources."
+    },
+    {
+      "title": "Anthropic accuses Alibaba of stealing Claude AI capabilities",
+      "facts": "Anthropic is accusing Chinese tech giant Alibaba of running what it calls a \"brazen\" campaign to illicitly extract capabilities from its Claude AI model. The San Francisco-based company claims Alibaba used techniques to reverse-engineer and access Claude's underlying technology without authorization."
+    }
   ]
 }
