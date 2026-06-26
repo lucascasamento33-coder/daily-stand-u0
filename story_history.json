@@ -1,19 +1,4 @@
 {
-  "2026-06-15": [
-    "American Musician Among Six Dead in Rio Helicopter Crash",
-    "Britain Bans Social Media for Children Under 16",
-    "Tensions Flare as Trump Heads to G7 Summit",
-    "Alabama Republican Runoff Tests Party Dynamics",
-    "California Sues Over County's Mail Voting Restrictions",
-    "U.S.-Iran Deal Sends Oil Prices Tumbling",
-    "Scam Losses Top \u00a31.3 Billion as Criminals Weaponize AI",
-    "U.S.-Iran Peace Framework Offers Hope for Global Economic Recovery",
-    "AI Restrictions Could Reshape Tech Sector",
-    "Mortgage Rates Hold Near 6.6% as Fed Decision Looms",
-    "Former NFL Pass Rusher Aldon Smith Dies at 36",
-    "Knicks Win First Championship in 53 Years",
-    "Washington Suspends Global Access to Anthropic's Most Advanced AI Models"
-  ],
   "2026-06-16": [
     "Cuba's Tourism Industry Crashes Under U.S. Pressure",
     "UK Social Media Ban Announced for Children Under Sixteen",
@@ -215,6 +200,64 @@
     {
       "title": "Anthropic accuses Alibaba of stealing Claude AI capabilities",
       "facts": "Anthropic is accusing Chinese tech giant Alibaba of running what it calls a \"brazen\" campaign to illicitly extract capabilities from its Claude AI model. The San Francisco-based company claims Alibaba used techniques to reverse-engineer and access Claude's underlying technology without authorization."
+    }
+  ],
+  "2026-06-26": [
+    {
+      "title": "Twin Earthquakes Leave 235 Dead in Venezuela",
+      "facts": "Venezuela is racing against time to find survivors after two powerful earthquakes struck the country, killing at least 235 people and leaving hundreds more missing or trapped under rubble. Thousands were injured in the quakes, which devastated coastal areas including the port city of La Guaira, where multi-storey buildings collapsed."
+    },
+    {
+      "title": "Ransomware Attack on Jaguar Land Rover Cost UK Economy $2.5 Billion",
+      "facts": "A massive cyberattack that crippled Jaguar Land Rover last year has been traced to Russian operatives, costing the British economy an estimated $2.5 billion. Investigators initially believed a loose collective of cybercriminals was behind the ransomware attack, which shut down production lines and disrupted supply chains across the automotive giant."
+    },
+    {
+      "title": "Bolton Expected to Plead Guilty in Classified Documents Case",
+      "facts": "John Bolton is expected to plead guilty to mishandling classified information, potentially facing prison time in a case that stretched across two administrations. The former national security adviser to President Trump will admit to the charges in what marks a rare criminal resolution for a figure at his level of government."
+    },
+    {
+      "title": "Supreme Court Backs End to Deportation Protections",
+      "facts": "The Supreme Court ruled that the Trump administration can end deportation protections for certain migrants, handing immigration hard-liners a victory after a decade of legal battles. A White House official called it \"a victory 10 years in the making\" following years of courtroom losses before reaching the high court."
+    },
+    {
+      "title": "California Ballot Fight Erupts Over Billionaire Tax",
+      "facts": "California voters will decide on a billionaire tax this November, but the state's wealthiest residents are mounting a fierce counterattack. The wealthy have placed two competing ballot measures designed to nullify the tax before it can take effect."
+    },
+    {
+      "title": "Dollar Surges to Year High Despite Gulf Peace Deal",
+      "facts": "The U.S. dollar has climbed to its highest point of the year, defying expectations that a peace agreement ending the Gulf conflict would weaken demand for safe-haven assets."
+    },
+    {
+      "title": "Tech Giants Partner with Government on Worker A.I. Transition",
+      "facts": "OpenAI, Anthropic, Amazon, and Microsoft have joined a new initiative aimed at easing the impact of artificial intelligence on American workers. The effort is being led by former Commerce Secretary Gina Raimondo, bringing together some of the biggest players in A.I."
+    },
+    {
+      "title": "Asian Markets Tumble as Tech Selloff Intensifies",
+      "facts": "Stock markets across Asia slid sharply as a rout in technology shares deepened, with South Korea's Kospi index hit so hard that trading was halted for the third time this week. Circuit breakers kicked in to prevent panic selling as investors dumped tech stocks across the region."
+    },
+    {
+      "title": "Russell Rebalancing Set to Shake Markets Friday",
+      "facts": "Wall Street's about to see one of its busiest trading days of the year, and it's got nothing to do with earnings or the Fed. FTSE Russell is conducting its semi-annual rebalancing\u2014what the index provider calls reconstitution\u2014and analysts say the sheer size of the operation could move markets Friday."
+    },
+    {
+      "title": "NYC Rent Freeze Approved for Nearly One Million Apartments",
+      "facts": "The Rent Guidelines Board just voted to freeze rents on nearly one million rent-stabilized apartments across New York City, marking the first time in years that tenants will see zero increase when their leases renew. It's a campaign promise fulfilled for the mayor, who pushed hard for the freeze amid persistent affordability concerns."
+    },
+    {
+      "title": "Long Island Real Estate Scheme Leaves Buyers in Legal Nightmare",
+      "facts": "A Long Island deed scheme has left multiple homebuyers trapped in what's being described as a never-ending real estate nightmare. Michael O'Sullivan allegedly promised clients their dream homes but instead delivered a tangle of fraudulent paperwork and legal troubles."
+    },
+    {
+      "title": "Baseball Owners Push Contract Cap in Labor Talks",
+      "facts": "Major League Baseball is pushing for a five-year cap on free agent contracts for players changing teams, according to details emerging from ongoing collective bargaining talks. Under the proposal, teams could only sign another team's free agent to a maximum of five years, though they'd be allowed to keep their own players for up to six years under what's being called a Cornerstone Player Provision."
+    },
+    {
+      "title": "LaMelo Ball Traded to Minnesota in Blockbuster Deal",
+      "facts": "The Hornets are sending LaMelo Ball and Josh Green to the Timberwolves in exchange for Naz Reid and a series of draft picks. It's one of the biggest moves of the NBA offseason, reshaping both franchises heading into next season."
+    },
+    {
+      "title": "Anthropic Accuses Alibaba of Systematic Campaign to Clone Claude",
+      "facts": "Anthropic is accusing Alibaba of running what it calls a brazen, systematic campaign to illegally extract the capabilities of its Claude AI model. The company says Alibaba used what's known as model distillation\u2014essentially querying Claude millions of times to reverse-engineer how it works and replicate that intelligence in Alibaba's own competing models."
     }
   ]
 }
