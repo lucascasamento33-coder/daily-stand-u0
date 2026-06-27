@@ -1,19 +1,4 @@
 {
-  "2026-06-16": [
-    "Cuba's Tourism Industry Crashes Under U.S. Pressure",
-    "UK Social Media Ban Announced for Children Under Sixteen",
-    "BASE Jumping Tragedy Claims Life of Super Bowl Performer",
-    "Kratom Industry Cultivates Allies in Trump White House",
-    "New Writings Shed Light on Jeffrey Epstein's Final Weeks",
-    "Iran Conflict Reshapes Global Economic Order",
-    "Japan Pushes Rates to Thirty-One Year High",
-    "SpaceX Listing Raises Eighty-Seven Billion Dollars",
-    "Goldman Slashes Oil Price Forecast on Peace Deal Prospects",
-    "Manhattan Family Real Estate Empire Hits Bankruptcy Over Internal Feud",
-    "Dustin May Dominates with Near-Perfect One-Hitter for Cardinals",
-    "Chicago Bulls Hire Tiago Splitter as Head Coach",
-    "Anthropic Pulls Two Claude Models After White House Security Order"
-  ],
   "2026-06-17": [
     "Ecuador's Highlands Speak a Language All Their Own",
     "Russian Artist Known for Putin Caricatures Shot Dead in Poland",
@@ -258,6 +243,72 @@
     {
       "title": "Anthropic Accuses Alibaba of Systematic Campaign to Clone Claude",
       "facts": "Anthropic is accusing Alibaba of running what it calls a brazen, systematic campaign to illegally extract the capabilities of its Claude AI model. The company says Alibaba used what's known as model distillation\u2014essentially querying Claude millions of times to reverse-engineer how it works and replicate that intelligence in Alibaba's own competing models."
+    }
+  ],
+  "2026-06-27": [
+    {
+      "title": "Devastating Earthquakes Kill Hundreds in Venezuela",
+      "facts": "At least 920 people are dead and more than 51,000 are missing after two massive earthquakes struck Venezuela on Wednesday. International rescue teams have arrived as desperate families dig through rubble, but the critical 72-hour rescue window is nearly closed."
+    },
+    {
+      "title": "Italy's Meloni and Trump Relationship Collapses",
+      "facts": "The political alliance between Italy's Prime Minister Giorgia Meloni and former President Trump has deteriorated from close partnership to open hostility. Meloni was once dubbed the \"Trump whisperer\" for her ability to navigate the relationship, but that's now completely unraveled."
+    },
+    {
+      "title": "Exiled Myanmar Chefs Bring Burmese Cuisine to Global Spotlight",
+      "facts": "Burmese food is finally getting international recognition, thanks to an unlikely catalyst: political exile. An exodus of chefs from Myanmar following the military coup has spread the country's cuisine to new corners of the world."
+    },
+    {
+      "title": "U.S. and Iran Exchange Strikes as Truce Unravels",
+      "facts": "The fragile U.S.-Iran agreement is teetering after a new round of military strikes overnight. The United States hit Iranian military sites after a cargo ship came under attack in the Strait of Hormuz for the second time in recent days."
+    },
+    {
+      "title": "Alaska Senate Race Gets Confusing as Two Dan Sullivans Approved for Ballot",
+      "facts": "A judge in Alaska has ruled that two candidates named Dan Sullivan can both appear on the ballot for the state's U.S. Senate race."
+    },
+    {
+      "title": "Colorado Redistricting Proposals in Limbo as Supreme Court Stays Silent",
+      "facts": "Colorado's highest court is sitting on a decision that could determine whether Democrats get a shot at redrawing the state's electoral maps before 2028. Both parties are waiting for the state Supreme Court to rule on whether ballot proposals to redistrict Colorado are legally valid."
+    },
+    {
+      "title": "Louisiana Republicans Head to Senate Runoff in Test of Trump's Sway",
+      "facts": "Louisiana voters are heading to the polls Saturday for a Republican Senate runoff that'll offer fresh evidence of how much clout President Trump still holds in GOP primaries. The race is the latest in a string of intraparty contests where Trump's endorsement has been a central factor."
+    },
+    {
+      "title": "Trump Threatens 100% Tariff on Europe Over Tech Taxes",
+      "facts": "President Trump is threatening to slap a 100% tariff on European countries that impose digital services taxes on American tech companies. The move would override a trade agreement with the European Union that was finalized just days ago."
+    },
+    {
+      "title": "American Consumer Confidence Rebounds After Energy Price Surge",
+      "facts": "Americans are feeling noticeably better about the economy, according to a new consumer sentiment survey. Confidence rose in recent weeks after plummeting earlier this year when energy costs soared."
+    },
+    {
+      "title": "Brexit's Labor Crunch Brings Central Asian Workers to British Farms",
+      "facts": "A decade after Brexit, Britain's strawberry fields are being picked by workers from Kyrgyzstan and Tajikistan\u2014not Europeans. Most seasonal agricultural laborers now come from Central Asia, a dramatic shift from the pre-Brexit era when EU citizens dominated the workforce."
+    },
+    {
+      "title": "Tech Stocks Stumble as AI Spending Questions Mount",
+      "facts": "Tech stocks just suffered one of their worst weeks in a year, and it's all about a question Wall Street had been avoiding: what are we actually getting for all this AI spending? The sell-off hit software companies particularly hard, though there's an interesting split emerging."
+    },
+    {
+      "title": "NYC Rent Freeze Hits Nearly One Million Apartments",
+      "facts": "New York City's Rent Guidelines Board just voted to freeze rents on nearly one million rent-stabilized apartments, delivering on a key campaign promise from Mayor Mamdani. It's the first time in years tenants in these units won't see an increase when their leases renew."
+    },
+    {
+      "title": "Long Island Real Estate Fraud Leaves Homebuyers Stranded",
+      "facts": "A real estate scheme on Long Island has left multiple families in a legal and financial nightmare after they thought they'd purchased their dream homes. Michael O'Sullivan allegedly promised clients straightforward home purchases, but what they got instead were tangled deed transfers that never properly completed."
+    },
+    {
+      "title": "Angels Clean House, Bring in Cardinals Architect for Overhaul",
+      "facts": "The Angels fired general manager Perry Minasian on Friday and immediately announced they're bringing in John Mozeliak as a consultant to rebuild their baseball operations department. Mozeliak spent years as a top executive with the Cardinals, and the Angels are clearly hoping he can work the same magic in Anaheim."
+    },
+    {
+      "title": "Thunder Lock Up Hartenstein With $75 Million Extension",
+      "facts": "Isaiah Hartenstein is staying in Oklahoma City. The center intends to sign a new three-year contract worth $75 million to return to the Thunder through the 2029 season."
+    },
+    {
+      "title": "Anthropic Wins U.S. Approval to Release Mythos AI Model Under Tight Controls",
+      "facts": "The U.S. government just gave Anthropic the green light to release its most powerful AI model yet\u2014Claude Mythos\u2014but only to a select group of over 100 American companies and government agencies."
     }
   ]
 }
