@@ -1,21 +1,4 @@
 {
-  "2026-06-17": [
-    "Ecuador's Highlands Speak a Language All Their Own",
-    "Russian Artist Known for Putin Caricatures Shot Dead in Poland",
-    "Bahrain Strips Dozens of Citizenship, Tries to Expel Them to Iran",
-    "Israeli Nationalists Increasingly Flout Sacred Jerusalem Site Rules",
-    "Private Jet Crashes on Texas Highway, Killing One",
-    "Washington Wildfire Forces Evacuations Near Spokane",
-    "Data Centers' Constant Hum Sparks Health Complaints",
-    "Small Businesses Buckle Under Tariffs and Energy Costs",
-    "Lloyd Blankfein Gambles Big on Individual Stocks",
-    "Energy Trader Doubles Down on Oil as Prices Crater",
-    "New York Cracks Down on Rent-Stabilized Building Violations",
-    "City Launches Billion-Dollar Fund to Preserve Supportive Housing",
-    "Real Madrid Land Bernardo Silva in Major Transfer",
-    "Bulls Hire Tiago Splitter as Head Coach",
-    "Anthropic Hits Pause on Agent SDK Billing Overhaul Hours Before Launch"
-  ],
   "2026-06-18": [
     "Gunmen Hide Weapons in Flowers to Kill Gang Leader at Ecuadorian Airport",
     "Ukrainian Drones Strike Moscow Refinery in Biggest Attack on Russian Capital",
@@ -309,6 +292,64 @@
     {
       "title": "Anthropic Wins U.S. Approval to Release Mythos AI Model Under Tight Controls",
       "facts": "The U.S. government just gave Anthropic the green light to release its most powerful AI model yet\u2014Claude Mythos\u2014but only to a select group of over 100 American companies and government agencies."
+    }
+  ],
+  "2026-06-28": [
+    {
+      "title": "Venezuela Struggles With Earthquake Response Amid Political Turmoil",
+      "facts": "Desperate families in Venezuela are keeping vigil outside collapsed buildings, calling out to loved ones they fear are trapped beneath the rubble. The country's interim president, Delcy Rodr\u00edguez, is facing accusations from critics that she's exploiting the earthquake tragedy for political gain."
+    },
+    {
+      "title": "Record-Breaking Heatwave Scorches Northern Europe",
+      "facts": "An estimated 150 million people across Europe are sweltering through temperatures above 35 degrees Celsius as a heatwave shatters records in Germany, Denmark, and the Czech Republic. The extreme heat has broken longstanding temperature benchmarks in all three countries, pushing northern European infrastructure and populations unaccustomed to such sustained warmth to their limits."
+    },
+    {
+      "title": "Pilot Killed After Crashing Small Plane Into Beijing's Tallest Tower",
+      "facts": "China has confirmed the death of a pilot who flew a small plane into Beijing's tallest tower, an incident that also injured 13 others. The crash occurred just five miles from Communist Party headquarters, sending debris and plane parts falling to the ground below."
+    },
+    {
+      "title": "Iran and U.S. Exchange Strikes as Tensions Enter Fourth Day",
+      "facts": "Hostilities between the United States and Iran have entered a fourth day with no signs of de-escalation, as both sides traded attacks and threats. Iran launched what it called retaliatory strikes at U.S."
+    },
+    {
+      "title": "Michigan Parents Charged in Death of Seven-Year-Old Who Weighed 255 Pounds",
+      "facts": "A Michigan couple is facing murder charges after their seven-year-old son died weighing 255 pounds. Prosecutors say Casper O'Brien was morbidly obese, bedridden, and survived on little more than snack foods when he died last year."
+    },
+    {
+      "title": "Colorado Governor's Race Tests Democratic Strategy on Trump",
+      "facts": "Colorado's Democratic primary on Tuesday is shaping up as a referendum on how to take on Trump. Senator Michael Bennet, once considered a lock for the nomination, is now in a tight race with Attorney General Phil Weiser."
+    },
+    {
+      "title": "Alzheimer's Cost Crisis Looms Over U.S. Economy",
+      "facts": "There's a disease costing America more than cancer and heart disease combined, and it's about to get much worse. Health experts are sounding the alarm that the economic burden is reaching crisis levels for both families and government budgets."
+    },
+    {
+      "title": "Medicare Opens Door to Weight-Loss Drugs",
+      "facts": "Starting July 1st, Medicare beneficiaries can access GLP-1 weight-loss medications for the first time\u2014but it comes with important caveats. Qualifying seniors will be able to get these drugs for about $50 a month, a fraction of their usual retail price."
+    },
+    {
+      "title": "Trump Threatens Europe With 100% Tariff Over Tech Tax",
+      "facts": "The U.S. president is threatening to slap a 100% tariff on European nations if they move forward with plans for a digital services tax."
+    },
+    {
+      "title": "401(k) Balances Hit All-Time Highs",
+      "facts": "Workplace retirement savers had their best year on record in 2024, according to Vanguard's latest report tracking how America saves. The investment giant's data shows 401(k) balances reached record levels across the board last year, driven by strong market returns and steady contributions."
+    },
+    {
+      "title": "Historic Rent Freeze Hits New York Landlords",
+      "facts": "New York City's Rent Guidelines Board just voted to freeze rents on rent-stabilized apartments for the first time in its history\u2014and it's not just one-year leases. Thursday night's 7-to-1 vote means both one- and two-year stabilized leases will see zero increase, a move that's unprecedented for the two-year category."
+    },
+    {
+      "title": "Austria and Algeria Advance, Sending Iran Home in World Cup Drama",
+      "facts": "A wild 3-3 draw between Austria and Algeria on Saturday night sealed one of the World Cup's most unusual outcomes. Both teams traded goals in a thriller that sent them both through to the knockout round while eliminating Iran from the tournament entirely."
+    },
+    {
+      "title": "Thunder Lock Up Hartenstein in $75 Million Deal",
+      "facts": "Isaiah Hartenstein is staying put in Oklahoma City. The Thunder center has agreed to a new three-year contract worth $75 million that'll keep him with the team through the 2028-29 season."
+    },
+    {
+      "title": "Trump Administration Greenlights Anthropic's Mythos Model for Select U.S. Organizations",
+      "facts": "The Trump administration has authorized Anthropic to deploy its Mythos AI model to a limited set of U.S. companies and government agencies, ending a months-long review of the powerful system."
     }
   ]
 }
