@@ -1,22 +1,4 @@
 {
-  "2026-06-18": [
-    "Gunmen Hide Weapons in Flowers to Kill Gang Leader at Ecuadorian Airport",
-    "Ukrainian Drones Strike Moscow Refinery in Biggest Attack on Russian Capital",
-    "Taiwan's President Expresses Confidence Trump Will Approve Major Arms Package",
-    "U.S. and Iran Reach Agreement to Extend Ceasefire and Reopen Strait of Hormuz",
-    "Barack Obama Presidential Center Opens in Chicago",
-    "Kansas City Shootings Target Drivers Ahead of World Cup Match",
-    "California's Billionaire Tax Headed for Ballot",
-    "Fed Holds Rates Steady as Warsh Signals Tougher Inflation Fight",
-    "Jet Fuel Costs Keep Flight Prices High Despite U.S.-Iran Deal",
-    "U.K. Job Vacancies Hit Five-Year Low as Firms Turn Cautious",
-    "Intel Shares Jump on Trump Apple Chip Manufacturing Announcement",
-    "Budget Battle Threatens City Housing Vouchers",
-    "Real Madrid Sign Konat\u00e9 from Liverpool",
-    "Trae Young Opts for Free Agency Despite Wizards' Front-Runner Status",
-    "Jazz-Kessler Contract Talks Hit Snag Despite $140 Million Offer",
-    "Claude Design Gets a Major Overhaul to Fix Token-Burning Problem"
-  ],
   "2026-06-19": [
     "Mexico Deploys Laws to Silence Journalists and Critics",
     "Zimbabwe Moves to Extend President's Term and End Direct Elections",
@@ -350,6 +332,68 @@
     {
       "title": "Trump Administration Greenlights Anthropic's Mythos Model for Select U.S. Organizations",
       "facts": "The Trump administration has authorized Anthropic to deploy its Mythos AI model to a limited set of U.S. companies and government agencies, ending a months-long review of the powerful system."
+    }
+  ],
+  "2026-06-29": [
+    {
+      "title": "Venezuela Races Against Time After Deadly Earthquake",
+      "facts": "Volunteers armed with drills, picks, and hammers are digging through concrete in a middle-class Caracas neighborhood, searching for survivors after a devastating earthquake struck Venezuela. The quake has triggered an extraordinary community response, with neighbors working around the clock to rescue those trapped beneath collapsed buildings."
+    },
+    {
+      "title": "Russia Downplays War as Ukrainian Strikes Hit Home",
+      "facts": "Russian officials are avoiding the word \"war\" and refusing to designate bomb shelters or activate air raid sirens, even as Ukraine brings the conflict directly to Russian soil. It's a stark shift from the early days of the invasion\u2014now, as Ukrainian drones and missiles strike deeper into Russian territory, Moscow is clinging to euphemisms and downplaying the danger to its own citizens."
+    },
+    {
+      "title": "Pakistan Launches Deadly Airstrikes Into Afghanistan",
+      "facts": "Pakistani warplanes struck targets inside Afghanistan over the weekend, killing more than 30 people in the latest flare-up of a monthslong border conflict. The Taliban government says 36 civilians died in the airstrikes, while Pakistan insists it killed 32 militants in what it described as a targeted operation."
+    },
+    {
+      "title": "U.S. and Iran Announce Deal to Ease Strait of Hormuz Tensions",
+      "facts": "The United States says it has reached an agreement with Iran to halt attacks and allow vessels to move freely through the Strait of Hormuz, one of the world's most critical oil chokepoints. A U.S."
+    },
+    {
+      "title": "Three Firefighters Killed in Southwest Wildfires",
+      "facts": "Three firefighters have died battling wildfires that are tearing through Utah and Colorado this weekend. The fires are raging across the arid Southwest after what forecasters are calling an unusually warm winter."
+    },
+    {
+      "title": "Supreme Court to Rule on Birthright Citizenship and Fed Independence",
+      "facts": "The Supreme Court will decide this week whether President Trump can end birthright citizenship guaranteed under the Constitution and fire the chair of the Federal Reserve. The two cases represent some of the most consequential decisions of the Court's term."
+    },
+    {
+      "title": "Springfield's Haitian Immigration Boom Faces Uncertain Future",
+      "facts": "Springfield, Ohio is bracing for economic upheaval as a humanitarian program that brought thousands of Haitian immigrants to the city faces its end. The program revitalized what had been a struggling Rust Belt community, filling jobs and breathing new life into empty storefronts."
+    },
+    {
+      "title": "Comcast Breaks Up NBCUniversal After 15 Years",
+      "facts": "Comcast announced Monday it's spinning off NBCUniversal into a separate company, unwinding a media marriage that's lasted 15 years. The cable giant acquired the entertainment and news business back in 2009, but now it's splitting the two apart entirely."
+    },
+    {
+      "title": "Momentum Stocks Suffer Fourth-Worst Week in Two Decades",
+      "facts": "The so-called Magnificent Seven tech stocks took a beating last week, dragging momentum investing to its fourth-worst performance in 22 years. The S&P 500 underperformed its equally weighted counterpart by a hefty 350 basis points, meaning the handful of mega-cap stocks that drove gains for so long suddenly became a drag."
+    },
+    {
+      "title": "Mortgage Shoppers Look Beyond Rates",
+      "facts": "Life events are now driving mortgage decisions more than interest rates, marking a shift in how Americans approach homebuying in 2026. Lenders say borrowers are increasingly motivated by personal milestones like marriage, job relocations, and growing families rather than waiting for rate drops."
+    },
+    {
+      "title": "Boutique Properties Lure Luxury Buyers Back to Manhattan",
+      "facts": "Manhattan's luxury market is seeing a resurgence, with high-end buyers gravitating toward boutique condos and townhouses rather than glassy supertall towers. Developers and brokers report strong interest in smaller, character-rich buildings that offer exclusivity and architectural distinction."
+    },
+    {
+      "title": "Red Sox Complete Stunning Yankees Sweep in Wild Extra-Inning Finish",
+      "facts": "The Red Sox capped a four-game sweep of the Yankees with a 5-4 victory in ten innings Sunday night at Fenway Park, rallying from what looked like certain defeat. Jarren Duran singled home the winning run to finish a three-run rally in the tenth inning."
+    },
+    {
+      "title": "Giannis Antetokounmpo Traded to Heat in Blockbuster Deal",
+      "facts": "The Milwaukee Bucks have traded Giannis Antetokounmpo to the Miami Heat in what's shaping up as one of the biggest blockbuster deals in recent NBA history. The trade sends the two-time MVP and one of the league's most dominant players to South Florida in a move that reshapes the Eastern Conference landscape."
+    },
+    {
+      "title": "Hornets Send Miles Bridges to Phoenix in Multi-Pick Swap",
+      "facts": "Charlotte's trading Miles Bridges to the Phoenix Suns in a deal that includes multiple draft picks and veteran players heading back to the Hornets. Phoenix is sending Grayson Allen and Royce O'Neale to Charlotte along with a 2033 first-round pick, while the Hornets are including a 2029 first-rounder and a second-round pick in the package."
+    },
+    {
+      "title": "Anthropic Lands Major Reseller Deal in India",
+      "facts": "Hexaware Technologies' stock jumped eight percent after announcing a deal to resell Claude across India's enterprise market. The Mumbai-based IT services firm will embed Anthropic's models into client workflows, marking one of Claude's first major distribution partnerships outside North America and Europe."
     }
   ]
 }
