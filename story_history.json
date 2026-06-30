@@ -1,17 +1,4 @@
 {
-  "2026-06-19": [
-    "Mexico Deploys Laws to Silence Journalists and Critics",
-    "Zimbabwe Moves to Extend President's Term and End Direct Elections",
-    "Military Budget Faces Bipartisan Resistance as Iran War Costs Remain Secret",
-    "Maine Governor's Race Set as Primaries Produce Clear Matchups",
-    "Fed Holds Steady as New Chairman Warsh Signals Tougher Inflation Stance",
-    "Iran Deal May Open Economy but Won't Bring Cheaper Flights Anytime Soon",
-    "Brexit Shaved Six Percent Off UK Economy, Central Bank Data Shows",
-    "Goldman Slashes Gold Forecast as Fed Stays Hawkish",
-    "Charles Cohen Settles $187 Million Fortress Debt",
-    "Major League Baseball Eyes Drastic Overhaul of Amateur Signing System",
-    "Trae Young Opts for Free Agency as Wizards Face Uncertain Summer"
-  ],
   "2026-06-20": [
     "Deadly Fire at Dominican Resort Evacuates Hundreds",
     "Poland Revokes Zelensky's Highest Honor Over Army Unit Name",
@@ -394,6 +381,68 @@
     {
       "title": "Anthropic Lands Major Reseller Deal in India",
       "facts": "Hexaware Technologies' stock jumped eight percent after announcing a deal to resell Claude across India's enterprise market. The Mumbai-based IT services firm will embed Anthropic's models into client workflows, marking one of Claude's first major distribution partnerships outside North America and Europe."
+    }
+  ],
+  "2026-06-30": [
+    {
+      "title": "Twin Earthquakes Leave Venezuela Counting Unknown Dead",
+      "facts": "Five days after twin earthquakes leveled entire neighborhoods in Venezuela, the official death toll stands at 1,719\u2014but experts warn that number could be a serious undercount. The difficulty in reaching accurate figures stems from the sheer scale of destruction across residential areas, where entire buildings collapsed and rescue efforts have been slow to reach remote zones."
+    },
+    {
+      "title": "Bomb Targets Ukrainian Oligarch in Monaco",
+      "facts": "A manhunt is underway in Monaco after an explosive device injured a Ukrainian oligarch and several others in the tiny principality. The head of Monaco's government said the blast was caused by a bomb that appeared to contain bolts and pellets, suggesting it was designed to cause maximum harm."
+    },
+    {
+      "title": "China Ramps Up Pressure Campaign Against Japan",
+      "facts": "Beijing is intensifying both military and economic pressure on Japan through a series of coordinated moves that include flying bombers near Japanese territory. China has also detained Japanese businesspeople operating in the country and imposed new restrictions on exports of rare earth minerals critical to Japan's tech industry."
+    },
+    {
+      "title": "U.S. and Iran Head to Qatar for High-Stakes Talks",
+      "facts": "American and Iranian officials have arrived in Qatar for meetings that could determine whether recent efforts to broker a lasting peace deal survive. Qatar has served as the key mediator between Washington and Tehran, particularly after a new round of attacks last week threatened to derail months of diplomatic progress."
+    },
+    {
+      "title": "Two Dead in Queens Bus Crash on Long Island Expressway",
+      "facts": "A bus flipped into oncoming traffic on the Long Island Expressway in Queens just before midnight Monday, killing two people. The crash involved multiple vehicles near 50th Street, shutting down lanes as authorities investigate what caused the bus to overturn."
+    },
+    {
+      "title": "Businessman Who Courted U.S. Conservatives Sentenced for Fraud",
+      "facts": "A former Chinese billionaire who cultivated ties with American conservatives has been sentenced for fraud after using his supporters' money to fund a lavish lifestyle. The businessman, who worked closely with Steve Bannon, presented himself as an anti-Communist crusader while allegedly funneling donations into luxury real estate and a Bugatti supercar."
+    },
+    {
+      "title": "Tight Race in Texas as Talarico and Paxton Tie in New Poll",
+      "facts": "Texas has a dead heat on its hands. A new New York Times and Siena College poll shows Democratic state lawmaker James Talarico tied with Republican Attorney General Ken Paxton in the state's Senate race."
+    },
+    {
+      "title": "Strait of Hormuz Reopening Faster Than Expected",
+      "facts": "The Strait of Hormuz is reopening faster than anticipated following the war in Iran, and that's pushing oil prices down. Morgan Stanley's oil analysts cut their price targets for this year and next, citing the quicker-than-expected return to normal shipping operations through the critical waterway."
+    },
+    {
+      "title": "Quant Funds Hit Hardest Trading Loss of the Year",
+      "facts": "Quantitative investment funds just endured their worst week of 2026 as momentum stocks suddenly collapsed. These computer-driven funds, which use algorithms to identify and ride market trends, got caught flat-footed when the momentum strategy they'd been riding simply stopped working."
+    },
+    {
+      "title": "Chinese Tycoon Gets Thirty Years for Fraud",
+      "facts": "A Chinese businessman who styled himself as a dissident critic of Beijing just received a thirty-year prison sentence in the United States for running a massive fraud scheme. Guo Wengui built a following among Chinese expatriates and others by positioning himself as a government opponent and whistleblower."
+    },
+    {
+      "title": "Gold Eyes Worst Quarter in Over a Decade",
+      "facts": "Gold is staring down its worst quarterly performance in thirteen years, even as it continues to flirt with the four-thousand-dollar mark. The precious metal has been locked in a volatile back-and-forth around that psychological threshold, unable to break through decisively."
+    },
+    {
+      "title": "Brooklyn Tenants Sue Over Sewage and Mold Despite Ninety-Six Million in State Funds",
+      "facts": "Tenants at Rutland Plaza in Brownsville are taking their landlord to housing court over conditions they say have gone from bad to worse. The 438-unit complex has racked up more than two thousand open violations with the city's Housing Preservation and Development department, including black mold, broken elevators, and raw sewage in apartments."
+    },
+    {
+      "title": "Germany Crash Out of World Cup in Stunning Penalty Shootout Loss",
+      "facts": "Paraguay knocked Germany out of the World Cup in a penalty shootout after a dramatic match that ended 1-1. Kai Havertz, Nick Woltemade, and Jonathan Tah all missed their spot kicks as Germany's tournament came to a shocking end."
+    },
+    {
+      "title": "Memphis Ships Morant to Portland in Blockbuster Deal",
+      "facts": "The Memphis Grizzlies have traded two-time All-Star point guard Ja Morant to the Portland Trail Blazers in a deal that reshapes both franchises. Portland is sending Jerami Grant and Kris Murray back to Memphis in exchange for the explosive guard."
+    },
+    {
+      "title": "California Agencies Get Half-Price Claude Access",
+      "facts": "California just became the first state to cut a sweeping deal with Anthropic, handing every state agency and local government a 50% discount on Claude. Governor Newsom announced the partnership today, framing it as a way to modernize public services without the usual procurement red tape."
     }
   ]
 }
