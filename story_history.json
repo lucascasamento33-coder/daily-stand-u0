@@ -1,21 +1,4 @@
 {
-  "2026-06-20": [
-    "Deadly Fire at Dominican Resort Evacuates Hundreds",
-    "Poland Revokes Zelensky's Highest Honor Over Army Unit Name",
-    "South Korea Island Revives French Shipwreck as Tourist Draw",
-    "Roadside Bombs Kill Seven in Northwest Pakistan",
-    "Trump Administration Moves to Seize Sacred Catholic Site for Border Wall",
-    "Los Angeles Police Release Video of Officer Shooting Knicks Fan's Dog",
-    "State Department Approved Detention Over Criticism of Trump Ally",
-    "Fed Chair Signals Rate Cuts on Hold Until December",
-    "Iran Could Rejoin Global Economy Under New U.S. Deal",
-    "Brexit Shaved Six Percent Off UK Economic Growth",
-    "Summer Jobs Trump GPAs in Hiring Game",
-    "Aby Rosen Unloads the \"Anna Delvey Building\" for $81.5 Million",
-    "Titans Lock Up Defensive Star Simmons With Massive Extension",
-    "Trae Young Heading to Free Agency",
-    "Claude Code Artifacts Go Live and Collaborative"
-  ],
   "2026-06-21": [
     "Colombia Votes Sunday in Presidential Election Shadowed by Violence",
     "Afghan Women Turn to Business as Taliban Blocks Nearly All Other Paths",
@@ -443,6 +426,72 @@
     {
       "title": "California Agencies Get Half-Price Claude Access",
       "facts": "California just became the first state to cut a sweeping deal with Anthropic, handing every state agency and local government a 50% discount on Claude. Governor Newsom announced the partnership today, framing it as a way to modernize public services without the usual procurement red tape."
+    }
+  ],
+  "2026-07-01": [
+    {
+      "title": "Dozens of Deported Venezuelans Missing After Earthquake",
+      "facts": "Many of the 146 Venezuelans deported from the United States the day a massive earthquake struck are now feared dead. The deportees arrived back in Venezuela just as the twin quakes devastated the country, and they've been missing or found dead in the days since."
+    },
+    {
+      "title": "Fire Kills Several in Antwerp Apartment Tower",
+      "facts": "A fire tore through a ten-story apartment building in Antwerp's Linkeroever district, killing several people and injuring others. The blaze broke out in the Belgian city, though authorities haven't yet said how many victims there are or what started it."
+    },
+    {
+      "title": "Plane Crashes Into Beijing Tower, China Silent on Details",
+      "facts": "A plane collided with a tower in Beijing, leaving visible holes in the side of the building, but Chinese authorities aren't saying what happened. The crash left damage clear enough that images circulated before Beijing scrubbed most traces of the incident from the public eye."
+    },
+    {
+      "title": "Ukraine Expands Drone Campaign With Strike on Russian Oil Refinery",
+      "facts": "Ukraine hit another Russian oil refinery with a long-range drone, part of what President Zelenskyy says is an expanding campaign deep inside Russian territory. The strike targeted energy infrastructure far from the front lines, a tactic Ukraine's been using to squeeze Russia's fuel supplies and military logistics."
+    },
+    {
+      "title": "Supreme Court Splits on Birthright Citizenship Order",
+      "facts": "The Supreme Court struck down President Trump's executive order on birthright citizenship, but the vote was closer than many expected. A bare majority of justices ruled the order unconstitutional, marking a significant conservative shift on an issue that once seemed settled."
+    },
+    {
+      "title": "Dallas Launches Texas Stock Exchange as Wall Street Alternative",
+      "facts": "Dallas is officially launching the Texas Stock Exchange, aiming to build what boosters are calling \"Y'all Street\" as a rival to New York's financial dominance. City leaders are betting that a growing cluster of Wall Street firms relocating to Texas can cement Dallas as a major financial hub."
+    },
+    {
+      "title": "Professor Wins Nearly Two Million in Firing Settlement",
+      "facts": "A former University of Tennessee professor has won a $1.9 million settlement after she was fired for criticizing Charlie Kirk on social media. Tamar Shirinian lost her job at the University of Tennessee at Knoxville over posts about the slain conservative activist."
+    },
+    {
+      "title": "Trade Pact Renewal at a Crossroads",
+      "facts": "The United States-Mexico-Canada Agreement faces a critical moment as talks begin this week that could determine whether the trade pact survives. July 1 marks a potential turning point for the deal that replaced NAFTA, which President Trump has long criticized."
+    },
+    {
+      "title": "Student Loan Repayment Shakeup Begins Today",
+      "facts": "Federal student loan borrowers are waking up to major changes in their repayment options starting today. Notices about the SAVE plan are going out in July, while other repayment programs are being phased out or newly launched."
+    },
+    {
+      "title": "Anthropic Clears Export Hurdle Ahead of IPO",
+      "facts": "The U.S. government has lifted export controls on Anthropic's most advanced artificial intelligence models, clearing a major obstacle just as the company prepares for a crucial initial public offering."
+    },
+    {
+      "title": "Nike Earnings Beat Masks Tariff Windfall",
+      "facts": "Nike crushed Wall Street's profit expectations this quarter, but there's a catch that investors need to understand. The athletic giant's earnings beat was significantly boosted by a one-time tariff refund, which padded both profit margins and gross margins beyond what the underlying business performance would suggest."
+    },
+    {
+      "title": "New York's Neglected Buildings Don't Always Lose Money",
+      "facts": "Buildings with the worst housing code violations in New York actually turn a profit\u2014just not from rent. A new report from the Rent Guidelines Board shows that landlords of buildings with high violation counts do collect less rent and have lower net operating income."
+    },
+    {
+      "title": "Hamptons Summer Workers Face Brutal Housing Crunch",
+      "facts": "Seasonal restaurant workers in the Hamptons are sleeping on boats and bunking three to a bedroom as the housing crisis hits the service industry hard. Chefs, bartenders, and kitchen staff who make the summer scene possible are finding themselves priced out of even basic accommodations in one of America's priciest resort areas."
+    },
+    {
+      "title": "Mbapp\u00e9 Closes in on Messi's World Cup Record",
+      "facts": "Kylian Mbapp\u00e9 is now just one goal away from Lionel Messi's all-time World Cup scoring record after leading France past Sweden 3-0 in the Round of 16. The French captain netted twice on Tuesday, breaking the record for most goals in World Cup knockout matches along the way."
+    },
+    {
+      "title": "LeBron James Leaving Lakers",
+      "facts": "LeBron James is leaving the Lakers. The four-time NBA champion has informed the franchise that it can move on without him because he plans to play elsewhere, according to his agent Rich Paul, who spoke with ESPN on Tuesday."
+    },
+    {
+      "title": "Claude Sonnet 5 and the Export Control Unlock",
+      "facts": "Anthropic dropped Claude Sonnet 5 today, and the headline isn't just that it's cheaper\u2014it's that the Trump administration simultaneously lifted export controls on two previously restricted models, Fable 5 and Mythos 5. Sonnet 5 is being positioned as the new workhorse for agentic tasks, undercutting costs while keeping capabilities high enough for most autonomous workflows."
     }
   ]
 }
