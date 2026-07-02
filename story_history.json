@@ -1,20 +1,4 @@
 {
-  "2026-06-21": [
-    "Colombia Votes Sunday in Presidential Election Shadowed by Violence",
-    "Afghan Women Turn to Business as Taliban Blocks Nearly All Other Paths",
-    "Near Collision at Boston Logan Under Investigation",
-    "Utah Wildfire Forces Evacuation of Hundreds",
-    "New Mexico Diocese Fights Border Wall Over Mountaintop Jesus Statue",
-    "Social Security Faces $500 Monthly Benefit Cuts Without Action",
-    "U.S.-Iran Deal Could Unlock Frozen Economy",
-    "SEC Enforcement Powers Under Fire",
-    "Boutique Condos and Townhouses Draw Luxury Buyers Back to Manhattan",
-    "Federal Lawsuit Alleges Massive Fraud in New York Investment Sales",
-    "Titans Lock Up Jeffery Simmons With Massive Extension",
-    "Tottenham's $100 Million Bid for Sandro Tonali Rejected",
-    "Suns Lock Up Gillespie in Four-Year Deal",
-    "Bedrock's Claude Fable 5 Comes With a Data-Sharing Catch"
-  ],
   "2026-06-22": [
     "Political Outsider Wins Colombia Presidential Election",
     "British Prime Minister Keir Starmer Resigns",
@@ -492,6 +476,60 @@
     {
       "title": "Claude Sonnet 5 and the Export Control Unlock",
       "facts": "Anthropic dropped Claude Sonnet 5 today, and the headline isn't just that it's cheaper\u2014it's that the Trump administration simultaneously lifted export controls on two previously restricted models, Fable 5 and Mythos 5. Sonnet 5 is being positioned as the new workhorse for agentic tasks, undercutting costs while keeping capabilities high enough for most autonomous workflows."
+    }
+  ],
+  "2026-07-02": [
+    {
+      "title": "Two-Year-Old Boy Pulled Alive From Venezuelan Earthquake Rubble After Six Days",
+      "facts": "Six days after twin earthquakes devastated Venezuela, rescue crews pulled a two-year-old boy alive from the rubble in what's being called a miracle. Kleiber Moran was found Wednesday, nearly a week after the quakes that have now killed at least 235 people and left hundreds more missing or trapped."
+    },
+    {
+      "title": "China Says Pilot Crashed Plane Into Skyscraper to End His Life",
+      "facts": "Chinese authorities say a 66-year-old pilot deliberately crashed a small plane into a skyscraper for what they're calling \"personal reasons,\" revealing he'd written about ending his life in his diary. The pilot, who died in the crash, had been suffering from anxiety, according to investigators who've now closed the case."
+    },
+    {
+      "title": "Postal Worker Killed on North Carolina Route",
+      "facts": "A postal worker was killed while on her route in North Carolina, and a man's now facing murder and kidnapping charges in her death. Brandi Reynolds, 35, was working her delivery route when authorities say William Craig Durham, 56, abducted and killed her."
+    },
+    {
+      "title": "Republican Senate Hopefuls Launch Independent Super PACs",
+      "facts": "Republican Senate candidates are breaking with tradition and launching their own super PACs instead of relying on the party's centralized fundraising machine in Washington. Most of the GOP's top contenders this cycle are setting up independent committees they control directly, bypassing the powerful Senate Leadership Fund that's traditionally handled big-money spending for the party."
+    },
+    {
+      "title": "Trump Administration Declines to Extend North American Trade Deal",
+      "facts": "The Trump administration announced Wednesday it won't renew the USMCA trade agreement, setting a ten-year countdown to the deal's expiration. The decision stops short of scrapping the pact entirely but leaves American businesses in limbo about the future of trade with Canada and Mexico."
+    },
+    {
+      "title": "A.I.'s Economic Impact Defies Measurement as Data Conflicts",
+      "facts": "Economists are struggling to figure out whether artificial intelligence is killing jobs or creating them, and the conflicting data isn't helping. Some employment statistics suggest A.I."
+    },
+    {
+      "title": "Google Hit with \u20ac4.1 Billion Fine Over Android Practices",
+      "facts": "Google must pay a \u20ac4.1 billion fine for using its Android operating system to stifle competition, after losing its final appeal in European court. The ruling upholds the European Commission's finding that Google illegally forced smartphone makers to pre-install Google Search and Chrome as a condition of licensing the Android app store."
+    },
+    {
+      "title": "Small-Cap Stocks Break Out on AI, Economy, and Biotech Surge",
+      "facts": "The Russell 2000 is finally having its moment. Strategists at Goldman Sachs say three key catalysts have powered the small-cap index's recent outperformance\u2014and they're all flashing green at once."
+    },
+    {
+      "title": "Bronx Gets $214 Million Senior Housing Development",
+      "facts": "The Bronx is about to see its largest transfer of affordable housing assistance on record. The Mamdani administration closed Wednesday on a $214 million development that'll bring 229 affordable senior housing units to the Morrisania neighborhood, with 80 of those units reserved specifically for residents of the nearby Morris Houses NYCHA complex."
+    },
+    {
+      "title": "Flatiron Office Tower Sells for $28 Million",
+      "facts": "ZAR Property NY just paid $28 million for a 12-story office building in the Flatiron District, marking the largest commercial property sale to hit city records this week. The buyer picked up the 89,400-square-foot building at 118 West 22nd Street from GFP Real Estate, which had owned the property for decades."
+    },
+    {
+      "title": "U.S. Men's Soccer Advances at World Cup",
+      "facts": "The U.S. men's national team is through to the World Cup round of 16 for the first time in more than two decades."
+    },
+    {
+      "title": "Celtics and Sixers Pull Off Blockbuster Brown-George Swap",
+      "facts": "Boston just shook up the Eastern Conference in a big way. The Celtics have agreed to send Jaylen Brown to Philadelphia in exchange for Paul George, two first-round picks in 2028 and 2031, and two second-round selections."
+    },
+    {
+      "title": "Anthropic Ships Claude Sonnet 5 and Unlocks Fable After Government Green Light",
+      "facts": "Anthropic just released Claude Sonnet 5, the newest version of its flagship AI model, and simultaneously the Trump administration lifted export restrictions that had kept two of the company's most powerful models\u2014Fable 5 and Mythos\u2014locked down for months. The restrictions were tied to concerns that Fable's advanced capabilities could be reverse-engineered or jailbroken by foreign competitors, particularly China."
     }
   ]
 }
