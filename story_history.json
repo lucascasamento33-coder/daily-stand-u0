@@ -1,19 +1,4 @@
 {
-  "2026-06-22": [
-    "Political Outsider Wins Colombia Presidential Election",
-    "British Prime Minister Keir Starmer Resigns",
-    "Japan Quintuples Visa Fees in First Hike Since 1978",
-    "First Round of US-Iran Nuclear Talks Concludes",
-    "Alberto Carvalho Out as Los Angeles Schools Chief",
-    "Britain's Prime Minister Steps Down as Markets Brace for Impact",
-    "Fed Chair Signals No Market Rescue as Investors Face Critical Test",
-    "EasyJet Rejects \u00a34.7 Billion Takeover Bid as Too Cheap",
-    "Mortgage Rates Near 6.6% Will Test Housing Demand in Second Half",
-    "Developer Stefan Soloviev Continues Aggressive Land Acquisition Strategy",
-    "Titans Lock Up Jeffery Simmons with Massive Extension",
-    "Thunder Trade Wiggins to Hawks for Draft Picks",
-    "Parallel Tool Calls: When Sequential Beats Concurrent"
-  ],
   "2026-06-23": [
     "Venezuela's Oil Boom Bypasses Struggling Citizens",
     "Forty Drown in France as Heatwave Pushes Europe to Breaking Point",
@@ -530,6 +515,64 @@
     {
       "title": "Anthropic Ships Claude Sonnet 5 and Unlocks Fable After Government Green Light",
       "facts": "Anthropic just released Claude Sonnet 5, the newest version of its flagship AI model, and simultaneously the Trump administration lifted export restrictions that had kept two of the company's most powerful models\u2014Fable 5 and Mythos\u2014locked down for months. The restrictions were tied to concerns that Fable's advanced capabilities could be reverse-engineered or jailbroken by foreign competitors, particularly China."
+    }
+  ],
+  "2026-07-03": [
+    {
+      "title": "Venezuela Quake Survivor Found Alive After Eight Days",
+      "facts": "A man has been pulled alive from the rubble in Venezuela\u2014eight days after the twin earthquakes that killed at least 920 people and left more than 51,000 missing. Hern\u00e1n Gil was trapped under a collapsed multi-storey car park when rescuers finally reached him."
+    },
+    {
+      "title": "Vietnam's Economic Boom Masks Deep Frustrations",
+      "facts": "High growth rates and surging exports have made Vietnam one of Asia's most ambitious economies\u2014but those numbers don't tell the whole story. The country's building the world's largest stadium, a symbol of its global aspirations, yet deep frustrations simmer beneath the surface."
+    },
+    {
+      "title": "Louisiana Attorney General Indicted on Malfeasance Charges",
+      "facts": "Louisiana's attorney general is facing criminal charges after allegedly bullying New Orleans city officials. Liz Murrill, a Republican, was indicted on counts of malfeasance and intimidation."
+    },
+    {
+      "title": "UPS Didn't Instruct Inspectors to Check Failed Part in Fatal Crash",
+      "facts": "A critical breakdown in safety procedures preceded a deadly UPS cargo plane crash in Louisville. Inspectors weren't told to check a bearing that had already been flagged as faulty before the aircraft went down."
+    },
+    {
+      "title": "FBI Expands Georgia Election Investigation at Trump's Direction",
+      "facts": "The FBI has assigned scores of analysts to investigate election records in Fulton County, Georgia, marking a significant expansion of an existing probe. The move reflects President Trump's continued push to validate his claims that the 2020 election in Georgia was rigged\u2014claims that have been repeatedly debunked."
+    },
+    {
+      "title": "June Jobs Report Shows Steady Growth, Eases Inflation Pressure",
+      "facts": "Employers added fewer jobs in June than they did a month earlier, but the unemployment rate ticked down to 4.2 percent\u2014a decent showing that gives the Federal Reserve some breathing room. The labor market is clearly cooling from its red-hot pandemic recovery pace, but it's not collapsing."
+    },
+    {
+      "title": "Trump Administration Secures $250 Million Donation from Micron",
+      "facts": "President Trump announced that chipmaker Micron will donate $250 million to a new type of investment account created by his administration. The move marks one of the largest corporate contributions to a government-backed initiative in recent memory."
+    },
+    {
+      "title": "Britain's Workplace Sickness Crisis Targeted as Growth Strategy",
+      "facts": "More than 250 of Britain's biggest employers have signed up to a new taskforce aimed at tackling workplace sickness, which organizers say is holding back economic growth. The initiative, called 'Get Britain Working,' is being led by a former John Lewis boss who argues that getting people back to work after illness could unlock hidden productivity gains."
+    },
+    {
+      "title": "Dow Hits Record Despite Weak Jobs Data",
+      "facts": "The Dow Jones Industrial Average notched a fresh record high even as Friday's jobs report came in weaker than expected, and Wall Street analysts say the rest of 2026 is going to be all about American workers. The disconnect between stock gains and employment weakness has strategists paying close attention to wage data, which showed little movement."
+    },
+    {
+      "title": "Jury Convicts Long Island Man in $4.7 Million Harlem Deed Theft",
+      "facts": "A Long Island man is facing up to 25 years in prison after a jury found him guilty of stealing the deeds to two Harlem brownstones worth a combined $4.7 million. Joseph Makhani, a 63-year-old Kings Point resident, was convicted of deed theft at two properties: 107 West 118th Street and 135 West 131st Street."
+    },
+    {
+      "title": "Rafael Cestero on What Comes After the NYC Rent Freeze",
+      "facts": "Now that Mayor Zohran Mamdani has delivered a rent freeze for nearly one million rent-stabilized apartments, the real estate industry is asking a blunt question: what happens to those buildings? Rafael Cestero is trying to answer that."
+    },
+    {
+      "title": "Germany Fires Nagelsmann After World Cup Shock, Eyes Klopp",
+      "facts": "Julian Nagelsmann is out as Germany's head coach following the team's shock exit from the World Cup in the round of 32. The German Football Association wasted no time moving on from Nagelsmann, and talks are already underway with J\u00fcrgen Klopp to take over the national team."
+    },
+    {
+      "title": "Lakers Reset Around Doncic as LeBron Departs",
+      "facts": "LeBron James announced Monday he's leaving the Lakers, and by Tuesday afternoon the entire franchise had pivoted to a new centerpiece: Luka Doncic. The overhaul happened in roughly half an hour, a breathtaking reset for a team that's spent the last several years built around James."
+    },
+    {
+      "title": "Anthropic Slashes System Prompt by 80 Percent for Fable 5 Models",
+      "facts": "Anthropic's cut the system prompt for Claude Code by 80 percent with its new Fable 5 models, and the reason is kind of remarkable: the models themselves perform better with less instruction. It's a total reversal of the usual approach where you'd give a language model pages of context and rules to follow."
     }
   ]
 }
