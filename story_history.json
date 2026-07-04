@@ -1,18 +1,4 @@
 {
-  "2026-06-23": [
-    "Venezuela's Oil Boom Bypasses Struggling Citizens",
-    "Forty Drown in France as Heatwave Pushes Europe to Breaking Point",
-    "Central Asian Workers Now Backbone of British Farms",
-    "Israel and Lebanon Head to Washington as Ceasefire Talks Intensify",
-    "Deadly Shooting at California Library",
-    "Federal Judge Strikes Down SNAP Restriction Waivers",
-    "America's Gasoline Habit Shows Signs of Breaking",
-    "Goldman Sachs Warns AI Investment Frenzy May Be Overheating",
-    "Midtown Office Building Sells for Over Two Hundred Million",
-    "Messi Becomes All-Time World Cup Scoring Leader",
-    "Milwaukee Ships Giannis Antetokounmpo to Miami in Blockbuster Trade",
-    "ID Verification Coming to Claude"
-  ],
   "2026-06-24": [
     "Venezuela's Oil Boom Bypasses Ordinary Citizens",
     "France Reports First Ebola Case as Outbreak Spreads",
@@ -573,6 +559,72 @@
     {
       "title": "Anthropic Slashes System Prompt by 80 Percent for Fable 5 Models",
       "facts": "Anthropic's cut the system prompt for Claude Code by 80 percent with its new Fable 5 models, and the reason is kind of remarkable: the models themselves perform better with less instruction. It's a total reversal of the usual approach where you'd give a language model pages of context and rules to follow."
+    }
+  ],
+  "2026-07-04": [
+    {
+      "title": "Peru's Keiko Fujimori Declared Election Winner Nearly a Month After Vote",
+      "facts": "Keiko Fujimori has been declared the winner of Peru's presidential election nearly a month after voters went to the polls. The daughter of disgraced former president Alberto Fujimori prevailed in what's been described as a tight race, though the delay in announcing results has stretched weeks beyond what's typical."
+    },
+    {
+      "title": "Albania's 'Flamingo Revolution' Erupts Over Luxury Development",
+      "facts": "Thousands of Albanians are flooding the streets demanding the prime minister's resignation, and they've adopted an unlikely symbol: flamingos. The protests\u2014dubbed the \"Flamingo Revolution\"\u2014were triggered by opposition to a luxury development project that critics say threatens the country's natural heritage."
+    },
+    {
+      "title": "Wartime Fuel Shortages Bring Long Lines to Russian Gas Stations",
+      "facts": "Russians are lining up for hours at gas stations, shattering any remaining illusion that life at home has remained normal despite the war. \"Are we in the Soviet Union now?\" one frustrated Russian asked, captured in reports describing the chaos at the pumps."
+    },
+    {
+      "title": "Millions Pack Tehran Streets for Ayatollah Khamenei's Funeral",
+      "facts": "Mourners have packed the streets of Tehran for the funeral of Iran's Supreme Leader Ali Khamenei, in what's shaping up to be a historic procession. Khamenei's body will lie in state at Tehran's Grand Mosalla until Monday before traveling across Iran and ultimately to Iraq for burial in Mashhad."
+    },
+    {
+      "title": "Trump Memecoin Leaves Nearly a Million Investors With $3.8 Billion in Losses",
+      "facts": "Nearly a million investors have collectively lost $3.8 billion on the Trump memecoin, according to a new report from a cryptocurrency analytics firm. The analysis reveals a stark divide: most retail investors ended up in the red, while sophisticated traders managed to turn a profit."
+    },
+    {
+      "title": "Representative Beatty Still Fighting After Kennedy Center Legal Win",
+      "facts": "Representative Joyce Beatty is still celebrating a legal victory over the Kennedy Center\u2014and she's calling it a fight for justice. The Ohio Democrat sued after the president made changes to the performing arts center that she argued overstepped executive authority."
+    },
+    {
+      "title": "Texas Hill Country Still Rebuilding One Year After Deadly Flood",
+      "facts": "It's been a year since catastrophic flooding killed 139 people in the Texas Hill Country, and communities along the Guadalupe River are still picking up the pieces. The flood, which struck last summer, was one of the deadliest natural disasters in Texas in recent memory."
+    },
+    {
+      "title": "Beef Imports Surge, But Your Grill Bill Stays Sky-High",
+      "facts": "Record amounts of imported beef are pouring into the United States right now, yet anyone shopping for this weekend's Fourth of July barbecue knows prices are still painfully high. It's a puzzling disconnect that's frustrating consumers and highlighting a disconnect in how Washington thinks the beef market works."
+    },
+    {
+      "title": "New 'Trump Accounts' Lock Kids' Savings Into U.S. Stocks Only",
+      "facts": "A new breed of children's investment account is making waves, and it comes with a very specific\u2014and very risky\u2014bet baked in. The so-called \"Trump accounts,\" named after policy changes that encouraged their creation, ban two major asset classes outright: bonds and international stocks."
+    },
+    {
+      "title": "Britain's Farm Labor Force Now Comes From Central Asia, Not Europe",
+      "facts": "A decade after Brexit, the workers picking strawberries in British fields look very different than they used to. Most seasonal agricultural laborers now come from Kyrgyzstan and Tajikistan, a dramatic shift from the pre-Brexit era when EU citizens dominated the workforce."
+    },
+    {
+      "title": "Nvidia Bets Big on Robotics Revolution",
+      "facts": "Nvidia's CEO Jensen Huang is calling humanoid robots a \"multitrillion-dollar economic opportunity,\" and the chip giant is placing a serious wager on that future. The company's already pivoting resources toward what it sees as the next frontier after AI\u2014robots that can walk, work, and navigate the physical world."
+    },
+    {
+      "title": "NYC Rent Freeze Spurs Lender Questions on Stabilized Building Future",
+      "facts": "Rafael Cestero's phone has been ringing nonstop since Mayor Mamdani's rent freeze took effect on nearly a million rent-stabilized apartments across New York City. Cestero runs the Community Preservation Corporation, the nation's largest federally certified lender focused on multifamily housing in low-income communities, and he's fielding anxious questions from building owners who now face frozen income streams."
+    },
+    {
+      "title": "Chapman Becomes All-Time Strikeout King for Relievers",
+      "facts": "Aroldis Chapman just carved his name into baseball's record books. The Red Sox lefty passed Hoyt Wilhelm on Friday night to become the all-time leader in strikeouts by a reliever, reaching 1,364 for his career."
+    },
+    {
+      "title": "LeBron James Exploring Move as Multiple Teams Enter Pursuit",
+      "facts": "LeBron James is on the move again. His agent, Rich Paul, confirmed that James is actively considering several franchises for his next destination, with the Heat, Cavaliers, and 76ers all in the mix."
+    },
+    {
+      "title": "Lakers Ship Ayton to Washington in Salary-Clearing Deal",
+      "facts": "The Lakers are trading center Deandre Ayton to the Wizards in exchange for guard Jaden Hardy and two future second-round picks. It's a clear salary dump for Los Angeles, moving Ayton's substantial contract off their books as they chase bigger moves in free agency."
+    },
+    {
+      "title": "Anthropic Publishes Technical Details on Fable 5 Security After Subscription Controversy",
+      "facts": "Anthropic just released a technical deep-dive into the cybersecurity safeguards built into Claude Fable 5, and it's paired with something equally noteworthy: a new framework for testing jailbreaks. The company's being unusually transparent about how it fortified its most powerful model against misuse, publishing details on the specific controls that prevent Fable 5 from being coaxed into generating malicious code or bypassing safety filters."
     }
   ]
 }
