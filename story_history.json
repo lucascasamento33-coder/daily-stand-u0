@@ -1,20 +1,4 @@
 {
-  "2026-06-24": [
-    "Venezuela's Oil Boom Bypasses Ordinary Citizens",
-    "France Reports First Ebola Case as Outbreak Spreads",
-    "Republican Tensions Flare Over Filibuster and Voting Bills",
-    "Wave of Fake Bomb Threats Targets Zoos Nationwide",
-    "Pro-Palestinian Democrats Sweep New York Primaries",
-    "Gasoline Demand May Never Bounce Back After Oil Shock",
-    "U.S. Grapples with Growing Dependence on Chinese Technology",
-    "Britain's Farms Now Depend on Workers from Central Asia",
-    "Chip Stocks Bounce Back After Tuesday's Selloff",
-    "SK Hynix Opens Door to U.S. Investors",
-    "Rent Collection Drops Across New York's Affordable Housing Stock",
-    "Ronaldo Makes World Cup History with Sixth Tournament Goal",
-    "Wizards Take Dybantsa First Overall in NBA Draft",
-    "Claude Tag Turns Slack Into a Company Memory Engine"
-  ],
   "2026-06-25": [
     {
       "title": "Twin Earthquakes Devastate Venezuela",
@@ -625,6 +609,64 @@
     {
       "title": "Anthropic Publishes Technical Details on Fable 5 Security After Subscription Controversy",
       "facts": "Anthropic just released a technical deep-dive into the cybersecurity safeguards built into Claude Fable 5, and it's paired with something equally noteworthy: a new framework for testing jailbreaks. The company's being unusually transparent about how it fortified its most powerful model against misuse, publishing details on the specific controls that prevent Fable 5 from being coaxed into generating malicious code or bypassing safety filters."
+    }
+  ],
+  "2026-07-05": [
+    {
+      "title": "Venezuela Housing Warnings Went Unheeded Before Deadly Quakes",
+      "facts": "Residents, construction experts, and seismologists had been sounding alarms for years about Venezuela's public housing\u2014and now their worst fears have come to pass. The buildings that collapsed in last week's earthquake had been flagged as vulnerable to natural disasters long before the ground started shaking."
+    },
+    {
+      "title": "Philippines Moves to Impeach Vice President Sara Duterte",
+      "facts": "The impeachment trial of Philippine Vice President Sara Duterte is set to begin, a dramatic escalation in the country's political crisis. Duterte, who has said she plans to run for president, faces allegations of corruption and charges that she made death threats against President Ferdinand Marcos Jr."
+    },
+    {
+      "title": "Trump Administration Rolls Back Dozens of Gun Regulations",
+      "facts": "The Trump administration has dismantled dozens of federal gun regulations, marking one of the most significant rollbacks of firearm oversight in recent memory. The changes reverse rules put in place during the Biden presidency, essentially returning gun regulations to where they stood before 2021."
+    },
+    {
+      "title": "Typhoon Bavi Bears Down on U.S. Pacific Territories",
+      "facts": "Guam and the Northern Mariana Islands are bracing for a direct hit from Typhoon Bavi, a massive tropical cyclone churning through the Pacific with the force of a Category 5 hurricane. The storm is forecast to pass near the U.S."
+    },
+    {
+      "title": "Yosemite Overwhelmed After Trump Administration Ends Reservation System",
+      "facts": "Yosemite National Park is drowning in its own popularity this summer, with visitors enduring exceptionally long waits after the Trump administration eliminated a reservation system that had controlled access during peak season. The decision has turned one of America's most iconic parks into a bottleneck of traffic jams, packed trails, and overwhelmed facilities."
+    },
+    {
+      "title": "June Jobs Report Signals Bond Market Opportunity",
+      "facts": "June's jobs report is weaker than the headline numbers suggest, and bond investors are taking notice. The latest employment data shows enough softness to make fixed-income markets look increasingly attractive, even as stock investors focus on other metrics."
+    },
+    {
+      "title": "Federal Rule Shifts Roof Replacement Costs to Homeowners",
+      "facts": "A new federal insurance rule is forcing homeowners to shoulder more of the cost when it's time to replace a roof\u2014and the timing couldn't be worse with hail and hurricane season underway. The regulation has allowed insurers to shift a bigger portion of roof-replacement expenses onto policyholders, leaving many facing a tough choice when storms hit."
+    },
+    {
+      "title": "Ukraine's Drone Campaign Triggers Russia's Worst Fuel Crisis in Decades",
+      "facts": "Ukraine is striking Russian energy infrastructure at an unprecedented pace, and it's starting to show. Kyiv's intensified drone campaign has hit so many refineries, pipelines, and storage facilities that Russia is now facing its worst fuel crisis in decades."
+    },
+    {
+      "title": "Trump Account Investment Rules Unveiled",
+      "facts": "Parents who received money in so-called \"Trump accounts\" for their children now know exactly where they can invest it. The Treasury Department just released guidance specifying that the funds must be placed in low-cost index funds, and they've published a list of eligible options families can choose from."
+    },
+    {
+      "title": "The Cromans Return to Manhattan Multifamily",
+      "facts": "Jake and Adam Croman are quietly rebuilding the family name in New York real estate\u2014and they're doing it by betting on exactly the kind of buildings most investors won't touch. The brothers have been assembling a portfolio of small Manhattan apartment buildings, focusing heavily on rent-stabilized assets that the broader market has avoided since the 2019 rent law overhaul made value-add plays far less profitable."
+    },
+    {
+      "title": "Travis Kelce and Taylor Swift Tie the Knot at Madison Square Garden",
+      "facts": "Travis Kelce and Taylor Swift got married Friday night at Madison Square Garden in what's being described as one of the year's most star-studded ceremonies. The Kansas City Chiefs tight end and the pop superstar said their vows in front of a celebrity-packed guest list at the iconic New York venue."
+    },
+    {
+      "title": "76ers Land Jaylen Brown, Make Push for LeBron",
+      "facts": "The 76ers pulled off one of the biggest moves of the offseason by acquiring Jaylen Brown in a trade\u2014and they're not done yet. Just one day after landing Brown, Philadelphia has entered the hunt for LeBron James and is actively trying to convince him to join the team, according to league sources."
+    },
+    {
+      "title": "Lakers Ship Deandre Ayton to Washington in Surprise Deal",
+      "facts": "The Lakers are sending center Deandre Ayton to the Washington Wizards in exchange for guard Jaden Hardy and two future second-round picks. It's a move that clears significant salary for Los Angeles while giving Washington some much-needed size in the middle."
+    },
+    {
+      "title": "Anthropic Releases Claude Opus 4.7",
+      "facts": "Anthropic just dropped Claude Opus 4.7, the latest iteration of its flagship reasoning model\u2014and the performance benchmarks are making waves. The new release pushes improvements in what Anthropic calls \"extended thinking,\" letting the model spend more compute on harder problems before delivering an answer."
     }
   ]
 }
