@@ -1,66 +1,4 @@
 {
-  "2026-06-25": [
-    {
-      "title": "Twin Earthquakes Devastate Venezuela",
-      "facts": "Twin earthquakes have devastated Venezuela, killing at least 164 people and leaving hundreds more missing. The 7.2- and 7.5-magnitude quakes struck the capital Caracas, flattening buildings and trapping survivors under rubble."
-    },
-    {
-      "title": "Europe's Heat Wave Turns Deadly",
-      "facts": "Spain's health ministry says about 200 people may have died since Sunday as a punishing heat wave grips western Europe. Temperatures soared above 100 degrees Fahrenheit in Paris, driving crowds to jump into the Canal Saint-Martin to escape the extreme conditions."
-    },
-    {
-      "title": "North Korea Launches First Destroyer Armed with Nuclear Missiles",
-      "facts": "North Korea has deployed its first-ever destroyer, signaling a major expansion of its naval capabilities. The 5,000-ton Choe Hyon is the largest warship North Korea has ever built."
-    },
-    {
-      "title": "Oil Prices Drop as Hormuz Strait Gradually Reopens",
-      "facts": "Oil prices have fallen back to pre-war levels as traffic through the critical Strait of Hormuz shipping route gradually resumes. Brent crude has dropped to its lowest point since February 27, before the recent conflict in the region began."
-    },
-    {
-      "title": "Police Find Kansas City Shooting Suspect Dead After Week-Long Manhunt",
-      "facts": "The suspect in last week's series of roadway shootings in Kansas City has been found dead. Police discovered the body of Oscar Sanchez-Munoz in the basement of a home they'd already searched during the manhunt."
-    },
-    {
-      "title": "Senate Republicans Reverse Iran War Vote After Presidential Pressure",
-      "facts": "Senate Republicans staged a dramatic about-face on the Iran conflict overnight. In a late-night vote, they rejected a resolution that would have directed President Trump to end military operations against Iran."
-    },
-    {
-      "title": "Ex-Pastor Charged With Murder Two Decades After Wife's Fatal Fall",
-      "facts": "A former youth pastor is facing murder charges twenty years after his wife died in what was originally ruled an accident. Bernadette Vander Meer fell to her death at Zion National Park in Utah back in 2004."
-    },
-    {
-      "title": "Tech Giants Promise Worker Retraining as A.I. Reshapes Jobs",
-      "facts": "OpenAI, Anthropic, Amazon, and Microsoft have joined a new effort to help American workers adapt as artificial intelligence transforms the workplace. The initiative is led by former Commerce Secretary Gina Raimondo and aims to ease what many see as an inevitable but disruptive transition."
-    },
-    {
-      "title": "U.S. Worries About Dependence on Chinese Tech Dominance",
-      "facts": "American officials are raising alarms that the United States could become dangerously reliant on Chinese technology as firms there race ahead in key sectors. Chinese companies now hold some of the world's most advanced capabilities in areas like telecommunications, battery production, and certain A.I."
-    },
-    {
-      "title": "SK Hynix's U.S. Listing Plans Could Shake Up Memory Chip Investing",
-      "facts": "South Korean memory chip giant SK Hynix is planning a U.S. stock listing, and the move's got Wall Street thinking about what it means for Micron's near-monopoly on American memory chip investment."
-    },
-    {
-      "title": "Wall Street Braces for One of the Year's Biggest Trading Days",
-      "facts": "Friday's shaping up to be one of the highest-volume trading days of 2025, and it's got nothing to do with earnings or economic data. FTSE Russell is conducting its semi-annual index rebalancing\u2014what the firm calls its reconstitution\u2014and the sheer scale of the shuffle could move markets on its own."
-    },
-    {
-      "title": "Hell's Kitchen Office Tower Gets $102 Million for Residential Conversion",
-      "facts": "Brooklyn developer Hershy Silberstein just locked down $102 million in construction financing to turn the Press Building at 311 West 43rd Street into apartments. S3 Capital provided the debt for the project, which involves converting the 193,000-square-foot Hell's Kitchen office tower into residential units."
-    },
-    {
-      "title": "Lions Cornerback Arrested on Kidnapping and Robbery Charges",
-      "facts": "Detroit Lions cornerback Terrion Arnold is facing multiple felony charges after his arrest Wednesday in Tampa, Florida. The charges stem from an alleged robbery and kidnapping that took place in early February."
-    },
-    {
-      "title": "Austin Reaves Signs Maximum Extension with Lakers",
-      "facts": "Austin Reaves is about to become one of the NBA's highest-paid players. The Lakers star intends to sign a four-year, $185 million maximum contract extension to stay with the franchise, according to sources."
-    },
-    {
-      "title": "Anthropic accuses Alibaba of stealing Claude AI capabilities",
-      "facts": "Anthropic is accusing Chinese tech giant Alibaba of running what it calls a \"brazen\" campaign to illicitly extract capabilities from its Claude AI model. The San Francisco-based company claims Alibaba used techniques to reverse-engineer and access Claude's underlying technology without authorization."
-    }
-  ],
   "2026-06-26": [
     {
       "title": "Twin Earthquakes Leave 235 Dead in Venezuela",
@@ -667,6 +605,72 @@
     {
       "title": "Anthropic Releases Claude Opus 4.7",
       "facts": "Anthropic just dropped Claude Opus 4.7, the latest iteration of its flagship reasoning model\u2014and the performance benchmarks are making waves. The new release pushes improvements in what Anthropic calls \"extended thinking,\" letting the model spend more compute on harder problems before delivering an answer."
+    }
+  ],
+  "2026-07-06": [
+    {
+      "title": "Venezuela Earthquake Response Reveals New U.S. Aid Strategy",
+      "facts": "The Trump administration's approach to the Venezuela earthquake crisis looks nothing like the massive relief operation the U.S. mounted for Haiti after its 2010 disaster."
+    },
+    {
+      "title": "French Court to Rule on Marine Le Pen's Presidential Eligibility",
+      "facts": "Marine Le Pen's political future hangs in the balance as a French appeals court prepares to deliver its verdict on whether she can run for president in 2027. The leader of France's National Rally party is currently appealing a conviction that could bar her from holding public office."
+    },
+    {
+      "title": "China Fires Submarine Missile Into Pacific, Rattling Neighbors",
+      "facts": "China test-fired a long-range ballistic missile from a submarine into the Pacific Ocean, sending a clear signal of its growing military reach just as Australia locked down new defense agreements with Pacific Island nations. The launch marks a rare public demonstration of China's submarine-launched missile capabilities, a key component of its nuclear deterrent."
+    },
+    {
+      "title": "Iran Mourns Khamenei as Calls for Retaliation Intensify",
+      "facts": "Enormous crowds packed the streets of Tehran for a third straight day as Iran held funeral processions for Supreme Leader Ayatollah Ali Khamenei, with mourners calling for revenge against the United States and Israel. The scale of the gatherings reflects both the leader's decades-long grip on power and the state's ability to mobilize massive public displays of grief and anger."
+    },
+    {
+      "title": "Research Universities Slash Ph.D. Programs Amid Federal Funding Uncertainty",
+      "facts": "Some of America's top research universities are shrinking their doctoral programs, and it's a troubling sign for the future of American science. The cuts are being driven by uncertainty over federal funding, which has traditionally been the backbone of graduate research support."
+    },
+    {
+      "title": "Trump Appoints Former Defense Attorney to Federal Bench",
+      "facts": "Emil Bove defended the president in court, and now he's getting a lifetime appointment as a federal judge. President Trump announced he's nominating Bove to the federal bench, continuing a pattern of appointing his former personal lawyers to judgeships."
+    },
+    {
+      "title": "Prosecutors Detail Murder Case in Charlie Kirk Killing",
+      "facts": "A preliminary hearing is underway today in the murder case that shocked the country\u2014the killing of Charlie Kirk. Prosecutors will lay out their evidence against the accused killer as a judge decides whether there's enough to proceed to trial."
+    },
+    {
+      "title": "Samsung Eyes Major Price Hike as Chip Shortage Tightens",
+      "facts": "Samsung Electronics is reportedly planning to raise prices on its memory chips by 20%, a move that signals just how tight the global semiconductor market has become. The proposed increase would hit dynamic random access memory chips\u2014the kind that go into everything from smartphones to data centers."
+    },
+    {
+      "title": "Oil's Retreat From Danger Zone Could Boost Stocks",
+      "facts": "Oil prices have pulled back sharply from their recent highs, and Wall Street analysts say that's good news for the broader economy. Evercore ISI points to historical patterns suggesting that when oil exits what they call the \"danger zone,\" stocks tend to rally."
+    },
+    {
+      "title": "EasyJet Takeover Deal Faces Market Skepticism",
+      "facts": "EasyJet says it's reached an agreement in principle on a \u00a35.2 billion takeover by U.S. investment firm Castlelake, but the market isn't exactly celebrating."
+    },
+    {
+      "title": "Manhattan's Ultra-Luxury Condo Market Hits Decade High",
+      "facts": "Manhattan's new development market just posted its strongest quarter in years\u2014but only if you're shopping above $10 million. Contracts signed for new condos asking $10 million or more nearly doubled in the second quarter compared to last year, jumping from 21 to 38 deals, according to Brown Harris Stevens Development Marketing."
+    },
+    {
+      "title": "Florida Closes Live Local Loophole That Protected Cities From Lawsuits",
+      "facts": "Florida just made it harder for cities to push back against affordable housing developments\u2014and buried the change deep in a bill that Governor Ron DeSantis recently signed. House Bill 1389 expands the definition of a \"person\" under the state's fair housing law to include agencies, government entities, and other legal or commercial entities, a shift specifically aimed at discouraging local governments from challenging Live Local Act applications."
+    },
+    {
+      "title": "England Survives Thriller to Knock Mexico Out of World Cup",
+      "facts": "England's scraped through to the World Cup quarterfinals with a nerve-shredding 3-2 victory over Mexico in the round of 16. The match was anything but smooth\u2014England found themselves navigating a rollercoaster that included three major VAR incidents, according to a breakdown of the controversial calls."
+    },
+    {
+      "title": "Lakers Ship Ayton to Washington in Center Shakeup",
+      "facts": "The Lakers are sending center Deandre Ayton to the Wizards in exchange for guard Jaden Hardy and two future second-round picks. It's a significant move for Los Angeles as they continue reshaping their roster heading into next season."
+    },
+    {
+      "title": "Patrick Ewing Joins Wizards Coaching Staff",
+      "facts": "Patrick Ewing is heading back to the NBA bench. The Georgetown and Knicks legend has agreed to join the Wizards as an assistant coach under head coach Brian Keefe."
+    },
+    {
+      "title": "Claude Code Hooks Let You Build Guardrails for Autonomous Agents",
+      "facts": "You're already running scheduled tasks with Claude Code, but here's the pattern most people miss: the four hooks\u2014PreToolUse, PostToolUse, Stop, and SessionStart\u2014give you precise interception points to build guardrails around autonomous runs without touching the main prompt. PreToolUse fires right before Claude calls a tool, so you can log the intent, check parameters against a whitelist, or block high-risk actions like file deletions or API calls to production endpoints."
     }
   ]
 }
