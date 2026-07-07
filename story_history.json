@@ -1,62 +1,4 @@
 {
-  "2026-06-26": [
-    {
-      "title": "Twin Earthquakes Leave 235 Dead in Venezuela",
-      "facts": "Venezuela is racing against time to find survivors after two powerful earthquakes struck the country, killing at least 235 people and leaving hundreds more missing or trapped under rubble. Thousands were injured in the quakes, which devastated coastal areas including the port city of La Guaira, where multi-storey buildings collapsed."
-    },
-    {
-      "title": "Ransomware Attack on Jaguar Land Rover Cost UK Economy $2.5 Billion",
-      "facts": "A massive cyberattack that crippled Jaguar Land Rover last year has been traced to Russian operatives, costing the British economy an estimated $2.5 billion. Investigators initially believed a loose collective of cybercriminals was behind the ransomware attack, which shut down production lines and disrupted supply chains across the automotive giant."
-    },
-    {
-      "title": "Bolton Expected to Plead Guilty in Classified Documents Case",
-      "facts": "John Bolton is expected to plead guilty to mishandling classified information, potentially facing prison time in a case that stretched across two administrations. The former national security adviser to President Trump will admit to the charges in what marks a rare criminal resolution for a figure at his level of government."
-    },
-    {
-      "title": "Supreme Court Backs End to Deportation Protections",
-      "facts": "The Supreme Court ruled that the Trump administration can end deportation protections for certain migrants, handing immigration hard-liners a victory after a decade of legal battles. A White House official called it \"a victory 10 years in the making\" following years of courtroom losses before reaching the high court."
-    },
-    {
-      "title": "California Ballot Fight Erupts Over Billionaire Tax",
-      "facts": "California voters will decide on a billionaire tax this November, but the state's wealthiest residents are mounting a fierce counterattack. The wealthy have placed two competing ballot measures designed to nullify the tax before it can take effect."
-    },
-    {
-      "title": "Dollar Surges to Year High Despite Gulf Peace Deal",
-      "facts": "The U.S. dollar has climbed to its highest point of the year, defying expectations that a peace agreement ending the Gulf conflict would weaken demand for safe-haven assets."
-    },
-    {
-      "title": "Tech Giants Partner with Government on Worker A.I. Transition",
-      "facts": "OpenAI, Anthropic, Amazon, and Microsoft have joined a new initiative aimed at easing the impact of artificial intelligence on American workers. The effort is being led by former Commerce Secretary Gina Raimondo, bringing together some of the biggest players in A.I."
-    },
-    {
-      "title": "Asian Markets Tumble as Tech Selloff Intensifies",
-      "facts": "Stock markets across Asia slid sharply as a rout in technology shares deepened, with South Korea's Kospi index hit so hard that trading was halted for the third time this week. Circuit breakers kicked in to prevent panic selling as investors dumped tech stocks across the region."
-    },
-    {
-      "title": "Russell Rebalancing Set to Shake Markets Friday",
-      "facts": "Wall Street's about to see one of its busiest trading days of the year, and it's got nothing to do with earnings or the Fed. FTSE Russell is conducting its semi-annual rebalancing\u2014what the index provider calls reconstitution\u2014and analysts say the sheer size of the operation could move markets Friday."
-    },
-    {
-      "title": "NYC Rent Freeze Approved for Nearly One Million Apartments",
-      "facts": "The Rent Guidelines Board just voted to freeze rents on nearly one million rent-stabilized apartments across New York City, marking the first time in years that tenants will see zero increase when their leases renew. It's a campaign promise fulfilled for the mayor, who pushed hard for the freeze amid persistent affordability concerns."
-    },
-    {
-      "title": "Long Island Real Estate Scheme Leaves Buyers in Legal Nightmare",
-      "facts": "A Long Island deed scheme has left multiple homebuyers trapped in what's being described as a never-ending real estate nightmare. Michael O'Sullivan allegedly promised clients their dream homes but instead delivered a tangle of fraudulent paperwork and legal troubles."
-    },
-    {
-      "title": "Baseball Owners Push Contract Cap in Labor Talks",
-      "facts": "Major League Baseball is pushing for a five-year cap on free agent contracts for players changing teams, according to details emerging from ongoing collective bargaining talks. Under the proposal, teams could only sign another team's free agent to a maximum of five years, though they'd be allowed to keep their own players for up to six years under what's being called a Cornerstone Player Provision."
-    },
-    {
-      "title": "LaMelo Ball Traded to Minnesota in Blockbuster Deal",
-      "facts": "The Hornets are sending LaMelo Ball and Josh Green to the Timberwolves in exchange for Naz Reid and a series of draft picks. It's one of the biggest moves of the NBA offseason, reshaping both franchises heading into next season."
-    },
-    {
-      "title": "Anthropic Accuses Alibaba of Systematic Campaign to Clone Claude",
-      "facts": "Anthropic is accusing Alibaba of running what it calls a brazen, systematic campaign to illegally extract the capabilities of its Claude AI model. The company says Alibaba used what's known as model distillation\u2014essentially querying Claude millions of times to reverse-engineer how it works and replicate that intelligence in Alibaba's own competing models."
-    }
-  ],
   "2026-06-27": [
     {
       "title": "Devastating Earthquakes Kill Hundreds in Venezuela",
@@ -671,6 +613,60 @@
     {
       "title": "Claude Code Hooks Let You Build Guardrails for Autonomous Agents",
       "facts": "You're already running scheduled tasks with Claude Code, but here's the pattern most people miss: the four hooks\u2014PreToolUse, PostToolUse, Stop, and SessionStart\u2014give you precise interception points to build guardrails around autonomous runs without touching the main prompt. PreToolUse fires right before Claude calls a tool, so you can log the intent, check parameters against a whitelist, or block high-risk actions like file deletions or API calls to production endpoints."
+    }
+  ],
+  "2026-07-07": [
+    {
+      "title": "Messi and the Battle for Maradona's Legacy",
+      "facts": "Lionel Messi's dominating the World Cup, but off the pitch there's a multimillion-dollar war being fought over Diego Maradona's image. A legal and financial battle for control of the late Argentine legend's brand is playing out across continents, tearing Maradona's family apart in the process."
+    },
+    {
+      "title": "China Launches Nuclear Missile Over the Pacific",
+      "facts": "China just fired a long-range missile into the Pacific Ocean, breaking with decades of practice. Beijing has historically tested its nuclear-capable missiles only within its own borders, keeping those launches inland and out of international waters."
+    },
+    {
+      "title": "Supreme Court Takes Up AR-15 Ban Cases",
+      "facts": "The Supreme Court has agreed to hear challenges to two state assault weapons bans, and the decision could reshape what firearms the government is allowed to restrict. The justices are expected to focus on whether AR-15s and similar rifles are in \"common use\" \u2014 a legal standard that could determine if they're protected by the Second Amendment."
+    },
+    {
+      "title": "Sexual Assault Accuser Details Allegations Against Maine Senate Candidate",
+      "facts": "A woman has gone public with detailed allegations that Graham Platner, the Democratic nominee for Senate in Maine, raped her years ago. Jenny Racicot appeared on CNN to describe the alleged assault, saying \"this is something that I tried for many years to forget.\" Platner's campaign has been in freefall since the accusation first surfaced, with much of the Democratic Party and several key supporters abandoning him."
+    },
+    {
+      "title": "The Spending Divide Widens",
+      "facts": "America's economic split isn't subtle anymore. New analysis from Bank of America shows the top ten percent of households now spend nearly as much on non-essentials as the bottom seventy percent combined."
+    },
+    {
+      "title": "Wall Street Can't Agree What SpaceX Is Worth",
+      "facts": "Goldman Sachs and Morgan Stanley both told investors to buy SpaceX shares today as the company's quiet period ended following its initial public offering. But there's one small problem: the two lead underwriters are a trillion dollars apart on what the company's actually worth."
+    },
+    {
+      "title": "Samsung's Record Earnings Can't Stop the Selloff",
+      "facts": "Samsung Electronics just posted record quarterly earnings, and shareholders responded by dumping the stock. The South Korean tech giant delivered numbers that would normally have investors celebrating, but the market proved to be a tough crowd."
+    },
+    {
+      "title": "Brooklyn Heights Townhouse Logs Borough's Biggest Sale of the Year",
+      "facts": "A Civil War-era townhouse on Brooklyn Heights' waterfront just changed hands for $24.5 million, making it the borough's priciest residential deal so far this year. The home at 192 Columbia Heights sold in an off-market transaction, blowing past Brooklyn's previous 2026 high\u2014a Dumbo penthouse that went for $16.3 million back in March."
+    },
+    {
+      "title": "City Council Freezes Interest on Delinquent Property Taxes",
+      "facts": "New York City's newly adopted budget includes a significant change for property owners who've fallen behind on their taxes: the City Council has frozen interest charges on delinquent property tax bills. The move, led by Council member Linda Lee, chair of the finance committee, is buried in the broader $115 billion spending plan that Mayor Zohran Mamdani and Council Speaker Julie Menin finalized last week."
+    },
+    {
+      "title": "Belgium Ends U.S. World Cup Run in Round of Sixteen Again",
+      "facts": "Belgium dismantled the United States 4-1 on Monday, sending the Americans home from the World Cup in the round of sixteen for the second tournament in a row. It's a crushing blow for a U.S."
+    },
+    {
+      "title": "Lions Cornerback Arnold Becomes Free Agent Amid Felony Charges",
+      "facts": "Terrion Arnold cleared waivers Monday afternoon and is now a free agent after the Detroit Lions released the 23-year-old cornerback facing serious legal trouble in Florida. Arnold was arrested on felony charges of armed robbery and kidnapping in Tampa, charges that abruptly ended his time in Detroit after just two seasons."
+    },
+    {
+      "title": "LeBron James Leaves Lakers in Stunning Split",
+      "facts": "LeBron James is walking away from the Los Angeles Lakers, ending one of the most scrutinized partnerships in NBA history after what he announced Monday would be his final game in purple and gold. The marriage between the league's most famous franchise and its biggest star lasted just long enough to deliver one championship before dysfunction set in on both sides."
+    },
+    {
+      "title": "Claude's Hidden Thinking Room",
+      "facts": "Anthropic just published research showing that Claude has built itself what they're calling a \"global workspace\" \u2014 essentially a hidden internal scratch pad where the model does work you never see. The discovery came through a new interpretability technique called \"J-lens\" that lets researchers peek into latent spaces between Claude's reasoning steps."
     }
   ]
 }
