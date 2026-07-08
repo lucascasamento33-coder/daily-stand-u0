@@ -1,70 +1,4 @@
 {
-  "2026-06-27": [
-    {
-      "title": "Devastating Earthquakes Kill Hundreds in Venezuela",
-      "facts": "At least 920 people are dead and more than 51,000 are missing after two massive earthquakes struck Venezuela on Wednesday. International rescue teams have arrived as desperate families dig through rubble, but the critical 72-hour rescue window is nearly closed."
-    },
-    {
-      "title": "Italy's Meloni and Trump Relationship Collapses",
-      "facts": "The political alliance between Italy's Prime Minister Giorgia Meloni and former President Trump has deteriorated from close partnership to open hostility. Meloni was once dubbed the \"Trump whisperer\" for her ability to navigate the relationship, but that's now completely unraveled."
-    },
-    {
-      "title": "Exiled Myanmar Chefs Bring Burmese Cuisine to Global Spotlight",
-      "facts": "Burmese food is finally getting international recognition, thanks to an unlikely catalyst: political exile. An exodus of chefs from Myanmar following the military coup has spread the country's cuisine to new corners of the world."
-    },
-    {
-      "title": "U.S. and Iran Exchange Strikes as Truce Unravels",
-      "facts": "The fragile U.S.-Iran agreement is teetering after a new round of military strikes overnight. The United States hit Iranian military sites after a cargo ship came under attack in the Strait of Hormuz for the second time in recent days."
-    },
-    {
-      "title": "Alaska Senate Race Gets Confusing as Two Dan Sullivans Approved for Ballot",
-      "facts": "A judge in Alaska has ruled that two candidates named Dan Sullivan can both appear on the ballot for the state's U.S. Senate race."
-    },
-    {
-      "title": "Colorado Redistricting Proposals in Limbo as Supreme Court Stays Silent",
-      "facts": "Colorado's highest court is sitting on a decision that could determine whether Democrats get a shot at redrawing the state's electoral maps before 2028. Both parties are waiting for the state Supreme Court to rule on whether ballot proposals to redistrict Colorado are legally valid."
-    },
-    {
-      "title": "Louisiana Republicans Head to Senate Runoff in Test of Trump's Sway",
-      "facts": "Louisiana voters are heading to the polls Saturday for a Republican Senate runoff that'll offer fresh evidence of how much clout President Trump still holds in GOP primaries. The race is the latest in a string of intraparty contests where Trump's endorsement has been a central factor."
-    },
-    {
-      "title": "Trump Threatens 100% Tariff on Europe Over Tech Taxes",
-      "facts": "President Trump is threatening to slap a 100% tariff on European countries that impose digital services taxes on American tech companies. The move would override a trade agreement with the European Union that was finalized just days ago."
-    },
-    {
-      "title": "American Consumer Confidence Rebounds After Energy Price Surge",
-      "facts": "Americans are feeling noticeably better about the economy, according to a new consumer sentiment survey. Confidence rose in recent weeks after plummeting earlier this year when energy costs soared."
-    },
-    {
-      "title": "Brexit's Labor Crunch Brings Central Asian Workers to British Farms",
-      "facts": "A decade after Brexit, Britain's strawberry fields are being picked by workers from Kyrgyzstan and Tajikistan\u2014not Europeans. Most seasonal agricultural laborers now come from Central Asia, a dramatic shift from the pre-Brexit era when EU citizens dominated the workforce."
-    },
-    {
-      "title": "Tech Stocks Stumble as AI Spending Questions Mount",
-      "facts": "Tech stocks just suffered one of their worst weeks in a year, and it's all about a question Wall Street had been avoiding: what are we actually getting for all this AI spending? The sell-off hit software companies particularly hard, though there's an interesting split emerging."
-    },
-    {
-      "title": "NYC Rent Freeze Hits Nearly One Million Apartments",
-      "facts": "New York City's Rent Guidelines Board just voted to freeze rents on nearly one million rent-stabilized apartments, delivering on a key campaign promise from Mayor Mamdani. It's the first time in years tenants in these units won't see an increase when their leases renew."
-    },
-    {
-      "title": "Long Island Real Estate Fraud Leaves Homebuyers Stranded",
-      "facts": "A real estate scheme on Long Island has left multiple families in a legal and financial nightmare after they thought they'd purchased their dream homes. Michael O'Sullivan allegedly promised clients straightforward home purchases, but what they got instead were tangled deed transfers that never properly completed."
-    },
-    {
-      "title": "Angels Clean House, Bring in Cardinals Architect for Overhaul",
-      "facts": "The Angels fired general manager Perry Minasian on Friday and immediately announced they're bringing in John Mozeliak as a consultant to rebuild their baseball operations department. Mozeliak spent years as a top executive with the Cardinals, and the Angels are clearly hoping he can work the same magic in Anaheim."
-    },
-    {
-      "title": "Thunder Lock Up Hartenstein With $75 Million Extension",
-      "facts": "Isaiah Hartenstein is staying in Oklahoma City. The center intends to sign a new three-year contract worth $75 million to return to the Thunder through the 2029 season."
-    },
-    {
-      "title": "Anthropic Wins U.S. Approval to Release Mythos AI Model Under Tight Controls",
-      "facts": "The U.S. government just gave Anthropic the green light to release its most powerful AI model yet\u2014Claude Mythos\u2014but only to a select group of over 100 American companies and government agencies."
-    }
-  ],
   "2026-06-28": [
     {
       "title": "Venezuela Struggles With Earthquake Response Amid Political Turmoil",
@@ -667,6 +601,68 @@
     {
       "title": "Claude's Hidden Thinking Room",
       "facts": "Anthropic just published research showing that Claude has built itself what they're calling a \"global workspace\" \u2014 essentially a hidden internal scratch pad where the model does work you never see. The discovery came through a new interpretability technique called \"J-lens\" that lets researchers peek into latent spaces between Claude's reasoning steps."
+    }
+  ],
+  "2026-07-08": [
+    {
+      "title": "Typhoon Unleashes Floods and Rare Tornadoes Across China",
+      "facts": "A powerful typhoon has triggered devastating floods and rare tornadoes across parts of China, leaving families stranded and struggling to get help. Villagers told the BBC that floodwaters rose with shocking speed, cutting off entire communities from food and assistance."
+    },
+    {
+      "title": "Le Pen Launches Presidential Bid Hours After Court Upholds Conviction",
+      "facts": "Marine Le Pen wasted no time launching her French presidential campaign\u2014she announced it within hours of a court upholding her guilty verdict. An appeals court confirmed the conviction this week, but the ruling hasn't derailed the nationalist leader's political ambitions."
+    },
+    {
+      "title": "Pakistan Searches for Missing Boeing Cargo Plane Over Arabian Sea",
+      "facts": "A Boeing cargo plane bound for Karachi has vanished over the Arabian Sea after reporting a navigation system fault. The aircraft lost contact with air traffic control shortly after the crew alerted controllers to the malfunction, triggering an urgent search operation."
+    },
+    {
+      "title": "Trump Declares Iran Cease-Fire Over After US and Iranian Strikes",
+      "facts": "President Trump says the preliminary cease-fire with Iran is finished. \"I think it's over,\" Trump told reporters, hours after Iran's armed forces targeted U.S."
+    },
+    {
+      "title": "Attempted Murder Charges Dropped After Mental Health Treatment",
+      "facts": "Dharmesh Patel won't face trial for driving his family off a California cliff after prosecutors dropped three counts of attempted murder following his completion of a court-ordered mental health program. The stunning reversal comes after Patel drove his wife and two children over a cliff in what authorities initially called a deliberate act."
+    },
+    {
+      "title": "America's Trade Gap Hits Widest Mark in Over a Year",
+      "facts": "The U.S. trade deficit swelled in May to its highest level in more than a year, driven by a record surge in imports."
+    },
+    {
+      "title": "Fed Chair Warsh May Ditch Forward Guidance, Sparking Volatility Fears",
+      "facts": "Kevin Warsh could upend decades of Federal Reserve playbook by making policy decisions without telegraphing them to markets first. That's the warning from James Bullard, a former president of the St."
+    },
+    {
+      "title": "Australia's Biggest Telecom Suffers Massive Outage",
+      "facts": "Servers at Australia's largest telecommunications company crashed, knocking out train systems and emergency call services across the country. The outage hit data centers in both Sydney and Melbourne, crippling critical infrastructure that millions depend on."
+    },
+    {
+      "title": "Wall Street Bull Tells Investors to Buy as Markets Enter Bear Territory",
+      "facts": "The stock market's tumbled into bear territory, but one prominent Wall Street strategist says this is exactly the time to start buying. Tom Lee of Fundstrat is urging investors to buy the dip, shrugging off losses that have rattled markets in recent weeks."
+    },
+    {
+      "title": "South Korea's Stock Market Plunges Into Bear Territory",
+      "facts": "What was the world's hottest stock market just months ago has now officially entered bear territory. South Korea's benchmark index has fallen twenty percent from its record high in June, marking a dramatic reversal for what had been a darling of global investors."
+    },
+    {
+      "title": "Developer Pushes Back on Pfizer Building Collapse Fears",
+      "facts": "The developer converting the old Pfizer headquarters in Midtown East says reports of an imminent collapse are overblown, even as city officials ordered an emergency evacuation Tuesday after discovering buckled support beams. Nathan Berman of MetroLoft told reporters the situation's been \"blown a little bit out of proportion,\" despite dramatic videos showing sagging upper floors and warped columns at the massive office-to-residential conversion project."
+    },
+    {
+      "title": "Messi Makes History as Argentina Survives Egypt Scare",
+      "facts": "Lionel Messi scored in a record sixth straight World Cup knockout match, leading Argentina to a stunning 3-2 comeback win over Egypt in Atlanta. Argentina was down late before Messi delivered yet again, dragging his team into the quarterfinals with what observers are calling another virtuoso performance."
+    },
+    {
+      "title": "Former Cowboys Defender Kneeland Diagnosed with CTE",
+      "facts": "Former Cowboys defensive end Marshawn Kneeland has been posthumously diagnosed with chronic traumatic encephalopathy, adding his name to the growing list of NFL players found to have the degenerative brain disease after death. CTE has become one of the most serious long-term health issues facing football, linked to repeated head trauma over the course of a career."
+    },
+    {
+      "title": "Donovan Mitchell Signs $273 Million Extension With Cavaliers",
+      "facts": "Donovan Mitchell just locked in one of the richest deals in NBA history. The Cavaliers guard has agreed to a four-year, $273 million maximum extension that keeps him in Cleveland through the end of the decade."
+    },
+    {
+      "title": "Claude Cowork Goes Mobile as Anthropic Shifts from Desktop to Your Pocket",
+      "facts": "Anthropic just pushed Claude Cowork\u2014its collaborative AI workspace\u2014onto mobile and web, ending the desktop-only era for what's been one of the more quietly useful Claude features. The company's calling this a response to how customers are actually using Cowork: less for core job functions, more for what they're terming \"the work around work\"\u2014scheduling, inbox triage, meeting prep, the busywork that fills the gaps."
     }
   ]
 }
