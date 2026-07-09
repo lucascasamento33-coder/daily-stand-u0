@@ -1,62 +1,4 @@
 {
-  "2026-06-28": [
-    {
-      "title": "Venezuela Struggles With Earthquake Response Amid Political Turmoil",
-      "facts": "Desperate families in Venezuela are keeping vigil outside collapsed buildings, calling out to loved ones they fear are trapped beneath the rubble. The country's interim president, Delcy Rodr\u00edguez, is facing accusations from critics that she's exploiting the earthquake tragedy for political gain."
-    },
-    {
-      "title": "Record-Breaking Heatwave Scorches Northern Europe",
-      "facts": "An estimated 150 million people across Europe are sweltering through temperatures above 35 degrees Celsius as a heatwave shatters records in Germany, Denmark, and the Czech Republic. The extreme heat has broken longstanding temperature benchmarks in all three countries, pushing northern European infrastructure and populations unaccustomed to such sustained warmth to their limits."
-    },
-    {
-      "title": "Pilot Killed After Crashing Small Plane Into Beijing's Tallest Tower",
-      "facts": "China has confirmed the death of a pilot who flew a small plane into Beijing's tallest tower, an incident that also injured 13 others. The crash occurred just five miles from Communist Party headquarters, sending debris and plane parts falling to the ground below."
-    },
-    {
-      "title": "Iran and U.S. Exchange Strikes as Tensions Enter Fourth Day",
-      "facts": "Hostilities between the United States and Iran have entered a fourth day with no signs of de-escalation, as both sides traded attacks and threats. Iran launched what it called retaliatory strikes at U.S."
-    },
-    {
-      "title": "Michigan Parents Charged in Death of Seven-Year-Old Who Weighed 255 Pounds",
-      "facts": "A Michigan couple is facing murder charges after their seven-year-old son died weighing 255 pounds. Prosecutors say Casper O'Brien was morbidly obese, bedridden, and survived on little more than snack foods when he died last year."
-    },
-    {
-      "title": "Colorado Governor's Race Tests Democratic Strategy on Trump",
-      "facts": "Colorado's Democratic primary on Tuesday is shaping up as a referendum on how to take on Trump. Senator Michael Bennet, once considered a lock for the nomination, is now in a tight race with Attorney General Phil Weiser."
-    },
-    {
-      "title": "Alzheimer's Cost Crisis Looms Over U.S. Economy",
-      "facts": "There's a disease costing America more than cancer and heart disease combined, and it's about to get much worse. Health experts are sounding the alarm that the economic burden is reaching crisis levels for both families and government budgets."
-    },
-    {
-      "title": "Medicare Opens Door to Weight-Loss Drugs",
-      "facts": "Starting July 1st, Medicare beneficiaries can access GLP-1 weight-loss medications for the first time\u2014but it comes with important caveats. Qualifying seniors will be able to get these drugs for about $50 a month, a fraction of their usual retail price."
-    },
-    {
-      "title": "Trump Threatens Europe With 100% Tariff Over Tech Tax",
-      "facts": "The U.S. president is threatening to slap a 100% tariff on European nations if they move forward with plans for a digital services tax."
-    },
-    {
-      "title": "401(k) Balances Hit All-Time Highs",
-      "facts": "Workplace retirement savers had their best year on record in 2024, according to Vanguard's latest report tracking how America saves. The investment giant's data shows 401(k) balances reached record levels across the board last year, driven by strong market returns and steady contributions."
-    },
-    {
-      "title": "Historic Rent Freeze Hits New York Landlords",
-      "facts": "New York City's Rent Guidelines Board just voted to freeze rents on rent-stabilized apartments for the first time in its history\u2014and it's not just one-year leases. Thursday night's 7-to-1 vote means both one- and two-year stabilized leases will see zero increase, a move that's unprecedented for the two-year category."
-    },
-    {
-      "title": "Austria and Algeria Advance, Sending Iran Home in World Cup Drama",
-      "facts": "A wild 3-3 draw between Austria and Algeria on Saturday night sealed one of the World Cup's most unusual outcomes. Both teams traded goals in a thriller that sent them both through to the knockout round while eliminating Iran from the tournament entirely."
-    },
-    {
-      "title": "Thunder Lock Up Hartenstein in $75 Million Deal",
-      "facts": "Isaiah Hartenstein is staying put in Oklahoma City. The Thunder center has agreed to a new three-year contract worth $75 million that'll keep him with the team through the 2028-29 season."
-    },
-    {
-      "title": "Trump Administration Greenlights Anthropic's Mythos Model for Select U.S. Organizations",
-      "facts": "The Trump administration has authorized Anthropic to deploy its Mythos AI model to a limited set of U.S. companies and government agencies, ending a months-long review of the powerful system."
-    }
-  ],
   "2026-06-29": [
     {
       "title": "Venezuela Races Against Time After Deadly Earthquake",
@@ -663,6 +605,60 @@
     {
       "title": "Claude Cowork Goes Mobile as Anthropic Shifts from Desktop to Your Pocket",
       "facts": "Anthropic just pushed Claude Cowork\u2014its collaborative AI workspace\u2014onto mobile and web, ending the desktop-only era for what's been one of the more quietly useful Claude features. The company's calling this a response to how customers are actually using Cowork: less for core job functions, more for what they're terming \"the work around work\"\u2014scheduling, inbox triage, meeting prep, the busywork that fills the gaps."
+    }
+  ],
+  "2026-07-09": [
+    {
+      "title": "Mexico Probes Alleged U.S. Deception in Drug Lord Capture",
+      "facts": "Mexico has launched an investigation into whether the FBI lied about its role in capturing one of the country's most notorious drug lords. The probe centers on accusations that the United States misrepresented its involvement in the arrest of Ismael \"El Mayo\" Zambada, a founding member of the Sinaloa cartel who'd evaded capture for decades."
+    },
+    {
+      "title": "Le Pen Kicks Off Presidential Bid After Court Clears Her to Run",
+      "facts": "Marine Le Pen launched her presidential campaign in rural France just one day after a court ruled she could run for office again. The far-right leader's campaign kickoff drew both cheers and boos in a region that's long been a stronghold for her National Rally party."
+    },
+    {
+      "title": "India Blocks Release of Film on Punjab Police Brutality",
+      "facts": "Indian censors have demanded 127 cuts to a film exploring a dark chapter of police violence in Punjab, effectively blocking its release for years. The film, titled \"Satluj\" and featuring popular artist Diljit Dosanjh, examines a period of police brutality in the northern state that remains a sensitive topic."
+    },
+    {
+      "title": "U.S. and Iran Trade Second Night of Strikes as Ceasefire Collapses",
+      "facts": "The United States and Iran have exchanged attacks for a second consecutive night, all but ending an interim ceasefire that had brought a brief pause to hostilities. U.S."
+    },
+    {
+      "title": "Second Federal Task Force Shooting Death in Memphis This Week",
+      "facts": "Memphis is dealing with its second fatal shooting involving a federal task force in less than a week. Tennessee authorities are now investigating both incidents, which have left community members demanding answers about the use of force by federal agents operating in the city."
+    },
+    {
+      "title": "Global Growth Forecast Dims as Commodity Prices Bite",
+      "facts": "The International Monetary Fund just cut its global growth forecast for this year, and high commodity prices are taking most of the blame. The IMF now projects world economic output will expand at just 3 percent in 2026, down from its earlier estimate."
+    },
+    {
+      "title": "Drugmaker Loses $27 Billion as Heart Disease Trial Fails",
+      "facts": "A major pharmaceutical company saw $27 billion in market value evaporate Thursday after announcing its experimental heart disease drug crashed in a Phase III clinical trial. Two companies had been jointly developing the treatment, and both confirmed the trial failed to meet its primary endpoints."
+    },
+    {
+      "title": "SK Hynix Offering Could Be Second-Largest Equity Deal Ever",
+      "facts": "SK Hynix is about to make Wall Street history. The South Korean chipmaker's Nasdaq listing, set to price Friday, could become the second-largest equity offering ever recorded, trailing only SpaceX's blockbuster deal."
+    },
+    {
+      "title": "Anthropic Locks Down Entire Hudson Square Tower in AI Office Expansion",
+      "facts": "Anthropic has leased an entire 16-story building in Hudson Square, cementing its place in Manhattan's AI office boom. The company's taking over all 466,000 square feet at 330 Hudson Street from AEW Capital Management, a massive jump from its current 15,000-square-foot footprint at 155 Sixth Avenue that it signed just two years ago."
+    },
+    {
+      "title": "Verlander to Hang Up His Cleats After This Season",
+      "facts": "Justin Verlander is calling it a career. The 43-year-old pitcher announced he'll retire after the 2026 season ends, bringing down the curtain on one of baseball's most decorated careers."
+    },
+    {
+      "title": "Bucks Trade Giannis Antetokounmpo in Franchise-Altering Move",
+      "facts": "Milwaukee just made one of the most stunning decisions in recent NBA history. The Bucks have traded Giannis Antetokounmpo, and general manager Jon Horst isn't sugarcoating it\u2014he called the move a \"very difficult decision.\" The two-time MVP has been the face of the franchise for years, leading Milwaukee to its first championship in nearly five decades back in 2021."
+    },
+    {
+      "title": "Donovan Mitchell Signs Extension to Stay in Cleveland",
+      "facts": "Donovan Mitchell is staying put. The Cavs' star guard has agreed to a contract extension with Cleveland, ending months of speculation about whether he'd test free agency or push for a trade."
+    },
+    {
+      "title": "China Claims Security Flaws in Claude Code\u2014Anthropic Pushes Back",
+      "facts": "China's cybersecurity authority just issued a public warning that Anthropic's Claude Code contains what it's calling \"backdoor\" vulnerabilities that could let data leak to foreign servers. The alert, posted by China's National Computer Virus Emergency Response Center, specifically flags the autonomous coding tool as a risk and advises Chinese users to avoid it."
     }
   ]
 }
