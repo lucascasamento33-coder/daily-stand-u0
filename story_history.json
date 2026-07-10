@@ -1,66 +1,4 @@
 {
-  "2026-06-29": [
-    {
-      "title": "Venezuela Races Against Time After Deadly Earthquake",
-      "facts": "Volunteers armed with drills, picks, and hammers are digging through concrete in a middle-class Caracas neighborhood, searching for survivors after a devastating earthquake struck Venezuela. The quake has triggered an extraordinary community response, with neighbors working around the clock to rescue those trapped beneath collapsed buildings."
-    },
-    {
-      "title": "Russia Downplays War as Ukrainian Strikes Hit Home",
-      "facts": "Russian officials are avoiding the word \"war\" and refusing to designate bomb shelters or activate air raid sirens, even as Ukraine brings the conflict directly to Russian soil. It's a stark shift from the early days of the invasion\u2014now, as Ukrainian drones and missiles strike deeper into Russian territory, Moscow is clinging to euphemisms and downplaying the danger to its own citizens."
-    },
-    {
-      "title": "Pakistan Launches Deadly Airstrikes Into Afghanistan",
-      "facts": "Pakistani warplanes struck targets inside Afghanistan over the weekend, killing more than 30 people in the latest flare-up of a monthslong border conflict. The Taliban government says 36 civilians died in the airstrikes, while Pakistan insists it killed 32 militants in what it described as a targeted operation."
-    },
-    {
-      "title": "U.S. and Iran Announce Deal to Ease Strait of Hormuz Tensions",
-      "facts": "The United States says it has reached an agreement with Iran to halt attacks and allow vessels to move freely through the Strait of Hormuz, one of the world's most critical oil chokepoints. A U.S."
-    },
-    {
-      "title": "Three Firefighters Killed in Southwest Wildfires",
-      "facts": "Three firefighters have died battling wildfires that are tearing through Utah and Colorado this weekend. The fires are raging across the arid Southwest after what forecasters are calling an unusually warm winter."
-    },
-    {
-      "title": "Supreme Court to Rule on Birthright Citizenship and Fed Independence",
-      "facts": "The Supreme Court will decide this week whether President Trump can end birthright citizenship guaranteed under the Constitution and fire the chair of the Federal Reserve. The two cases represent some of the most consequential decisions of the Court's term."
-    },
-    {
-      "title": "Springfield's Haitian Immigration Boom Faces Uncertain Future",
-      "facts": "Springfield, Ohio is bracing for economic upheaval as a humanitarian program that brought thousands of Haitian immigrants to the city faces its end. The program revitalized what had been a struggling Rust Belt community, filling jobs and breathing new life into empty storefronts."
-    },
-    {
-      "title": "Comcast Breaks Up NBCUniversal After 15 Years",
-      "facts": "Comcast announced Monday it's spinning off NBCUniversal into a separate company, unwinding a media marriage that's lasted 15 years. The cable giant acquired the entertainment and news business back in 2009, but now it's splitting the two apart entirely."
-    },
-    {
-      "title": "Momentum Stocks Suffer Fourth-Worst Week in Two Decades",
-      "facts": "The so-called Magnificent Seven tech stocks took a beating last week, dragging momentum investing to its fourth-worst performance in 22 years. The S&P 500 underperformed its equally weighted counterpart by a hefty 350 basis points, meaning the handful of mega-cap stocks that drove gains for so long suddenly became a drag."
-    },
-    {
-      "title": "Mortgage Shoppers Look Beyond Rates",
-      "facts": "Life events are now driving mortgage decisions more than interest rates, marking a shift in how Americans approach homebuying in 2026. Lenders say borrowers are increasingly motivated by personal milestones like marriage, job relocations, and growing families rather than waiting for rate drops."
-    },
-    {
-      "title": "Boutique Properties Lure Luxury Buyers Back to Manhattan",
-      "facts": "Manhattan's luxury market is seeing a resurgence, with high-end buyers gravitating toward boutique condos and townhouses rather than glassy supertall towers. Developers and brokers report strong interest in smaller, character-rich buildings that offer exclusivity and architectural distinction."
-    },
-    {
-      "title": "Red Sox Complete Stunning Yankees Sweep in Wild Extra-Inning Finish",
-      "facts": "The Red Sox capped a four-game sweep of the Yankees with a 5-4 victory in ten innings Sunday night at Fenway Park, rallying from what looked like certain defeat. Jarren Duran singled home the winning run to finish a three-run rally in the tenth inning."
-    },
-    {
-      "title": "Giannis Antetokounmpo Traded to Heat in Blockbuster Deal",
-      "facts": "The Milwaukee Bucks have traded Giannis Antetokounmpo to the Miami Heat in what's shaping up as one of the biggest blockbuster deals in recent NBA history. The trade sends the two-time MVP and one of the league's most dominant players to South Florida in a move that reshapes the Eastern Conference landscape."
-    },
-    {
-      "title": "Hornets Send Miles Bridges to Phoenix in Multi-Pick Swap",
-      "facts": "Charlotte's trading Miles Bridges to the Phoenix Suns in a deal that includes multiple draft picks and veteran players heading back to the Hornets. Phoenix is sending Grayson Allen and Royce O'Neale to Charlotte along with a 2033 first-round pick, while the Hornets are including a 2029 first-rounder and a second-round pick in the package."
-    },
-    {
-      "title": "Anthropic Lands Major Reseller Deal in India",
-      "facts": "Hexaware Technologies' stock jumped eight percent after announcing a deal to resell Claude across India's enterprise market. The Mumbai-based IT services firm will embed Anthropic's models into client workflows, marking one of Claude's first major distribution partnerships outside North America and Europe."
-    }
-  ],
   "2026-06-30": [
     {
       "title": "Twin Earthquakes Leave Venezuela Counting Unknown Dead",
@@ -659,6 +597,60 @@
     {
       "title": "China Claims Security Flaws in Claude Code\u2014Anthropic Pushes Back",
       "facts": "China's cybersecurity authority just issued a public warning that Anthropic's Claude Code contains what it's calling \"backdoor\" vulnerabilities that could let data leak to foreign servers. The alert, posted by China's National Computer Virus Emergency Response Center, specifically flags the autonomous coding tool as a risk and advises Chinese users to avoid it."
+    }
+  ],
+  "2026-07-10": [
+    {
+      "title": "Venezuela's Youth Baseball League Devastated by Twin Earthquakes",
+      "facts": "Venezuela's youth baseball league\u2014a symbol of national pride for decades\u2014is counting its dead after last month's twin earthquakes. Children who played in the league have been left injured, orphaned, or killed in the disaster that's now claimed at least 920 lives."
+    },
+    {
+      "title": "China Lands Reusable Rocket for the First Time",
+      "facts": "China's pulled off its first successful landing of a reusable rocket, according to state media\u2014a milestone that puts the country in the same club as SpaceX and Blue Origin. The landing marks a major step forward for China's space ambitions, which have accelerated dramatically over the past decade."
+    },
+    {
+      "title": "Trump Administration Guts Election Commission With Mass Firings",
+      "facts": "The Trump administration has fired multiple members of the Election Assistance Commission, rendering the independent body effectively useless just months before the midterm elections. The commission, which sets voting standards and certifies equipment used across the country, also saw one resignation in the shake-up."
+    },
+    {
+      "title": "ICE Shooting Victim Was Father and Business Owner With Decades in U.S.",
+      "facts": "Lorenzo Salgado Araujo, the man shot by Immigration and Customs Enforcement agents, was a father, husband, and business owner who'd lived in the United States for 35 years after moving from Mexico. The shooting has drawn intense scrutiny over ICE's use of force during enforcement operations."
+    },
+    {
+      "title": "National Guard Shooting Suspect Hospitalized After Refusing Food",
+      "facts": "The man charged with murdering a National Guard member is now hospitalized in what a judge called \"dire\" condition after refusing to eat. The suspect has pleaded not guilty to murder and other charges stemming from the shooting."
+    },
+    {
+      "title": "Delta Absorbs Record Fuel Costs But Still Beats Profit Expectations",
+      "facts": "Delta Air Lines just reported something that sounds impossible: record-high quarterly fuel expenses and a profit beat at the same time. The carrier absorbed the highest fuel bill in its history this past quarter, yet still managed to top Wall Street's earnings expectations and post record revenue."
+    },
+    {
+      "title": "Personal Bankruptcy Filings Surge Nearly 50 Percent in Three Years",
+      "facts": "Americans filed for personal bankruptcy at a staggering rate last year\u2014roughly 1,500 filings every single day. That's a 47 percent jump from 2022 to 2025, marking one of the sharpest increases in financial distress in recent memory."
+    },
+    {
+      "title": "SK Hynix Raises $26.5 Billion in Largest Foreign Debut on Nasdaq",
+      "facts": "South Korean chip giant SK Hynix just pulled off the largest U.S. stock market debut by a foreign company in history, raising $26.5 billion in a mega share sale."
+    },
+    {
+      "title": "Earnings Season Kicks Off With Wild Stock Swings",
+      "facts": "Second-quarter earnings season is off to a rocky start, and even companies that beat expectations are getting punished by the market. Stocks are seeing increasingly wild swings in the days after they report results, a sign that investors' sky-high expectations are tough to meet."
+    },
+    {
+      "title": "Airbnb Buys Infamous \"Anna Delvey\" Building in Manhattan",
+      "facts": "Airbnb's just closed on one of Manhattan's most notorious addresses. The short-term rental giant teamed up with Boston's Beacon Capital Partners to buy 281 Park Avenue South\u2014the ornate, Beaux Arts landmark that fake heiress Anna Delvey tried and failed to turn into a private club."
+    },
+    {
+      "title": "NFL Players Face Four Times Higher Risk of Dementia Death",
+      "facts": "NFL players are four times more likely to die from neurodegenerative diseases like dementia and Parkinson's than the general population, according to a study released Wednesday. It's the latest data point in what's become an unavoidable reckoning for professional football: the long-term cost of playing the game."
+    },
+    {
+      "title": "Kawhi Leonard Trade on Ice Amid Salary Cap Investigation",
+      "facts": "The Clippers and Raptors struck a deal to send Kawhi Leonard north of the border, but don't expect him in a Toronto uniform anytime soon. The NBA's put the entire trade on hold while it investigates whether Los Angeles circumvented the salary cap."
+    },
+    {
+      "title": "Claude's Extended Thinking\u2014And How to Burn That Budget Wisely",
+      "facts": "Anthropic's discovered something wild inside Claude: a hidden intermediate space where the model essentially thinks out loud before answering you. They're calling it extended thinking, and it's now exposed in a way you can control and budget."
     }
   ]
 }
