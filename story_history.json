@@ -1,70 +1,4 @@
 {
-  "2026-07-01": [
-    {
-      "title": "Dozens of Deported Venezuelans Missing After Earthquake",
-      "facts": "Many of the 146 Venezuelans deported from the United States the day a massive earthquake struck are now feared dead. The deportees arrived back in Venezuela just as the twin quakes devastated the country, and they've been missing or found dead in the days since."
-    },
-    {
-      "title": "Fire Kills Several in Antwerp Apartment Tower",
-      "facts": "A fire tore through a ten-story apartment building in Antwerp's Linkeroever district, killing several people and injuring others. The blaze broke out in the Belgian city, though authorities haven't yet said how many victims there are or what started it."
-    },
-    {
-      "title": "Plane Crashes Into Beijing Tower, China Silent on Details",
-      "facts": "A plane collided with a tower in Beijing, leaving visible holes in the side of the building, but Chinese authorities aren't saying what happened. The crash left damage clear enough that images circulated before Beijing scrubbed most traces of the incident from the public eye."
-    },
-    {
-      "title": "Ukraine Expands Drone Campaign With Strike on Russian Oil Refinery",
-      "facts": "Ukraine hit another Russian oil refinery with a long-range drone, part of what President Zelenskyy says is an expanding campaign deep inside Russian territory. The strike targeted energy infrastructure far from the front lines, a tactic Ukraine's been using to squeeze Russia's fuel supplies and military logistics."
-    },
-    {
-      "title": "Supreme Court Splits on Birthright Citizenship Order",
-      "facts": "The Supreme Court struck down President Trump's executive order on birthright citizenship, but the vote was closer than many expected. A bare majority of justices ruled the order unconstitutional, marking a significant conservative shift on an issue that once seemed settled."
-    },
-    {
-      "title": "Dallas Launches Texas Stock Exchange as Wall Street Alternative",
-      "facts": "Dallas is officially launching the Texas Stock Exchange, aiming to build what boosters are calling \"Y'all Street\" as a rival to New York's financial dominance. City leaders are betting that a growing cluster of Wall Street firms relocating to Texas can cement Dallas as a major financial hub."
-    },
-    {
-      "title": "Professor Wins Nearly Two Million in Firing Settlement",
-      "facts": "A former University of Tennessee professor has won a $1.9 million settlement after she was fired for criticizing Charlie Kirk on social media. Tamar Shirinian lost her job at the University of Tennessee at Knoxville over posts about the slain conservative activist."
-    },
-    {
-      "title": "Trade Pact Renewal at a Crossroads",
-      "facts": "The United States-Mexico-Canada Agreement faces a critical moment as talks begin this week that could determine whether the trade pact survives. July 1 marks a potential turning point for the deal that replaced NAFTA, which President Trump has long criticized."
-    },
-    {
-      "title": "Student Loan Repayment Shakeup Begins Today",
-      "facts": "Federal student loan borrowers are waking up to major changes in their repayment options starting today. Notices about the SAVE plan are going out in July, while other repayment programs are being phased out or newly launched."
-    },
-    {
-      "title": "Anthropic Clears Export Hurdle Ahead of IPO",
-      "facts": "The U.S. government has lifted export controls on Anthropic's most advanced artificial intelligence models, clearing a major obstacle just as the company prepares for a crucial initial public offering."
-    },
-    {
-      "title": "Nike Earnings Beat Masks Tariff Windfall",
-      "facts": "Nike crushed Wall Street's profit expectations this quarter, but there's a catch that investors need to understand. The athletic giant's earnings beat was significantly boosted by a one-time tariff refund, which padded both profit margins and gross margins beyond what the underlying business performance would suggest."
-    },
-    {
-      "title": "New York's Neglected Buildings Don't Always Lose Money",
-      "facts": "Buildings with the worst housing code violations in New York actually turn a profit\u2014just not from rent. A new report from the Rent Guidelines Board shows that landlords of buildings with high violation counts do collect less rent and have lower net operating income."
-    },
-    {
-      "title": "Hamptons Summer Workers Face Brutal Housing Crunch",
-      "facts": "Seasonal restaurant workers in the Hamptons are sleeping on boats and bunking three to a bedroom as the housing crisis hits the service industry hard. Chefs, bartenders, and kitchen staff who make the summer scene possible are finding themselves priced out of even basic accommodations in one of America's priciest resort areas."
-    },
-    {
-      "title": "Mbapp\u00e9 Closes in on Messi's World Cup Record",
-      "facts": "Kylian Mbapp\u00e9 is now just one goal away from Lionel Messi's all-time World Cup scoring record after leading France past Sweden 3-0 in the Round of 16. The French captain netted twice on Tuesday, breaking the record for most goals in World Cup knockout matches along the way."
-    },
-    {
-      "title": "LeBron James Leaving Lakers",
-      "facts": "LeBron James is leaving the Lakers. The four-time NBA champion has informed the franchise that it can move on without him because he plans to play elsewhere, according to his agent Rich Paul, who spoke with ESPN on Tuesday."
-    },
-    {
-      "title": "Claude Sonnet 5 and the Export Control Unlock",
-      "facts": "Anthropic dropped Claude Sonnet 5 today, and the headline isn't just that it's cheaper\u2014it's that the Trump administration simultaneously lifted export controls on two previously restricted models, Fable 5 and Mythos 5. Sonnet 5 is being positioned as the new workhorse for agentic tasks, undercutting costs while keeping capabilities high enough for most autonomous workflows."
-    }
-  ],
   "2026-07-02": [
     {
       "title": "Two-Year-Old Boy Pulled Alive From Venezuelan Earthquake Rubble After Six Days",
@@ -647,6 +581,56 @@
     {
       "title": "Anthropic Discovers Hidden \"Thinking Space\" Inside Claude's Neural Architecture",
       "facts": "Anthropic just published research showing they've found a hidden layer inside Claude where the model appears to puzzle through concepts before answering\u2014something they're calling a \"global workspace.\" It's a breakthrough in understanding what actually happens inside large language models when they process a prompt. The research team observed that Claude maintains an internal space where it seems to work through ideas, almost like a scratch pad, before committing to an output."
+    }
+  ],
+  "2026-07-12": [
+    {
+      "title": "Taliban Tightens Grip on Afghanistan's Most Liberal City",
+      "facts": "Afghanistan's Taliban government has imposed full control over Herat, a city that once stood out for its cosmopolitan culture and looser social norms\u2014even during previous Taliban rule. The crackdown marks a shift for a place that had been something of an outlier in the country's increasingly restrictive landscape."
+    },
+    {
+      "title": "Typhoon Bavi Slams China After Deadly Path Across Asia",
+      "facts": "Typhoon Bavi made landfall in China's Zhejiang province, forcing the evacuation of nearly two million people and shutting down schools, businesses, and transport services across the region. The storm had already killed 17 people in the Philippines before skirting Japan and hitting Taiwan on its way north."
+    },
+    {
+      "title": "Senator Lindsey Graham Dies at 71",
+      "facts": "Senator Lindsey Graham died Saturday evening after what his office called a \"brief and sudden\" illness, ending a more than two-decade career as one of the Senate's most prominent voices on foreign policy. The South Carolina Republican was 71."
+    },
+    {
+      "title": "White House Directs FBI Investigation Into Times Reporting on Air Force One",
+      "facts": "FBI Director Kash Patel spent roughly eight hours at the White House on Friday overseeing an investigation tied to New York Times reporting about Air Force One security. The probe has already led to subpoenas being issued to several Times reporters who worked on the story."
+    },
+    {
+      "title": "Maricopa County Election Dispute Could Shape National Midterms",
+      "facts": "A power struggle over who controls elections in Arizona's largest county is becoming a test case for the midterms nationwide. Maricopa County's Republican-dominated Board of Supervisors is locked in a bitter fight with a Trump-aligned official over election administration in Greater Phoenix."
+    },
+    {
+      "title": "New Housing Law Offers Incentives to Expand Supply",
+      "facts": "A new housing bill just became law, and while it's not sweeping legislation, it does give local governments and builders some financial incentives to chip away at the country's housing shortage. The measure focuses on incremental changes rather than dramatic overhauls, encouraging communities to ease zoning restrictions and builders to add more units."
+    },
+    {
+      "title": "Aldi Bets Nine Billion on American Expansion",
+      "facts": "German discount grocer Aldi is pouring nine billion dollars into a major U.S. expansion, and it's taking aim at urban markets like Manhattan with a pitch that's hard to ignore: four-dollar almond butter and prices that undercut nearly everyone."
+    },
+    {
+      "title": "Douglas Elliman's AI Push Signals Major Shift for Real Estate Agents",
+      "facts": "Douglas Elliman just announced a major technology overhaul powered by Google Cloud AI\u2014and it's raising uncomfortable questions about how many agents the industry really needs. CEO Michael Liebowitz said the tech upgrade will lead to layoffs at the firm, but he didn't stop there."
+    },
+    {
+      "title": "Seahawks Sold for Record $9.6 Billion",
+      "facts": "The Seattle Seahawks are about to change hands in the most expensive sports franchise deal ever recorded. A group led by Vinod Khosla has agreed to purchase the team for $9.612 billion, smashing previous records for NFL franchise sales."
+    },
+    {
+      "title": "White Sox Select Cholowsky First Overall in MLB Draft",
+      "facts": "The Chicago White Sox made UCLA shortstop Roch Cholowsky the number one pick in the 2026 MLB draft Saturday, continuing a rebuild that's been years in the making. Cholowsky becomes the latest college infielder to go first overall, a trend that's accelerated as teams prioritize polish and proximity to the majors."
+    },
+    {
+      "title": "Wembanyama Locks In Record Extension with Spurs",
+      "facts": "Victor Wembanyama and the San Antonio Spurs have agreed to a five-year, $252 million maximum rookie-scale contract extension, sources tell ESPN. It's the third-largest rookie extension in NBA history."
+    },
+    {
+      "title": "Claude Reflection Dashboard Gives You X-Ray Vision Into Why Your Prompts Fail",
+      "facts": "Anthropic just launched the Claude Reflection Dashboard, and it's the debugging tool you didn't know you were missing. The dashboard shows you exactly what Claude was \"thinking\" when it gave you an answer\u2014surfacing its internal reasoning steps, tool-use decisions, and the specific points where it got confused or made a wrong turn."
     }
   ]
 }
