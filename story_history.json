@@ -1,70 +1,4 @@
 {
-  "2026-07-04": [
-    {
-      "title": "Peru's Keiko Fujimori Declared Election Winner Nearly a Month After Vote",
-      "facts": "Keiko Fujimori has been declared the winner of Peru's presidential election nearly a month after voters went to the polls. The daughter of disgraced former president Alberto Fujimori prevailed in what's been described as a tight race, though the delay in announcing results has stretched weeks beyond what's typical."
-    },
-    {
-      "title": "Albania's 'Flamingo Revolution' Erupts Over Luxury Development",
-      "facts": "Thousands of Albanians are flooding the streets demanding the prime minister's resignation, and they've adopted an unlikely symbol: flamingos. The protests\u2014dubbed the \"Flamingo Revolution\"\u2014were triggered by opposition to a luxury development project that critics say threatens the country's natural heritage."
-    },
-    {
-      "title": "Wartime Fuel Shortages Bring Long Lines to Russian Gas Stations",
-      "facts": "Russians are lining up for hours at gas stations, shattering any remaining illusion that life at home has remained normal despite the war. \"Are we in the Soviet Union now?\" one frustrated Russian asked, captured in reports describing the chaos at the pumps."
-    },
-    {
-      "title": "Millions Pack Tehran Streets for Ayatollah Khamenei's Funeral",
-      "facts": "Mourners have packed the streets of Tehran for the funeral of Iran's Supreme Leader Ali Khamenei, in what's shaping up to be a historic procession. Khamenei's body will lie in state at Tehran's Grand Mosalla until Monday before traveling across Iran and ultimately to Iraq for burial in Mashhad."
-    },
-    {
-      "title": "Trump Memecoin Leaves Nearly a Million Investors With $3.8 Billion in Losses",
-      "facts": "Nearly a million investors have collectively lost $3.8 billion on the Trump memecoin, according to a new report from a cryptocurrency analytics firm. The analysis reveals a stark divide: most retail investors ended up in the red, while sophisticated traders managed to turn a profit."
-    },
-    {
-      "title": "Representative Beatty Still Fighting After Kennedy Center Legal Win",
-      "facts": "Representative Joyce Beatty is still celebrating a legal victory over the Kennedy Center\u2014and she's calling it a fight for justice. The Ohio Democrat sued after the president made changes to the performing arts center that she argued overstepped executive authority."
-    },
-    {
-      "title": "Texas Hill Country Still Rebuilding One Year After Deadly Flood",
-      "facts": "It's been a year since catastrophic flooding killed 139 people in the Texas Hill Country, and communities along the Guadalupe River are still picking up the pieces. The flood, which struck last summer, was one of the deadliest natural disasters in Texas in recent memory."
-    },
-    {
-      "title": "Beef Imports Surge, But Your Grill Bill Stays Sky-High",
-      "facts": "Record amounts of imported beef are pouring into the United States right now, yet anyone shopping for this weekend's Fourth of July barbecue knows prices are still painfully high. It's a puzzling disconnect that's frustrating consumers and highlighting a disconnect in how Washington thinks the beef market works."
-    },
-    {
-      "title": "New 'Trump Accounts' Lock Kids' Savings Into U.S. Stocks Only",
-      "facts": "A new breed of children's investment account is making waves, and it comes with a very specific\u2014and very risky\u2014bet baked in. The so-called \"Trump accounts,\" named after policy changes that encouraged their creation, ban two major asset classes outright: bonds and international stocks."
-    },
-    {
-      "title": "Britain's Farm Labor Force Now Comes From Central Asia, Not Europe",
-      "facts": "A decade after Brexit, the workers picking strawberries in British fields look very different than they used to. Most seasonal agricultural laborers now come from Kyrgyzstan and Tajikistan, a dramatic shift from the pre-Brexit era when EU citizens dominated the workforce."
-    },
-    {
-      "title": "Nvidia Bets Big on Robotics Revolution",
-      "facts": "Nvidia's CEO Jensen Huang is calling humanoid robots a \"multitrillion-dollar economic opportunity,\" and the chip giant is placing a serious wager on that future. The company's already pivoting resources toward what it sees as the next frontier after AI\u2014robots that can walk, work, and navigate the physical world."
-    },
-    {
-      "title": "NYC Rent Freeze Spurs Lender Questions on Stabilized Building Future",
-      "facts": "Rafael Cestero's phone has been ringing nonstop since Mayor Mamdani's rent freeze took effect on nearly a million rent-stabilized apartments across New York City. Cestero runs the Community Preservation Corporation, the nation's largest federally certified lender focused on multifamily housing in low-income communities, and he's fielding anxious questions from building owners who now face frozen income streams."
-    },
-    {
-      "title": "Chapman Becomes All-Time Strikeout King for Relievers",
-      "facts": "Aroldis Chapman just carved his name into baseball's record books. The Red Sox lefty passed Hoyt Wilhelm on Friday night to become the all-time leader in strikeouts by a reliever, reaching 1,364 for his career."
-    },
-    {
-      "title": "LeBron James Exploring Move as Multiple Teams Enter Pursuit",
-      "facts": "LeBron James is on the move again. His agent, Rich Paul, confirmed that James is actively considering several franchises for his next destination, with the Heat, Cavaliers, and 76ers all in the mix."
-    },
-    {
-      "title": "Lakers Ship Ayton to Washington in Salary-Clearing Deal",
-      "facts": "The Lakers are trading center Deandre Ayton to the Wizards in exchange for guard Jaden Hardy and two future second-round picks. It's a clear salary dump for Los Angeles, moving Ayton's substantial contract off their books as they chase bigger moves in free agency."
-    },
-    {
-      "title": "Anthropic Publishes Technical Details on Fable 5 Security After Subscription Controversy",
-      "facts": "Anthropic just released a technical deep-dive into the cybersecurity safeguards built into Claude Fable 5, and it's paired with something equally noteworthy: a new framework for testing jailbreaks. The company's being unusually transparent about how it fortified its most powerful model against misuse, publishing details on the specific controls that prevent Fable 5 from being coaxed into generating malicious code or bypassing safety filters."
-    }
-  ],
   "2026-07-05": [
     {
       "title": "Venezuela Housing Warnings Went Unheeded Before Deadly Quakes",
@@ -619,6 +553,72 @@
     {
       "title": "Claude Speaks Different Values in Different Languages",
       "facts": "Anthropic just published research showing that Claude doesn't hold the same values when you talk to it in different languages\u2014and the differences are bigger than you'd think. The company tested how Claude responds to ethical questions across languages like English, Spanish, Japanese, and Hindi, and found that the model's answers shift depending on which language you're using."
+    }
+  ],
+  "2026-07-15": [
+    {
+      "title": "India Expels Bangladeshi Immigrants, Sparking Border Crisis",
+      "facts": "India's pushing out thousands of Bangladeshi immigrants it says are in the country illegally, and Bangladesh isn't having it. The mass deportations have left people stranded along the border, caught between two countries that are increasingly at odds over who belongs where."
+    },
+    {
+      "title": "Russian Strikes Hit Odesa as Infrastructure War Escalates",
+      "facts": "Russian bombs continue falling on Odesa, killing three people in the latest wave of attacks targeting Ukraine's critical port infrastructure. The strikes are part of an escalating pattern in recent days, with both Russia and Ukraine launching attacks on each other's facilities for shipping goods."
+    },
+    {
+      "title": "China's Top Space Official Purged Over Corruption and Sex Charges",
+      "facts": "Beijing just expelled one of its most powerful officials from the Communist Party. Ma Xingrui, who once ran China's space program and later led the Xinjiang region, has been purged over corruption and sex-related charges."
+    },
+    {
+      "title": "Bangkok Pub Fire Death Toll Climbs to 32",
+      "facts": "The death toll from a Bangkok pub fire has risen to 32, with 15 people still fighting for their lives in intensive care. Officials confirmed two more deaths on Tuesday, bringing the grim count higher as doctors work to save 30 others still hospitalized."
+    },
+    {
+      "title": "Pleasure Boat Sinks Near Alcatraz, Killing One",
+      "facts": "A pleasure boat capsized in San Francisco Bay near Alcatraz on Tuesday, leaving one person dead and three others still missing. Sixteen passengers were pulled from the water and survived the accident, which happened in one of the bay's busiest tourist corridors."
+    },
+    {
+      "title": "U.S.-Iran Conflict Shifts Focus to the Strait of Hormuz",
+      "facts": "The military confrontation between the United States and Iran has entered a new and potentially more dangerous phase, with American forces now concentrating on the Strait of Hormuz. President Trump has resumed hostilities after the brief ceasefire collapsed, and the narrow waterway\u2014through which a fifth of the world's oil passes\u2014has become the focal point of operations."
+    },
+    {
+      "title": "Inflation Cools to 3.5 Percent as Iran Conflict Pause Offered Brief Relief",
+      "facts": "Consumer prices climbed just 3.5 percent in June compared to a year earlier, marking the slowest pace of inflation in months. Even more striking: prices actually fell from May to June, posting their biggest monthly drop since 2020."
+    },
+    {
+      "title": "New Fed Chair Warsh Pledges to Lower Inflation Without Revealing His Plan",
+      "facts": "Kevin Warsh made his debut before Congress as Federal Reserve chairman, promising to bring inflation down but offering virtually no detail on how he intends to do it. In his first testimony on Capitol Hill, Warsh reiterated the Fed's commitment to taming price pressures but didn't signal whether he supports raising interest rates further or taking a different approach."
+    },
+    {
+      "title": "Thames Water Returns to Profit After Raising Customer Bills",
+      "facts": "Britain's troubled Thames Water has swung back to profitability after hiking what it charges households for water and sewage service. The utility, which serves millions of customers across London and southern England, reported a return to the black in its latest financial results."
+    },
+    {
+      "title": "BlackRock Hits $15 Trillion Milestone as Profits Surge",
+      "facts": "BlackRock just crossed a threshold no asset manager has ever reached before: $15 trillion under management. The world's largest fund manager reported a jump in profits that sent its shares climbing, fueled by investors pouring money into both stocks and bonds."
+    },
+    {
+      "title": "Bobby Cayre Unloads Meatpacking District Building for $100 Million",
+      "facts": "Bobby Cayre just closed the biggest commercial real estate deal to hit city records this week, selling a mixed-use property at 675 Hudson Street in the Meatpacking District for $100 million. The sale topped a busy day of transactions\u2014177 deals totaling $612 million were filed in the 24 hours ending Tuesday afternoon."
+    },
+    {
+      "title": "Zeckendorf Family Sues Supermarket Heirs Over Stolen Painting",
+      "facts": "The Zeckendorf family is accusing the owners of a Pennsylvania supermarket chain of selling a painting they say was stolen from them half a century ago. The lawsuit targets the heirs of Robert and Patricia Weis, who control nearly two-thirds of Weis Markets, over an abstract work by Pierre Soulages that sold at Christie's last fall for nearly $5 million."
+    },
+    {
+      "title": "Spain Stun France to Reach World Cup Final",
+      "facts": "Spain are headed to the World Cup final after dismantling France 2-0 in Tuesday's semifinal, a result that's sent shockwaves through the tournament. France, one of the pre-tournament favorites, collapsed in spectacular fashion, failing to find any rhythm against a Spanish side that controlled the match from start to finish."
+    },
+    {
+      "title": "Number One Draft Pick Cholowsky Gets Record-Breaking Bonus",
+      "facts": "The White Sox have agreed to terms with Roch Cholowsky, the number one overall pick in this year's MLB draft, and they've shattered the record for signing bonuses in the process. Cholowsky's deal reportedly includes a $10.35 million signing bonus, the largest ever handed to a drafted player."
+    },
+    {
+      "title": "Timberwolves Acquire LaMelo Ball in Blockbuster Deal",
+      "facts": "The Timberwolves just made one of the biggest moves of the offseason, landing star point guard LaMelo Ball in what team president Tim Connelly is calling a franchise-altering trade. Connelly says he believes Ball can \"elevate\" the team's ceiling, signaling Minnesota's all-in on competing for a championship now."
+    },
+    {
+      "title": "Claude Code Gets a Browser\u2014and That Changes the Autonomous Agent Game",
+      "facts": "Anthropic just shipped a built-in browser for Claude Code, and the reason this matters isn't convenience\u2014it's about breaking the Playwright ceiling. Until now, any site that blocked headless automation or used aggressive bot detection forced you to either abandon the task or hack together workarounds with Computer Use."
     }
   ]
 }
