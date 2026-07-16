@@ -1,62 +1,4 @@
 {
-  "2026-07-05": [
-    {
-      "title": "Venezuela Housing Warnings Went Unheeded Before Deadly Quakes",
-      "facts": "Residents, construction experts, and seismologists had been sounding alarms for years about Venezuela's public housing\u2014and now their worst fears have come to pass. The buildings that collapsed in last week's earthquake had been flagged as vulnerable to natural disasters long before the ground started shaking."
-    },
-    {
-      "title": "Philippines Moves to Impeach Vice President Sara Duterte",
-      "facts": "The impeachment trial of Philippine Vice President Sara Duterte is set to begin, a dramatic escalation in the country's political crisis. Duterte, who has said she plans to run for president, faces allegations of corruption and charges that she made death threats against President Ferdinand Marcos Jr."
-    },
-    {
-      "title": "Trump Administration Rolls Back Dozens of Gun Regulations",
-      "facts": "The Trump administration has dismantled dozens of federal gun regulations, marking one of the most significant rollbacks of firearm oversight in recent memory. The changes reverse rules put in place during the Biden presidency, essentially returning gun regulations to where they stood before 2021."
-    },
-    {
-      "title": "Typhoon Bavi Bears Down on U.S. Pacific Territories",
-      "facts": "Guam and the Northern Mariana Islands are bracing for a direct hit from Typhoon Bavi, a massive tropical cyclone churning through the Pacific with the force of a Category 5 hurricane. The storm is forecast to pass near the U.S."
-    },
-    {
-      "title": "Yosemite Overwhelmed After Trump Administration Ends Reservation System",
-      "facts": "Yosemite National Park is drowning in its own popularity this summer, with visitors enduring exceptionally long waits after the Trump administration eliminated a reservation system that had controlled access during peak season. The decision has turned one of America's most iconic parks into a bottleneck of traffic jams, packed trails, and overwhelmed facilities."
-    },
-    {
-      "title": "June Jobs Report Signals Bond Market Opportunity",
-      "facts": "June's jobs report is weaker than the headline numbers suggest, and bond investors are taking notice. The latest employment data shows enough softness to make fixed-income markets look increasingly attractive, even as stock investors focus on other metrics."
-    },
-    {
-      "title": "Federal Rule Shifts Roof Replacement Costs to Homeowners",
-      "facts": "A new federal insurance rule is forcing homeowners to shoulder more of the cost when it's time to replace a roof\u2014and the timing couldn't be worse with hail and hurricane season underway. The regulation has allowed insurers to shift a bigger portion of roof-replacement expenses onto policyholders, leaving many facing a tough choice when storms hit."
-    },
-    {
-      "title": "Ukraine's Drone Campaign Triggers Russia's Worst Fuel Crisis in Decades",
-      "facts": "Ukraine is striking Russian energy infrastructure at an unprecedented pace, and it's starting to show. Kyiv's intensified drone campaign has hit so many refineries, pipelines, and storage facilities that Russia is now facing its worst fuel crisis in decades."
-    },
-    {
-      "title": "Trump Account Investment Rules Unveiled",
-      "facts": "Parents who received money in so-called \"Trump accounts\" for their children now know exactly where they can invest it. The Treasury Department just released guidance specifying that the funds must be placed in low-cost index funds, and they've published a list of eligible options families can choose from."
-    },
-    {
-      "title": "The Cromans Return to Manhattan Multifamily",
-      "facts": "Jake and Adam Croman are quietly rebuilding the family name in New York real estate\u2014and they're doing it by betting on exactly the kind of buildings most investors won't touch. The brothers have been assembling a portfolio of small Manhattan apartment buildings, focusing heavily on rent-stabilized assets that the broader market has avoided since the 2019 rent law overhaul made value-add plays far less profitable."
-    },
-    {
-      "title": "Travis Kelce and Taylor Swift Tie the Knot at Madison Square Garden",
-      "facts": "Travis Kelce and Taylor Swift got married Friday night at Madison Square Garden in what's being described as one of the year's most star-studded ceremonies. The Kansas City Chiefs tight end and the pop superstar said their vows in front of a celebrity-packed guest list at the iconic New York venue."
-    },
-    {
-      "title": "76ers Land Jaylen Brown, Make Push for LeBron",
-      "facts": "The 76ers pulled off one of the biggest moves of the offseason by acquiring Jaylen Brown in a trade\u2014and they're not done yet. Just one day after landing Brown, Philadelphia has entered the hunt for LeBron James and is actively trying to convince him to join the team, according to league sources."
-    },
-    {
-      "title": "Lakers Ship Deandre Ayton to Washington in Surprise Deal",
-      "facts": "The Lakers are sending center Deandre Ayton to the Washington Wizards in exchange for guard Jaden Hardy and two future second-round picks. It's a move that clears significant salary for Los Angeles while giving Washington some much-needed size in the middle."
-    },
-    {
-      "title": "Anthropic Releases Claude Opus 4.7",
-      "facts": "Anthropic just dropped Claude Opus 4.7, the latest iteration of its flagship reasoning model\u2014and the performance benchmarks are making waves. The new release pushes improvements in what Anthropic calls \"extended thinking,\" letting the model spend more compute on harder problems before delivering an answer."
-    }
-  ],
   "2026-07-06": [
     {
       "title": "Venezuela Earthquake Response Reveals New U.S. Aid Strategy",
@@ -619,6 +561,76 @@
     {
       "title": "Claude Code Gets a Browser\u2014and That Changes the Autonomous Agent Game",
       "facts": "Anthropic just shipped a built-in browser for Claude Code, and the reason this matters isn't convenience\u2014it's about breaking the Playwright ceiling. Until now, any site that blocked headless automation or used aggressive bot detection forced you to either abandon the task or hack together workarounds with Computer Use."
+    }
+  ],
+  "2026-07-16": [
+    {
+      "title": "Argentina Faces FIFA Sanctions Over Falklands Banner",
+      "facts": "Argentina's headed for disciplinary action from FIFA after their players celebrated a World Cup semi-final victory over England with a banner supporting the country's territorial claims to the Falkland Islands. The incident occurred immediately after the match, with players displaying the politically charged message during post-game festivities."
+    },
+    {
+      "title": "Italy Awaits Genoa Bridge Collapse Verdict",
+      "facts": "Families of 43 victims are waiting to learn whether anyone will be held accountable for one of Italy's deadliest infrastructure disasters. A verdict is expected soon in the trial over the 2018 Morandi Bridge collapse in Genoa, when a massive section of the motorway bridge crumbled onto railway tracks below."
+    },
+    {
+      "title": "Pew Poll Shows Global Opinion Shifting Toward China",
+      "facts": "More countries now view China favorably than the United States, according to a new global survey that marks a significant shift in international sentiment. The annual Pew Research Center poll found that positive views of China outpaced those of America across the countries surveyed."
+    },
+    {
+      "title": "Rohingya Boat Disaster Leaves Over 500 Feared Dead",
+      "facts": "More than 500 people are feared dead after two boats carrying mostly Rohingya passengers capsized off Myanmar's coast. The International Organization for Migration and the UN refugee agency say the vessels departed Rakhine State in late June, packed with refugees fleeing persecution."
+    },
+    {
+      "title": "Hate Crime Investigation Opens After Stabbing Near Salt Lake City",
+      "facts": "A man is in custody after allegedly stabbing a Muslim employee at a mall near Salt Lake City, and court documents reveal the suspect told investigators he wanted to kill Muslims. The victim, who works at the mall, is hospitalized with multiple stab wounds."
+    },
+    {
+      "title": "FBI Investigates Air Force One Leak After Security Report",
+      "facts": "The FBI is seeking to interview government officials and asking for their phones as part of a leak investigation tied to Air Force One. The probe was launched after The New York Times reported on security concerns surrounding the Qatari-donated jet that President Trump has been using."
+    },
+    {
+      "title": "Inflation Cools to 3.5 Percent as War Pause Delivered Brief Relief",
+      "facts": "Consumer prices rose just 3.5 percent in the year through June, the slowest pace in months, and marked the biggest monthly drop since 2020. The data arrived as welcome news for the White House, which has been battling elevated inflation for years now."
+    },
+    {
+      "title": "Trump Administration Plans New Tariffs on Brazil",
+      "facts": "The White House is preparing to slap new tariffs on Brazil, accusing the country of unfair trade practices. The move comes after the Supreme Court struck down an earlier set of tariffs, forcing the administration to craft a replacement."
+    },
+    {
+      "title": "Britain Nationalizes Its Last Major Steelworks to Secure Supply",
+      "facts": "The British government has taken full ownership of British Steel, including the massive Scunthorpe steelworks, in a move officials are calling vital to national security. The nationalization became official this week under new powers Parliament just passed, marking one of the most significant industrial interventions in years."
+    },
+    {
+      "title": "UnitedHealth Stock Rallies on Improved Full-Year Outlook",
+      "facts": "UnitedHealth just gave Wall Street something it's been craving: good news on the bottom line. The health insurance giant's stock rallied Thursday after management raised its outlook for the full year, pointing to what they're calling \"product design changes, improved medical management and better aligned pricing.\" Translation: they're paying out less in claims while still bringing in premium revenue."
+    },
+    {
+      "title": "SK Hynix Volatility Shows No Sign of Slowing Down",
+      "facts": "If you thought SK Hynix's wild price swings were over, think again. The South Korean chipmaker's stock collapsed 12 percent Thursday, just one day after jumping nearly 9 percent on Wednesday."
+    },
+    {
+      "title": "City Council Pressures Housing Agency on Mitchell-Lama Affordability Crisis",
+      "facts": "Speaker Julie Menin and more than a dozen City Council members grilled the Housing Preservation and Development Department Thursday over rising costs at Mitchell-Lama properties\u2014subsidized housing that's supposed to stay affordable. The hearing drew pointed questions about why costs are climbing across an aging portfolio of buildings that were designed to remain within reach for middle-class New Yorkers."
+    },
+    {
+      "title": "Mamdani Administration Proposes Tougher Penalties for Landlords",
+      "facts": "Mayor Zohran Mamdani's administration released a 67-page plan Thursday to crack down on landlords who violate housing codes\u2014and it's not subtle. The proposal comes out of \"Rental Ripoff\" hearings held earlier this year, where the city heard from 2,400 renters about their experiences with landlords."
+    },
+    {
+      "title": "Argentina Stuns England With Last-Gasp Goals to Reach World Cup Final",
+      "facts": "Argentina pulled off one of the most dramatic comebacks in World Cup history Tuesday night, scoring twice in the final five minutes to beat England 2-1 and advance to Sunday's final against Spain. The reigning champions were staring at elimination until the 85th minute, when they flipped the match on its head at Mercedes-Benz Stadium."
+    },
+    {
+      "title": "Timberwolves Acquire LaMelo Ball in Blockbuster Trade",
+      "facts": "Minnesota just landed one of the league's most electrifying guards. The Timberwolves have acquired LaMelo Ball in what team president Tim Connelly is calling a franchise-altering move, telling reporters the point guard could \"elevate\" the team's ceiling."
+    },
+    {
+      "title": "NBA Commissioner Sets Deadline for Kawhi Leonard Investigation",
+      "facts": "Adam Silver just put a timeline on one of the league's most high-profile investigations. The NBA commissioner said the probe into Kawhi Leonard for alleged salary cap circumvention must wrap up before next season tips off."
+    },
+    {
+      "title": "Anthropic Launches Free Claude for Teachers\u2014and Stride's Stock Takes a Hit",
+      "facts": "Anthropic just opened up Claude to every K-12 teacher in the United States, completely free. The program's called Claude for Teachers, and it gives educators full access to the AI assistant for lesson planning, grading, personalized learning materials\u2014pretty much anything classroom-related."
     }
   ]
 }
