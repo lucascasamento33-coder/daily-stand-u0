@@ -1,70 +1,4 @@
 {
-  "2026-07-06": [
-    {
-      "title": "Venezuela Earthquake Response Reveals New U.S. Aid Strategy",
-      "facts": "The Trump administration's approach to the Venezuela earthquake crisis looks nothing like the massive relief operation the U.S. mounted for Haiti after its 2010 disaster."
-    },
-    {
-      "title": "French Court to Rule on Marine Le Pen's Presidential Eligibility",
-      "facts": "Marine Le Pen's political future hangs in the balance as a French appeals court prepares to deliver its verdict on whether she can run for president in 2027. The leader of France's National Rally party is currently appealing a conviction that could bar her from holding public office."
-    },
-    {
-      "title": "China Fires Submarine Missile Into Pacific, Rattling Neighbors",
-      "facts": "China test-fired a long-range ballistic missile from a submarine into the Pacific Ocean, sending a clear signal of its growing military reach just as Australia locked down new defense agreements with Pacific Island nations. The launch marks a rare public demonstration of China's submarine-launched missile capabilities, a key component of its nuclear deterrent."
-    },
-    {
-      "title": "Iran Mourns Khamenei as Calls for Retaliation Intensify",
-      "facts": "Enormous crowds packed the streets of Tehran for a third straight day as Iran held funeral processions for Supreme Leader Ayatollah Ali Khamenei, with mourners calling for revenge against the United States and Israel. The scale of the gatherings reflects both the leader's decades-long grip on power and the state's ability to mobilize massive public displays of grief and anger."
-    },
-    {
-      "title": "Research Universities Slash Ph.D. Programs Amid Federal Funding Uncertainty",
-      "facts": "Some of America's top research universities are shrinking their doctoral programs, and it's a troubling sign for the future of American science. The cuts are being driven by uncertainty over federal funding, which has traditionally been the backbone of graduate research support."
-    },
-    {
-      "title": "Trump Appoints Former Defense Attorney to Federal Bench",
-      "facts": "Emil Bove defended the president in court, and now he's getting a lifetime appointment as a federal judge. President Trump announced he's nominating Bove to the federal bench, continuing a pattern of appointing his former personal lawyers to judgeships."
-    },
-    {
-      "title": "Prosecutors Detail Murder Case in Charlie Kirk Killing",
-      "facts": "A preliminary hearing is underway today in the murder case that shocked the country\u2014the killing of Charlie Kirk. Prosecutors will lay out their evidence against the accused killer as a judge decides whether there's enough to proceed to trial."
-    },
-    {
-      "title": "Samsung Eyes Major Price Hike as Chip Shortage Tightens",
-      "facts": "Samsung Electronics is reportedly planning to raise prices on its memory chips by 20%, a move that signals just how tight the global semiconductor market has become. The proposed increase would hit dynamic random access memory chips\u2014the kind that go into everything from smartphones to data centers."
-    },
-    {
-      "title": "Oil's Retreat From Danger Zone Could Boost Stocks",
-      "facts": "Oil prices have pulled back sharply from their recent highs, and Wall Street analysts say that's good news for the broader economy. Evercore ISI points to historical patterns suggesting that when oil exits what they call the \"danger zone,\" stocks tend to rally."
-    },
-    {
-      "title": "EasyJet Takeover Deal Faces Market Skepticism",
-      "facts": "EasyJet says it's reached an agreement in principle on a \u00a35.2 billion takeover by U.S. investment firm Castlelake, but the market isn't exactly celebrating."
-    },
-    {
-      "title": "Manhattan's Ultra-Luxury Condo Market Hits Decade High",
-      "facts": "Manhattan's new development market just posted its strongest quarter in years\u2014but only if you're shopping above $10 million. Contracts signed for new condos asking $10 million or more nearly doubled in the second quarter compared to last year, jumping from 21 to 38 deals, according to Brown Harris Stevens Development Marketing."
-    },
-    {
-      "title": "Florida Closes Live Local Loophole That Protected Cities From Lawsuits",
-      "facts": "Florida just made it harder for cities to push back against affordable housing developments\u2014and buried the change deep in a bill that Governor Ron DeSantis recently signed. House Bill 1389 expands the definition of a \"person\" under the state's fair housing law to include agencies, government entities, and other legal or commercial entities, a shift specifically aimed at discouraging local governments from challenging Live Local Act applications."
-    },
-    {
-      "title": "England Survives Thriller to Knock Mexico Out of World Cup",
-      "facts": "England's scraped through to the World Cup quarterfinals with a nerve-shredding 3-2 victory over Mexico in the round of 16. The match was anything but smooth\u2014England found themselves navigating a rollercoaster that included three major VAR incidents, according to a breakdown of the controversial calls."
-    },
-    {
-      "title": "Lakers Ship Ayton to Washington in Center Shakeup",
-      "facts": "The Lakers are sending center Deandre Ayton to the Wizards in exchange for guard Jaden Hardy and two future second-round picks. It's a significant move for Los Angeles as they continue reshaping their roster heading into next season."
-    },
-    {
-      "title": "Patrick Ewing Joins Wizards Coaching Staff",
-      "facts": "Patrick Ewing is heading back to the NBA bench. The Georgetown and Knicks legend has agreed to join the Wizards as an assistant coach under head coach Brian Keefe."
-    },
-    {
-      "title": "Claude Code Hooks Let You Build Guardrails for Autonomous Agents",
-      "facts": "You're already running scheduled tasks with Claude Code, but here's the pattern most people miss: the four hooks\u2014PreToolUse, PostToolUse, Stop, and SessionStart\u2014give you precise interception points to build guardrails around autonomous runs without touching the main prompt. PreToolUse fires right before Claude calls a tool, so you can log the intent, check parameters against a whitelist, or block high-risk actions like file deletions or API calls to production endpoints."
-    }
-  ],
   "2026-07-07": [
     {
       "title": "Messi and the Battle for Maradona's Legacy",
@@ -631,6 +565,60 @@
     {
       "title": "Anthropic Launches Free Claude for Teachers\u2014and Stride's Stock Takes a Hit",
       "facts": "Anthropic just opened up Claude to every K-12 teacher in the United States, completely free. The program's called Claude for Teachers, and it gives educators full access to the AI assistant for lesson planning, grading, personalized learning materials\u2014pretty much anything classroom-related."
+    }
+  ],
+  "2026-07-17": [
+    {
+      "title": "Britain's Next Prime Minister Emerges From the North",
+      "facts": "Andy Burnham is about to become the most powerful politician in Britain\u2014and he's done it from outside London. The plain-spoken Labour politician from northwest England is set to be named party leader on Friday, which effectively makes him prime minister apparent given Labour's position."
+    },
+    {
+      "title": "U.S. Launches Fresh Strikes on Iranian Infrastructure",
+      "facts": "American warplanes hit bridges and a port in southern Iran overnight, according to Iranian media\u2014though the Pentagon's telling a different story about what was targeted. U.S."
+    },
+    {
+      "title": "Trump's Election Evidence Release Falls Flat",
+      "facts": "President Trump promised bombshell proof of election tampering and Chinese interference in the 2020 election\u2014but the documents his administration released this week didn't deliver. The materials, which Trump claimed would validate his longstanding allegations about the integrity of that race, appear to have disappointed even those hoping for major revelations."
+    },
+    {
+      "title": "Trump Administration Targets Brazil With New Tariffs",
+      "facts": "The White House is slapping fresh tariffs on Brazil, accusing the country of unfair trade practices in a move that replaces earlier duties struck down by the Supreme Court. The administration hasn't specified which Brazilian goods will face higher import taxes or what the rates will be, but the timing suggests this is part of a broader push to rewrite America's trade relationships."
+    },
+    {
+      "title": "The Hidden Cost of a More Dangerous World",
+      "facts": "Global instability is about to hit your wallet in ways most people haven't thought about yet. Businesses operating in what they're calling a \"more dangerous and unpredictable world\" are facing sharply higher costs for everything from insurance to security to rerouting supply chains away from conflict zones."
+    },
+    {
+      "title": "Britain Nationalizes Its Last Virgin Steel Plant",
+      "facts": "The UK government has taken British Steel into public ownership, nationalizing the country's only remaining plant that produces virgin steel from raw materials. The move comes after years of uncertainty over the facility's future and marks a dramatic intervention in a sector London says is a \"vital national capability.\" Virgin steel production\u2014making steel from iron ore rather than recycling scrap\u2014is seen as strategically essential, especially for defense and infrastructure projects that require high-grade material."
+    },
+    {
+      "title": "Semiconductor Slump Opens Door for AI Infrastructure Winners",
+      "facts": "Chip stocks are taking a beating, but there's another corner of the artificial intelligence boom that's quietly thriving\u2014and investors are starting to pay attention. While semiconductor giants have slumped in recent weeks, companies that build the infrastructure supporting AI are posting strong gains."
+    },
+    {
+      "title": "NoMad Parking Garage Sells for $34 Million in Likely Development Play",
+      "facts": "A parking garage in NoMad just changed hands for $33.5 million, and it's a safe bet those eight stories won't be storing cars much longer. The property at 10 East 30th Street sold from Aero Park Corporation to Royal Yacht Tower Management in what appears to be part of a larger development play."
+    },
+    {
+      "title": "City Hall Rebrands Landlords as \"High Road\" and \"Low Road\" Operators",
+      "facts": "The Mamdani administration has a new vocabulary for talking about landlords, and it's tucked into page 43 of the city's latest \"Rental Ripoff\" report. Instead of calling out \"bad\" or \"negligent\" landlords, City Hall now divides the industry into two camps: \"high road\" and \"low road.\" High-road landlords, according to the administration, meet regularly with tenants, work with officials and lenders to maintain their buildings, and keep \"modest returns stable.\" Low-road landlords, by contrast, are defined as speculators on distressed properties\u2014though the report's description cuts off there."
+    },
+    {
+      "title": "Chase Burns Signs $105 Million Extension With Reds",
+      "facts": "Chase Burns isn't going anywhere. The Reds' All-Star right-hander just locked in a seven-year, $105 million contract extension, keeping him in Cincinnati through 2032."
+    },
+    {
+      "title": "NBA Investigating Bucks' $64 Million Deal With Gary Trent Jr.",
+      "facts": "The league's opened an investigation into a four-year, $64 million contract between Gary Trent Jr. and the Milwaukee Bucks, looking into whether the team bent salary cap rules to get it done."
+    },
+    {
+      "title": "Jonas Valanciunas Leaves NBA to Return Home to Lithuania",
+      "facts": "Jonas Valanciunas is heading home. The big man signed a two-year contract with Zalgiris Kaunas, the Lithuanian club announced Wednesday, walking away from the NBA after more than a decade in the league."
+    },
+    {
+      "title": "Claude Can Now Log You In Anywhere\u2014Without Ever Seeing Your Password",
+      "facts": "Claude just got a real-world superpower: it can now authenticate on your behalf using 1Password, logging into websites and services without your credentials ever passing through the model itself. The integration\u2014announced today\u2014means Claude can handle tasks that used to require you to manually copy-paste passwords or interrupt an autonomous workflow to type in a login."
     }
   ]
 }
