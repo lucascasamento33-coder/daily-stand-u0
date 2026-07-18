@@ -1,58 +1,4 @@
 {
-  "2026-07-07": [
-    {
-      "title": "Messi and the Battle for Maradona's Legacy",
-      "facts": "Lionel Messi's dominating the World Cup, but off the pitch there's a multimillion-dollar war being fought over Diego Maradona's image. A legal and financial battle for control of the late Argentine legend's brand is playing out across continents, tearing Maradona's family apart in the process."
-    },
-    {
-      "title": "China Launches Nuclear Missile Over the Pacific",
-      "facts": "China just fired a long-range missile into the Pacific Ocean, breaking with decades of practice. Beijing has historically tested its nuclear-capable missiles only within its own borders, keeping those launches inland and out of international waters."
-    },
-    {
-      "title": "Supreme Court Takes Up AR-15 Ban Cases",
-      "facts": "The Supreme Court has agreed to hear challenges to two state assault weapons bans, and the decision could reshape what firearms the government is allowed to restrict. The justices are expected to focus on whether AR-15s and similar rifles are in \"common use\" \u2014 a legal standard that could determine if they're protected by the Second Amendment."
-    },
-    {
-      "title": "Sexual Assault Accuser Details Allegations Against Maine Senate Candidate",
-      "facts": "A woman has gone public with detailed allegations that Graham Platner, the Democratic nominee for Senate in Maine, raped her years ago. Jenny Racicot appeared on CNN to describe the alleged assault, saying \"this is something that I tried for many years to forget.\" Platner's campaign has been in freefall since the accusation first surfaced, with much of the Democratic Party and several key supporters abandoning him."
-    },
-    {
-      "title": "The Spending Divide Widens",
-      "facts": "America's economic split isn't subtle anymore. New analysis from Bank of America shows the top ten percent of households now spend nearly as much on non-essentials as the bottom seventy percent combined."
-    },
-    {
-      "title": "Wall Street Can't Agree What SpaceX Is Worth",
-      "facts": "Goldman Sachs and Morgan Stanley both told investors to buy SpaceX shares today as the company's quiet period ended following its initial public offering. But there's one small problem: the two lead underwriters are a trillion dollars apart on what the company's actually worth."
-    },
-    {
-      "title": "Samsung's Record Earnings Can't Stop the Selloff",
-      "facts": "Samsung Electronics just posted record quarterly earnings, and shareholders responded by dumping the stock. The South Korean tech giant delivered numbers that would normally have investors celebrating, but the market proved to be a tough crowd."
-    },
-    {
-      "title": "Brooklyn Heights Townhouse Logs Borough's Biggest Sale of the Year",
-      "facts": "A Civil War-era townhouse on Brooklyn Heights' waterfront just changed hands for $24.5 million, making it the borough's priciest residential deal so far this year. The home at 192 Columbia Heights sold in an off-market transaction, blowing past Brooklyn's previous 2026 high\u2014a Dumbo penthouse that went for $16.3 million back in March."
-    },
-    {
-      "title": "City Council Freezes Interest on Delinquent Property Taxes",
-      "facts": "New York City's newly adopted budget includes a significant change for property owners who've fallen behind on their taxes: the City Council has frozen interest charges on delinquent property tax bills. The move, led by Council member Linda Lee, chair of the finance committee, is buried in the broader $115 billion spending plan that Mayor Zohran Mamdani and Council Speaker Julie Menin finalized last week."
-    },
-    {
-      "title": "Belgium Ends U.S. World Cup Run in Round of Sixteen Again",
-      "facts": "Belgium dismantled the United States 4-1 on Monday, sending the Americans home from the World Cup in the round of sixteen for the second tournament in a row. It's a crushing blow for a U.S."
-    },
-    {
-      "title": "Lions Cornerback Arnold Becomes Free Agent Amid Felony Charges",
-      "facts": "Terrion Arnold cleared waivers Monday afternoon and is now a free agent after the Detroit Lions released the 23-year-old cornerback facing serious legal trouble in Florida. Arnold was arrested on felony charges of armed robbery and kidnapping in Tampa, charges that abruptly ended his time in Detroit after just two seasons."
-    },
-    {
-      "title": "LeBron James Leaves Lakers in Stunning Split",
-      "facts": "LeBron James is walking away from the Los Angeles Lakers, ending one of the most scrutinized partnerships in NBA history after what he announced Monday would be his final game in purple and gold. The marriage between the league's most famous franchise and its biggest star lasted just long enough to deliver one championship before dysfunction set in on both sides."
-    },
-    {
-      "title": "Claude's Hidden Thinking Room",
-      "facts": "Anthropic just published research showing that Claude has built itself what they're calling a \"global workspace\" \u2014 essentially a hidden internal scratch pad where the model does work you never see. The discovery came through a new interpretability technique called \"J-lens\" that lets researchers peek into latent spaces between Claude's reasoning steps."
-    }
-  ],
   "2026-07-08": [
     {
       "title": "Typhoon Unleashes Floods and Rare Tornadoes Across China",
@@ -619,6 +565,60 @@
     {
       "title": "Claude Can Now Log You In Anywhere\u2014Without Ever Seeing Your Password",
       "facts": "Claude just got a real-world superpower: it can now authenticate on your behalf using 1Password, logging into websites and services without your credentials ever passing through the model itself. The integration\u2014announced today\u2014means Claude can handle tasks that used to require you to manually copy-paste passwords or interrupt an autonomous workflow to type in a login."
+    }
+  ],
+  "2026-07-18": [
+    {
+      "title": "Indian Police Forcibly End Activist's Three-Week Hunger Strike",
+      "facts": "Indian police have forcibly removed and hospitalized Sonam Wangchuk after a hunger strike that stretched into its twentieth day. The activist began his strike last month to protest what he calls educational mismanagement that's affected millions of students across the country."
+    },
+    {
+      "title": "India Launches First Commercial Rocket Built for Orbit",
+      "facts": "India's space industry just hit a milestone that signals its arrival as a commercial player. Skyroot Aerospace, the country's first space-tech unicorn, successfully launched its Vikram-1 rocket on Saturday\u2014India's first commercial rocket designed to reach orbit."
+    },
+    {
+      "title": "Trump Administration Loses Hundreds of Criminal Cases Against ICE Protesters",
+      "facts": "The Trump administration has lost or abandoned hundreds of criminal cases it brought against protesters and immigrants who allegedly interfered with ICE operations, according to a New York Times investigation. The cases are crumbling across the country, with prosecutors dropping charges or judges dismissing them for lack of evidence."
+    },
+    {
+      "title": "New Russia Sanctions Bill Could Undermine Dollar's Global Role",
+      "facts": "Congress just passed a bill broadening sanctions on Russia, but there's a catch that's making economists and Treasury officials nervous\u2014it might accelerate efforts by adversaries to move away from the U.S. dollar."
+    },
+    {
+      "title": "America's Startup Boom Ends Decades-Long Drought",
+      "facts": "After a decades-long slump, hundreds of thousands of Americans are launching new companies each year in what's shaping up to be a genuine entrepreneurial resurgence. The surge in new business formation marks a sharp reversal from the sluggish trends that dominated much of the 2000s and early 2010s."
+    },
+    {
+      "title": "War Risk Pushes Up Prices Across the Global Economy",
+      "facts": "Operating in a more dangerous and unpredictable world is about to cost businesses\u2014and ultimately consumers\u2014a lot more money. Companies are now pricing in geopolitical risk in ways they haven't had to for decades, and that's going to push up the cost of everything from food to electronics."
+    },
+    {
+      "title": "China's Moonshot AI Closes Gap With Silicon Valley Giants",
+      "facts": "A Chinese artificial intelligence startup called Moonshot AI just unveiled a massive new model\u2014Kimi K3\u2014that it claims can go toe-to-toe with top American firms like OpenAI and Anthropic. The release is raising uncomfortable questions in Silicon Valley about whether the U.S."
+    },
+    {
+      "title": "SpaceX Shares Tumble After Launch Scrubbed",
+      "facts": "SpaceX shares closed below their IPO price for the second straight day Friday, capping a rough week that saw the stock lose about four percent in premarket trading alone. The slide came after the company aborted a crucial launch, though details on which mission was scrubbed weren't disclosed."
+    },
+    {
+      "title": "Greenpoint Megaproject Gets Final Approval After Affordable Housing Deal",
+      "facts": "The Gotham Organization just cleared its final hurdle to build two residential towers in Brooklyn's Greenpoint\u2014and it took a major concession to get there. The City Council gave the green light Thursday for 1,324 apartments at 40-56 Quay Street, right on the waterfront, after the developer agreed to make half the units affordable housing."
+    },
+    {
+      "title": "Structural Failure at Pfizer Tower Traced to Missing Steel Reinforcement",
+      "facts": "Engineers now know what went wrong at the Pfizer Building conversion that forced a blocks-wide evacuation in Midtown last week. Construction workers apparently failed to install critical steel reinforcement plates that were supposed to prevent two columns from buckling\u2014and those columns collapsed on July 7 at the 37-story office-to-residential project at 235 East 42nd Street."
+    },
+    {
+      "title": "Aston Villa Signs World Cup Star Manzambi in Record Swiss Deal",
+      "facts": "Aston Villa just pulled off a major coup, signing Johan Manzambi fresh off his breakout performance at the World Cup. The Swiss midfielder's move to the Champions League-bound club set a new record for a transfer involving a Swiss player, though the exact fee hasn't been disclosed."
+    },
+    {
+      "title": "NBA Investigates Bucks Deal With Gary Trent Jr.",
+      "facts": "The league is looking into whether the Milwaukee Bucks and Gary Trent Jr. broke salary cap rules with their four-year, $64 million contract."
+    },
+    {
+      "title": "Meta in Talks to Lease Computing Power to Anthropic in $10 Billion Deal",
+      "facts": "Meta and Anthropic are negotiating what could become one of the largest infrastructure deals in AI history\u2014a potential $10 billion agreement for Meta to lease massive amounts of its computing power to the company behind Claude. The deal would give Anthropic access to Meta's enormous GPU clusters, solving one of the biggest bottlenecks facing AI companies right now: securing enough chips to train and run cutting-edge models."
     }
   ]
 }
