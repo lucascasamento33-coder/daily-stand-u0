@@ -1,66 +1,4 @@
 {
-  "2026-07-08": [
-    {
-      "title": "Typhoon Unleashes Floods and Rare Tornadoes Across China",
-      "facts": "A powerful typhoon has triggered devastating floods and rare tornadoes across parts of China, leaving families stranded and struggling to get help. Villagers told the BBC that floodwaters rose with shocking speed, cutting off entire communities from food and assistance."
-    },
-    {
-      "title": "Le Pen Launches Presidential Bid Hours After Court Upholds Conviction",
-      "facts": "Marine Le Pen wasted no time launching her French presidential campaign\u2014she announced it within hours of a court upholding her guilty verdict. An appeals court confirmed the conviction this week, but the ruling hasn't derailed the nationalist leader's political ambitions."
-    },
-    {
-      "title": "Pakistan Searches for Missing Boeing Cargo Plane Over Arabian Sea",
-      "facts": "A Boeing cargo plane bound for Karachi has vanished over the Arabian Sea after reporting a navigation system fault. The aircraft lost contact with air traffic control shortly after the crew alerted controllers to the malfunction, triggering an urgent search operation."
-    },
-    {
-      "title": "Trump Declares Iran Cease-Fire Over After US and Iranian Strikes",
-      "facts": "President Trump says the preliminary cease-fire with Iran is finished. \"I think it's over,\" Trump told reporters, hours after Iran's armed forces targeted U.S."
-    },
-    {
-      "title": "Attempted Murder Charges Dropped After Mental Health Treatment",
-      "facts": "Dharmesh Patel won't face trial for driving his family off a California cliff after prosecutors dropped three counts of attempted murder following his completion of a court-ordered mental health program. The stunning reversal comes after Patel drove his wife and two children over a cliff in what authorities initially called a deliberate act."
-    },
-    {
-      "title": "America's Trade Gap Hits Widest Mark in Over a Year",
-      "facts": "The U.S. trade deficit swelled in May to its highest level in more than a year, driven by a record surge in imports."
-    },
-    {
-      "title": "Fed Chair Warsh May Ditch Forward Guidance, Sparking Volatility Fears",
-      "facts": "Kevin Warsh could upend decades of Federal Reserve playbook by making policy decisions without telegraphing them to markets first. That's the warning from James Bullard, a former president of the St."
-    },
-    {
-      "title": "Australia's Biggest Telecom Suffers Massive Outage",
-      "facts": "Servers at Australia's largest telecommunications company crashed, knocking out train systems and emergency call services across the country. The outage hit data centers in both Sydney and Melbourne, crippling critical infrastructure that millions depend on."
-    },
-    {
-      "title": "Wall Street Bull Tells Investors to Buy as Markets Enter Bear Territory",
-      "facts": "The stock market's tumbled into bear territory, but one prominent Wall Street strategist says this is exactly the time to start buying. Tom Lee of Fundstrat is urging investors to buy the dip, shrugging off losses that have rattled markets in recent weeks."
-    },
-    {
-      "title": "South Korea's Stock Market Plunges Into Bear Territory",
-      "facts": "What was the world's hottest stock market just months ago has now officially entered bear territory. South Korea's benchmark index has fallen twenty percent from its record high in June, marking a dramatic reversal for what had been a darling of global investors."
-    },
-    {
-      "title": "Developer Pushes Back on Pfizer Building Collapse Fears",
-      "facts": "The developer converting the old Pfizer headquarters in Midtown East says reports of an imminent collapse are overblown, even as city officials ordered an emergency evacuation Tuesday after discovering buckled support beams. Nathan Berman of MetroLoft told reporters the situation's been \"blown a little bit out of proportion,\" despite dramatic videos showing sagging upper floors and warped columns at the massive office-to-residential conversion project."
-    },
-    {
-      "title": "Messi Makes History as Argentina Survives Egypt Scare",
-      "facts": "Lionel Messi scored in a record sixth straight World Cup knockout match, leading Argentina to a stunning 3-2 comeback win over Egypt in Atlanta. Argentina was down late before Messi delivered yet again, dragging his team into the quarterfinals with what observers are calling another virtuoso performance."
-    },
-    {
-      "title": "Former Cowboys Defender Kneeland Diagnosed with CTE",
-      "facts": "Former Cowboys defensive end Marshawn Kneeland has been posthumously diagnosed with chronic traumatic encephalopathy, adding his name to the growing list of NFL players found to have the degenerative brain disease after death. CTE has become one of the most serious long-term health issues facing football, linked to repeated head trauma over the course of a career."
-    },
-    {
-      "title": "Donovan Mitchell Signs $273 Million Extension With Cavaliers",
-      "facts": "Donovan Mitchell just locked in one of the richest deals in NBA history. The Cavaliers guard has agreed to a four-year, $273 million maximum extension that keeps him in Cleveland through the end of the decade."
-    },
-    {
-      "title": "Claude Cowork Goes Mobile as Anthropic Shifts from Desktop to Your Pocket",
-      "facts": "Anthropic just pushed Claude Cowork\u2014its collaborative AI workspace\u2014onto mobile and web, ending the desktop-only era for what's been one of the more quietly useful Claude features. The company's calling this a response to how customers are actually using Cowork: less for core job functions, more for what they're terming \"the work around work\"\u2014scheduling, inbox triage, meeting prep, the busywork that fills the gaps."
-    }
-  ],
   "2026-07-09": [
     {
       "title": "Mexico Probes Alleged U.S. Deception in Drug Lord Capture",
@@ -619,6 +557,60 @@
     {
       "title": "Meta in Talks to Lease Computing Power to Anthropic in $10 Billion Deal",
       "facts": "Meta and Anthropic are negotiating what could become one of the largest infrastructure deals in AI history\u2014a potential $10 billion agreement for Meta to lease massive amounts of its computing power to the company behind Claude. The deal would give Anthropic access to Meta's enormous GPU clusters, solving one of the biggest bottlenecks facing AI companies right now: securing enough chips to train and run cutting-edge models."
+    }
+  ],
+  "2026-07-19": [
+    {
+      "title": "Ferry Disaster Off Guyana Coast",
+      "facts": "A passenger ferry carrying 116 people has capsized off the coast of Guyana, sparking a frantic rescue operation in the waters between Georgetown and Port Kaituma. Authorities confirmed that 53 people have been pulled from the water so far, but that leaves more than 60 passengers still unaccounted for."
+    },
+    {
+      "title": "Tokyo's Shorts Debate Goes Viral",
+      "facts": "Tokyo's government just gave office workers permission to wear shorts to work for the first time this summer, and the announcement has sparked an unexpectedly heated national conversation about workplace etiquette and, yes, hairy legs. The policy change is aimed at helping employees cope with Japan's brutal summer heat and humidity, which regularly pushes temperatures into the mid-90s and has led to health warnings in recent years."
+    },
+    {
+      "title": "Tate Brothers Arrested in Miami on U.K. Sex Crime Charges",
+      "facts": "Federal marshals arrested Andrew and Tristan Tate in Miami following charges filed by British authorities for sex crimes dating back to 2010. The influencer brothers, who've built massive online followings promoting misogynistic views, now face extradition to the United Kingdom after years of criminal investigations across Europe."
+    },
+    {
+      "title": "Chicago Federal Prosecutors Flee Office Over Immigrant Cases",
+      "facts": "The U.S. attorney's office in Chicago is hemorrhaging prosecutors who say they're being forced to bring cases against protesters and immigrants that they believe are unjust."
+    },
+    {
+      "title": "Trump Administration Shuttered Decades-Old Workplace Discrimination Office",
+      "facts": "The Trump administration quietly dismantled a little-known federal office that spent decades investigating potential discrimination by government contractors, effectively ending federal scrutiny of bias in a massive sector of the U.S. economy."
+    },
+    {
+      "title": "Netflix Doubles Down on Sports as Subscriber Growth Stalls",
+      "facts": "Netflix is pouring serious money into live sports programming, betting it can reverse slowing subscriber growth\u2014but Wall Street's not buying in just yet. The streaming giant says live events help attract new sign-ups, especially as competition from Disney Plus, Max, and others continues to intensify."
+    },
+    {
+      "title": "British Steel Nationalized as Chinese Owner Threatens Legal Action",
+      "facts": "The UK government has nationalized British Steel, and the company's Chinese owner is threatening to fight back in court. Jingye Group, which acquired the steelmaker in 2020, says it'll pursue compensation \"through legal means to the very end\" after being forced out."
+    },
+    {
+      "title": "New EU Border System Causing Massive Delays at European Airports",
+      "facts": "European airports are warning travelers to brace for much longer waits this summer, thanks to a new EU border control system that's tripling processing times at passport control. Airport executives say the enhanced checks are creating bottlenecks that weren't anticipated when the system was designed."
+    },
+    {
+      "title": "Mamdani's New Landlord Labels Divide NYC Property Owners",
+      "facts": "Mayor Zohran Mamdani just rolled out his \"Rental Ripoff Report\" this week, and it's doing something clever: instead of vaguely attacking \"negligent landlords,\" it's sorting property owners into two camps. You're either a \"high-road landlord\" who responds to tenant complaints and works with the city, or you're a \"low-road landlord\" who speculates on rent-stabilized buildings using high-risk financial strategies."
+    },
+    {
+      "title": "Spain and Argentina Meet in World Cup Final",
+      "facts": "The World Cup final is set, and it's a clash that's been building for weeks: Spain against Argentina, with all eyes on the generational duel between Lamine Yamal and Lionel Messi. The match caps off a tournament that's seen both teams navigate grueling knockout rounds to reach Sunday's showdown."
+    },
+    {
+      "title": "Orioles Lock Up Kyle Bradish with Ninety Million Dollar Extension",
+      "facts": "The Baltimore Orioles have signed starting pitcher Kyle Bradish to a five-year extension worth $90 million, locking down one of their rotation anchors through 2029. It's a significant investment in a pitcher who's become central to Baltimore's resurgence as a contender in the American League East."
+    },
+    {
+      "title": "Mavericks Match Knicks' Offer to Keep Cisse in Dallas",
+      "facts": "The Dallas Mavericks are keeping Moussa Cisse after matching a two-year, $4.7 million offer sheet the New York Knicks extended to the restricted free agent. Cisse's agents confirmed the move to ESPN's Shams Charania, ending what could have been an unusual front-office chess match between the two franchises."
+    },
+    {
+      "title": "Fable 5 Gets Permanent Home in Claude Max, Loses Casual Access in Pro",
+      "facts": "Anthropic just ended the limbo around Fable 5\u2014its most powerful model\u2014and the new structure is all about pushing users toward the tier that matches their usage. If you're on Claude Max or Team Premium, Fable 5 is now a permanent fixture in your subscription, though it'll run at 50% of your normal usage limits."
     }
   ]
 }
