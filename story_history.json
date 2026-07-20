@@ -1,58 +1,4 @@
 {
-  "2026-07-09": [
-    {
-      "title": "Mexico Probes Alleged U.S. Deception in Drug Lord Capture",
-      "facts": "Mexico has launched an investigation into whether the FBI lied about its role in capturing one of the country's most notorious drug lords. The probe centers on accusations that the United States misrepresented its involvement in the arrest of Ismael \"El Mayo\" Zambada, a founding member of the Sinaloa cartel who'd evaded capture for decades."
-    },
-    {
-      "title": "Le Pen Kicks Off Presidential Bid After Court Clears Her to Run",
-      "facts": "Marine Le Pen launched her presidential campaign in rural France just one day after a court ruled she could run for office again. The far-right leader's campaign kickoff drew both cheers and boos in a region that's long been a stronghold for her National Rally party."
-    },
-    {
-      "title": "India Blocks Release of Film on Punjab Police Brutality",
-      "facts": "Indian censors have demanded 127 cuts to a film exploring a dark chapter of police violence in Punjab, effectively blocking its release for years. The film, titled \"Satluj\" and featuring popular artist Diljit Dosanjh, examines a period of police brutality in the northern state that remains a sensitive topic."
-    },
-    {
-      "title": "U.S. and Iran Trade Second Night of Strikes as Ceasefire Collapses",
-      "facts": "The United States and Iran have exchanged attacks for a second consecutive night, all but ending an interim ceasefire that had brought a brief pause to hostilities. U.S."
-    },
-    {
-      "title": "Second Federal Task Force Shooting Death in Memphis This Week",
-      "facts": "Memphis is dealing with its second fatal shooting involving a federal task force in less than a week. Tennessee authorities are now investigating both incidents, which have left community members demanding answers about the use of force by federal agents operating in the city."
-    },
-    {
-      "title": "Global Growth Forecast Dims as Commodity Prices Bite",
-      "facts": "The International Monetary Fund just cut its global growth forecast for this year, and high commodity prices are taking most of the blame. The IMF now projects world economic output will expand at just 3 percent in 2026, down from its earlier estimate."
-    },
-    {
-      "title": "Drugmaker Loses $27 Billion as Heart Disease Trial Fails",
-      "facts": "A major pharmaceutical company saw $27 billion in market value evaporate Thursday after announcing its experimental heart disease drug crashed in a Phase III clinical trial. Two companies had been jointly developing the treatment, and both confirmed the trial failed to meet its primary endpoints."
-    },
-    {
-      "title": "SK Hynix Offering Could Be Second-Largest Equity Deal Ever",
-      "facts": "SK Hynix is about to make Wall Street history. The South Korean chipmaker's Nasdaq listing, set to price Friday, could become the second-largest equity offering ever recorded, trailing only SpaceX's blockbuster deal."
-    },
-    {
-      "title": "Anthropic Locks Down Entire Hudson Square Tower in AI Office Expansion",
-      "facts": "Anthropic has leased an entire 16-story building in Hudson Square, cementing its place in Manhattan's AI office boom. The company's taking over all 466,000 square feet at 330 Hudson Street from AEW Capital Management, a massive jump from its current 15,000-square-foot footprint at 155 Sixth Avenue that it signed just two years ago."
-    },
-    {
-      "title": "Verlander to Hang Up His Cleats After This Season",
-      "facts": "Justin Verlander is calling it a career. The 43-year-old pitcher announced he'll retire after the 2026 season ends, bringing down the curtain on one of baseball's most decorated careers."
-    },
-    {
-      "title": "Bucks Trade Giannis Antetokounmpo in Franchise-Altering Move",
-      "facts": "Milwaukee just made one of the most stunning decisions in recent NBA history. The Bucks have traded Giannis Antetokounmpo, and general manager Jon Horst isn't sugarcoating it\u2014he called the move a \"very difficult decision.\" The two-time MVP has been the face of the franchise for years, leading Milwaukee to its first championship in nearly five decades back in 2021."
-    },
-    {
-      "title": "Donovan Mitchell Signs Extension to Stay in Cleveland",
-      "facts": "Donovan Mitchell is staying put. The Cavs' star guard has agreed to a contract extension with Cleveland, ending months of speculation about whether he'd test free agency or push for a trade."
-    },
-    {
-      "title": "China Claims Security Flaws in Claude Code\u2014Anthropic Pushes Back",
-      "facts": "China's cybersecurity authority just issued a public warning that Anthropic's Claude Code contains what it's calling \"backdoor\" vulnerabilities that could let data leak to foreign servers. The alert, posted by China's National Computer Virus Emergency Response Center, specifically flags the autonomous coding tool as a risk and advises Chinese users to avoid it."
-    }
-  ],
   "2026-07-10": [
     {
       "title": "Venezuela's Youth Baseball League Devastated by Twin Earthquakes",
@@ -611,6 +557,68 @@
     {
       "title": "Fable 5 Gets Permanent Home in Claude Max, Loses Casual Access in Pro",
       "facts": "Anthropic just ended the limbo around Fable 5\u2014its most powerful model\u2014and the new structure is all about pushing users toward the tier that matches their usage. If you're on Claude Max or Team Premium, Fable 5 is now a permanent fixture in your subscription, though it'll run at 50% of your normal usage limits."
+    }
+  ],
+  "2026-07-20": [
+    {
+      "title": "India's Medical Exam Scandal Sparks Mass Protest",
+      "facts": "Millions of Indian students have been forced to retake the country's biggest medical school entrance exam after the questions leaked ahead of test day. The scandal triggered mass demonstrations led by the CJP Party, which organized a protest march to Parliament to demand accountability."
+    },
+    {
+      "title": "Norway Unveils Memorial for 2011 Massacre Victims",
+      "facts": "Norway opened a new memorial in Oslo on Sunday, just ahead of the 15th anniversary of one of the country's darkest days. The artwork honors victims of the 2011 massacre, an attack that shook the normally peaceful Scandinavian nation to its core."
+    },
+    {
+      "title": "China's Blue-Collar Writer Wins Top Literary Prize",
+      "facts": "A food delivery rider just won China's most prestigious literary prize, and it's shining a spotlight on a corner of Chinese society that usually stays invisible. Wang Jibing, who works delivering meals on a motorbike, is part of a growing movement of blue-collar Chinese workers who are gaining wider attention for their writing."
+    },
+    {
+      "title": "Turkey Expands Military Ties with Eastern Libya",
+      "facts": "Turkey is deepening military cooperation with Khalifa Haftar, the warlord who controls eastern Libya, and the move is raising serious questions about regional security and Egypt's tolerance. Haftar has long been backed by Egypt, which views eastern Libya as a buffer zone and has drawn red lines against foreign military expansion there."
+    },
+    {
+      "title": "Pentagon Concealed Dozens of U.S. Military Injuries in Iran Conflict",
+      "facts": "The Pentagon has been withholding information about dozens of U.S. military personnel injured in operations related to Iran, a military official acknowledged Monday."
+    },
+    {
+      "title": "Massachusetts Mother Stands Trial for Deaths of Three Children",
+      "facts": "Lindsay Clancy goes on trial today in a case that's forced the small coastal town of Duxbury, Massachusetts, to confront an unthinkable tragedy. The mother is charged with murdering her three children, and the trial is expected to center heavily on questions of postpartum mental health."
+    },
+    {
+      "title": "Utah Flash Flood Kills Fire Captain and His Family of Five",
+      "facts": "A Provo fire captain, his wife, and their three sons were found dead over the weekend in southern Utah after flash floods swept through a canyon near their campground. Authorities say the family of five was likely caught in floodwaters triggered by severe storms that hammered the region Saturday."
+    },
+    {
+      "title": "Inflation Spreads Beyond Isolated Shocks",
+      "facts": "Fed Chair Kevin Warsh told Congress last week that one of his main jobs is to prevent individual price spikes from spreading across the economy. Unfortunately, that's already happening."
+    },
+    {
+      "title": "Ryanair Profits Tumble as Iran War Drives Up Fuel Costs",
+      "facts": "Ryanair's profits just took a hit, and the airline is pointing to two culprits: war jitters and soaring fuel costs. The Irish carrier reported a drop in earnings as the conflict in Iran has kept passengers at home and pushed oil prices higher."
+    },
+    {
+      "title": "Thames Water Lenders Ready Legal Fight Over Nationalisation Threat",
+      "facts": "Creditors holding billions in Thames Water debt are preparing to sue if Britain's new government tries to take the troubled utility into public hands. The BBC reports lenders are gearing up for a legal challenge that would demand full repayment of outstanding loans\u2014a figure running into the multi-billions of pounds."
+    },
+    {
+      "title": "Chip Stocks Enter Bear Territory as Investors Hunt for New Plays",
+      "facts": "Semiconductors just fell into a bear market, and Wall Street's scrambling to figure out what comes next. The sector that powered much of the AI rally has now dropped enough to meet the official definition of a bear market, leaving investors who rode the chip boom looking for safer ground."
+    },
+    {
+      "title": "New York Mayor Rolls Out Tenant Reform Plan After Rental Complaint Hearings",
+      "facts": "Mayor Zohran Mamdani released his administration's first major housing enforcement plan Thursday, responding to what he's calling widespread complaints from New York City renters. The initiative follows the mayor's Rental Ripoff Hearings, where tenants testified about conditions and landlord issues across the city."
+    },
+    {
+      "title": "Spain Claims Second World Cup Title in Extra-Time Thriller",
+      "facts": "Spain are world champions again. Ferran Torres scored the winner in extra time to give Spain their second men's World Cup title, defeating reigning champions Argentina in a final that turned tense and fractious at MetLife Stadium on Sunday."
+    },
+    {
+      "title": "Thunder Trade All-Defensive Wing Dort to Hawks in Three-Team Deal",
+      "facts": "The Thunder just shook up their roster, trading All-Defensive wing Luguentz Dort to the Hawks in a three-team deal that's sending ripples across the league. Oklahoma City is getting three second-round picks in return, while the Mavericks land former number one overall pick Zaccharie Risacher and Atlanta also receives Ryan Nembhard."
+    },
+    {
+      "title": "Claude Fable 5 Moves Behind Paywall for Pro Users",
+      "facts": "Anthropic just pulled the plug on free access to Claude Fable 5 for Pro subscribers, and starting July 20th, you'll need to upgrade to a higher-tier plan if you want to keep using their most powerful model. The change marks a significant shift in how Anthropic is monetizing its flagship AI, moving what had been a Pro subscription perk into a more expensive tier."
     }
   ]
 }
