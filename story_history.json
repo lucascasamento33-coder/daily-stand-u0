@@ -1,58 +1,4 @@
 {
-  "2026-07-10": [
-    {
-      "title": "Venezuela's Youth Baseball League Devastated by Twin Earthquakes",
-      "facts": "Venezuela's youth baseball league\u2014a symbol of national pride for decades\u2014is counting its dead after last month's twin earthquakes. Children who played in the league have been left injured, orphaned, or killed in the disaster that's now claimed at least 920 lives."
-    },
-    {
-      "title": "China Lands Reusable Rocket for the First Time",
-      "facts": "China's pulled off its first successful landing of a reusable rocket, according to state media\u2014a milestone that puts the country in the same club as SpaceX and Blue Origin. The landing marks a major step forward for China's space ambitions, which have accelerated dramatically over the past decade."
-    },
-    {
-      "title": "Trump Administration Guts Election Commission With Mass Firings",
-      "facts": "The Trump administration has fired multiple members of the Election Assistance Commission, rendering the independent body effectively useless just months before the midterm elections. The commission, which sets voting standards and certifies equipment used across the country, also saw one resignation in the shake-up."
-    },
-    {
-      "title": "ICE Shooting Victim Was Father and Business Owner With Decades in U.S.",
-      "facts": "Lorenzo Salgado Araujo, the man shot by Immigration and Customs Enforcement agents, was a father, husband, and business owner who'd lived in the United States for 35 years after moving from Mexico. The shooting has drawn intense scrutiny over ICE's use of force during enforcement operations."
-    },
-    {
-      "title": "National Guard Shooting Suspect Hospitalized After Refusing Food",
-      "facts": "The man charged with murdering a National Guard member is now hospitalized in what a judge called \"dire\" condition after refusing to eat. The suspect has pleaded not guilty to murder and other charges stemming from the shooting."
-    },
-    {
-      "title": "Delta Absorbs Record Fuel Costs But Still Beats Profit Expectations",
-      "facts": "Delta Air Lines just reported something that sounds impossible: record-high quarterly fuel expenses and a profit beat at the same time. The carrier absorbed the highest fuel bill in its history this past quarter, yet still managed to top Wall Street's earnings expectations and post record revenue."
-    },
-    {
-      "title": "Personal Bankruptcy Filings Surge Nearly 50 Percent in Three Years",
-      "facts": "Americans filed for personal bankruptcy at a staggering rate last year\u2014roughly 1,500 filings every single day. That's a 47 percent jump from 2022 to 2025, marking one of the sharpest increases in financial distress in recent memory."
-    },
-    {
-      "title": "SK Hynix Raises $26.5 Billion in Largest Foreign Debut on Nasdaq",
-      "facts": "South Korean chip giant SK Hynix just pulled off the largest U.S. stock market debut by a foreign company in history, raising $26.5 billion in a mega share sale."
-    },
-    {
-      "title": "Earnings Season Kicks Off With Wild Stock Swings",
-      "facts": "Second-quarter earnings season is off to a rocky start, and even companies that beat expectations are getting punished by the market. Stocks are seeing increasingly wild swings in the days after they report results, a sign that investors' sky-high expectations are tough to meet."
-    },
-    {
-      "title": "Airbnb Buys Infamous \"Anna Delvey\" Building in Manhattan",
-      "facts": "Airbnb's just closed on one of Manhattan's most notorious addresses. The short-term rental giant teamed up with Boston's Beacon Capital Partners to buy 281 Park Avenue South\u2014the ornate, Beaux Arts landmark that fake heiress Anna Delvey tried and failed to turn into a private club."
-    },
-    {
-      "title": "NFL Players Face Four Times Higher Risk of Dementia Death",
-      "facts": "NFL players are four times more likely to die from neurodegenerative diseases like dementia and Parkinson's than the general population, according to a study released Wednesday. It's the latest data point in what's become an unavoidable reckoning for professional football: the long-term cost of playing the game."
-    },
-    {
-      "title": "Kawhi Leonard Trade on Ice Amid Salary Cap Investigation",
-      "facts": "The Clippers and Raptors struck a deal to send Kawhi Leonard north of the border, but don't expect him in a Toronto uniform anytime soon. The NBA's put the entire trade on hold while it investigates whether Los Angeles circumvented the salary cap."
-    },
-    {
-      "title": "Claude's Extended Thinking\u2014And How to Burn That Budget Wisely",
-      "facts": "Anthropic's discovered something wild inside Claude: a hidden intermediate space where the model essentially thinks out loud before answering you. They're calling it extended thinking, and it's now exposed in a way you can control and budget."
-    }
-  ],
   "2026-07-11": [
     {
       "title": "Cuba Plunges Into Darkness Again",
@@ -619,6 +565,56 @@
     {
       "title": "Claude Fable 5 Moves Behind Paywall for Pro Users",
       "facts": "Anthropic just pulled the plug on free access to Claude Fable 5 for Pro subscribers, and starting July 20th, you'll need to upgrade to a higher-tier plan if you want to keep using their most powerful model. The change marks a significant shift in how Anthropic is monetizing its flagship AI, moving what had been a Pro subscription perk into a more expensive tier."
+    }
+  ],
+  "2026-07-21": [
+    {
+      "title": "Ferry Disaster Off Guyana Leaves Dozens Dead or Missing",
+      "facts": "At least 27 people are dead and 83 are still missing after a passenger ferry capsized off the coast of Guyana. The island nation's prime minister has launched an investigation into the tragedy and says he's holding out hope that more survivors will be found alive."
+    },
+    {
+      "title": "Manila Reports Sailor Injured in South China Sea Clash",
+      "facts": "The Philippines says one of its sailors was injured during a confrontation with the Chinese Coast Guard in disputed waters of the South China Sea. China's pushing back, insisting it wasn't the aggressor in the encounter."
+    },
+    {
+      "title": "Five Bodies Pulled from Ohio River After Child's Desperate Alert",
+      "facts": "A child flagged down a driver with a horrifying message: \"My family was in the river.\" That led authorities to pull five bodies from the Scioto River outside Columbus on Tuesday. Two women and three men were recovered from the water, though officials haven't yet released their identities or explained what led to their deaths."
+    },
+    {
+      "title": "Trump Imposes 50% Tariff on Canadian Goods",
+      "facts": "The Trump administration is slapping a 50 percent tariff on many Canadian exports, reigniting one of the sharpest trade confrontations between the two countries in decades. The duties will use an untested legal provision, marking new territory in how the U.S."
+    },
+    {
+      "title": "Fed Chair Warsh Still Silent on Rate Strategy",
+      "facts": "Federal Reserve Chair Kevin Warsh appeared before Congress again this week and once more declined to offer any concrete plan for how he'll tackle inflation. Warsh, who took over the Fed earlier this year, has now made multiple public appearances where he's pledged to bring down price pressures without explaining whether that means raising interest rates, holding them steady, or trying something altogether different."
+    },
+    {
+      "title": "UK Cuts Electricity Tax to Lower Household Bills",
+      "facts": "Britain is slashing the VAT on household electricity starting in October, a move that'll save homes around 45 pounds a year. The tax cut was announced on Prime Minister Andy Burnham's first full day in office, signaling an early focus on cost-of-living relief."
+    },
+    {
+      "title": "Morgan Stanley Slashes Adobe Stock Rating on AI Competition Fears",
+      "facts": "Morgan Stanley just delivered a brutal downgrade to Adobe, slashing its price target by more than a third and cutting the stock to underweight. The investment bank's citing multiple transitions at the software giant and growing threats from artificial intelligence competitors that could eat into Adobe's dominance."
+    },
+    {
+      "title": "City Clarifies Controversial Pied-\u00e0-Terre Tax After Flood of Questions",
+      "facts": "The Mamdani administration's pied-\u00e0-terre tax just got a dozen pages of updates and clarifications after the city was swamped with questions from property owners and their lawyers. The Department of Finance released new text amendments Monday aimed at clearing up confusion about who's actually subject to the surcharge and how the appeals process works."
+    },
+    {
+      "title": "MetroLoft's Conversion Method Under Scrutiny After Midtown Evacuation",
+      "facts": "A dramatic structural failure at a Midtown conversion project has put MetroLoft's signature redevelopment technique under a microscope. Columns buckled and floors sagged earlier this month at 235 East 42nd Street\u2014the former Pfizer headquarters that MetroLoft is converting\u2014forcing authorities to temporarily evacuate the area."
+    },
+    {
+      "title": "Packers Lock Down Defensive Star Devonte Wyatt with $57 Million Extension",
+      "facts": "The Green Bay Packers just made sure one of their defensive anchors isn't going anywhere. Defensive lineman Devonte Wyatt has signed a three-year, $57 million contract extension that includes a $20 million signing bonus, his agency confirmed Monday."
+    },
+    {
+      "title": "Thunder Trade All-Defensive Wing Dort in Three-Team Deal",
+      "facts": "The Thunder just dealt Luguentz Dort to the Atlanta Hawks in a three-team blockbuster that's reshaping rosters across the league. Oklahoma City's sending its All-Defensive wing out after years anchoring their perimeter defense, and in return they're collecting three second-round picks to add to what's already one of the deepest draft capital stashes in the NBA."
+    },
+    {
+      "title": "Anthropic Settles AI Copyright Lawsuit for $1.5 Billion",
+      "facts": "A federal judge has approved a massive $1.5 billion settlement between Anthropic and a coalition of publishers and authors who accused the company of training Claude on copyrighted material without permission. It's the largest copyright settlement in AI history, dwarfing previous deals in the industry by a significant margin."
     }
   ]
 }
