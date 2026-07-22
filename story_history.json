@@ -1,62 +1,4 @@
 {
-  "2026-07-11": [
-    {
-      "title": "Cuba Plunges Into Darkness Again",
-      "facts": "Cuba's gone dark\u2014again. The island suffered its second complete nationwide blackout in just five days, leaving millions without power across the entire country."
-    },
-    {
-      "title": "Spanish Wildfire Death Toll Climbs to Twelve",
-      "facts": "Spain is battling one of its deadliest wildfires in years, and the toll keeps rising. At least twelve people are confirmed dead, including four believed to be British nationals, with another twenty-three still missing as flames tear through the countryside."
-    },
-    {
-      "title": "China's Factory Workers Face Robot Replacement",
-      "facts": "In Kunshan, a Chinese manufacturing hub that helped build the country's electronics boom, laid-off factory workers now spend their days in the park\u2014because there's nowhere else to go. They've been replaced by robots as China accelerates its drive toward automation, and the human cost is becoming impossible to ignore."
-    },
-    {
-      "title": "Russian Missile Barrage Hits Kyiv",
-      "facts": "Russia fired a fresh wave of missiles and drones at Kyiv, wounding eleven people in one of the war's deadliest months for the Ukrainian capital. The latest attack involved ballistic missiles and a massive swarm of 121 drones, part of an intensified Russian campaign targeting civilian infrastructure."
-    },
-    {
-      "title": "Representative Detained by Israeli Settlers in West Bank",
-      "facts": "Representative Ro Khanna spent ninety minutes blocked by Israeli settlers in the West Bank before he was allowed to leave. The California Democrat's visit wasn't about showing support for Israel\u2014it was the opposite."
-    },
-    {
-      "title": "Fed Chair Warsh Faces First Congressional Testimony",
-      "facts": "Kevin Warsh is about to get his first real grilling as Fed chair. He'll testify before Congress this week, and lawmakers are eager to pin him down on where he thinks the economy is headed."
-    },
-    {
-      "title": "New Housing Law Offers Incentives for Local Governments",
-      "facts": "A new housing law just hit the books, and while it's not going to remake the American landscape overnight, it does put some real money on the table. The legislation offers local governments and builders financial incentives to make incremental changes\u2014things like easing zoning restrictions, speeding up permitting, and encouraging denser development near transit."
-    },
-    {
-      "title": "EasyJet Accepts Surprise Takeover Bid",
-      "facts": "EasyJet is about to change hands in a deal that caught the aviation industry off guard. The British budget airline has agreed to a takeover bid from Apollo, a US firm, which swooped in and trumped a recent offer from another suitor, Castlelake."
-    },
-    {
-      "title": "Meta Stock Surges on AI Pricing Strategy",
-      "facts": "Meta just wrapped up its best week in years, and artificial intelligence is the reason why. The company's stock surged after it unveiled new low-cost pricing for its AI services and laid out ambitious infrastructure plans that have investors betting big on the social media giant's tech future."
-    },
-    {
-      "title": "State Housing Official Exposes Secret Policy Shift That Blocked Building Owners",
-      "facts": "A former New York State housing official has gone public with allegations that regulators secretly changed policy in 2023 to make it nearly impossible for landlords to remove buildings from rent stabilization. Woody Pascal, who ran the state's substantial rehabilitation program from 2010 until recently, says he learned of the change at a mid-2023 meeting with other housing officials\u2014no public discussion was held, and the real estate industry received zero notice."
-    },
-    {
-      "title": "Hochul Distributes $1 Billion to Create and Preserve 2,754 Apartments Statewide",
-      "facts": "Governor Kathy Hochul's administration just awarded $1 billion in housing bonds and subsidies to a dozen development projects across New York, part of her broader $25 billion five-year housing plan. The funds, distributed by New York State Homes and Community Renewal, will create or preserve 2,754 apartments statewide."
-    },
-    {
-      "title": "NFL Players Face Four Times Higher Dementia Risk",
-      "facts": "NFL players are dying from dementia and other neurodegenerative diseases at four times the rate of the general population, according to a study released Wednesday. The research found that former players face dramatically elevated risks of Parkinson's and similar conditions compared to people who never played professional football."
-    },
-    {
-      "title": "Wembanyama Locks Down Historic Extension With Spurs",
-      "facts": "Victor Wembanyama and the Spurs have agreed to a five-year, $252 million maximum rookie-scale contract extension, making it the third-largest rookie extension in NBA history. The deal keeps San Antonio's franchise cornerstone locked in through the prime years of his career."
-    },
-    {
-      "title": "Anthropic Discovers Hidden \"Thinking Space\" Inside Claude's Neural Architecture",
-      "facts": "Anthropic just published research showing they've found a hidden layer inside Claude where the model appears to puzzle through concepts before answering\u2014something they're calling a \"global workspace.\" It's a breakthrough in understanding what actually happens inside large language models when they process a prompt. The research team observed that Claude maintains an internal space where it seems to work through ideas, almost like a scratch pad, before committing to an output."
-    }
-  ],
   "2026-07-12": [
     {
       "title": "Taliban Tightens Grip on Afghanistan's Most Liberal City",
@@ -615,6 +557,56 @@
     {
       "title": "Anthropic Settles AI Copyright Lawsuit for $1.5 Billion",
       "facts": "A federal judge has approved a massive $1.5 billion settlement between Anthropic and a coalition of publishers and authors who accused the company of training Claude on copyrighted material without permission. It's the largest copyright settlement in AI history, dwarfing previous deals in the industry by a significant margin."
+    }
+  ],
+  "2026-07-22": [
+    {
+      "title": "Mexico's Lettuce Growers Caught in Food Safety Crossfire",
+      "facts": "A lettuce-growing region in central Mexico is now at the center of a food safety crisis that's sickened thousands of Americans. U.S."
+    },
+    {
+      "title": "Japan Debates Work Culture After PM's Extreme Sleep Schedule",
+      "facts": "Japan's prime minister has sparked a national conversation about work-life balance, and it's not in the way you'd expect. Sanae Takaichi revealed she sleeps just \"zero to three hours\" a night, and the admission has startled the country."
+    },
+    {
+      "title": "Saudi Arabia Gains U.S. Approval for Nuclear Fuel Enrichment",
+      "facts": "The United States has struck a deal with Saudi Arabia that would allow the kingdom to enrich its own nuclear fuel, a threshold that's sparked sharp opposition in Washington and Tel Aviv. The agreement, set to be announced Wednesday, centers on what Riyadh calls a civilian nuclear energy program."
+    },
+    {
+      "title": "Trump Ally Wins GOP Nomination for Arizona Governor",
+      "facts": "Representative Andy Biggs has won the Republican nomination for governor of Arizona, setting up a high-stakes general election battle in one of the country's most closely watched swing states. Biggs, a conservative congressman and close ally of President Trump, emerged from a contentious primary to take on Democratic incumbent Katie Hobbs."
+    },
+    {
+      "title": "Trump to Hit Canada with 50% Tariffs, Reigniting Trade War",
+      "facts": "President Trump's about to pull the trigger on a massive new round of tariffs against Canada\u2014this time hitting many Canadian goods with a punishing 50 percent duty. The administration plans to use an untested legal provision to justify the move, which would reignite a major clash with one of America's largest trading partners."
+    },
+    {
+      "title": "Oil Surges to Six-Week High as Iran Hopes Fade",
+      "facts": "Crude oil prices just hit their highest level in six weeks, climbing nearly 4 percent on Wednesday as hopes for any de-escalation in Iran evaporated. Both West Texas Intermediate and Brent crude saw sharp gains after an eleventh consecutive night of attacks in the region, signaling that the conflict isn't winding down anytime soon."
+    },
+    {
+      "title": "Tokyo Tells Workers to Ditch Suits for Shorts\u2014But Some Women Call It Harassment",
+      "facts": "Tokyo's government has launched a campaign urging office workers to swap their suits and ties for t-shirts, trainers, and shorts\u2014but the push is sparking an unexpected backlash. The Tokyo Metropolitan Government says the dress-down policy is meant to help workers cope with the city's brutal summer heat and reduce energy use by cutting air conditioning."
+    },
+    {
+      "title": "AT&T Shares Climb on Strong Subscriber Growth",
+      "facts": "AT&T beat Wall Street's expectations across the board, sending its stock higher as investors cheered stronger-than-expected subscriber additions and cash flow. The telecommunications company reported better-than-forecast numbers on new customers signing up for its wireless and fiber services, a sign that its network investments are paying off."
+    },
+    {
+      "title": "City Hall Wants Voters to Decide on Permit Overhaul This Fall",
+      "facts": "The Mamdani administration's charter commission is putting together a ballot measure that could reshape how New York City handles construction permits and government contracts. The proposal would create a one-stop shop for builders to get permits, instead of forcing them to navigate multiple agencies."
+    },
+    {
+      "title": "Dolphins Lock Up Brooks with $51 Million Extension",
+      "facts": "The Miami Dolphins just handed linebacker Jordyn Brooks a major payday, locking him in with a three-year extension worth $51.3 million. The deal includes $35 million guaranteed, agent Erik Burkhardt confirmed to ESPN."
+    },
+    {
+      "title": "Hawks Land Dort in Blockbuster Three-Team Trade",
+      "facts": "The Hawks just pulled off one of the summer's most surprising moves, acquiring All-Defensive wing Luguentz Dort from Oklahoma City in a three-team deal that reshapes rosters across the league. Atlanta sent former number one overall pick Zaccharie Risacher to Dallas and Ryan Nembhard to Oklahoma City as part of the swap."
+    },
+    {
+      "title": "Anthropic Settles $1.5 Billion Copyright Lawsuit Over Training Data",
+      "facts": "A federal judge has approved Anthropic's $1.5 billion settlement with authors and publishers who accused the company of using pirated books to train Claude without permission. The deal closes one of the largest copyright cases yet filed against an AI company, ending a legal battle that had been building since the suit was filed."
     }
   ]
 }
