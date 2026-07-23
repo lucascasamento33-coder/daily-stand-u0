@@ -1,54 +1,4 @@
 {
-  "2026-07-12": [
-    {
-      "title": "Taliban Tightens Grip on Afghanistan's Most Liberal City",
-      "facts": "Afghanistan's Taliban government has imposed full control over Herat, a city that once stood out for its cosmopolitan culture and looser social norms\u2014even during previous Taliban rule. The crackdown marks a shift for a place that had been something of an outlier in the country's increasingly restrictive landscape."
-    },
-    {
-      "title": "Typhoon Bavi Slams China After Deadly Path Across Asia",
-      "facts": "Typhoon Bavi made landfall in China's Zhejiang province, forcing the evacuation of nearly two million people and shutting down schools, businesses, and transport services across the region. The storm had already killed 17 people in the Philippines before skirting Japan and hitting Taiwan on its way north."
-    },
-    {
-      "title": "Senator Lindsey Graham Dies at 71",
-      "facts": "Senator Lindsey Graham died Saturday evening after what his office called a \"brief and sudden\" illness, ending a more than two-decade career as one of the Senate's most prominent voices on foreign policy. The South Carolina Republican was 71."
-    },
-    {
-      "title": "White House Directs FBI Investigation Into Times Reporting on Air Force One",
-      "facts": "FBI Director Kash Patel spent roughly eight hours at the White House on Friday overseeing an investigation tied to New York Times reporting about Air Force One security. The probe has already led to subpoenas being issued to several Times reporters who worked on the story."
-    },
-    {
-      "title": "Maricopa County Election Dispute Could Shape National Midterms",
-      "facts": "A power struggle over who controls elections in Arizona's largest county is becoming a test case for the midterms nationwide. Maricopa County's Republican-dominated Board of Supervisors is locked in a bitter fight with a Trump-aligned official over election administration in Greater Phoenix."
-    },
-    {
-      "title": "New Housing Law Offers Incentives to Expand Supply",
-      "facts": "A new housing bill just became law, and while it's not sweeping legislation, it does give local governments and builders some financial incentives to chip away at the country's housing shortage. The measure focuses on incremental changes rather than dramatic overhauls, encouraging communities to ease zoning restrictions and builders to add more units."
-    },
-    {
-      "title": "Aldi Bets Nine Billion on American Expansion",
-      "facts": "German discount grocer Aldi is pouring nine billion dollars into a major U.S. expansion, and it's taking aim at urban markets like Manhattan with a pitch that's hard to ignore: four-dollar almond butter and prices that undercut nearly everyone."
-    },
-    {
-      "title": "Douglas Elliman's AI Push Signals Major Shift for Real Estate Agents",
-      "facts": "Douglas Elliman just announced a major technology overhaul powered by Google Cloud AI\u2014and it's raising uncomfortable questions about how many agents the industry really needs. CEO Michael Liebowitz said the tech upgrade will lead to layoffs at the firm, but he didn't stop there."
-    },
-    {
-      "title": "Seahawks Sold for Record $9.6 Billion",
-      "facts": "The Seattle Seahawks are about to change hands in the most expensive sports franchise deal ever recorded. A group led by Vinod Khosla has agreed to purchase the team for $9.612 billion, smashing previous records for NFL franchise sales."
-    },
-    {
-      "title": "White Sox Select Cholowsky First Overall in MLB Draft",
-      "facts": "The Chicago White Sox made UCLA shortstop Roch Cholowsky the number one pick in the 2026 MLB draft Saturday, continuing a rebuild that's been years in the making. Cholowsky becomes the latest college infielder to go first overall, a trend that's accelerated as teams prioritize polish and proximity to the majors."
-    },
-    {
-      "title": "Wembanyama Locks In Record Extension with Spurs",
-      "facts": "Victor Wembanyama and the San Antonio Spurs have agreed to a five-year, $252 million maximum rookie-scale contract extension, sources tell ESPN. It's the third-largest rookie extension in NBA history."
-    },
-    {
-      "title": "Claude Reflection Dashboard Gives You X-Ray Vision Into Why Your Prompts Fail",
-      "facts": "Anthropic just launched the Claude Reflection Dashboard, and it's the debugging tool you didn't know you were missing. The dashboard shows you exactly what Claude was \"thinking\" when it gave you an answer\u2014surfacing its internal reasoning steps, tool-use decisions, and the specific points where it got confused or made a wrong turn."
-    }
-  ],
   "2026-07-13": [
     {
       "title": "Gunmen Kill Ecuadorean Drug Lord's Brother in Fake Police Raid",
@@ -607,6 +557,60 @@
     {
       "title": "Anthropic Settles $1.5 Billion Copyright Lawsuit Over Training Data",
       "facts": "A federal judge has approved Anthropic's $1.5 billion settlement with authors and publishers who accused the company of using pirated books to train Claude without permission. The deal closes one of the largest copyright cases yet filed against an AI company, ending a legal battle that had been building since the suit was filed."
+    }
+  ],
+  "2026-07-23": [
+    {
+      "title": "Ebola Outbreak Spreads Through Congolese Displacement Camps",
+      "facts": "A million people displaced by violence in Congo are now facing an Ebola outbreak with almost no resources to fight it. The virus is spreading through overcrowded camps in the epicenter of the outbreak, where clean water is scarce and conditions are dangerous."
+    },
+    {
+      "title": "Wildfires Claim Third Firefighter as France Orders Mass Evacuations",
+      "facts": "France has evacuated thousands of residents as wildfires continue burning across Europe, and the human cost just got higher\u2014a third firefighter has now died battling the blazes. The fires are part of a broader pattern hitting multiple countries on the continent, straining firefighting resources across national borders."
+    },
+    {
+      "title": "Russian Spy Flees Japan After Exposure in Aeroflot Office",
+      "facts": "A Russian military intelligence officer has fled Japan after being publicly identified as using the country's Aeroflot airline office in Tokyo as cover for espionage operations. The Times reported the officer's identity and activities, essentially blowing his cover and forcing him to leave the country."
+    },
+    {
+      "title": "Over 3,200 Israelis Storm Al-Aqsa Mosque Compound",
+      "facts": "More than 3,200 Israelis entered the Al-Aqsa Mosque compound in Jerusalem's Old City, accompanied by National Security Minister Ben-Gvir and far-right groups under heavy police protection. The incursion into one of Islam's holiest sites is the kind of event that can spark wider unrest across the region."
+    },
+    {
+      "title": "Minnesota Gunman Faces Life Sentence for Attacks on Lawmakers",
+      "facts": "The Minnesota man who shot state lawmakers in their homes last year is expected to be sentenced to life in prison. The attacks, which targeted legislators at their residences, shocked the state and raised urgent questions about political violence and security for elected officials."
+    },
+    {
+      "title": "Trump Unveils 50 Percent Tariffs on Canada as Trade War Escalates",
+      "facts": "The White House just announced that 50 percent tariffs on Canadian goods will take effect by August 19th, marking a dramatic escalation in a trade dispute that's now stretched well over a year. It's the most aggressive move yet in what's become an increasingly bitter economic standoff between Washington and Ottawa."
+    },
+    {
+      "title": "Oil Climbs Toward $100 as Houthis Strike Saudi Tankers in Red Sea",
+      "facts": "Oil prices surged past $98 a barrel Thursday after Houthi rebels claimed responsibility for attacks on Saudi Arabian tankers in the Red Sea. Brent crude jumped on fears that escalating attacks on shipping could tighten global supply and drive crude toward the $100 mark for the first time in months."
+    },
+    {
+      "title": "Google's AI Spending Spree Drains Cash as Costs Spiral",
+      "facts": "Google's burning through cash at a staggering rate, and artificial intelligence is the reason why. The tech giant said earlier this year it expects to spend as much as $190 billion on AI investments, a figure that's raising eyebrows even in an industry known for massive capital outlays."
+    },
+    {
+      "title": "Landlords Challenge Rent Freeze in Court",
+      "facts": "Six New York landlords have filed suit in state Supreme Court asking a judge to throw out last month's rent freeze for stabilized apartments and force the Rent Guidelines Board to authorize an increase instead. The petition argues the board's consideration of a freeze was a predetermined outcome and what they're calling a \"sham\" process."
+    },
+    {
+      "title": "JPMorgan Exits Third Avenue Tower in $425 Million Deal",
+      "facts": "Fisher Brothers is about to recapitalize one of its major Midtown office towers, and it comes with a hefty price tag. JPMorgan Asset Management is selling its 49 percent stake in 605 Third Avenue, the 43-story tower near Grand Central, at a valuation of $425 million."
+    },
+    {
+      "title": "Dolphins Lock Up Brooks With $51 Million Extension",
+      "facts": "The Dolphins just handed linebacker Jordyn Brooks one of the richest deals at his position. Miami and Brooks have agreed to a three-year, $51.3 million extension with $35 million guaranteed, his agent confirmed to ESPN."
+    },
+    {
+      "title": "Curry Gets His Own Hall of Fame Exhibit While Still Playing",
+      "facts": "Stephen Curry's making history before he's even retired. The Warriors star becomes the first active player to get his own exhibit at the Naismith Basketball Hall of Fame, opening to the public Friday."
+    },
+    {
+      "title": "Claude Can Now Screen-Record Its Way to Expertise",
+      "facts": "Anthropic just shipped something that changes how you train Claude on complex workflows: the AI can now watch a screen recording of you doing a task\u2014navigating software, processing documents, whatever\u2014and learn the entire process from the video. This isn't about transcribing what you say or reading static screenshots; Claude's analyzing the full motion, clicks, navigation patterns, and context switches in real time."
     }
   ]
 }
