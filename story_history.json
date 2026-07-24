@@ -1,54 +1,4 @@
 {
-  "2026-07-13": [
-    {
-      "title": "Gunmen Kill Ecuadorean Drug Lord's Brother in Fake Police Raid",
-      "facts": "Men disguised as police officers murdered David Mac\u00edas in Ecuador over the weekend, in what authorities are calling a targeted assassination. Mac\u00edas was the brother of notorious drug lord Jos\u00e9 Adolfo Mac\u00edas\u2014known as \"El Fito\"\u2014who's currently awaiting trial in the United States."
-    },
-    {
-      "title": "Japan Building New Intelligence Agency With Western Support",
-      "facts": "Japan is breaking with decades of post-World War II security limits to build a new intelligence agency, and it's getting help from the West. Prime Minister Sanae Takaichi is driving the effort, citing mounting threats from both Russia and China as Japan rethinks its pacifist stance."
-    },
-    {
-      "title": "Senator Lindsey Graham Dies",
-      "facts": "South Carolina Senator Lindsey Graham has died. The sharp-witted Republican was known as one of the Senate's most mercurial figures\u2014able to repair fractured relationships with political rivals and insert himself into nearly every major legislative battle during his long tenure."
-    },
-    {
-      "title": "Five Killed in Illinois Family Shooting",
-      "facts": "A shooting in southern Illinois has left five members of one family dead and two others wounded. Illinois State Police announced Sunday that two teenage suspects are now in custody following the deadly incident."
-    },
-    {
-      "title": "Supreme Court Seeks Bigger Security Budget",
-      "facts": "The Supreme Court is heading to Capitol Hill with an unusual request\u2014and an unusual pair of messengers. Justices Amy Coney Barrett and Elena Kagan are scheduled to testify before Congress about the court's request for more than $200 million in additional security funding."
-    },
-    {
-      "title": "Oil Spikes as Iran Closes Strait of Hormuz",
-      "facts": "Oil prices surged as much as 5% on Monday after Iran declared the Strait of Hormuz closed to shipping. The move comes amid escalating attacks between the U.S."
-    },
-    {
-      "title": "Taiwan's Chipmaker Posts Record Revenue Ahead of Earnings",
-      "facts": "Taiwan Semiconductor Manufacturing Corporation just reported a record month for revenue, with June sales climbing 67% to $13.2 billion. It's a striking number that underscores how insatiable demand remains for the advanced chips TSMC produces."
-    },
-    {
-      "title": "South Korean Chipmaker Plunges After U.S. Debut",
-      "facts": "SK Hynix saw its local shares in Seoul plummet 15% on Monday, just one day after a highly successful debut of its U.S. depositary receipts."
-    },
-    {
-      "title": "Mortgage Rates Jump on Iran Tensions, But Homebuyers Keep Coming",
-      "facts": "Mortgage rates have climbed in response to the escalating conflict in Iran, yet housing demand is defying the spike. Pending home sales rose to nearly 64,000 last month, up from just over 61,000 in the same period last year."
-    },
-    {
-      "title": "Record-Breaking Sale Sees 49ers Minority Owner Buy Seattle Seahawks",
-      "facts": "A group led by Niners limited partner Vinod Khosla has agreed to purchase the Seattle Seahawks for $9.612 billion, sources tell ESPN\u2014making it the most expensive sports franchise sale in history. The price tag shatters previous records and underscores just how valuable NFL ownership has become."
-    },
-    {
-      "title": "Warriors Add Vogel as Kerr's Top Assistant",
-      "facts": "The Warriors are bringing in Frank Vogel as their new associate head coach, filling the hole left by Terry Stotts' departure. Vogel will work directly under Steve Kerr, adding another experienced voice to Golden State's coaching staff."
-    },
-    {
-      "title": "Claude Cowork's Real Sweet Spot: The Work You're Relieved to Offload",
-      "facts": "Anthropic's letting slip what Claude Cowork is actually being used for in the wild, and it's not the flashy autonomous projects you'd expect. The real action is in what they're calling \"mundane office work nobody wants to own\"\u2014the spreadsheet reconciliations, the invoice chasing, the data entry that sits in everyone's queue until Friday afternoon panic sets in."
-    }
-  ],
   "2026-07-14": [
     {
       "title": "Yemen's Houthi Strikes Spread to Saudi Arabia",
@@ -611,6 +561,68 @@
     {
       "title": "Claude Can Now Screen-Record Its Way to Expertise",
       "facts": "Anthropic just shipped something that changes how you train Claude on complex workflows: the AI can now watch a screen recording of you doing a task\u2014navigating software, processing documents, whatever\u2014and learn the entire process from the video. This isn't about transcribing what you say or reading static screenshots; Claude's analyzing the full motion, clicks, navigation patterns, and context switches in real time."
+    }
+  ],
+  "2026-07-24": [
+    {
+      "title": "Venezuela Earthquakes Expose Deadly Class Divide",
+      "facts": "Venezuela's recent earthquakes killed both rich and poor\u2014but they didn't die the same way, and that's telling us something grim about Latin America's wealth gap. The tremors exposed how deep-seated inequality shapes even natural disasters, with the poor living in structures that collapsed while wealthier neighborhoods fared better."
+    },
+    {
+      "title": "India's Gen Z Protesters Bypass Modi's Media Machine",
+      "facts": "Prime Minister Narendra Modi spent years carefully crafting his public image through tight media control\u2014but India's young protesters are punching holes in that narrative, one smartphone video at a time. A Gen Z-led protest movement is using social media, memes, and viral clips to seize control of the digital conversation in ways traditional Indian media can't suppress or spin."
+    },
+    {
+      "title": "Merck Opens Door to $5 HIV Prevention Pills in Global Push",
+      "facts": "Merck just announced a licensing deal that could bring a breakthrough HIV prevention pill to some of the world's hardest-hit regions for as little as $5 per person per year. The pharmaceutical giant is letting companies in Africa and India manufacture generic versions of the drug, which represents a major step forward in the fight against new infections."
+    },
+    {
+      "title": "States Brace for Federal Interference in Midterm Elections",
+      "facts": "Top election officials and law enforcement leaders in several states are quietly ramping up preparations for what they fear could be federal interference in this year's midterm elections. Democrats overseeing state election systems say they're drafting contingency plans and reviewing legal options in case the Trump administration attempts to insert itself into vote counting or certification processes."
+    },
+    {
+      "title": "Trump Launches New Global Tariff System After Court Defeat",
+      "facts": "President Trump rolled out a complicated new tariff framework targeting over 80 countries, resurrecting his trade war just weeks after the Supreme Court struck down his original levies. The administration announced duties of around 10 percent on dozens of nations, citing imports of goods made with forced labor as justification."
+    },
+    {
+      "title": "Defense Contractor Warns UK Unprepared for Conflict",
+      "facts": "Britain is dangerously complacent about the threat of war, according to the head of Europe's largest defense company. Dr."
+    },
+    {
+      "title": "Middle East Tensions Drive Up Mortgage Costs Across UK",
+      "facts": "Renewed fighting in the Middle East is hitting British homebuyers where it hurts\u2014mortgage rates just climbed to their highest level in a month. The connection isn't obvious at first, but geopolitical turmoil has spooked bond markets, driving up the costs that lenders themselves face to borrow money."
+    },
+    {
+      "title": "Verizon Shares Jump on Subscriber Beat",
+      "facts": "Verizon's stock climbed today after the wireless carrier beat Wall Street's subscriber expectations\u2014and it did so while pulling back on the deep discounts that had been eating into profits. The company's quarterly earnings showed it's adding customers without having to resort to the aggressive promotional warfare that's turned the telecom sector into what analysts had been calling a \"hunting ground\" for bargain shoppers."
+    },
+    {
+      "title": "S&P 500 Dip Signals Buying Opportunity",
+      "facts": "The S&P 500 has slipped below its fifty-day moving average, and some seasoned market watchers say that's actually good news for investors willing to act. Yardeni Research and Fundstrat are both calling this a classic buying opportunity, the kind of technical setup that's historically preceded strong rebounds."
+    },
+    {
+      "title": "Manhattan Office Market Defies Predictions With Tenant Scramble",
+      "facts": "SL Green just boosted its full-year earnings forecast by more than 26 percent, and it's a sign that Manhattan's office market has turned a corner in a way few predicted. The city's biggest office landlord raised guidance by a dollar-twenty per share, driven largely by what's happening on the ground: tenants are fighting for space in the best buildings."
+    },
+    {
+      "title": "Klopp Takes Over German National Team After World Cup Disappointment",
+      "facts": "J\u00fcrgen Klopp is Germany's new national team coach, taking the reins after a disastrous World Cup campaign that cost Julian Nagelsmann his job. The appointment marks a dramatic shift for German football, which is looking to rebuild following its poorest showing on the world stage in years."
+    },
+    {
+      "title": "Barcelona Signs German Forward Adeyemi From Dortmund",
+      "facts": "Barcelona have landed Karim Adeyemi, bringing the German forward over from Borussia Dortmund in what looks like a major offensive addition. The club hasn't disclosed financial details, but Adeyemi's move signals Barcelona's intent to reload their attack after a season that saw them fall short of their own ambitions."
+    },
+    {
+      "title": "Stephen Curry Gets His Own Hall of Fame Exhibit While Still Playing",
+      "facts": "Stephen Curry's making history again\u2014this time off the court. The Warriors star is becoming the first active player to get his own exhibit at the Naismith Basketball Hall of Fame, and it opens to the public Friday."
+    },
+    {
+      "title": "Jordan Walsh Locks In Long-Term Deal With the Celtics",
+      "facts": "Jordan Walsh isn't going anywhere. The Celtics forward just agreed to a three-year, $15 million contract extension that'll keep him in Boston through the 2029-30 season."
+    },
+    {
+      "title": "Claude Security Plugin Brings Multi-Agent Vulnerability Scanning to Your Terminal",
+      "facts": "Anthropic just shipped a security plugin for Claude Code that's built around a pattern most devs haven't seen yet: multi-agent collaboration running entirely in your local terminal. The plugin\u2014now in beta\u2014deploys several specialized Claude agents that work together to scan your codebase for vulnerabilities, with each agent handling a different layer of the security audit."
     }
   ]
 }
