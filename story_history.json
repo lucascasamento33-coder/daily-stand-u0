@@ -1,54 +1,4 @@
 {
-  "2026-07-14": [
-    {
-      "title": "Yemen's Houthi Strikes Spread to Saudi Arabia",
-      "facts": "Yemen's Houthi fighters launched missiles at Saudi Arabia, targeting Abha airport in retaliation for strikes on Sanaa's airport. The Iran-backed group blamed Saudi Arabia for the attack on Yemen's capital and struck back within hours."
-    },
-    {
-      "title": "Japan Launches First Centralized Intelligence Agency Since WWII",
-      "facts": "Japan is building a centralized intelligence agency for the first time since World War II, a sweeping shift driven by threats from Russia and China. Prime Minister Sanae Takaichi is leading the effort with help from Western allies who are advising on how to structure the new organization."
-    },
-    {
-      "title": "Supreme Court Justices Head to Capitol Seeking Security Funding",
-      "facts": "Elena Kagan and Amy Coney Barrett are making a rare trip to Capitol Hill Wednesday to ask Congress for millions more in security funding. They'll be the first justices to testify before lawmakers since 2019, and the timing's no accident\u2014threats against the court have escalated sharply in recent years."
-    },
-    {
-      "title": "Immigration Agent Kills Man in Maine Vehicle Shooting",
-      "facts": "A federal immigration agent shot and killed a man during an encounter in Biddeford, Maine Monday morning. The victim has been identified as Joan Sebastian Guerrero, who died in a vehicle during the confrontation with ICE."
-    },
-    {
-      "title": "Health Department Reverses $10 Billion Funding Freeze for Five States",
-      "facts": "The Department of Health and Human Services has backed down from a controversial decision to freeze $10 billion in funding for five Democratic-led states. The reversal came after the administration faced repeated legal setbacks in court challenges to the funding pause."
-    },
-    {
-      "title": "JPMorgan Delivers Biggest Profit Beat in Five Years",
-      "facts": "JPMorgan just posted its largest profit beat in half a decade, powered by a surge in revenue from equity trading. The bank's earnings smashed Wall Street's expectations, driven by a record-breaking quarter for overall revenue."
-    },
-    {
-      "title": "Bank of America Stock Drops Despite Earnings Beat",
-      "facts": "Bank of America's shares tumbled in pre-market trading even after the bank reported a fifteen percent jump in revenue compared to last year. The drop highlights a disconnect between strong financial performance and investor sentiment that's become increasingly common this earnings season."
-    },
-    {
-      "title": "California Leads Lawsuit to Block Paramount Warner Bros Merger",
-      "facts": "California and eleven other states are moving to block the proposed merger between Paramount and Warner Bros, setting up a major legal fight over media consolidation. The lawsuit comes from states where both studios have significant operations, with California home to both companies' headquarters."
-    },
-    {
-      "title": "City Hands NYPD Parking Lot to Land Trust for Affordable Housing",
-      "facts": "The Mamdani administration just awarded its first city-owned site to a community land trust, converting an NYPD parking lot in the East Village into 131 affordable apartments. The Cooper Square Committee, Housing Works, and Spatial Equity are partnering with This Land is Ours Community Land Trust to transform the police lot at 324 East 5th Street into housing, a senior center, and community space."
-    },
-    {
-      "title": "Walker Wins Home Run Derby in Dramatic Finish",
-      "facts": "Jordan Walker just claimed the 2026 Home Run Derby title in spectacular fashion, homering on his final six swings to overtake hometown favorite Kyle Schwarber. The Cardinals slugger's late surge made him the first player from St."
-    },
-    {
-      "title": "Lakers Acquire Walker Kessler in Trade",
-      "facts": "Walker Kessler is heading to the Los Angeles Lakers in a deal that cost the franchise both money and draft picks, giving the team a much-needed big man as it begins life without LeBron James. Kessler spoke to reporters after the trade and didn't mince words about his commitment."
-    },
-    {
-      "title": "Claude Speaks Different Values in Different Languages",
-      "facts": "Anthropic just published research showing that Claude doesn't hold the same values when you talk to it in different languages\u2014and the differences are bigger than you'd think. The company tested how Claude responds to ethical questions across languages like English, Spanish, Japanese, and Hindi, and found that the model's answers shift depending on which language you're using."
-    }
-  ],
   "2026-07-15": [
     {
       "title": "India Expels Bangladeshi Immigrants, Sparking Border Crisis",
@@ -623,6 +573,72 @@
     {
       "title": "Claude Security Plugin Brings Multi-Agent Vulnerability Scanning to Your Terminal",
       "facts": "Anthropic just shipped a security plugin for Claude Code that's built around a pattern most devs haven't seen yet: multi-agent collaboration running entirely in your local terminal. The plugin\u2014now in beta\u2014deploys several specialized Claude agents that work together to scan your codebase for vulnerabilities, with each agent handling a different layer of the security audit."
+    }
+  ],
+  "2026-07-25": [
+    {
+      "title": "Colombia's President-Elect Faces Questions Over Miami Past",
+      "facts": "Colombia's incoming president, who received Donald Trump's endorsement during the campaign, once represented accused drug traffickers and money launderers while living in Miami. The president-elect himself was investigated by U.S."
+    },
+    {
+      "title": "Russian Missiles Kill Ten at Kyiv Drone Exhibition",
+      "facts": "A Russian ballistic missile strike hit a drone exhibition near Kyiv in broad daylight, killing ten people including prominent members of Ukraine's defense industry. The event was showcasing Ukraine's growing domestic drone capabilities, which have become central to the country's war effort."
+    },
+    {
+      "title": "India's Education Minister Resigns After Weeks of Youth Protests",
+      "facts": "India's education minister, Dharmendra Pradhan, has resigned, handing student protesters their first major victory against Prime Minister Narendra Modi's government. The resignation comes after weeks of nationwide demonstrations in which young activists used irreverent humor, memes, and social media to mock the administration."
+    },
+    {
+      "title": "West Bank Violence Escalates With Six Dead in Shooting",
+      "facts": "Four Palestinians and two Israelis were killed in a shooting incident in the West Bank, with both sides offering conflicting accounts of what happened. Palestinians say villagers came under attack by settlers, while the Israeli military claims a Palestinian stole a weapon and opened fire on hikers."
+    },
+    {
+      "title": "Air Force One Rush Job Created Security Gaps and Cost Overruns",
+      "facts": "President Trump's push to speed up delivery of his new Air Force One has backfired in spectacular fashion, according to a New York Times investigation. The rushed timeline led to ballooning costs and dangerous compromises on security features that left the aircraft vulnerable."
+    },
+    {
+      "title": "Hawaii's Lieutenant Governor Indicted in Corruption Probe",
+      "facts": "Hawaii Lieutenant Governor Sylvia Luke was indicted Friday along with four others in a corruption investigation that's been unfolding for months. Luke had already taken a leave of absence while the inquiry was underway, signaling that charges were likely coming."
+    },
+    {
+      "title": "Oil Hits $100 as Tariffs Return to Reshape Global Trade",
+      "facts": "Oil just crossed $100 a barrel for the first time since the war in the Persian Gulf began\u2014and now the Trump administration is layering a fresh wave of tariffs on top of that shock. The president unveiled a complicated new tariff system this week after the Supreme Court struck down his original levies, targeting more than 80 countries with new rates."
+    },
+    {
+      "title": "Fed Decision Wednesday Shrouded in Uncertainty Under Warsh",
+      "facts": "Investors heading into this week's Federal Reserve decision are flying blind\u2014and that's exactly how Chair Kevin Warsh wants it. There's genuine uncertainty about whether Warsh will support a rate hike when the Fed announces its decision Wednesday, a sharp departure from the carefully telegraphed messaging the central bank relied on for years."
+    },
+    {
+      "title": "Trump Threatens EU Investigation Over Big Tech Fines",
+      "facts": "President Trump says he's going to investigate the European Union over its multibillion-dollar fines against American tech giants, and he wants those penalties \"entirely reversed.\" The EU has hit Google, Apple, Meta, and Amazon with massive antitrust and competition fines over the past several years, with some individual penalties running into the billions. Trump's vow this week marks a sharp escalation in transatlantic trade tensions, coming right as his administration rolls out new tariffs on dozens of countries."
+    },
+    {
+      "title": "Compass Absorbs Coldwell Banker Warburg in Major Brokerage Consolidation",
+      "facts": "Compass just swallowed one of New York's best-known residential brokerages. Coldwell Banker Warburg will now operate as Warburg at Compass, marking another step in Compass's aggressive expansion across the city's real estate market."
+    },
+    {
+      "title": "Foreclosure Spike Isn't the Crisis Some Are Claiming",
+      "facts": "Foreclosures jumped 21 percent recently, and predictably, some corners of the internet are sounding alarms about a coming housing crash. But the reality is a lot less dramatic\u2014and actually more reassuring if you own property."
+    },
+    {
+      "title": "Tony Romo Arrested on Suspicion of Impaired Driving",
+      "facts": "CBS NFL analyst Tony Romo has been arrested on suspicion of operating a vehicle while under the influence. The former Dallas Cowboys quarterback, who's become one of the network's most prominent voices in football broadcasting, now faces potential legal trouble that could affect his role covering games this season."
+    },
+    {
+      "title": "Juan Soto Exits With Calf Injury as Trade Deadline Looms",
+      "facts": "The Mets are holding their breath after star outfielder Juan Soto left Friday night's loss to the Dodgers with left calf soreness. He's scheduled for an MRI Saturday, and the timing couldn't be more precarious\u2014the team pulled him in the sixth inning just days before the August 3rd trade deadline."
+    },
+    {
+      "title": "LeBron James Joins 76ers in Stunning League Shakeup",
+      "facts": "LeBron James is taking his talents to Philadelphia, and he's calling it \"The Last Decision.\" The four-time NBA champion has agreed to a two-year, $8 million deal with the 76ers after seriously considering retirement, according to his agent Rich Paul. It's a fraction of what James could command on the open market, but the paycut signals he's chasing one more championship ring alongside another star."
+    },
+    {
+      "title": "Stephen Curry Gets His Own Hall of Fame Exhibit While Still Playing",
+      "facts": "Stephen Curry is about to break new ground at the Basketball Hall of Fame\u2014literally. The Warriors star becomes the first active player to receive his own permanent exhibit when it opens to the public Friday in Springfield, Massachusetts."
+    },
+    {
+      "title": "Anthropic Ships Claude Opus 5 With Cost-Capability Toggle",
+      "facts": "Anthropic just released Claude Opus 5, and the headline feature isn't raw power\u2014it's a toggle that lets you dial between cost and capability on the fly. The new model matches or beats Fable 5 across most benchmarks while running at roughly half the price, a pricing gap that's got enterprise customers paying attention."
     }
   ]
 }
