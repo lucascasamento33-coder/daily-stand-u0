@@ -1,58 +1,4 @@
 {
-  "2026-07-23": [
-    {
-      "title": "Ebola Outbreak Spreads Through Congolese Displacement Camps",
-      "facts": "A million people displaced by violence in Congo are now facing an Ebola outbreak with almost no resources to fight it. The virus is spreading through overcrowded camps in the epicenter of the outbreak, where clean water is scarce and conditions are dangerous."
-    },
-    {
-      "title": "Wildfires Claim Third Firefighter as France Orders Mass Evacuations",
-      "facts": "France has evacuated thousands of residents as wildfires continue burning across Europe, and the human cost just got higher\u2014a third firefighter has now died battling the blazes. The fires are part of a broader pattern hitting multiple countries on the continent, straining firefighting resources across national borders."
-    },
-    {
-      "title": "Russian Spy Flees Japan After Exposure in Aeroflot Office",
-      "facts": "A Russian military intelligence officer has fled Japan after being publicly identified as using the country's Aeroflot airline office in Tokyo as cover for espionage operations. The Times reported the officer's identity and activities, essentially blowing his cover and forcing him to leave the country."
-    },
-    {
-      "title": "Over 3,200 Israelis Storm Al-Aqsa Mosque Compound",
-      "facts": "More than 3,200 Israelis entered the Al-Aqsa Mosque compound in Jerusalem's Old City, accompanied by National Security Minister Ben-Gvir and far-right groups under heavy police protection. The incursion into one of Islam's holiest sites is the kind of event that can spark wider unrest across the region."
-    },
-    {
-      "title": "Minnesota Gunman Faces Life Sentence for Attacks on Lawmakers",
-      "facts": "The Minnesota man who shot state lawmakers in their homes last year is expected to be sentenced to life in prison. The attacks, which targeted legislators at their residences, shocked the state and raised urgent questions about political violence and security for elected officials."
-    },
-    {
-      "title": "Trump Unveils 50 Percent Tariffs on Canada as Trade War Escalates",
-      "facts": "The White House just announced that 50 percent tariffs on Canadian goods will take effect by August 19th, marking a dramatic escalation in a trade dispute that's now stretched well over a year. It's the most aggressive move yet in what's become an increasingly bitter economic standoff between Washington and Ottawa."
-    },
-    {
-      "title": "Oil Climbs Toward $100 as Houthis Strike Saudi Tankers in Red Sea",
-      "facts": "Oil prices surged past $98 a barrel Thursday after Houthi rebels claimed responsibility for attacks on Saudi Arabian tankers in the Red Sea. Brent crude jumped on fears that escalating attacks on shipping could tighten global supply and drive crude toward the $100 mark for the first time in months."
-    },
-    {
-      "title": "Google's AI Spending Spree Drains Cash as Costs Spiral",
-      "facts": "Google's burning through cash at a staggering rate, and artificial intelligence is the reason why. The tech giant said earlier this year it expects to spend as much as $190 billion on AI investments, a figure that's raising eyebrows even in an industry known for massive capital outlays."
-    },
-    {
-      "title": "Landlords Challenge Rent Freeze in Court",
-      "facts": "Six New York landlords have filed suit in state Supreme Court asking a judge to throw out last month's rent freeze for stabilized apartments and force the Rent Guidelines Board to authorize an increase instead. The petition argues the board's consideration of a freeze was a predetermined outcome and what they're calling a \"sham\" process."
-    },
-    {
-      "title": "JPMorgan Exits Third Avenue Tower in $425 Million Deal",
-      "facts": "Fisher Brothers is about to recapitalize one of its major Midtown office towers, and it comes with a hefty price tag. JPMorgan Asset Management is selling its 49 percent stake in 605 Third Avenue, the 43-story tower near Grand Central, at a valuation of $425 million."
-    },
-    {
-      "title": "Dolphins Lock Up Brooks With $51 Million Extension",
-      "facts": "The Dolphins just handed linebacker Jordyn Brooks one of the richest deals at his position. Miami and Brooks have agreed to a three-year, $51.3 million extension with $35 million guaranteed, his agent confirmed to ESPN."
-    },
-    {
-      "title": "Curry Gets His Own Hall of Fame Exhibit While Still Playing",
-      "facts": "Stephen Curry's making history before he's even retired. The Warriors star becomes the first active player to get his own exhibit at the Naismith Basketball Hall of Fame, opening to the public Friday."
-    },
-    {
-      "title": "Claude Can Now Screen-Record Its Way to Expertise",
-      "facts": "Anthropic just shipped something that changes how you train Claude on complex workflows: the AI can now watch a screen recording of you doing a task\u2014navigating software, processing documents, whatever\u2014and learn the entire process from the video. This isn't about transcribing what you say or reading static screenshots; Claude's analyzing the full motion, clicks, navigation patterns, and context switches in real time."
-    }
-  ],
   "2026-07-24": [
     {
       "title": "Venezuela Earthquakes Expose Deadly Class Divide",
@@ -357,6 +303,68 @@
     {
       "title": "CLAUDE.md Best Practices Straight From Anthropic's Engineering Team",
       "facts": "Anthropic just published internal guidance on how their own engineers write CLAUDE.md files\u2014and it's probably not what you're doing. The company released a detailed breakdown showing that the most effective context files are way shorter and more focused than the sprawling documents most developers are creating."
+    }
+  ],
+  "2026-08-03": [
+    {
+      "title": "Former Honduras President Faces New Charges After Trump Pardon",
+      "facts": "Juan Orlando Hern\u00e1ndez is out of an American prison but straight into legal trouble at home. The former president of Honduras now faces fraud and money laundering charges in his own country, just weeks after President Trump's surprise pardon wiped out his U.S."
+    },
+    {
+      "title": "Two Firefighting Helicopters Collide Over Greek Wildfires",
+      "facts": "Two firefighting helicopters crashed into each other while battling a wildfire northwest of Athens, killing both crew members aboard. The collision happened as Greece continues to fight more than 200 fires that have erupted across the country over the past week."
+    },
+    {
+      "title": "U.S. and Japan Intervene to Support Yen in Rare Joint Action",
+      "facts": "The United States and Japan just carried out a rare joint intervention in currency markets to prop up the yen, marking an unusual level of coordination between the two allies. Both governments said they're prepared to step in again if needed."
+    },
+    {
+      "title": "Israel Escalates Gaza Attacks Despite Trump Peace Push",
+      "facts": "Israel is ramping up military operations in Gaza and pushing hardline demands in negotiations, directly challenging the peace roadmap backed by President Trump. The escalation comes even as the White House has been trying to broker a deal between Israel and Palestinian factions."
+    },
+    {
+      "title": "Spokane Wildfires Mark City's Largest Natural Disaster",
+      "facts": "Wildfires tearing through Spokane have destroyed hundreds of buildings and forced thousands to evacuate in what officials are calling the largest natural disaster in the city's history. The scale of destruction is unprecedented for the Washington community, with entire neighborhoods reduced to ash as flames spread rapidly over the weekend."
+    },
+    {
+      "title": "Idaho In-N-Out Shooting Leaves Multiple Injured",
+      "facts": "A gunman opened fire at an In-N-Out restaurant in Idaho over the weekend, with authorities now confirming the 24-year-old shooter acted alone. An off-duty state trooper and a private citizen returned fire during the attack, and investigators credit them with stopping the gunman from inflicting even more casualties."
+    },
+    {
+      "title": "Attorney General Nominee Faces Senate Holdup Over IRS Deal",
+      "facts": "Todd Blanche's confirmation as attorney general has stalled in the Senate over a highly unusual IRS arrangement involving President Trump. Republican senators are demanding written assurances about a planned $1.8 billion fund that would benefit Trump allies, as well as provisions granting the president immunity from tax scrutiny."
+    },
+    {
+      "title": "Oil Prices Tumble as Trump Backs Away From Iran Strike",
+      "facts": "Oil prices dropped to a three-week low on Monday after President Trump called off a planned military attack, raising hopes that the conflict with Iran might be cooling down. The sharp decline marks a significant reversal from recent weeks, when crude had been climbing steadily amid fears of supply disruptions in the Persian Gulf."
+    },
+    {
+      "title": "Companies Struggle to Measure Returns on Massive A.I. Investments",
+      "facts": "A new field called \"tokenomics\" has emerged as companies scramble to figure out whether their massive spending on artificial intelligence is actually paying off. Businesses have poured billions into A.I."
+    },
+    {
+      "title": "Tech Stock Selloff Levels the Playing Field",
+      "facts": "The market gap that's defined investing for years just closed in dramatic fashion. Goldman Sachs says big technology stocks have taken such a beating that they're no longer trading at the premium they've commanded over the rest of the market."
+    },
+    {
+      "title": "Housing Market Holds Strong Despite Rising Rates",
+      "facts": "Pending home sales climbed last week even as mortgage rates pushed higher, defying predictions that rising borrowing costs would freeze the market. Weekly pending sales hit 69,109 as the 10-year Treasury yield reached 4.74%, a combination that conventional wisdom says shouldn't happen together."
+    },
+    {
+      "title": "Congress Passes Housing Law to Cut Red Tape",
+      "facts": "Congress just enacted the 21st Century ROAD to Housing Act, aimed at slashing regulatory barriers that have kept housing supply tight across the country. The law pushes states and cities to reform local zoning rules that block new construction, and it adds financial tools to make multifamily development deals pencil out in more places."
+    },
+    {
+      "title": "Dodgers Land Skubal in Blockbuster Trade",
+      "facts": "The Dodgers just pulled off another jaw-dropping move, acquiring Tigers ace Tarik Skubal in a deal that's got the rest of baseball furious. Skubal, a two-time Cy Young winner, spent his final days in Detroit trying to keep things normal while trade rumors swirled around him."
+    },
+    {
+      "title": "Mavericks Lock Up Marshall With $52 Million Extension",
+      "facts": "Naji Marshall just secured a significant payday in Dallas. The Mavericks forward has signed a three-year extension worth $52.2 million that'll keep him in a Dallas uniform through the 2029-30 season."
+    },
+    {
+      "title": "Claude Breached Three Companies in Safety Tests\u2014and the Misconfiguration That Led to Chinese Data Harvesting",
+      "facts": "Anthropic just disclosed that Claude successfully hacked three real companies during internal safety testing\u2014penetrating actual corporate networks to assess how capable the AI models have become at offensive cybersecurity. The tests were conducted with the companies' permission as part of Anthropic's effort to benchmark and red-team Claude's ability to identify and exploit vulnerabilities before releasing new versions."
     }
   ]
 }
