@@ -458,5 +458,67 @@
       "title": "Anthropic Builds Custom Chip Team to Power Claude",
       "facts": "Anthropic's going vertical in a big way\u2014the company behind Claude just announced it's assembling a team to design its own custom hardware from scratch. This puts them on the same path as Google, Amazon, and Meta, all of which have moved away from relying solely on Nvidia chips to power their AI models."
     }
+  ],
+  "2026-08-08": [
+    {
+      "title": "Spain and Italy Clash Over Migration as Border Controls Return",
+      "facts": "Spain's just imposed border controls on travelers from Italy\u2014a rare and tense move between two EU neighbors that signals how badly the migration crisis is straining European unity. The trigger is an influx of roughly 78,000 migrants who crossed from Morocco into Ceuta, the tiny Spanish exclave on Africa's northern coast."
+    },
+    {
+      "title": "Thailand Promises Gun Control After Eighth Mass Shooting Kills Eight",
+      "facts": "Thailand's prime minister has pledged to introduce stricter gun laws after a 14-year-old boy opened fire at his home and school, killing eight people before turning the gun on himself. The rampage on Friday is just the latest in a troubling series of mass shootings that's earned Thailand an unwanted reputation for gun violence in a region where such attacks used to be rare."
+    },
+    {
+      "title": "Senate Passes Stopgap Funding Bill More Than a Month Early",
+      "facts": "Congress just wrapped up its budget homework way ahead of schedule\u2014and that's telling you something about the political calendar. The Senate passed a stopgap spending bill to keep the government funded, even though the actual deadline isn't for more than a month."
+    },
+    {
+      "title": "White House Pushes for Haitian Deportations After Supreme Court Ruling",
+      "facts": "President Trump's allies are ramping up pressure on his administration to begin aggressive deportations of Haitians, and the frustration is coming from his own base. The Supreme Court recently ruled in favor of the White House on the Temporary Protected Status program, clearing a legal path to remove Haitians who had been living in the U.S."
+    },
+    {
+      "title": "Michigan Democrats Try to Unite After Bruising Senate Primary",
+      "facts": "Michigan Democrats are working overtime to patch things up after a Senate primary that got ugly fast. Dr."
+    },
+    {
+      "title": "Jobs Report Misses Expectations as Summer Hiring Stalls",
+      "facts": "America's jobs engine sputtered in July, catching economists off guard. Employers cut 23,000 positions last month, a surprise reversal after analysts had predicted hiring would tick upward."
+    },
+    {
+      "title": "White House Slaps Tariffs on Polysilicon in Tech Supply Chain Shakeup",
+      "facts": "The Trump administration just threw a wrench into the global supply chain for semiconductors and solar panels. New tariffs are going into effect on polysilicon, a critical raw material used in everything from computer chips to solar cells, and the White House is also setting a minimum import price for the substance."
+    },
+    {
+      "title": "Meta Hit With Record $567 Million Child Safety Fine",
+      "facts": "Meta just absorbed the largest child safety penalty ever levied against a social media company. A court ordered the tech giant to pay $567 million over violations related to protecting minors on its platforms, and that's on top of $375 million in fines already imposed in the same case."
+    },
+    {
+      "title": "Nvidia Powers Best Week in Over a Year on AI Demand Surge",
+      "facts": "Nvidia just wrapped its biggest weekly rally in more than a year, and the numbers tell the story of AI's grip on Wall Street. The chipmaker posted its largest-ever weekly increase in market capitalization, sending shares sharply higher as investors doubled down on artificial intelligence infrastructure."
+    },
+    {
+      "title": "July Jobs Report Clouds Fed's September Rate Decision",
+      "facts": "July's jobs numbers came in weak enough to make the Fed's next move a lot less certain. Payrolls fell by 23,000 last month, and revisions wiped out another 103,000 jobs that economists thought had been created earlier in the year."
+    },
+    {
+      "title": "Fitch Downgrades United Wholesale Mortgage After Loss and Leverage Spike",
+      "facts": "United Wholesale Mortgage just took a credit hit that signals trouble in the lending world. Fitch Ratings downgraded UWM's long-term issuer rating to B-plus from double-B-minus, citing a sharp increase in leverage after the company posted second-quarter losses and took on higher borrowings."
+    },
+    {
+      "title": "Arsenal Land Bruno Guimar\u00e3es in Major Midfield Coup",
+      "facts": "Arsenal have pulled off one of the summer's biggest signings, bringing in Bruno Guimar\u00e3es from Newcastle United. The club confirmed the deal Friday, landing a midfielder who's been central to Newcastle's resurgence over the past few seasons."
+    },
+    {
+      "title": "Grizzlies Forward Brandon Clarke Dies from Drug Overdose",
+      "facts": "Memphis Grizzlies forward Brandon Clarke died from a combination of heroin and cocaine, according to the Los Angeles County medical examiner's office. The ruling, announced Friday, confirms the cause of death as \"the effects of heroin and cocaine.\" Clarke's death marks a devastating loss for the Grizzlies organization and the broader NBA community."
+    },
+    {
+      "title": "Jaylen Brown Traded to Philadelphia 76ers",
+      "facts": "Jaylen Brown is now a member of the Philadelphia 76ers after a trade that caught him off guard. Brown said Friday he was disappointed with how the Celtics communicated with him before shipping him out of Boston."
+    },
+    {
+      "title": "Claude Sessions Can Now Talk to Each Other\u2014Here's the Power Pattern You're Missing",
+      "facts": "Anthropic just shipped inter-session communication for Claude Code on macOS and Linux, and the non-obvious unlock isn't just that your AI sessions can pass data to each other\u2014it's that you can now build persistent, asynchronous workflows where one session monitors a trigger and spins up specialized subagent sessions on demand, each with its own context and tooling, without ever hitting token limits or losing state. Think of it as a dispatcher pattern: your main session stays light, watching a Gmail label or a Buildium webhook, and when a new lease PDF drops, it spawns a dedicated session with the lease-analysis skill, the Files API preloaded with your standard clauses, and a tight prompt scope\u2014then that session does its work, writes results to a shared JSON file or database, and terminates, freeing up resources."
+    }
   ]
 }
