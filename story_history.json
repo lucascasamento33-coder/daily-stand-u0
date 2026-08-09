@@ -520,5 +520,59 @@
       "title": "Claude Sessions Can Now Talk to Each Other\u2014Here's the Power Pattern You're Missing",
       "facts": "Anthropic just shipped inter-session communication for Claude Code on macOS and Linux, and the non-obvious unlock isn't just that your AI sessions can pass data to each other\u2014it's that you can now build persistent, asynchronous workflows where one session monitors a trigger and spins up specialized subagent sessions on demand, each with its own context and tooling, without ever hitting token limits or losing state. Think of it as a dispatcher pattern: your main session stays light, watching a Gmail label or a Buildium webhook, and when a new lease PDF drops, it spawns a dedicated session with the lease-analysis skill, the Files API preloaded with your standard clauses, and a tight prompt scope\u2014then that session does its work, writes results to a shared JSON file or database, and terminates, freeing up resources."
     }
+  ],
+  "2026-08-09": [
+    {
+      "title": "Daniel Kinahan's High-Security Return to Ireland",
+      "facts": "One of the world's most wanted crime bosses is heading back to Ireland under extraordinary security. Daniel Kinahan, the 49-year-old suspected leader of a transnational drug trafficking organization, is being extradited from Dubai after years on the run."
+    },
+    {
+      "title": "Iran's Demands Keep Hormuz Closed",
+      "facts": "Iran's throwing cold water on hopes that the Strait of Hormuz might reopen soon. The head of Iran's Supreme National Security Council just issued a list of conditions that must be met before Tehran will allow ships through the strait again, and the demands suggest this standoff isn't ending anytime soon."
+    },
+    {
+      "title": "Trump Crypto Venture Took $100 Million From Investor With Murky Past",
+      "facts": "President Trump's cryptocurrency business accepted a hundred million dollars from an investor whose background is raising serious red flags. The investor, Guren \"Bobby\" Zhou, funneled the money into the Trump crypto operation despite what sources describe as a shady business history and unclear motivations."
+    },
+    {
+      "title": "Moderate Democrat Holds Off Progressive Challenge in Hawaii",
+      "facts": "Hawaii's Ed Case just beat back a primary challenge from a younger progressive, holding onto his House seat in a race that became a referendum on generational change. Case defeated Jarrett Keohokalole in a contest that centered on Hawaii's skyrocketing cost of living and whether new leadership was needed."
+    },
+    {
+      "title": "Poll Shows Voters See Parties as More Extreme Than Their Own Candidates",
+      "facts": "Voters in battleground states think the national parties have gone too far left or right, but they view the actual candidates on their ballots as more moderate, according to a new poll. The New York Times and Siena College survey found a striking gap between how voters perceive the Democratic and Republican parties versus how they see individual nominees."
+    },
+    {
+      "title": "European Stocks Surge on Strong Earnings",
+      "facts": "European markets are shaking off the gloom from Iran tensions, with investors piling back in as companies deliver earnings that blew past expectations. The Stoxx Europe 600 is on track for a 22% jump in second-quarter profits\u2014a major reversal after weeks of war jitters kept money on the sidelines."
+    },
+    {
+      "title": "Fictional Nigerian Agency Sneaks Into National Budget",
+      "facts": "Nigeria's government just discovered it had been funding an agency that doesn't exist. A made-up investment council\u2014complete with an alleged director\u2014was allocated money in the national budget and its supposed head even met with top officials before anyone caught on."
+    },
+    {
+      "title": "Tech Investors Eye World Cup Ownership",
+      "facts": "Football might seem immune to disruption, but tech investors clearly think otherwise\u2014they just tried to buy a stake in the World Cup itself. The proposal has now been shelved, but the fact that it got as far as it did tells you everything about where Silicon Valley sees opportunity."
+    },
+    {
+      "title": "Jobs Report Softens, Complicating Fed's Rate Decision",
+      "facts": "July's employment numbers just threw a wrench into the Federal Reserve's plans. Payrolls fell by 23,000 last month, and revisions slashed another 103,000 jobs from earlier reports."
+    },
+    {
+      "title": "Arsenal Splashes \u00a375 Million on Bruno Guimar\u00e3es",
+      "facts": "Arsenal just made one of the biggest moves of the summer transfer window, spending \u00a375 million to pry Bruno Guimar\u00e3es away from Newcastle United. The 28-year-old midfielder becomes one of the Gunners' most expensive signings ever, joining a squad that's already loaded with talent in the middle of the park."
+    },
+    {
+      "title": "Lionel Messi's Father Jorge Dies at 68",
+      "facts": "Jorge Messi, the father of Argentina star Lionel Messi, died Saturday at a hospital in Rosario, Argentina. He was 68."
+    },
+    {
+      "title": "Brandon Clarke's Death Ruled Drug Overdose",
+      "facts": "Memphis Grizzlies forward Brandon Clarke died from a combination of heroin and cocaine, according to the Los Angeles County medical examiner's office. The coroner's announcement puts an official cause to a death that's shocked the NBA community."
+    },
+    {
+      "title": "Auto Mode Becomes the Default in Claude Code",
+      "facts": "Anthropic's flipping Claude Code to Auto Mode by default, and the reason is blunt: humans approve things they shouldn't. The change means Claude will execute multi-step coding tasks without asking permission at each turn\u2014unless you specifically opt out."
+    }
   ]
 }
