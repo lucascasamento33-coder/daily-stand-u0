@@ -574,5 +574,55 @@
       "title": "Auto Mode Becomes the Default in Claude Code",
       "facts": "Anthropic's flipping Claude Code to Auto Mode by default, and the reason is blunt: humans approve things they shouldn't. The change means Claude will execute multi-step coding tasks without asking permission at each turn\u2014unless you specifically opt out."
     }
+  ],
+  "2026-08-10": [
+    {
+      "title": "U.S. Airstrikes Pummel Southern Iran as Conflict Intensifies",
+      "facts": "Near-constant American bombing has turned southern Iran into the war's new hotspot, even as fighting elsewhere in the country winds down. Qeshm island and surrounding areas in Iran's south are bearing the brunt of U.S."
+    },
+    {
+      "title": "Taiwan Tests Public Resilience With Simulated Chinese Attack",
+      "facts": "Taiwan just ran the public through a 30-minute drill simulating what would happen if China actually launched an attack on the island. The exercise was designed to test and build the population's ability to respond to a real crisis, from air raid warnings to infrastructure disruptions."
+    },
+    {
+      "title": "Lake Mead Hits Record Low as Western Water Crisis Deepens",
+      "facts": "Lake Mead has dropped to its lowest level ever recorded, and the consequences stretch far beyond the reservoir itself. Water levels behind the Hoover Dam have fallen so low that they're now threatening the twin pillars of the modern West: reliable drinking water and electricity."
+    },
+    {
+      "title": "U.S. Labor Market Cooling Opens Door for Fed Rate Cuts",
+      "facts": "The U.S. economy is shedding jobs, and Wall Street's actually celebrating."
+    },
+    {
+      "title": "JPMorgan Lifts S&P 500 Target to 8,000 on Economic Outlook",
+      "facts": "Wall Street's biggest bank just raised its bet on how high stocks can climb this year. JPMorgan lifted its year-end price target for the S&P 500 from 7,800 to 8,000, a sign that analysts think the rally still has room to run."
+    },
+    {
+      "title": "U.K. Government Bans Subscription Traps Three Months Early",
+      "facts": "Britain's cracking down on subscription traps, and it's happening sooner than expected. The prime minister announced the ban will take effect three months ahead of schedule as part of a broader push to ease the cost of living for households across the country."
+    },
+    {
+      "title": "NYC Homeowners Challenge Pied-\u00e0-Terre Tax Rollout in New Lawsuit",
+      "facts": "New York City homeowners filed suit against the city and Mayor Zohran Mamdani on Friday, and they're not challenging the pied-\u00e0-terre tax itself\u2014they're challenging how it was imposed. The lawsuit argues that the rollout swept thousands of primary residences into a surcharge that was supposed to target only high-value second homes and investment properties."
+    },
+    {
+      "title": "Mortgage Spreads Hold Steady, Keeping Housing Demand Afloat",
+      "facts": "Mortgage spreads are sitting at 2.01 percent right now, and that's quietly propping up the housing market heading into next year. Those spreads\u2014the gap between what lenders charge borrowers and the underlying Treasury rate\u2014are keeping projected mortgage rates for 2026 near 6.74 percent, according to new data."
+    },
+    {
+      "title": "Three Major Football Bodies Accuse FIFA of Fundamental Breach of Trust",
+      "facts": "UEFA, Concacaf, and the Asian Football Confederation have accused FIFA of a \"fundamental breach of trust\" over its handling of plans to sell a stake in the World Cup. The three confederations issued a joint statement slamming the global governing body for what they call deception in the process."
+    },
+    {
+      "title": "Athletics Shortstop Sets MLB Record with 111 Consecutive Errorless Games",
+      "facts": "Jacob Wilson just made baseball history at Fenway Park. The 24-year-old Athletics shortstop played his 111th consecutive game without an error on Sunday, breaking a record that stood for more than two decades."
+    },
+    {
+      "title": "NBA Coaching Legend Don Nelson Dies at 86",
+      "facts": "Don Nelson, the second-winningest coach in NBA history, has died at 86. Nelson passed away on Sunday, closing the book on one of basketball's most innovative and successful careers."
+    },
+    {
+      "title": "Claude Code Goes Full Autopilot",
+      "facts": "Anthropic just flipped a major switch in Claude Code\u2014auto mode is now the default setting, which means Claude will approve and execute most of its own actions without stopping to ask you first. The change, rolling out now, fundamentally shifts how developers interact with the AI coding assistant."
+    }
   ]
 }
