@@ -1,58 +1,4 @@
 {
-  "2026-08-02": [
-    {
-      "title": "Venezuela's Coast Devastated More Than a Month After Earthquakes",
-      "facts": "More than a month has passed since earthquakes struck Venezuela, and the coastal region of La Guaira remains completely unrecognizable. The area, which once served as Venezuela's main gateway to the sea, has been transformed by the disaster."
-    },
-    {
-      "title": "Teenage Hitmen-for-Hire Operating Across Europe",
-      "facts": "A criminal network known as Foxtrot is recruiting teenagers to carry out contract killings across Europe, and investigators say the group has already been linked to around 35 murders. The network operates on what authorities are calling a \"violence-as-a-service\" model, essentially offering murder for hire to the highest bidder."
-    },
-    {
-      "title": "China's Surveillance of Foreigners Exposed Through Police Dashboard",
-      "facts": "An unsecured police dashboard in China has given the world a rare glimpse into how authorities track foreigners within the country's borders. The leaked system reveals that Chinese police are collecting and aggregating massive amounts of private data on foreign nationals."
-    },
-    {
-      "title": "Israeli Soldiers Sentenced to Military Prison Over Unauthorized Walkout",
-      "facts": "Fourteen Israeli soldiers have been sentenced to military prison after they led an unauthorized walkout from the Sde Teiman facility. The soldiers left their posts without permission, triggering a disciplinary response from military authorities."
-    },
-    {
-      "title": "Paul Weiss Caves to White House Pressure After Leading Trump Resistance",
-      "facts": "Paul Weiss, the powerhouse law firm that spent years leading the legal fight against Donald Trump, has abruptly reversed course and surrendered to White House pressure. The firm was a progressive stalwart for decades and spearheaded the legal resistance during Trump's first term."
-    },
-    {
-      "title": "Michigan Democrats Face Contentious Senate Primary Over Israel",
-      "facts": "Michigan's Democratic Senate primary has turned into one of the most closely-watched races in the country, shaped by deep divisions over Israel and a flood of high-profile endorsements. The contest pits a progressive former public health official against a more moderate member of Congress."
-    },
-    {
-      "title": "Britain Warns Ministries to Stick to Spending Limits Ahead of October Budget",
-      "facts": "The British government's tightening the screws on its own departments ahead of a major budget showdown. Prime Minister and Chancellor jointly issued a memo ordering ministers to stick to strict spending limits, signaling that October's budget won't be opening the taps for new programs or promises."
-    },
-    {
-      "title": "Tech Giants Rush to Rebrand as Cybersecurity Companies",
-      "facts": "The biggest names in tech are scrambling to position themselves as cybersecurity firms, and it's all because of AI. As artificial intelligence agents become more autonomous\u2014and more capable of breaking out of their intended guardrails\u2014companies like Microsoft, Google, and Amazon are racing to build security into the core of what they sell."
-    },
-    {
-      "title": "Apple's Profit Machine Built on One Simple Strategy",
-      "facts": "Tim Cook's legacy at Apple boils down to something deceptively simple: he kept the company focused. While competitors chased every new trend and diversified into dozens of businesses, Cook stuck to what Apple does best\u2014selling premium hardware and the software that runs on it."
-    },
-    {
-      "title": "Housing Market Shrugs Off Rate Spike as Sales Keep Climbing",
-      "facts": "The housing market just delivered a head-scratcher: mortgage rates jumped last week as the 10-year Treasury yield hit 4.74%, yet pending home sales actually climbed to 69,109. That's not what typically happens when borrowing costs rise."
-    },
-    {
-      "title": "Dodgers Land Tarik Skubal in Blockbuster Deadline Deal",
-      "facts": "The Los Angeles Dodgers just pulled off the biggest move of baseball's trade deadline, acquiring two-time Cy Young Award winner Tarik Skubal from the Detroit Tigers. The deal sends prospects Zyhir Hope, River Ryan, and Brady Smith to Detroit in exchange for the 29-year-old ace who's been dominant this season."
-    },
-    {
-      "title": "Warriors Bring Back Gary Payton II on Minimum Deal",
-      "facts": "The Warriors are reuniting with Gary Payton II, bringing the defensive specialist back to Golden State on a one-year veteran minimum contract worth $3.9 million, according to sources. Payton's return gives the Warriors a proven perimeter defender who's already familiar with the system and knows what it takes to win\u2014he was part of their 2022 championship squad."
-    },
-    {
-      "title": "CLAUDE.md Best Practices Straight From Anthropic's Engineering Team",
-      "facts": "Anthropic just published internal guidance on how their own engineers write CLAUDE.md files\u2014and it's probably not what you're doing. The company released a detailed breakdown showing that the most effective context files are way shorter and more focused than the sprawling documents most developers are creating."
-    }
-  ],
   "2026-08-03": [
     {
       "title": "Former Honduras President Faces New Charges After Trump Pardon",
@@ -623,6 +569,56 @@
     {
       "title": "Claude's Getting Invisible Watermarks\u2014And You Can't Turn Them Off",
       "facts": "Anthropic just announced that every piece of text and every image Claude generates will soon carry an invisible watermark\u2014and there's no opt-out. The company's rolling out the feature across all its models, embedding a cryptographic signature into outputs that's designed to survive copying, pasting, and even light editing."
+    }
+  ],
+  "2026-08-13": [
+    {
+      "title": "Congo Ebola Outbreak Now Deadliest on Record",
+      "facts": "The Ebola epidemic tearing through the Democratic Republic of Congo has crossed a grim threshold\u2014it's now the deadliest outbreak ever recorded. The World Health Organization confirmed that more than 2,000 people have died since the outbreak was declared on May 15th, with thousands more cases reported across the country."
+    },
+    {
+      "title": "China Reflects on Zhu Rongji's Legacy as Contrast to Xi's Rule",
+      "facts": "China's remembering Zhu Rongji, the former premier who steered the country into the global economy\u2014and the tributes are drawing some pointed contrasts with the current era. Zhu, who led China's government in the late 1990s and early 2000s, was known for speaking his mind and pushing reforms that integrated China into world commerce, including its entry into the World Trade Organization."
+    },
+    {
+      "title": "Justice Department Lets Key Gun Restrictions Expire",
+      "facts": "The Trump administration just allowed a cornerstone of America's oldest federal gun law to quietly lapse. The Justice Department stopped enforcing parts of the National Firearms Act, a Depression-era statute that's regulated certain weapons for nearly a century."
+    },
+    {
+      "title": "Three States Set to Execute Inmates on Same Day",
+      "facts": "Three states are scheduled to carry out executions on the same day, a rare convergence that's drawing attention from death penalty opponents. One of those executions is set for Tennessee, where officials are moving forward just months after calling off another inmate's execution when medical staff couldn't find a vein for the lethal injection."
+    },
+    {
+      "title": "Inflation Cools as Fed Weighs Next Move",
+      "facts": "July's inflation report just gave the Federal Reserve a little breathing room. The latest Consumer Price Index data came in softer than expected, reinforcing what many Fed officials have been arguing for weeks\u2014that there's no need to rush into another rate hike."
+    },
+    {
+      "title": "Hiring Slows as Employers Turn Cautious",
+      "facts": "The labor market's showing clear signs of fatigue. Employers pulled back on hiring last month, adding fewer jobs than economists expected and signaling a shift in sentiment about the economy's direction."
+    },
+    {
+      "title": "Lenovo Profits Surge on AI Boom",
+      "facts": "Lenovo just blew past earnings expectations, and artificial intelligence is the reason why. The Chinese tech giant reported profits that soared well above what analysts were forecasting, driven by booming demand for AI-ready computers, servers, and cloud services."
+    },
+    {
+      "title": "Price Cuts Surge Across U.S. Housing Market as Buyers Gain Ground",
+      "facts": "Home sellers are slashing prices at levels not seen since the beginning of 2025, signaling a real shift in who's got the upper hand in today's housing market. Nationally, price cuts are climbing close to early-year highs, a clear sign that sellers who priced aggressively are now facing reality."
+    },
+    {
+      "title": "Chelsea Sets Friday Deadline for Fern\u00e1ndez Sale",
+      "facts": "Chelsea's given the rest of Europe until Friday to meet their asking price for Enzo Fern\u00e1ndez\u2014and that price is a hefty \u00a3120 million. The club's set a hard deadline for any team interested in the Argentine midfielder, according to sources who spoke with ESPN."
+    },
+    {
+      "title": "Skenes Pulled Early Amid Velocity Concerns",
+      "facts": "Paul Skenes lasted just 65 pitches before the Pirates pulled him from Tuesday's loss to the Marlins, and it's the velocity drop that's got everyone worried. The reigning NL Cy Young Award winner has seen his fastball speed dip for the second time in recent outings, fueling speculation about whether he's nursing an injury the team hasn't disclosed."
+    },
+    {
+      "title": "Lakers Sold for Record $12.5 Billion",
+      "facts": "The Los Angeles Lakers have been sold for $12.5 billion to businessmen Josh Kushner and Bob Iger, sources told ESPN. That's a record-breaking price tag\u2014by far the highest ever paid for an NBA franchise."
+    },
+    {
+      "title": "Anthropic Launches Text Watermarking for Claude Output",
+      "facts": "Anthropic's just rolled out a watermarking system that can invisibly tag text generated by Claude\u2014and the timing couldn't be more deliberate. The company confirmed it's now embedding imperceptible markers into Claude's written outputs, allowing anyone with the right detection tool to verify whether a piece of text came from the AI or a human."
     }
   ]
 }
