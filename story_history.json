@@ -1,66 +1,4 @@
 {
-  "2026-08-03": [
-    {
-      "title": "Former Honduras President Faces New Charges After Trump Pardon",
-      "facts": "Juan Orlando Hern\u00e1ndez is out of an American prison but straight into legal trouble at home. The former president of Honduras now faces fraud and money laundering charges in his own country, just weeks after President Trump's surprise pardon wiped out his U.S."
-    },
-    {
-      "title": "Two Firefighting Helicopters Collide Over Greek Wildfires",
-      "facts": "Two firefighting helicopters crashed into each other while battling a wildfire northwest of Athens, killing both crew members aboard. The collision happened as Greece continues to fight more than 200 fires that have erupted across the country over the past week."
-    },
-    {
-      "title": "U.S. and Japan Intervene to Support Yen in Rare Joint Action",
-      "facts": "The United States and Japan just carried out a rare joint intervention in currency markets to prop up the yen, marking an unusual level of coordination between the two allies. Both governments said they're prepared to step in again if needed."
-    },
-    {
-      "title": "Israel Escalates Gaza Attacks Despite Trump Peace Push",
-      "facts": "Israel is ramping up military operations in Gaza and pushing hardline demands in negotiations, directly challenging the peace roadmap backed by President Trump. The escalation comes even as the White House has been trying to broker a deal between Israel and Palestinian factions."
-    },
-    {
-      "title": "Spokane Wildfires Mark City's Largest Natural Disaster",
-      "facts": "Wildfires tearing through Spokane have destroyed hundreds of buildings and forced thousands to evacuate in what officials are calling the largest natural disaster in the city's history. The scale of destruction is unprecedented for the Washington community, with entire neighborhoods reduced to ash as flames spread rapidly over the weekend."
-    },
-    {
-      "title": "Idaho In-N-Out Shooting Leaves Multiple Injured",
-      "facts": "A gunman opened fire at an In-N-Out restaurant in Idaho over the weekend, with authorities now confirming the 24-year-old shooter acted alone. An off-duty state trooper and a private citizen returned fire during the attack, and investigators credit them with stopping the gunman from inflicting even more casualties."
-    },
-    {
-      "title": "Attorney General Nominee Faces Senate Holdup Over IRS Deal",
-      "facts": "Todd Blanche's confirmation as attorney general has stalled in the Senate over a highly unusual IRS arrangement involving President Trump. Republican senators are demanding written assurances about a planned $1.8 billion fund that would benefit Trump allies, as well as provisions granting the president immunity from tax scrutiny."
-    },
-    {
-      "title": "Oil Prices Tumble as Trump Backs Away From Iran Strike",
-      "facts": "Oil prices dropped to a three-week low on Monday after President Trump called off a planned military attack, raising hopes that the conflict with Iran might be cooling down. The sharp decline marks a significant reversal from recent weeks, when crude had been climbing steadily amid fears of supply disruptions in the Persian Gulf."
-    },
-    {
-      "title": "Companies Struggle to Measure Returns on Massive A.I. Investments",
-      "facts": "A new field called \"tokenomics\" has emerged as companies scramble to figure out whether their massive spending on artificial intelligence is actually paying off. Businesses have poured billions into A.I."
-    },
-    {
-      "title": "Tech Stock Selloff Levels the Playing Field",
-      "facts": "The market gap that's defined investing for years just closed in dramatic fashion. Goldman Sachs says big technology stocks have taken such a beating that they're no longer trading at the premium they've commanded over the rest of the market."
-    },
-    {
-      "title": "Housing Market Holds Strong Despite Rising Rates",
-      "facts": "Pending home sales climbed last week even as mortgage rates pushed higher, defying predictions that rising borrowing costs would freeze the market. Weekly pending sales hit 69,109 as the 10-year Treasury yield reached 4.74%, a combination that conventional wisdom says shouldn't happen together."
-    },
-    {
-      "title": "Congress Passes Housing Law to Cut Red Tape",
-      "facts": "Congress just enacted the 21st Century ROAD to Housing Act, aimed at slashing regulatory barriers that have kept housing supply tight across the country. The law pushes states and cities to reform local zoning rules that block new construction, and it adds financial tools to make multifamily development deals pencil out in more places."
-    },
-    {
-      "title": "Dodgers Land Skubal in Blockbuster Trade",
-      "facts": "The Dodgers just pulled off another jaw-dropping move, acquiring Tigers ace Tarik Skubal in a deal that's got the rest of baseball furious. Skubal, a two-time Cy Young winner, spent his final days in Detroit trying to keep things normal while trade rumors swirled around him."
-    },
-    {
-      "title": "Mavericks Lock Up Marshall With $52 Million Extension",
-      "facts": "Naji Marshall just secured a significant payday in Dallas. The Mavericks forward has signed a three-year extension worth $52.2 million that'll keep him in a Dallas uniform through the 2029-30 season."
-    },
-    {
-      "title": "Claude Breached Three Companies in Safety Tests\u2014and the Misconfiguration That Led to Chinese Data Harvesting",
-      "facts": "Anthropic just disclosed that Claude successfully hacked three real companies during internal safety testing\u2014penetrating actual corporate networks to assess how capable the AI models have become at offensive cybersecurity. The tests were conducted with the companies' permission as part of Anthropic's effort to benchmark and red-team Claude's ability to identify and exploit vulnerabilities before releasing new versions."
-    }
-  ],
   "2026-08-04": [
     {
       "title": "Guatemala Volcano Erupts With Dramatic Lava Display",
@@ -619,6 +557,60 @@
     {
       "title": "Anthropic Launches Text Watermarking for Claude Output",
       "facts": "Anthropic's just rolled out a watermarking system that can invisibly tag text generated by Claude\u2014and the timing couldn't be more deliberate. The company confirmed it's now embedding imperceptible markers into Claude's written outputs, allowing anyone with the right detection tool to verify whether a piece of text came from the AI or a human."
+    }
+  ],
+  "2026-08-14": [
+    {
+      "title": "American Missionary Released After Months-Long Kidnapping in Niger",
+      "facts": "Kevin Rideout is free. The American pilot and missionary was abducted from his home in Niger's capital city, Niamey, last fall and held for months by his captors."
+    },
+    {
+      "title": "Ryanair Window Shattered by Engine Failure, Sucked Passenger Partially Out",
+      "facts": "A broken engine fan blade tore through a Ryanair jet's fuselage mid-flight, smashing a window and partially sucking a passenger's head out of the plane. That's according to a preliminary report from U.S."
+    },
+    {
+      "title": "Record Rainfall Kills Eight and Strands Thousands in Japan",
+      "facts": "Three months' worth of rain fell in just 12 hours east of Tokyo, and the result was catastrophic. At least eight people are dead and thousands more are stranded after what Japanese officials are calling unprecedented flooding in the region."
+    },
+    {
+      "title": "Pentagon Threatens Indefinite Naval Blockade of Iran",
+      "facts": "The U.S. is threatening to impose what it's calling an indefinite naval blockade against Iran, a dramatic escalation that raises serious questions about sustainability."
+    },
+    {
+      "title": "Trump Justice Department Drops Major Fraud Cases, Targets Food Truck Operators Instead",
+      "facts": "The Trump administration's Justice Department is shifting its enforcement strategy in a way that's raising eyebrows among prosecutors and legal experts. While dropping charges against corporations and wealthy defendants, the department is ramping up pursuit of small-scale fraud cases\u2014including going after the operator of a weathered food truck in California."
+    },
+    {
+      "title": "Rural Alaska's Energy Crisis Worsens as War in Iran Drives Diesel Prices Higher",
+      "facts": "Small Alaskan communities like Manley Hot Springs are facing an energy crisis that's threatening their survival. These remote towns and hamlets rely on diesel generators for electricity, and fuel prices have been soaring with no relief in sight\u2014made worse by the ongoing war in Iran disrupting global oil markets."
+    },
+    {
+      "title": "Reddit Joins the S&P 500",
+      "facts": "Reddit's about to join Wall Street's most exclusive club. The social media platform has been added to the S&P 500 index after months of speculation, and shares jumped in after-hours trading Thursday on the news."
+    },
+    {
+      "title": "China's Tariff Dodge Spans Dozens of Countries",
+      "facts": "China's found a workaround for Trump-era tariffs, and it's a big one. A new U.S."
+    },
+    {
+      "title": "South Korean Stock Market Whiplash Hammers Investors",
+      "facts": "South Korea's stock market just put traders through a brutal wringer, and the losses are piling up fast. Some investors say they've lost tens of thousands of dollars in a matter of weeks as the Korean market swung wildly through a sharp correction."
+    },
+    {
+      "title": "Tenant Groups Jump Into Court Battle Over NYC Rent Freeze",
+      "facts": "Two major tenant advocacy groups just filed legal papers to defend New York City's rent freeze\u2014and they're doing it because they don't trust the city to fight hard enough on its own. Tenants and Neighbors and the Metropolitan Council on Housing intervened Thursday in a lawsuit brought by landlords who want the freeze thrown out."
+    },
+    {
+      "title": "PSG Lands World Cup Hero Torres in $58 Million Deal",
+      "facts": "Paris Saint-Germain just pulled off one of the summer's biggest signings, landing Ferran Torres from Barcelona in a deal worth around $58 million. The European champions have been chasing the Spanish forward for weeks, and they've finally got their man."
+    },
+    {
+      "title": "Lakers Sold for Record $12.5 Billion",
+      "facts": "The Lakers have been sold for $12.5 billion\u2014the highest price ever paid for a sports franchise. Businessmen Josh Kushner and Bob Iger are buying the team, according to multiple sources."
+    },
+    {
+      "title": "Claude Code's Invisible Thinking Tax",
+      "facts": "Claude Code's newest extended thinking mode has a nasty surprise buried in it\u2014you're paying for reasoning tokens you can't even see. The Register just uncovered that when you invoke extended thinking, Claude is returning blank thinking blocks in the API response, but you're still being billed for every token it used internally to arrive at the answer."
     }
   ]
 }
