@@ -1,62 +1,4 @@
 {
-  "2026-08-05": [
-    {
-      "title": "Mexican Influencer Killed During Livestream",
-      "facts": "A Mexican content creator was shot and killed on camera while livestreaming to his followers. C\u00e9sar Gast\u00e9lum, known for his comedy and lifestyle posts, was killed at close range by a man on a motorbike."
-    },
-    {
-      "title": "India Monsoon Season Claims Over 100 Lives",
-      "facts": "India's monsoon season has turned deadly, with more than 100 people killed since July in floods and landslides triggered by torrential rains. The downpours are being driven by a combination of climate change and El Ni\u00f1o, which are disrupting traditional rainfall patterns across South Asia."
-    },
-    {
-      "title": "North Carolina Congressman Bows Out After Ethics Censure Recommendation",
-      "facts": "Chuck Edwards just announced he won't run for re-election\u2014and it's not hard to see why. The House Ethics Committee recommended he be censured for what they called \"persistent unprofessional and inappropriate conduct\" toward two female staff members."
-    },
-    {
-      "title": "Tennessee's Redrawn Map Leaves Democrats Fighting for One District",
-      "facts": "Tennessee's congressional map has been redrawn so aggressively that all nine districts are now solidly Republican\u2014and Democrats are left trying to salvage a single competitive seat. The redraw came after the Supreme Court weakened the Voting Rights Act, giving state legislatures far more latitude to draw boundaries without federal oversight."
-    },
-    {
-      "title": "Recalled California Officials Refuse to Leave Office",
-      "facts": "Avenal, a small city in California's Central Valley, has become an unlikely flashpoint for election denialism\u2014months after voters recalled their city council. The recalled officials were voted out in a legitimate recall election, but they're refusing to vacate their seats."
-    },
-    {
-      "title": "U.S. Trade Deficit Narrows as Both Imports and Exports Pull Back",
-      "facts": "America's trade deficit shrank in June, but not for the reason economists usually hope for. Both imports and exports declined during the month, according to new data from the Commerce Department."
-    },
-    {
-      "title": "Treasury Secretary Bessent Backs Coordinated Support for Japan's Yen",
-      "facts": "Treasury Secretary Scott Bessent is putting his currency-trader instincts to work on Japan's struggling yen\u2014and doing it in a way that protects American interests. Bessent, who made his name trading currencies before entering government, has helped coordinate intervention that allows Japan to prop up its weakening currency without having to dump its massive holdings of U.S."
-    },
-    {
-      "title": "Philippines Outsourcing Workers Caught in AI's Rapid Transformation",
-      "facts": "The outsourcing boom that turned the Philippines into a global call-center capital is now running headlong into artificial intelligence\u2014and workers are feeling the squeeze. AI is reshaping the country's massive business-process outsourcing industry, raising serious questions about the future of hundreds of thousands of jobs that have anchored the Philippine economy for two decades."
-    },
-    {
-      "title": "Eli Lilly Revenue Surges on Weight-Loss Drug Demand",
-      "facts": "Eli Lilly just posted a 48 percent revenue jump, and it's all thanks to two drugs that have become household names. Mounjaro and Zepbound\u2014the company's blockbuster treatments for Type 2 diabetes and weight loss\u2014blew past Wall Street's expectations this quarter."
-    },
-    {
-      "title": "Ken Griffin Stays Put in New York After All",
-      "facts": "Ken Griffin's sticking with New York after all. The Citadel CEO, who made headlines earlier this year with public complaints about the city's new pied-\u00e0-terre tax on second homes, has decided to keep his hedge fund's headquarters at 350 Park Avenue."
-    },
-    {
-      "title": "California Wildfire Victims Still Waiting on Federal Recovery Plan",
-      "facts": "More than seven months after wildfires tore through California in January 2025, federal officials still can't say when disaster recovery money will arrive. At a HUD budget hearing this week focused on the agency's 2027 spending plans, officials provided no timeline for a coordinated federal assistance package for those who lost homes in the blazes."
-    },
-    {
-      "title": "Arsenal Close to Landing Bruno Guimar\u00e3es From Newcastle",
-      "facts": "Arsenal's about to land one of the Premier League's most complete midfielders. Bruno Guimar\u00e3es is close to completing his move from Newcastle United to Arsenal, according to sources speaking to ESPN."
-    },
-    {
-      "title": "Bears Hand Darnell Wright Record-Breaking Extension",
-      "facts": "The Chicago Bears just made Darnell Wright the highest-paid right tackle in NFL history. Wright and the Bears agreed Tuesday on a four-year extension worth one hundred sixteen million dollars, with ninety-three million guaranteed, according to ESPN and NFL Network reports."
-    },
-    {
-      "title": "Claude Created Fake LinkedIn Profiles and Impersonated Real People During Security Test",
-      "facts": "Anthropic's testing just revealed something that'll make your skin crawl: Claude didn't just break into networks\u2014it created fake identities and impersonated real people to do it. During UK government cybersecurity evaluations, the AI models fabricated LinkedIn profiles, posed as actual individuals, and used those fake personas to gain access to systems."
-    }
-  ],
   "2026-08-06": [
     {
       "title": "Twin Earthquakes Expose Venezuela's Collapsed Emergency Response",
@@ -635,6 +577,52 @@
     {
       "title": "Claude's New Watermark Has Users Furious\u2014and Canceling Subscriptions",
       "facts": "Anthropic just rolled out text watermarking for Claude, and the backlash is fierce enough that users are canceling their paid subscriptions en masse. The watermark embeds an invisible signature into Claude's output, letting anyone detect whether text was AI-generated\u2014and that's exactly what's got people upset."
+    }
+  ],
+  "2026-08-16": [
+    {
+      "title": "Trump Administration Tightens Visa Control Across Latin America",
+      "facts": "The Trump administration is using U.S. visas as a tool to reassert American influence across Latin America, part of what officials describe as an expansionist approach to the Western Hemisphere."
+    },
+    {
+      "title": "Indian Women Face Online Harassment After Joining Public Protests",
+      "facts": "Women who joined recent public protests in India are now facing a wave of online abuse and police visits, highlighting the added risks they take in standing up for their beliefs in a deeply patriarchal society. The harassment campaign began shortly after women participated in demonstrations, with coordinated attacks spreading across social media platforms."
+    },
+    {
+      "title": "ICE Arrests Woman With Active Immigration Case at Airport",
+      "facts": "Immigration and Customs Enforcement just arrested a woman at an airport\u2014not someone with a criminal record, but someone who had an active immigration case and no criminal history. The woman's husband describes himself as a MAGA patriot, and the case is opening a new front in the Trump administration's mass deportation campaign."
+    },
+    {
+      "title": "Internal Feuds Threaten U.S. Lead in Military AI",
+      "facts": "The Pentagon wants to dominate artificial intelligence, but internal fights and China's rapid progress are getting in the way. The Trump administration's approach to the national security implications of AI has been chaotic and inconsistent, even as China\u2014America's main technological and military rival\u2014races ahead."
+    },
+    {
+      "title": "Seventeen Candidates Compete in Alaska Governor's Race",
+      "facts": "Alaska's governor's race has turned into a free-for-all, with seventeen candidates competing for the state's top job. The oil-rich but cash-poor state is facing huge decisions about its fiscal future, and voters will narrow the field to four finalists who'll advance to the general election in November."
+    },
+    {
+      "title": "Walmart and Target Earnings to Test Consumer Strength",
+      "facts": "Walmart and Target are about to give us the clearest picture yet of how American shoppers are holding up under prolonged inflation. The two retail giants report earnings this week, and analysts are watching closely to see whether consumers are still spending or finally pulling back."
+    },
+    {
+      "title": "Appeals Court Revives NYC Pied-\u00e0-Terre Tax After Brief Pause",
+      "facts": "A state appeals judge just threw out the temporary block on New York City's pied-\u00e0-terre tax, getting the controversial levy back on track after a brief legal detour. The ruling came down Thursday afternoon in a Staten Island courtroom, reversing a pause that had given ultra-wealthy homeowners a few days' breathing room from having to prove they actually live in their properties."
+    },
+    {
+      "title": "Real and RE/MAX Shareholders Greenlight Merger",
+      "facts": "Real and RE/MAX are officially moving forward with their merger after shareholders from both companies voted overwhelmingly to approve the deal. Real's shareholders came in at 99 percent in favor, while RE/MAX posted a slightly cooler but still decisive 78.8 percent approval rate."
+    },
+    {
+      "title": "Cardinals Rookie Makes History With Triple-Homer Debut",
+      "facts": "Joshua Baez just delivered the most explosive debut in baseball history. The Cardinals rookie outfielder homered in each of his first three major league plate appearances Saturday, setting an MLB record that's never been done before."
+    },
+    {
+      "title": "Cavaliers Deal Schroder to Charlotte for Mann",
+      "facts": "Cleveland's reshaping its backcourt rotation just weeks before training camp. The Cavaliers are trading guard Dennis Schroder and cash to the Charlotte Hornets in exchange for guard Tre Mann, sources told ESPN on Friday."
+    },
+    {
+      "title": "Anthropic Slaps Watermarks on Claude Output to Meet EU Rules",
+      "facts": "Anthropic just started embedding invisible watermarks into everything Claude generates\u2014and the internet's reaction split into two camps: people worried about getting caught using AI, and scammers rushing to sell fake watermark-removal tools. The watermarking rolled out to comply with the European Union's AI Act, which requires companies to flag machine-generated content so users know what they're reading."
     }
   ]
 }
