@@ -1,58 +1,4 @@
 {
-  "2026-08-06": [
-    {
-      "title": "Twin Earthquakes Expose Venezuela's Collapsed Emergency Response",
-      "facts": "Twin earthquakes have struck Venezuela, and the government's response has laid bare just how hollowed out the country's institutions have become. Caracas turned to the international community for help after the quakes hit, but years of budget cuts and political repression have left Venezuela's rescue apparatus unable to save countless people still trapped under rubble."
-    },
-    {
-      "title": "Jetstar Becomes First Australian Airline to Charge for Overhead Bins",
-      "facts": "Flying budget in Australia just got a little more expensive. Jetstar's about to become the first carrier in the country to charge passengers for using the overhead bin, marking a new frontier in airline fee creativity."
-    },
-    {
-      "title": "Moderate Democrats Launch Counteroffensive Against Party's Left Wing",
-      "facts": "The center-left is gearing up for an internal fight. One moderate Democratic group is rolling out a $15 million campaign to push back against what it's calling the \"deeply troubling\" rise of democratic socialism within the party."
-    },
-    {
-      "title": "Wyoming Prosecutes Trans Woman Despite Stand Your Ground Law",
-      "facts": "Wyoming's got some of the most permissive self-defense laws in the country, so this case is raising eyebrows. A trans woman who was shoved to the ground is now facing criminal charges after she brandished a firearm in response."
-    },
-    {
-      "title": "July Jobs Report Expected to Show Hiring Slowdown",
-      "facts": "The U.S. jobs market's holding steady in a strange kind of limbo\u2014not getting better for people hunting for work, but not falling off a cliff either."
-    },
-    {
-      "title": "Malta Emerges as Corporate Tax Shelter for Major U.S. Companies",
-      "facts": "The tiny Mediterranean nation of Malta has become an unlikely tax haven for some of America's biggest companies, including Crocs. U.S."
-    },
-    {
-      "title": "Iran Nears Deal With Oman Over Strait of Hormuz",
-      "facts": "Iran says it's in the final stages of reaching an agreement with Oman on the Strait of Hormuz, the narrow waterway that's a chokepoint for global oil shipments. The proposed deal could reshape how the vital passage is managed, though neither the U.S."
-    },
-    {
-      "title": "Tech Hedge Funds Retreat After Brutal July Losses",
-      "facts": "July's tech stock selloff didn't just sting\u2014it's forcing some of the market's biggest players to pull back entirely. JPMorgan strategists say several major hedge fund groups took heavy losses during last month's semiconductor crash and broader tech rout, and they're now dialing back their exposure to those stocks in a big way."
-    },
-    {
-      "title": "UWM Raises Record Two Billion in Capital Despite Second-Quarter Loss",
-      "facts": "United Wholesale Mortgage just locked in the largest capital raise in its history\u2014$2.05 billion from a partnership involving CEO Mat Ishria and investment giant Oaktree\u2014even as the company reported a second-quarter loss. The nation's largest mortgage lender by volume posted results showing it's moved into the red for the quarter, but it's doubling down on growth anyway."
-    },
-    {
-      "title": "New York City Inspects 180 Construction Sites After Pfizer Building Scare",
-      "facts": "New York's Department of Buildings just wrapped a citywide sweep of construction sites triggered by last month's near-disaster at the former Pfizer headquarters being converted to apartments. Inspectors fanned out to 180 active construction projects across the five boroughs, looking for structural problems that could pose a danger to workers or the public."
-    },
-    {
-      "title": "Stefon Diggs Signs With Commanders After Free Agency Wait",
-      "facts": "Stefon Diggs is heading to Washington. The veteran wide receiver is set to sign with the Commanders, according to reports from NFL Network."
-    },
-    {
-      "title": "Suns Lock Up Brooks Through 2030 With $73 Million Extension",
-      "facts": "Dillon Brooks is staying in Phoenix through the end of the decade. The Suns forward just agreed to a three-year, $73 million contract extension that'll keep him in the desert through the 2029-30 season, according to his agent."
-    },
-    {
-      "title": "Anthropic Is Building Its Own Chips\u2014and Bringing Design In-House",
-      "facts": "Anthropic's joining the ranks of Big Tech companies designing their own silicon. The company's confirmed it's building an in-house chip design team specifically for Claude, following a path already blazed by Google, Amazon, and Microsoft."
-    }
-  ],
   "2026-08-07": [
     {
       "title": "U.S. and Colombia Fast-Track Military Alliance Against Drug Cartels",
@@ -623,6 +569,56 @@
     {
       "title": "Anthropic Slaps Watermarks on Claude Output to Meet EU Rules",
       "facts": "Anthropic just started embedding invisible watermarks into everything Claude generates\u2014and the internet's reaction split into two camps: people worried about getting caught using AI, and scammers rushing to sell fake watermark-removal tools. The watermarking rolled out to comply with the European Union's AI Act, which requires companies to flag machine-generated content so users know what they're reading."
+    }
+  ],
+  "2026-08-17": [
+    {
+      "title": "Zambia's Opposition Leaders Arrested Days After Presidential Vote",
+      "facts": "Zambian authorities have arrested top opposition figures just days after the country's presidential election, alleging they were involved in an insurrection plot. The timing couldn't be more suspect\u2014the leading opposition candidate says there was actually an attempt on his life."
+    },
+    {
+      "title": "Ukrainian Strikes Kill Six Inside Russia",
+      "facts": "Ukrainian forces struck targets inside Russia over the weekend, killing six people including a 14-year-old child, according to the acting governor of the Belgorod region. Four others were injured in the attacks, which represent a continued escalation of Ukraine's willingness to hit Russian territory directly."
+    },
+    {
+      "title": "China Pushes to Export Its Data to Power Global AI",
+      "facts": "China isn't just exporting AI models\u2014it wants Chinese data to train and influence the world's chatbots, and that's raising serious concerns in Western capitals. Beijing sees data as the new oil, and it's working to ensure that its narratives, language patterns, and perspectives become embedded in the artificial intelligence systems that billions of people will interact with."
+    },
+    {
+      "title": "Drone Attack Targets Iraqi Kurdish Leader's Office",
+      "facts": "Explosive drones struck the office of Iraqi Kurdistan's prime minister and the residence of a top security official, though no casualties were reported. The coordinated attacks targeted Prime Minister Masrour Barzani's office in what appears to be a significant escalation in the region's already fragile security situation."
+    },
+    {
+      "title": "Trump Halts Military Exercises With South Korea in North Korea Praise Post",
+      "facts": "President Trump ordered the Pentagon to scale back military exercises with South Korea, announcing the decision in a social media post that simultaneously criticized Seoul and praised Pyongyang. The president said South Korea hasn't done enough to help denuclearize Iran\u2014a complaint that caught national security experts off guard, since South Korea has no formal role in Iran negotiations."
+    },
+    {
+      "title": "Goldman Sees AI Productivity Gains Just Around the Corner",
+      "facts": "Wall Street's finally putting a timeline on the question everyone's been asking: when does artificial intelligence start making companies actually more productive, not just more expensive? Goldman Sachs just released a list of twenty stocks it believes are positioned to capture gains as AI adoption spreads beyond the infrastructure build-out phase."
+    },
+    {
+      "title": "Elon Musk's Texas Chip Factory Sparks Local Backlash",
+      "facts": "Elon Musk's planning to build the world's largest building in rural Texas, and his new neighbors aren't exactly rolling out the welcome mat. The project is a semiconductor factory roughly the size of a thousand Costco stores, and residents in the county are raising concerns about what that kind of scale will do to their community."
+    },
+    {
+      "title": "Virgin Eyes Channel Tunnel Rail Expansion",
+      "facts": "Virgin's taking a run at the Channel Tunnel, hoping to launch up to twenty daily rail journeys between the UK and Europe. The company's already secured some of the necessary approvals, but it still needs the green light to operate on tracks overseas, which is where the regulatory heavy lifting begins."
+    },
+    {
+      "title": "Housing Inventory Climbs as Mortgage Rates Stay High",
+      "facts": "Home inventory is finally starting to tick up, but it's hardly a flood of new supply. Mid-August data shows 871,063 homes on the market, a slight increase compared to last year, as mortgage rates hovering near their recent highs keep would-be sellers locked in place."
+    },
+    {
+      "title": "Barcelona Lands Rodri in $87 Million Deal With Manchester City",
+      "facts": "Barcelona have pulled off one of the summer's biggest coups, agreeing in principle to sign Manchester City midfielder Rodri for $87 million. Multiple sources confirmed the deal to ESPN, marking a major shift in European football's power dynamics."
+    },
+    {
+      "title": "Cavaliers Trade Schroder to Hornets for Mann",
+      "facts": "The Cavaliers are shaking up their backcourt, sending guard Dennis Schroder and cash to the Charlotte Hornets in exchange for guard Tre Mann. Cleveland confirmed the deal Friday, marking a notable shift in the team's rotation as they look to retool their roster."
+    },
+    {
+      "title": "Claude's New Web Browser Turns Cowork Into a Mini Operating System",
+      "facts": "Anthropic just shipped a web browser inside Claude Desktop's Cowork mode, and this isn't about reading articles\u2014it's about giving your autonomous sessions the ability to interact with any web app directly, without you building a custom MCP server or plugin first. The browser lives inside Cowork sessions, so when you're orchestrating multiple subagents, one of them can now navigate to a property management portal, fill forms, download PDFs, or scrape data in real time while other subagents handle analysis or drafting in parallel."
     }
   ]
 }
