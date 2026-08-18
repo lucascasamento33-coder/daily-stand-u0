@@ -1,70 +1,4 @@
 {
-  "2026-08-07": [
-    {
-      "title": "U.S. and Colombia Fast-Track Military Alliance Against Drug Cartels",
-      "facts": "Colombia's new president takes office Friday, and he's already got American military assets heading his way. The Trump administration is rushing through a partnership aimed at drug traffickers, with plans that were drawn up well before the inauguration even happens."
-    },
-    {
-      "title": "Meta Faces Nearly $1 Billion in Fines Over Child Safety Violations",
-      "facts": "A court just hit Meta with a $567 million fine in what's now the largest child safety penalty ever levied against a social media company. That's on top of $375 million the company was already ordered to pay in the same case, bringing the total bill to $942 million."
-    },
-    {
-      "title": "Thailand School Shooting Kills Eight in Rampage Near Bangkok",
-      "facts": "A student in Thailand killed at least eight people in a shooting spree that started at his grandparents' home and ended at a high school near Bangkok. Authorities say he shot his grandparents dead before heading to the school, where he opened fire on students and staff."
-    },
-    {
-      "title": "Saudi Arabia, Turkey, and Pakistan Form Defense Pact Amid Regional Tensions",
-      "facts": "Three major powers just signed a mutual defense agreement that could reshape security dynamics across the Middle East and South Asia. Saudi Arabia, Turkey, and Pakistan announced that an attack on any one of them will be treated as an attack on all three."
-    },
-    {
-      "title": "Tennessee Republicans Redraw State's Only Black-Majority District",
-      "facts": "Tennessee Republicans just finished carving up the state's only majority-Black congressional district\u2014and they're not being shy about the goal. Thursday's primary elections mark the first contest under new district lines drawn by the GOP-controlled legislature, lines designed to give Republicans a clean sweep of all nine House seats in the state."
-    },
-    {
-      "title": "Puerto Rico's Crumbling Water System Fails Again",
-      "facts": "Puerto Rico's water crisis is back, and this time it's a combination punch of drought and decades-old pipes that are finally giving out. Residents across the island are facing severe water shortages, with some neighborhoods going days without running water as the territory's infrastructure buckles under pressure."
-    },
-    {
-      "title": "Community Rallies Around Bystander Who Stopped Idaho Shooting",
-      "facts": "Twin Falls, Idaho, is honoring a man who confronted an active shooter at a strip mall In-N-Out, even as investigators still can't explain why the rampage happened in the first place. The bystander stepped in during the shooting, which sent customers and employees scrambling for cover and left multiple people wounded."
-    },
-    {
-      "title": "Trump Slaps Tariffs on Chip Material to Counter China",
-      "facts": "The Trump administration just imposed a 15 percent tariff on polysilicon\u2014and if you've never heard of it, you're about to understand why it matters. Polysilicon is a critical ingredient for semiconductors and solar panels, two industries where the U.S."
-    },
-    {
-      "title": "EasyJet Sold to U.S. Firm Apollo in $5.7 Billion Deal",
-      "facts": "One of Europe's biggest budget airlines is about to get new ownership across the Atlantic. EasyJet has agreed to be acquired by Apollo, a U.S."
-    },
-    {
-      "title": "Memory Chip Stocks Crater While Micron Gets a Reprieve",
-      "facts": "Memory chip stocks just got hammered, but Micron managed to dodge the worst of the selloff. Shares of SanDisk and Western Digital tumbled hard after both companies reported earnings that left investors cold."
-    },
-    {
-      "title": "NYC Affordable Housing Crisis Deepens as Operating Costs Surge",
-      "facts": "New York City's affordable housing stock is on the brink of a financial collapse, and the numbers are stark. A new survey from the NYC Housing Partnership found that 62 percent of owners, managers, and lenders say operating costs have climbed to levels they simply can't sustain."
-    },
-    {
-      "title": "Lions Make Gibbs Highest-Paid Running Back in NFL History",
-      "facts": "Jahmyr Gibbs just reset the market for running backs in a major way. The Lions and their star back agreed to a three-year, $67.5 million deal that could reach $75.75 million with incentives\u2014and it includes $51.5 million guaranteed."
-    },
-    {
-      "title": "Vin\u00edcius J\u00fanior Signs New Six-Year Deal With Real Madrid",
-      "facts": "Vin\u00edcius J\u00fanior is staying put at Real Madrid after all. The Brazilian winger has accepted the club's latest contract offer, agreeing to a new deal that runs through 2032."
-    },
-    {
-      "title": "Jaylen Brown Traded to Philadelphia in East-Shaking Deal",
-      "facts": "Jaylen Brown's wearing a Sixers uniform now, and he's got some things to get off his chest about how Boston handled his exit. The star said he was disappointed with how the Celtics communicated with him before shipping him to Philadelphia, though he's keeping the details close to the vest for now."
-    },
-    {
-      "title": "Suns Lock Up Dillon Brooks With $73 Million Extension",
-      "facts": "Phoenix is betting big on Dillon Brooks, handing the forward a three-year, $73 million extension that'll keep him in the Valley through the 2029-30 season. Brooks' agent confirmed the deal, which cements the defensive stopper as a long-term piece of the Suns' core."
-    },
-    {
-      "title": "Anthropic Builds Custom Chip Team to Power Claude",
-      "facts": "Anthropic's going vertical in a big way\u2014the company behind Claude just announced it's assembling a team to design its own custom hardware from scratch. This puts them on the same path as Google, Amazon, and Meta, all of which have moved away from relying solely on Nvidia chips to power their AI models."
-    }
-  ],
   "2026-08-08": [
     {
       "title": "Spain and Italy Clash Over Migration as Border Controls Return",
@@ -619,6 +553,56 @@
     {
       "title": "Claude's New Web Browser Turns Cowork Into a Mini Operating System",
       "facts": "Anthropic just shipped a web browser inside Claude Desktop's Cowork mode, and this isn't about reading articles\u2014it's about giving your autonomous sessions the ability to interact with any web app directly, without you building a custom MCP server or plugin first. The browser lives inside Cowork sessions, so when you're orchestrating multiple subagents, one of them can now navigate to a property management portal, fill forms, download PDFs, or scrape data in real time while other subagents handle analysis or drafting in parallel."
+    }
+  ],
+  "2026-08-18": [
+    {
+      "title": "Earthquake Survivors in Colombia's Choc\u00f3 Face Mounting Crisis",
+      "facts": "Survivors of last week's deadly earthquake in Colombia's Choc\u00f3 region are confronting what the governor calls a grim future of \"pain, hunger and homelessness.\" The remote, impoverished region\u2014already one of Colombia's most isolated areas\u2014has seen conditions deteriorate sharply since the disaster that killed more than 100 people. International pop star Shakira traveled to the region this week in an effort to draw global attention to the unfolding humanitarian crisis."
+    },
+    {
+      "title": "Mourners Remember China's Former Premier as Nostalgia Meets Censorship",
+      "facts": "Beijing held the funeral for former premier Zhu Rongji this week, but authorities are walking a tightrope between honoring his legacy and controlling what people say about it. Zhu, who led China during a period of rapid economic growth in the late 1990s and early 2000s, is remembered by many Chinese as presiding over an era of optimism that's since faded."
+    },
+    {
+      "title": "Texas Tech Under Fire for AI Screening of Course Content",
+      "facts": "Texas Tech University is using artificial intelligence to flag and remove what it considers left-leaning content from its courses\u2014and the effort's being led by a politician who's driving Texas' conservative overhaul of higher education. The state lawmaker now runs the university system and has deployed AI tools to search for what he calls forbidden topics in class materials."
+    },
+    {
+      "title": "Election Denier Offered Job Running California County Voting",
+      "facts": "The top elections official in Shasta County, California, has offered a job to Tina Peters, the Trump supporter who was convicted of tampering with voting machines in Colorado. Peters, who became a hero to some election conspiracy theorists after her criminal case, would be in charge of running elections in the Northern California county if the offer is finalized."
+    },
+    {
+      "title": "Treasury Yields Hit Seventeen-Year High as Bond Selloff Intensifies",
+      "facts": "The 30-year Treasury yield just climbed to its highest level since 2007, and it's part of a global bond market rout that's got investors on edge. Rising concerns about persistent inflation and a flood of new government debt hitting the market are battering fixed income investments across the board."
+    },
+    {
+      "title": "Job Openings Drop to Five-Year Low as Small Firms Pull Back",
+      "facts": "Job vacancies across the U.K. have fallen to their lowest level in five years, and it's small businesses leading the retreat."
+    },
+    {
+      "title": "U.S. and Canada Race Against Tariff Deadline as Trade Talks Intensify",
+      "facts": "Mark Carney's got one last shot to convince the Trump administration not to slap fresh tariffs on Canadian goods, and the clock's ticking. Negotiators on both sides are scrambling to reach a deal before the U.S."
+    },
+    {
+      "title": "Mortgage Defect Rate Climbs as Lenders Grapple With Compliance Failures",
+      "facts": "The mortgage industry's defect rate just jumped to 1.71% in the first quarter of 2026, according to new data from ACES Quality Management. That's a red flag for lenders who've been working to tighten up their underwriting and compliance processes."
+    },
+    {
+      "title": "Homebuilder Sentiment Slips as Affordability Crunch Stalls Orders",
+      "facts": "Homebuilders are feeling the squeeze, and it's showing up in softer sentiment as affordability pressures keep would-be buyers on the sidelines. The industry's still relying heavily on incentives\u2014rate buydowns, closing cost credits, you name it\u2014to move inventory and keep sales flowing."
+    },
+    {
+      "title": "Manchester City's Rodri Joins Barcelona in Major Transfer",
+      "facts": "Manchester City's losing one of their most important players\u2014midfielder Rodri is headed to Barcelona in a deal worth \u20ac76.5 million, or about \u00a365.3 million. The Spain international has already arrived in Barcelona ahead of what he's calling a \"dream\" move to the Catalan club."
+    },
+    {
+      "title": "NBA Clears Clippers Owner in Kawhi Leonard Payment Investigation",
+      "facts": "The NBA's wrapped up its probe into whether Clippers owner Steve Ballmer funneled money to Kawhi Leonard through team sponsors\u2014and investigators came up empty. Three people with knowledge of discussions between the league and the team say there's no evidence Ballmer used corporate sponsors to pay Leonard under the table."
+    },
+    {
+      "title": "Claude Adds Invisible Watermarks\u2014and Users Aren't Happy",
+      "facts": "Anthropic just rolled out invisible watermarks across everything Claude writes, and the backlash from paying subscribers has been swift. The company's embedding Google DeepMind's SynthID technology into Claude's text output, subtly \"nudging\" word choices to create a detectable pattern that's supposed to survive edits and paraphrasing."
     }
   ]
 }
