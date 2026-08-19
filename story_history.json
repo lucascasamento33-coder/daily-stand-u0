@@ -1,66 +1,4 @@
 {
-  "2026-08-08": [
-    {
-      "title": "Spain and Italy Clash Over Migration as Border Controls Return",
-      "facts": "Spain's just imposed border controls on travelers from Italy\u2014a rare and tense move between two EU neighbors that signals how badly the migration crisis is straining European unity. The trigger is an influx of roughly 78,000 migrants who crossed from Morocco into Ceuta, the tiny Spanish exclave on Africa's northern coast."
-    },
-    {
-      "title": "Thailand Promises Gun Control After Eighth Mass Shooting Kills Eight",
-      "facts": "Thailand's prime minister has pledged to introduce stricter gun laws after a 14-year-old boy opened fire at his home and school, killing eight people before turning the gun on himself. The rampage on Friday is just the latest in a troubling series of mass shootings that's earned Thailand an unwanted reputation for gun violence in a region where such attacks used to be rare."
-    },
-    {
-      "title": "Senate Passes Stopgap Funding Bill More Than a Month Early",
-      "facts": "Congress just wrapped up its budget homework way ahead of schedule\u2014and that's telling you something about the political calendar. The Senate passed a stopgap spending bill to keep the government funded, even though the actual deadline isn't for more than a month."
-    },
-    {
-      "title": "White House Pushes for Haitian Deportations After Supreme Court Ruling",
-      "facts": "President Trump's allies are ramping up pressure on his administration to begin aggressive deportations of Haitians, and the frustration is coming from his own base. The Supreme Court recently ruled in favor of the White House on the Temporary Protected Status program, clearing a legal path to remove Haitians who had been living in the U.S."
-    },
-    {
-      "title": "Michigan Democrats Try to Unite After Bruising Senate Primary",
-      "facts": "Michigan Democrats are working overtime to patch things up after a Senate primary that got ugly fast. Dr."
-    },
-    {
-      "title": "Jobs Report Misses Expectations as Summer Hiring Stalls",
-      "facts": "America's jobs engine sputtered in July, catching economists off guard. Employers cut 23,000 positions last month, a surprise reversal after analysts had predicted hiring would tick upward."
-    },
-    {
-      "title": "White House Slaps Tariffs on Polysilicon in Tech Supply Chain Shakeup",
-      "facts": "The Trump administration just threw a wrench into the global supply chain for semiconductors and solar panels. New tariffs are going into effect on polysilicon, a critical raw material used in everything from computer chips to solar cells, and the White House is also setting a minimum import price for the substance."
-    },
-    {
-      "title": "Meta Hit With Record $567 Million Child Safety Fine",
-      "facts": "Meta just absorbed the largest child safety penalty ever levied against a social media company. A court ordered the tech giant to pay $567 million over violations related to protecting minors on its platforms, and that's on top of $375 million in fines already imposed in the same case."
-    },
-    {
-      "title": "Nvidia Powers Best Week in Over a Year on AI Demand Surge",
-      "facts": "Nvidia just wrapped its biggest weekly rally in more than a year, and the numbers tell the story of AI's grip on Wall Street. The chipmaker posted its largest-ever weekly increase in market capitalization, sending shares sharply higher as investors doubled down on artificial intelligence infrastructure."
-    },
-    {
-      "title": "July Jobs Report Clouds Fed's September Rate Decision",
-      "facts": "July's jobs numbers came in weak enough to make the Fed's next move a lot less certain. Payrolls fell by 23,000 last month, and revisions wiped out another 103,000 jobs that economists thought had been created earlier in the year."
-    },
-    {
-      "title": "Fitch Downgrades United Wholesale Mortgage After Loss and Leverage Spike",
-      "facts": "United Wholesale Mortgage just took a credit hit that signals trouble in the lending world. Fitch Ratings downgraded UWM's long-term issuer rating to B-plus from double-B-minus, citing a sharp increase in leverage after the company posted second-quarter losses and took on higher borrowings."
-    },
-    {
-      "title": "Arsenal Land Bruno Guimar\u00e3es in Major Midfield Coup",
-      "facts": "Arsenal have pulled off one of the summer's biggest signings, bringing in Bruno Guimar\u00e3es from Newcastle United. The club confirmed the deal Friday, landing a midfielder who's been central to Newcastle's resurgence over the past few seasons."
-    },
-    {
-      "title": "Grizzlies Forward Brandon Clarke Dies from Drug Overdose",
-      "facts": "Memphis Grizzlies forward Brandon Clarke died from a combination of heroin and cocaine, according to the Los Angeles County medical examiner's office. The ruling, announced Friday, confirms the cause of death as \"the effects of heroin and cocaine.\" Clarke's death marks a devastating loss for the Grizzlies organization and the broader NBA community."
-    },
-    {
-      "title": "Jaylen Brown Traded to Philadelphia 76ers",
-      "facts": "Jaylen Brown is now a member of the Philadelphia 76ers after a trade that caught him off guard. Brown said Friday he was disappointed with how the Celtics communicated with him before shipping him out of Boston."
-    },
-    {
-      "title": "Claude Sessions Can Now Talk to Each Other\u2014Here's the Power Pattern You're Missing",
-      "facts": "Anthropic just shipped inter-session communication for Claude Code on macOS and Linux, and the non-obvious unlock isn't just that your AI sessions can pass data to each other\u2014it's that you can now build persistent, asynchronous workflows where one session monitors a trigger and spins up specialized subagent sessions on demand, each with its own context and tooling, without ever hitting token limits or losing state. Think of it as a dispatcher pattern: your main session stays light, watching a Gmail label or a Buildium webhook, and when a new lease PDF drops, it spawns a dedicated session with the lease-analysis skill, the Files API preloaded with your standard clauses, and a tight prompt scope\u2014then that session does its work, writes results to a shared JSON file or database, and terminates, freeing up resources."
-    }
-  ],
   "2026-08-09": [
     {
       "title": "Daniel Kinahan's High-Security Return to Ireland",
@@ -603,6 +541,72 @@
     {
       "title": "Claude Adds Invisible Watermarks\u2014and Users Aren't Happy",
       "facts": "Anthropic just rolled out invisible watermarks across everything Claude writes, and the backlash from paying subscribers has been swift. The company's embedding Google DeepMind's SynthID technology into Claude's text output, subtly \"nudging\" word choices to create a detectable pattern that's supposed to survive edits and paraphrasing."
+    }
+  ],
+  "2026-08-19": [
+    {
+      "title": "Trump Pauses Canada Tariffs as Negotiations Continue",
+      "facts": "The White House says it's holding off on new tariffs against Canada for three days, with President Trump claiming a deal is nearly done. Trump announced the pause Tuesday, saying the two countries are finalizing documents that would avert import taxes on a range of Canadian goods."
+    },
+    {
+      "title": "Ukraine's Former Defense Minister Breaks With Zelensky, Demands Elections",
+      "facts": "Mykhailo Fedorov, Ukraine's former defense minister who was fired just last month, is now calling for presidential elections\u2014a direct challenge to Volodymyr Zelensky's government. Fedorov, a popular young leader, argued that Russia shouldn't be allowed to dictate when Ukrainians can choose their next government."
+    },
+    {
+      "title": "China Investigates Comedian Over Riff on Patriotic Song",
+      "facts": "One of China's most famous comedians is under investigation after singing a modified version of a patriotic song, the latest sign of the government's tightening grip on the arts. Guo Degang was reported to authorities following the performance, which apparently didn't sit well with someone who heard it."
+    },
+    {
+      "title": "Israeli PM Digs In as U.S. Envoys Struggle for Influence",
+      "facts": "Any peace deal in Israel's multiple conflicts would be politically damaging for Prime Minister Benjamin Netanyahu\u2014and that's making it nearly impossible for White House envoys to move the needle. U.S."
+    },
+    {
+      "title": "Florida Arson Suspect Faces Second Trial After June Mistrial",
+      "facts": "The federal government is moving forward with a second prosecution of the man accused of starting the fire that turned deadly in California's Pacific Palisades neighborhood. Prosecutors announced they'll retry the case after a stunning mistrial back in June, when jurors failed to reach a verdict."
+    },
+    {
+      "title": "Alaska's Ranked-Choice Ballot Takes Shape With Four Governor Candidates",
+      "facts": "Alaska's unusual ranked-choice voting system is producing an equally unusual governor's race this fall. Four candidates have now advanced to the November ballot, including two Democrats who'll be competing against each other and two Republicans."
+    },
+    {
+      "title": "Europe Scrambles to Close Investment Gap in Tech Race",
+      "facts": "Europe's facing a nearly trillion-dollar problem in its race to compete with the U.S. and China on cutting-edge technology."
+    },
+    {
+      "title": "UK Inflation Jumps to Four-Month High on Energy Costs",
+      "facts": "Britain's inflation rate climbed to 2.9 percent, the highest it's been in four months, driven by a sharp rise in energy bills. The increase had been widely expected by economists, as the spike in oil prices from Iran's blockade of the Strait of Hormuz works its way through the economy."
+    },
+    {
+      "title": "Bond Selloff Isn't Sinking Stocks Yet",
+      "facts": "The bond market's having a rough stretch, with yields climbing sharply\u2014but one prominent market strategist says investors shouldn't expect stocks to follow bonds into the basement. Mark Newton at Fundstrat is pushing back against the panic, arguing that the technical evidence doesn't support fears of a deeper stock market rout driven by rising bond yields."
+    },
+    {
+      "title": "Chinese Robot Maker Soars Over 600 Percent in Debut",
+      "facts": "Unitree just became the first humanoid robot company to list on a Chinese stock exchange\u2014and investors went wild. Shares of the robotics firm surged more than 600 percent in their trading debut, a staggering pop that underscores the frenzy around artificial intelligence and automation in China's tech sector."
+    },
+    {
+      "title": "Homebuilding Slams Into Credit Crunch",
+      "facts": "Private homebuilders are getting squeezed hard as they head into budget season, and the numbers tell the story. Development loan rates have climbed to an effective 12.59%, according to the National Association of Home Builders, making it far more expensive to finance new projects."
+    },
+    {
+      "title": "Bayern's Musiala Reveals Seizure Diagnosis",
+      "facts": "Bayern Munich's Jamal Musiala has disclosed he's dealing with absence seizures after collapsing on the pitch twice in four days. The 21-year-old midfielder says the condition is treatable, though the club hasn't specified a timeline for his return."
+    },
+    {
+      "title": "Manchester United in Talks for Brighton's Baleba",
+      "facts": "Manchester United are negotiating with Brighton over a potential deal for midfielder Carlos Baleba, according to sources at ESPN. The move would bring the 20-year-old Cameroon international to Old Trafford as United look to bolster their midfield options."
+    },
+    {
+      "title": "Lakers Ownership Battle Escalates as Buss Family Splits",
+      "facts": "Five members of the Buss family trust say they're moving forward with selling their remaining stake in the Lakers\u2014and Jeanie Buss is fighting back. The five siblings claim they're \"united\" in their decision to offload their shares to new owners Josh Kushner and Bob Iger, but Jeanie's now contesting the sale directly."
+    },
+    {
+      "title": "Clippers Clear Ballmer in Kawhi Leonard Payment Probe",
+      "facts": "The NBA's wrapped up its investigation into whether Clippers owner Steve Ballmer funneled extra payments to Kawhi Leonard through team sponsors\u2014and it's found no evidence to support the allegation. Three people with knowledge of discussions between the league and the team say the NBA couldn't prove Ballmer used corporate sponsors to skirt salary cap rules."
+    },
+    {
+      "title": "Claude Cowork Lands on Mobile\u2014And Rolling Limits Just Doubled",
+      "facts": "Anthropic just pushed Claude Cowork to mobile for all paid subscribers, meaning you can now spin up persistent collaborative workspaces on your phone or tablet\u2014not just desktop. That's the headline, but here's the power move most users are missing: Cowork sessions on mobile inherit the same MCP server connections and custom tools you've configured on desktop, so a Cowork agent with access to your Buildium MCP or Gmail can now run autonomously while you're away from your Mac mini."
     }
   ]
 }
