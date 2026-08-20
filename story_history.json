@@ -1,58 +1,4 @@
 {
-  "2026-08-09": [
-    {
-      "title": "Daniel Kinahan's High-Security Return to Ireland",
-      "facts": "One of the world's most wanted crime bosses is heading back to Ireland under extraordinary security. Daniel Kinahan, the 49-year-old suspected leader of a transnational drug trafficking organization, is being extradited from Dubai after years on the run."
-    },
-    {
-      "title": "Iran's Demands Keep Hormuz Closed",
-      "facts": "Iran's throwing cold water on hopes that the Strait of Hormuz might reopen soon. The head of Iran's Supreme National Security Council just issued a list of conditions that must be met before Tehran will allow ships through the strait again, and the demands suggest this standoff isn't ending anytime soon."
-    },
-    {
-      "title": "Trump Crypto Venture Took $100 Million From Investor With Murky Past",
-      "facts": "President Trump's cryptocurrency business accepted a hundred million dollars from an investor whose background is raising serious red flags. The investor, Guren \"Bobby\" Zhou, funneled the money into the Trump crypto operation despite what sources describe as a shady business history and unclear motivations."
-    },
-    {
-      "title": "Moderate Democrat Holds Off Progressive Challenge in Hawaii",
-      "facts": "Hawaii's Ed Case just beat back a primary challenge from a younger progressive, holding onto his House seat in a race that became a referendum on generational change. Case defeated Jarrett Keohokalole in a contest that centered on Hawaii's skyrocketing cost of living and whether new leadership was needed."
-    },
-    {
-      "title": "Poll Shows Voters See Parties as More Extreme Than Their Own Candidates",
-      "facts": "Voters in battleground states think the national parties have gone too far left or right, but they view the actual candidates on their ballots as more moderate, according to a new poll. The New York Times and Siena College survey found a striking gap between how voters perceive the Democratic and Republican parties versus how they see individual nominees."
-    },
-    {
-      "title": "European Stocks Surge on Strong Earnings",
-      "facts": "European markets are shaking off the gloom from Iran tensions, with investors piling back in as companies deliver earnings that blew past expectations. The Stoxx Europe 600 is on track for a 22% jump in second-quarter profits\u2014a major reversal after weeks of war jitters kept money on the sidelines."
-    },
-    {
-      "title": "Fictional Nigerian Agency Sneaks Into National Budget",
-      "facts": "Nigeria's government just discovered it had been funding an agency that doesn't exist. A made-up investment council\u2014complete with an alleged director\u2014was allocated money in the national budget and its supposed head even met with top officials before anyone caught on."
-    },
-    {
-      "title": "Tech Investors Eye World Cup Ownership",
-      "facts": "Football might seem immune to disruption, but tech investors clearly think otherwise\u2014they just tried to buy a stake in the World Cup itself. The proposal has now been shelved, but the fact that it got as far as it did tells you everything about where Silicon Valley sees opportunity."
-    },
-    {
-      "title": "Jobs Report Softens, Complicating Fed's Rate Decision",
-      "facts": "July's employment numbers just threw a wrench into the Federal Reserve's plans. Payrolls fell by 23,000 last month, and revisions slashed another 103,000 jobs from earlier reports."
-    },
-    {
-      "title": "Arsenal Splashes \u00a375 Million on Bruno Guimar\u00e3es",
-      "facts": "Arsenal just made one of the biggest moves of the summer transfer window, spending \u00a375 million to pry Bruno Guimar\u00e3es away from Newcastle United. The 28-year-old midfielder becomes one of the Gunners' most expensive signings ever, joining a squad that's already loaded with talent in the middle of the park."
-    },
-    {
-      "title": "Lionel Messi's Father Jorge Dies at 68",
-      "facts": "Jorge Messi, the father of Argentina star Lionel Messi, died Saturday at a hospital in Rosario, Argentina. He was 68."
-    },
-    {
-      "title": "Brandon Clarke's Death Ruled Drug Overdose",
-      "facts": "Memphis Grizzlies forward Brandon Clarke died from a combination of heroin and cocaine, according to the Los Angeles County medical examiner's office. The coroner's announcement puts an official cause to a death that's shocked the NBA community."
-    },
-    {
-      "title": "Auto Mode Becomes the Default in Claude Code",
-      "facts": "Anthropic's flipping Claude Code to Auto Mode by default, and the reason is blunt: humans approve things they shouldn't. The change means Claude will execute multi-step coding tasks without asking permission at each turn\u2014unless you specifically opt out."
-    }
-  ],
   "2026-08-10": [
     {
       "title": "U.S. Airstrikes Pummel Southern Iran as Conflict Intensifies",
@@ -607,6 +553,64 @@
     {
       "title": "Claude Cowork Lands on Mobile\u2014And Rolling Limits Just Doubled",
       "facts": "Anthropic just pushed Claude Cowork to mobile for all paid subscribers, meaning you can now spin up persistent collaborative workspaces on your phone or tablet\u2014not just desktop. That's the headline, but here's the power move most users are missing: Cowork sessions on mobile inherit the same MCP server connections and custom tools you've configured on desktop, so a Cowork agent with access to your Buildium MCP or Gmail can now run autonomously while you're away from your Mac mini."
+    }
+  ],
+  "2026-08-20": [
+    {
+      "title": "Evergrande Founder Sentenced to Life Behind Bars",
+      "facts": "China just handed down a life sentence to Hui Ka Yan, the billionaire who built Evergrande into the world's most indebted property developer before it all came crashing down. The punishment marks the culmination of one of the most dramatic corporate collapses in modern Chinese history\u2014a collapse that triggered a crisis still rippling through the country's economy."
+    },
+    {
+      "title": "Russian Missiles Slam Kyiv as Ukraine's Air Defenses Run Dry",
+      "facts": "At least 13 people are dead in Kyiv after a massive Russian missile barrage Thursday, and the timing tells you everything about where this war stands right now. Moscow's taking full advantage of Ukraine's dwindling stock of air defense interceptors, intensifying attacks on the capital and other cities with a pace and ferocity not seen in months."
+    },
+    {
+      "title": "Indian Workers Training the Machines That May Replace Them",
+      "facts": "There's a small city in south India where artificial intelligence is doing something unexpected\u2014it's creating jobs for humans, not just taking them away. In the booming field of data annotation, workers are training AI systems to get better at tasks people have traditionally done, from recognizing images to understanding language."
+    },
+    {
+      "title": "Syria Rules Out Permanent Turkish Military Presence",
+      "facts": "Syria's foreign minister says there are no plans to establish a permanent Turkish military presence in the country, pushing back against speculation that Ankara is looking to entrench itself militarily after years of cross-border operations. The statement came in an interview where the minister acknowledged that Turkish military officials had recently visited an airbase, but described the visit as part of a training arrangement, not a prelude to a lasting deployment."
+    },
+    {
+      "title": "Pentagon Halts Joint Military Exercises With South Korea",
+      "facts": "President Trump has ordered a sharp pullback in U.S. military exercises with South Korea, and defense experts are warning the move carries serious risks at a volatile moment."
+    },
+    {
+      "title": "U.S. Debt Crosses $40 Trillion Mark",
+      "facts": "America's national debt just blew past $40 trillion, doubling in size over the last decade. The milestone undercuts President Trump's earlier promises to restore fiscal order and reduce the country's debt burden."
+    },
+    {
+      "title": "Europe Scrambles to Close Tech Investment Gap",
+      "facts": "European governments are racing to close a nearly $1 trillion funding gap in their tech sector, desperate to compete with China and the United States in cutting-edge industries. Officials across the continent are casting a wide net, backing start-ups developing everything from artificial intelligence to advanced semiconductors."
+    },
+    {
+      "title": "Oil Prices Jump on Trump's Iran Threats",
+      "facts": "Oil prices spiked Thursday after President Trump declared what he's calling an economic war on Iran. In a post on Truth Social, Trump warned that any country supporting Iran's economy would face \"tremendous economic consequences.\" The threat comes as tensions escalate in the Middle East, and it's already moving energy markets in a big way."
+    },
+    {
+      "title": "AMD's AI Chip Gamble Faces Financing Hurdle",
+      "facts": "AMD's making a bold bet on dirt-cheap artificial intelligence chips, but there's a catch that could slow the whole thing down\u2014nobody knows how to finance them. The company just acquired a firm whose chip is both fast and inexpensive, a combination that could shake up the AI hardware market currently dominated by pricier options."
+    },
+    {
+      "title": "Oregon's Modular Home Rule Sparks Legal Fight",
+      "facts": "The Modular Building Institute is suing Oregon over a new wage rule that's about to reshape how factory-built homes get priced in the state. The lawsuit challenges House Bill 2688 and a regulation set to kick in July 1st that would require manufacturers outside Oregon to pay prevailing wages\u2014Oregon's prevailing wages\u2014when building custom modules destined for the state."
+    },
+    {
+      "title": "Arsenal Agree $69 Million Deal for Aston Villa Defender",
+      "facts": "Arsenal have locked down a major defensive signing ahead of the new season, agreeing to pay Aston Villa around \u00a351 million\u2014roughly $69 million\u2014for center-back Ezri Konsa. Sources confirmed the deal to ESPN, marking one of the Premier League's biggest moves as the transfer window winds down."
+    },
+    {
+      "title": "Three-Team Trade Sends Watson to Cavaliers in $88 Million Deal",
+      "facts": "Peyton Watson's heading to Cleveland with a massive new contract in hand. The Cavaliers, Nuggets, and Clippers just finalized a three-team trade that sends Watson to the Cavaliers and Max Strus to Los Angeles."
+    },
+    {
+      "title": "Wembanyama Named Captain of French National Team",
+      "facts": "Victor Wembanyama's got a new title to go with his growing list of accomplishments. The French national team announced Wednesday that Wembanyama will serve as captain as they prepare for the FIBA World Cup European qualifiers."
+    },
+    {
+      "title": "Claude Can Now Send Gmail on Autopilot",
+      "facts": "Anthropic just flipped a switch that changes how Claude Code interacts with your inbox\u2014it can now send Gmail messages without asking for confirmation first. The update means that if you've built an agent or scheduled task that drafts emails, Claude will fire them off automatically unless you explicitly tell it to hold back."
     }
   ]
 }
