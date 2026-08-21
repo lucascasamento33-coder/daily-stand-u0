@@ -1,54 +1,4 @@
 {
-  "2026-08-10": [
-    {
-      "title": "U.S. Airstrikes Pummel Southern Iran as Conflict Intensifies",
-      "facts": "Near-constant American bombing has turned southern Iran into the war's new hotspot, even as fighting elsewhere in the country winds down. Qeshm island and surrounding areas in Iran's south are bearing the brunt of U.S."
-    },
-    {
-      "title": "Taiwan Tests Public Resilience With Simulated Chinese Attack",
-      "facts": "Taiwan just ran the public through a 30-minute drill simulating what would happen if China actually launched an attack on the island. The exercise was designed to test and build the population's ability to respond to a real crisis, from air raid warnings to infrastructure disruptions."
-    },
-    {
-      "title": "Lake Mead Hits Record Low as Western Water Crisis Deepens",
-      "facts": "Lake Mead has dropped to its lowest level ever recorded, and the consequences stretch far beyond the reservoir itself. Water levels behind the Hoover Dam have fallen so low that they're now threatening the twin pillars of the modern West: reliable drinking water and electricity."
-    },
-    {
-      "title": "U.S. Labor Market Cooling Opens Door for Fed Rate Cuts",
-      "facts": "The U.S. economy is shedding jobs, and Wall Street's actually celebrating."
-    },
-    {
-      "title": "JPMorgan Lifts S&P 500 Target to 8,000 on Economic Outlook",
-      "facts": "Wall Street's biggest bank just raised its bet on how high stocks can climb this year. JPMorgan lifted its year-end price target for the S&P 500 from 7,800 to 8,000, a sign that analysts think the rally still has room to run."
-    },
-    {
-      "title": "U.K. Government Bans Subscription Traps Three Months Early",
-      "facts": "Britain's cracking down on subscription traps, and it's happening sooner than expected. The prime minister announced the ban will take effect three months ahead of schedule as part of a broader push to ease the cost of living for households across the country."
-    },
-    {
-      "title": "NYC Homeowners Challenge Pied-\u00e0-Terre Tax Rollout in New Lawsuit",
-      "facts": "New York City homeowners filed suit against the city and Mayor Zohran Mamdani on Friday, and they're not challenging the pied-\u00e0-terre tax itself\u2014they're challenging how it was imposed. The lawsuit argues that the rollout swept thousands of primary residences into a surcharge that was supposed to target only high-value second homes and investment properties."
-    },
-    {
-      "title": "Mortgage Spreads Hold Steady, Keeping Housing Demand Afloat",
-      "facts": "Mortgage spreads are sitting at 2.01 percent right now, and that's quietly propping up the housing market heading into next year. Those spreads\u2014the gap between what lenders charge borrowers and the underlying Treasury rate\u2014are keeping projected mortgage rates for 2026 near 6.74 percent, according to new data."
-    },
-    {
-      "title": "Three Major Football Bodies Accuse FIFA of Fundamental Breach of Trust",
-      "facts": "UEFA, Concacaf, and the Asian Football Confederation have accused FIFA of a \"fundamental breach of trust\" over its handling of plans to sell a stake in the World Cup. The three confederations issued a joint statement slamming the global governing body for what they call deception in the process."
-    },
-    {
-      "title": "Athletics Shortstop Sets MLB Record with 111 Consecutive Errorless Games",
-      "facts": "Jacob Wilson just made baseball history at Fenway Park. The 24-year-old Athletics shortstop played his 111th consecutive game without an error on Sunday, breaking a record that stood for more than two decades."
-    },
-    {
-      "title": "NBA Coaching Legend Don Nelson Dies at 86",
-      "facts": "Don Nelson, the second-winningest coach in NBA history, has died at 86. Nelson passed away on Sunday, closing the book on one of basketball's most innovative and successful careers."
-    },
-    {
-      "title": "Claude Code Goes Full Autopilot",
-      "facts": "Anthropic just flipped a major switch in Claude Code\u2014auto mode is now the default setting, which means Claude will approve and execute most of its own actions without stopping to ask you first. The change, rolling out now, fundamentally shifts how developers interact with the AI coding assistant."
-    }
-  ],
   "2026-08-11": [
     {
       "title": "Colombia's Deadliest Earthquake in a Decade",
@@ -611,6 +561,60 @@
     {
       "title": "Claude Can Now Send Gmail on Autopilot",
       "facts": "Anthropic just flipped a switch that changes how Claude Code interacts with your inbox\u2014it can now send Gmail messages without asking for confirmation first. The update means that if you've built an agent or scheduled task that drafts emails, Claude will fire them off automatically unless you explicitly tell it to hold back."
+    }
+  ],
+  "2026-08-21": [
+    {
+      "title": "Panama Canal Slashes Ship Traffic as El Ni\u00f1o Dries Waterway",
+      "facts": "The Panama Canal is about to restrict the number of vessels that can pass through one of the world's most critical trade routes. The canal's operator announced it's cutting ship crossings because El Ni\u00f1o has brought unusually low rainfall to the region."
+    },
+    {
+      "title": "Hong Kong Court Convicts Tiananmen Activists Under Security Law",
+      "facts": "Three Hong Kong activists have been found guilty of inciting subversion under the national security law imposed by China. The activists were accused of trying to get others to undermine state power, charges that stem from their work commemorating the Tiananmen Square massacre."
+    },
+    {
+      "title": "Nancy Kissinger Dead at 92",
+      "facts": "Nancy Kissinger, the wife of former Secretary of State Henry Kissinger, has died at 92. She was far more than a diplomatic spouse\u2014she was a foreign policy specialist in her own right, politically savvy and deeply versed in global issues."
+    },
+    {
+      "title": "Customs Data Deletion Case Raises Privacy Alarms",
+      "facts": "Samuel Tunick is facing felony charges for deleting data from his phone during an airport customs search\u2014and he says the prosecution threatens everyone's privacy. Tunick was stopped by customs officers, and when they demanded access to his phone, he wiped it clean."
+    },
+    {
+      "title": "U.S. National Debt Crosses $40 Trillion Milestone",
+      "facts": "America's national debt has crossed $40 trillion for the first time, a stark marker of the country's accelerating borrowing habit. President Trump came into office promising to restore fiscal discipline and shrink the debt burden, but those pledges have collided with reality."
+    },
+    {
+      "title": "Trump Threatens Economic Penalties for Iran Trading Partners",
+      "facts": "President Trump's signaling a major escalation in his strategy to isolate Iran economically, suggesting the U.S. will impose penalties on countries that continue doing business with Tehran."
+    },
+    {
+      "title": "Nvidia Earnings Could Rescue Stalling Market",
+      "facts": "Wall Street's holding its breath for Nvidia's earnings report, and there's a lot riding on what the AI chipmaker has to say. Shares of Jensen Huang's company have struggled to make headway since its last results day, and the broader market's been stalling out right alongside it."
+    },
+    {
+      "title": "Rhode Island's Second Home Tax Faces Legal Challenge",
+      "facts": "Rhode Island just passed a new tax specifically targeting high-value second homes, and it's already landed in court. The law imposes an additional levy on properties worth over a certain threshold\u2014but only if the owner doesn't live in Rhode Island full-time."
+    },
+    {
+      "title": "Toll Brothers Sees Fewer Cash Buyers as Luxury Market Softens",
+      "facts": "Toll Brothers just reported a shift that signals the luxury housing market is feeling some pressure. Cash buyers made up 25 percent of the company's home deliveries in its most recent fiscal quarter\u2014that's down from higher levels earlier in the cycle."
+    },
+    {
+      "title": "Tottenham Splashes $102 Million on Manchester City's Savinho",
+      "facts": "Tottenham have agreed to pay Manchester City up to \u00a385 million\u2014that's about $102 million\u2014to sign winger Savinho, according to sources. It's one of the biggest moves of the summer transfer window and a massive statement of intent from Spurs as they try to close the gap on the top of the Premier League."
+    },
+    {
+      "title": "Cavaliers Lock Up Harden and Watson in Blockbuster Day",
+      "facts": "The Cavaliers just made two massive moves to cement their championship window. James Harden's staying in Cleveland on a new three-year deal worth $97 million, his agency confirmed Thursday."
+    },
+    {
+      "title": "Five Buss Siblings Push to Sell Lakers Stake Despite Family Rift",
+      "facts": "The Lakers ownership saga just took another dramatic turn. Five of the six members of the Buss family trust say they're \"united\" in their intention to sell their remaining shares in the team\u2014and that's a direct rebuke to Jeanie Buss, who's been resisting the sale."
+    },
+    {
+      "title": "Claude Aces Protein Design Challenge, Opening Door to Custom Drug Development",
+      "facts": "Anthropic's released results from a protein design challenge that could reshape how new drugs get built\u2014and Claude's success rate is turning heads in biotech circles. The AI designed protein binders for 14 out of 15 test targets, with independent labs confirming the designs actually work in the real world."
     }
   ]
 }
