@@ -1,66 +1,4 @@
 {
-  "2026-08-11": [
-    {
-      "title": "Colombia's Deadliest Earthquake in a Decade",
-      "facts": "A 7.4-magnitude earthquake has killed more than 100 people in Colombia and damaged hundreds of buildings in what's now the strongest quake the country's recorded in ten years. More than 480 people were injured, and rescue teams say they fear more victims are still trapped under collapsed structures."
-    },
-    {
-      "title": "Russia Strikes Ukraine With North Korean Missiles",
-      "facts": "Ukraine says Russia's now using ballistic missiles supplied by North Korea to pummel Ukrainian cities\u2014a major escalation that shows just how reliant Moscow's become on its allies. President Zelensky confirmed that strikes in Zaporizhzhia, which killed at least six people and injured 19 others, involved North Korean-made missiles."
-    },
-    {
-      "title": "Australia's Prime Minister Faces Backlash Over Gift Controversy",
-      "facts": "Australia's prime minister is under fire for what a former Japanese diplomat is calling \"sexist\" remarks about his Japanese counterpart's gifts of melons. The comment's sparked a diplomatic row that threatens to undermine what's supposed to be one of the closest security partnerships in the Indo-Pacific."
-    },
-    {
-      "title": "Syrian Intelligence Chief Sentenced to Death Alongside Assad",
-      "facts": "Bashar al-Assad and a former Syrian intelligence official have both been sentenced to death in absentia for war crimes and crimes against humanity committed during Syria's civil war. The convictions mark a symbolic victory for victims' groups who've spent more than a decade seeking accountability for atrocities during the conflict."
-    },
-    {
-      "title": "Big Sur Wildfire Forces Evacuations Along California's Iconic Coast",
-      "facts": "A fast-moving wildfire erupted near Highway 1 on Sunday and exploded in size overnight, forcing evacuations across Monterey County along one of California's most picturesque stretches of coastline. The blaze broke out in the Big Sur area and spread rapidly through the rugged terrain that's made the region famous with tourists and photographers worldwide."
-    },
-    {
-      "title": "Climber Who Set El Capitan Speed Record Dies in Fall",
-      "facts": "Jake Whisenant, who set a record last year for racing up Yosemite's El Capitan in under three hours, has died in a climbing accident in California. Authorities confirmed his death but haven't released details about where or how the fall occurred."
-    },
-    {
-      "title": "Climate Disasters Force Businesses to Rethink Investment Plans",
-      "facts": "Summer's brutal string of heat waves, wildfires, droughts, and storms is forcing American companies to face an uncomfortable truth: climate adaptation isn't optional anymore. Businesses are now confronting the reality that they'll need to make new investments just to keep operating as extreme weather becomes the norm rather than the exception."
-    },
-    {
-      "title": "Truth Social Sells Post Access for Up to One Hundred Thousand Monthly",
-      "facts": "More than ten companies are now paying Trump Media up to one hundred thousand dollars a month for fast access to Truth Social posts through a controversial new service. The data feed, which launched this month, gives subscribers early access to content posted on the platform\u2014raising questions about who gets priority access to posts from high-profile users."
-    },
-    {
-      "title": "Wells Fargo Flashes Caution Signal as Investor Sentiment Hits Eight-Year High",
-      "facts": "Wells Fargo's market sentiment indicator just hit its highest reading in eight years, and the bank's strategists are urging clients to hedge before next month's inflation data drops. The indicator climbed to 1.4 in August\u2014a level not seen since January 2018, when the market was riding high before a sharp correction."
-    },
-    {
-      "title": "Judge Blocks NYC Pied-\u00e0-Terre Tax Hours Before Rollout",
-      "facts": "A Staten Island judge hit the brakes on New York City's controversial pied-\u00e0-terre tax just hours before it was set to take effect. Wayne Ozzi issued an emergency pause late Monday afternoon, siding with homeowners who filed suit against the city on Friday."
-    },
-    {
-      "title": "Buying a Home Now Requires Double the Income It Did Five Years Ago",
-      "facts": "The income needed to afford a median-priced home in America has surged past $120,000\u2014nearly double the $66,000 required back in 2020. That's a staggering shift in just five years, and it's locking millions of would-be buyers out of homeownership entirely."
-    },
-    {
-      "title": "Cowboys Lock Down Williams With Monster Deal",
-      "facts": "The Dallas Cowboys just made Quinnen Williams one of the richest defensive linemen in football. Williams and the Cowboys agreed to a three-year extension worth $105.9 million, according to sources who spoke with NFL Network's Ian Rapoport."
-    },
-    {
-      "title": "Don Nelson, NBA Coaching Legend, Dies at 86",
-      "facts": "Don Nelson, the second-winningest coach in NBA history, has died at the age of 86. Nelson passed away Sunday, leaving behind a legacy that spans both sides of the basketball bench\u2014he won five NBA championships as a player before becoming one of the game's most innovative coaches."
-    },
-    {
-      "title": "Grizzlies Forward Brandon Clarke Died From Drug Overdose",
-      "facts": "The Los Angeles County medical examiner has determined that Grizzlies forward Brandon Clarke died from the combined effects of heroin and cocaine. The coroner's office announced the findings this week, bringing tragic clarity to Clarke's sudden death."
-    },
-    {
-      "title": "Anthropic Embeds Permanent Watermarks in Claude's Output",
-      "facts": "Anthropic's embedding invisible watermarks into everything Claude writes\u2014and they're nearly impossible to remove. The AI company just announced it's implementing SynthID watermarking across all Claude text output, a move aimed at helping distinguish AI-generated content from human writing."
-    }
-  ],
   "2026-08-12": [
     {
       "title": "Mystery Attackers Target Ecuadorean Fishing Fleet",
@@ -615,6 +553,68 @@
     {
       "title": "Claude Aces Protein Design Challenge, Opening Door to Custom Drug Development",
       "facts": "Anthropic's released results from a protein design challenge that could reshape how new drugs get built\u2014and Claude's success rate is turning heads in biotech circles. The AI designed protein binders for 14 out of 15 test targets, with independent labs confirming the designs actually work in the real world."
+    }
+  ],
+  "2026-08-22": [
+    {
+      "title": "Canada Walks Away From U.S. Trade Deal as 50% Tariffs Take Effect",
+      "facts": "Canada's Prime Minister Mark Carney just turned down what he called a bad trade deal with the United States, and now both countries are paying the price. A new 50% U.S."
+    },
+    {
+      "title": "Swedish School Attack Leaves One Dead, Three Injured",
+      "facts": "A sword attack at a Swedish school has killed one person and injured three others, with police arresting an 18-year-old male suspect after shooting him. Officials say the attack unfolded during school hours, sending students and staff scrambling for safety."
+    },
+    {
+      "title": "Mississippi Police Chief Used Racist Slurs in Private Messages",
+      "facts": "Text messages obtained by reporters show the police chief in a Mississippi department regularly used racist slurs in private communications, and the revelation comes as the department faces intense scrutiny over the fatal shooting of a 1-year-old boy last June. The text exchanges reveal a pattern of troubling language from the chief, raising serious questions about the culture inside the department."
+    },
+    {
+      "title": "Haitian Immigrants in Ohio Forced to Wear Ankle Monitors",
+      "facts": "Immigration authorities have started fitting Haitian residents in Springfield, Ohio with ankle monitors, and the move is creating widespread fear in a community that's already been through months of political targeting. The devices make it easier for ICE to locate immigrants if large-scale deportations begin, turning what had been a quiet resettlement into a kind of virtual detention."
+    },
+    {
+      "title": "Billionaire Venture Capitalist Shapes Trump Homelessness Crackdown",
+      "facts": "Joe Lonsdale, a Silicon Valley venture capitalist and billionaire, has emerged as the driving force behind the Trump administration's aggressive homelessness policies, working through his Cicero Institute to push tough measures aimed at clearing encampments from American streets. The Cicero Institute has been at the forefront of Republican efforts to criminalize street homelessness, advocating for policies that emphasize enforcement over housing-first approaches."
+    },
+    {
+      "title": "Trump Lifts Ground Beef Tariffs, Ranchers Push Back",
+      "facts": "President Trump announced he's lifting tariffs on imported ground beef in a move aimed at lowering grocery prices for American families. The decision targets levies on beef imports, which the administration says have been pushing up costs at the supermarket checkout."
+    },
+    {
+      "title": "US-Canada Trade Deal Races Toward Friday Deadline",
+      "facts": "Negotiators are scrambling to finalize a trade agreement between the United States and Canada before a Friday night deadline, and Canada's lead negotiator says there's still more work to do. The talks are going down to the wire as both countries try to hammer out a deal that would reshape cross-border commerce."
+    },
+    {
+      "title": "US Borrowing Costs Climb as Debt Tops $40 Trillion",
+      "facts": "America's borrowing costs are rising again after a brief dip, and economists say it reflects growing anxiety over the sheer scale of U.S. debt."
+    },
+    {
+      "title": "Tesla Gets Green Light for Vegas Robotaxi Launch",
+      "facts": "Tesla's stock jumped after the company secured approval to launch its robotaxi service in Las Vegas, marking a major step forward for its autonomous vehicle ambitions. The automaker received clearance to deploy thousands of its Cybercab vehicles across Nevada, and it's planning a similar rollout in Austin, Texas soon."
+    },
+    {
+      "title": "Tariff Refunds Flow Back to Corporations",
+      "facts": "Companies are getting massive tariff refunds after the Supreme Court rejected President Trump's levies, and it's turning into what critics are calling a huge corporate welfare program. The money's been flowing back to businesses since the court ruling, but there's growing frustration among consumers who think they deserve a bigger slice of those refunds."
+    },
+    {
+      "title": "Real-RE/MAX Merger Clears Final Hurdle in Canada",
+      "facts": "Real Brokerage just won court approval in Canada for its merger with RE/MAX, knocking down one of the final barriers to creating a combined real estate franchise giant. The Canadian court greenlight follows the overwhelming shareholder votes we reported last week\u201499 percent at Real and nearly 79 percent at RE/MAX."
+    },
+    {
+      "title": "LoanDepot Faces Delisting Warning as Shares Sink",
+      "facts": "LoanDepot is running out of time to save its stock exchange listing. The New York Stock Exchange just sent the mortgage lender a formal notice that its share price has been trading below one dollar for too long, triggering delisting procedures."
+    },
+    {
+      "title": "Manchester United Completes \u00a396 Million Deal for Baleba",
+      "facts": "Manchester United have agreed to pay Brighton \u00a396 million for midfielder Carlos Baleba, according to sources who confirmed the deal to ESPN. It's one of the biggest transfers of the summer window and marks United's continued effort to rebuild their midfield after a disappointing season."
+    },
+    {
+      "title": "Klay Thompson Headed to Miami After Dallas Buyout",
+      "facts": "Klay Thompson's turbulent season in Dallas is over, and he's heading to South Beach. The veteran guard has agreed to a two-year deal worth nearly $13 million with the Heat after clearing waivers following a contract buyout from the Mavericks."
+    },
+    {
+      "title": "Advanced Watermark Detection and Evasion Strategies",
+      "facts": "You're already dealing with Claude's watermarking\u2014but let's talk about the angle almost nobody's exploiting yet: watermark *presence detection* as a proxy signal for AI-generated leases, proposals, and vendor contracts crossing your desk. The watermark embeds statistically invisible patterns in text that detection tools can spot, but here's the power move: you can build a preprocessing filter using the same watermarking detection API to scan *incoming* documents before you process them."
     }
   ]
 }
