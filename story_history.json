@@ -1,66 +1,4 @@
 {
-  "2026-08-12": [
-    {
-      "title": "Mystery Attackers Target Ecuadorean Fishing Fleet",
-      "facts": "Ecuadorean fishing crews working Pacific waters are under attack\u2014and nobody knows who's behind it. Sailors have reported being targeted by a mysterious group using drones, and some crews appear to have been killed in the assaults."
-    },
-    {
-      "title": "U.S. Helicopter Strikes Vessel Breaking Iran Blockade",
-      "facts": "An American military helicopter fired missiles at a cargo ship in the Gulf of Oman, disabling it as it attempted to break through Iran's blockade of the Strait of Hormuz. U.S."
-    },
-    {
-      "title": "Thailand Suspends Gun Permits After School Mass Shooting",
-      "facts": "Thailand's halting all new gun permits following a mass shooting at a school that's reignited the country's debate over firearms. The government announced the suspension in the wake of the attack, though officials haven't said how long the freeze will last or whether it signals a broader crackdown on gun ownership."
-    },
-    {
-      "title": "Iran Disputes Control of Hormuz as Blockade Continues",
-      "facts": "Iran's pushing back hard against claims that it's lost control of the Strait of Hormuz, insisting the waterway will stay closed until the U.S. meets its demands and changes what Tehran calls its \"behavior.\" The statement comes as global energy prices continue climbing, with the blockade now choking off a critical artery for oil shipments."
-    },
-    {
-      "title": "Wisconsin Democrats Pick Moderate for Governor's Race",
-      "facts": "David Crowley pulled off an upset Tuesday night, defeating democratic socialist Francesca Hong in Wisconsin's Democratic primary for governor. The Milwaukee County executive won a tight race that early Wednesday morning showed the party's progressive wing hitting a ceiling outside major urban centers."
-    },
-    {
-      "title": "San Francisco Police Used Excessive Force After License Plate Typo",
-      "facts": "San Francisco police officers tackled and restrained a driver they believed was a car thief\u2014but they'd simply mistyped his license plate number, according to a new report from the city's watchdog agency. The officers used what the oversight agency is calling excessive force during the arrest, mistakenly identifying the driver as a suspect in a stolen vehicle case."
-    },
-    {
-      "title": "Minnesota Picks Its Gubernatorial Nominees",
-      "facts": "Minnesota Republicans chose Lisa Demuth as their nominee for governor Tuesday, rejecting MyPillow founder Mike Lindell despite his endorsement from President Trump. Demuth's win over Lindell marks a rare instance of Minnesota GOP voters declining to follow Trump's lead in a primary contest."
-    },
-    {
-      "title": "Inflation Data Puts September Rate Decision in Play",
-      "facts": "The Federal Reserve's next move hinges on Wednesday's Consumer Price Index report, and officials are looking for any reason to hold off on another rate hike. The latest inflation data will either reinforce the Fed's case for patience or push policymakers toward lifting borrowing costs again in September."
-    },
-    {
-      "title": "Hiring Slowdown Points to Cooling Labor Market",
-      "facts": "Employers are hitting the brakes on hiring, and the slowdown is starting to show up in the data. The labor market, which has been remarkably resilient for months, is finally losing some steam as companies grow wary of adding new workers."
-    },
-    {
-      "title": "Tata Group Chairman Steps Down Amid Board Tensions",
-      "facts": "The chairman of Tata Group, one of India's most powerful conglomerates, is stepping down after losing support from his own board. Chandrasekaran announced he won't seek reappointment when his term ends, citing a lack of backing from the Tata Sons board of directors."
-    },
-    {
-      "title": "Super Micro Stock Surges After Earnings Release",
-      "facts": "Super Micro Computer's stock is rallying after the company released its latest quarterly results, and Wall Street analysts are weighing in on what it means. The server and storage systems maker saw shares climb as investors digested the financial performance."
-    },
-    {
-      "title": "Extreme Weather Is Clogging New York's Eviction Courts",
-      "facts": "New York City's eviction docket has turned into a weather report. Extreme heat, wildfire smoke, and even a surprise snowstorm have triggered a jump in postponements at housing court, according to new data tracking case delays."
-    },
-    {
-      "title": "Vikings Turn to Murray at Quarterback",
-      "facts": "The Minnesota Vikings have made their call at quarterback, and it's Kyler Murray getting the nod over rookie J.J. McCarthy."
-    },
-    {
-      "title": "Bond Revoked in NBA Gambling Case",
-      "facts": "A federal judge in New York has revoked the bond of Deniro Laster, a co-defendant in the NBA gambling scandal that ensnared former Miami Heat guard Terry Rozier. The ruling came Tuesday after prosecutors presented evidence that Laster attempted to intimidate a witness in the case."
-    },
-    {
-      "title": "Claude's Getting Invisible Watermarks\u2014And You Can't Turn Them Off",
-      "facts": "Anthropic just announced that every piece of text and every image Claude generates will soon carry an invisible watermark\u2014and there's no opt-out. The company's rolling out the feature across all its models, embedding a cryptographic signature into outputs that's designed to survive copying, pasting, and even light editing."
-    }
-  ],
   "2026-08-13": [
     {
       "title": "Congo Ebola Outbreak Now Deadliest on Record",
@@ -615,6 +553,60 @@
     {
       "title": "Advanced Watermark Detection and Evasion Strategies",
       "facts": "You're already dealing with Claude's watermarking\u2014but let's talk about the angle almost nobody's exploiting yet: watermark *presence detection* as a proxy signal for AI-generated leases, proposals, and vendor contracts crossing your desk. The watermark embeds statistically invisible patterns in text that detection tools can spot, but here's the power move: you can build a preprocessing filter using the same watermarking detection API to scan *incoming* documents before you process them."
+    }
+  ],
+  "2026-08-23": [
+    {
+      "title": "Right-Wing Leaders Break Borders in Latin America",
+      "facts": "A new brand of right-wing politics is taking hold across Latin America, and it's not staying within national borders. Leaders are openly jumping into each other's elections with endorsements, rally appearances, and sharp attacks on rivals and what they're calling \"wokismo.\" The approach mirrors tactics pioneered by former President Trump, who frequently weighed in on foreign elections and cultivated alliances with like-minded leaders abroad."
+    },
+    {
+      "title": "Coordinated Arson Attacks Strike Southern Thailand",
+      "facts": "Dozens of coordinated arson attacks hit southern Thailand, with the military saying the strikes \"aimed at creating unrest\" in the region. No group has claimed responsibility for the attacks yet, leaving authorities scrambling to identify who's behind the operation."
+    },
+    {
+      "title": "Phoenix Police Officers Arrested After Brutal Traffic Stop",
+      "facts": "Two Phoenix police officers are behind bars tonight, fired and facing criminal charges after authorities say they beat a couple and used a stun gun on them during a traffic stop earlier this month. What makes this case particularly alarming is that the officers never reported the stop at all\u2014it only came to light when the victims came forward."
+    },
+    {
+      "title": "Arizona's Massive Canal System Faces Trump Administration Cuts",
+      "facts": "The sprawling canal system that turned Arizona into an agricultural powerhouse is now in jeopardy, decades after the state agreed to a deal that's come back to haunt it. Arizona won federal funding for a massive Colorado River project years ago by accepting a crucial condition: the state would be first in line for water cuts if the river ever hit severe drought levels."
+    },
+    {
+      "title": "Data Center Opposition Surges Into Midterm Campaign Issue",
+      "facts": "The backlash against data centers has exploded into a full-blown midterm campaign issue, with candidates from both parties now running against the massive facilities. Opposition to the centers has been mounting for months as communities grapple with their enormous energy demands, water consumption, and strain on local infrastructure."
+    },
+    {
+      "title": "U.S.-Canada Trade War Escalates as Tariffs Take Effect",
+      "facts": "The trade war between the United States and Canada officially kicked off this weekend after negotiations collapsed in spectacular fashion. Canadian Prime Minister Mark Carney announced Saturday his country would impose \"dollar-for-dollar\" retaliatory tariffs on American goods, accusing Washington of starting the conflict."
+    },
+    {
+      "title": "CrossCountry Rail Network Collapses After Major Power Failure",
+      "facts": "Britain's CrossCountry rail service ground to a near-total halt after a widespread power cut knocked out virtually all of its UK routes. Passengers described the disruption as the \"worst case scenario,\" with trains stranded and no clear timeline for restoration."
+    },
+    {
+      "title": "Iran-Backed Hackers Compromised British Power Plant",
+      "facts": "Cybersecurity investigators have confirmed that Iranian-linked hackers were behind an attack that forced the shutdown of a British power plant last July. The breach represents a significant escalation in the cyber threats facing Western energy infrastructure, though the UK government says the broader national grid was never in danger."
+    },
+    {
+      "title": "Treasury Bond Buyback Plan Sparks Rally in Gold and Bitcoin",
+      "facts": "The Treasury Department announced plans to double its bond buybacks, and markets reacted fast. Gold and bitcoin both shot higher this week, while the U.S."
+    },
+    {
+      "title": "Fannie Mae Cuts Senior Leadership Amid Broader Restructuring",
+      "facts": "Fannie Mae just eliminated several senior executive positions across its business lines, according to a report from the Wall Street Journal. The mortgage giant notified multiple officials Wednesday that their jobs were being cut, though the company hasn't disclosed exactly how many executives are being shown the door."
+    },
+    {
+      "title": "Skubal Wins First Start for Dodgers After Rough Opening",
+      "facts": "Tarik Skubal's debut in Dodger blue got off to a nightmare start Saturday, with the Pittsburgh Pirates jumping out to a 3-0 lead in the first inning. But the two-time Cy Young Award winner settled down from there, helping the two-time defending World Series champions claw back for a 4-3 victory."
+    },
+    {
+      "title": "Klay Thompson Headed to Miami After Dallas Buyout",
+      "facts": "Klay Thompson's landing with the Miami Heat after a brief and bumpy stint in Dallas. The veteran guard plans to sign a two-year deal worth nearly $13 million with Miami once he clears waivers, following his contract buyout from the Mavericks."
+    },
+    {
+      "title": "Anthropic's New Opus Model Fails Content Filters",
+      "facts": "Anthropic's latest Claude model, Opus 4.6, has a serious problem: it's generating explicit sexual content despite the company's safety guardrails. TechCrunch reports the model is producing what they're calling \"smut\" at rates far higher than previous versions, bypassing the content moderation systems Anthropic built to prevent exactly this kind of output."
     }
   ]
 }
