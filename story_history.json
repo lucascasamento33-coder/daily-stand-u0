@@ -1,58 +1,4 @@
 {
-  "2026-08-14": [
-    {
-      "title": "American Missionary Released After Months-Long Kidnapping in Niger",
-      "facts": "Kevin Rideout is free. The American pilot and missionary was abducted from his home in Niger's capital city, Niamey, last fall and held for months by his captors."
-    },
-    {
-      "title": "Ryanair Window Shattered by Engine Failure, Sucked Passenger Partially Out",
-      "facts": "A broken engine fan blade tore through a Ryanair jet's fuselage mid-flight, smashing a window and partially sucking a passenger's head out of the plane. That's according to a preliminary report from U.S."
-    },
-    {
-      "title": "Record Rainfall Kills Eight and Strands Thousands in Japan",
-      "facts": "Three months' worth of rain fell in just 12 hours east of Tokyo, and the result was catastrophic. At least eight people are dead and thousands more are stranded after what Japanese officials are calling unprecedented flooding in the region."
-    },
-    {
-      "title": "Pentagon Threatens Indefinite Naval Blockade of Iran",
-      "facts": "The U.S. is threatening to impose what it's calling an indefinite naval blockade against Iran, a dramatic escalation that raises serious questions about sustainability."
-    },
-    {
-      "title": "Trump Justice Department Drops Major Fraud Cases, Targets Food Truck Operators Instead",
-      "facts": "The Trump administration's Justice Department is shifting its enforcement strategy in a way that's raising eyebrows among prosecutors and legal experts. While dropping charges against corporations and wealthy defendants, the department is ramping up pursuit of small-scale fraud cases\u2014including going after the operator of a weathered food truck in California."
-    },
-    {
-      "title": "Rural Alaska's Energy Crisis Worsens as War in Iran Drives Diesel Prices Higher",
-      "facts": "Small Alaskan communities like Manley Hot Springs are facing an energy crisis that's threatening their survival. These remote towns and hamlets rely on diesel generators for electricity, and fuel prices have been soaring with no relief in sight\u2014made worse by the ongoing war in Iran disrupting global oil markets."
-    },
-    {
-      "title": "Reddit Joins the S&P 500",
-      "facts": "Reddit's about to join Wall Street's most exclusive club. The social media platform has been added to the S&P 500 index after months of speculation, and shares jumped in after-hours trading Thursday on the news."
-    },
-    {
-      "title": "China's Tariff Dodge Spans Dozens of Countries",
-      "facts": "China's found a workaround for Trump-era tariffs, and it's a big one. A new U.S."
-    },
-    {
-      "title": "South Korean Stock Market Whiplash Hammers Investors",
-      "facts": "South Korea's stock market just put traders through a brutal wringer, and the losses are piling up fast. Some investors say they've lost tens of thousands of dollars in a matter of weeks as the Korean market swung wildly through a sharp correction."
-    },
-    {
-      "title": "Tenant Groups Jump Into Court Battle Over NYC Rent Freeze",
-      "facts": "Two major tenant advocacy groups just filed legal papers to defend New York City's rent freeze\u2014and they're doing it because they don't trust the city to fight hard enough on its own. Tenants and Neighbors and the Metropolitan Council on Housing intervened Thursday in a lawsuit brought by landlords who want the freeze thrown out."
-    },
-    {
-      "title": "PSG Lands World Cup Hero Torres in $58 Million Deal",
-      "facts": "Paris Saint-Germain just pulled off one of the summer's biggest signings, landing Ferran Torres from Barcelona in a deal worth around $58 million. The European champions have been chasing the Spanish forward for weeks, and they've finally got their man."
-    },
-    {
-      "title": "Lakers Sold for Record $12.5 Billion",
-      "facts": "The Lakers have been sold for $12.5 billion\u2014the highest price ever paid for a sports franchise. Businessmen Josh Kushner and Bob Iger are buying the team, according to multiple sources."
-    },
-    {
-      "title": "Claude Code's Invisible Thinking Tax",
-      "facts": "Claude Code's newest extended thinking mode has a nasty surprise buried in it\u2014you're paying for reasoning tokens you can't even see. The Register just uncovered that when you invoke extended thinking, Claude is returning blank thinking blocks in the API response, but you're still being billed for every token it used internally to arrive at the answer."
-    }
-  ],
   "2026-08-15": [
     {
       "title": "Canada Moves to Expel U.S. Ambassador Amid Deepening Rift",
@@ -615,6 +561,64 @@
     {
       "title": "Anthropic Opens Mythos 5 Defense Model and Launches $35 Million Open Source Fund",
       "facts": "Anthropic's making its heavyweight security model, Mythos 5, available to a much wider group of defenders\u2014and backing it up with $35 million to fund open source security work. The company announced it's expanding access to the model, which was previously limited to a small circle of researchers, so that more cybersecurity professionals can use it to hunt threats and build defenses."
+    }
+  ],
+  "2026-08-25": [
+    {
+      "title": "Canada Grants Asylum to Christian Convert Deported Under U.S. Immigration Crackdown",
+      "facts": "Artemis Ghasemzadeh has found a new home in Canada after a harrowing journey that saw her deported from the United States under Trump's immigration enforcement policies. Ghasemzadeh had fled Iran to escape religious persecution for converting to Christianity, a decision that put her life at risk in her home country."
+    },
+    {
+      "title": "Tornado Rips Through French Village, Dozens Injured",
+      "facts": "A violent tornado tore through the south-western French village of Pomas, leaving a trail of destruction and sending fifteen people to hospital. The village took the brunt of the storm, with hundreds of homes damaged in what residents described as a terrifying natural disaster."
+    },
+    {
+      "title": "Australia Battles Rapid Spread of H5N1 Bird Flu",
+      "facts": "Australia's first case of H5N1 bird flu, confirmed in June in migratory seabirds, has now spread to mammals, and government officials are scrambling to contain the outbreak. The virus has moved far faster than authorities anticipated, straining emergency response systems across multiple regions."
+    },
+    {
+      "title": "Libya Erupts in Protests Over Chronic Power Cuts",
+      "facts": "Libyans have taken to the streets with roadblocks and burning tires to protest prolonged power cuts that have left much of the country in darkness. The demonstrations reflect mounting frustration over a problem that's plagued Libya for years but has recently intensified."
+    },
+    {
+      "title": "One in Four NFL Players May Have Degenerative Brain Disease",
+      "facts": "New research is putting a number on what many have long suspected about football's toll on the brain\u2014and it's stark. At least one in four NFL players who died over a six-year period had CTE, the degenerative brain disease caused by repeated head impacts."
+    },
+    {
+      "title": "Pennsylvania Republicans Now Favor Democratic Senator Over Their Own",
+      "facts": "Pennsylvania's political landscape just produced a head-turning result: Republican voters now view Democratic Senator John Fetterman more favorably than the state's sitting GOP senator. That's according to a new poll from The New York Times, The Philadelphia Inquirer, and Siena College, and it's a remarkable shift for a Democrat in a swing state."
+    },
+    {
+      "title": "Trump Threatens to Double Down on Auto and Steel Tariffs",
+      "facts": "President Trump's vowing to crank tariffs on cars, trucks, auto parts, and steel all the way up to 50 percent starting January first\u2014and it's pushing the U.S. and Canada toward what looks like a full-blown trade war."
+    },
+    {
+      "title": "Wall Street Fragility Gauge Hits Maximum Reading",
+      "facts": "A closely watched measure of stock market fragility just flashed red, hitting the highest possible level for the first time since December. The market turbulence indicator reached a reading of 1 on August 19th, signaling maximum stress in the system."
+    },
+    {
+      "title": "Bitcoin Punches Through Eighty Thousand",
+      "facts": "Bitcoin just crossed the $80,000 mark, capping a six-month run that's left both stocks and gold in the dust. The cryptocurrency was hovering around that level Tuesday after surging last week on news from the Treasury Department."
+    },
+    {
+      "title": "Mayor Proposes $4 Billion Temporary Highway While BQE Gets Rebuilt",
+      "facts": "Mayor Mamdani's unveiled a ten-year, $4 billion plan to fix the Brooklyn-Queens Expressway's crumbling city-owned section\u2014and the centerpiece is building a temporary highway while the real work gets done. The BQE's deteriorating triple-cantilever stretch has been a headache for years, with engineers warning that the aging infrastructure poses serious safety risks."
+    },
+    {
+      "title": "Tottenham Lands S\u00e1vio in Blockbuster City Deal",
+      "facts": "Tottenham have completed the signing of S\u00e1vio from Manchester City in a deal worth up to \u00a385 million\u2014that's about $116 million. It's one of the biggest transfers of the summer window and represents a major shake-up for both clubs as the season approaches."
+    },
+    {
+      "title": "Thompson Reunites With Giannis in Miami After Clearing Waivers",
+      "facts": "Klay Thompson's headed to South Beach to join forces with Giannis Antetokounmpo and the Heat. Thompson cleared waivers Sunday and immediately agreed to a two-year deal with Miami, setting up one of the more intriguing partnerships in the league."
+    },
+    {
+      "title": "Sharpe Sidelined Six Months After Tearing Meniscus",
+      "facts": "Portland's taking a major hit to its backcourt\u2014Shaedon Sharpe tore the meniscus in his right knee and he's expected to miss six months, according to sources. That timeline puts Sharpe out until well into the season, a brutal blow for a Trail Blazers team that was counting on him to be a cornerstone of their rebuilding effort."
+    },
+    {
+      "title": "Claude's Slack Agent Now Reads Entire Threads\u2014and Can Reply Without Being Asked",
+      "facts": "Anthropic just shipped a significant upgrade to how Claude works in Slack, and it fundamentally changes the agent's behavior in team channels. The company's new Claude Tag update lets the assistant read entire conversation threads, not just the individual message where it was @mentioned."
     }
   ]
 }
