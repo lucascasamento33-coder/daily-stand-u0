@@ -1,50 +1,4 @@
 {
-  "2026-08-16": [
-    {
-      "title": "Trump Administration Tightens Visa Control Across Latin America",
-      "facts": "The Trump administration is using U.S. visas as a tool to reassert American influence across Latin America, part of what officials describe as an expansionist approach to the Western Hemisphere."
-    },
-    {
-      "title": "Indian Women Face Online Harassment After Joining Public Protests",
-      "facts": "Women who joined recent public protests in India are now facing a wave of online abuse and police visits, highlighting the added risks they take in standing up for their beliefs in a deeply patriarchal society. The harassment campaign began shortly after women participated in demonstrations, with coordinated attacks spreading across social media platforms."
-    },
-    {
-      "title": "ICE Arrests Woman With Active Immigration Case at Airport",
-      "facts": "Immigration and Customs Enforcement just arrested a woman at an airport\u2014not someone with a criminal record, but someone who had an active immigration case and no criminal history. The woman's husband describes himself as a MAGA patriot, and the case is opening a new front in the Trump administration's mass deportation campaign."
-    },
-    {
-      "title": "Internal Feuds Threaten U.S. Lead in Military AI",
-      "facts": "The Pentagon wants to dominate artificial intelligence, but internal fights and China's rapid progress are getting in the way. The Trump administration's approach to the national security implications of AI has been chaotic and inconsistent, even as China\u2014America's main technological and military rival\u2014races ahead."
-    },
-    {
-      "title": "Seventeen Candidates Compete in Alaska Governor's Race",
-      "facts": "Alaska's governor's race has turned into a free-for-all, with seventeen candidates competing for the state's top job. The oil-rich but cash-poor state is facing huge decisions about its fiscal future, and voters will narrow the field to four finalists who'll advance to the general election in November."
-    },
-    {
-      "title": "Walmart and Target Earnings to Test Consumer Strength",
-      "facts": "Walmart and Target are about to give us the clearest picture yet of how American shoppers are holding up under prolonged inflation. The two retail giants report earnings this week, and analysts are watching closely to see whether consumers are still spending or finally pulling back."
-    },
-    {
-      "title": "Appeals Court Revives NYC Pied-\u00e0-Terre Tax After Brief Pause",
-      "facts": "A state appeals judge just threw out the temporary block on New York City's pied-\u00e0-terre tax, getting the controversial levy back on track after a brief legal detour. The ruling came down Thursday afternoon in a Staten Island courtroom, reversing a pause that had given ultra-wealthy homeowners a few days' breathing room from having to prove they actually live in their properties."
-    },
-    {
-      "title": "Real and RE/MAX Shareholders Greenlight Merger",
-      "facts": "Real and RE/MAX are officially moving forward with their merger after shareholders from both companies voted overwhelmingly to approve the deal. Real's shareholders came in at 99 percent in favor, while RE/MAX posted a slightly cooler but still decisive 78.8 percent approval rate."
-    },
-    {
-      "title": "Cardinals Rookie Makes History With Triple-Homer Debut",
-      "facts": "Joshua Baez just delivered the most explosive debut in baseball history. The Cardinals rookie outfielder homered in each of his first three major league plate appearances Saturday, setting an MLB record that's never been done before."
-    },
-    {
-      "title": "Cavaliers Deal Schroder to Charlotte for Mann",
-      "facts": "Cleveland's reshaping its backcourt rotation just weeks before training camp. The Cavaliers are trading guard Dennis Schroder and cash to the Charlotte Hornets in exchange for guard Tre Mann, sources told ESPN on Friday."
-    },
-    {
-      "title": "Anthropic Slaps Watermarks on Claude Output to Meet EU Rules",
-      "facts": "Anthropic just started embedding invisible watermarks into everything Claude generates\u2014and the internet's reaction split into two camps: people worried about getting caught using AI, and scammers rushing to sell fake watermark-removal tools. The watermarking rolled out to comply with the European Union's AI Act, which requires companies to flag machine-generated content so users know what they're reading."
-    }
-  ],
   "2026-08-17": [
     {
       "title": "Zambia's Opposition Leaders Arrested Days After Presidential Vote",
@@ -607,6 +561,68 @@
     {
       "title": "Claude's Memory Now Bridges Cowork and Chat\u2014Here's the Edge You're Missing",
       "facts": "Anthropic just unified Claude's memory system so that anything you teach Claude in a regular chat session is now instantly available to all your Cowork agents\u2014and vice versa. The obvious win is convenience: tell Claude once that you manage properties for Jack Jaffa, and every Cowork workspace knows it without re-prompting."
+    }
+  ],
+  "2026-08-27": [
+    {
+      "title": "Cuban Dissident Faces Backlash After Release to Miami",
+      "facts": "Luis Manuel Otero Alc\u00e1ntara spent years as a political prisoner in Cuba, but his arrival in Miami hasn't brought the hero's welcome he might have expected. The former dissident just landed in South Florida with 4,000 paintings in tow, ready to unpack a new chapter of his life."
+    },
+    {
+      "title": "Norway's King Harald in Critical Condition",
+      "facts": "Europe's oldest reigning monarch is fighting for his life in an Oslo hospital. King Harald of Norway, who's 89 years old, has been hospitalized for more than a week with a rare blood condition, and the palace announced his situation has turned extremely serious."
+    },
+    {
+      "title": "Catastrophic Himalayan Flood Kills Hundreds, Leaves Over a Thousand Missing",
+      "facts": "More than 1,000 people are missing after a catastrophic flood tore through the Himalayan valleys of Nepal and Tibet, killing at least 335. A torrent of mud, water, and ice swept away entire villages and bridges in a disaster that scientists now believe was triggered by a collapsed glacier."
+    },
+    {
+      "title": "Saudi Arabia and Houthis Edge Toward Full-Blown Conflict",
+      "facts": "Saudi Arabia appears to be gearing up for a new war with the Houthis, and analysts say weeks of escalating attacks have brought the two sides to the brink. The Iranian-backed militia has been hitting Saudi targets with increasing frequency, and the kingdom's showing signs it's preparing for a major military response."
+    },
+    {
+      "title": "Judge Opens Door to Manslaughter Verdict in Clancy Triple-Murder Trial",
+      "facts": "A Massachusetts judge has decided to give jurors more options when they deliberate the fate of Lindsay Clancy, who's accused of strangling her three young children to death. If the jury finds Clancy guilty, they'll now be able to choose between first-degree murder, second-degree murder, or manslaughter."
+    },
+    {
+      "title": "West Point's Only Climate Scientist Says He Was Fired for Refusing to Ignore Data",
+      "facts": "Dr. Adam Kalkstein is suing the U.S."
+    },
+    {
+      "title": "Senate Democrats Push Vote on Israel's West Bank Human Rights Record",
+      "facts": "Senator Chris Van Hollen is forcing a Senate vote that could put lawmakers on record about violence against Palestinians in the Israeli-occupied West Bank. The Maryland Democrat is leading a group of Senate colleagues in demanding answers about whether U.S."
+    },
+    {
+      "title": "Fed's Warsh Faces Skeptical Audience at Jackson Hole",
+      "facts": "Kevin Warsh heads to Jackson Hole this week carrying a heavy burden\u2014he's got to convince his own colleagues at the Federal Reserve that he knows what he's doing. The new Fed chair hasn't yet won over the central bankers around him or the investors watching his every move, both groups still wary of how he's tackling inflation and how close he is to the White House."
+    },
+    {
+      "title": "White House Pushes to Expand Definition of Small Business",
+      "facts": "The Trump administration wants to dramatically raise the ceiling on what counts as a \"small business\" when it comes to federal contracts and loans, and the move's got actual small-business owners worried. Under the proposed changes, companies with far higher revenue and employee counts would qualify for programs designed to help mom-and-pop shops compete for government work."
+    },
+    {
+      "title": "Meta Pays $18 Billion to Settle Child Safety Claims",
+      "facts": "Meta's writing an $18 billion check to settle allegations that its platforms failed to protect children online, and the deal could mark a turning point for how social media companies handle youth safety. The settlement wraps up years of legal battles over Instagram and Facebook's impact on minors, from data collection practices to algorithmically amplified harmful content."
+    },
+    {
+      "title": "Nvidia Powers Through With Another Blockbuster Quarter",
+      "facts": "Nvidia just delivered another set of earnings that blew past Wall Street's expectations, and the stock's climbing in premarket trading Thursday. The AI chipmaker's results were strong enough to prompt Goldman Sachs and Citigroup to both raise their price targets on the stock."
+    },
+    {
+      "title": "Salesforce Surges on Earnings Beat and AI Partnership",
+      "facts": "Salesforce shares jumped in premarket trading after the software giant reported results that impressed Wall Street and highlighted its deepening ties to artificial intelligence. Both Citigroup and Jefferies lifted their price targets on the stock following the earnings release."
+    },
+    {
+      "title": "Mortgage Industry Costs Triple Despite Tech Investment",
+      "facts": "It's costing lenders more than three times as much to originate a single loan today than it did fifteen years ago\u2014and that's after spending billions on technology. Industry cost per loan has climbed from $3,685 in 2009 to $11,094 in 2025, a staggering jump that's forcing lenders to rethink how they operate from the ground up."
+    },
+    {
+      "title": "Liverpool Agree $163 Million Deal for PSG's Barcola",
+      "facts": "Liverpool are closing in on one of the biggest transfers of the summer window\u2014a deal worth $163 million to bring Paris Saint-Germain forward Bradley Barcola to Anfield. Sources confirmed to ESPN that the clubs have reached an agreement, marking a massive financial commitment from Liverpool as they look to bolster their attack."
+    },
+    {
+      "title": "Kuminga Joins Timberwolves in $12.4 Million Deal",
+      "facts": "Jonathan Kuminga's heading to Minnesota, and the Timberwolves are betting he can solve their biggest lineup question. Kuminga agreed to a two-year, $12.4 million deal that includes a player option for the second season, his agent confirmed."
     }
   ]
 }
