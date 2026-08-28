@@ -1,54 +1,4 @@
 {
-  "2026-08-17": [
-    {
-      "title": "Zambia's Opposition Leaders Arrested Days After Presidential Vote",
-      "facts": "Zambian authorities have arrested top opposition figures just days after the country's presidential election, alleging they were involved in an insurrection plot. The timing couldn't be more suspect\u2014the leading opposition candidate says there was actually an attempt on his life."
-    },
-    {
-      "title": "Ukrainian Strikes Kill Six Inside Russia",
-      "facts": "Ukrainian forces struck targets inside Russia over the weekend, killing six people including a 14-year-old child, according to the acting governor of the Belgorod region. Four others were injured in the attacks, which represent a continued escalation of Ukraine's willingness to hit Russian territory directly."
-    },
-    {
-      "title": "China Pushes to Export Its Data to Power Global AI",
-      "facts": "China isn't just exporting AI models\u2014it wants Chinese data to train and influence the world's chatbots, and that's raising serious concerns in Western capitals. Beijing sees data as the new oil, and it's working to ensure that its narratives, language patterns, and perspectives become embedded in the artificial intelligence systems that billions of people will interact with."
-    },
-    {
-      "title": "Drone Attack Targets Iraqi Kurdish Leader's Office",
-      "facts": "Explosive drones struck the office of Iraqi Kurdistan's prime minister and the residence of a top security official, though no casualties were reported. The coordinated attacks targeted Prime Minister Masrour Barzani's office in what appears to be a significant escalation in the region's already fragile security situation."
-    },
-    {
-      "title": "Trump Halts Military Exercises With South Korea in North Korea Praise Post",
-      "facts": "President Trump ordered the Pentagon to scale back military exercises with South Korea, announcing the decision in a social media post that simultaneously criticized Seoul and praised Pyongyang. The president said South Korea hasn't done enough to help denuclearize Iran\u2014a complaint that caught national security experts off guard, since South Korea has no formal role in Iran negotiations."
-    },
-    {
-      "title": "Goldman Sees AI Productivity Gains Just Around the Corner",
-      "facts": "Wall Street's finally putting a timeline on the question everyone's been asking: when does artificial intelligence start making companies actually more productive, not just more expensive? Goldman Sachs just released a list of twenty stocks it believes are positioned to capture gains as AI adoption spreads beyond the infrastructure build-out phase."
-    },
-    {
-      "title": "Elon Musk's Texas Chip Factory Sparks Local Backlash",
-      "facts": "Elon Musk's planning to build the world's largest building in rural Texas, and his new neighbors aren't exactly rolling out the welcome mat. The project is a semiconductor factory roughly the size of a thousand Costco stores, and residents in the county are raising concerns about what that kind of scale will do to their community."
-    },
-    {
-      "title": "Virgin Eyes Channel Tunnel Rail Expansion",
-      "facts": "Virgin's taking a run at the Channel Tunnel, hoping to launch up to twenty daily rail journeys between the UK and Europe. The company's already secured some of the necessary approvals, but it still needs the green light to operate on tracks overseas, which is where the regulatory heavy lifting begins."
-    },
-    {
-      "title": "Housing Inventory Climbs as Mortgage Rates Stay High",
-      "facts": "Home inventory is finally starting to tick up, but it's hardly a flood of new supply. Mid-August data shows 871,063 homes on the market, a slight increase compared to last year, as mortgage rates hovering near their recent highs keep would-be sellers locked in place."
-    },
-    {
-      "title": "Barcelona Lands Rodri in $87 Million Deal With Manchester City",
-      "facts": "Barcelona have pulled off one of the summer's biggest coups, agreeing in principle to sign Manchester City midfielder Rodri for $87 million. Multiple sources confirmed the deal to ESPN, marking a major shift in European football's power dynamics."
-    },
-    {
-      "title": "Cavaliers Trade Schroder to Hornets for Mann",
-      "facts": "The Cavaliers are shaking up their backcourt, sending guard Dennis Schroder and cash to the Charlotte Hornets in exchange for guard Tre Mann. Cleveland confirmed the deal Friday, marking a notable shift in the team's rotation as they look to retool their roster."
-    },
-    {
-      "title": "Claude's New Web Browser Turns Cowork Into a Mini Operating System",
-      "facts": "Anthropic just shipped a web browser inside Claude Desktop's Cowork mode, and this isn't about reading articles\u2014it's about giving your autonomous sessions the ability to interact with any web app directly, without you building a custom MCP server or plugin first. The browser lives inside Cowork sessions, so when you're orchestrating multiple subagents, one of them can now navigate to a property management portal, fill forms, download PDFs, or scrape data in real time while other subagents handle analysis or drafting in parallel."
-    }
-  ],
   "2026-08-18": [
     {
       "title": "Earthquake Survivors in Colombia's Choc\u00f3 Face Mounting Crisis",
@@ -623,6 +573,60 @@
     {
       "title": "Kuminga Joins Timberwolves in $12.4 Million Deal",
       "facts": "Jonathan Kuminga's heading to Minnesota, and the Timberwolves are betting he can solve their biggest lineup question. Kuminga agreed to a two-year, $12.4 million deal that includes a player option for the second season, his agent confirmed."
+    }
+  ],
+  "2026-08-28": [
+    {
+      "title": "Nepal Faces Second Catastrophic Flood as Border Lake Nears Breaking Point",
+      "facts": "Nepal's race to rescue survivors from last week's devastating floods just got more urgent. Police are now warning residents in already flood-ravaged villages to evacuate immediately because a massive lake that formed near the Tibet border after a landslide could breach at any moment."
+    },
+    {
+      "title": "Norway's Crown Prince Haakon Ascends to the Throne",
+      "facts": "Crown Prince Haakon is Norway's new king. The only son of King Harald V has taken over the monarchy, a role that's largely ceremonial and symbolic in Norway's parliamentary democracy."
+    },
+    {
+      "title": "Malaysia's Plan to Deport Rohingya Migrants Sparks Panic",
+      "facts": "Malaysia's announced it plans to send Rohingya migrants back to Myanmar, and the decision has sent waves of fear through a community that's already been through hell. The Rohingya fled Myanmar to escape brutal military rule, a civil war that's still raging, religious persecution, or often all three at once."
+    },
+    {
+      "title": "Israeli Drone Fire Sends Gaza Children Scrambling for Cover",
+      "facts": "New video from Gaza shows children taking cover behind a shopping cart during what's reported as a gun attack by an Israeli drone. The footage captures the desperation of civilians, including kids, trying to shield themselves with whatever's at hand during drone fire."
+    },
+    {
+      "title": "Jury Weighs Criminal Responsibility in Massachusetts Triple-Murder Case",
+      "facts": "A Massachusetts jury is now deliberating whether Lindsay Clancy should be held criminally responsible for killing her three children. The case hinges on the question of mental state\u2014prosecutors say she knew what she was doing, while the defense argues she wasn't capable of understanding her actions at the time."
+    },
+    {
+      "title": "Arizona Town Council Tie Broken by Card Draw",
+      "facts": "Two candidates for Town Council in Gila Bend, Arizona finished with exactly the same number of votes\u2014so they broke the tie by drawing a card. State law dating back more than a century requires ties in local elections to be settled by a game of chance, and that's exactly what happened."
+    },
+    {
+      "title": "Trump Pushes to Redefine \"Small Business\" in Federal Contracting",
+      "facts": "The Trump administration wants to raise the revenue and employee thresholds that determine which companies qualify as \"small businesses\" for federal contracts and loans\u2014a change that could shut out the smallest firms in favor of much larger competitors. Right now, the Small Business Administration caps eligibility based on industry-specific revenue limits and employee counts, but the proposed rules would let billion-dollar companies qualify in some sectors."
+    },
+    {
+      "title": "PayPal Takeover Deal Falls Apart, Shares Sink",
+      "facts": "PayPal's stock took a hit after reports surfaced that potential buyers have walked away from takeover talks, leaving the payment giant to fix its problems on its own. For months, speculation about a possible acquisition had been propping up the company's share price, giving investors hope that a deep-pocketed suitor might step in."
+    },
+    {
+      "title": "Clinton Hill Modernist Townhouse Sells at Steep Discount",
+      "facts": "A polarizing modernist townhouse in Clinton Hill has finally found a buyer after lingering on the market\u2014and it sold at a major price cut. The two-family house, which drew strong reactions for its contemporary design in a neighborhood of historic brownstones, is being converted into a single-family home for a buyer with three kids."
+    },
+    {
+      "title": "UEFA Takes FIFA to Criminal Court Over Club World Cup Clash",
+      "facts": "UEFA's taken its war with FIFA president Gianni Infantino into criminal court, and the timing couldn't be more pointed\u2014the announcement came during Thursday's Champions League draw in Monaco. European soccer's governing body is filing a criminal complaint over FIFA's expanded Club World Cup, which UEFA says violates antitrust laws and threatens the health and safety of players."
+    },
+    {
+      "title": "Chris Sale Hits Triple Digits in First Complete Game Since 2019",
+      "facts": "Chris Sale threw his two fastest pitches since 2018\u2014both topping 100 miles per hour, both to Shohei Ohtani\u2014and went the distance for the first time in over half a decade as the Braves swept the Dodgers on Thursday. It's a stunning resurgence for a pitcher who's battled injuries and inconsistency for years, and the performance helped Atlanta clinch the series in emphatic fashion."
+    },
+    {
+      "title": "Kuminga Heads to Minnesota in Starting Role Deal",
+      "facts": "Jonathan Kuminga's heading to the Timberwolves on a two-year, $12.4 million contract that includes a player option, his agent confirmed. Minnesota sold him on something more valuable than just the money\u2014a guaranteed starting spot at power forward."
+    },
+    {
+      "title": "Claude Can Now Control Lab Equipment and Robots",
+      "facts": "Anthropic just unveiled something that takes Claude out of the screen and into the physical world\u2014a new hardware standard that lets Claude directly control lab equipment, robots, and scientific instruments. It's called the Model Hardware Standard, and it's the company's first real move into what people are calling \"physical AI.\" Instead of just analyzing data or writing code, Claude can now tell a pipette to move, a microscope to focus, or a robotic arm to pick something up."
     }
   ]
 }
