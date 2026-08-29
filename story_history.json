@@ -1,54 +1,4 @@
 {
-  "2026-08-18": [
-    {
-      "title": "Earthquake Survivors in Colombia's Choc\u00f3 Face Mounting Crisis",
-      "facts": "Survivors of last week's deadly earthquake in Colombia's Choc\u00f3 region are confronting what the governor calls a grim future of \"pain, hunger and homelessness.\" The remote, impoverished region\u2014already one of Colombia's most isolated areas\u2014has seen conditions deteriorate sharply since the disaster that killed more than 100 people. International pop star Shakira traveled to the region this week in an effort to draw global attention to the unfolding humanitarian crisis."
-    },
-    {
-      "title": "Mourners Remember China's Former Premier as Nostalgia Meets Censorship",
-      "facts": "Beijing held the funeral for former premier Zhu Rongji this week, but authorities are walking a tightrope between honoring his legacy and controlling what people say about it. Zhu, who led China during a period of rapid economic growth in the late 1990s and early 2000s, is remembered by many Chinese as presiding over an era of optimism that's since faded."
-    },
-    {
-      "title": "Texas Tech Under Fire for AI Screening of Course Content",
-      "facts": "Texas Tech University is using artificial intelligence to flag and remove what it considers left-leaning content from its courses\u2014and the effort's being led by a politician who's driving Texas' conservative overhaul of higher education. The state lawmaker now runs the university system and has deployed AI tools to search for what he calls forbidden topics in class materials."
-    },
-    {
-      "title": "Election Denier Offered Job Running California County Voting",
-      "facts": "The top elections official in Shasta County, California, has offered a job to Tina Peters, the Trump supporter who was convicted of tampering with voting machines in Colorado. Peters, who became a hero to some election conspiracy theorists after her criminal case, would be in charge of running elections in the Northern California county if the offer is finalized."
-    },
-    {
-      "title": "Treasury Yields Hit Seventeen-Year High as Bond Selloff Intensifies",
-      "facts": "The 30-year Treasury yield just climbed to its highest level since 2007, and it's part of a global bond market rout that's got investors on edge. Rising concerns about persistent inflation and a flood of new government debt hitting the market are battering fixed income investments across the board."
-    },
-    {
-      "title": "Job Openings Drop to Five-Year Low as Small Firms Pull Back",
-      "facts": "Job vacancies across the U.K. have fallen to their lowest level in five years, and it's small businesses leading the retreat."
-    },
-    {
-      "title": "U.S. and Canada Race Against Tariff Deadline as Trade Talks Intensify",
-      "facts": "Mark Carney's got one last shot to convince the Trump administration not to slap fresh tariffs on Canadian goods, and the clock's ticking. Negotiators on both sides are scrambling to reach a deal before the U.S."
-    },
-    {
-      "title": "Mortgage Defect Rate Climbs as Lenders Grapple With Compliance Failures",
-      "facts": "The mortgage industry's defect rate just jumped to 1.71% in the first quarter of 2026, according to new data from ACES Quality Management. That's a red flag for lenders who've been working to tighten up their underwriting and compliance processes."
-    },
-    {
-      "title": "Homebuilder Sentiment Slips as Affordability Crunch Stalls Orders",
-      "facts": "Homebuilders are feeling the squeeze, and it's showing up in softer sentiment as affordability pressures keep would-be buyers on the sidelines. The industry's still relying heavily on incentives\u2014rate buydowns, closing cost credits, you name it\u2014to move inventory and keep sales flowing."
-    },
-    {
-      "title": "Manchester City's Rodri Joins Barcelona in Major Transfer",
-      "facts": "Manchester City's losing one of their most important players\u2014midfielder Rodri is headed to Barcelona in a deal worth \u20ac76.5 million, or about \u00a365.3 million. The Spain international has already arrived in Barcelona ahead of what he's calling a \"dream\" move to the Catalan club."
-    },
-    {
-      "title": "NBA Clears Clippers Owner in Kawhi Leonard Payment Investigation",
-      "facts": "The NBA's wrapped up its probe into whether Clippers owner Steve Ballmer funneled money to Kawhi Leonard through team sponsors\u2014and investigators came up empty. Three people with knowledge of discussions between the league and the team say there's no evidence Ballmer used corporate sponsors to pay Leonard under the table."
-    },
-    {
-      "title": "Claude Adds Invisible Watermarks\u2014and Users Aren't Happy",
-      "facts": "Anthropic just rolled out invisible watermarks across everything Claude writes, and the backlash from paying subscribers has been swift. The company's embedding Google DeepMind's SynthID technology into Claude's text output, subtly \"nudging\" word choices to create a detectable pattern that's supposed to survive edits and paraphrasing."
-    }
-  ],
   "2026-08-19": [
     {
       "title": "Trump Pauses Canada Tariffs as Negotiations Continue",
@@ -627,6 +577,64 @@
     {
       "title": "Claude Can Now Control Lab Equipment and Robots",
       "facts": "Anthropic just unveiled something that takes Claude out of the screen and into the physical world\u2014a new hardware standard that lets Claude directly control lab equipment, robots, and scientific instruments. It's called the Model Hardware Standard, and it's the company's first real move into what people are calling \"physical AI.\" Instead of just analyzing data or writing code, Claude can now tell a pipette to move, a microscope to focus, or a robotic arm to pick something up."
+    }
+  ],
+  "2026-08-29": [
+    {
+      "title": "Trump Secures Control of Venezuela's Oil Reserves in Unusual Deal",
+      "facts": "President Trump announced what he's calling a historic agreement that hands the United States control over 65 billion barrels of Venezuelan oil. Venezuela's interim president says the unusual arrangement will help revive her country's economy, which has been battered by years of sanctions and political instability."
+    },
+    {
+      "title": "Nepal Searches for 2,400 Missing After Catastrophic Floods",
+      "facts": "Rescue teams in Nepal are entering their fourth day of searching for 2,400 people still missing after catastrophic flooding tore through the vulnerable nation. Officials describe the devastation as \"immense\" as the full scale of destruction comes into focus across affected regions."
+    },
+    {
+      "title": "Trump's Economic Promises Collide With Reality as Midterms Approach",
+      "facts": "President Trump campaigned in 2024 on fixing the economy, but nearly two years into his term, the problems he vowed to solve have only gotten worse. High debt levels and rising consumer prices are now defining issues as midterm elections draw closer, creating a political headache for Republicans."
+    },
+    {
+      "title": "Lettuce Crisis Forces California Farmers to Destroy Crops and Cut Workers",
+      "facts": "California lettuce growers are plowing millions of heads of lettuce back into the soil and laying off workers after a nationwide outbreak of cyclosporiasis crushed demand for the crop. The parasitic illness, linked to contaminated produce, has made shoppers wary of buying lettuce even from unaffected farms."
+    },
+    {
+      "title": "Deportation Policy Extends Beyond Borders in Trump Immigration Crackdown",
+      "facts": "The Trump administration's deportation agenda has taken a global turn, with immigrants now being sent not just to their home countries but to third nations across the world. White House correspondent Zolan Kanno-Youngs reports that these so-called third-country deportations represent a significant expansion of enforcement tactics."
+    },
+    {
+      "title": "Federal Reserve Faces Renewed Inflation Pressure",
+      "facts": "Kevin Warsh, one of the Federal Reserve's key voices, just signaled that interest rates could be heading back up if inflation doesn't ease soon. Speaking publicly, Warsh said the Fed has \"work to do\" if price increases keep squeezing American households\u2014a clear warning that policymakers are watching price data closely."
+    },
+    {
+      "title": "Big Tech Concentration Drives Market's Unusual Trading Pattern",
+      "facts": "The S&P 500 is pulling off something strange this year\u2014it's been climbing even on days when most stocks are actually falling. What's happening is that investors' laser focus on artificial intelligence is giving a handful of mega-cap tech companies so much weight that they're single-handedly carrying the entire index higher, even when the broader market struggles."
+    },
+    {
+      "title": "Microsoft Shares Notch Longest Winning Streak of 2025",
+      "facts": "Microsoft shares just closed out their longest winning streak of the year, and the rally comes as fears about the company's AI software business start to ease. The stock has been climbing steadily as analysts point out that Microsoft's software infrastructure will be critical for companies deploying artificial intelligence at scale."
+    },
+    {
+      "title": "Immigration Raids Freeze Homebuilding Workforce",
+      "facts": "Homebuilders across several states say their construction sites have ground to a near standstill as workers\u2014even those in the country legally\u2014are staying home in fear after a surge in ICE raids this summer. The enforcement actions have swept up both undocumented workers and legal residents, creating what builders describe as a chilling effect across entire job sites."
+    },
+    {
+      "title": "Wildfire Evacuations Hit Washington Real Estate Market",
+      "facts": "Real estate agents in eastern Washington are juggling property transactions while helping clients recover from wildfires that have destroyed hundreds of homes in the Spokane area. More than 850,000 acres have burned across the state, and the destruction is reshaping the local housing market in real time."
+    },
+    {
+      "title": "Tampa Bay Rays Stadium Deal Clears Final Hurdle",
+      "facts": "The Tampa Bay Rays are getting their new ballpark. County commissioners gave final approval Friday to a financing plan that'll let the team build a new stadium, marking the end of years of negotiations over where and how the Rays would play long-term."
+    },
+    {
+      "title": "Timberwolves Lock Down Former Warriors Wing Kuminga",
+      "facts": "Jonathan Kuminga is heading to Minnesota on a two-year deal worth $12.4 million, and the Timberwolves made him a simple promise that sealed it: he'll start at power forward. The contract includes a player option, giving Kuminga an escape hatch if things don't work out."
+    },
+    {
+      "title": "Jeanie Buss Goes to Court to Block Lakers Sale",
+      "facts": "Jeanie Buss is asking a Los Angeles judge to stop her siblings from selling the family's remaining stake in the Lakers, and it's turning into a very public fight over one of basketball's most iconic franchises. She filed a petition in Superior Court challenging the legality of a family vote that would green-light the sale of their shares."
+    },
+    {
+      "title": "Federal Judge Blocks Pentagon's Anthropic Blacklist",
+      "facts": "A federal judge just ruled the Pentagon's blacklisting of Anthropic was unlawful, handing the AI company a major legal victory in its fight against the Trump administration. The judge called the Defense Department's actions \"illegal and baseless,\" marking a rare courtroom rebuke of national security officials."
     }
   ]
 }
