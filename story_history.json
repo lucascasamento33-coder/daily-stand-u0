@@ -1,70 +1,4 @@
 {
-  "2026-08-19": [
-    {
-      "title": "Trump Pauses Canada Tariffs as Negotiations Continue",
-      "facts": "The White House says it's holding off on new tariffs against Canada for three days, with President Trump claiming a deal is nearly done. Trump announced the pause Tuesday, saying the two countries are finalizing documents that would avert import taxes on a range of Canadian goods."
-    },
-    {
-      "title": "Ukraine's Former Defense Minister Breaks With Zelensky, Demands Elections",
-      "facts": "Mykhailo Fedorov, Ukraine's former defense minister who was fired just last month, is now calling for presidential elections\u2014a direct challenge to Volodymyr Zelensky's government. Fedorov, a popular young leader, argued that Russia shouldn't be allowed to dictate when Ukrainians can choose their next government."
-    },
-    {
-      "title": "China Investigates Comedian Over Riff on Patriotic Song",
-      "facts": "One of China's most famous comedians is under investigation after singing a modified version of a patriotic song, the latest sign of the government's tightening grip on the arts. Guo Degang was reported to authorities following the performance, which apparently didn't sit well with someone who heard it."
-    },
-    {
-      "title": "Israeli PM Digs In as U.S. Envoys Struggle for Influence",
-      "facts": "Any peace deal in Israel's multiple conflicts would be politically damaging for Prime Minister Benjamin Netanyahu\u2014and that's making it nearly impossible for White House envoys to move the needle. U.S."
-    },
-    {
-      "title": "Florida Arson Suspect Faces Second Trial After June Mistrial",
-      "facts": "The federal government is moving forward with a second prosecution of the man accused of starting the fire that turned deadly in California's Pacific Palisades neighborhood. Prosecutors announced they'll retry the case after a stunning mistrial back in June, when jurors failed to reach a verdict."
-    },
-    {
-      "title": "Alaska's Ranked-Choice Ballot Takes Shape With Four Governor Candidates",
-      "facts": "Alaska's unusual ranked-choice voting system is producing an equally unusual governor's race this fall. Four candidates have now advanced to the November ballot, including two Democrats who'll be competing against each other and two Republicans."
-    },
-    {
-      "title": "Europe Scrambles to Close Investment Gap in Tech Race",
-      "facts": "Europe's facing a nearly trillion-dollar problem in its race to compete with the U.S. and China on cutting-edge technology."
-    },
-    {
-      "title": "UK Inflation Jumps to Four-Month High on Energy Costs",
-      "facts": "Britain's inflation rate climbed to 2.9 percent, the highest it's been in four months, driven by a sharp rise in energy bills. The increase had been widely expected by economists, as the spike in oil prices from Iran's blockade of the Strait of Hormuz works its way through the economy."
-    },
-    {
-      "title": "Bond Selloff Isn't Sinking Stocks Yet",
-      "facts": "The bond market's having a rough stretch, with yields climbing sharply\u2014but one prominent market strategist says investors shouldn't expect stocks to follow bonds into the basement. Mark Newton at Fundstrat is pushing back against the panic, arguing that the technical evidence doesn't support fears of a deeper stock market rout driven by rising bond yields."
-    },
-    {
-      "title": "Chinese Robot Maker Soars Over 600 Percent in Debut",
-      "facts": "Unitree just became the first humanoid robot company to list on a Chinese stock exchange\u2014and investors went wild. Shares of the robotics firm surged more than 600 percent in their trading debut, a staggering pop that underscores the frenzy around artificial intelligence and automation in China's tech sector."
-    },
-    {
-      "title": "Homebuilding Slams Into Credit Crunch",
-      "facts": "Private homebuilders are getting squeezed hard as they head into budget season, and the numbers tell the story. Development loan rates have climbed to an effective 12.59%, according to the National Association of Home Builders, making it far more expensive to finance new projects."
-    },
-    {
-      "title": "Bayern's Musiala Reveals Seizure Diagnosis",
-      "facts": "Bayern Munich's Jamal Musiala has disclosed he's dealing with absence seizures after collapsing on the pitch twice in four days. The 21-year-old midfielder says the condition is treatable, though the club hasn't specified a timeline for his return."
-    },
-    {
-      "title": "Manchester United in Talks for Brighton's Baleba",
-      "facts": "Manchester United are negotiating with Brighton over a potential deal for midfielder Carlos Baleba, according to sources at ESPN. The move would bring the 20-year-old Cameroon international to Old Trafford as United look to bolster their midfield options."
-    },
-    {
-      "title": "Lakers Ownership Battle Escalates as Buss Family Splits",
-      "facts": "Five members of the Buss family trust say they're moving forward with selling their remaining stake in the Lakers\u2014and Jeanie Buss is fighting back. The five siblings claim they're \"united\" in their decision to offload their shares to new owners Josh Kushner and Bob Iger, but Jeanie's now contesting the sale directly."
-    },
-    {
-      "title": "Clippers Clear Ballmer in Kawhi Leonard Payment Probe",
-      "facts": "The NBA's wrapped up its investigation into whether Clippers owner Steve Ballmer funneled extra payments to Kawhi Leonard through team sponsors\u2014and it's found no evidence to support the allegation. Three people with knowledge of discussions between the league and the team say the NBA couldn't prove Ballmer used corporate sponsors to skirt salary cap rules."
-    },
-    {
-      "title": "Claude Cowork Lands on Mobile\u2014And Rolling Limits Just Doubled",
-      "facts": "Anthropic just pushed Claude Cowork to mobile for all paid subscribers, meaning you can now spin up persistent collaborative workspaces on your phone or tablet\u2014not just desktop. That's the headline, but here's the power move most users are missing: Cowork sessions on mobile inherit the same MCP server connections and custom tools you've configured on desktop, so a Cowork agent with access to your Buildium MCP or Gmail can now run autonomously while you're away from your Mac mini."
-    }
-  ],
   "2026-08-20": [
     {
       "title": "Evergrande Founder Sentenced to Life Behind Bars",
@@ -635,6 +569,72 @@
     {
       "title": "Federal Judge Blocks Pentagon's Anthropic Blacklist",
       "facts": "A federal judge just ruled the Pentagon's blacklisting of Anthropic was unlawful, handing the AI company a major legal victory in its fight against the Trump administration. The judge called the Defense Department's actions \"illegal and baseless,\" marking a rare courtroom rebuke of national security officials."
+    }
+  ],
+  "2026-08-30": [
+    {
+      "title": "Venezuela Reacts to U.S. Oil Deal",
+      "facts": "A deal that hands the United States majority control of Venezuela's massive oil reserves is sparking outrage across the country, with many Venezuelans calling it a new form of colonialism. The agreement strikes at the heart of Venezuelan national identity\u2014oil has been central to the country's sense of sovereignty for generations."
+    },
+    {
+      "title": "Iceland Rejects EU Membership Talks",
+      "facts": "Iceland has voted no on restarting negotiations to join the European Union, with more than half the country rejecting the proposal. Broadcaster RUV reports that 52.8% of voters turned down the government's plan to resume talks with Brussels."
+    },
+    {
+      "title": "Tibet Flood Leaves Hundreds Missing",
+      "facts": "China says 261 foreigners from 23 countries are missing after catastrophic flooding in Tibet, offering one of the clearest pictures yet of a disaster Beijing has said very little about. The disclosure marks a rare moment of transparency from Chinese authorities, who've released few details about what happened on their side of the border."
+    },
+    {
+      "title": "Iran's Khamenei Calls for Gulf Unity",
+      "facts": "Iran's Supreme Leader is calling on Gulf Arab states to unite against what he's calling their \"real enemy,\" even as tensions over the Strait of Hormuz continue to simmer. Ayatollah Khamenei urged Gulf rulers to confront shared threats, though he didn't specify exactly who that enemy is."
+    },
+    {
+      "title": "Federal Judge Blocks Postal Service Ballot Delivery Rule",
+      "facts": "A federal judge has temporarily blocked the Postal Service from refusing to deliver mail-in ballots in states that don't comply with new requirements, a ruling that could affect millions of voters across the country. The agency had moved to implement a rule that would have barred ballot delivery in what it deemed noncompliant states, raising immediate concerns about voter access heading into crucial elections."
+    },
+    {
+      "title": "Rhode Island Governor's Bridge Closure Haunts Reelection Bid",
+      "facts": "Rhode Island Governor Dan McKee is fighting for his political life in a Democratic primary, and a bridge is threatening to sink him. McKee ordered the closure of a crucial Rhode Island bridge for safety reasons back in 2023, and the resulting traffic nightmare has followed him ever since."
+    },
+    {
+      "title": "Hiring Slowdown Deepens as Labor Market Loses Steam",
+      "facts": "The U.S. labor market's losing momentum, and it's happening faster than many expected."
+    },
+    {
+      "title": "Rising Bond Yields Hit G7 Nations With Billions in New Debt Costs",
+      "facts": "The world's biggest developed economies are facing tens of billions of dollars in higher debt costs, and they can blame rising bond yields for the squeeze. Since the start of the U.S.-Iran conflict, yields have been climbing steadily, making it far more expensive for governments to borrow and service their existing debt."
+    },
+    {
+      "title": "Trump Announces Deal for Control of Venezuelan Oil Reserves",
+      "facts": "The Trump administration has announced what it's calling a historic agreement to control 65 billion barrels of Venezuelan oil. The unusual deal involves Venezuela's interim president, who says the arrangement will help revive her country's battered economy after years of collapse and international isolation."
+    },
+    {
+      "title": "Tim Cook's Supply Chain Revolution Remade Apple",
+      "facts": "Tim Cook wasn't supposed to be the kind of CEO who could lead Apple into its next era. Critics dismissed him as \"not a product guy,\" a back-office operator who couldn't possibly fill Steve Jobs' shoes."
+    },
+    {
+      "title": "Housing Demand Shows Early Signs of Cooling",
+      "facts": "Housing demand is starting to tap the brakes after months of surprisingly strong activity. New data shows buyer interest has softened compared to recent peaks, though the market isn't exactly grinding to a halt either."
+    },
+    {
+      "title": "Immigration Enforcement Disrupts Home Construction Workforce",
+      "facts": "Job site raids by Immigration and Customs Enforcement have surged this summer, and homebuilders in multiple states say the crackdown is creating chaos on construction sites. Workers\u2014including those in the U.S."
+    },
+    {
+      "title": "Chelsea Sign World Cup-Winning Goalkeeper Mart\u00ednez",
+      "facts": "Chelsea have pulled off one of the transfer window's biggest coups, signing Emiliano Mart\u00ednez from Aston Villa. The World Cup-winning goalkeeper is making the move across the Premier League in a deal that reshapes Chelsea's goalkeeping picture for the foreseeable future."
+    },
+    {
+      "title": "Cowboys Acquire Steelers Tackle Jones in Draft Pick Swap",
+      "facts": "Dallas is retooling its offensive line after landing Broderick Jones from Pittsburgh in a draft-heavy trade. The Cowboys are getting the Steelers' 2023 first-round pick along with a fourth-round selection in 2027, sending back third- and sixth-round picks in that same draft."
+    },
+    {
+      "title": "Timberwolves Add Kuminga in Starting Role, Move Green to Utah",
+      "facts": "Jonathan Kuminga is heading to Minnesota on a two-year deal worth $12.4 million, and the Timberwolves made it clear why they wanted him: he's getting the starting power forward slot. The contract includes a player option, giving Kuminga some flexibility down the line."
+    },
+    {
+      "title": "Claude Code Weekly Limits Slashed\u2014and Why the Math Stings More Than It Looks",
+      "facts": "Anthropic's cutting Claude Code's weekly usage limits by 17%, starting now. That might sound like a modest trim, but here's the bite: if you're running scheduled tasks or heavy daily workflows, you're losing more than one full day of budget every week."
     }
   ]
 }
