@@ -1,62 +1,4 @@
 {
-  "2026-08-20": [
-    {
-      "title": "Evergrande Founder Sentenced to Life Behind Bars",
-      "facts": "China just handed down a life sentence to Hui Ka Yan, the billionaire who built Evergrande into the world's most indebted property developer before it all came crashing down. The punishment marks the culmination of one of the most dramatic corporate collapses in modern Chinese history\u2014a collapse that triggered a crisis still rippling through the country's economy."
-    },
-    {
-      "title": "Russian Missiles Slam Kyiv as Ukraine's Air Defenses Run Dry",
-      "facts": "At least 13 people are dead in Kyiv after a massive Russian missile barrage Thursday, and the timing tells you everything about where this war stands right now. Moscow's taking full advantage of Ukraine's dwindling stock of air defense interceptors, intensifying attacks on the capital and other cities with a pace and ferocity not seen in months."
-    },
-    {
-      "title": "Indian Workers Training the Machines That May Replace Them",
-      "facts": "There's a small city in south India where artificial intelligence is doing something unexpected\u2014it's creating jobs for humans, not just taking them away. In the booming field of data annotation, workers are training AI systems to get better at tasks people have traditionally done, from recognizing images to understanding language."
-    },
-    {
-      "title": "Syria Rules Out Permanent Turkish Military Presence",
-      "facts": "Syria's foreign minister says there are no plans to establish a permanent Turkish military presence in the country, pushing back against speculation that Ankara is looking to entrench itself militarily after years of cross-border operations. The statement came in an interview where the minister acknowledged that Turkish military officials had recently visited an airbase, but described the visit as part of a training arrangement, not a prelude to a lasting deployment."
-    },
-    {
-      "title": "Pentagon Halts Joint Military Exercises With South Korea",
-      "facts": "President Trump has ordered a sharp pullback in U.S. military exercises with South Korea, and defense experts are warning the move carries serious risks at a volatile moment."
-    },
-    {
-      "title": "U.S. Debt Crosses $40 Trillion Mark",
-      "facts": "America's national debt just blew past $40 trillion, doubling in size over the last decade. The milestone undercuts President Trump's earlier promises to restore fiscal order and reduce the country's debt burden."
-    },
-    {
-      "title": "Europe Scrambles to Close Tech Investment Gap",
-      "facts": "European governments are racing to close a nearly $1 trillion funding gap in their tech sector, desperate to compete with China and the United States in cutting-edge industries. Officials across the continent are casting a wide net, backing start-ups developing everything from artificial intelligence to advanced semiconductors."
-    },
-    {
-      "title": "Oil Prices Jump on Trump's Iran Threats",
-      "facts": "Oil prices spiked Thursday after President Trump declared what he's calling an economic war on Iran. In a post on Truth Social, Trump warned that any country supporting Iran's economy would face \"tremendous economic consequences.\" The threat comes as tensions escalate in the Middle East, and it's already moving energy markets in a big way."
-    },
-    {
-      "title": "AMD's AI Chip Gamble Faces Financing Hurdle",
-      "facts": "AMD's making a bold bet on dirt-cheap artificial intelligence chips, but there's a catch that could slow the whole thing down\u2014nobody knows how to finance them. The company just acquired a firm whose chip is both fast and inexpensive, a combination that could shake up the AI hardware market currently dominated by pricier options."
-    },
-    {
-      "title": "Oregon's Modular Home Rule Sparks Legal Fight",
-      "facts": "The Modular Building Institute is suing Oregon over a new wage rule that's about to reshape how factory-built homes get priced in the state. The lawsuit challenges House Bill 2688 and a regulation set to kick in July 1st that would require manufacturers outside Oregon to pay prevailing wages\u2014Oregon's prevailing wages\u2014when building custom modules destined for the state."
-    },
-    {
-      "title": "Arsenal Agree $69 Million Deal for Aston Villa Defender",
-      "facts": "Arsenal have locked down a major defensive signing ahead of the new season, agreeing to pay Aston Villa around \u00a351 million\u2014roughly $69 million\u2014for center-back Ezri Konsa. Sources confirmed the deal to ESPN, marking one of the Premier League's biggest moves as the transfer window winds down."
-    },
-    {
-      "title": "Three-Team Trade Sends Watson to Cavaliers in $88 Million Deal",
-      "facts": "Peyton Watson's heading to Cleveland with a massive new contract in hand. The Cavaliers, Nuggets, and Clippers just finalized a three-team trade that sends Watson to the Cavaliers and Max Strus to Los Angeles."
-    },
-    {
-      "title": "Wembanyama Named Captain of French National Team",
-      "facts": "Victor Wembanyama's got a new title to go with his growing list of accomplishments. The French national team announced Wednesday that Wembanyama will serve as captain as they prepare for the FIBA World Cup European qualifiers."
-    },
-    {
-      "title": "Claude Can Now Send Gmail on Autopilot",
-      "facts": "Anthropic just flipped a switch that changes how Claude Code interacts with your inbox\u2014it can now send Gmail messages without asking for confirmation first. The update means that if you've built an agent or scheduled task that drafts emails, Claude will fire them off automatically unless you explicitly tell it to hold back."
-    }
-  ],
   "2026-08-21": [
     {
       "title": "Panama Canal Slashes Ship Traffic as El Ni\u00f1o Dries Waterway",
@@ -635,6 +577,68 @@
     {
       "title": "Claude Code Weekly Limits Slashed\u2014and Why the Math Stings More Than It Looks",
       "facts": "Anthropic's cutting Claude Code's weekly usage limits by 17%, starting now. That might sound like a modest trim, but here's the bite: if you're running scheduled tasks or heavy daily workflows, you're losing more than one full day of budget every week."
+    }
+  ],
+  "2026-08-31": [
+    {
+      "title": "Ferry Disaster Off Northern Cyprus Leaves Eight Dead",
+      "facts": "Eight people are dead and eighteen remain missing after a ferry capsized shortly after leaving port in northern Cyprus. The vessel was carrying nearly 270 passengers when it turned over, triggering a massive search and rescue operation that's still underway."
+    },
+    {
+      "title": "Nonstop Russian Drone Attacks Put Kyiv on Edge",
+      "facts": "Russia has shifted to a new and exhausting phase of the war in Kyiv, launching nearly constant drone attacks throughout the day instead of the largely overnight raids that defined the past two years. The change means air raid sirens are now blaring at all hours, leaving residents physically and mentally drained as they scramble for shelter multiple times a day."
+    },
+    {
+      "title": "Nepal's Young Prime Minister Faces Flood Crisis Test",
+      "facts": "Nepal's 36-year-old Prime Minister Balendra Shah is staring down the biggest challenge of his brief tenure after catastrophic flash floods devastated the country. Shah rode a wave of youth anger over corruption and government incompetence into office earlier this year, promising to clean up Nepal's notoriously dysfunctional bureaucracy."
+    },
+    {
+      "title": "U.S. and Iran Trade Strikes After Month of Quiet",
+      "facts": "The United States and Iran exchanged military strikes overnight, breaking a monthlong calm and signaling that the conflict that began six months ago is far from over. The U.S."
+    },
+    {
+      "title": "Jury Nears Verdict in Lindsay Clancy Murder Trial",
+      "facts": "Jurors are now into their third day of deliberations in the Lindsay Clancy murder trial, having spent about ten hours so far weighing the evidence in one of Massachusetts' most closely watched cases. Clancy is accused of killing her three young children in their Duxbury home in January 2023, a case that's drawn intense public attention since the day of the tragedy."
+    },
+    {
+      "title": "Postal Service Struggles Trigger Surge in Rejected Mail Ballots",
+      "facts": "Mail ballots are arriving late at election offices across the country at higher rates than in previous years, and officials are tossing them out because they missed the deadline. State election administrators say they're genuinely worried about the Postal Service's ability to get ballots delivered on time for the fall elections, and the problem seems to be getting worse rather than better."
+    },
+    {
+      "title": "Dark Money Floods 2026 Midterm Campaigns",
+      "facts": "At least one billion dollars from anonymous donors is pouring into the 2026 midterm elections, and political reporters are calling it the least transparent election cycle in modern American history. Dark money groups allow donors to spend heavily on campaign ads and political organizing without ever revealing who's writing the checks, and the practice has exploded to unprecedented levels this cycle."
+    },
+    {
+      "title": "Oil Prices Surge Past $90 as U.S. and Iran Exchange Fire",
+      "facts": "Brent crude oil jumped above $90 a barrel on Monday after American and Iranian forces exchanged fire for the first time in a month. The military confrontation marks a sharp escalation in tensions that had cooled somewhat over recent weeks."
+    },
+    {
+      "title": "Tim Curry's Restored Los Angeles Home Sells Hours After His Death",
+      "facts": "A historic Los Angeles mansion once owned by \"Rocky Horror Picture Show\" actor Tim Curry found a buyer just hours after his death was announced. The $7.5 million Los Feliz estate had been meticulously restored by Curry during his time there, and it later passed through the hands of several other famous owners."
+    },
+    {
+      "title": "Carroll Gardens Loses Its Italian Identity",
+      "facts": "The row houses and brownstones of Carroll Gardens are still there, but the Italian families and red-sauce restaurants that defined the Brooklyn neighborhood for generations are disappearing fast. Longtime residents have been moving out in droves, pushed by soaring property values and a wave of new development that's transformed the area's character."
+    },
+    {
+      "title": "New Listings Hold Steady Despite Demand Slowdown",
+      "facts": "Housing demand has cooled, but there's a silver lining for property owners\u2014new listings are still running ahead of last year's pace. The data suggests sellers are continuing to put homes on the market despite broader uncertainty about buyer appetite and mortgage rates."
+    },
+    {
+      "title": "Aaron Donald Comes Out of Retirement to Rejoin the Rams",
+      "facts": "Aaron Donald is back. The 35-year-old defensive tackle signed a one-year, $20 million contract with the Los Angeles Rams on Sunday, ending a retirement that lasted less than a year."
+    },
+    {
+      "title": "Timberwolves Add Kuminga in Major Free Agent Signing",
+      "facts": "Jonathan Kuminga is heading to Minnesota on a two-year deal worth $12.4 million that includes a player option, and the Timberwolves made it clear he's not coming off the bench. The team pitched Kuminga on filling their vacant starting power forward slot, which appears to have sealed the deal."
+    },
+    {
+      "title": "Raptors to Retire Lowry's Number in January Ceremony",
+      "facts": "Kyle Lowry's No. 7 jersey is heading to the rafters in Toronto."
+    },
+    {
+      "title": "Claude Code Weekly Limits Jump 25 Percent, But There's a Catch",
+      "facts": "Anthropic just rolled out a 25-percent bump to Claude Code's weekly usage limits\u2014but if you're already a user, you're actually losing capacity in the short term. Here's what's happening: the new limit structure raises the ceiling for fresh users, but current subscribers are seeing a 17-percent cut to their existing allowances during the transition period."
     }
   ]
 }
