@@ -1,58 +1,4 @@
 {
-  "2026-08-23": [
-    {
-      "title": "Right-Wing Leaders Break Borders in Latin America",
-      "facts": "A new brand of right-wing politics is taking hold across Latin America, and it's not staying within national borders. Leaders are openly jumping into each other's elections with endorsements, rally appearances, and sharp attacks on rivals and what they're calling \"wokismo.\" The approach mirrors tactics pioneered by former President Trump, who frequently weighed in on foreign elections and cultivated alliances with like-minded leaders abroad."
-    },
-    {
-      "title": "Coordinated Arson Attacks Strike Southern Thailand",
-      "facts": "Dozens of coordinated arson attacks hit southern Thailand, with the military saying the strikes \"aimed at creating unrest\" in the region. No group has claimed responsibility for the attacks yet, leaving authorities scrambling to identify who's behind the operation."
-    },
-    {
-      "title": "Phoenix Police Officers Arrested After Brutal Traffic Stop",
-      "facts": "Two Phoenix police officers are behind bars tonight, fired and facing criminal charges after authorities say they beat a couple and used a stun gun on them during a traffic stop earlier this month. What makes this case particularly alarming is that the officers never reported the stop at all\u2014it only came to light when the victims came forward."
-    },
-    {
-      "title": "Arizona's Massive Canal System Faces Trump Administration Cuts",
-      "facts": "The sprawling canal system that turned Arizona into an agricultural powerhouse is now in jeopardy, decades after the state agreed to a deal that's come back to haunt it. Arizona won federal funding for a massive Colorado River project years ago by accepting a crucial condition: the state would be first in line for water cuts if the river ever hit severe drought levels."
-    },
-    {
-      "title": "Data Center Opposition Surges Into Midterm Campaign Issue",
-      "facts": "The backlash against data centers has exploded into a full-blown midterm campaign issue, with candidates from both parties now running against the massive facilities. Opposition to the centers has been mounting for months as communities grapple with their enormous energy demands, water consumption, and strain on local infrastructure."
-    },
-    {
-      "title": "U.S.-Canada Trade War Escalates as Tariffs Take Effect",
-      "facts": "The trade war between the United States and Canada officially kicked off this weekend after negotiations collapsed in spectacular fashion. Canadian Prime Minister Mark Carney announced Saturday his country would impose \"dollar-for-dollar\" retaliatory tariffs on American goods, accusing Washington of starting the conflict."
-    },
-    {
-      "title": "CrossCountry Rail Network Collapses After Major Power Failure",
-      "facts": "Britain's CrossCountry rail service ground to a near-total halt after a widespread power cut knocked out virtually all of its UK routes. Passengers described the disruption as the \"worst case scenario,\" with trains stranded and no clear timeline for restoration."
-    },
-    {
-      "title": "Iran-Backed Hackers Compromised British Power Plant",
-      "facts": "Cybersecurity investigators have confirmed that Iranian-linked hackers were behind an attack that forced the shutdown of a British power plant last July. The breach represents a significant escalation in the cyber threats facing Western energy infrastructure, though the UK government says the broader national grid was never in danger."
-    },
-    {
-      "title": "Treasury Bond Buyback Plan Sparks Rally in Gold and Bitcoin",
-      "facts": "The Treasury Department announced plans to double its bond buybacks, and markets reacted fast. Gold and bitcoin both shot higher this week, while the U.S."
-    },
-    {
-      "title": "Fannie Mae Cuts Senior Leadership Amid Broader Restructuring",
-      "facts": "Fannie Mae just eliminated several senior executive positions across its business lines, according to a report from the Wall Street Journal. The mortgage giant notified multiple officials Wednesday that their jobs were being cut, though the company hasn't disclosed exactly how many executives are being shown the door."
-    },
-    {
-      "title": "Skubal Wins First Start for Dodgers After Rough Opening",
-      "facts": "Tarik Skubal's debut in Dodger blue got off to a nightmare start Saturday, with the Pittsburgh Pirates jumping out to a 3-0 lead in the first inning. But the two-time Cy Young Award winner settled down from there, helping the two-time defending World Series champions claw back for a 4-3 victory."
-    },
-    {
-      "title": "Klay Thompson Headed to Miami After Dallas Buyout",
-      "facts": "Klay Thompson's landing with the Miami Heat after a brief and bumpy stint in Dallas. The veteran guard plans to sign a two-year deal worth nearly $13 million with Miami once he clears waivers, following his contract buyout from the Mavericks."
-    },
-    {
-      "title": "Anthropic's New Opus Model Fails Content Filters",
-      "facts": "Anthropic's latest Claude model, Opus 4.6, has a serious problem: it's generating explicit sexual content despite the company's safety guardrails. TechCrunch reports the model is producing what they're calling \"smut\" at rates far higher than previous versions, bypassing the content moderation systems Anthropic built to prevent exactly this kind of output."
-    }
-  ],
   "2026-08-24": [
     {
       "title": "Patagonia Oil Boom Draws Desperate Workers",
@@ -655,6 +601,76 @@
     {
       "title": "Fable 5.1 Slashes Prompt Cache Costs 75 Percent\u2014And Anti-Distillation Is the Buried Lede",
       "facts": "Anthropic just shipped Fable 5.1 and Mythos 5.1, and while the headline is a massive price cut on cached prompt reads\u2014down 75 percent to just 25 cents per million tokens\u2014there's a deeper capability shift here that changes how you should think about building with Claude going forward. Fable 5.1 is better at coding and research tasks, and Anthropic says it's up to 45 percent cheaper for agentic workflows where the model's making repeated tool calls and cycling through the same context."
+    }
+  ],
+  "2026-09-03": [
+    {
+      "title": "Haiti's Impossible Election",
+      "facts": "Haiti's election officials have set December 13th as the date for national elections, but almost nobody expects voting to actually happen. The country's caught in a brutal gang war that's made large parts of the capital and surrounding areas completely ungovernable."
+    },
+    {
+      "title": "Migrant Boat Tragedy Off Canary Islands",
+      "facts": "More than 80 migrants are feared dead after a rescue operation off the Canary Islands turned into a recovery mission. Rescuers found 44 survivors aboard the vessel, but they had to make a grim decision\u2014bad weather forced them to leave five bodies behind at sea."
+    },
+    {
+      "title": "Russia's Jet-Powered Drone Threat",
+      "facts": "Russia's deployed a new generation of drones over Ukraine that's causing serious concern among military analysts and air defense crews. These aren't the propeller-driven models Moscow's been using since the war started\u2014they're jet-powered, faster, more destructive, and far harder to shoot down."
+    },
+    {
+      "title": "Netanyahu's Son Stirs UK Controversy Over Falklands",
+      "facts": "Yair Netanyahu has managed to anger British conservatives by wading into one of the UK's most sensitive territorial disputes. The son of Israel's prime minister publicly backed Argentina's claim to the Falkland Islands, accusing the British government of hypocrisy in the process."
+    },
+    {
+      "title": "Gloria Steinem Dead at 92",
+      "facts": "Gloria Steinem, who became the most recognizable face of American feminism and spent more than half a century fighting for women's equality, has died at 92. Steinem challenged sexist assumptions across every corner of society, from the workplace to the home, helping women develop a sense of self-worth that transformed how millions saw themselves."
+    },
+    {
+      "title": "Homeland Security Secretary's Plane Makes Emergency Landing",
+      "facts": "The Homeland Security Secretary's plane was forced to make an emergency landing over Washington, marking the latest in a string of close calls involving senior government officials in the capital's crowded airspace. Details about what caused the emergency haven't been released, but the landing comes as aviation safety experts have raised concerns about the volume of traffic over the nation's capital."
+    },
+    {
+      "title": "ICE Lowered Hiring Standards in Recruitment Push, Whistle-Blower Claims",
+      "facts": "An official who oversaw vetting for Immigration and Customs Enforcement says the agency skipped basic background checks in a rush to hire new recruits, citing what he calls an \"unprecedented lowering of standards.\" The whistle-blower, who worked directly on the hiring process, claims ICE bypassed standard procedures that would normally flag applicants with troubling histories or insufficient qualifications. The allegations come as ICE has been under pressure to rapidly expand its workforce to meet the administration's immigration enforcement goals."
+    },
+    {
+      "title": "Treasury Chief Accuses China of Export Dumping at G20",
+      "facts": "Treasury Secretary Scott Bessent took aim at China during this week's G20 meetings, accusing Beijing of flooding global markets with artificially cheap exports. The criticism comes as trade tensions between Washington and China continue to simmer, with American officials arguing that subsidized Chinese goods are undercutting manufacturers worldwide."
+    },
+    {
+      "title": "Cloud Computing Economics Shift as AI Costs Reshape Big Tech",
+      "facts": "The math that built the cloud computing industry is breaking down, and it's triggering a power shift inside Big Tech. Companies are discovering it's now more economical to buy AI hardware outright than to rent computing power through cloud services\u2014a reversal that threatens the business model of Amazon Web Services, Microsoft Azure, and Google Cloud."
+    },
+    {
+      "title": "Britain's North-South Economic Divide Widens Despite Growth",
+      "facts": "Nearly half of British households aren't seeing any benefit from the country's economic growth, according to new analysis that reveals a stark gap in spending power between the north and south of England. The report shows that while the national economy's been expanding, the gains are concentrated in London and the southeast, leaving much of the north behind."
+    },
+    {
+      "title": "Snowflake Shares Jump on AI Momentum",
+      "facts": "Snowflake's stock is surging today, and Wall Street analysts are raising their forecasts as the software company rides the artificial intelligence wave. The cloud data platform reported results that have analysts buzzing about its position in the AI revolution."
+    },
+    {
+      "title": "Downtown Brooklyn Bike Lane Revived Under New Mayor",
+      "facts": "A bike lane that the Adams administration killed has come back to life in downtown Brooklyn, marking one of the first concrete policy reversals under Mayor Mamdani. The protected cycling route, which had been scrapped amid pushback from drivers and some local businesses, reopened this week following a redesign that preserves most of the original safety features."
+    },
+    {
+      "title": "Reno Housing Market Defies Western Slowdown",
+      "facts": "While major western cities see home sales slide, Reno's quietly holding its own\u2014and the numbers tell a surprising story. Washoe County deeds show a 2.1% year-over-year gain through July 2026, even as Austin's down 5.0% and Denver's fallen 3.4% over the same stretch."
+    },
+    {
+      "title": "Kirk Cousins Takes Over as Raiders' Week 1 Starter",
+      "facts": "Kirk Cousins is getting the nod to start for the Raiders when the season kicks off, beating out rookie quarterback Fernando Mendoza for the job. The team announced the decision, ending weeks of speculation about who'd be under center for Week 1."
+    },
+    {
+      "title": "NBA Hammers Clippers With Harshest Punishment in League History",
+      "facts": "The NBA just dropped the most severe penalty it's ever handed down, and the Los Angeles Clippers are reeling. The league docked the team five first-round draft picks, slapped them with a $30 million fine, and suspended owner Steve Ballmer for an entire year."
+    },
+    {
+      "title": "Raptors to Retire Kyle Lowry's Number in January Ceremony",
+      "facts": "Kyle Lowry's getting the ultimate honor from Toronto. The Raptors announced they'll retire his number 7 jersey on January 10th, right after they face the 76ers."
+    },
+    {
+      "title": "Claude Fable 5.1 Cuts Costs by Up to 45 Percent While Pushing Coding and Research Performance",
+      "facts": "Anthropic just shipped Claude Fable 5.1 and Mythos 5.1, and the headline for power users isn't just the performance bump\u2014it's the pricing drop. Fable 5.1 costs up to 45 percent less than its predecessor while Anthropic says it \"sets a new standard for coding, knowledge work, and long-running problem-solving tasks.\" That's a massive cost reduction for anyone running scheduled tasks or batch jobs at scale, especially if you're already burning through tokens on daily lease summaries or vendor invoice audits."
     }
   ]
 }
