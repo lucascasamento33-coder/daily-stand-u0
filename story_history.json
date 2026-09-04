@@ -1,62 +1,4 @@
 {
-  "2026-08-24": [
-    {
-      "title": "Patagonia Oil Boom Draws Desperate Workers",
-      "facts": "Thousands of Argentines are streaming into a remote stretch of Patagonia with nothing but backpacks and tents, chasing jobs and a chance to reverse their fortunes. The region\u2014sometimes called Argentina's Texas\u2014has become a magnet for workers betting that the country's struggling economy can turn around."
-    },
-    {
-      "title": "Ukrainian Strikes Hit Major Russian Online Retailer",
-      "facts": "Ukraine launched overnight strikes on warehouses belonging to Ozon, Russia's second-largest online retailer, hitting facilities across southern Russia. The company confirmed that its warehouses in Dagestan and Krasnodar were targeted in the attacks."
-    },
-    {
-      "title": "Wildfires Intensify Across Indonesia as El Ni\u00f1o Takes Hold",
-      "facts": "Indonesia is bracing for one of its worst fire seasons in years as El Ni\u00f1o dries out the country and turns peatlands into tinderboxes. The unusual weather pattern has already set off intensifying wildfires, and officials warn this year could match some of the country's most destructive fire seasons on record."
-    },
-    {
-      "title": "U.S. Threatens Unprecedented Sanctions on Iran",
-      "facts": "The United States is preparing what Treasury Secretary Scott Bessent calls \"the greatest financial offensive ever\" against Iran, threatening to sever all economic ties with the country. Bessent made clear that any nation partnering financially with Iran will also face isolation from the U.S."
-    },
-    {
-      "title": "Treasury Set to Announce New Iran Sanctions Package",
-      "facts": "Treasury Secretary Scott Bessent is preparing to unveil a fresh round of measures aimed at isolating Iran economically, with a news conference scheduled to outline the details. The announcement comes as the Trump administration ramps up economic pressure on Tehran, though specifics of the new package haven't been disclosed yet."
-    },
-    {
-      "title": "California Pulls Out of Paramount Merger Settlement Talks",
-      "facts": "California's attorney general has abruptly canceled settlement negotiations with Paramount over the company's proposed $111 billion merger with Warner Bros., accusing Paramount of leaking and misrepresenting their earlier discussions. The state is one of twelve suing to block the massive media deal, which would create one of the largest entertainment conglomerates in the world."
-    },
-    {
-      "title": "Federal Workers' Exodus Leaves Farmers Strapped for Services",
-      "facts": "Thousands of federal workers have left the Agriculture Department, and rural communities across the country are now struggling to get basic services they've relied on for generations. Farmers are reporting major problems obtaining loans, grants, technical assistance, and support for infrastructure projects that keep rural America running."
-    },
-    {
-      "title": "Alibaba Shares Sink on AI Spending Doubts",
-      "facts": "Alibaba's stock took a beating after the Chinese e-commerce giant announced a major share issue to fund its artificial intelligence ambitions. Investors sent shares tumbling as skepticism mounted over whether the massive AI spending will actually pay off."
-    },
-    {
-      "title": "Shein Eyes September Hong Kong Listing",
-      "facts": "Chinese fast-fashion powerhouse Shein is making another run at going public, this time targeting a September 1st listing in Hong Kong. The e-commerce juggernaut has been trying to pull off an IPO for four years now, facing regulatory hurdles and scrutiny along the way."
-    },
-    {
-      "title": "Building Codes Don't Drive Up Housing Costs After All",
-      "facts": "Researchers at the University of Alabama just blew a hole in one of the housing industry's favorite talking points. They analyzed 2.7 million home sales across 26 states and found that adopting modern building codes doesn't cause sustained price increases."
-    },
-    {
-      "title": "Government Has Options to Lower Mortgage Rates\u2014But Not Yet",
-      "facts": "There's growing chatter about what Washington could actually do to bring down mortgage rates, and the answer is more complicated than you might think. The government does have levers it can pull\u2014things like expanding support for Fannie Mae and Freddie Mac, adjusting how mortgage-backed securities are treated, or even direct interventions in the housing finance market."
-    },
-    {
-      "title": "Browns Tight End Makes History With NFL-to-College Move",
-      "facts": "The Cleveland Browns are waiving tight end Dae'Quan Wright\u2014and he's got a plan that's never been done before in modern football. Wright has an agreement in place to play for LSU in the 2026 season if he clears waivers, his agents told ESPN."
-    },
-    {
-      "title": "Thompson Joins Heat After Clearing Waivers",
-      "facts": "Klay Thompson's headed to Miami. The veteran sharpshooter officially agreed to a two-year deal with the Heat after clearing waivers on Sunday, teaming up with Giannis Antetokounmpo in South Beach."
-    },
-    {
-      "title": "Anthropic Opens Mythos 5 Defense Model and Launches $35 Million Open Source Fund",
-      "facts": "Anthropic's making its heavyweight security model, Mythos 5, available to a much wider group of defenders\u2014and backing it up with $35 million to fund open source security work. The company announced it's expanding access to the model, which was previously limited to a small circle of researchers, so that more cybersecurity professionals can use it to hunt threats and build defenses."
-    }
-  ],
   "2026-08-25": [
     {
       "title": "Canada Grants Asylum to Christian Convert Deported Under U.S. Immigration Crackdown",
@@ -671,6 +613,72 @@
     {
       "title": "Claude Fable 5.1 Cuts Costs by Up to 45 Percent While Pushing Coding and Research Performance",
       "facts": "Anthropic just shipped Claude Fable 5.1 and Mythos 5.1, and the headline for power users isn't just the performance bump\u2014it's the pricing drop. Fable 5.1 costs up to 45 percent less than its predecessor while Anthropic says it \"sets a new standard for coding, knowledge work, and long-running problem-solving tasks.\" That's a massive cost reduction for anyone running scheduled tasks or batch jobs at scale, especially if you're already burning through tokens on daily lease summaries or vendor invoice audits."
+    }
+  ],
+  "2026-09-04": [
+    {
+      "title": "Argentina Turns Up Heat on Falklands Dispute",
+      "facts": "Argentina's president Javier Milei says the \"winds of change\" now favor his country's claim to the Falkland Islands, threatening sanctions as he refocuses his administration on the decades-old territorial dispute with Britain. The shift comes amid what Milei's critics are calling political maneuvering, timed to capitalize on what he sees as a changing stance from Washington."
+    },
+    {
+      "title": "Russia Blamed for Spiraling Sabotage Campaign Across Europe",
+      "facts": "Germany has formally accused Russia of attacking Leipzig airport, but it's just one piece of a much larger puzzle that's making European security officials deeply uneasy. A series of suspicious incidents across the continent\u2014unexplained fires, infrastructure disruptions, and alleged sabotage plots\u2014are all pointing back to Moscow."
+    },
+    {
+      "title": "Diesel Prices Hit Record High as Iran Conflict Ripples Through Markets",
+      "facts": "U.S. diesel prices just hit an all-time high, and the spike is a direct result of the conflict with Iran that erupted at the end of February."
+    },
+    {
+      "title": "Israel Deploys AI in Information Campaign on Palestine",
+      "facts": "Israel has opened a new front in its long-running effort to shape how Palestinians are understood\u2014and this time, it's powered by artificial intelligence. What's being called the Hanover affair has exposed how Israeli officials are using AI tools to influence media narratives and public perception around the conflict."
+    },
+    {
+      "title": "Jury Deadlocked in Massachusetts Triple-Murder Case",
+      "facts": "The Lindsay Clancy trial appears to be hanging by a single juror. The Massachusetts jury has been deadlocked since at least Tuesday on whether to hold Clancy criminally responsible for strangling her three children to death."
+    },
+    {
+      "title": "U.S. Trade Deficit Jumps as AI Boom Drives Import Surge",
+      "facts": "America's trade gap bounced back up in July, and artificial intelligence is partly to blame. The deficit widened last month as companies spent heavily on imported equipment for data centers\u2014the massive computing facilities that power AI systems."
+    },
+    {
+      "title": "Trump Administration Targets Race-Based Financial Aid Programs",
+      "facts": "Schools that offer scholarships or financial aid specifically for minority students could lose their tax-exempt status under new rules released by the Treasury Department. The policy would strip tax benefits from any educational institution\u2014colleges, universities, or private schools\u2014that runs programs based on race."
+    },
+    {
+      "title": "Netherlands Pulls Gold from New York Citing Geopolitical Risk",
+      "facts": "The Dutch central bank has moved about 90 tons of gold out of the Federal Reserve Bank in New York, citing what it calls \"geopolitical unrest\" as the reason. That makes the Netherlands the second European nation this year to announce it's reduced or eliminated gold holdings stored in the United States."
+    },
+    {
+      "title": "Government Interventions Are Backfiring on Nervous Markets",
+      "facts": "When governments step in to calm markets, investors are supposed to breathe easier. That's not what's happening right now."
+    },
+    {
+      "title": "One Trader's Bet on Midterm Election Chaos",
+      "facts": "Kevin Muir isn't waiting to see if November's midterm elections turn messy\u2014he's already buying insurance against it. The trader says purchasing protection against a market selloff triggered by a disputed election outcome is so obvious, he's calling it a \"chip shot.\" His reasoning is straightforward: if the results are contested or unclear, markets could spiral quickly, and the cost of hedging against that risk right now is relatively cheap."
+    },
+    {
+      "title": "Rock Venues Disappearing From North Brooklyn's Waterfront",
+      "facts": "North Brooklyn's live music scene is in crisis. A young music fan used to be able to wander down Kent Avenue and stumble into a gritty rock show almost any night of the week\u2014but that era's rapidly coming to an end."
+    },
+    {
+      "title": "Carroll Gardens May Get New Happier Grocery Location",
+      "facts": "Happier Grocery could be coming to Carroll Gardens, and it'd fill a retail gap that's been there for over a year. The grocery's co-owner has purchased the former Rite Aid site on Smith Street, which has sat empty since the pharmacy chain pulled out last year."
+    },
+    {
+      "title": "Arsenal and Barcelona Draw Each Other in Women's Champions League",
+      "facts": "Arsenal and Barcelona will face off in the league phase of this year's Women's Champions League, setting up what's likely to be one of the marquee matchups of the competition. The draw was held this week, pairing two of Europe's top women's clubs against each other in a clash that'll test both squads early."
+    },
+    {
+      "title": "Monaco Leaves Balogun Off Conference League Squad",
+      "facts": "Folarin Balogun has been left out of Monaco's squad for the Conference League, and the timing tells you everything you need to know\u2014uncertainty over his future is hanging over the decision. The striker was expecting a transfer to Everton, but that deal collapsed, leaving him in limbo at Monaco."
+    },
+    {
+      "title": "NBA Hammers Clippers With Historic Penalty Over Leonard Deal",
+      "facts": "The NBA just handed down the harshest punishment in league history, and it's landed on the Los Angeles Clippers. The league's stripped the team of five first-round draft picks, slapped them with a $30 million fine, and suspended owner Steve Ballmer for an entire year."
+    },
+    {
+      "title": "Claude Goes Auto-Logout to Block Session Hijackers",
+      "facts": "Anthropic's rolling out automatic sign-outs across Claude to shut down a security threat that's been brewing in the background\u2014session hijacking. The company confirmed it's now forcing users to re-authenticate more frequently, a move designed to protect accounts from attackers who steal active session tokens and slip into your account without needing your password."
     }
   ]
 }
