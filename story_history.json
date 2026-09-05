@@ -1,62 +1,4 @@
 {
-  "2026-08-25": [
-    {
-      "title": "Canada Grants Asylum to Christian Convert Deported Under U.S. Immigration Crackdown",
-      "facts": "Artemis Ghasemzadeh has found a new home in Canada after a harrowing journey that saw her deported from the United States under Trump's immigration enforcement policies. Ghasemzadeh had fled Iran to escape religious persecution for converting to Christianity, a decision that put her life at risk in her home country."
-    },
-    {
-      "title": "Tornado Rips Through French Village, Dozens Injured",
-      "facts": "A violent tornado tore through the south-western French village of Pomas, leaving a trail of destruction and sending fifteen people to hospital. The village took the brunt of the storm, with hundreds of homes damaged in what residents described as a terrifying natural disaster."
-    },
-    {
-      "title": "Australia Battles Rapid Spread of H5N1 Bird Flu",
-      "facts": "Australia's first case of H5N1 bird flu, confirmed in June in migratory seabirds, has now spread to mammals, and government officials are scrambling to contain the outbreak. The virus has moved far faster than authorities anticipated, straining emergency response systems across multiple regions."
-    },
-    {
-      "title": "Libya Erupts in Protests Over Chronic Power Cuts",
-      "facts": "Libyans have taken to the streets with roadblocks and burning tires to protest prolonged power cuts that have left much of the country in darkness. The demonstrations reflect mounting frustration over a problem that's plagued Libya for years but has recently intensified."
-    },
-    {
-      "title": "One in Four NFL Players May Have Degenerative Brain Disease",
-      "facts": "New research is putting a number on what many have long suspected about football's toll on the brain\u2014and it's stark. At least one in four NFL players who died over a six-year period had CTE, the degenerative brain disease caused by repeated head impacts."
-    },
-    {
-      "title": "Pennsylvania Republicans Now Favor Democratic Senator Over Their Own",
-      "facts": "Pennsylvania's political landscape just produced a head-turning result: Republican voters now view Democratic Senator John Fetterman more favorably than the state's sitting GOP senator. That's according to a new poll from The New York Times, The Philadelphia Inquirer, and Siena College, and it's a remarkable shift for a Democrat in a swing state."
-    },
-    {
-      "title": "Trump Threatens to Double Down on Auto and Steel Tariffs",
-      "facts": "President Trump's vowing to crank tariffs on cars, trucks, auto parts, and steel all the way up to 50 percent starting January first\u2014and it's pushing the U.S. and Canada toward what looks like a full-blown trade war."
-    },
-    {
-      "title": "Wall Street Fragility Gauge Hits Maximum Reading",
-      "facts": "A closely watched measure of stock market fragility just flashed red, hitting the highest possible level for the first time since December. The market turbulence indicator reached a reading of 1 on August 19th, signaling maximum stress in the system."
-    },
-    {
-      "title": "Bitcoin Punches Through Eighty Thousand",
-      "facts": "Bitcoin just crossed the $80,000 mark, capping a six-month run that's left both stocks and gold in the dust. The cryptocurrency was hovering around that level Tuesday after surging last week on news from the Treasury Department."
-    },
-    {
-      "title": "Mayor Proposes $4 Billion Temporary Highway While BQE Gets Rebuilt",
-      "facts": "Mayor Mamdani's unveiled a ten-year, $4 billion plan to fix the Brooklyn-Queens Expressway's crumbling city-owned section\u2014and the centerpiece is building a temporary highway while the real work gets done. The BQE's deteriorating triple-cantilever stretch has been a headache for years, with engineers warning that the aging infrastructure poses serious safety risks."
-    },
-    {
-      "title": "Tottenham Lands S\u00e1vio in Blockbuster City Deal",
-      "facts": "Tottenham have completed the signing of S\u00e1vio from Manchester City in a deal worth up to \u00a385 million\u2014that's about $116 million. It's one of the biggest transfers of the summer window and represents a major shake-up for both clubs as the season approaches."
-    },
-    {
-      "title": "Thompson Reunites With Giannis in Miami After Clearing Waivers",
-      "facts": "Klay Thompson's headed to South Beach to join forces with Giannis Antetokounmpo and the Heat. Thompson cleared waivers Sunday and immediately agreed to a two-year deal with Miami, setting up one of the more intriguing partnerships in the league."
-    },
-    {
-      "title": "Sharpe Sidelined Six Months After Tearing Meniscus",
-      "facts": "Portland's taking a major hit to its backcourt\u2014Shaedon Sharpe tore the meniscus in his right knee and he's expected to miss six months, according to sources. That timeline puts Sharpe out until well into the season, a brutal blow for a Trail Blazers team that was counting on him to be a cornerstone of their rebuilding effort."
-    },
-    {
-      "title": "Claude's Slack Agent Now Reads Entire Threads\u2014and Can Reply Without Being Asked",
-      "facts": "Anthropic just shipped a significant upgrade to how Claude works in Slack, and it fundamentally changes the agent's behavior in team channels. The company's new Claude Tag update lets the assistant read entire conversation threads, not just the individual message where it was @mentioned."
-    }
-  ],
   "2026-08-26": [
     {
       "title": "Haiti Gangs Kill Dozens in Capital Outskirts",
@@ -679,6 +621,52 @@
     {
       "title": "Claude Goes Auto-Logout to Block Session Hijackers",
       "facts": "Anthropic's rolling out automatic sign-outs across Claude to shut down a security threat that's been brewing in the background\u2014session hijacking. The company confirmed it's now forcing users to re-authenticate more frequently, a move designed to protect accounts from attackers who steal active session tokens and slip into your account without needing your password."
+    }
+  ],
+  "2026-09-05": [
+    {
+      "title": "Nepal Tunnel Rescue Offers Glimmer of Hope Amid Massive Disaster",
+      "facts": "Rescuers in Nepal have found two people alive in a collapsed tunnel, offering a rare piece of hope in what's become a catastrophic disaster. The discovery has energized search teams who are now racing to reach dozens more believed trapped in the same tunnel."
+    },
+    {
+      "title": "Russian Draft Rumors Spark Panic Despite Kremlin Denials",
+      "facts": "Military-age men across Russia are making plans to flee, hide, or simply disappear\u2014spooked by swirling rumors of a coming mass mobilization. The Kremlin has flatly denied that any new draft is in the works, but that hasn't stopped the panic from spreading through social media and encrypted messaging apps."
+    },
+    {
+      "title": "Pentagon Launches Unprecedented Leak Investigation With Polygraph Tests",
+      "facts": "The Pentagon is polygraphing dozens of its own Joint Staff members in what's being described as an unparalleled hunt for the source of classified leaks about the Iran war. About 50 people have been tested so far, according to officials familiar with the inquiry."
+    },
+    {
+      "title": "U.S. Added 162,000 Jobs Last Month as Labor Market Holds Steady",
+      "facts": "The U.S. economy added 162,000 jobs last month, and unemployment held at 4.1 percent\u2014signs that the labor market's staying relatively stable even as other parts of the economy show strain."
+    },
+    {
+      "title": "Trump Demands Fed Cut Rates or He'll Halt Some Trade",
+      "facts": "President Trump threatened to halt trade with countries where the U.S. runs a deficit unless the Federal Reserve cuts interest rates, a move that would represent an extraordinary escalation of his pressure campaign on the central bank."
+    },
+    {
+      "title": "Netherlands Pulls 90 Tons of Gold Out of New York Citing Geopolitical Tensions",
+      "facts": "The Dutch central bank has moved about 90 tons of gold out of the Federal Reserve Bank in New York, citing what it calls \"geopolitical unrest\" as the reason for pulling reserves back home. The Netherlands becomes the second European nation this year to announce it's reduced or eliminated gold holdings stored in the U.S., a shift that reflects growing anxiety about the stability of international financial arrangements."
+    },
+    {
+      "title": "S&P 500 Shakeup Brings in Bloom Energy",
+      "facts": "Bloom Energy's getting promoted to the big leagues. The company just earned a spot in the S&P 500, joining the most-watched benchmark of American corporate performance."
+    },
+    {
+      "title": "Immigration Enforcement Squeezes Homebuilders and Their Lenders",
+      "facts": "Immigration raids are doing more than grabbing headlines\u2014they're now hitting homebuilders in the wallet and delaying projects across multiple states. ICE arrests jumped from around 32,500 in May to nearly 50,000 in July, and builders say the effects are rippling through construction sites even in areas where enforcement hasn't been aggressive."
+    },
+    {
+      "title": "Hall of Fame Overhauls How It Picks Football Legends",
+      "facts": "The Pro Football Hall of Fame is throwing out its playbook for how it selects immortals. The Canton shrine announced sweeping changes Friday that'll dramatically shrink the number of people who get a vote and eliminate the separate Seniors category that's been used to honor old-timers."
+    },
+    {
+      "title": "NBA Hammers Clippers With Historic Penalty Over Leonard Sponsorship",
+      "facts": "The NBA just handed down one of the harshest punishments in league history, stripping the Los Angeles Clippers of five first-round draft picks and hitting them with a $30 million fine. The penalty stems from an investigation into a sponsorship deal involving Kawhi Leonard that the league says violated salary cap rules."
+    },
+    {
+      "title": "Claude Now Runs Real Lab Experiments Autonomously",
+      "facts": "Anthropic just gave Claude the ability to physically control lab equipment and run scientific experiments without human supervision. The company announced that Claude can now operate real laboratory hardware\u2014think pipettes, spectrometers, and other research tools\u2014autonomously executing experiments from start to finish."
     }
   ]
 }
