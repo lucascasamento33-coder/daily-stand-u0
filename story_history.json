@@ -1,58 +1,4 @@
 {
-  "2026-08-26": [
-    {
-      "title": "Haiti Gangs Kill Dozens in Capital Outskirts",
-      "facts": "Gangs killed at least 47 people in a targeted attack on a community just outside Haiti's capital, according to the United Nations, though the local mayor puts the death toll at 25. The massacre took place in a key neighborhood on the outskirts of Port-au-Prince, marking a significant escalation in gang violence that's been tearing the country apart."
-    },
-    {
-      "title": "Nepal Flash Flood Kills at Least Eight, Hundreds Missing",
-      "facts": "At least eight people are dead and hundreds more missing after a flash flood tore through Nepal, with authorities across the border in Tibet reporting \"major casualties\" as well. The flood struck with little warning, overwhelming communities in its path and leaving rescue teams scrambling to locate survivors."
-    },
-    {
-      "title": "Trump Lifts Republican to Senate Nomination in South Carolina",
-      "facts": "President Trump turned a rough political stretch into a power play in South Carolina, pushing Darline Graham to victory in Tuesday's Republican Senate primary. The endorsement came at a moment when Trump's approval ratings have been sliding and several of his earlier picks in other states have failed to gain traction."
-    },
-    {
-      "title": "Patient Paralyzed After Anesthetic Mix-Up During Knee Surgery",
-      "facts": "A routine knee replacement in Nashville has turned into a catastrophic medical error that's left a patient paralyzed from the sternum down. The woman went in for the operation earlier this month and woke up unable to move the lower half of her body."
-    },
-    {
-      "title": "Surrogate Battles Biological Parents for Custody After Refusing Abortion",
-      "facts": "A surrogate who fled to Texas rather than terminate her pregnancy is now asking a judge to award her custody of the baby she carried. The woman had been hired by a couple to carry their biological child, but refused when they asked her to have an abortion after the fetus was diagnosed with a serious heart problem."
-    },
-    {
-      "title": "Trump Threatens 50% Tariffs as Trade War With Canada Escalates",
-      "facts": "President Trump's vowing to slap 50 percent tariffs on cars, trucks, auto parts, and steel starting January 1st, dramatically raising the stakes in what's turning into a full-blown trade war with Canada. The threat marks a sharp escalation just days after the White House said it was pausing new tariffs and claiming a deal was nearly done."
-    },
-    {
-      "title": "Intuit Shares Slide as Cost-Conscious Customers Abandon TurboTax",
-      "facts": "Intuit's stock took a hit Wednesday after the company revealed that customers are fleeing TurboTax over price concerns. The tax-prep giant's shares slid in early trading as investors absorbed the news that cost-conscious filers are switching to cheaper alternatives."
-    },
-    {
-      "title": "China's Massive Car Recall Sweeps Up Tesla and Local Rivals",
-      "facts": "More than four million vehicles are being recalled in China\u2014the country's largest car recall ever\u2014and it's pulling in both foreign and domestic automakers. Tesla's caught up in the sweep, along with Chinese brands XPeng and Xiaomi."
-    },
-    {
-      "title": "Mayor Proposes $4 Billion, Decade-Long Overhaul of the BQE",
-      "facts": "Mayor Mamdani's unveiled a $4 billion plan to fix the Brooklyn-Queens Expressway's crumbling city-owned stretch\u2014and the timeline is as ambitious as the price tag. The proposal calls for building a temporary highway while the existing roadway gets a complete restoration, a process expected to take ten years."
-    },
-    {
-      "title": "Coinbase and Better Launch Token-Backed Conforming Mortgages Nationwide",
-      "facts": "Cryptocurrency just became collateral for home loans. Better and Coinbase announced they're rolling out a mortgage product that lets borrowers use digital tokens to back conforming loans\u2014the kind that meet Fannie Mae and Freddie Mac standards."
-    },
-    {
-      "title": "Sterling Faces Criminal Charges After Motorway Crash",
-      "facts": "Raheem Sterling has been charged with dangerous driving and possession of nitrous oxide following a crash involving a Lamborghini on a motorway, police announced. The former England forward's legal troubles stem from the incident that's now resulted in formal criminal charges."
-    },
-    {
-      "title": "DeRozan Heads to Denver on Veteran Minimum Deal",
-      "facts": "Six-time All-Star DeMar DeRozan is joining the Denver Nuggets on a one-year deal worth $3.9 million\u2014the veteran minimum. It's a stunning discount for a player who's been an All-Star as recently as 2023 and has averaged double-digit scoring throughout his career."
-    },
-    {
-      "title": "Claude's Memory Now Bridges Cowork and Chat\u2014Here's the Edge You're Missing",
-      "facts": "Anthropic just unified Claude's memory system so that anything you teach Claude in a regular chat session is now instantly available to all your Cowork agents\u2014and vice versa. The obvious win is convenience: tell Claude once that you manage properties for Jack Jaffa, and every Cowork workspace knows it without re-prompting."
-    }
-  ],
   "2026-08-27": [
     {
       "title": "Cuban Dissident Faces Backlash After Release to Miami",
@@ -667,6 +613,56 @@
     {
       "title": "Claude Now Runs Real Lab Experiments Autonomously",
       "facts": "Anthropic just gave Claude the ability to physically control lab equipment and run scientific experiments without human supervision. The company announced that Claude can now operate real laboratory hardware\u2014think pipettes, spectrometers, and other research tools\u2014autonomously executing experiments from start to finish."
+    }
+  ],
+  "2026-09-06": [
+    {
+      "title": "Indonesia Volcano Grounds More Than 150,000 Travelers",
+      "facts": "More than 150,000 airline passengers are stuck in Indonesia after volcanic ash shut down airspace near Jakarta. Eruptions sent plumes of ash into flight paths, forcing authorities to ground planes and cancel hundreds of flights."
+    },
+    {
+      "title": "China's Record Graduating Class Faces Jobs Crisis and AI Threat",
+      "facts": "A record 12.7 million young people are hunting for jobs in China right now, and they're running into a brutal combination of a weak economy and rapidly advancing artificial intelligence. It's the largest graduating class in the country's history, and they're entering a job market that's already struggling to absorb them."
+    },
+    {
+      "title": "Memphis Immigration Raid Snares More Than 120 at Gambling Site",
+      "facts": "More than 120 people were arrested at a Memphis cantina in what's become one of Tennessee's biggest immigration operations this year. What started as a gambling raid quickly turned into a sweeping immigration enforcement action, raising questions about how local authorities coordinate with federal agents."
+    },
+    {
+      "title": "Pentagon Allies Mobilize to Save General From Hegseth's Purge",
+      "facts": "Gen. Christopher T."
+    },
+    {
+      "title": "U.S. Jobs Report Shows Solid Hiring Despite Inflation Pressures",
+      "facts": "American employers added 162,000 jobs last month, and the unemployment rate held steady at 4.1 percent. The numbers suggest the labor market's maintaining its footing even as high inflation continues to squeeze household budgets and rattle financial markets."
+    },
+    {
+      "title": "401(k) Millionaires Hit Record High as Retirement Savings Surge",
+      "facts": "Retirement accounts just hit another milestone that's reshaping the American savings picture. Fidelity Investments reported Thursday that the number of 401(k) millionaires reached an all-time high in the second quarter, driven by retirement savings that also hovered at record levels."
+    },
+    {
+      "title": "Trump Pressures Fed on Rate Cuts After Jobs Report",
+      "facts": "The president's threatening to halt certain trade deals unless the Federal Reserve cuts interest rates, putting the central bank squarely in the political crosshairs. The warning came after Friday's jobs report showed the economy added 162,000 positions in August while unemployment held steady at 4.1%."
+    },
+    {
+      "title": "Fay Group Expands With VanDyk Mortgage Acquisition",
+      "facts": "Fay Group is buying VanDyk Mortgage in a deal that significantly expands its ability to originate government-backed loans. The acquisition brings Fannie Mae, Freddie Mac, and Ginnie Mae execution capabilities under Fay's roof, along with an existing mortgage servicing rights portfolio."
+    },
+    {
+      "title": "Sixteen-Year-Old Sullivan Shatters MLS Age Record",
+      "facts": "Philadelphia Union teenager Cavan Sullivan just rewrote the record books, becoming the youngest player ever to score in three consecutive MLS games. The sixteen-year-old's latest goal broke a mark that had stood since the league's early days, when it belonged to Freddy Adu\u2014once considered American soccer's brightest hope."
+    },
+    {
+      "title": "Pro Football Hall of Fame Overhauls Voting System",
+      "facts": "The Pro Football Hall of Fame is tearing up its selection process and starting over, making the biggest changes to how it picks legends in decades. The Hall announced it's slashing the number of voters significantly, though it hasn't said exactly how many selectors will lose their ballots."
+    },
+    {
+      "title": "NBA Hammers Clippers With Historic Penalty Over Cap Violations",
+      "facts": "The NBA has dropped what's being called an enormous punishment on the Los Angeles Clippers for salary cap circumvention, and the fallout could reshape the franchise for years. While the league hasn't publicly detailed the exact penalties, reports indicate the punishment ranks among the most severe in modern NBA history."
+    },
+    {
+      "title": "Agents Formalize Fermat's Last Theorem in Eleven Days",
+      "facts": "Anthropic's Claude agents have formalized the proof of Fermat's Last Theorem\u2014one of mathematics' most famous results\u2014in just eleven days of autonomous work. The project marks the first time AI has successfully converted such a celebrated proof into machine-checkable form without constant human supervision."
     }
   ]
 }
