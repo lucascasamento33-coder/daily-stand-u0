@@ -1,62 +1,4 @@
 {
-  "2026-08-29": [
-    {
-      "title": "Trump Secures Control of Venezuela's Oil Reserves in Unusual Deal",
-      "facts": "President Trump announced what he's calling a historic agreement that hands the United States control over 65 billion barrels of Venezuelan oil. Venezuela's interim president says the unusual arrangement will help revive her country's economy, which has been battered by years of sanctions and political instability."
-    },
-    {
-      "title": "Nepal Searches for 2,400 Missing After Catastrophic Floods",
-      "facts": "Rescue teams in Nepal are entering their fourth day of searching for 2,400 people still missing after catastrophic flooding tore through the vulnerable nation. Officials describe the devastation as \"immense\" as the full scale of destruction comes into focus across affected regions."
-    },
-    {
-      "title": "Trump's Economic Promises Collide With Reality as Midterms Approach",
-      "facts": "President Trump campaigned in 2024 on fixing the economy, but nearly two years into his term, the problems he vowed to solve have only gotten worse. High debt levels and rising consumer prices are now defining issues as midterm elections draw closer, creating a political headache for Republicans."
-    },
-    {
-      "title": "Lettuce Crisis Forces California Farmers to Destroy Crops and Cut Workers",
-      "facts": "California lettuce growers are plowing millions of heads of lettuce back into the soil and laying off workers after a nationwide outbreak of cyclosporiasis crushed demand for the crop. The parasitic illness, linked to contaminated produce, has made shoppers wary of buying lettuce even from unaffected farms."
-    },
-    {
-      "title": "Deportation Policy Extends Beyond Borders in Trump Immigration Crackdown",
-      "facts": "The Trump administration's deportation agenda has taken a global turn, with immigrants now being sent not just to their home countries but to third nations across the world. White House correspondent Zolan Kanno-Youngs reports that these so-called third-country deportations represent a significant expansion of enforcement tactics."
-    },
-    {
-      "title": "Federal Reserve Faces Renewed Inflation Pressure",
-      "facts": "Kevin Warsh, one of the Federal Reserve's key voices, just signaled that interest rates could be heading back up if inflation doesn't ease soon. Speaking publicly, Warsh said the Fed has \"work to do\" if price increases keep squeezing American households\u2014a clear warning that policymakers are watching price data closely."
-    },
-    {
-      "title": "Big Tech Concentration Drives Market's Unusual Trading Pattern",
-      "facts": "The S&P 500 is pulling off something strange this year\u2014it's been climbing even on days when most stocks are actually falling. What's happening is that investors' laser focus on artificial intelligence is giving a handful of mega-cap tech companies so much weight that they're single-handedly carrying the entire index higher, even when the broader market struggles."
-    },
-    {
-      "title": "Microsoft Shares Notch Longest Winning Streak of 2025",
-      "facts": "Microsoft shares just closed out their longest winning streak of the year, and the rally comes as fears about the company's AI software business start to ease. The stock has been climbing steadily as analysts point out that Microsoft's software infrastructure will be critical for companies deploying artificial intelligence at scale."
-    },
-    {
-      "title": "Immigration Raids Freeze Homebuilding Workforce",
-      "facts": "Homebuilders across several states say their construction sites have ground to a near standstill as workers\u2014even those in the country legally\u2014are staying home in fear after a surge in ICE raids this summer. The enforcement actions have swept up both undocumented workers and legal residents, creating what builders describe as a chilling effect across entire job sites."
-    },
-    {
-      "title": "Wildfire Evacuations Hit Washington Real Estate Market",
-      "facts": "Real estate agents in eastern Washington are juggling property transactions while helping clients recover from wildfires that have destroyed hundreds of homes in the Spokane area. More than 850,000 acres have burned across the state, and the destruction is reshaping the local housing market in real time."
-    },
-    {
-      "title": "Tampa Bay Rays Stadium Deal Clears Final Hurdle",
-      "facts": "The Tampa Bay Rays are getting their new ballpark. County commissioners gave final approval Friday to a financing plan that'll let the team build a new stadium, marking the end of years of negotiations over where and how the Rays would play long-term."
-    },
-    {
-      "title": "Timberwolves Lock Down Former Warriors Wing Kuminga",
-      "facts": "Jonathan Kuminga is heading to Minnesota on a two-year deal worth $12.4 million, and the Timberwolves made him a simple promise that sealed it: he'll start at power forward. The contract includes a player option, giving Kuminga an escape hatch if things don't work out."
-    },
-    {
-      "title": "Jeanie Buss Goes to Court to Block Lakers Sale",
-      "facts": "Jeanie Buss is asking a Los Angeles judge to stop her siblings from selling the family's remaining stake in the Lakers, and it's turning into a very public fight over one of basketball's most iconic franchises. She filed a petition in Superior Court challenging the legality of a family vote that would green-light the sale of their shares."
-    },
-    {
-      "title": "Federal Judge Blocks Pentagon's Anthropic Blacklist",
-      "facts": "A federal judge just ruled the Pentagon's blacklisting of Anthropic was unlawful, handing the AI company a major legal victory in its fight against the Trump administration. The judge called the Defense Department's actions \"illegal and baseless,\" marking a rare courtroom rebuke of national security officials."
-    }
-  ],
   "2026-08-30": [
     {
       "title": "Venezuela Reacts to U.S. Oil Deal",
@@ -655,6 +597,72 @@
     {
       "title": "Claude Proved Fermat's Last Theorem in Eleven Days\u2014Using Six Billion Tokens",
       "facts": "A research team just used Claude to formalize one of mathematics' most famous proofs, and the scale of the effort is staggering. Fermat's Last Theorem\u2014the centuries-old puzzle that stumped mathematicians until Andrew Wiles cracked it in 1994\u2014has now been translated into machine-verifiable code by Claude in just eleven days."
+    }
+  ],
+  "2026-09-09": [
+    {
+      "title": "Truck Driver's Death Sparks Ebola Scare in Remote Congo Village",
+      "facts": "A truck driver collapsed and died without warning in a remote Congolese village, and what happened next reveals just how fragile disease response systems remain in Central Africa. Frontline medical staff had to act fast to safely isolate the body, but their efforts triggered a tense standoff with the local community."
+    },
+    {
+      "title": "South Korea's Largest-Ever Divorce Settlement Hits $1.87 Billion",
+      "facts": "A South Korean business tycoon will pay his ex-wife $1.87 billion in what's now the largest divorce settlement in the country's history. The ruling marks a watershed moment for a society where marital assets have traditionally been divided far less evenly, especially when wealthy men are involved."
+    },
+    {
+      "title": "Mystery Group Pumps $25 Million Into Midterm Races",
+      "facts": "A newly created Republican organization with ties to Trump's super PAC is flooding half a dozen key midterm races with $25 million in spending, and nobody's quite sure where all the money's coming from. The group's biggest investments are going toward Senate contests in New Hampshire and Alaska, two states that could determine control of the chamber."
+    },
+    {
+      "title": "Texas Republicans Turn Against Big Tech Data Centers",
+      "facts": "Rural Republican voters in Texas are pushing back hard against the data center boom, and it's forcing GOP leaders into an awkward position just weeks before the midterms. The industry's rapid expansion across the state has scrambled traditional political alliances, with some of the party's most reliable voters now opposing developments they say are straining local power grids and driving up electricity costs."
+    },
+    {
+      "title": "Sinkhole Forces Evacuations at Malibu Properties",
+      "facts": "A sinkhole opened beneath the driveway of a Malibu home owned by Nicolas Cage, and it's expanding fast enough that dozens of surrounding properties have been evacuated. The actor bought the house in 2024, but he's not the only one dealing with the fallout\u2014emergency officials have cleared residents from neighboring homes as engineers try to figure out how far the collapse might spread."
+    },
+    {
+      "title": "Gas Prices Jump Five Pence in a Week as Middle East Conflict Escalates",
+      "facts": "Petrol prices across Britain have spiked by five pence per liter over the past week, with unleaded now averaging 167.17 pence\u2014that's the sharpest weekly increase since April. The culprit is surging oil prices driven by escalating conflict involving Iran, which has sent crude markets into a fresh bout of volatility."
+    },
+    {
+      "title": "Companies Tie Promotions to AI Adoption, Sparking Fairness Debate",
+      "facts": "More employers are now making artificial intelligence proficiency a requirement for career advancement, and it's raising questions about whether that's a fair way to judge workers. Companies across industries are explicitly tying promotion decisions to how employees use AI tools, arguing that adapting to new technology is essential for staying competitive."
+    },
+    {
+      "title": "British Learner Drivers Face 20-Week Wait for Road Tests",
+      "facts": "If you're trying to get your driver's license in Britain, expect to wait nearly five months before you can even take the test. Learner drivers are still facing an average 20-week wait to book a practical driving exam, despite the Driver and Vehicle Standards Agency being given a target to cut that down to just seven weeks."
+    },
+    {
+      "title": "S&P 500 Could Hit 8,000\u2014But Wall Street's Getting Nervous",
+      "facts": "Three major investment banks\u2014RBC Capital Markets, HSBC, and Barclays\u2014are all projecting the S&P 500 could climb to around 8,000, which would be a roughly 10% gain from current levels. That's the bullish headline."
+    },
+    {
+      "title": "GameStop's Pivot: Collectibles Now Outsell Video Games",
+      "facts": "GameStop\u2014the original meme stock that became a cultural phenomenon\u2014is no longer the company it was when retail traders sent its shares to the moon. The retailer now generates more revenue from collectibles than it does from video games, marking a complete transformation of its business model."
+    },
+    {
+      "title": "West Village Buyers Turn Tenement Buildings Into Single-Family Mansions",
+      "facts": "There's a new kind of trophy home in the West Village, and it's not a townhouse\u2014it's an entire apartment building. Wealthy buyers are scooping up old rental tenement buildings and converting them into single-family residences, a trend driven by the fact that there just aren't enough classic brownstones to go around."
+    },
+    {
+      "title": "D.R. Horton's 2027 Budget Signals Builders Bracing for Continued Rate Pressure",
+      "facts": "The country's largest homebuilder just laid out its expectations for 2027, and the numbers tell you everything about where the industry thinks we're headed. D.R."
+    },
+    {
+      "title": "Mayfield Lands $165 Million Extension with Tampa Bay",
+      "facts": "Baker Mayfield just locked down generational wealth with the Tampa Bay Buccaneers, signing a three-year extension worth $165 million. The deal keeps the quarterback in Tampa through 2028 and represents one of the richest contracts in the NFL this offseason."
+    },
+    {
+      "title": "Clippers Hit With Massive Penalty in Leonard Sponsorship Probe",
+      "facts": "The NBA just dropped one of the harshest penalties in league history on the Los Angeles Clippers\u2014and the team's planning to fight it. Following an investigation into a Kawhi Leonard sponsorship deal, the league's stripping the Clippers of five first-round draft picks, fining them $30 million, and suspending owner Steve Ballmer for a full year."
+    },
+    {
+      "title": "Rockets Lock Up Thompson With $208 Million Extension",
+      "facts": "Houston's betting big on Amen Thompson's future\u2014to the tune of $208 million over five years. The Rockets and Thompson have agreed to a massive rookie-scale contract extension that keeps the young guard in Houston through the end of the decade."
+    },
+    {
+      "title": "Claude API Tokens Stolen in Targeted Credential Attacks",
+      "facts": "Hackers are stealing Claude API tokens directly from subscribers, and it's not a breach of Anthropic's systems\u2014it's credential stuffing hitting individual accounts. TechCrunch reports that attackers are using leaked passwords from other services to break into Claude accounts, then grabbing API keys that give full access to a user's usage credits and conversation history."
     }
   ]
 }
