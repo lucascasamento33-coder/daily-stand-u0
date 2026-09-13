@@ -1,66 +1,4 @@
 {
-  "2026-09-02": [
-    {
-      "title": "Nepal Tallies Economic Toll of Himalayan Floods",
-      "facts": "Nepal's government is putting a price tag on last week's catastrophic floods, and the number is staggering. Officials estimate the disaster caused $5 billion in damage\u2014that's one-tenth of the entire country's economy wiped out in a matter of days."
-    },
-    {
-      "title": "China Tightens Information Lockdown on Tibet Flooding",
-      "facts": "China's deploying censorship and punishment to control how the world sees the aftermath of flooding in Tibet, presenting a stark contrast to Nepal's handling of the same disaster. While journalists in Nepal can report freely on the grief and anger of survivors, China's official media have rolled out a sanitized version of events on the Tibetan side of the border."
-    },
-    {
-      "title": "Mississippi Police Chief Fired Over Racist Texts",
-      "facts": "A police chief in Mississippi has been fired after racist text messages came to light while his department was already under intense scrutiny for killing a Black toddler. Mississippi Today, Verite News, and The New York Times uncovered the chief's texts, which surfaced as investigators were examining the fatal shooting."
-    },
-    {
-      "title": "Los Angeles Mayor Questions Police Training After Two Deaths in Custody",
-      "facts": "Two men have died in Los Angeles police custody, and the mayor's raising serious questions about how officers are trained to handle mental health emergencies. Mayor Karen Bass spoke out after the city released graphic video footage showing what officers did in the moments leading up to the deaths."
-    },
-    {
-      "title": "Supreme Court Clears White House Ballroom as Other Trump Projects Stall",
-      "facts": "The Supreme Court has approved President Trump's new White House ballroom, but that's about the only piece of his ambitious Washington makeover that's moving forward. Several other projects the president's proposed for the capital remain stuck in bureaucratic limbo."
-    },
-    {
-      "title": "Bessent Accuses China of Export Flooding at G20",
-      "facts": "Treasury Secretary Scott Bessent took aim at China during this week's G20 meeting, accusing Beijing of flooding global markets with cheap exports. The public rebuke marks one of the sharpest criticisms from a U.S."
-    },
-    {
-      "title": "Chevron Plans Seven Billion Dollar Venezuela Expansion",
-      "facts": "Chevron's moving ahead with a massive $7 billion plan to expand its operations in Venezuela, following the Trump administration's push for a Pentagon-backed effort to develop the country's oil reserves. The investment represents a dramatic shift for a country that's been under U.S."
-    },
-    {
-      "title": "Ryanair Cuts Winter Flights as Fuel Hits Crisis Levels",
-      "facts": "Europe's largest airline is slashing its winter schedule after jet fuel prices surged to $140 per barrel, a move that illustrates just how hard the energy crisis is hitting the aviation industry. Ryanair announced Wednesday it's reducing capacity to limit its exposure to fuel costs that the carrier hasn't locked in through hedging contracts."
-    },
-    {
-      "title": "Dell Surges on AI Server Demand",
-      "facts": "Dell's stock is climbing after the tech giant reported a massive jump in demand for its artificial intelligence servers. The company's latest earnings report impressed Wall Street enough that three major banks\u2014Morgan Stanley, Goldman Sachs, and Citigroup\u2014all raised their price targets on the stock."
-    },
-    {
-      "title": "Downtown Brooklyn Bike Lane Resurfaces Under New Mayor",
-      "facts": "The Adams administration killed it, but now it's back: a redesigned bike lane in Downtown Brooklyn has officially reopened under Mayor Mamdani. The project had been shelved by the previous administration amid pushback from drivers and some local businesses, who argued the lane would worsen congestion in an already gridlocked part of the borough."
-    },
-    {
-      "title": "Property Tax Reassessment Risk Often Missing from Deal Models",
-      "facts": "There's a blind spot in how a lot of residential real estate gets underwritten, and it could cost you thousands down the line. A growing number of analysts are warning that buyers and lenders aren't properly separating current property taxes from what taxes will look like once a property's reassessed at its new sale price."
-    },
-    {
-      "title": "Manchester City Breaks Premier League Transfer Record for Fern\u00e1ndez",
-      "facts": "Manchester City just smashed the Premier League transfer record\u2014again\u2014by signing Enzo Fern\u00e1ndez from Chelsea for \u00a3125 million. That's $169 million, matching the league's highest fee ever paid for a single player."
-    },
-    {
-      "title": "Timberwolves Land Kuminga in Starting Role Push",
-      "facts": "Jonathan Kuminga's headed to Minnesota on a two-year deal worth $12.4 million, and it's the pitch that sealed it\u2014not just the money. The Timberwolves promised Kuminga the starting power forward slot, a role that's been sitting vacant and one he'll step right into."
-    },
-    {
-      "title": "Jeanie Buss Goes to Court to Block Lakers Sale",
-      "facts": "A family fight over the Lakers has landed in Los Angeles Superior Court, and Jeanie Buss is asking a judge to step in. She's filed a petition challenging the legality of a vote her siblings took to sell the family's remaining shares in the franchise."
-    },
-    {
-      "title": "Fable 5.1 Slashes Prompt Cache Costs 75 Percent\u2014And Anti-Distillation Is the Buried Lede",
-      "facts": "Anthropic just shipped Fable 5.1 and Mythos 5.1, and while the headline is a massive price cut on cached prompt reads\u2014down 75 percent to just 25 cents per million tokens\u2014there's a deeper capability shift here that changes how you should think about building with Claude going forward. Fable 5.1 is better at coding and research tasks, and Anthropic says it's up to 45 percent cheaper for agentic workflows where the model's making repeated tool calls and cycling through the same context."
-    }
-  ],
   "2026-09-03": [
     {
       "title": "Haiti's Impossible Election",
@@ -655,6 +593,68 @@
     {
       "title": "Anthropic Disrupts Government-Linked Groups Using Claude for Weapons and Espionage",
       "facts": "Anthropic says it's caught and stopped multiple government-linked groups trying to weaponize Claude for everything from guided missile development to bioweapons research. The company released a report detailing seven distinct operations it disrupted, including accounts tied to Yemen's Houthi rebels working on missile guidance systems and users attempting biological weapons design that could have led to viable pathogens."
+    }
+  ],
+  "2026-09-13": [
+    {
+      "title": "Nepal Floods Leave Devastation and Rising Death Toll in Himalayas",
+      "facts": "Entire towns have been wiped off the map in Nepal after catastrophic flooding tore through the Himalayas, leaving survivors to recount the harrowing stories of neighbors and landmarks now buried under mud. The disaster has turned vibrant communities into unrecognizable landscapes of debris and grief."
+    },
+    {
+      "title": "Russians Demand Answers Over Hundreds Missing Since Kursk Offensive",
+      "facts": "More than three hundred Russian citizens remain unaccounted for nearly a year after Ukraine's surprise incursion into Russia's Kursk region, and officials admit they don't actually know the true scale of the missing. Families are pressing Moscow for information about relatives who vanished when Ukrainian forces crossed the border in what became one of the war's most unexpected operations."
+    },
+    {
+      "title": "Sweden Votes Sunday in Election That Could Bring Far Right Into Power",
+      "facts": "Swedes head to the polls Sunday in an election that could put the far-right Sweden Democrats in government for the first time in the country's history. The party, once considered a political pariah, has surged in support and is now a kingmaker in a tight race between left and right blocs."
+    },
+    {
+      "title": "Yemen Government Forces Battle Houthis as Thousands Flee",
+      "facts": "Fighting between Yemen's government forces and Houthi rebels is intensifying, with Saudi Arabia joining in air strikes to try to halt the Houthis' advance as thousands of civilians are displaced by the renewed violence. The clashes mark a dangerous escalation in a conflict that has already devastated Yemen for years."
+    },
+    {
+      "title": "Wisconsin Congressman Swims to Safety After Plane Goes Into Lake",
+      "facts": "A small plane carrying Representative Tom Tiffany ended up in Lake Wausau on Sunday, forcing the Wisconsin congressman and his pilot to swim to shore. Tiffany, who's the Republican nominee for governor, said both escaped with only minor injuries after what he described as an emergency landing."
+    },
+    {
+      "title": "Nuclear Arms Control Negotiator Thomas Graham Dies at 92",
+      "facts": "Thomas Graham Jr., who spent decades negotiating some of the most consequential nuclear arms treaties of the Cold War era, has died at age ninety-two. Graham served six presidents across both parties and was at the center of bureaucratic battles over the single biggest threat of his lifetime\u2014nuclear annihilation."
+    },
+    {
+      "title": "Texas Attorney General Ken Paxton Survived Impeachment Over Corruption Claims",
+      "facts": "Ken Paxton, Texas's attorney general who's now running for U.S. Senate, faced an impeachment trial that nearly ended his political career after accusations he abused his office to help a campaign donor."
+    },
+    {
+      "title": "Fed Rate Hike All But Certain as Inflation Stays Hot",
+      "facts": "The Federal Reserve's about to tighten the screws on the economy again. August's Consumer Price Index report sent inflation worries spiking, and traders are now putting a 90 percent chance on a quarter-point rate increase when the Fed meets next week."
+    },
+    {
+      "title": "AI Industry Faces Revolt as Staff Warn of Existential Risks",
+      "facts": "Employees inside some of the world's leading artificial intelligence companies say they're genuinely frightened for humanity's future, and they're not staying quiet about it. A former researcher at Anthropic told the BBC that staff members across the industry are increasingly alarmed by the pace of development and the risks it poses."
+    },
+    {
+      "title": "China Pumps Billions Into Banks as Economic Cracks Widen",
+      "facts": "Beijing's opening the vault to shore up its struggling financial system, injecting $54 billion into state-owned banks and insurance companies in one of its largest bailouts in years. The massive cash infusion comes as China grapples with a pile of economic troubles hitting all at once\u2014slowing growth, a real estate crisis, and mounting debt."
+    },
+    {
+      "title": "OpenAI Shelves IPO Plans Amid AI Safety Concerns",
+      "facts": "Sam Altman says OpenAI won't be going public this year, calling an IPO \"ill-advised\" as concerns about artificial intelligence safety continue to intensify. The ChatGPT creator's CEO is pumping the brakes on what would've been one of the most anticipated stock market debuts in years."
+    },
+    {
+      "title": "Mortgage Rates Cross Seven Percent as Housing Market Cools",
+      "facts": "Mortgage rates have climbed back above seven percent, putting fresh pressure on a housing market that's already struggling to gain momentum. The move higher comes as mortgage spreads continue to absorb some of the shock from broader interest rate volatility tied to escalating conflict with Iran."
+    },
+    {
+      "title": "Crosby Blocks Rams Trade, Commits to Raiders Rebuild",
+      "facts": "Maxx Crosby just torpedoed what could've been a blockbuster NFL trade, and he did it on his own terms. The Raiders' star pass rusher shut down trade talks with the Los Angeles Rams after a separate deal sending him to Baltimore fell through earlier this offseason, league sources confirmed."
+    },
+    {
+      "title": "Randle Returns to New York With Bold Promise for Brooklyn",
+      "facts": "Julius Randle's got a message for anyone counting out the Brooklyn Nets this season: don't. The three-time All-Star, who came to Brooklyn in a June trade, told rookie Mikel Brown Jr."
+    },
+    {
+      "title": "Anthropic Discloses Weapons Development Attempts and Security Breaches",
+      "facts": "Anthropic just released a troubling transparency report showing users in Houthi-controlled Yemen tried to use Claude to develop advanced guided weapons systems. The company says it detected and blocked the attempts, which involved designing guidance systems for military hardware."
     }
   ]
 }
