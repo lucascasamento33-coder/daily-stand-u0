@@ -1,74 +1,4 @@
 {
-  "2026-09-03": [
-    {
-      "title": "Haiti's Impossible Election",
-      "facts": "Haiti's election officials have set December 13th as the date for national elections, but almost nobody expects voting to actually happen. The country's caught in a brutal gang war that's made large parts of the capital and surrounding areas completely ungovernable."
-    },
-    {
-      "title": "Migrant Boat Tragedy Off Canary Islands",
-      "facts": "More than 80 migrants are feared dead after a rescue operation off the Canary Islands turned into a recovery mission. Rescuers found 44 survivors aboard the vessel, but they had to make a grim decision\u2014bad weather forced them to leave five bodies behind at sea."
-    },
-    {
-      "title": "Russia's Jet-Powered Drone Threat",
-      "facts": "Russia's deployed a new generation of drones over Ukraine that's causing serious concern among military analysts and air defense crews. These aren't the propeller-driven models Moscow's been using since the war started\u2014they're jet-powered, faster, more destructive, and far harder to shoot down."
-    },
-    {
-      "title": "Netanyahu's Son Stirs UK Controversy Over Falklands",
-      "facts": "Yair Netanyahu has managed to anger British conservatives by wading into one of the UK's most sensitive territorial disputes. The son of Israel's prime minister publicly backed Argentina's claim to the Falkland Islands, accusing the British government of hypocrisy in the process."
-    },
-    {
-      "title": "Gloria Steinem Dead at 92",
-      "facts": "Gloria Steinem, who became the most recognizable face of American feminism and spent more than half a century fighting for women's equality, has died at 92. Steinem challenged sexist assumptions across every corner of society, from the workplace to the home, helping women develop a sense of self-worth that transformed how millions saw themselves."
-    },
-    {
-      "title": "Homeland Security Secretary's Plane Makes Emergency Landing",
-      "facts": "The Homeland Security Secretary's plane was forced to make an emergency landing over Washington, marking the latest in a string of close calls involving senior government officials in the capital's crowded airspace. Details about what caused the emergency haven't been released, but the landing comes as aviation safety experts have raised concerns about the volume of traffic over the nation's capital."
-    },
-    {
-      "title": "ICE Lowered Hiring Standards in Recruitment Push, Whistle-Blower Claims",
-      "facts": "An official who oversaw vetting for Immigration and Customs Enforcement says the agency skipped basic background checks in a rush to hire new recruits, citing what he calls an \"unprecedented lowering of standards.\" The whistle-blower, who worked directly on the hiring process, claims ICE bypassed standard procedures that would normally flag applicants with troubling histories or insufficient qualifications. The allegations come as ICE has been under pressure to rapidly expand its workforce to meet the administration's immigration enforcement goals."
-    },
-    {
-      "title": "Treasury Chief Accuses China of Export Dumping at G20",
-      "facts": "Treasury Secretary Scott Bessent took aim at China during this week's G20 meetings, accusing Beijing of flooding global markets with artificially cheap exports. The criticism comes as trade tensions between Washington and China continue to simmer, with American officials arguing that subsidized Chinese goods are undercutting manufacturers worldwide."
-    },
-    {
-      "title": "Cloud Computing Economics Shift as AI Costs Reshape Big Tech",
-      "facts": "The math that built the cloud computing industry is breaking down, and it's triggering a power shift inside Big Tech. Companies are discovering it's now more economical to buy AI hardware outright than to rent computing power through cloud services\u2014a reversal that threatens the business model of Amazon Web Services, Microsoft Azure, and Google Cloud."
-    },
-    {
-      "title": "Britain's North-South Economic Divide Widens Despite Growth",
-      "facts": "Nearly half of British households aren't seeing any benefit from the country's economic growth, according to new analysis that reveals a stark gap in spending power between the north and south of England. The report shows that while the national economy's been expanding, the gains are concentrated in London and the southeast, leaving much of the north behind."
-    },
-    {
-      "title": "Snowflake Shares Jump on AI Momentum",
-      "facts": "Snowflake's stock is surging today, and Wall Street analysts are raising their forecasts as the software company rides the artificial intelligence wave. The cloud data platform reported results that have analysts buzzing about its position in the AI revolution."
-    },
-    {
-      "title": "Downtown Brooklyn Bike Lane Revived Under New Mayor",
-      "facts": "A bike lane that the Adams administration killed has come back to life in downtown Brooklyn, marking one of the first concrete policy reversals under Mayor Mamdani. The protected cycling route, which had been scrapped amid pushback from drivers and some local businesses, reopened this week following a redesign that preserves most of the original safety features."
-    },
-    {
-      "title": "Reno Housing Market Defies Western Slowdown",
-      "facts": "While major western cities see home sales slide, Reno's quietly holding its own\u2014and the numbers tell a surprising story. Washoe County deeds show a 2.1% year-over-year gain through July 2026, even as Austin's down 5.0% and Denver's fallen 3.4% over the same stretch."
-    },
-    {
-      "title": "Kirk Cousins Takes Over as Raiders' Week 1 Starter",
-      "facts": "Kirk Cousins is getting the nod to start for the Raiders when the season kicks off, beating out rookie quarterback Fernando Mendoza for the job. The team announced the decision, ending weeks of speculation about who'd be under center for Week 1."
-    },
-    {
-      "title": "NBA Hammers Clippers With Harshest Punishment in League History",
-      "facts": "The NBA just dropped the most severe penalty it's ever handed down, and the Los Angeles Clippers are reeling. The league docked the team five first-round draft picks, slapped them with a $30 million fine, and suspended owner Steve Ballmer for an entire year."
-    },
-    {
-      "title": "Raptors to Retire Kyle Lowry's Number in January Ceremony",
-      "facts": "Kyle Lowry's getting the ultimate honor from Toronto. The Raptors announced they'll retire his number 7 jersey on January 10th, right after they face the 76ers."
-    },
-    {
-      "title": "Claude Fable 5.1 Cuts Costs by Up to 45 Percent While Pushing Coding and Research Performance",
-      "facts": "Anthropic just shipped Claude Fable 5.1 and Mythos 5.1, and the headline for power users isn't just the performance bump\u2014it's the pricing drop. Fable 5.1 costs up to 45 percent less than its predecessor while Anthropic says it \"sets a new standard for coding, knowledge work, and long-running problem-solving tasks.\" That's a massive cost reduction for anyone running scheduled tasks or batch jobs at scale, especially if you're already burning through tokens on daily lease summaries or vendor invoice audits."
-    }
-  ],
   "2026-09-04": [
     {
       "title": "Argentina Turns Up Heat on Falklands Dispute",
@@ -655,6 +585,52 @@
     {
       "title": "Anthropic Discloses Weapons Development Attempts and Security Breaches",
       "facts": "Anthropic just released a troubling transparency report showing users in Houthi-controlled Yemen tried to use Claude to develop advanced guided weapons systems. The company says it detected and blocked the attempts, which involved designing guidance systems for military hardware."
+    }
+  ],
+  "2026-09-14": [
+    {
+      "title": "Trinidad Detains Woman for Months Over Private Phone Call",
+      "facts": "Racial and political tensions are boiling over in Trinidad and Tobago after authorities detained a woman for months based on what she said during a private phone conversation. The woman, a member of an ethnic minority group, criticized the government on the call\u2014and that alone led officials to accuse her of involvement in an assassination plot."
+    },
+    {
+      "title": "Philippines Holds Landmark Election in Muslim Autonomy Region",
+      "facts": "The Philippines held a landmark election over the weekend in its restive Muslim autonomous region, a part of the country long associated with violent separatist movements and fragile peace agreements. The vote is seen as a critical test of whether the region can move toward lasting stability and self-governance, after decades of conflict that killed tens of thousands."
+    },
+    {
+      "title": "Pentagon Chief Faces Growing Turmoil as Military Readiness Issues Mount",
+      "facts": "Defense Secretary Pete Hegseth's effort to eliminate what he calls culture wars at the Pentagon has sparked its own wave of controversy, and the timing couldn't be worse. Officials say persistent distractions inside the building are feeding a climate of mistrust just as U.S."
+    },
+    {
+      "title": "Wall Street Warns AI Slowdown Could Topple Stock Rally",
+      "facts": "Citigroup is sounding the alarm on what's been driving the stock market's surge\u2014and warning it could all reverse fast. The banking giant says if artificial intelligence development hits the brakes, earnings revisions could follow, and those upward earnings tweaks have been the crucial fuel behind this year's stock gains."
+    },
+    {
+      "title": "Canada's Prime Minister Pitches Foreign Investment Amid Trade War",
+      "facts": "Canada's betting it can attract the world's biggest investment funds even as it escalates a bitter tariff fight with the United States. Prime Minister Mark Carney leveraged his deep connections in global finance to invite some of the planet's largest investors to Canada, presenting the country as a stable alternative in an uncertain trade environment."
+    },
+    {
+      "title": "UK Prime Minister Calls for Culture Shift on Business Risk",
+      "facts": "Britain needs to fundamentally change how it thinks about business risk, according to the country's prime minister. The call for a \"culture shift\" came with a promise that government will back entrepreneurs and risk-takers more aggressively going forward."
+    },
+    {
+      "title": "Mortgage Rates Push Past 7 Percent as Iran Conflict Roils Markets",
+      "facts": "Mortgage rates have climbed back above 7 percent, adding fresh pressure to an already sluggish housing market. The jump comes as global uncertainty around the Iran conflict continues to shake financial markets and push borrowing costs higher."
+    },
+    {
+      "title": "Premier League Refs Admit VAR Error Cost Manchester United in Derby",
+      "facts": "The Premier League's referees' body has issued a rare apology to Manchester United after admitting that VAR made an error in awarding Erling Haaland's winning goal in Manchester City's 1-0 derby victory. Pro Ref acknowledged that the goal\u2014which proved to be the only score in the match\u2014should not have stood."
+    },
+    {
+      "title": "Pelicans Ship Lottery Pick Hawkins to Memphis in Four-Player Deal",
+      "facts": "The Pelicans are sending Jordan Hawkins\u2014the player they selected in last year's lottery\u2014to Memphis along with three other assets in a trade that landed them AJ Johnson and veteran Taj Gibson. Hawkins, Micah Peavy, and two future second-round picks are heading to the Grizzlies in exchange."
+    },
+    {
+      "title": "Bradley Beal Inherits Chris Paul's Iconic Number Three With the Clippers",
+      "facts": "Bradley Beal's taking over the number three jersey for the Clippers, a number that's been synonymous with Chris Paul for most of the franchise's modern history. Paul wore the number during his six seasons in Los Angeles and became one of the most important players in Clippers history, leading them to their most successful stretch ever."
+    },
+    {
+      "title": "Hackers Turn Claude Into a Credential-Theft Machine",
+      "facts": "Threat actors have hijacked Claude to mine secrets from nearly two million Android apps\u2014and they're doing it at scale. Security researchers uncovered a major credential-theft campaign that's using Anthropic's AI to automatically analyze app code, extract API keys, authentication tokens, and other sensitive credentials, then weaponize them for further attacks."
     }
   ]
 }
