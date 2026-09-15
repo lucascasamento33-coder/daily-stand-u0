@@ -1,70 +1,4 @@
 {
-  "2026-09-04": [
-    {
-      "title": "Argentina Turns Up Heat on Falklands Dispute",
-      "facts": "Argentina's president Javier Milei says the \"winds of change\" now favor his country's claim to the Falkland Islands, threatening sanctions as he refocuses his administration on the decades-old territorial dispute with Britain. The shift comes amid what Milei's critics are calling political maneuvering, timed to capitalize on what he sees as a changing stance from Washington."
-    },
-    {
-      "title": "Russia Blamed for Spiraling Sabotage Campaign Across Europe",
-      "facts": "Germany has formally accused Russia of attacking Leipzig airport, but it's just one piece of a much larger puzzle that's making European security officials deeply uneasy. A series of suspicious incidents across the continent\u2014unexplained fires, infrastructure disruptions, and alleged sabotage plots\u2014are all pointing back to Moscow."
-    },
-    {
-      "title": "Diesel Prices Hit Record High as Iran Conflict Ripples Through Markets",
-      "facts": "U.S. diesel prices just hit an all-time high, and the spike is a direct result of the conflict with Iran that erupted at the end of February."
-    },
-    {
-      "title": "Israel Deploys AI in Information Campaign on Palestine",
-      "facts": "Israel has opened a new front in its long-running effort to shape how Palestinians are understood\u2014and this time, it's powered by artificial intelligence. What's being called the Hanover affair has exposed how Israeli officials are using AI tools to influence media narratives and public perception around the conflict."
-    },
-    {
-      "title": "Jury Deadlocked in Massachusetts Triple-Murder Case",
-      "facts": "The Lindsay Clancy trial appears to be hanging by a single juror. The Massachusetts jury has been deadlocked since at least Tuesday on whether to hold Clancy criminally responsible for strangling her three children to death."
-    },
-    {
-      "title": "U.S. Trade Deficit Jumps as AI Boom Drives Import Surge",
-      "facts": "America's trade gap bounced back up in July, and artificial intelligence is partly to blame. The deficit widened last month as companies spent heavily on imported equipment for data centers\u2014the massive computing facilities that power AI systems."
-    },
-    {
-      "title": "Trump Administration Targets Race-Based Financial Aid Programs",
-      "facts": "Schools that offer scholarships or financial aid specifically for minority students could lose their tax-exempt status under new rules released by the Treasury Department. The policy would strip tax benefits from any educational institution\u2014colleges, universities, or private schools\u2014that runs programs based on race."
-    },
-    {
-      "title": "Netherlands Pulls Gold from New York Citing Geopolitical Risk",
-      "facts": "The Dutch central bank has moved about 90 tons of gold out of the Federal Reserve Bank in New York, citing what it calls \"geopolitical unrest\" as the reason. That makes the Netherlands the second European nation this year to announce it's reduced or eliminated gold holdings stored in the United States."
-    },
-    {
-      "title": "Government Interventions Are Backfiring on Nervous Markets",
-      "facts": "When governments step in to calm markets, investors are supposed to breathe easier. That's not what's happening right now."
-    },
-    {
-      "title": "One Trader's Bet on Midterm Election Chaos",
-      "facts": "Kevin Muir isn't waiting to see if November's midterm elections turn messy\u2014he's already buying insurance against it. The trader says purchasing protection against a market selloff triggered by a disputed election outcome is so obvious, he's calling it a \"chip shot.\" His reasoning is straightforward: if the results are contested or unclear, markets could spiral quickly, and the cost of hedging against that risk right now is relatively cheap."
-    },
-    {
-      "title": "Rock Venues Disappearing From North Brooklyn's Waterfront",
-      "facts": "North Brooklyn's live music scene is in crisis. A young music fan used to be able to wander down Kent Avenue and stumble into a gritty rock show almost any night of the week\u2014but that era's rapidly coming to an end."
-    },
-    {
-      "title": "Carroll Gardens May Get New Happier Grocery Location",
-      "facts": "Happier Grocery could be coming to Carroll Gardens, and it'd fill a retail gap that's been there for over a year. The grocery's co-owner has purchased the former Rite Aid site on Smith Street, which has sat empty since the pharmacy chain pulled out last year."
-    },
-    {
-      "title": "Arsenal and Barcelona Draw Each Other in Women's Champions League",
-      "facts": "Arsenal and Barcelona will face off in the league phase of this year's Women's Champions League, setting up what's likely to be one of the marquee matchups of the competition. The draw was held this week, pairing two of Europe's top women's clubs against each other in a clash that'll test both squads early."
-    },
-    {
-      "title": "Monaco Leaves Balogun Off Conference League Squad",
-      "facts": "Folarin Balogun has been left out of Monaco's squad for the Conference League, and the timing tells you everything you need to know\u2014uncertainty over his future is hanging over the decision. The striker was expecting a transfer to Everton, but that deal collapsed, leaving him in limbo at Monaco."
-    },
-    {
-      "title": "NBA Hammers Clippers With Historic Penalty Over Leonard Deal",
-      "facts": "The NBA just handed down the harshest punishment in league history, and it's landed on the Los Angeles Clippers. The league's stripped the team of five first-round draft picks, slapped them with a $30 million fine, and suspended owner Steve Ballmer for an entire year."
-    },
-    {
-      "title": "Claude Goes Auto-Logout to Block Session Hijackers",
-      "facts": "Anthropic's rolling out automatic sign-outs across Claude to shut down a security threat that's been brewing in the background\u2014session hijacking. The company confirmed it's now forcing users to re-authenticate more frequently, a move designed to protect accounts from attackers who steal active session tokens and slip into your account without needing your password."
-    }
-  ],
   "2026-09-05": [
     {
       "title": "Nepal Tunnel Rescue Offers Glimmer of Hope Amid Massive Disaster",
@@ -631,6 +565,60 @@
     {
       "title": "Hackers Turn Claude Into a Credential-Theft Machine",
       "facts": "Threat actors have hijacked Claude to mine secrets from nearly two million Android apps\u2014and they're doing it at scale. Security researchers uncovered a major credential-theft campaign that's using Anthropic's AI to automatically analyze app code, extract API keys, authentication tokens, and other sensitive credentials, then weaponize them for further attacks."
+    }
+  ],
+  "2026-09-15": [
+    {
+      "title": "Kyrgyzstan's War Windfall",
+      "facts": "Kyrgyzstan's economy just grew by 11 percent last year, and a big part of that boom is thanks to the war in Ukraine. The Central Asian nation has quietly become a crucial conduit for goods flowing into Russia, essentially serving as a workaround for Western sanctions."
+    },
+    {
+      "title": "Thai Beer Heir Breaks Family Silence on Abuse",
+      "facts": "An heir to Thailand's Singha beer empire has accused his brother of sexual abuse, and in doing so, he's forcing a rare public conversation about a topic that's long been taboo in Thai society. Siranudh Scott didn't just make the allegation\u2014he's taken on his entire family in a confrontation that's drawing attention across the country."
+    },
+    {
+      "title": "U.S. Confirms It's Put Weapons in Orbit",
+      "facts": "The United States has deployed weapons in space, and we're only finding out about it now. Air Force Secretary Troy E."
+    },
+    {
+      "title": "Fed Poised to Raise Rates as Major Banks Reverse Their Forecasts",
+      "facts": "Morgan Stanley just flipped its Federal Reserve prediction at the eleventh hour, joining Goldman Sachs in now expecting the central bank to hike interest rates when it meets. Both banks had previously forecast the Fed would hold rates steady, but they've reversed course as recent economic data came in hotter than expected."
+    },
+    {
+      "title": "Student Debt Becomes a Retirement Killer for Millions of Americans",
+      "facts": "People trying to pay off student loans and save for retirement at the same time are falling behind early in their careers\u2014and they never catch up. New research shows that if all employers matched student debt payments the way they match retirement contributions, workers would save more than ten billion dollars collectively."
+    },
+    {
+      "title": "UK Pension Payments Set to Top Thirteen Thousand Pounds as Wage Growth Cools",
+      "facts": "Britain's state pension is on track to exceed thirteen thousand pounds a year, even as wage growth across the country slows to three-point-nine percent. The increase is reigniting a fierce debate about whether the pension system is financially sustainable over the long term\u2014and whether it's fair to younger generations who'll be footing the bill."
+    },
+    {
+      "title": "Treasury Yields Hit 17-Year High as Markets Brace for Fed Decision",
+      "facts": "The 10-year Treasury yield just crossed 5% for the first time since 2007, and it's putting serious pressure on stock futures ahead of the Federal Reserve's policy meeting this week. The benchmark yield hit 5.041% on Tuesday, driven by a combination of rising oil prices and investor anxiety about what the Fed might signal."
+    },
+    {
+      "title": "Wall Street Analysts Say Don't Fear the Fed Rate Hike",
+      "facts": "UBS is telling clients to keep calm and carry on, even as the Federal Reserve prepares to raise interest rates again this week. In a note to investors Tuesday, the bank argued that history actually shows stocks tend to hold up pretty well once a tightening cycle gets underway."
+    },
+    {
+      "title": "Compass Launches Global Referral Network Despite U.S.-Only License",
+      "facts": "Compass is rolling out a new global division to handle cross-border real estate referrals, even though the brokerage itself remains licensed only in the United States. The company's introducing internal tiers and tracking tools designed to standardize how agents refer clients to partners overseas\u2014a move that could reshape how American buyers and sellers connect with international markets."
+    },
+    {
+      "title": "Flock Surveillance Cameras Complicate Homebuyer Due Diligence",
+      "facts": "Neighborhood surveillance cameras are becoming a new wrinkle in the homebuying process, and the paperwork hasn't caught up yet. Flock cameras\u2014automated license plate readers and security devices that track vehicles entering and leaving communities\u2014are spreading rapidly through HOAs and residential developments, but experts say disclosure documents are lagging way behind."
+    },
+    {
+      "title": "Aaron Judge Breaks Home Run Drought as Yankees Lock Playoff Spot",
+      "facts": "Aaron Judge finally broke through Monday night, launching his first home run since late May and helping the Yankees clinch their record 61st postseason berth. It's been a long, frustrating stretch for Judge, whose power outage had become one of baseball's most puzzling storylines over the past few months."
+    },
+    {
+      "title": "Clippers and Raptors Finally Complete Leonard Trade After Monthslong Investigation",
+      "facts": "The Kawhi Leonard trade is finally official. After months of delay tied to the NBA's investigation into the Clippers, Los Angeles has sent Leonard to the Toronto Raptors in a deal that was agreed to long ago but couldn't be completed while the league examined sponsorship dealings."
+    },
+    {
+      "title": "Claude Code's Power Users Do One Thing Differently",
+      "facts": "Anthropic just analyzed 400,000 Claude Code sessions to figure out what separates the users getting great results from everyone else, and the answer isn't what you'd expect. It's not about writing better prompts or using fancier tools\u2014it's about iteration."
     }
   ]
 }
