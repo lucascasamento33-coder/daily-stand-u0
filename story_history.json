@@ -1,50 +1,4 @@
 {
-  "2026-09-05": [
-    {
-      "title": "Nepal Tunnel Rescue Offers Glimmer of Hope Amid Massive Disaster",
-      "facts": "Rescuers in Nepal have found two people alive in a collapsed tunnel, offering a rare piece of hope in what's become a catastrophic disaster. The discovery has energized search teams who are now racing to reach dozens more believed trapped in the same tunnel."
-    },
-    {
-      "title": "Russian Draft Rumors Spark Panic Despite Kremlin Denials",
-      "facts": "Military-age men across Russia are making plans to flee, hide, or simply disappear\u2014spooked by swirling rumors of a coming mass mobilization. The Kremlin has flatly denied that any new draft is in the works, but that hasn't stopped the panic from spreading through social media and encrypted messaging apps."
-    },
-    {
-      "title": "Pentagon Launches Unprecedented Leak Investigation With Polygraph Tests",
-      "facts": "The Pentagon is polygraphing dozens of its own Joint Staff members in what's being described as an unparalleled hunt for the source of classified leaks about the Iran war. About 50 people have been tested so far, according to officials familiar with the inquiry."
-    },
-    {
-      "title": "U.S. Added 162,000 Jobs Last Month as Labor Market Holds Steady",
-      "facts": "The U.S. economy added 162,000 jobs last month, and unemployment held at 4.1 percent\u2014signs that the labor market's staying relatively stable even as other parts of the economy show strain."
-    },
-    {
-      "title": "Trump Demands Fed Cut Rates or He'll Halt Some Trade",
-      "facts": "President Trump threatened to halt trade with countries where the U.S. runs a deficit unless the Federal Reserve cuts interest rates, a move that would represent an extraordinary escalation of his pressure campaign on the central bank."
-    },
-    {
-      "title": "Netherlands Pulls 90 Tons of Gold Out of New York Citing Geopolitical Tensions",
-      "facts": "The Dutch central bank has moved about 90 tons of gold out of the Federal Reserve Bank in New York, citing what it calls \"geopolitical unrest\" as the reason for pulling reserves back home. The Netherlands becomes the second European nation this year to announce it's reduced or eliminated gold holdings stored in the U.S., a shift that reflects growing anxiety about the stability of international financial arrangements."
-    },
-    {
-      "title": "S&P 500 Shakeup Brings in Bloom Energy",
-      "facts": "Bloom Energy's getting promoted to the big leagues. The company just earned a spot in the S&P 500, joining the most-watched benchmark of American corporate performance."
-    },
-    {
-      "title": "Immigration Enforcement Squeezes Homebuilders and Their Lenders",
-      "facts": "Immigration raids are doing more than grabbing headlines\u2014they're now hitting homebuilders in the wallet and delaying projects across multiple states. ICE arrests jumped from around 32,500 in May to nearly 50,000 in July, and builders say the effects are rippling through construction sites even in areas where enforcement hasn't been aggressive."
-    },
-    {
-      "title": "Hall of Fame Overhauls How It Picks Football Legends",
-      "facts": "The Pro Football Hall of Fame is throwing out its playbook for how it selects immortals. The Canton shrine announced sweeping changes Friday that'll dramatically shrink the number of people who get a vote and eliminate the separate Seniors category that's been used to honor old-timers."
-    },
-    {
-      "title": "NBA Hammers Clippers With Historic Penalty Over Leonard Sponsorship",
-      "facts": "The NBA just handed down one of the harshest punishments in league history, stripping the Los Angeles Clippers of five first-round draft picks and hitting them with a $30 million fine. The penalty stems from an investigation into a sponsorship deal involving Kawhi Leonard that the league says violated salary cap rules."
-    },
-    {
-      "title": "Claude Now Runs Real Lab Experiments Autonomously",
-      "facts": "Anthropic just gave Claude the ability to physically control lab equipment and run scientific experiments without human supervision. The company announced that Claude can now operate real laboratory hardware\u2014think pipettes, spectrometers, and other research tools\u2014autonomously executing experiments from start to finish."
-    }
-  ],
   "2026-09-06": [
     {
       "title": "Indonesia Volcano Grounds More Than 150,000 Travelers",
@@ -619,6 +573,60 @@
     {
       "title": "Claude Code's Power Users Do One Thing Differently",
       "facts": "Anthropic just analyzed 400,000 Claude Code sessions to figure out what separates the users getting great results from everyone else, and the answer isn't what you'd expect. It's not about writing better prompts or using fancier tools\u2014it's about iteration."
+    }
+  ],
+  "2026-09-16": [
+    {
+      "title": "Trump Bars South Africans Over Discrimination Claims",
+      "facts": "Washington's imposed travel restrictions on some South African citizens, citing what President Trump calls anti-white discrimination in the country. The move marks a sharp escalation in tensions between the two nations, with the U.S."
+    },
+    {
+      "title": "Russians Brace for Post-Election Crackdown",
+      "facts": "The upcoming election in Russia might be a foregone conclusion, but that's not stopping citizens from worrying about what comes after the votes are counted. Russians are bracing for what the government might do on the military and economic fronts once the Kremlin sees the vote as legitimizing its policies."
+    },
+    {
+      "title": "House Votes to Restrain Presidential War Powers on Iran",
+      "facts": "The House has directed President Trump to either halt military operations against Iran or come back to Congress for explicit authorization\u2014and it's the fifth time a chamber of the Republican-controlled Congress has voted to rein in his war powers. The resolution reflects growing unease among lawmakers as the conflict drags on without a clear endpoint."
+    },
+    {
+      "title": "Charlie Kirk's Family Sues University Over Security Lapses",
+      "facts": "The family of conservative activist Charlie Kirk is accusing Utah Valley University of \"stunning\" security failures that they say allowed a gunman unrestricted access to the rooftop where he fired the fatal shot. According to a legal notice sent by the family's lawyers, the university ignored repeated concerns about the building's lack of secure perimeter controls."
+    },
+    {
+      "title": "Fed Poised to Hike Rates Again as Midterms Loom",
+      "facts": "The Federal Reserve's expected to raise interest rates Wednesday, and the timing couldn't be more politically awkward\u2014we're less than two months from the midterm elections. It's a rare collision of monetary policy and electoral politics, since the Fed typically tries to avoid major moves that might be seen as tipping the scales in either direction."
+    },
+    {
+      "title": "UK Inflation Jumps on Fuel and Holiday Costs",
+      "facts": "Inflation's climbing again in the United Kingdom, driven higher by petrol and diesel price increases and the usual summer spike in holiday costs. The latest figures show price growth accelerating after months of easing, and the culprit is largely the same as it's been for the past year\u2014energy markets rattled by Middle East conflict."
+    },
+    {
+      "title": "Treasury Yields Hit Three-Year High Despite Buyback Plan",
+      "facts": "Treasury yields are climbing to levels we haven't seen since before the pandemic, and that's making America's debt problem significantly more expensive. The 10-year Treasury yield has pushed above 5%, marking its highest point in three years\u2014even after the Treasury Department unveiled a $6 billion bond buyback program designed to bring borrowing costs down."
+    },
+    {
+      "title": "Oil Prices Drive New Market Dynamic Between Stocks and Bonds",
+      "facts": "There's a fundamental shift happening in how the world's major asset classes are moving together, and it's all about energy. Rising oil prices\u2014driven by escalating conflict involving Iran\u2014are starting to dictate the relationship between stocks, bonds, and commodities in ways that haven't been the norm for the past decade."
+    },
+    {
+      "title": "Permit Approval Delays\u2014Not Construction\u2014Are Stretching Out Home Projects",
+      "facts": "Researchers just tracked 1.1 million building permits issued across the country between 2000 and 2025, and they found something that should change how we talk about housing delays. It's not the actual construction that's taking longer\u2014it's getting the permit approved in the first place."
+    },
+    {
+      "title": "Non-QM Mortgages Could Hit $100 Billion as Wall Street Eyes Big Returns",
+      "facts": "There's a corner of the mortgage market that doesn't get much attention from everyday homeowners, but it's about to get a lot bigger\u2014and it could affect how lenders price loans. Non-qualified mortgages, or non-QM loans, are mortgages that don't meet the strict documentation standards Fannie Mae and Freddie Mac require, and they've been quietly booming."
+    },
+    {
+      "title": "Brewers Capture Fourth Straight Division Crown",
+      "facts": "The Milwaukee Brewers are heading back to the postseason after clinching their fourth consecutive National League Central title Tuesday night. They locked it up without even playing\u2014the second-place Cubs lost to Atlanta, giving Milwaukee the division crown with games still to spare."
+    },
+    {
+      "title": "Paul George Joins Celtics in Blockbuster Trade for Jaylen Brown",
+      "facts": "Paul George is headed to Boston, and he knows Celtics fans aren't exactly throwing him a welcome parade. The team has completed a trade sending Jaylen Brown to Philadelphia in exchange for George, and the new arrival acknowledged the controversy head-on Tuesday."
+    },
+    {
+      "title": "Claude Code Now Runs Without Anthropic Models",
+      "facts": "Developers have figured out how to use Claude Code\u2014Anthropic's autonomous coding environment\u2014with competing AI models instead of Claude itself, and it's opening up a whole new category of workflow flexibility you probably haven't explored yet. The key insight here is that Claude Code's architecture separates the orchestration layer from the model layer, which means you can swap in OpenAI, Gemini, or even local models while keeping all of Code's tooling, hooks, and integrations intact."
     }
   ]
 }
