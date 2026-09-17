@@ -1,54 +1,4 @@
 {
-  "2026-09-06": [
-    {
-      "title": "Indonesia Volcano Grounds More Than 150,000 Travelers",
-      "facts": "More than 150,000 airline passengers are stuck in Indonesia after volcanic ash shut down airspace near Jakarta. Eruptions sent plumes of ash into flight paths, forcing authorities to ground planes and cancel hundreds of flights."
-    },
-    {
-      "title": "China's Record Graduating Class Faces Jobs Crisis and AI Threat",
-      "facts": "A record 12.7 million young people are hunting for jobs in China right now, and they're running into a brutal combination of a weak economy and rapidly advancing artificial intelligence. It's the largest graduating class in the country's history, and they're entering a job market that's already struggling to absorb them."
-    },
-    {
-      "title": "Memphis Immigration Raid Snares More Than 120 at Gambling Site",
-      "facts": "More than 120 people were arrested at a Memphis cantina in what's become one of Tennessee's biggest immigration operations this year. What started as a gambling raid quickly turned into a sweeping immigration enforcement action, raising questions about how local authorities coordinate with federal agents."
-    },
-    {
-      "title": "Pentagon Allies Mobilize to Save General From Hegseth's Purge",
-      "facts": "Gen. Christopher T."
-    },
-    {
-      "title": "U.S. Jobs Report Shows Solid Hiring Despite Inflation Pressures",
-      "facts": "American employers added 162,000 jobs last month, and the unemployment rate held steady at 4.1 percent. The numbers suggest the labor market's maintaining its footing even as high inflation continues to squeeze household budgets and rattle financial markets."
-    },
-    {
-      "title": "401(k) Millionaires Hit Record High as Retirement Savings Surge",
-      "facts": "Retirement accounts just hit another milestone that's reshaping the American savings picture. Fidelity Investments reported Thursday that the number of 401(k) millionaires reached an all-time high in the second quarter, driven by retirement savings that also hovered at record levels."
-    },
-    {
-      "title": "Trump Pressures Fed on Rate Cuts After Jobs Report",
-      "facts": "The president's threatening to halt certain trade deals unless the Federal Reserve cuts interest rates, putting the central bank squarely in the political crosshairs. The warning came after Friday's jobs report showed the economy added 162,000 positions in August while unemployment held steady at 4.1%."
-    },
-    {
-      "title": "Fay Group Expands With VanDyk Mortgage Acquisition",
-      "facts": "Fay Group is buying VanDyk Mortgage in a deal that significantly expands its ability to originate government-backed loans. The acquisition brings Fannie Mae, Freddie Mac, and Ginnie Mae execution capabilities under Fay's roof, along with an existing mortgage servicing rights portfolio."
-    },
-    {
-      "title": "Sixteen-Year-Old Sullivan Shatters MLS Age Record",
-      "facts": "Philadelphia Union teenager Cavan Sullivan just rewrote the record books, becoming the youngest player ever to score in three consecutive MLS games. The sixteen-year-old's latest goal broke a mark that had stood since the league's early days, when it belonged to Freddy Adu\u2014once considered American soccer's brightest hope."
-    },
-    {
-      "title": "Pro Football Hall of Fame Overhauls Voting System",
-      "facts": "The Pro Football Hall of Fame is tearing up its selection process and starting over, making the biggest changes to how it picks legends in decades. The Hall announced it's slashing the number of voters significantly, though it hasn't said exactly how many selectors will lose their ballots."
-    },
-    {
-      "title": "NBA Hammers Clippers With Historic Penalty Over Cap Violations",
-      "facts": "The NBA has dropped what's being called an enormous punishment on the Los Angeles Clippers for salary cap circumvention, and the fallout could reshape the franchise for years. While the league hasn't publicly detailed the exact penalties, reports indicate the punishment ranks among the most severe in modern NBA history."
-    },
-    {
-      "title": "Agents Formalize Fermat's Last Theorem in Eleven Days",
-      "facts": "Anthropic's Claude agents have formalized the proof of Fermat's Last Theorem\u2014one of mathematics' most famous results\u2014in just eleven days of autonomous work. The project marks the first time AI has successfully converted such a celebrated proof into machine-checkable form without constant human supervision."
-    }
-  ],
   "2026-09-07": [
     {
       "title": "Peru Pushes Back on U.S. Pressure Over China Ties",
@@ -627,6 +577,72 @@
     {
       "title": "Claude Code Now Runs Without Anthropic Models",
       "facts": "Developers have figured out how to use Claude Code\u2014Anthropic's autonomous coding environment\u2014with competing AI models instead of Claude itself, and it's opening up a whole new category of workflow flexibility you probably haven't explored yet. The key insight here is that Claude Code's architecture separates the orchestration layer from the model layer, which means you can swap in OpenAI, Gemini, or even local models while keeping all of Code's tooling, hooks, and integrations intact."
+    }
+  ],
+  "2026-09-17": [
+    {
+      "title": "Trump Sanctions Strand Thousands of Containers Bound for Cuba",
+      "facts": "Thousands of shipping containers destined for Cuba are sitting idle in ports around the world, and it's a direct result of the Trump administration's latest round of sanctions on the island nation. The U.S."
+    },
+    {
+      "title": "North Korea's Economic Power Built on Brutal Exploitation at Home and Abroad",
+      "facts": "Kim Jong-un's growing financial and diplomatic clout on the world stage rests on a foundation of forced labor and exploitation that stretches from coal mines deep inside North Korea to diplomatic missions scattered around the globe. A new investigation reveals the hidden human cost behind the regime's recent gains in leverage, showing how ordinary North Koreans\u2014from miners to diplomats\u2014are being squeezed to fund the state's ambitions."
+    },
+    {
+      "title": "Republicans Face Defensive Midterm Battle in Trump Country",
+      "facts": "Republicans are scrambling to defend states and districts that President Trump carried easily just two years ago, and the party's own strategists are questioning whether they've already lost ground they can't recover. The GOP is pouring money into places that should've been safe bets, a sign that the political landscape has shifted faster than many anticipated."
+    },
+    {
+      "title": "State Department Bars Palestinian Leader From UN Visit",
+      "facts": "The State Department has extended its visa ban to Mahmoud Abbas, effectively blocking the Palestinian leader from traveling to New York next week for the United Nations General Assembly. Abbas leads two governing Palestinian groups, making the travel restriction a significant diplomatic move with implications far beyond one missed meeting."
+    },
+    {
+      "title": "Canada Moves Toward EU After Trump's Statehood Remarks",
+      "facts": "President Trump's suggestion that Canada become the 51st U.S. state has backfired spectacularly, pushing America's northern neighbor toward a formal relationship with the European Union instead."
+    },
+    {
+      "title": "Federal Reserve Hikes Interest Rates for First Time Since 2023",
+      "facts": "The Federal Reserve raised interest rates by a quarter of a percentage point on Wednesday, marking the first increase since July 2023 as officials try to wrestle down inflation that's remained stubbornly high. Fed Chairman Kevin M."
+    },
+    {
+      "title": "Global Economy Faces Mounting Risks as Energy Shock Lingers",
+      "facts": "The world economy is running dangerously low on options to handle the next crisis, according to a new assessment of how countries weathered the energy shock from the war in Iran. Many governments managed to blunt the worst pain for their citizens when energy prices spiked, using subsidies and strategic reserves to cushion the blow."
+    },
+    {
+      "title": "Bank of England Holds Rates Steady as Inflation Pressures Build",
+      "facts": "Britain's central bank left interest rates unchanged at three-point-seven-five percent on Thursday, the sixth straight meeting without a move, but officials made clear that streak might not last much longer. The Bank of England said rates are likely to rise if elevated energy prices continue putting pressure on the UK economy."
+    },
+    {
+      "title": "Generac Stock Soars on Massive Amazon Power Deal",
+      "facts": "Generac's stock rocketed more than 30 percent today after landing a deal with Amazon that transforms the Wisconsin-based generator maker into a major player in the AI infrastructure boom. The company will supply backup power generators to Amazon in an initial order worth $2.4 billion."
+    },
+    {
+      "title": "Wall Street Strategist Says Rate Hikes Don't Mean Stock Declines",
+      "facts": "A new analysis from a Wall Street strategist is challenging the conventional wisdom that Federal Reserve rate hikes are bad news for stock investors. The investment bank dug into historical data and found that stocks can\u2014and often do\u2014continue climbing even after the Fed raises interest rates."
+    },
+    {
+      "title": "Mortgage Rates Top Seven Percent as Fed Launches Rate-Hike Cycle",
+      "facts": "The Federal Reserve's kicked off a new rate-hike cycle, and thirty-year mortgage rates are now hovering near seven percent\u2014a threshold that's already reshaping how buyers and sellers think about housing. Housing professionals say the psychological effect hit immediately, even before the Fed's first move was official."
+    },
+    {
+      "title": "Builder Discounts Fail to Unlock Demand as Homebuyers Stay on Sidelines",
+      "facts": "Homebuilders are throwing everything at the wall to move inventory, but buyers aren't biting. In September, two out of every three builders nationwide used incentives to sweeten deals, and thirty-eight percent went further\u2014cutting prices by an average of six percent."
+    },
+    {
+      "title": "Chelsea Ownership Consolidates Under Clearlake Capital",
+      "facts": "Clearlake Capital now owns Chelsea outright after buying out the stakes held by Todd Boehly and Mark Walter, the Premier League club announced Wednesday. The deal marks a dramatic shift for a club that's seen chaotic ownership since the group purchased it from Roman Abramovich."
+    },
+    {
+      "title": "NBA Strips Clippers of Five First-Round Picks Over Cap Violations",
+      "facts": "The LA Clippers just lost five first-round draft picks, and it's one of the harshest punishments the NBA's handed down in years. Commissioner Adam Silver announced the penalty Tuesday after the league concluded the Clippers circumvented salary cap rules in ways that gave them an unfair competitive advantage."
+    },
+    {
+      "title": "Kawhi Leonard Finally Heads to Toronto as Trade Clears Investigation",
+      "facts": "The Kawhi Leonard trade is officially complete, and it only took months longer than anyone expected. Leonard's move from the LA Clippers to the Toronto Raptors became official Tuesday after a lengthy delay caused by the league's investigation into the Clippers."
+    },
+    {
+      "title": "Claude Goes Full Superapp",
+      "facts": "Anthropic just merged Claude's chat interface and its agentic features into one unified assistant, and they're rolling out collaborative document tools that put it in direct competition with Google Workspace and Microsoft 365. The new Claude Docs lets you create, edit, and collaborate on documents and presentations right inside the AI interface\u2014think Docs and Slides, but with an AI copilot baked in from the ground up."
     }
   ]
 }
