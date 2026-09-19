@@ -1,50 +1,4 @@
 {
-  "2026-09-08": [
-    {
-      "title": "Argentina Targets Falklands Oil Company",
-      "facts": "Argentina's government is taking aim at an oil company operating in the Falklands, ramping up the stakes in a decades-old territorial dispute. The move comes just days after President Javier Milei publicly stepped up Argentina's claims of sovereignty over the islands, which Britain has controlled since 1833."
-    },
-    {
-      "title": "China Launches Regular Arctic Shipping Route",
-      "facts": "A Chinese vessel has completed what appears to be the first run of a new regular shipping service through the Arctic, and it's raising questions about whether this is simply smart business or a calculated geopolitical move. Melting ice is opening up trade routes through the far north that were once impassable for much of the year, cutting thousands of miles off traditional shipping lanes between Asia and Europe."
-    },
-    {
-      "title": "AI Security Breach Could Have Hit Hundreds of Millions in Hours",
-      "facts": "Artificial intelligence researchers just discovered a computer worm built by AI models that could have compromised hundreds of millions of WeChat accounts within hours. The attack, which targeted one of China's most widely used messaging platforms, represents a new frontier in cybersecurity threats\u2014where AI systems themselves are creating the exploits."
-    },
-    {
-      "title": "New Hampshire Primary Tests Democratic Establishment",
-      "facts": "Voters in New Hampshire head to the polls Tuesday to nominate candidates for one of the country's most closely watched Senate races, and a Democratic House primary has turned into a proving ground for the party's establishment. The Senate contest is considered high-stakes nationally, with control of the chamber potentially hinging on how New Hampshire swings in the general election."
-    },
-    {
-      "title": "Oil Prices Climb as Saudi Arabia Reports Attacks on Civilian and Energy Infrastructure",
-      "facts": "U.S. oil prices hit their highest mark in over three months after Saudi Arabia reported that civilian areas and energy facilities were struck in what the country says were attacks by Houthi rebels."
-    },
-    {
-      "title": "China's Record Graduating Class Faces AI-Driven Job Drought",
-      "facts": "Twelve-point-seven million young people just graduated in China, and they're walking into the worst job market in a generation\u2014made even tougher by the rapid spread of artificial intelligence. It's the largest cohort of new graduates the country has ever produced, and they're competing for positions at a moment when companies are embracing AI tools that can replace entry-level workers."
-    },
-    {
-      "title": "West Village Buyers Convert Rental Buildings Into Single-Family Mansions",
-      "facts": "There's a new kind of luxury real estate emerging in the West Village, and it's not condos or townhouses\u2014it's entire rental apartment buildings being converted into single-family homes. With townhouses in scarce supply, wealthy buyers are scooping up multi-unit rental buildings and gutting them to create what's being called \"tenemansions.\" These conversions give buyers the square footage and privacy they want in one of Manhattan's most desirable neighborhoods, where traditional townhouses rarely hit the market."
-    },
-    {
-      "title": "Orlando Housing Market Defies Florida's Broader Slowdown",
-      "facts": "Florida's housing market is showing signs of weakness, but Orlando's telling a different story. While much of the state is seeing a pullback\u2014especially in coastal markets vulnerable to rising insurance costs and climate concerns\u2014Orlando's residential market remains more resilient."
-    },
-    {
-      "title": "Patriots Make Christian Gonzalez Highest-Paid Cornerback in NFL History",
-      "facts": "The New England Patriots just handed Christian Gonzalez a four-year, $135 million extension that makes him the highest-paid cornerback in NFL history. The deal was finalized just ahead of the season opener, locking down one of the team's key defensive pieces for the long haul."
-    },
-    {
-      "title": "Clippers Stripped of Five First-Round Picks Over Leonard Sponsorship",
-      "facts": "The NBA just handed down one of the harshest penalties in league history, stripping the Los Angeles Clippers of five first-round draft picks and fining the team $30 million following an investigation into a Kawhi Leonard sponsorship deal. Owner Steve Ballmer's been suspended for a year as well, marking a stunning fall for one of the league's wealthiest franchises."
-    },
-    {
-      "title": "Claude Proved Fermat's Last Theorem in Eleven Days\u2014Using Six Billion Tokens",
-      "facts": "A research team just used Claude to formalize one of mathematics' most famous proofs, and the scale of the effort is staggering. Fermat's Last Theorem\u2014the centuries-old puzzle that stumped mathematicians until Andrew Wiles cracked it in 1994\u2014has now been translated into machine-verifiable code by Claude in just eleven days."
-    }
-  ],
   "2026-09-09": [
     {
       "title": "Truck Driver's Death Sparks Ebola Scare in Remote Congo Village",
@@ -639,6 +593,56 @@
     {
       "title": "Claude Code Projects Launches Always-On Dev Memory",
       "facts": "Anthropic just shipped Claude Code Projects, and the power move here isn't just persistent memory\u2014it's that the conversation never dies. Traditional Claude sessions reset context every time you close the window, forcing you to re-explain your codebase, conventions, and half-finished tasks."
+    }
+  ],
+  "2026-09-19": [
+    {
+      "title": "Guyana's Oil Boom Intensifies Regional Tensions",
+      "facts": "Oil-rich Guyana is experiencing explosive economic growth as energy revenues pour in, but the windfall is exposing deep fractures in the small South American nation. The boom has magnified tensions over corruption and inequality, with critics questioning how the newfound wealth is being distributed among ordinary Guyanese."
+    },
+    {
+      "title": "Nepal's Youth Demand Climate Reparations from Wealthy Nations",
+      "facts": "Nepal's young government is launching an audacious campaign to force the world's biggest polluters to pay for the climate disasters now ravaging the Himalayan nation. Despite having one of the smallest carbon footprints on the planet, Nepal is bearing the brunt of collapsing glaciers, deadly floods, and landslides triggered by global warming it did almost nothing to cause."
+    },
+    {
+      "title": "Appeals Court Blocks Trump Administration's Third-Country Deportation Push",
+      "facts": "A federal appeals court just delivered a major setback to the Trump administration's immigration enforcement strategy, ruling that migrants can't be deported to countries other than their homeland without a chance to contest it first. The decision limits one of the more aggressive tools immigration officials had been using to speed up removals\u2014sending people to third countries where they'd previously resided or transited through, even if they weren't citizens there."
+    },
+    {
+      "title": "Warren Buffett Steps Down After Six Decades at Berkshire Hathaway",
+      "facts": "Warren Buffett is stepping down after sixty years at the helm of Berkshire Hathaway, ending one of the most remarkable runs in corporate history. Since taking control in 1965, Buffett transformed what was a struggling textile mill into a global conglomerate worth hundreds of billions of dollars."
+    },
+    {
+      "title": "JP Morgan Can't Forecast Oil Prices Amid Trump-Iran Tensions",
+      "facts": "JP Morgan says it's struggling to predict where oil prices are headed, and the reason is straightforward: the bank doesn't know how far the Trump administration is willing to push its confrontation with Iran. The uncertainty centers on whether there are economic red lines\u2014like oil hitting a hundred dollars a barrel\u2014that Washington would be unwilling to cross."
+    },
+    {
+      "title": "Flight Chaos Traced to Millisecond Software Defect",
+      "facts": "A software glitch lasting just milliseconds brought down more than two thousand flights and stranded hundreds of thousands of passengers, according to a new report into the chaos. The failure was so brief it would've been imperceptible to a human, but it was enough to cascade through airline systems and trigger mass cancellations."
+    },
+    {
+      "title": "Wall Street Shrugs Off Risk as Calm Holds Despite Growing Threats",
+      "facts": "Investors are keeping their cool even as threats to the market pile up, and that's raising eyebrows among market watchers. Despite a growing list of concerns\u2014from geopolitical tensions to inflation worries\u2014traders have simply decided none of the risks are serious enough to pull them out of stocks."
+    },
+    {
+      "title": "UBS Picks Amazon and Palantir Among Top Tech Bets on AI Buildout",
+      "facts": "UBS analysts are telling clients there's still plenty of money to be made from the artificial intelligence boom, and they're naming names. The firm's latest stock picks include Amazon and Palantir among fourteen tech companies positioned to cash in on what they're calling the early stages of the AI data-center buildout."
+    },
+    {
+      "title": "Manhattan Office Rents Surge Despite Remote Work Trend",
+      "facts": "Manhattan office landlords are pulling off something that seemed impossible just a couple years ago\u2014they're doubling and even tripling rents in some buildings. The spike comes as companies finalize their return-to-office strategies and compete for premium space in a market that's tightened considerably."
+    },
+    {
+      "title": "Aaron Judge Heads Back to Injured List as Yankees' Postseason Hopes Fade",
+      "facts": "Three-time AL MVP Aaron Judge is returning to the injured list with a right calf strain, and this time there's real uncertainty about whether he'll be back at all this season. Yankees manager Aaron Boone told reporters Friday he's \"not going to predict anything\" about Judge's timeline for return\u2014which is about as ominous as it gets when you're staring down the postseason."
+    },
+    {
+      "title": "Pistons Lock Up Ausar Thompson With $155 Million Extension",
+      "facts": "The Detroit Pistons are betting big on defense, handing Ausar Thompson a five-year, $155 million contract extension. Thompson, who earned All-Defensive honors, becomes one of the league's highest-paid wing defenders with the deal."
+    },
+    {
+      "title": "Claude Now Doing a Quarter of Its Own Development Work",
+      "facts": "Anthropic's dropped a remarkable statistic: Claude is now handling about a quarter of the work involved in building its own successor. The company says its AI model has essentially become a core member of the development team, taking on coding, testing, and research tasks that used to require human engineers."
     }
   ]
 }
