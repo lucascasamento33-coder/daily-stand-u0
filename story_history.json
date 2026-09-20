@@ -1,70 +1,4 @@
 {
-  "2026-09-09": [
-    {
-      "title": "Truck Driver's Death Sparks Ebola Scare in Remote Congo Village",
-      "facts": "A truck driver collapsed and died without warning in a remote Congolese village, and what happened next reveals just how fragile disease response systems remain in Central Africa. Frontline medical staff had to act fast to safely isolate the body, but their efforts triggered a tense standoff with the local community."
-    },
-    {
-      "title": "South Korea's Largest-Ever Divorce Settlement Hits $1.87 Billion",
-      "facts": "A South Korean business tycoon will pay his ex-wife $1.87 billion in what's now the largest divorce settlement in the country's history. The ruling marks a watershed moment for a society where marital assets have traditionally been divided far less evenly, especially when wealthy men are involved."
-    },
-    {
-      "title": "Mystery Group Pumps $25 Million Into Midterm Races",
-      "facts": "A newly created Republican organization with ties to Trump's super PAC is flooding half a dozen key midterm races with $25 million in spending, and nobody's quite sure where all the money's coming from. The group's biggest investments are going toward Senate contests in New Hampshire and Alaska, two states that could determine control of the chamber."
-    },
-    {
-      "title": "Texas Republicans Turn Against Big Tech Data Centers",
-      "facts": "Rural Republican voters in Texas are pushing back hard against the data center boom, and it's forcing GOP leaders into an awkward position just weeks before the midterms. The industry's rapid expansion across the state has scrambled traditional political alliances, with some of the party's most reliable voters now opposing developments they say are straining local power grids and driving up electricity costs."
-    },
-    {
-      "title": "Sinkhole Forces Evacuations at Malibu Properties",
-      "facts": "A sinkhole opened beneath the driveway of a Malibu home owned by Nicolas Cage, and it's expanding fast enough that dozens of surrounding properties have been evacuated. The actor bought the house in 2024, but he's not the only one dealing with the fallout\u2014emergency officials have cleared residents from neighboring homes as engineers try to figure out how far the collapse might spread."
-    },
-    {
-      "title": "Gas Prices Jump Five Pence in a Week as Middle East Conflict Escalates",
-      "facts": "Petrol prices across Britain have spiked by five pence per liter over the past week, with unleaded now averaging 167.17 pence\u2014that's the sharpest weekly increase since April. The culprit is surging oil prices driven by escalating conflict involving Iran, which has sent crude markets into a fresh bout of volatility."
-    },
-    {
-      "title": "Companies Tie Promotions to AI Adoption, Sparking Fairness Debate",
-      "facts": "More employers are now making artificial intelligence proficiency a requirement for career advancement, and it's raising questions about whether that's a fair way to judge workers. Companies across industries are explicitly tying promotion decisions to how employees use AI tools, arguing that adapting to new technology is essential for staying competitive."
-    },
-    {
-      "title": "British Learner Drivers Face 20-Week Wait for Road Tests",
-      "facts": "If you're trying to get your driver's license in Britain, expect to wait nearly five months before you can even take the test. Learner drivers are still facing an average 20-week wait to book a practical driving exam, despite the Driver and Vehicle Standards Agency being given a target to cut that down to just seven weeks."
-    },
-    {
-      "title": "S&P 500 Could Hit 8,000\u2014But Wall Street's Getting Nervous",
-      "facts": "Three major investment banks\u2014RBC Capital Markets, HSBC, and Barclays\u2014are all projecting the S&P 500 could climb to around 8,000, which would be a roughly 10% gain from current levels. That's the bullish headline."
-    },
-    {
-      "title": "GameStop's Pivot: Collectibles Now Outsell Video Games",
-      "facts": "GameStop\u2014the original meme stock that became a cultural phenomenon\u2014is no longer the company it was when retail traders sent its shares to the moon. The retailer now generates more revenue from collectibles than it does from video games, marking a complete transformation of its business model."
-    },
-    {
-      "title": "West Village Buyers Turn Tenement Buildings Into Single-Family Mansions",
-      "facts": "There's a new kind of trophy home in the West Village, and it's not a townhouse\u2014it's an entire apartment building. Wealthy buyers are scooping up old rental tenement buildings and converting them into single-family residences, a trend driven by the fact that there just aren't enough classic brownstones to go around."
-    },
-    {
-      "title": "D.R. Horton's 2027 Budget Signals Builders Bracing for Continued Rate Pressure",
-      "facts": "The country's largest homebuilder just laid out its expectations for 2027, and the numbers tell you everything about where the industry thinks we're headed. D.R."
-    },
-    {
-      "title": "Mayfield Lands $165 Million Extension with Tampa Bay",
-      "facts": "Baker Mayfield just locked down generational wealth with the Tampa Bay Buccaneers, signing a three-year extension worth $165 million. The deal keeps the quarterback in Tampa through 2028 and represents one of the richest contracts in the NFL this offseason."
-    },
-    {
-      "title": "Clippers Hit With Massive Penalty in Leonard Sponsorship Probe",
-      "facts": "The NBA just dropped one of the harshest penalties in league history on the Los Angeles Clippers\u2014and the team's planning to fight it. Following an investigation into a Kawhi Leonard sponsorship deal, the league's stripping the Clippers of five first-round draft picks, fining them $30 million, and suspending owner Steve Ballmer for a full year."
-    },
-    {
-      "title": "Rockets Lock Up Thompson With $208 Million Extension",
-      "facts": "Houston's betting big on Amen Thompson's future\u2014to the tune of $208 million over five years. The Rockets and Thompson have agreed to a massive rookie-scale contract extension that keeps the young guard in Houston through the end of the decade."
-    },
-    {
-      "title": "Claude API Tokens Stolen in Targeted Credential Attacks",
-      "facts": "Hackers are stealing Claude API tokens directly from subscribers, and it's not a breach of Anthropic's systems\u2014it's credential stuffing hitting individual accounts. TechCrunch reports that attackers are using leaked passwords from other services to break into Claude accounts, then grabbing API keys that give full access to a user's usage credits and conversation history."
-    }
-  ],
   "2026-09-10": [
     {
       "title": "Violent Protests Erupt in The Gambia Over Power Blackouts",
@@ -643,6 +577,72 @@
     {
       "title": "Claude Now Doing a Quarter of Its Own Development Work",
       "facts": "Anthropic's dropped a remarkable statistic: Claude is now handling about a quarter of the work involved in building its own successor. The company says its AI model has essentially become a core member of the development team, taking on coding, testing, and research tasks that used to require human engineers."
+    }
+  ],
+  "2026-09-20": [
+    {
+      "title": "Mexico's Annual Melon Beauty Contest Draws Thousands",
+      "facts": "What started as a joke among friends in the eastern Mexican city of Xalapa more than two decades ago has grown into a vibrant annual tradition that's captured the nation's imagination. The contest judges melons\u2014yes, actual melons\u2014on their appearance, creativity, and absurdity."
+    },
+    {
+      "title": "Ukraine Launches Massive Drone Strike on Moscow as Russian Elections Close",
+      "facts": "Ukraine unleashed what Moscow's mayor called an unprecedented aerial assault on the Russian capital, with 450 drones targeting the city and surrounding region on the final day of Russian elections. Two people died in the attacks, which also hit an oil refinery and other infrastructure across Russia."
+    },
+    {
+      "title": "Myanmar Diplomat Holds Onto UN Post and Manhattan Townhouse for Over Five Years",
+      "facts": "U Kyaw Moe Tun has refused to give up his United Nations post or a sandstone townhouse on Manhattan's Upper East Side for more than five years, in a standoff that's become one of the strangest diplomatic dramas at the UN. The ambassador was appointed by Myanmar's elected government before the military seized power in a 2021 coup."
+    },
+    {
+      "title": "Saudi Arabia Vows Major Response After Houthis Strike Riyadh Airport",
+      "facts": "Saudi Arabia is preparing what analysts are calling a massive military response after Houthi forces in Yemen launched ballistic missiles at the Saudi capital, hitting a fuel depot at Riyadh airport and causing flight delays on Saturday. Saudi air defenses shot down at least one missile aimed at the capital, but the strike still inflicted damage and disrupted operations at one of the region's busiest airports."
+    },
+    {
+      "title": "Pennsylvania Measles Outbreak Now Largest in the Nation",
+      "facts": "Pennsylvania's battling the country's biggest measles outbreak, with more than seven hundred confirmed cases and counting. The numbers are prompting two very different reactions across the state\u2014some people are rushing to vaccination clinics while others remain firmly opposed to the shots."
+    },
+    {
+      "title": "Lightning Strike Kills Hiker Sheltering in Metal Structure",
+      "facts": "A nineteen-year-old hiker is dead after lightning struck a metal shelter atop Mount Timpanogos in Utah on Friday. The victim was one of ten people who'd taken refuge inside what officials described as a \"tin shack\" near the summit when a storm rolled in."
+    },
+    {
+      "title": "Trump Proposes 'A.I. Force' Instead of New Regulations",
+      "facts": "President Trump's answer to concerns about artificial intelligence isn't regulation\u2014it's a new branch of government he's calling the \"A.I. Force.\" The proposal would follow the model of his Space Force, creating a dedicated federal entity focused on A.I."
+    },
+    {
+      "title": "Britain Renationalizes Chiltern Railways After Three Decades",
+      "facts": "Chiltern Railways is back under government control after thirty years in private hands, marking the latest step in Britain's push to bring passenger rail back into public ownership. The line joins what's being called Great British Railways as part of a broader plan to consolidate the country's fragmented train system."
+    },
+    {
+      "title": "Fuel Duty Cut Demanded as Iran Conflict Drives Up Prices",
+      "facts": "Liberal Democrat leader Ed Davey is calling for an immediate ten-pence cut to fuel duty, blaming escalating conflict with Iran for pushing pump prices higher and damaging Britain's economy. The demand comes as global oil markets react to mounting tensions in the Middle East, which have sent shockwaves through energy costs worldwide."
+    },
+    {
+      "title": "Manchester United Owner Faces Tax Exile Backlash",
+      "facts": "The billionaire owner of Manchester United is under fire after declaring he's lost confidence in Britain and left the country over what he calls a toxic combination of high taxes and high immigration. Labour's party chair says the businessman has forfeited any moral high ground by choosing tax exile over staying and contributing to the country that made him wealthy."
+    },
+    {
+      "title": "Condo Owners Face Mounting Challenges as Sales Market Freezes",
+      "facts": "Selling a condo has turned into something close to a nightmare for many owners who say they feel trapped in their units. Buyers are backing away from condominiums even when they're priced lower than competing homes, spooked by HOA fees that seem to climb relentlessly with no end in sight."
+    },
+    {
+      "title": "Mortgage Rates Could Hit 8% or Fall to 6%\u2014Here's What's Deciding It",
+      "facts": "Mortgage rates are sitting in limbo right now, and where they land in the coming months could swing wildly in either direction. The potential range?"
+    },
+    {
+      "title": "Realtor.com Lead Dispute Sent to Private Arbitration After Appeal Fails",
+      "facts": "A legal battle over lead-generation practices at Realtor.com just got pulled out of public court and into closed-door arbitration. An appeals court ruled it doesn't have jurisdiction to hear the case, effectively putting the dispute on hold while the parties head to private arbitration instead."
+    },
+    {
+      "title": "Arsenal Humiliated at Brighton as Champions Lose Their Grip",
+      "facts": "The defending Premier League champions just got dismantled on the south coast. Arsenal fell 3-0 to Brighton, and it wasn't even that close\u2014manager Mikel Arteta said afterward he knew his team would be \"in trouble from the first throw-in.\" Brighton were celebrating their 125th anniversary, and they couldn't have asked for a better gift than throttling the reigning champs."
+    },
+    {
+      "title": "Pistons Lock Up Thompson With $155 Million Extension",
+      "facts": "Ausar Thompson just became a very wealthy man. The Pistons' All-Defensive forward has agreed to a five-year, $155 million contract extension, keeping him in Detroit through the 2031-32 season."
+    },
+    {
+      "title": "Claude Now Sends Emails Without Permission\u2014And That's the Point",
+      "facts": "Anthropic just flipped the script on AI autonomy in a way that'll make Google look cautious. Claude can now draft and send emails on your behalf without stopping to ask for confirmation first\u2014a capability that Gemini still won't touch, even though Google owns Gmail."
     }
   ]
 }
