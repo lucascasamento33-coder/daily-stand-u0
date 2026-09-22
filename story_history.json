@@ -1,70 +1,4 @@
 {
-  "2026-09-11": [
-    {
-      "title": "BRICS Summit Opens as China and India Clash Over the Group's Direction",
-      "facts": "China and India are squaring off this weekend at the BRICS summit in New Delhi, and the stakes go well beyond diplomatic protocol. Beijing sees the bloc\u2014which now includes Brazil, Russia, India, China, and South Africa\u2014as a counterweight to American power, a way to reshape the global order on its own terms."
-    },
-    {
-      "title": "Hong Kong Jails Tiananmen Vigil Organizers for Up to Seven Years",
-      "facts": "Three Hong Kong activists who organized annual vigils for the Tiananmen Square massacre have been sentenced to lengthy prison terms under Beijing's national security law. Chow Hang-tung, Lee Cheuk-yan, and Albert Ho received sentences of up to seven years for their role in commemorating the 1989 crackdown, an event that's been scrubbed from public memory across mainland China."
-    },
-    {
-      "title": "DNA From Discarded Cigarette Cracks Cold Case Murder",
-      "facts": "A flicked cigarette butt during a routine traffic stop just solved a murder that's been cold for years. Authorities in Washington State arrested a suspect after DNA recovered from that discarded cigarette matched evidence from an unsolved homicide scene."
-    },
-    {
-      "title": "Fifteen-Year-Old Survives Days Adrift in Bering Sea",
-      "facts": "A 15-year-old boy is alive after drifting for days in the Bering Sea off Alaska, clinging to an overturned boat with no food or water. The Coast Guard says a fishing vessel spotted him and pulled him to safety in what can only be described as a miraculous rescue."
-    },
-    {
-      "title": "Trump Administration Uses Postal Service to Challenge Mail Voting",
-      "facts": "The Trump administration is deploying the U.S. Postal Service as a tool to intervene in how states conduct mail-in voting, a strategy that's raising alarms among election officials nationwide."
-    },
-    {
-      "title": "Inflation Data Sets Stage for High-Stakes Fed Decision",
-      "facts": "The inflation report that dropped this morning is about to dictate what happens to interest rates across the entire U.S. economy next week."
-    },
-    {
-      "title": "Trump Tariffs Scramble Supply Chains From Sprinkles to Steel",
-      "facts": "President Trump's tariffs on Canadian goods are causing headaches in some unexpected places\u2014including, believe it or not, the sprinkle industry. The administration's levies cover a long and eclectic list of products from Canada, and companies are now scrambling to figure out if their supply chains are caught in the crossfire."
-    },
-    {
-      "title": "UK Economy Defies Forecasts on AI Investment Surge",
-      "facts": "Britain's economy surprised analysts by growing four-tenths of a percent in July, when forecasters had predicted zero growth. Official figures released this week show the unexpected expansion was driven in large part by the artificial intelligence boom, with companies pouring money into tech infrastructure and data centers."
-    },
-    {
-      "title": "Oil Dips Below $100 While Diesel Hits New Record",
-      "facts": "U.S. crude oil has slipped back under the $100-a-barrel mark, but diesel just blew past $6 a gallon for the first time on record."
-    },
-    {
-      "title": "Conforming Loan Limit Jumps to $845,000",
-      "facts": "CCM has pushed its conforming loan limit up to $845,000, and they're doing it ahead of the official word from the Federal Housing Finance Agency. The move is designed to give more high-balance borrowers access to conventional financing options instead of forcing them into jumbo loans."
-    },
-    {
-      "title": "Providence Gears Up for Rent Stabilization Fight",
-      "facts": "Rhode Island's capital could be the next city to impose rent controls. Providence mayoral candidate Gonzalo Cuervo Morales is entering the general election as the favorite, and he's making rent stabilization an early priority if he wins."
-    },
-    {
-      "title": "Ohtani Headed to Injured List as Dodgers Promote Top Prospect",
-      "facts": "Shohei Ohtani's going on the 15-day injured list, and the timing couldn't be worse for the Dodgers as they head into the final stretch of the season. Manager Dave Roberts confirmed the move and announced the team's calling up Josue De Paula from Double-A to fill Ohtani's designated hitter spot temporarily."
-    },
-    {
-      "title": "Patriots Lose Brown to High Ankle Sprain for at Least a Month",
-      "facts": "New England's offense just took a serious hit\u2014A.J. Brown's going to be out at least four weeks with a high ankle sprain."
-    },
-    {
-      "title": "Federal Investigation Targets Clippers Over Alleged Kawhi Leonard Side Deal",
-      "facts": "The Clippers are facing a federal investigation over allegations they secretly compensated Kawhi Leonard outside the salary cap, according to The New York Times. This comes on top of the historic penalty the NBA already handed down\u2014five first-round picks stripped, a $30 million fine, and a year-long suspension for owner Steve Ballmer."
-    },
-    {
-      "title": "Pelicans Trade Jordan Hawkins to Memphis in Four-Player Deal",
-      "facts": "New Orleans has dealt lottery pick Jordan Hawkins to the Grizzlies as part of a four-player trade that's reshaping both rosters. The Pelicans are sending Hawkins, Micah Peavy, a future second-round draft pick, and a future second-round pick swap to Memphis in exchange for AJ Johnson and Taj Gibson."
-    },
-    {
-      "title": "Chinese AI Labs Caught Mining Millions of Claude Conversations",
-      "facts": "Anthropic just named names in what might be the biggest API abuse scandal yet\u2014three Chinese AI companies secretly routed millions of user requests through Claude to train their own competing models. The scheme involved Alibaba's Qwen team, Moonshot AI, and DeepSeek, all of which Anthropic says used a technique called distillation to essentially clone Claude's capabilities without permission."
-    }
-  ],
   "2026-09-12": [
     {
       "title": "Brazil-U.S. Crime Partnership Hits Visa Roadblock",
@@ -623,6 +557,68 @@
     {
       "title": "Anthropic Merges Claude Chat and Cowork Into One Interface",
       "facts": "Anthropic just collapsed its entire Claude experience down to a single interface, merging what used to be separate Chat and Cowork environments into one unified workspace. The move means you're no longer switching contexts or opening different tabs depending on whether you want a quick answer or a full collaborative workspace with artifacts, canvases, and multi-turn projects."
+    }
+  ],
+  "2026-09-22": [
+    {
+      "title": "Crypto-Backed City Project Signs Deal in Uruguay",
+      "facts": "A New York-based movement called Praxis has signed a deal to build an entire physical city in Uruguay, marking the end of a global search for a home. The group describes itself as a \"digital nation\" backed by cryptocurrency, part of a tech-utopian vision of creating new urban communities from scratch."
+    },
+    {
+      "title": "Sri Lankan Court to Deliver Verdict on 2019 Easter Bombings",
+      "facts": "A court in Sri Lanka is set to deliver its verdict in the case of the Easter Sunday bombings that killed 270 people in 2019. The coordinated suicide attacks struck several churches and hotels across Colombo during Easter services, one of the deadliest terror events in the country's recent history."
+    },
+    {
+      "title": "New Video Evidence Complicates Federal Shooting Investigation in Austin",
+      "facts": "A federal immigration officer shot and killed Wilber Rafael Garces Perez through the rear passenger window of his car while standing to the side of the vehicle, according to a new video analysis that's raising fresh questions about the incident. The shooting happened in Austin, and while the new footage provides crucial details about the officer's position and the shot itself, what led up to that moment remains unclear."
+    },
+    {
+      "title": "San Francisco Takes Legal Action Against Trump's Premium Social Media Service",
+      "facts": "San Francisco is suing to shut down a new feature on Truth Social that gives wealthy subscribers access to President Trump's posts before the general public\u2014sometimes hours ahead of time. The service costs as much as $100,000 a month and is being marketed to financial traders and investors."
+    },
+    {
+      "title": "Grand Jury Declines to Indict in Death of Mississippi Teen After July Fourth Outing",
+      "facts": "A grand jury has found insufficient evidence to bring criminal charges in the death of Nolan Wells, the eighteen-year-old who was found dead days after taking a boat to a Mississippi island with friends on July Fourth. Wells's body was discovered after he went to the island for what was supposed to be a holiday celebration, and the circumstances of his death set off nationwide speculation and intense scrutiny on social media."
+    },
+    {
+      "title": "U.S.-China Trade Truce Shows Cracks Despite Diplomatic Smiles",
+      "facts": "President Trump and Chinese leader Xi just wrapped up meetings that looked warm on the surface, but behind the scenes, the two countries are trading punches that call into question whether their trade arrangement can hold. Despite what was billed as an easing of tensions, both nations are engaging in tit-for-tat measures that suggest the truce is more fragile than either side wants to admit."
+    },
+    {
+      "title": "Oil Could Hit $150 a Barrel if Middle East Disruptions Persist",
+      "facts": "Bank of America is warning that oil prices could spike above $150 a barrel if fighting in the Middle East continues to disrupt supplies into the spring of 2027. That's a sobering forecast\u2014Brent crude would need to nearly triple from current levels to hit that mark, and it would push gasoline and diesel prices to levels that would squeeze household budgets across the country."
+    },
+    {
+      "title": "UK Chemical Giant Suspends Production Over Natural Gas Costs",
+      "facts": "Ineos has suspended production at key manufacturing plants in the United Kingdom, and the company's blaming natural gas prices that it says are twelve times higher than in the United States. Sir Jim Ratcliffe's chemical giant is the latest major industrial player to buckle under energy costs that have made British manufacturing increasingly uncompetitive on the global stage."
+    },
+    {
+      "title": "Bitcoin Surges to Eight-Month High as Crypto Optimism Returns",
+      "facts": "Bitcoin just hit its highest level in eight months, and the rally's telling us something important about how investors are feeling right now. The digital currency's surge comes despite the fact that crypto's regulatory framework in the U.S."
+    },
+    {
+      "title": "Florida Bans Local Zoning Discrimination Against Factory-Built Homes",
+      "facts": "Florida just overhauled its housing rules to give factory-built homes the same treatment as traditional site-built houses\u2014and it could make a real dent in the state's affordability crisis. The new law, Section 553.385, bars cities and counties from using zoning codes to discriminate against single-family homes that are built off-site and moved onto a lot."
+    },
+    {
+      "title": "Condo Approval Process Tightens as Limited Review Access Shrinks",
+      "facts": "Getting a mortgage for a condo just got harder, and it's hitting buyers in the wallet. Industry groups estimate that somewhere between sixty and eighty percent of condo loan originations used streamlined, limited-review approvals before August third\u2014but that option has now been sharply curtailed."
+    },
+    {
+      "title": "Stafford Climbs All-Time Touchdown List in Rams Rout",
+      "facts": "Matthew Stafford just etched his name higher in the NFL record books, moving into sixth place all-time in career passing touchdowns during the Rams' Monday night demolition of the Giants. Stafford threw his 426th touchdown pass\u2014connecting with Davante Adams\u2014to surpass Philip Rivers on the all-time list."
+    },
+    {
+      "title": "Cubs Star Bregman Suffers Facial Fractures in Freak On-Deck Accident",
+      "facts": "Alex Bregman's postseason status is now in serious doubt after the Cubs star suffered multiple facial fractures in a bizarre on-deck circle accident Sunday. Bregman was struck by a foul ball while waiting to hit, and sources told ESPN the injuries are significant enough that his availability for October is uncertain."
+    },
+    {
+      "title": "Pistons Lock Up Thompson with $155 Million Extension",
+      "facts": "Ausar Thompson just became a very wealthy young man. The Pistons have agreed to a five-year, $155 million rookie-scale contract extension with their All-Defensive forward, sources told ESPN."
+    },
+    {
+      "title": "Anthropic Opens Wet Lab Where Claude Will Direct Drug Discovery Robots",
+      "facts": "Anthropic's building something genuinely new\u2014a biology lab where Claude doesn't just advise scientists, it actually runs the experiments. The company's setting up what's called a \"wet lab,\" where AI agents will control robotic equipment to design and carry out drug discovery work from end to end."
     }
   ]
 }
