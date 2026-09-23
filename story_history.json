@@ -1,62 +1,4 @@
 {
-  "2026-09-12": [
-    {
-      "title": "Brazil-U.S. Crime Partnership Hits Visa Roadblock",
-      "facts": "The Trump administration is blocking Brazil's efforts to expand cooperation on fighting transnational crime, and the hang-up is visas. Officials say Washington's holding up what should be a straightforward arrangement to tackle organized crime that crosses both borders."
-    },
-    {
-      "title": "Passenger Train Derails in Northern France, Injuring Dozens",
-      "facts": "A passenger train jumped the tracks in Normandy, leaving at least 44 people injured. France's transport minister confirmed 180 passengers were aboard when the train derailed along the Rouen-Caen route."
-    },
-    {
-      "title": "Hong Kong Jails Tiananmen Vigil Organizers for Seven Years",
-      "facts": "Three activists who organized Hong Kong's annual vigil for the Tiananmen Square massacre have been sentenced to seven years in prison. The court handed down the lengthy terms for their role in keeping alive the memory of the 1989 crackdown, an event that's become increasingly dangerous to commemorate in Hong Kong."
-    },
-    {
-      "title": "Saudi Pipeline Shut After Drone Strike From Iraq",
-      "facts": "Saudi Arabia has closed a critical oil pipeline after a drone attack launched from Iraqi territory. Iraq's government confirmed the strike originated from an area near its border with Iran and has removed a military commander while opening investigations into how the attack happened."
-    },
-    {
-      "title": "Alabama Execution Proceeds Despite Jury's Life Sentence Recommendation",
-      "facts": "Jeffery Lee is scheduled to be executed in Alabama, even though the jury that convicted him recommended a life sentence instead of death. The case highlights Alabama's now-abandoned practice of judicial override, where judges could disregard jury sentencing recommendations and impose death penalties anyway."
-    },
-    {
-      "title": "Inflation Surge Threatens Republican Midterm Strategy",
-      "facts": "Gas prices are climbing, mortgage rates are rising, and inflation remains well above the Federal Reserve's target\u2014handing Republicans an unexpected political headache heading into the midterms. The president's party typically relies on a strong economy to energize its base and persuade swing voters, but current economic conditions are complicating that pitch."
-    },
-    {
-      "title": "Fed Rate Hike Nearly Certain as August Inflation Stays Hot",
-      "facts": "Prices in the U.S. rose 3.4 percent in the twelve months through August, keeping inflation well above the Federal Reserve's target and putting Americans' budgets under continued strain."
-    },
-    {
-      "title": "Social Security Recipients Could See Biggest Raise in Five Years",
-      "facts": "AARP is projecting that Social Security benefits will rise 3.6 percent in 2027, which would be the largest cost-of-living adjustment since 2023. That estimate reflects persistent inflation that's continued to eat into retirees' purchasing power, even as the economy shows other signs of moderating."
-    },
-    {
-      "title": "UK Economy Defies Expectations With AI-Driven Growth Spurt",
-      "facts": "Britain's economy expanded 0.4 percent in July, surprising analysts who'd predicted no growth at all. The unexpected jump is being attributed in part to an AI boom that's driving investment and activity across the tech sector."
-    },
-    {
-      "title": "Oracle Addresses AI Doubts Despite Stock Decline",
-      "facts": "Oracle's latest earnings report tackled several concerns that have been weighing on investor sentiment around AI spending, but the stock still lost ground anyway. An analyst noted that \"several of Oracle's bear cases were addressed head on\" in the results, suggesting the company made a solid case for its AI strategy and infrastructure investments."
-    },
-    {
-      "title": "Zillow Faces Shareholder Lawsuit Over Redfin Deal",
-      "facts": "Zillow's facing a derivative lawsuit from shareholders over its $100 million acquisition of Redfin, and the numbers behind the complaint are raising eyebrows. The suit alleges that company insiders sold off $81 million worth of stock around the time of the deal\u2014a detail that's caught the attention of investors who've watched Zillow's share price crater from $77.05 to $32.19."
-    },
-    {
-      "title": "Chicago Locks Up D'Andre Swift With Major Extension",
-      "facts": "The Chicago Bears just committed serious money to running back D'Andre Swift, signing him to a three-year, $33.75 million extension that includes $27.5 million guaranteed. It's one of the richer deals for a running back in recent years, at a time when teams have been notoriously hesitant to pay big at the position."
-    },
-    {
-      "title": "Federal Probe Deepens Clippers Salary Cap Scandal",
-      "facts": "The Clippers are now facing a federal investigation on top of the NBA's historic punishment, and that's a significant escalation. The New York Times reports federal authorities have opened an inquiry into whether the team illegally circumvented the league's salary cap to compensate Kawhi Leonard."
-    },
-    {
-      "title": "Anthropic Disrupts Government-Linked Groups Using Claude for Weapons and Espionage",
-      "facts": "Anthropic says it's caught and stopped multiple government-linked groups trying to weaponize Claude for everything from guided missile development to bioweapons research. The company released a report detailing seven distinct operations it disrupted, including accounts tied to Yemen's Houthi rebels working on missile guidance systems and users attempting biological weapons design that could have led to viable pathogens."
-    }
-  ],
   "2026-09-13": [
     {
       "title": "Nepal Floods Leave Devastation and Rising Death Toll in Himalayas",
@@ -619,6 +561,60 @@
     {
       "title": "Anthropic Opens Wet Lab Where Claude Will Direct Drug Discovery Robots",
       "facts": "Anthropic's building something genuinely new\u2014a biology lab where Claude doesn't just advise scientists, it actually runs the experiments. The company's setting up what's called a \"wet lab,\" where AI agents will control robotic equipment to design and carry out drug discovery work from end to end."
+    }
+  ],
+  "2026-09-23": [
+    {
+      "title": "Hurricane Polo Reaches Rare Category 5 Strength Off Mexico's Coast",
+      "facts": "Hurricane Polo has explosively intensified into a Category 5 storm off Mexico's Pacific coast, and meteorologists are calling the rapid strengthening \"truly remarkable.\" The U.S. hurricane monitoring agency confirmed the storm reached the highest classification on the hurricane scale, making it a rare meteorological event for the region."
+    },
+    {
+      "title": "Xi Jinping's Decade-Long Push to Dominate Artificial Intelligence",
+      "facts": "Ten years ago, Xi Jinping posed a question that would reshape China's economy and challenge American technological dominance: could China master artificial intelligence? The answer is now playing out in real time, as Beijing's massive investment in AI is transforming everything from manufacturing to social control."
+    },
+    {
+      "title": "Phil Knight's Billion-Dollar Gift to University of Oregon",
+      "facts": "Phil Knight just wrote the biggest check ever given to a flagship public university. The Nike co-founder donated one billion dollars to the University of Oregon, and the money will fund an entirely new engineering college on the campus in Eugene."
+    },
+    {
+      "title": "Supreme Court Takes Up Missouri Congressional Map Dispute Again",
+      "facts": "Missouri's fight over congressional district boundaries is heading back to the Supreme Court, and the timing couldn't be more consequential\u2014the midterm elections are just weeks away. A federal appeals court sided with Republicans who want to use a new map drawn last year that would give the GOP a clear advantage in several competitive districts."
+    },
+    {
+      "title": "Trump and Xi to Tackle AI\u7af6Competition at Summit",
+      "facts": "President Trump and Chinese President Xi Jinping are putting artificial intelligence on the table when they meet this week, marking the first time AI risks and competition will be a formal topic between the two superpowers. The summit comes at a moment when both countries are racing to dominate AI development, but there's little agreement on what cooperation should look like."
+    },
+    {
+      "title": "IMF Warns US and UK on Spiraling Debt Costs",
+      "facts": "The International Monetary Fund is sounding the alarm over debt levels in the United States and United Kingdom, warning both governments that their borrowing costs are spiraling out of control. In an interview with the BBC, IMF Managing Director Kristalina Georgieva said economic shocks have pushed \"debt levels up like a staircase not to heaven.\" The warning comes as both countries face pressure from higher energy prices linked to Middle East conflict and climate change, which could further slow growth."
+    },
+    {
+      "title": "Europe's Automakers Look to Rearmament for Revival",
+      "facts": "Europe's struggling car industry is pinning its hopes on an unexpected source of recovery: the threat of war. Auto executives across the continent believe that rising defense spending and rearmament efforts could help them flex their industrial muscles again, after years of being battered by Chinese competition and the costly transition to electric vehicles."
+    },
+    {
+      "title": "CoreWeave Stock Poised for Comeback After Steep Selloff",
+      "facts": "CoreWeave shares have dropped nearly 40 percent since May, but at least one analyst thinks the cloud computing company's troubles have been wildly overstated. The stock plunged as investors grew nervous about the company's debt load\u2014a concern that's weighed on a lot of high-growth tech names this year."
+    },
+    {
+      "title": "Mortgage Rates Push Past Seven Percent as Demand Slumps",
+      "facts": "Mortgage demand fell again last week as rates climbed past seven percent, and the numbers show buyers are running out of patience with this market. The Mortgage Bankers Association says its refinance index dropped three percent for the week ending September 18th."
+    },
+    {
+      "title": "Louisiana Braces for Housing Boom as SpaceX Sets Up Shop",
+      "facts": "A SpaceX facility coming to Louisiana is about to reshape the local real estate market in a big way, and investors aren't waiting around to see what happens. Realtors in the area say land buyers are already snapping up properties around the site in anticipation of an influx of workers who'll need places to live."
+    },
+    {
+      "title": "Rays Clinch Fifth AL East Crown Behind Rasmussen's Near No-Hitter",
+      "facts": "Drew Rasmussen carried a no-hitter into the seventh inning Tuesday night as the Tampa Bay Rays locked up their fifth American League East title with a 6-1 win over the Yankees. It's the Rays' fifth division crown, cementing their status as one of baseball's most consistent contenders despite operating with one of the sport's smallest payrolls."
+    },
+    {
+      "title": "Kawhi Leonard Signs $115 Million Extension With Raptors",
+      "facts": "Kawhi Leonard's staying in Toronto. The Raptors star has agreed to a two-year, $115 million contract extension with the franchise, plus a player option for the 2028-29 season, according to his agent Harrison Gaines."
+    },
+    {
+      "title": "Anthropic Ships Opus 5.5 With Stricter Cybersecurity Guardrails",
+      "facts": "Anthropic just released Claude Opus 5.5, and while the headline is matching Fable-level performance at a 40% lower running cost than Opus 5, the elite angle you need to understand is the new cybersecurity safeguards they've baked into the model\u2014because those guardrails fundamentally change how you should architect any autonomous agent that touches sensitive data or executes code. The model now includes stricter controls that actively resist generating exploits, reverse-engineering assistance, or network intrusion patterns, even when prompted cleverly or indirectly."
     }
   ]
 }
