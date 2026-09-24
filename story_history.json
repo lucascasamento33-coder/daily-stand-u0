@@ -1,66 +1,4 @@
 {
-  "2026-09-13": [
-    {
-      "title": "Nepal Floods Leave Devastation and Rising Death Toll in Himalayas",
-      "facts": "Entire towns have been wiped off the map in Nepal after catastrophic flooding tore through the Himalayas, leaving survivors to recount the harrowing stories of neighbors and landmarks now buried under mud. The disaster has turned vibrant communities into unrecognizable landscapes of debris and grief."
-    },
-    {
-      "title": "Russians Demand Answers Over Hundreds Missing Since Kursk Offensive",
-      "facts": "More than three hundred Russian citizens remain unaccounted for nearly a year after Ukraine's surprise incursion into Russia's Kursk region, and officials admit they don't actually know the true scale of the missing. Families are pressing Moscow for information about relatives who vanished when Ukrainian forces crossed the border in what became one of the war's most unexpected operations."
-    },
-    {
-      "title": "Sweden Votes Sunday in Election That Could Bring Far Right Into Power",
-      "facts": "Swedes head to the polls Sunday in an election that could put the far-right Sweden Democrats in government for the first time in the country's history. The party, once considered a political pariah, has surged in support and is now a kingmaker in a tight race between left and right blocs."
-    },
-    {
-      "title": "Yemen Government Forces Battle Houthis as Thousands Flee",
-      "facts": "Fighting between Yemen's government forces and Houthi rebels is intensifying, with Saudi Arabia joining in air strikes to try to halt the Houthis' advance as thousands of civilians are displaced by the renewed violence. The clashes mark a dangerous escalation in a conflict that has already devastated Yemen for years."
-    },
-    {
-      "title": "Wisconsin Congressman Swims to Safety After Plane Goes Into Lake",
-      "facts": "A small plane carrying Representative Tom Tiffany ended up in Lake Wausau on Sunday, forcing the Wisconsin congressman and his pilot to swim to shore. Tiffany, who's the Republican nominee for governor, said both escaped with only minor injuries after what he described as an emergency landing."
-    },
-    {
-      "title": "Nuclear Arms Control Negotiator Thomas Graham Dies at 92",
-      "facts": "Thomas Graham Jr., who spent decades negotiating some of the most consequential nuclear arms treaties of the Cold War era, has died at age ninety-two. Graham served six presidents across both parties and was at the center of bureaucratic battles over the single biggest threat of his lifetime\u2014nuclear annihilation."
-    },
-    {
-      "title": "Texas Attorney General Ken Paxton Survived Impeachment Over Corruption Claims",
-      "facts": "Ken Paxton, Texas's attorney general who's now running for U.S. Senate, faced an impeachment trial that nearly ended his political career after accusations he abused his office to help a campaign donor."
-    },
-    {
-      "title": "Fed Rate Hike All But Certain as Inflation Stays Hot",
-      "facts": "The Federal Reserve's about to tighten the screws on the economy again. August's Consumer Price Index report sent inflation worries spiking, and traders are now putting a 90 percent chance on a quarter-point rate increase when the Fed meets next week."
-    },
-    {
-      "title": "AI Industry Faces Revolt as Staff Warn of Existential Risks",
-      "facts": "Employees inside some of the world's leading artificial intelligence companies say they're genuinely frightened for humanity's future, and they're not staying quiet about it. A former researcher at Anthropic told the BBC that staff members across the industry are increasingly alarmed by the pace of development and the risks it poses."
-    },
-    {
-      "title": "China Pumps Billions Into Banks as Economic Cracks Widen",
-      "facts": "Beijing's opening the vault to shore up its struggling financial system, injecting $54 billion into state-owned banks and insurance companies in one of its largest bailouts in years. The massive cash infusion comes as China grapples with a pile of economic troubles hitting all at once\u2014slowing growth, a real estate crisis, and mounting debt."
-    },
-    {
-      "title": "OpenAI Shelves IPO Plans Amid AI Safety Concerns",
-      "facts": "Sam Altman says OpenAI won't be going public this year, calling an IPO \"ill-advised\" as concerns about artificial intelligence safety continue to intensify. The ChatGPT creator's CEO is pumping the brakes on what would've been one of the most anticipated stock market debuts in years."
-    },
-    {
-      "title": "Mortgage Rates Cross Seven Percent as Housing Market Cools",
-      "facts": "Mortgage rates have climbed back above seven percent, putting fresh pressure on a housing market that's already struggling to gain momentum. The move higher comes as mortgage spreads continue to absorb some of the shock from broader interest rate volatility tied to escalating conflict with Iran."
-    },
-    {
-      "title": "Crosby Blocks Rams Trade, Commits to Raiders Rebuild",
-      "facts": "Maxx Crosby just torpedoed what could've been a blockbuster NFL trade, and he did it on his own terms. The Raiders' star pass rusher shut down trade talks with the Los Angeles Rams after a separate deal sending him to Baltimore fell through earlier this offseason, league sources confirmed."
-    },
-    {
-      "title": "Randle Returns to New York With Bold Promise for Brooklyn",
-      "facts": "Julius Randle's got a message for anyone counting out the Brooklyn Nets this season: don't. The three-time All-Star, who came to Brooklyn in a June trade, told rookie Mikel Brown Jr."
-    },
-    {
-      "title": "Anthropic Discloses Weapons Development Attempts and Security Breaches",
-      "facts": "Anthropic just released a troubling transparency report showing users in Houthi-controlled Yemen tried to use Claude to develop advanced guided weapons systems. The company says it detected and blocked the attempts, which involved designing guidance systems for military hardware."
-    }
-  ],
   "2026-09-14": [
     {
       "title": "Trinidad Detains Woman for Months Over Private Phone Call",
@@ -615,6 +553,76 @@
     {
       "title": "Anthropic Ships Opus 5.5 With Stricter Cybersecurity Guardrails",
       "facts": "Anthropic just released Claude Opus 5.5, and while the headline is matching Fable-level performance at a 40% lower running cost than Opus 5, the elite angle you need to understand is the new cybersecurity safeguards they've baked into the model\u2014because those guardrails fundamentally change how you should architect any autonomous agent that touches sensitive data or executes code. The model now includes stricter controls that actively resist generating exploits, reverse-engineering assistance, or network intrusion patterns, even when prompted cleverly or indirectly."
+    }
+  ],
+  "2026-09-24": [
+    {
+      "title": "Corruption Scandal Rocks Brazil's Presidential Race",
+      "facts": "Explosive allegations are tearing through Brazil's presidential election, and they're landing right at the feet of Supreme Court Justice Alexandre de Moraes. The corruption scandal is reshaping what was already a high-stakes race, with implications that reach far beyond Brazil's borders to affect Latin America as a whole and U.S."
+    },
+    {
+      "title": "Ukraine Transfers North Korean POWs to Seoul",
+      "facts": "Ukraine just sent two captured North Korean soldiers to South Korea, according to President Volodymyr Zelensky, in what appears to be the first transfer of its kind since North Korean troops began fighting alongside Russian forces. Zelensky said one of the soldiers attempted suicide when he was taken prisoner, a detail that speaks volumes about what these troops expect if captured."
+    },
+    {
+      "title": "Ethiopian and Tigray Forces Trade Accusations of New Attacks",
+      "facts": "Ethiopia and Tigray are each accusing the other of launching fresh military offensives, raising fears that the fragile peace between them is collapsing into renewed war. Local authorities in Tigray have reportedly seized control of the region's airports following reports of recent drone strikes."
+    },
+    {
+      "title": "Iran's President Defies Trump's Ultimatum at UN",
+      "facts": "Iran's president delivered a defiant message to Donald Trump at the United Nations, declaring that his country will never \"bend the knee\" to American pressure. Masoud Pezeshkian's speech comes in direct response to Trump's recent threat to \"annihilate\" Iran if a peace deal isn't agreed to soon."
+    },
+    {
+      "title": "GOP Mega-Donor Cuts Off Senate Republicans Over Stalled Trump Agenda",
+      "facts": "Timothy Mellon, one of the Republican Party's biggest financial backers in 2024, has shut off the money spigot for Senate GOP campaigns this cycle\u2014and it's all about frustration with what didn't get done. Mellon poured massive sums into Republican coffers during the last presidential race, but so far this year he's withheld donations to Senate candidates because they failed to pass a key Trump priority."
+    },
+    {
+      "title": "Trump Administration Targets American Bar Association's Law School Gatekeeping Role",
+      "facts": "The Trump administration is moving to strip the American Bar Association of its power to accredit law schools, a change that would reshape legal education and deal a significant blow to the nation's largest lawyers' group. The ABA has held the exclusive authority to vet and approve law schools for decades, a role that's given it enormous influence over who gets to practice law in America."
+    },
+    {
+      "title": "Senate Battle for Michigan and Maine Splits as Midterms Near",
+      "facts": "Democrats are holding onto a lead in Michigan's Senate race but trailing in Maine, according to new polling from The New York Times and Siena College that maps out a mixed battlefield ahead of November. The Democratic nominee in Michigan is ahead in a state that's become a must-win for the party's hopes of keeping control of the Senate."
+    },
+    {
+      "title": "US and China Face Off on Artificial Intelligence Dominance",
+      "facts": "President Trump and Chinese President Xi Jinping are meeting in Washington this week, and artificial intelligence is front and center in what's shaping up as the defining tech rivalry of our era. The United States holds key advantages in AI development, particularly in cutting-edge research and the most advanced applications that are transforming industries right now."
+    },
+    {
+      "title": "Union Workers Demand Say in Workplace AI Decisions",
+      "facts": "The machinists union is showing how American workers are fighting back against artificial intelligence\u2014not by blocking it entirely, but by demanding a seat at the table when companies decide how to use it. Union negotiators are pushing for contracts that give workers a voice in the ways AI gets deployed on factory floors and in offices, marking a significant shift in how labor deals with technological change."
+    },
+    {
+      "title": "Texas Emerges as America's Solar Power Leader",
+      "facts": "Texas has become the biggest solar power producer in the United States, a remarkable transformation for a state that built its identity\u2014and its economy\u2014on oil and gas. The Lone Star State is now generating more electricity from solar farms than any other state, outpacing even California in total solar output."
+    },
+    {
+      "title": "Stock Market Priced for Perfection as Analyst Warns of Major Correction",
+      "facts": "Wall Street's riding high, but one veteran analyst thinks we're headed for a serious fall. Eric Wallerstein from Clocktower Group is warning that the S&P 500 could tumble nearly 20 percent next year, arguing that stocks are currently \"priced for perfection\" with no room for error."
+    },
+    {
+      "title": "Meta Gets Price Target Boost as Muse AI Agent Impresses Wall Street",
+      "facts": "Meta Platforms just got a vote of confidence from JPMorgan, and it's all about the company's newest AI creation. Analysts at the investment bank raised their price target on Meta's stock after the tech giant unveiled its Muse AI agent at Wednesday night's Connect conference."
+    },
+    {
+      "title": "Mortgage Tech Giant PLACE Acquires Maxwell",
+      "facts": "PLACE just bought Maxwell, a mortgage fintech platform that handles more than $130 billion in annual mortgage transactions. The acquisition brings Maxwell's technology directly into PLACE's real estate ecosystem, giving agents and brokerages integrated mortgage capabilities they didn't have before."
+    },
+    {
+      "title": "Default Servicing's Costly Handoff Problem",
+      "facts": "Mortgage default servicing is bleeding money at five critical handoff points, and the losses are hitting investors, servicers, and law firms hard. A new analysis identifies where the process breaks down: when loans move from performing to default status, when cases transfer between servicers, when legal counsel gets engaged, when properties shift from foreclosure to REO, and when final disposition happens."
+    },
+    {
+      "title": "Giants Lose Jaxson Dart for the Season",
+      "facts": "The New York Giants just lost their starting quarterback for the rest of the regular season. Jaxson Dart will undergo surgery on his left knee and won't be back until the playoffs\u2014if the Giants make it that far."
+    },
+    {
+      "title": "Hawks Send Hield to Charlotte in Three-Player Trade",
+      "facts": "The Atlanta Hawks have traded Buddy Hield and Ryan Nembhard to the Charlotte Hornets in exchange for Dorian Finney-Smith, the teams announced Tuesday. Cash considerations are also heading to Charlotte as part of the deal."
+    },
+    {
+      "title": "Claude Finds a Mystery in DNA",
+      "facts": "Anthropic's AI just discovered something in the genetic code that looks a lot like CRISPR\u2014but nobody, including Claude itself, knows exactly what it does yet. The company announced that Claude identified a novel enzyme system with CRISPR-like repeats buried in DNA sequences, a find they're comparing to one of the biggest breakthroughs in genetic engineering."
     }
   ]
 }
