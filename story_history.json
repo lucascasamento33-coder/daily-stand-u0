@@ -1,50 +1,4 @@
 {
-  "2026-09-14": [
-    {
-      "title": "Trinidad Detains Woman for Months Over Private Phone Call",
-      "facts": "Racial and political tensions are boiling over in Trinidad and Tobago after authorities detained a woman for months based on what she said during a private phone conversation. The woman, a member of an ethnic minority group, criticized the government on the call\u2014and that alone led officials to accuse her of involvement in an assassination plot."
-    },
-    {
-      "title": "Philippines Holds Landmark Election in Muslim Autonomy Region",
-      "facts": "The Philippines held a landmark election over the weekend in its restive Muslim autonomous region, a part of the country long associated with violent separatist movements and fragile peace agreements. The vote is seen as a critical test of whether the region can move toward lasting stability and self-governance, after decades of conflict that killed tens of thousands."
-    },
-    {
-      "title": "Pentagon Chief Faces Growing Turmoil as Military Readiness Issues Mount",
-      "facts": "Defense Secretary Pete Hegseth's effort to eliminate what he calls culture wars at the Pentagon has sparked its own wave of controversy, and the timing couldn't be worse. Officials say persistent distractions inside the building are feeding a climate of mistrust just as U.S."
-    },
-    {
-      "title": "Wall Street Warns AI Slowdown Could Topple Stock Rally",
-      "facts": "Citigroup is sounding the alarm on what's been driving the stock market's surge\u2014and warning it could all reverse fast. The banking giant says if artificial intelligence development hits the brakes, earnings revisions could follow, and those upward earnings tweaks have been the crucial fuel behind this year's stock gains."
-    },
-    {
-      "title": "Canada's Prime Minister Pitches Foreign Investment Amid Trade War",
-      "facts": "Canada's betting it can attract the world's biggest investment funds even as it escalates a bitter tariff fight with the United States. Prime Minister Mark Carney leveraged his deep connections in global finance to invite some of the planet's largest investors to Canada, presenting the country as a stable alternative in an uncertain trade environment."
-    },
-    {
-      "title": "UK Prime Minister Calls for Culture Shift on Business Risk",
-      "facts": "Britain needs to fundamentally change how it thinks about business risk, according to the country's prime minister. The call for a \"culture shift\" came with a promise that government will back entrepreneurs and risk-takers more aggressively going forward."
-    },
-    {
-      "title": "Mortgage Rates Push Past 7 Percent as Iran Conflict Roils Markets",
-      "facts": "Mortgage rates have climbed back above 7 percent, adding fresh pressure to an already sluggish housing market. The jump comes as global uncertainty around the Iran conflict continues to shake financial markets and push borrowing costs higher."
-    },
-    {
-      "title": "Premier League Refs Admit VAR Error Cost Manchester United in Derby",
-      "facts": "The Premier League's referees' body has issued a rare apology to Manchester United after admitting that VAR made an error in awarding Erling Haaland's winning goal in Manchester City's 1-0 derby victory. Pro Ref acknowledged that the goal\u2014which proved to be the only score in the match\u2014should not have stood."
-    },
-    {
-      "title": "Pelicans Ship Lottery Pick Hawkins to Memphis in Four-Player Deal",
-      "facts": "The Pelicans are sending Jordan Hawkins\u2014the player they selected in last year's lottery\u2014to Memphis along with three other assets in a trade that landed them AJ Johnson and veteran Taj Gibson. Hawkins, Micah Peavy, and two future second-round picks are heading to the Grizzlies in exchange."
-    },
-    {
-      "title": "Bradley Beal Inherits Chris Paul's Iconic Number Three With the Clippers",
-      "facts": "Bradley Beal's taking over the number three jersey for the Clippers, a number that's been synonymous with Chris Paul for most of the franchise's modern history. Paul wore the number during his six seasons in Los Angeles and became one of the most important players in Clippers history, leading them to their most successful stretch ever."
-    },
-    {
-      "title": "Hackers Turn Claude Into a Credential-Theft Machine",
-      "facts": "Threat actors have hijacked Claude to mine secrets from nearly two million Android apps\u2014and they're doing it at scale. Security researchers uncovered a major credential-theft campaign that's using Anthropic's AI to automatically analyze app code, extract API keys, authentication tokens, and other sensitive credentials, then weaponize them for further attacks."
-    }
-  ],
   "2026-09-15": [
     {
       "title": "Kyrgyzstan's War Windfall",
@@ -623,6 +577,52 @@
     {
       "title": "Claude Finds a Mystery in DNA",
       "facts": "Anthropic's AI just discovered something in the genetic code that looks a lot like CRISPR\u2014but nobody, including Claude itself, knows exactly what it does yet. The company announced that Claude identified a novel enzyme system with CRISPR-like repeats buried in DNA sequences, a find they're comparing to one of the biggest breakthroughs in genetic engineering."
+    }
+  ],
+  "2026-09-25": [
+    {
+      "title": "Colombia's President Arrives Armed in Cartel-Controlled City",
+      "facts": "Colombia's new president wore a sidearm during a visit to Santa Marta, a coastal tourist hub that's been effectively shut down by an armed criminal group. Abelardo De La Espriella made the trip after state forces killed a group leader, triggering a violent response that's paralyzed the city."
+    },
+    {
+      "title": "Filipina Spared From Firing Squad Receives Pardon After a Decade",
+      "facts": "Mary Jane Veloso, convicted of drug smuggling in Indonesia and nearly executed by firing squad, has been pardoned in the Philippines more than ten years after her arrest. Veloso was sentenced to death in Indonesia after authorities found heroin hidden in her luggage, but she maintained she'd been set up by a trafficking syndicate."
+    },
+    {
+      "title": "Morgan Stanley Reverses Course on Dollar Forecast",
+      "facts": "Morgan Stanley just admitted it got the dollar completely wrong. The bank's now changing its forecast after rising bond yields and expected Federal Reserve rate hikes shredded its earlier predictions about where the buck was headed."
+    },
+    {
+      "title": "Trump and Xi Meet With Little Progress on Trade or Tech",
+      "facts": "President Trump and Chinese leader Xi Jinping exchanged warm words and gifts at a White House state dinner Thursday night, but the diplomacy didn't translate into breakthroughs on the issues dividing the world's two largest economies. Prominent tech executives attended the dinner as the countries remained locked in disputes over tariffs, trade rules, and potential regulation of artificial intelligence."
+    },
+    {
+      "title": "Akamai Surges on Twelve Billion Dollar Cloud Deal With Anthropic",
+      "facts": "Akamai's stock is jumping after the company announced a massive cloud-computing agreement with Anthropic, the AI startup behind Claude. The deal is worth twelve billion dollars and positions Akamai to supply cloud infrastructure for one of the hottest names in artificial intelligence."
+    },
+    {
+      "title": "Chicago Faces Rent Control Showdown",
+      "facts": "Chicago's city council is heading toward a clash over two competing rent control proposals that could reshape the city's housing market. The two ordinances represent fundamentally different approaches\u2014one focused on aggressive renter protections, the other trying to balance tenant safeguards with incentives to keep developers building new housing."
+    },
+    {
+      "title": "California Sues Costa Mesa Over Housing Plan",
+      "facts": "Costa Mesa just approved plans for 2,300 new homes, but California isn't satisfied\u2014and it's taking the Orange County city to court. The state requires Costa Mesa to plan for 11,760 homes by 2029 under California's housing mandate, and the city's latest approval represents just a fraction of that target."
+    },
+    {
+      "title": "Klopp Takes Charge of Germany After Nearly Two-Year Absence",
+      "facts": "J\u00fcrgen Klopp is back in the dugout after 858 days away from management, and this time he's leading Germany. The former Liverpool boss drew 1-1 with the Netherlands in his first match as national team manager, giving the soccer world a glimpse of what's to come."
+    },
+    {
+      "title": "NBA Hall of Famer Bob Pettit Dies at 93",
+      "facts": "Bob Pettit, the NBA's first-ever Most Valuable Player and one of the league's greatest scorers and rebounders, has died at 93. The Naismith Basketball Hall of Fame announced his death Thursday."
+    },
+    {
+      "title": "Knicks and Karl-Anthony Towns Extension Talks Hit a Wall",
+      "facts": "Contract negotiations between the Knicks and Karl-Anthony Towns have ground to a halt, with sources telling ESPN that a deal is unlikely as training camp gets underway. The talks have stagnated entirely, leaving one of the team's key players in limbo heading into the season."
+    },
+    {
+      "title": "Claude Discovers New Gene-Editing System in AI's First Wet-Lab Breakthrough",
+      "facts": "Anthropic's Claude just made biological history\u2014it discovered an entirely new enzyme system similar to CRISPR, marking the first time an AI model has helped identify a novel genetic tool from scratch. The discovery came out of Anthropic's secretive wet lab, a facility the company had been running quietly until now."
     }
   ]
 }
