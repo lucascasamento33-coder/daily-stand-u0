@@ -1,58 +1,4 @@
 {
-  "2026-09-15": [
-    {
-      "title": "Kyrgyzstan's War Windfall",
-      "facts": "Kyrgyzstan's economy just grew by 11 percent last year, and a big part of that boom is thanks to the war in Ukraine. The Central Asian nation has quietly become a crucial conduit for goods flowing into Russia, essentially serving as a workaround for Western sanctions."
-    },
-    {
-      "title": "Thai Beer Heir Breaks Family Silence on Abuse",
-      "facts": "An heir to Thailand's Singha beer empire has accused his brother of sexual abuse, and in doing so, he's forcing a rare public conversation about a topic that's long been taboo in Thai society. Siranudh Scott didn't just make the allegation\u2014he's taken on his entire family in a confrontation that's drawing attention across the country."
-    },
-    {
-      "title": "U.S. Confirms It's Put Weapons in Orbit",
-      "facts": "The United States has deployed weapons in space, and we're only finding out about it now. Air Force Secretary Troy E."
-    },
-    {
-      "title": "Fed Poised to Raise Rates as Major Banks Reverse Their Forecasts",
-      "facts": "Morgan Stanley just flipped its Federal Reserve prediction at the eleventh hour, joining Goldman Sachs in now expecting the central bank to hike interest rates when it meets. Both banks had previously forecast the Fed would hold rates steady, but they've reversed course as recent economic data came in hotter than expected."
-    },
-    {
-      "title": "Student Debt Becomes a Retirement Killer for Millions of Americans",
-      "facts": "People trying to pay off student loans and save for retirement at the same time are falling behind early in their careers\u2014and they never catch up. New research shows that if all employers matched student debt payments the way they match retirement contributions, workers would save more than ten billion dollars collectively."
-    },
-    {
-      "title": "UK Pension Payments Set to Top Thirteen Thousand Pounds as Wage Growth Cools",
-      "facts": "Britain's state pension is on track to exceed thirteen thousand pounds a year, even as wage growth across the country slows to three-point-nine percent. The increase is reigniting a fierce debate about whether the pension system is financially sustainable over the long term\u2014and whether it's fair to younger generations who'll be footing the bill."
-    },
-    {
-      "title": "Treasury Yields Hit 17-Year High as Markets Brace for Fed Decision",
-      "facts": "The 10-year Treasury yield just crossed 5% for the first time since 2007, and it's putting serious pressure on stock futures ahead of the Federal Reserve's policy meeting this week. The benchmark yield hit 5.041% on Tuesday, driven by a combination of rising oil prices and investor anxiety about what the Fed might signal."
-    },
-    {
-      "title": "Wall Street Analysts Say Don't Fear the Fed Rate Hike",
-      "facts": "UBS is telling clients to keep calm and carry on, even as the Federal Reserve prepares to raise interest rates again this week. In a note to investors Tuesday, the bank argued that history actually shows stocks tend to hold up pretty well once a tightening cycle gets underway."
-    },
-    {
-      "title": "Compass Launches Global Referral Network Despite U.S.-Only License",
-      "facts": "Compass is rolling out a new global division to handle cross-border real estate referrals, even though the brokerage itself remains licensed only in the United States. The company's introducing internal tiers and tracking tools designed to standardize how agents refer clients to partners overseas\u2014a move that could reshape how American buyers and sellers connect with international markets."
-    },
-    {
-      "title": "Flock Surveillance Cameras Complicate Homebuyer Due Diligence",
-      "facts": "Neighborhood surveillance cameras are becoming a new wrinkle in the homebuying process, and the paperwork hasn't caught up yet. Flock cameras\u2014automated license plate readers and security devices that track vehicles entering and leaving communities\u2014are spreading rapidly through HOAs and residential developments, but experts say disclosure documents are lagging way behind."
-    },
-    {
-      "title": "Aaron Judge Breaks Home Run Drought as Yankees Lock Playoff Spot",
-      "facts": "Aaron Judge finally broke through Monday night, launching his first home run since late May and helping the Yankees clinch their record 61st postseason berth. It's been a long, frustrating stretch for Judge, whose power outage had become one of baseball's most puzzling storylines over the past few months."
-    },
-    {
-      "title": "Clippers and Raptors Finally Complete Leonard Trade After Monthslong Investigation",
-      "facts": "The Kawhi Leonard trade is finally official. After months of delay tied to the NBA's investigation into the Clippers, Los Angeles has sent Leonard to the Toronto Raptors in a deal that was agreed to long ago but couldn't be completed while the league examined sponsorship dealings."
-    },
-    {
-      "title": "Claude Code's Power Users Do One Thing Differently",
-      "facts": "Anthropic just analyzed 400,000 Claude Code sessions to figure out what separates the users getting great results from everyone else, and the answer isn't what you'd expect. It's not about writing better prompts or using fancier tools\u2014it's about iteration."
-    }
-  ],
   "2026-09-16": [
     {
       "title": "Trump Bars South Africans Over Discrimination Claims",
@@ -623,6 +569,60 @@
     {
       "title": "Claude Discovers New Gene-Editing System in AI's First Wet-Lab Breakthrough",
       "facts": "Anthropic's Claude just made biological history\u2014it discovered an entirely new enzyme system similar to CRISPR, marking the first time an AI model has helped identify a novel genetic tool from scratch. The discovery came out of Anthropic's secretive wet lab, a facility the company had been running quietly until now."
+    }
+  ],
+  "2026-09-26": [
+    {
+      "title": "Bangkok Declares Emergency as Floods Submerge Capital",
+      "facts": "Days of relentless rain have turned Bangkok into a waterlogged disaster zone, forcing Thailand's government to declare an emergency across the capital. Roads are submerged, neighborhoods are cut off, and the city's usual frenetic energy has ground to a halt as floodwaters continue rising."
+    },
+    {
+      "title": "Xi Presses Trump to Rethink U.S. Support for Taiwan and Japan",
+      "facts": "Chinese President Xi Jinping used a high-stakes summit with President Trump to challenge America's commitments in Asia, deploying a mix of flattery, veiled warnings, and wartime history to tilt Trump's stance on Taiwan and Japan. Xi reportedly framed U.S."
+    },
+    {
+      "title": "CDC Loses Nearly a Third of Its Workforce in One Year",
+      "facts": "The Centers for Disease Control and Prevention has shed close to 30 percent of its staff over the past year, a loss so severe it's effectively shut down entire teams and emptied out top leadership ranks. The exodus represents one of the most dramatic shake-ups in the agency's history, coming at a time when public health experts warn the country needs strong epidemic monitoring and response capabilities."
+    },
+    {
+      "title": "Supreme Court Citizenship Ruling May Have Little Effect on Midterm Voter Screening",
+      "facts": "The Supreme Court just gave states the green light to use citizenship databases when screening voter rolls, but there's a catch\u2014federal law probably won't let them do much with it before the midterms. A little-known provision in federal election law requires a 90-day \"quiet period\" before any election, during which states are barred from making large-scale changes to who's registered to vote."
+    },
+    {
+      "title": "Tech CEOs Dine at White House Amid U.S.-China Trade Tensions",
+      "facts": "Prominent tech executives gathered at the White House Thursday night for a state dinner as President Trump and Chinese President Xi navigate a fraught moment over tariffs, trade, and artificial intelligence regulation. The dinner brought together leaders from America's biggest technology companies at a time when both governments are wrestling with how to handle AI development and cross-border data flows."
+    },
+    {
+      "title": "Dollar Faces Technical Sell Signal as Treasury Takes Control",
+      "facts": "The U.S. dollar's heading toward what traders call a \"death cross\"\u2014a technical pattern that often signals further declines ahead\u2014and Treasury Secretary Scott Bessent might be just fine with that."
+    },
+    {
+      "title": "OpenAI Bots Accessed U.S. Government Websites During Testing",
+      "facts": "OpenAI's disclosed that its artificial intelligence bots accessed public data from multiple U.S. government agency websites during testing exercises, raising fresh questions about how AI companies gather training material."
+    },
+    {
+      "title": "Microsoft Shares Hit Year's Best as AI Bet Pays Off",
+      "facts": "Microsoft stock closed at its highest level of the year, capping a remarkable turnaround after a rocky start to 2025. Shares have surged in recent months as investors embraced the company's artificial intelligence strategy."
+    },
+    {
+      "title": "Builders Slashing Prices Nationwide as Sales Consistently Fall Short of Asking",
+      "facts": "Homebuilders are cutting prices in every major market across the country, and it's not subtle\u2014new data from Audience Town shows all twenty-five markets they analyzed are now selling below asking price. The firm examined two hundred and one thousand sales and found discounts have become universal, with some regions seeing builders knock tens of thousands off their initial pricing."
+    },
+    {
+      "title": "Compass Demands MLSs Block Listing Data From Recruiter Tools",
+      "facts": "Compass just sent a letter to multiple listing services across the country demanding they cut off access to listing data used by recruiting platforms\u2014and they're giving them thirty days to comply. The brokerage wants MLSs to block what are called non-IDX and non-VOW vendor feeds, which recruiting tools use to show agents how much business their competitors are doing."
+    },
+    {
+      "title": "Manchester City Facing Guilty Verdict on Financial Breach Charges",
+      "facts": "Premier League clubs are scrambling for legal advice after sources confirmed that Manchester City are expected to be found guilty on the vast majority of hundreds of charges alleging financial regulation breaches. The case has been one of the most serious in English football history, with the league accusing City of systematically violating financial fair play rules."
+    },
+    {
+      "title": "Stephen Curry Takes Pay Cut in $116 Million Extension with Warriors",
+      "facts": "Stephen Curry is staying in Golden State, but he's leaving money on the table to do it. The Warriors star agreed to a two-year, $116 million contract extension on Friday\u2014a deal that amounts to a pay cut from what he could've commanded on the open market."
+    },
+    {
+      "title": "Pentagon Wins Legal Fight to Label Anthropic a Supply Chain Risk",
+      "facts": "A federal appeals court in Washington just handed the Pentagon a major win in its ability to blacklist AI companies over national security concerns. The court ruled that the Defense Department can officially designate Anthropic as a supply chain risk, upholding a label that effectively bars the company from many government contracts."
     }
   ]
 }
