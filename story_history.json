@@ -1,58 +1,4 @@
 {
-  "2026-09-16": [
-    {
-      "title": "Trump Bars South Africans Over Discrimination Claims",
-      "facts": "Washington's imposed travel restrictions on some South African citizens, citing what President Trump calls anti-white discrimination in the country. The move marks a sharp escalation in tensions between the two nations, with the U.S."
-    },
-    {
-      "title": "Russians Brace for Post-Election Crackdown",
-      "facts": "The upcoming election in Russia might be a foregone conclusion, but that's not stopping citizens from worrying about what comes after the votes are counted. Russians are bracing for what the government might do on the military and economic fronts once the Kremlin sees the vote as legitimizing its policies."
-    },
-    {
-      "title": "House Votes to Restrain Presidential War Powers on Iran",
-      "facts": "The House has directed President Trump to either halt military operations against Iran or come back to Congress for explicit authorization\u2014and it's the fifth time a chamber of the Republican-controlled Congress has voted to rein in his war powers. The resolution reflects growing unease among lawmakers as the conflict drags on without a clear endpoint."
-    },
-    {
-      "title": "Charlie Kirk's Family Sues University Over Security Lapses",
-      "facts": "The family of conservative activist Charlie Kirk is accusing Utah Valley University of \"stunning\" security failures that they say allowed a gunman unrestricted access to the rooftop where he fired the fatal shot. According to a legal notice sent by the family's lawyers, the university ignored repeated concerns about the building's lack of secure perimeter controls."
-    },
-    {
-      "title": "Fed Poised to Hike Rates Again as Midterms Loom",
-      "facts": "The Federal Reserve's expected to raise interest rates Wednesday, and the timing couldn't be more politically awkward\u2014we're less than two months from the midterm elections. It's a rare collision of monetary policy and electoral politics, since the Fed typically tries to avoid major moves that might be seen as tipping the scales in either direction."
-    },
-    {
-      "title": "UK Inflation Jumps on Fuel and Holiday Costs",
-      "facts": "Inflation's climbing again in the United Kingdom, driven higher by petrol and diesel price increases and the usual summer spike in holiday costs. The latest figures show price growth accelerating after months of easing, and the culprit is largely the same as it's been for the past year\u2014energy markets rattled by Middle East conflict."
-    },
-    {
-      "title": "Treasury Yields Hit Three-Year High Despite Buyback Plan",
-      "facts": "Treasury yields are climbing to levels we haven't seen since before the pandemic, and that's making America's debt problem significantly more expensive. The 10-year Treasury yield has pushed above 5%, marking its highest point in three years\u2014even after the Treasury Department unveiled a $6 billion bond buyback program designed to bring borrowing costs down."
-    },
-    {
-      "title": "Oil Prices Drive New Market Dynamic Between Stocks and Bonds",
-      "facts": "There's a fundamental shift happening in how the world's major asset classes are moving together, and it's all about energy. Rising oil prices\u2014driven by escalating conflict involving Iran\u2014are starting to dictate the relationship between stocks, bonds, and commodities in ways that haven't been the norm for the past decade."
-    },
-    {
-      "title": "Permit Approval Delays\u2014Not Construction\u2014Are Stretching Out Home Projects",
-      "facts": "Researchers just tracked 1.1 million building permits issued across the country between 2000 and 2025, and they found something that should change how we talk about housing delays. It's not the actual construction that's taking longer\u2014it's getting the permit approved in the first place."
-    },
-    {
-      "title": "Non-QM Mortgages Could Hit $100 Billion as Wall Street Eyes Big Returns",
-      "facts": "There's a corner of the mortgage market that doesn't get much attention from everyday homeowners, but it's about to get a lot bigger\u2014and it could affect how lenders price loans. Non-qualified mortgages, or non-QM loans, are mortgages that don't meet the strict documentation standards Fannie Mae and Freddie Mac require, and they've been quietly booming."
-    },
-    {
-      "title": "Brewers Capture Fourth Straight Division Crown",
-      "facts": "The Milwaukee Brewers are heading back to the postseason after clinching their fourth consecutive National League Central title Tuesday night. They locked it up without even playing\u2014the second-place Cubs lost to Atlanta, giving Milwaukee the division crown with games still to spare."
-    },
-    {
-      "title": "Paul George Joins Celtics in Blockbuster Trade for Jaylen Brown",
-      "facts": "Paul George is headed to Boston, and he knows Celtics fans aren't exactly throwing him a welcome parade. The team has completed a trade sending Jaylen Brown to Philadelphia in exchange for George, and the new arrival acknowledged the controversy head-on Tuesday."
-    },
-    {
-      "title": "Claude Code Now Runs Without Anthropic Models",
-      "facts": "Developers have figured out how to use Claude Code\u2014Anthropic's autonomous coding environment\u2014with competing AI models instead of Claude itself, and it's opening up a whole new category of workflow flexibility you probably haven't explored yet. The key insight here is that Claude Code's architecture separates the orchestration layer from the model layer, which means you can swap in OpenAI, Gemini, or even local models while keeping all of Code's tooling, hooks, and integrations intact."
-    }
-  ],
   "2026-09-17": [
     {
       "title": "Trump Sanctions Strand Thousands of Containers Bound for Cuba",
@@ -623,6 +569,52 @@
     {
       "title": "Pentagon Wins Legal Fight to Label Anthropic a Supply Chain Risk",
       "facts": "A federal appeals court in Washington just handed the Pentagon a major win in its ability to blacklist AI companies over national security concerns. The court ruled that the Defense Department can officially designate Anthropic as a supply chain risk, upholding a label that effectively bars the company from many government contracts."
+    }
+  ],
+  "2026-09-27": [
+    {
+      "title": "Plane Crash Kills 17 in Democratic Republic of Congo",
+      "facts": "A military plane carrying Congolese officials has crashed in the Democratic Republic of Congo, killing seventeen people. The victims include thirteen members of a military delegation and four civilians who were on the ground when the aircraft went down."
+    },
+    {
+      "title": "Myanmar Military Turns Motorized Paragliders Into Bombers",
+      "facts": "Myanmar's military has found a new weapon in its war against rebel forces\u2014motorized paragliders and gyrocopters that it's using to bomb towns and villages in rebel-held territory. Years after the coup that toppled the country's elected government, the junta is deploying these lightweight recreational aircraft to strike areas it can't easily reach by conventional means."
+    },
+    {
+      "title": "Trump Rejects Iran Cease-Fire as Midterms Loom",
+      "facts": "President Trump's rejected Iran's proposal to reopen the Strait of Hormuz, calling the deal \"not acceptable\" and leaving the door open to more military strikes after November's midterm elections. The decision keeps tensions in the Middle East at a boiling point, with global oil markets already reacting to the standoff."
+    },
+    {
+      "title": "Sea Lion Found Shot Twelve Times in Seattle",
+      "facts": "A 700-pound California sea lion was found dead on a beach off the Duwamish River in West Seattle this month, and investigators say it had been shot at least twelve times. The animal's death is now under investigation, though authorities haven't identified a motive or any suspects."
+    },
+    {
+      "title": "Treasury Market Braces for Jobs Report That Could Push Rates Even Higher",
+      "facts": "The next jobs report could send shockwaves through the bond market if it comes in hot. Analysts are warning that another strong employment number might push yields on ten-year and thirty-year Treasury bonds sharply higher, continuing a trend that's already made borrowing more expensive across the economy."
+    },
+    {
+      "title": "Homebuilders Slashing Prices Nationwide as Sales Slow",
+      "facts": "Builders are discounting homes in every major market across the country, according to new data that lays bare just how hard it's gotten to move new construction. Audience Town analyzed 201,000 sales across 25 markets and found that every single one sold below asking price\u2014a clean sweep that signals builders are feeling real pressure."
+    },
+    {
+      "title": "Compass Pushes to Block Listing Data From Rival Recruiting Platforms",
+      "facts": "Compass is asking multiple listing services nationwide to cut off the flow of listing data to competitors' recruiting tools, setting up a potential showdown over how agent performance information gets used. The brokerage sent a letter demanding an opt-out from what it calls non-IDX and VOW vendor feeds\u2014essentially, third-party platforms that aren't consumer-facing home search sites."
+    },
+    {
+      "title": "Guardians Rally From Six Back to Clinch Division and First-Round Bye",
+      "facts": "The Cleveland Guardians just wrapped up one of the more improbable late-season surges you'll see this year. They clinched their third straight AL Central title with an 11-5 win over Kansas City on Saturday night, and the timing couldn't be sweeter\u2014they were six games behind the White Sox as recently as mid-August."
+    },
+    {
+      "title": "Warriors Lock Up Curry With $116 Million Extension",
+      "facts": "Stephen Curry's staying in the Bay Area through his early forties. The Warriors' star just agreed to a two-year, $116 million contract extension that will keep him in Golden State through the 2028-29 season."
+    },
+    {
+      "title": "Bulls Send Dillingham to Hornets in Trade for Hield",
+      "facts": "Chicago's shaking up its roster with a weekend trade that sends Rob Dillingham to Charlotte in exchange for Buddy Hield and cash. The deal gives the Bulls a proven veteran shooter in Hield, who's built his career on elite three-point marksmanship and instant offense off the bench."
+    },
+    {
+      "title": "Pentagon Wins Right to Block Claude Over National Security Concerns",
+      "facts": "A federal appeals court just handed the Pentagon a major win in its standoff with Anthropic. The D.C."
     }
   ]
 }
