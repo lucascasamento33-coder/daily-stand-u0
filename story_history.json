@@ -1,62 +1,4 @@
 {
-  "2026-09-18": [
-    {
-      "title": "New Wildcat Species Discovered in Bolivia",
-      "facts": "Scientists have identified an entirely new species of wildcat in Bolivia, and there's just one catch\u2014only one member of the species is known to be alive. The spotted wildcat had been mistaken for related species until researchers confirmed it's genetically distinct."
-    },
-    {
-      "title": "Japan Raises Interest Rates to Highest Level in Three Decades",
-      "facts": "Japan just pushed interest rates to a 31-year high, marking a dramatic shift for a country that's spent decades battling deflation rather than inflation. The central bank's move comes as energy prices drive up the cost of living across the island nation, forcing policymakers to act."
-    },
-    {
-      "title": "Dozens Die in Nigerian Custody After Illegal Mining Arrests",
-      "facts": "Dozens of suspected illegal miners have died while in custody in Nigeria, sparking a dispute over what killed them. Authorities attribute the deaths to disease, but intelligence reports and relatives of the deceased are challenging that explanation."
-    },
-    {
-      "title": "Mosque Attack in Pakistan Kills at Least Sixteen",
-      "facts": "At least sixteen people are dead after a vehicle loaded with explosives rammed into a mosque during Friday prayers in Pakistan. A senior police official confirmed the attack, which left worshippers with no time to escape as the blast tore through the building."
-    },
-    {
-      "title": "Border Agent Convicted of Assaulting Chinese Women at Chicago Airport",
-      "facts": "A Customs and Border Protection officer has been found guilty of sexually assaulting and robbing multiple women at a Chicago airport. The officer targeted four women, all of Chinese descent, threatening and assaulting them in hotel rooms back in 2022."
-    },
-    {
-      "title": "Two Dead After SUV Driver Crashes Into Los Angeles Bus",
-      "facts": "Prosecutors have charged an SUV driver with murder after a crash in Los Angeles killed two people on a city bus Tuesday. Authorities say the driver was impaired by drugs and ran a red light before slamming into the bus."
-    },
-    {
-      "title": "Fed Raises Rates as Warsh Begins Inflation Fight",
-      "facts": "The Federal Reserve just raised interest rates for the first time since July 2023, marking chairman Kevin Warsh's opening salvo in the battle against inflation. The decision comes less than two months before the midterm elections, a timing that's sure to inject economic policy straight into campaign debates."
-    },
-    {
-      "title": "Global Economy Faces Mounting Risks as Energy Shock Lingers",
-      "facts": "Countries around the world are running out of room to maneuver as the economic fallout from the war in Iran continues to reverberate. Many governments managed to cushion the initial blow from soaring energy prices, using subsidies and strategic reserves to protect consumers and businesses."
-    },
-    {
-      "title": "Warren Buffett Steps Down as Berkshire Hathaway Chairman",
-      "facts": "Warren Buffett has officially left the chairman's seat at Berkshire Hathaway, with his son Howard taking over the role. The investing legend, who stepped down as CEO earlier this year, has now completed his exit from day-to-day leadership of the conglomerate he built over decades."
-    },
-    {
-      "title": "Brooklyn Neighbors Kill Marina Plan After Months of Opposition",
-      "facts": "A sweeping proposal to build a 100-slip marina and restaurant complex at Transmitter Park in Brooklyn is officially dead. The project, which would've transformed a stretch of Greenpoint waterfront, collapsed after facing fierce opposition from neighborhood residents who never wanted something so ambitious in the first place."
-    },
-    {
-      "title": "Bills Christen New Stadium With Five-Touchdown Performance",
-      "facts": "Josh Allen threw a housewarming party Buffalo won't soon forget. The Bills lit up their brand-new Highmark Stadium Thursday night with a 41-31 win over Detroit, and Allen personally accounted for five touchdowns in the home opener."
-    },
-    {
-      "title": "Pelicans Lock In Bey With $55 Million Extension",
-      "facts": "New Orleans just committed more than $55 million to Saddiq Bey. The Pelicans and the forward have agreed to a three-year extension worth $55.5 million, according to his agents."
-    },
-    {
-      "title": "Former Georgetown Star Michael Sweetney Dies at 43",
-      "facts": "Michael Sweetney has died at just 43 years old. Sweetney played four seasons in the NBA with the Knicks and Bulls after a standout college career at Georgetown, where he was one of the best big men in the country."
-    },
-    {
-      "title": "Claude Code Projects Launches Always-On Dev Memory",
-      "facts": "Anthropic just shipped Claude Code Projects, and the power move here isn't just persistent memory\u2014it's that the conversation never dies. Traditional Claude sessions reset context every time you close the window, forcing you to re-explain your codebase, conventions, and half-finished tasks."
-    }
-  ],
   "2026-09-19": [
     {
       "title": "Guyana's Oil Boom Intensifies Regional Tensions",
@@ -607,6 +549,56 @@
     {
       "title": "Warriors Lock Up Stephen Curry With Two-Year Extension",
       "facts": "Stephen Curry's staying in Golden State, but he's doing it on his own terms. The Warriors star agreed to a two-year, $116 million contract extension\u2014and here's the twist: he took less than the max to get it done."
+    }
+  ],
+  "2026-09-29": [
+    {
+      "title": "Argentina Pitches Itself as AI Free-For-All Zone",
+      "facts": "President Javier Milei is making a bold bet on artificial intelligence\u2014and he's willing to take risks most other countries won't touch. Argentina's libertarian leader is pitching his country as a rules-free haven for AI development, at the very moment when governments around the world are racing to impose regulations on the technology."
+    },
+    {
+      "title": "Myanmar Military Bombs Market, Killing Dozens in Rebel Territory",
+      "facts": "At least 50 people are dead after a Myanmar military airstrike hit a crowded market in rebel-controlled territory. Witnesses described bodies \"like pieces of charcoal\" scattered through the wreckage, in one of the deadliest attacks on civilians in months."
+    },
+    {
+      "title": "Former Special Counsel Jack Smith Summoned to Capitol Hill",
+      "facts": "Jack Smith is heading to Congress to testify, marking his first public appearance since wrapping up his role as special counsel. The invitation sets up what's expected to be a contentious hearing over how prosecutorial power has been wielded in American politics."
+    },
+    {
+      "title": "U.S. Bans Canadian Dairy and Liquor in Major Trade Escalation",
+      "facts": "The United States just put an outright ban on certain Canadian dairy and liquor products, and it took effect Tuesday. It's a sharp escalation in what's become a damaging trade fight between two countries that have been allies for generations."
+    },
+    {
+      "title": "Farmers Worry as Regulator Pulls Back on Commodity Oversight",
+      "facts": "There's growing concern among American farmers that the government agency meant to protect them from fraud is backing away from the job. The Commodity Futures Trading Commission has sharply scaled back its enforcement actions\u2014not just in the crypto space, but in the traditional commodity markets it's policed for decades."
+    },
+    {
+      "title": "U.K. Plans New Public Body to Drive Down Electricity Costs",
+      "facts": "Britain's Prime Minister is set to unveil plans for a new public investment body aimed at overhauling the country's electricity grid\u2014and the goal is to bring energy costs down for consumers. The announcement will come in his first major speech to the Labour Party conference since becoming leader, giving it significant political weight."
+    },
+    {
+      "title": "Morgan Stanley Says a Market Pullback Could Be Healthy",
+      "facts": "Morgan Stanley's chief U.S. equity strategist Mike Wilson is making a case that might sound counterintuitive: the S&P 500 could actually benefit from a correction right now."
+    },
+    {
+      "title": "AI Build-Out Faces Massive Revenue Gap",
+      "facts": "A major consulting firm is pouring cold water on the artificial intelligence boom with a stark warning: two-thirds of the revenue needed to justify the massive AI build-out simply isn't there yet. According to the analysis, about four-point-two trillion dollars in annual costs are going into AI infrastructure, but the money to pay for it all hasn't materialized."
+    },
+    {
+      "title": "Senior Homeowners Face Financial Squeeze as Housing Costs Bite",
+      "facts": "Financial confidence is crumbling among older homeowners, and it's not just inflation doing the damage. A new Longbridge survey found that only 28 percent of homeowners aged 55 and up expect their finances to improve anytime soon\u2014a striking drop in optimism for a demographic that's traditionally benefited most from home equity gains."
+    },
+    {
+      "title": "Home Renovation Demand Hits Lowest Level Since Last Year",
+      "facts": "Homeowners have stopped pulling the trigger on big renovation projects, and the drop-off is steeper than anyone expected. Point, a company that tracks home equity financing, says demand for renovation funding has fallen to its lowest point since 2024, according to its latest quarterly index."
+    },
+    {
+      "title": "Giants Acquire McCarthy in Surprise Trade but Keep Winston as Starter",
+      "facts": "The Giants just made a head-turning move, trading for former first-round quarterback J.J. McCarthy from the Vikings in exchange for a 2027 fifth-round pick."
+    },
+    {
+      "title": "Claude Sonnet 5.5 Cuts Task Costs 30 Percent by Running Faster and Smarter",
+      "facts": "Anthropic just shipped Claude Sonnet 5.5, and the headline here isn't a capability you've never heard of\u2014it's how they've fundamentally changed the economics of tool-heavy workflows. The new model runs 30 percent faster than Sonnet 5, and more importantly, it completes tasks with fewer tool calls, which means you're paying less per completed job even though the per-token price stayed at two dollars input and ten dollars output."
     }
   ]
 }
