@@ -1,54 +1,4 @@
 {
-  "2026-09-19": [
-    {
-      "title": "Guyana's Oil Boom Intensifies Regional Tensions",
-      "facts": "Oil-rich Guyana is experiencing explosive economic growth as energy revenues pour in, but the windfall is exposing deep fractures in the small South American nation. The boom has magnified tensions over corruption and inequality, with critics questioning how the newfound wealth is being distributed among ordinary Guyanese."
-    },
-    {
-      "title": "Nepal's Youth Demand Climate Reparations from Wealthy Nations",
-      "facts": "Nepal's young government is launching an audacious campaign to force the world's biggest polluters to pay for the climate disasters now ravaging the Himalayan nation. Despite having one of the smallest carbon footprints on the planet, Nepal is bearing the brunt of collapsing glaciers, deadly floods, and landslides triggered by global warming it did almost nothing to cause."
-    },
-    {
-      "title": "Appeals Court Blocks Trump Administration's Third-Country Deportation Push",
-      "facts": "A federal appeals court just delivered a major setback to the Trump administration's immigration enforcement strategy, ruling that migrants can't be deported to countries other than their homeland without a chance to contest it first. The decision limits one of the more aggressive tools immigration officials had been using to speed up removals\u2014sending people to third countries where they'd previously resided or transited through, even if they weren't citizens there."
-    },
-    {
-      "title": "Warren Buffett Steps Down After Six Decades at Berkshire Hathaway",
-      "facts": "Warren Buffett is stepping down after sixty years at the helm of Berkshire Hathaway, ending one of the most remarkable runs in corporate history. Since taking control in 1965, Buffett transformed what was a struggling textile mill into a global conglomerate worth hundreds of billions of dollars."
-    },
-    {
-      "title": "JP Morgan Can't Forecast Oil Prices Amid Trump-Iran Tensions",
-      "facts": "JP Morgan says it's struggling to predict where oil prices are headed, and the reason is straightforward: the bank doesn't know how far the Trump administration is willing to push its confrontation with Iran. The uncertainty centers on whether there are economic red lines\u2014like oil hitting a hundred dollars a barrel\u2014that Washington would be unwilling to cross."
-    },
-    {
-      "title": "Flight Chaos Traced to Millisecond Software Defect",
-      "facts": "A software glitch lasting just milliseconds brought down more than two thousand flights and stranded hundreds of thousands of passengers, according to a new report into the chaos. The failure was so brief it would've been imperceptible to a human, but it was enough to cascade through airline systems and trigger mass cancellations."
-    },
-    {
-      "title": "Wall Street Shrugs Off Risk as Calm Holds Despite Growing Threats",
-      "facts": "Investors are keeping their cool even as threats to the market pile up, and that's raising eyebrows among market watchers. Despite a growing list of concerns\u2014from geopolitical tensions to inflation worries\u2014traders have simply decided none of the risks are serious enough to pull them out of stocks."
-    },
-    {
-      "title": "UBS Picks Amazon and Palantir Among Top Tech Bets on AI Buildout",
-      "facts": "UBS analysts are telling clients there's still plenty of money to be made from the artificial intelligence boom, and they're naming names. The firm's latest stock picks include Amazon and Palantir among fourteen tech companies positioned to cash in on what they're calling the early stages of the AI data-center buildout."
-    },
-    {
-      "title": "Manhattan Office Rents Surge Despite Remote Work Trend",
-      "facts": "Manhattan office landlords are pulling off something that seemed impossible just a couple years ago\u2014they're doubling and even tripling rents in some buildings. The spike comes as companies finalize their return-to-office strategies and compete for premium space in a market that's tightened considerably."
-    },
-    {
-      "title": "Aaron Judge Heads Back to Injured List as Yankees' Postseason Hopes Fade",
-      "facts": "Three-time AL MVP Aaron Judge is returning to the injured list with a right calf strain, and this time there's real uncertainty about whether he'll be back at all this season. Yankees manager Aaron Boone told reporters Friday he's \"not going to predict anything\" about Judge's timeline for return\u2014which is about as ominous as it gets when you're staring down the postseason."
-    },
-    {
-      "title": "Pistons Lock Up Ausar Thompson With $155 Million Extension",
-      "facts": "The Detroit Pistons are betting big on defense, handing Ausar Thompson a five-year, $155 million contract extension. Thompson, who earned All-Defensive honors, becomes one of the league's highest-paid wing defenders with the deal."
-    },
-    {
-      "title": "Claude Now Doing a Quarter of Its Own Development Work",
-      "facts": "Anthropic's dropped a remarkable statistic: Claude is now handling about a quarter of the work involved in building its own successor. The company says its AI model has essentially become a core member of the development team, taking on coding, testing, and research tasks that used to require human engineers."
-    }
-  ],
   "2026-09-20": [
     {
       "title": "Mexico's Annual Melon Beauty Contest Draws Thousands",
@@ -599,6 +549,76 @@
     {
       "title": "Claude Sonnet 5.5 Cuts Task Costs 30 Percent by Running Faster and Smarter",
       "facts": "Anthropic just shipped Claude Sonnet 5.5, and the headline here isn't a capability you've never heard of\u2014it's how they've fundamentally changed the economics of tool-heavy workflows. The new model runs 30 percent faster than Sonnet 5, and more importantly, it completes tasks with fewer tool calls, which means you're paying less per completed job even though the per-token price stayed at two dollars input and ten dollars output."
+    }
+  ],
+  "2026-09-30": [
+    {
+      "title": "Yemen's Displaced Face Worsening Hunger Crisis",
+      "facts": "More than a decade of war in Yemen has just gotten worse for civilians caught in the middle. The latest round of fighting has redrawn front lines across the country, and it's deepening what was already one of the world's most severe humanitarian crises."
+    },
+    {
+      "title": "Pope Leo XIV's French Visit Breaks Through Political Divisions",
+      "facts": "Pope Leo XIV just pulled off something rare in France: he got politicians across the entire spectrum to agree on something. During a four-day visit to the country, the pontiff won praise from figures on the left and right, including France's most avowedly secular politicians."
+    },
+    {
+      "title": "South Korea Demands Apology Over DMZ Landmine Blasts",
+      "facts": "Three South Korean personnel were injured earlier this month when landmines exploded in the Demilitarized Zone, and now Seoul is demanding an apology from Pyongyang. The blasts occurred in the heavily fortified buffer zone that's separated North and South Korea since the armistice that paused the Korean War in 1953."
+    },
+    {
+      "title": "Pilots Fight in Cockpit, Force Emergency Landing in Saudi Arabia",
+      "facts": "A flight from Dubai to Tel Aviv had to make an emergency landing in Saudi Arabia after the pilot and co-pilot got into a physical fight in the cockpit. Passengers reportedly intervened to break up the clash, which happened mid-flight and forced the crew to divert the aircraft."
+    },
+    {
+      "title": "Carnegie Mellon Receives Record-Breaking $3 Billion Gift",
+      "facts": "Hedge fund executive Kenneth C. Griffin just pledged three billion dollars to Carnegie Mellon University, making it the largest university donation in American history."
+    },
+    {
+      "title": "Federal Court Ends 23-Year Oversight of Oakland Police",
+      "facts": "A federal judge has ended court supervision of the Oakland Police Department after 23 years, closing the longest-running police monitoring arrangement in U.S. history."
+    },
+    {
+      "title": "Milwaukee Settles Swatting Case for $575,000",
+      "facts": "Milwaukee has agreed to pay $575,000 to settle a lawsuit brought by a couple who endured 55 separate swatting calls\u2014fraudulent 911 reports that sent heavily armed police to their home again and again. The stunning part is that officials knew the calls were hoaxes, yet the heavily armed responses continued for months."
+    },
+    {
+      "title": "US Slaps Import Ban on Canadian Dairy and Liquor",
+      "facts": "The United States started blocking certain Canadian dairy and liquor products on Tuesday, marking a dramatic escalation in what's becoming a damaging trade fight between two of North America's closest allies. The outright ban took effect this week, turning what had been a simmering dispute into a full-blown economic confrontation."
+    },
+    {
+      "title": "Greggs to Shutter Four Factories and Cut Seven Hundred Jobs",
+      "facts": "British bakery chain Greggs is closing four factories and cutting 740 jobs, saying it needs to \"keep evolving alongside changing customer expectations.\" The company is one of the UK's best-known high street names, famous for sausage rolls and cheap sandwiches, so the restructuring signals broader trouble in Britain's food retail sector. Greggs hasn't specified which locations are closing, but the move affects a significant chunk of its production workforce."
+    },
+    {
+      "title": "Boeing Wins Navy Contract for Next-Gen Fighter Jet",
+      "facts": "Boeing shares jumped nearly three percent in premarket trading Wednesday after the U.S. Navy selected the company to develop its next-generation fighter jet."
+    },
+    {
+      "title": "Federal Judge Allows Antitrust Case Against Zillow to Move Forward",
+      "facts": "A federal judge has denied Zillow's motion to dismiss an antitrust lawsuit, and the ruling could reshape how the real estate giant does business with agents and brokers. The court cited Zillow's referral fees\u2014which the suit claims run between 35 and 40 percent\u2014as a central issue, along with allegations that the company commands a 60 percent share of online real estate audience traffic."
+    },
+    {
+      "title": "Congress Expands Public Housing Overhaul Program with Billions in New Investment",
+      "facts": "The ROAD to Housing Act has become law, and it's locking in a major expansion of the country's effort to save its aging public housing stock. The legislation authorizes the continuation and expansion of the Rental Assistance Demonstration program, known as RAD, which has already attracted $28.4 billion in investment to rehabilitate deteriorating public housing units."
+    },
+    {
+      "title": "Manchester City Found Guilty of Massive Financial Fraud",
+      "facts": "Manchester City's owners artificially inflated the club's commercial revenue by \u00a3830 million\u2014that's about $1.1 billion\u2014between 2009 and 2018, according to findings from an Independent Commission that heard the Premier League's case against the club. The commission's verdict addresses the most serious charges in a 115-count case that's been hanging over one of world soccer's richest clubs for years."
+    },
+    {
+      "title": "Giants Cut Odell Beckham Jr. in Surprise Move",
+      "facts": "The New York Giants released Odell Beckham Jr. on Tuesday, ending the veteran wide receiver's second stint with the franchise."
+    },
+    {
+      "title": "Las Vegas Expansion Franchise Bids Valued Up To Thirteen Billion Dollars",
+      "facts": "The NBA is reviewing final bids for its Las Vegas expansion team, and the price tags are staggering\u2014between twelve and thirteen billion dollars. Three finalist groups are competing for the franchise: Nancy Walton Laurie and Bill Laurie, Steve Apostolopoulos and Marc Lasry, and Bill Foley partnering with Jerry Colangelo."
+    },
+    {
+      "title": "Referees Instructed to Crack Down on Push-Offs Next Season",
+      "facts": "The NBA is ordering its referees to tighten enforcement on push-offs as part of new officiating guidelines for the 2026-27 season. League officials have singled out four types of calls they're calling \"high-volume and highly impactful,\" and offensive push-offs top the list."
+    },
+    {
+      "title": "Anthropic Ships Sonnet 5.5 With Amazon Bedrock Rolling Out Regionally",
+      "facts": "Anthropic just released Claude Sonnet 5.5, and while that's significant on its own, the bigger development you need to track is that Amazon Web Services is now spinning up Anthropic models for in-region inference in Seoul and Singapore\u2014which fundamentally changes latency and compliance math if you're running agents that process data subject to Asian data-residency laws. The new Sonnet release brings performance improvements over the prior generation, though Anthropic hasn't published detailed benchmarks yet."
     }
   ]
 }
