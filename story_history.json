@@ -1,50 +1,4 @@
 {
-  "2026-09-21": [
-    {
-      "title": "German Chancellor's Party Suffers Major State Election Losses",
-      "facts": "Chancellor Friedrich Merz is calling yesterday's state elections a \"disaster\" for his party, but he's not stepping down. Exit polls show his centre-right CDU took damaging losses in both Mecklenburg-Vorpommern and Berlin, a double blow that raises fresh questions about the party's standing heading into national elections."
-    },
-    {
-      "title": "Putin Reopens Territorial Dispute With Japan Over Kuril Islands",
-      "facts": "Vladimir Putin's reignited a decades-old territorial dispute with Japan, and it's putting one small fishing town right in the middle of a geopolitical tug-of-war. The town of Nemuro depends heavily on Russia for trade, but it's also at the forefront of Japan's campaign to reclaim islands that Moscow seized at the end of World War II."
-    },
-    {
-      "title": "Crypto Industry Launches $30 Million Campaign Against Ohio Senator",
-      "facts": "The cryptocurrency industry is opening its wallet wide to take down Sherrod Brown, one of the Democrats' most vulnerable Senate candidates this November. The sector's planning to spend $30 million against the Ohio senator, and the timing isn't coincidental\u2014it comes just days after a major crypto bill went down in flames on Capitol Hill."
-    },
-    {
-      "title": "White House Proposal to Pay Stay-at-Home Parents Splits Conservatives",
-      "facts": "Vice President JD Vance is pushing a plan to use federal dollars to support stay-at-home parents, and it's triggering a full-blown civil war on the right. The proposal would direct government subsidies to families where one parent chooses not to work, framing it as a way to strengthen traditional family structures."
-    },
-    {
-      "title": "Novo Nordisk Tumbles After Disappointing Investors on 2030 Vision",
-      "facts": "Novo Nordisk shares took a beating Monday after the Danish drugmaker's long-term growth plan fell flat with investors hoping for a turnaround. The company laid out its goals for 2030, but whatever management said wasn't enough to calm concerns about the future of its blockbuster weight-loss and diabetes franchise."
-    },
-    {
-      "title": "Canada Pitches New Europe Alliance, Suggests UK Should Join",
-      "facts": "Canada's floating a bold idea: create a new alliance with Europe, and Britain should be part of it. A Canadian minister told the BBC that the UK should \"team up\" with Canada in this proposed partnership, which comes after the European Commission president suggested \"opening the door\" for Canada to become an associate member of the EU."
-    },
-    {
-      "title": "Mortgage Rates Face Uncertain Path Between 6% and 8%",
-      "facts": "Homeowners hoping for relief on mortgage rates are stuck in a guessing game between two very different futures. The question gripping the housing market right now: will rates climb all the way to 8 percent, or drop back down to 6?"
-    },
-    {
-      "title": "New York Condo Buyers Face Major Financing Rule Change in 2027",
-      "facts": "If you're buying or selling a condo in New York, there's a major deadline on the horizon that could reshape deals across the city. Starting January 4, 2027, mortgage applications for condos will face tougher scrutiny under new financing rules\u2014and the clock is already ticking on a key transition period."
-    },
-    {
-      "title": "Commanders Lose Daniels to Serious Elbow Injury",
-      "facts": "Commanders quarterback Jayden Daniels was carted off the field Sunday after dislocating his left elbow on the final play of the first half against Dallas. The injury happened as Daniels was hit late while throwing, and he's now headed for more tests to determine the full extent of the damage."
-    },
-    {
-      "title": "Pistons Lock Up Thompson With $155 Million Extension",
-      "facts": "Ausar Thompson just became a very rich man. The Pistons have signed their All-Defensive forward to a five-year, $155 million rookie-scale extension, locking up one of the league's most promising young defenders through 2032."
-    },
-    {
-      "title": "Anthropic Merges Claude Chat and Cowork Into One Interface",
-      "facts": "Anthropic just collapsed its entire Claude experience down to a single interface, merging what used to be separate Chat and Cowork environments into one unified workspace. The move means you're no longer switching contexts or opening different tabs depending on whether you want a quick answer or a full collaborative workspace with artifacts, canvases, and multi-turn projects."
-    }
-  ],
   "2026-09-22": [
     {
       "title": "Crypto-Backed City Project Signs Deal in Uruguay",
@@ -623,6 +577,60 @@
     {
       "title": "Claude for Government Goes Live Across Federal Agencies",
       "facts": "Anthropic just opened Claude up to every arm of the U.S. government, making what was previously a limited pilot available to federal agencies across the board."
+    }
+  ],
+  "2026-10-02": [
+    {
+      "title": "Russia Weaponizes Migrants to Destabilize European Borders",
+      "facts": "Russia's orchestrating a shadow campaign along Europe's borders, using migrants as a deliberate tool to sow chaos in the West. The scheme involves funneling asylum seekers and migrants toward European Union entry points, creating humanitarian crises that strain resources and inflame political tensions in border countries."
+    },
+    {
+      "title": "China's AI Boom Hits Overuse Problem",
+      "facts": "China's artificial intelligence revolution has run into an unexpected problem: people are using it too much. Citizens have embraced AI tools for everything from entertainment and virtual relationships to farming advice, pushing usage to levels that have the government stepping in to set limits."
+    },
+    {
+      "title": "Tennessee Execution Attempt Fails Again",
+      "facts": "Tennessee tried and failed to execute Christa Pike, marking yet another botched lethal injection in a state that's been warned repeatedly about its execution protocol. The failed attempt has drawn bipartisan alarm from lawmakers and advocates who say Tennessee's demonstrated it can't reliably carry out the death penalty."
+    },
+    {
+      "title": "Carmel Gives Up Its Storybook Street System",
+      "facts": "Carmel-by-the-Sea just surrendered one of its most cherished quirks\u2014after 110 years without street addresses, the coastal village has finally adopted numbers on its homes. For more than a century, residents relied on house names and descriptions like \"two blocks from Ocean Avenue, green cottage with the rose garden\" to get their mail and guide visitors."
+    },
+    {
+      "title": "Diesel Prices Strand Truckers Nationwide",
+      "facts": "A single fill-up is costing truckers more than a thousand dollars right now, and the soaring price of diesel fuel is forcing drivers into impossible choices. Some are staying on the road for months at a time because they can't afford to deadhead home without a paying load."
+    },
+    {
+      "title": "Trump Pitches Alaska Natural Gas Deal as Part of Korean Investment",
+      "facts": "The White House is dangling a massive Alaska natural gas project in front of South Korea as part of a broader investment package, even though the developer hasn't formally committed to building it yet. The proposal would pipe Alaskan gas to Asian markets, but there's a catch\u2014it would take several years to construct."
+    },
+    {
+      "title": "Britain's Young Workers Are Cashing Out Pensions Early Despite Huge Penalties",
+      "facts": "A growing number of young workers in Britain are pulling money out of their pension plans early, even though it could cost them as much as ten thousand pounds in penalties and lost growth. The trend's being driven by cost-of-living pressures that have made it nearly impossible for some people to wait until retirement to access that cash."
+    },
+    {
+      "title": "Wall Street Strategist Says It's Time to Buy Stocks Again",
+      "facts": "September's market pullback has created a buying opportunity heading into year-end, according to Scott Rubner, a prominent market-making strategist on Wall Street. Rubner's making the case that last month provided what he calls a \"reset\" for stocks, essentially clearing out excesses and setting up a stronger finish to the year."
+    },
+    {
+      "title": "Amazon Raises Cloud Chip Prices and Reportedly Offloads Nvidia Hardware",
+      "facts": "Amazon's hiking prices on high-performance chip rentals and reportedly moving billions of dollars' worth of Nvidia processors off its balance sheet in a deal that has it selling and then leasing back the hardware. The move is a clear sign of the financial strain hitting the so-called hyperscalers\u2014the massive cloud providers like Amazon, Microsoft, and Google that are racing to build out artificial intelligence infrastructure."
+    },
+    {
+      "title": "Fannie and Freddie Set to Accept Two-Bureau Credit Reports",
+      "facts": "The federal regulator that oversees Fannie Mae and Freddie Mac is about to make a significant change to how mortgage lenders pull credit histories. The Federal Housing Finance Agency will soon order both government-backed mortgage giants to accept credit reports based on just two bureaus instead of requiring all three."
+    },
+    {
+      "title": "Manchester City Found Guilty on Financial Breach Charges, Launches Appeal",
+      "facts": "The Premier League has found Manchester City guilty on more than one hundred charges of breaking financial rules, and the club wasted no time firing back\u2014it's already lodged an appeal against the verdict. This is a massive development in what's been one of the most serious cases in English football history, with the league accusing City of systematically violating financial fair play regulations over multiple years."
+    },
+    {
+      "title": "Duren Ends Standoff With Pistons in $200 Million Deal",
+      "facts": "Jalen Duren just cashed in. The Pistons center agreed to a five-year, $200 million fully guaranteed contract Thursday night, ending a standoff that had dragged right up to his deadline to accept a one-year qualifying offer."
+    },
+    {
+      "title": "Barclays Puts Claude to Work Across the Bank",
+      "facts": "Barclays is expanding its use of Anthropic's Claude across the organization in what's shaping up to be one of the broadest deployments of AI by a major global bank. The British banking giant is rolling Claude out to more teams and workflows as part of a wider efficiency push, accelerating a rollout that began earlier this year."
     }
   ]
 }
