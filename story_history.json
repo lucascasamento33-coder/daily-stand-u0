@@ -1,66 +1,4 @@
 {
-  "2026-09-22": [
-    {
-      "title": "Crypto-Backed City Project Signs Deal in Uruguay",
-      "facts": "A New York-based movement called Praxis has signed a deal to build an entire physical city in Uruguay, marking the end of a global search for a home. The group describes itself as a \"digital nation\" backed by cryptocurrency, part of a tech-utopian vision of creating new urban communities from scratch."
-    },
-    {
-      "title": "Sri Lankan Court to Deliver Verdict on 2019 Easter Bombings",
-      "facts": "A court in Sri Lanka is set to deliver its verdict in the case of the Easter Sunday bombings that killed 270 people in 2019. The coordinated suicide attacks struck several churches and hotels across Colombo during Easter services, one of the deadliest terror events in the country's recent history."
-    },
-    {
-      "title": "New Video Evidence Complicates Federal Shooting Investigation in Austin",
-      "facts": "A federal immigration officer shot and killed Wilber Rafael Garces Perez through the rear passenger window of his car while standing to the side of the vehicle, according to a new video analysis that's raising fresh questions about the incident. The shooting happened in Austin, and while the new footage provides crucial details about the officer's position and the shot itself, what led up to that moment remains unclear."
-    },
-    {
-      "title": "San Francisco Takes Legal Action Against Trump's Premium Social Media Service",
-      "facts": "San Francisco is suing to shut down a new feature on Truth Social that gives wealthy subscribers access to President Trump's posts before the general public\u2014sometimes hours ahead of time. The service costs as much as $100,000 a month and is being marketed to financial traders and investors."
-    },
-    {
-      "title": "Grand Jury Declines to Indict in Death of Mississippi Teen After July Fourth Outing",
-      "facts": "A grand jury has found insufficient evidence to bring criminal charges in the death of Nolan Wells, the eighteen-year-old who was found dead days after taking a boat to a Mississippi island with friends on July Fourth. Wells's body was discovered after he went to the island for what was supposed to be a holiday celebration, and the circumstances of his death set off nationwide speculation and intense scrutiny on social media."
-    },
-    {
-      "title": "U.S.-China Trade Truce Shows Cracks Despite Diplomatic Smiles",
-      "facts": "President Trump and Chinese leader Xi just wrapped up meetings that looked warm on the surface, but behind the scenes, the two countries are trading punches that call into question whether their trade arrangement can hold. Despite what was billed as an easing of tensions, both nations are engaging in tit-for-tat measures that suggest the truce is more fragile than either side wants to admit."
-    },
-    {
-      "title": "Oil Could Hit $150 a Barrel if Middle East Disruptions Persist",
-      "facts": "Bank of America is warning that oil prices could spike above $150 a barrel if fighting in the Middle East continues to disrupt supplies into the spring of 2027. That's a sobering forecast\u2014Brent crude would need to nearly triple from current levels to hit that mark, and it would push gasoline and diesel prices to levels that would squeeze household budgets across the country."
-    },
-    {
-      "title": "UK Chemical Giant Suspends Production Over Natural Gas Costs",
-      "facts": "Ineos has suspended production at key manufacturing plants in the United Kingdom, and the company's blaming natural gas prices that it says are twelve times higher than in the United States. Sir Jim Ratcliffe's chemical giant is the latest major industrial player to buckle under energy costs that have made British manufacturing increasingly uncompetitive on the global stage."
-    },
-    {
-      "title": "Bitcoin Surges to Eight-Month High as Crypto Optimism Returns",
-      "facts": "Bitcoin just hit its highest level in eight months, and the rally's telling us something important about how investors are feeling right now. The digital currency's surge comes despite the fact that crypto's regulatory framework in the U.S."
-    },
-    {
-      "title": "Florida Bans Local Zoning Discrimination Against Factory-Built Homes",
-      "facts": "Florida just overhauled its housing rules to give factory-built homes the same treatment as traditional site-built houses\u2014and it could make a real dent in the state's affordability crisis. The new law, Section 553.385, bars cities and counties from using zoning codes to discriminate against single-family homes that are built off-site and moved onto a lot."
-    },
-    {
-      "title": "Condo Approval Process Tightens as Limited Review Access Shrinks",
-      "facts": "Getting a mortgage for a condo just got harder, and it's hitting buyers in the wallet. Industry groups estimate that somewhere between sixty and eighty percent of condo loan originations used streamlined, limited-review approvals before August third\u2014but that option has now been sharply curtailed."
-    },
-    {
-      "title": "Stafford Climbs All-Time Touchdown List in Rams Rout",
-      "facts": "Matthew Stafford just etched his name higher in the NFL record books, moving into sixth place all-time in career passing touchdowns during the Rams' Monday night demolition of the Giants. Stafford threw his 426th touchdown pass\u2014connecting with Davante Adams\u2014to surpass Philip Rivers on the all-time list."
-    },
-    {
-      "title": "Cubs Star Bregman Suffers Facial Fractures in Freak On-Deck Accident",
-      "facts": "Alex Bregman's postseason status is now in serious doubt after the Cubs star suffered multiple facial fractures in a bizarre on-deck circle accident Sunday. Bregman was struck by a foul ball while waiting to hit, and sources told ESPN the injuries are significant enough that his availability for October is uncertain."
-    },
-    {
-      "title": "Pistons Lock Up Thompson with $155 Million Extension",
-      "facts": "Ausar Thompson just became a very wealthy young man. The Pistons have agreed to a five-year, $155 million rookie-scale contract extension with their All-Defensive forward, sources told ESPN."
-    },
-    {
-      "title": "Anthropic Opens Wet Lab Where Claude Will Direct Drug Discovery Robots",
-      "facts": "Anthropic's building something genuinely new\u2014a biology lab where Claude doesn't just advise scientists, it actually runs the experiments. The company's setting up what's called a \"wet lab,\" where AI agents will control robotic equipment to design and carry out drug discovery work from end to end."
-    }
-  ],
   "2026-09-23": [
     {
       "title": "Hurricane Polo Reaches Rare Category 5 Strength Off Mexico's Coast",
@@ -631,6 +569,64 @@
     {
       "title": "Barclays Puts Claude to Work Across the Bank",
       "facts": "Barclays is expanding its use of Anthropic's Claude across the organization in what's shaping up to be one of the broadest deployments of AI by a major global bank. The British banking giant is rolling Claude out to more teams and workflows as part of a wider efficiency push, accelerating a rollout that began earlier this year."
+    }
+  ],
+  "2026-10-03": [
+    {
+      "title": "American Teens Arming Mexican Cartels",
+      "facts": "Teenagers in Arizona are becoming key suppliers in a deadly pipeline, buying and stealing firearms that end up in the hands of Mexican drug cartels. The lure is straightforward\u2014money and status in communities where both are hard to come by."
+    },
+    {
+      "title": "Russia Strikes Second Kyiv Bridge",
+      "facts": "Russian forces have hit another major bridge in Kyiv, targeting the city's Northern Bridge in what appears to be a systematic campaign against the capital's infrastructure. The strike follows repeated attacks on a separate bridge in recent days, suggesting Moscow is trying to isolate parts of the city or disrupt military and civilian logistics."
+    },
+    {
+      "title": "G7 Unlocks Emergency Oil Reserves",
+      "facts": "The world's largest economies are opening the taps on their strategic reserves, releasing one hundred million barrels of oil and diesel in a coordinated effort to prevent energy prices from spiraling further. The G7 move comes as crude and fuel costs have jumped due to the U.S."
+    },
+    {
+      "title": "Yemeni Families Flee New Houthi Offensive",
+      "facts": "Displaced families in Yemen are on the move again, spending days on dangerous roads as Houthi forces capture more territory along the Red Sea coast. One family's weeklong journey has become emblematic of a broader crisis\u2014civilians who've already been uprooted multiple times during Yemen's civil war are now fleeing a fresh offensive."
+    },
+    {
+      "title": "Botched Execution Leaves Christa Pike in Medical Limbo",
+      "facts": "Tennessee tried to execute Christa Pike on Wednesday, and it went catastrophically wrong. Pike's legal team had warned state officials repeatedly that the execution could fail\u2014and they were proven right when the procedure left her hovering between life and death rather than completing the sentence."
+    },
+    {
+      "title": "Hiring Slowdown and Rising Joblessness Hit Economy Ahead of Midterms",
+      "facts": "The U.S. economy added fewer jobs in September than expected, and unemployment ticked up as the labor market downshifts into what some economists are calling a lower gear."
+    },
+    {
+      "title": "Bond Yields Hit Generational Highs as Investors Brace for Fallout",
+      "facts": "Treasury yields have surged to levels not seen in a generation, and investors around the world are watching nervously to see what breaks. The spike in bond yields is making borrowing more expensive across the economy, from mortgages to corporate debt, and traders are starting to ask which markets or institutions might crack under the pressure."
+    },
+    {
+      "title": "Tesla Deliveries Crush Expectations, Shares Jump",
+      "facts": "Tesla just posted its best quarterly sales numbers of the year, and Wall Street's reacting with enthusiasm. The electric vehicle maker delivered far more cars than analysts expected in the third quarter, sending shares sharging higher in today's trading."
+    },
+    {
+      "title": "Storage Giants Tumble on Toshiba Production Fears",
+      "facts": "Western Digital and Seagate are both getting hammered today after investors caught wind of a potential threat to their pricing power. The worry centers on Toshiba, which is reportedly planning to ramp up production of a key storage product used in artificial intelligence systems."
+    },
+    {
+      "title": "MLS Leaders Warn Legal Fights Are the New Normal in Real Estate",
+      "facts": "Multiple listing services are bracing for a wave of lawsuits and legal threats that leaders now say have become a permanent feature of the industry. At the CMLS Open House conference, MLS legal experts told executives to start scenario planning around core issues like cooperation rules, participation requirements, and data access\u2014areas where demand letters and litigation are piling up."
+    },
+    {
+      "title": "View Homes CEO Overhauls Builder Operations After Takeover",
+      "facts": "View Homes is rebuilding its entire operating system from the ground up under CEO Gandhi, who's rolling out leadership changes, standardized pricing concessions, and a major technology overhaul. The builder's implementing a twelve-to-eighteen-month systems rollout designed to bring consistency to how the company runs across its markets."
+    },
+    {
+      "title": "49ers Owner Suspended Six Games After Prostitution Arrest",
+      "facts": "San Francisco 49ers owner Jed York will miss six games and pay a half-million-dollar fine after the NFL found he violated its personal conduct policy. The league handed down the punishment following York's August arrest in Ohio, where police say he tried to engage in prostitution."
+    },
+    {
+      "title": "Duren Ends Standoff with Pistons in $200 Million Deal",
+      "facts": "Jalen Duren's marathon contract standoff with Detroit just wrapped up hours before the deadline, with the center signing a five-year, $200 million fully guaranteed deal to stay with the Pistons. The agreement came Thursday night, right up against Duren's deadline to either accept the contract or take a one-year qualifying offer that would've made him a free agent next summer."
+    },
+    {
+      "title": "Anthropic Launches $100 Million Academy to Train 10,000 AI Engineers",
+      "facts": "Anthropic's putting $100 million into a new initiative called the Claude Frontier Academy, with the goal of training 10,000 engineers over the next few years. The program's designed to turn developers into advanced AI practitioners who can build production systems with Claude\u2014not just use it casually, but architect complex autonomous workflows, multi-agent systems, and enterprise integrations."
     }
   ]
 }
