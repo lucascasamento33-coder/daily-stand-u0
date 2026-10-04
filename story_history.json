@@ -1,58 +1,4 @@
 {
-  "2026-09-23": [
-    {
-      "title": "Hurricane Polo Reaches Rare Category 5 Strength Off Mexico's Coast",
-      "facts": "Hurricane Polo has explosively intensified into a Category 5 storm off Mexico's Pacific coast, and meteorologists are calling the rapid strengthening \"truly remarkable.\" The U.S. hurricane monitoring agency confirmed the storm reached the highest classification on the hurricane scale, making it a rare meteorological event for the region."
-    },
-    {
-      "title": "Xi Jinping's Decade-Long Push to Dominate Artificial Intelligence",
-      "facts": "Ten years ago, Xi Jinping posed a question that would reshape China's economy and challenge American technological dominance: could China master artificial intelligence? The answer is now playing out in real time, as Beijing's massive investment in AI is transforming everything from manufacturing to social control."
-    },
-    {
-      "title": "Phil Knight's Billion-Dollar Gift to University of Oregon",
-      "facts": "Phil Knight just wrote the biggest check ever given to a flagship public university. The Nike co-founder donated one billion dollars to the University of Oregon, and the money will fund an entirely new engineering college on the campus in Eugene."
-    },
-    {
-      "title": "Supreme Court Takes Up Missouri Congressional Map Dispute Again",
-      "facts": "Missouri's fight over congressional district boundaries is heading back to the Supreme Court, and the timing couldn't be more consequential\u2014the midterm elections are just weeks away. A federal appeals court sided with Republicans who want to use a new map drawn last year that would give the GOP a clear advantage in several competitive districts."
-    },
-    {
-      "title": "Trump and Xi to Tackle AI\u7af6Competition at Summit",
-      "facts": "President Trump and Chinese President Xi Jinping are putting artificial intelligence on the table when they meet this week, marking the first time AI risks and competition will be a formal topic between the two superpowers. The summit comes at a moment when both countries are racing to dominate AI development, but there's little agreement on what cooperation should look like."
-    },
-    {
-      "title": "IMF Warns US and UK on Spiraling Debt Costs",
-      "facts": "The International Monetary Fund is sounding the alarm over debt levels in the United States and United Kingdom, warning both governments that their borrowing costs are spiraling out of control. In an interview with the BBC, IMF Managing Director Kristalina Georgieva said economic shocks have pushed \"debt levels up like a staircase not to heaven.\" The warning comes as both countries face pressure from higher energy prices linked to Middle East conflict and climate change, which could further slow growth."
-    },
-    {
-      "title": "Europe's Automakers Look to Rearmament for Revival",
-      "facts": "Europe's struggling car industry is pinning its hopes on an unexpected source of recovery: the threat of war. Auto executives across the continent believe that rising defense spending and rearmament efforts could help them flex their industrial muscles again, after years of being battered by Chinese competition and the costly transition to electric vehicles."
-    },
-    {
-      "title": "CoreWeave Stock Poised for Comeback After Steep Selloff",
-      "facts": "CoreWeave shares have dropped nearly 40 percent since May, but at least one analyst thinks the cloud computing company's troubles have been wildly overstated. The stock plunged as investors grew nervous about the company's debt load\u2014a concern that's weighed on a lot of high-growth tech names this year."
-    },
-    {
-      "title": "Mortgage Rates Push Past Seven Percent as Demand Slumps",
-      "facts": "Mortgage demand fell again last week as rates climbed past seven percent, and the numbers show buyers are running out of patience with this market. The Mortgage Bankers Association says its refinance index dropped three percent for the week ending September 18th."
-    },
-    {
-      "title": "Louisiana Braces for Housing Boom as SpaceX Sets Up Shop",
-      "facts": "A SpaceX facility coming to Louisiana is about to reshape the local real estate market in a big way, and investors aren't waiting around to see what happens. Realtors in the area say land buyers are already snapping up properties around the site in anticipation of an influx of workers who'll need places to live."
-    },
-    {
-      "title": "Rays Clinch Fifth AL East Crown Behind Rasmussen's Near No-Hitter",
-      "facts": "Drew Rasmussen carried a no-hitter into the seventh inning Tuesday night as the Tampa Bay Rays locked up their fifth American League East title with a 6-1 win over the Yankees. It's the Rays' fifth division crown, cementing their status as one of baseball's most consistent contenders despite operating with one of the sport's smallest payrolls."
-    },
-    {
-      "title": "Kawhi Leonard Signs $115 Million Extension With Raptors",
-      "facts": "Kawhi Leonard's staying in Toronto. The Raptors star has agreed to a two-year, $115 million contract extension with the franchise, plus a player option for the 2028-29 season, according to his agent Harrison Gaines."
-    },
-    {
-      "title": "Anthropic Ships Opus 5.5 With Stricter Cybersecurity Guardrails",
-      "facts": "Anthropic just released Claude Opus 5.5, and while the headline is matching Fable-level performance at a 40% lower running cost than Opus 5, the elite angle you need to understand is the new cybersecurity safeguards they've baked into the model\u2014because those guardrails fundamentally change how you should architect any autonomous agent that touches sensitive data or executes code. The model now includes stricter controls that actively resist generating exploits, reverse-engineering assistance, or network intrusion patterns, even when prompted cleverly or indirectly."
-    }
-  ],
   "2026-09-24": [
     {
       "title": "Corruption Scandal Rocks Brazil's Presidential Race",
@@ -627,6 +573,72 @@
     {
       "title": "Anthropic Launches $100 Million Academy to Train 10,000 AI Engineers",
       "facts": "Anthropic's putting $100 million into a new initiative called the Claude Frontier Academy, with the goal of training 10,000 engineers over the next few years. The program's designed to turn developers into advanced AI practitioners who can build production systems with Claude\u2014not just use it casually, but architect complex autonomous workflows, multi-agent systems, and enterprise integrations."
+    }
+  ],
+  "2026-10-04": [
+    {
+      "title": "Brazil Heads to the Polls in High-Stakes Presidential Race",
+      "facts": "Brazil's heading into a pivotal presidential election that could reshape Latin America's largest democracy. Luiz In\u00e1cio Lula da Silva, the leftist incumbent, is facing off against Fl\u00e1vio Bolsonaro, the right-wing challenger, in what polls suggest will be an extremely close contest."
+    },
+    {
+      "title": "Drone Strike Hits Kyiv Bridge During Rush Hour",
+      "facts": "A Russian drone slammed into a major bridge in Kyiv, sending a massive fireball into the air as vehicles were crossing it. Footage of the attack on the Pivnichyi Bridge shows the moment of impact, with cars visible on the span just as the drone detonates."
+    },
+    {
+      "title": "Sudan's Army Claims Key Victory in Kordofan",
+      "facts": "Ethiopian government forces have seized Mekelle, the capital of the Tigray region, after the TPLF withdrew from the city. Federal troops and allied fighters are now in control of Mekelle after capturing the main regional airport."
+    },
+    {
+      "title": "Houthis Target Saudi Oil Giant as Yemen War Intensifies",
+      "facts": "The Iran-backed Houthi militia is claiming responsibility for an attack on an Aramco facility in Riyadh, Saudi Arabia's capital. The strike came as fresh airstrikes pounded Yemen's capital, raising fears that the long-running conflict could be entering a more dangerous phase."
+    },
+    {
+      "title": "Oregon Hiker Trapped Under Boulder Uses Siri to Call for Rescue",
+      "facts": "A hiker in Oregon found himself pinned under a boulder that police say weighed a literal ton\u2014and his survival came down to a pair of wireless earbuds. The man couldn't reach his phone while trapped, so he activated Apple's Siri voice assistant through his earbuds and placed a 911 call that way."
+    },
+    {
+      "title": "Democrats Leading in Deep-Red Governor Races as Midterms Near",
+      "facts": "Democrats are ahead in governor's races in some surprising places\u2014Texas, Iowa, Ohio, and Alaska\u2014according to new polling that suggests President Trump and economic anxiety are weighing heavily on Republican candidates. The surveys show Democratic candidates holding leads in states that have historically leaned Republican in statewide races."
+    },
+    {
+      "title": "Some Democrats Shift Stance on Trans Athletes in Competitive Races",
+      "facts": "Democratic candidates running in conservative-leaning districts are taking a tougher line on transgender athletes in school sports, a notable shift shaped by relentless Republican attacks on the issue. These Democrats, many of them competing in historically Republican territory during the midterms, are responding more aggressively to GOP ads that paint them as extreme on cultural issues."
+    },
+    {
+      "title": "G7 Coordinating Emergency Oil Release to Head Off Export Ban",
+      "facts": "The world's seven largest advanced economies are about to tap their strategic reserves in a coordinated move to flood the market with millions of barrels of oil and diesel. The release is designed to head off what could be an even bigger shock\u2014a U.S."
+    },
+    {
+      "title": "Young Americans Turning to Self-Employment as Entry-Level Jobs Dry Up",
+      "facts": "More young Americans are striking out on their own and starting businesses, and it's not because they're chasing some entrepreneurial dream\u2014it's because the entry-level job market has become brutally tough to crack. Data shows a measurable uptick in entrepreneurship among younger workers, many of whom are launching side hustles, freelance operations, or full-fledged startups after hitting dead ends in traditional hiring."
+    },
+    {
+      "title": "OpenAI Facing Legal Fallout After Discovering Dozens of Security Breaches",
+      "facts": "OpenAI has uncovered dozens of hacking incidents involving its artificial intelligence tools, and the discovery is opening the company up to a potential wave of lawsuits. The cybersecurity breaches involved unauthorized access to ChatGPT and other AI systems the company operates, raising serious questions about how well the firm is protecting sensitive data and user information."
+    },
+    {
+      "title": "Treasury Yields Rise as Investors Eye Safe Returns Above Five Percent",
+      "facts": "U.S. Treasury yields are climbing, and financial planners say they're fielding more questions about bonds than they have in years."
+    },
+    {
+      "title": "Mortgage Rates Climb to 7.57% as Homebuyer Demand Takes a Hit",
+      "facts": "Mortgage rates have pushed past 7.5%, and the climb is doing real damage to homebuyer demand across the country. Rates hit 7.57% this week, continuing a relentless upward march that's making borrowing more expensive by the day."
+    },
+    {
+      "title": "Multiple Listing Services Brace for Wave of Lawsuits and Legal Pressure",
+      "facts": "The legal battles engulfing real estate aren't letting up\u2014they're intensifying. MLS leaders gathered at the CMLS Open House conference and delivered a blunt message: lawsuits and demand letters targeting the industry are now the norm, not the exception."
+    },
+    {
+      "title": "Teenage Phenom Sullivan Makes History in U.S. Rout of Mexico",
+      "facts": "Seventeen-year-old Cavan Sullivan just became the youngest goal-scorer in U.S. men's national team history, and he did it in style."
+    },
+    {
+      "title": "Duren Ends Standoff With Pistons on $200 Million Deal",
+      "facts": "Jalen Duren just locked in one of the richest deals of the offseason, ending a lengthy standoff with Detroit. The Pistons center agreed Thursday to a five-year, $200 million fully guaranteed contract\u2014just hours before a deadline that would've forced him to accept a one-year qualifying offer instead."
+    },
+    {
+      "title": "Anthropic Launches $100 Million Training Push to Embed Claude in Enterprise",
+      "facts": "Anthropic's betting big that the next bottleneck in AI adoption isn't the models\u2014it's the people who know how to deploy them. The company just announced it's investing a hundred million dollars to train ten thousand engineers through a new program called the Claude Frontier Academy."
     }
   ]
 }
