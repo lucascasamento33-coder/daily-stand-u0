@@ -1,74 +1,4 @@
 {
-  "2026-09-24": [
-    {
-      "title": "Corruption Scandal Rocks Brazil's Presidential Race",
-      "facts": "Explosive allegations are tearing through Brazil's presidential election, and they're landing right at the feet of Supreme Court Justice Alexandre de Moraes. The corruption scandal is reshaping what was already a high-stakes race, with implications that reach far beyond Brazil's borders to affect Latin America as a whole and U.S."
-    },
-    {
-      "title": "Ukraine Transfers North Korean POWs to Seoul",
-      "facts": "Ukraine just sent two captured North Korean soldiers to South Korea, according to President Volodymyr Zelensky, in what appears to be the first transfer of its kind since North Korean troops began fighting alongside Russian forces. Zelensky said one of the soldiers attempted suicide when he was taken prisoner, a detail that speaks volumes about what these troops expect if captured."
-    },
-    {
-      "title": "Ethiopian and Tigray Forces Trade Accusations of New Attacks",
-      "facts": "Ethiopia and Tigray are each accusing the other of launching fresh military offensives, raising fears that the fragile peace between them is collapsing into renewed war. Local authorities in Tigray have reportedly seized control of the region's airports following reports of recent drone strikes."
-    },
-    {
-      "title": "Iran's President Defies Trump's Ultimatum at UN",
-      "facts": "Iran's president delivered a defiant message to Donald Trump at the United Nations, declaring that his country will never \"bend the knee\" to American pressure. Masoud Pezeshkian's speech comes in direct response to Trump's recent threat to \"annihilate\" Iran if a peace deal isn't agreed to soon."
-    },
-    {
-      "title": "GOP Mega-Donor Cuts Off Senate Republicans Over Stalled Trump Agenda",
-      "facts": "Timothy Mellon, one of the Republican Party's biggest financial backers in 2024, has shut off the money spigot for Senate GOP campaigns this cycle\u2014and it's all about frustration with what didn't get done. Mellon poured massive sums into Republican coffers during the last presidential race, but so far this year he's withheld donations to Senate candidates because they failed to pass a key Trump priority."
-    },
-    {
-      "title": "Trump Administration Targets American Bar Association's Law School Gatekeeping Role",
-      "facts": "The Trump administration is moving to strip the American Bar Association of its power to accredit law schools, a change that would reshape legal education and deal a significant blow to the nation's largest lawyers' group. The ABA has held the exclusive authority to vet and approve law schools for decades, a role that's given it enormous influence over who gets to practice law in America."
-    },
-    {
-      "title": "Senate Battle for Michigan and Maine Splits as Midterms Near",
-      "facts": "Democrats are holding onto a lead in Michigan's Senate race but trailing in Maine, according to new polling from The New York Times and Siena College that maps out a mixed battlefield ahead of November. The Democratic nominee in Michigan is ahead in a state that's become a must-win for the party's hopes of keeping control of the Senate."
-    },
-    {
-      "title": "US and China Face Off on Artificial Intelligence Dominance",
-      "facts": "President Trump and Chinese President Xi Jinping are meeting in Washington this week, and artificial intelligence is front and center in what's shaping up as the defining tech rivalry of our era. The United States holds key advantages in AI development, particularly in cutting-edge research and the most advanced applications that are transforming industries right now."
-    },
-    {
-      "title": "Union Workers Demand Say in Workplace AI Decisions",
-      "facts": "The machinists union is showing how American workers are fighting back against artificial intelligence\u2014not by blocking it entirely, but by demanding a seat at the table when companies decide how to use it. Union negotiators are pushing for contracts that give workers a voice in the ways AI gets deployed on factory floors and in offices, marking a significant shift in how labor deals with technological change."
-    },
-    {
-      "title": "Texas Emerges as America's Solar Power Leader",
-      "facts": "Texas has become the biggest solar power producer in the United States, a remarkable transformation for a state that built its identity\u2014and its economy\u2014on oil and gas. The Lone Star State is now generating more electricity from solar farms than any other state, outpacing even California in total solar output."
-    },
-    {
-      "title": "Stock Market Priced for Perfection as Analyst Warns of Major Correction",
-      "facts": "Wall Street's riding high, but one veteran analyst thinks we're headed for a serious fall. Eric Wallerstein from Clocktower Group is warning that the S&P 500 could tumble nearly 20 percent next year, arguing that stocks are currently \"priced for perfection\" with no room for error."
-    },
-    {
-      "title": "Meta Gets Price Target Boost as Muse AI Agent Impresses Wall Street",
-      "facts": "Meta Platforms just got a vote of confidence from JPMorgan, and it's all about the company's newest AI creation. Analysts at the investment bank raised their price target on Meta's stock after the tech giant unveiled its Muse AI agent at Wednesday night's Connect conference."
-    },
-    {
-      "title": "Mortgage Tech Giant PLACE Acquires Maxwell",
-      "facts": "PLACE just bought Maxwell, a mortgage fintech platform that handles more than $130 billion in annual mortgage transactions. The acquisition brings Maxwell's technology directly into PLACE's real estate ecosystem, giving agents and brokerages integrated mortgage capabilities they didn't have before."
-    },
-    {
-      "title": "Default Servicing's Costly Handoff Problem",
-      "facts": "Mortgage default servicing is bleeding money at five critical handoff points, and the losses are hitting investors, servicers, and law firms hard. A new analysis identifies where the process breaks down: when loans move from performing to default status, when cases transfer between servicers, when legal counsel gets engaged, when properties shift from foreclosure to REO, and when final disposition happens."
-    },
-    {
-      "title": "Giants Lose Jaxson Dart for the Season",
-      "facts": "The New York Giants just lost their starting quarterback for the rest of the regular season. Jaxson Dart will undergo surgery on his left knee and won't be back until the playoffs\u2014if the Giants make it that far."
-    },
-    {
-      "title": "Hawks Send Hield to Charlotte in Three-Player Trade",
-      "facts": "The Atlanta Hawks have traded Buddy Hield and Ryan Nembhard to the Charlotte Hornets in exchange for Dorian Finney-Smith, the teams announced Tuesday. Cash considerations are also heading to Charlotte as part of the deal."
-    },
-    {
-      "title": "Claude Finds a Mystery in DNA",
-      "facts": "Anthropic's AI just discovered something in the genetic code that looks a lot like CRISPR\u2014but nobody, including Claude itself, knows exactly what it does yet. The company announced that Claude identified a novel enzyme system with CRISPR-like repeats buried in DNA sequences, a find they're comparing to one of the biggest breakthroughs in genetic engineering."
-    }
-  ],
   "2026-09-25": [
     {
       "title": "Colombia's President Arrives Armed in Cartel-Controlled City",
@@ -639,6 +569,56 @@
     {
       "title": "Anthropic Launches $100 Million Training Push to Embed Claude in Enterprise",
       "facts": "Anthropic's betting big that the next bottleneck in AI adoption isn't the models\u2014it's the people who know how to deploy them. The company just announced it's investing a hundred million dollars to train ten thousand engineers through a new program called the Claude Frontier Academy."
+    }
+  ],
+  "2026-10-05": [
+    {
+      "title": "Brazil Heads to Runoff After Bolsonaro Son Wins First Round",
+      "facts": "Fl\u00e1vio Bolsonaro has won the first round of Brazil's presidential election, but he didn't clear the 50 percent threshold needed to avoid a runoff. The son of former President Jair Bolsonaro will face his opponent again on October 25th in what's shaping up to be a decisive moment for Latin America's largest democracy."
+    },
+    {
+      "title": "US Pulls All Bombers from British Airbase After Security Incident",
+      "facts": "The U.S. Air Force has withdrawn every aircraft from RAF Fairford in England, an abrupt move that follows a security scare last week involving suspicious vehicles near the base."
+    },
+    {
+      "title": "Supreme Court Opens New Term With Climate Liability Case",
+      "facts": "The Supreme Court's starting its new term Monday with a blockbuster environmental fight that could reshape how cities and states deal with climate change. The justices will hear arguments on whether local governments can sue oil companies in state court for damages linked to rising seas, extreme weather, and other climate impacts."
+    },
+    {
+      "title": "Democrats Project Record Number of Women in House After Midterms",
+      "facts": "Democrats are increasingly confident they'll send a historic number of women to the House of Representatives after November's elections. The party backed female candidates in several competitive districts that polling now suggests are leaning their way, setting up what could be a significant milestone for representation in Congress."
+    },
+    {
+      "title": "Treasury Chief Walks Back \"I Am the House\" Declaration as Bond Yields Keep Climbing",
+      "facts": "Treasury Secretary Scott Bessent's backing away from one of his bolder pronouncements about the bond market\u2014and it's a sign of just how uncomfortable things have gotten. In a televised interview with Axios, Bessent walked back his \"I am the house\" declaration from a month ago, a line he'd used to project confidence that the Treasury had control over bond yields."
+    },
+    {
+      "title": "Intel Shares Slide on TSMC Chip Partnership Rumors",
+      "facts": "Intel's stock took a hit Monday after reports surfaced that Taiwan Semiconductor Manufacturing Company may be joining Elon Musk's massive chip factory venture. The speculation centers on Musk's so-called Terafab project, an ambitious plan to build cutting-edge semiconductor manufacturing capacity."
+    },
+    {
+      "title": "Mortgage Rates Hit 7.57% as Housing Demand Softens Further",
+      "facts": "Mortgage rates climbed to 7.57 percent last week, and the housing market's feeling the squeeze. Demand softened noticeably as borrowing costs continue their march upward, leaving prospective buyers on the sidelines and current homeowners locked into lower rates they secured years ago."
+    },
+    {
+      "title": "Brewers One Win From Pennant After Walk-Off Comeback",
+      "facts": "Jackson Chourio delivered a two-run single off the Padres' closer with two outs in the ninth inning Sunday night, giving Milwaukee a 2-0 lead in their National League Division Series. The Brewers are now one win away from advancing to the pennant race after rallying past San Diego's Mason Miller in dramatic fashion."
+    },
+    {
+      "title": "Haaland Injury Scare Clouds Norway's Campaign",
+      "facts": "Erling Haaland asked to be substituted during Norway's match Sunday night, raising immediate concerns about his fitness heading into the club season's crucial stretch. The striker's decision to pull himself from the game signals something's bothering him, though the specifics haven't been disclosed yet."
+    },
+    {
+      "title": "Grizzlies Cut Ties With Recent Trade Acquisition Hawkins",
+      "facts": "Memphis just pulled the plug on a trade barely three weeks old. The Grizzlies and guard Jordan Hawkins have agreed to part ways via waivers, ending one of the shortest tenures you'll see for a lottery pick."
+    },
+    {
+      "title": "Raptors Lock Up Shead With Three-Year Extension",
+      "facts": "Toronto's betting big on a young guard who impressed during his rookie season. The Raptors have agreed to a three-year, $24 million contract extension with Jamal Shead, keeping him in Toronto through at least the 2027-28 season."
+    },
+    {
+      "title": "Voice Data Collection Powers Claude's Next Leap",
+      "facts": "Anthropic's rolling out a new opt-in program asking Claude users to share voice recordings\u2014and it's targeting exactly the data gap that's held voice mode back from launch. The company wants recordings of actual Claude conversations to train better speech recognition and natural-language understanding, moving beyond the synthetic and licensed audio datasets that most voice AI relies on."
     }
   ]
 }
