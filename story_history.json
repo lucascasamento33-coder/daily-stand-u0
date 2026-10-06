@@ -1,50 +1,4 @@
 {
-  "2026-09-25": [
-    {
-      "title": "Colombia's President Arrives Armed in Cartel-Controlled City",
-      "facts": "Colombia's new president wore a sidearm during a visit to Santa Marta, a coastal tourist hub that's been effectively shut down by an armed criminal group. Abelardo De La Espriella made the trip after state forces killed a group leader, triggering a violent response that's paralyzed the city."
-    },
-    {
-      "title": "Filipina Spared From Firing Squad Receives Pardon After a Decade",
-      "facts": "Mary Jane Veloso, convicted of drug smuggling in Indonesia and nearly executed by firing squad, has been pardoned in the Philippines more than ten years after her arrest. Veloso was sentenced to death in Indonesia after authorities found heroin hidden in her luggage, but she maintained she'd been set up by a trafficking syndicate."
-    },
-    {
-      "title": "Morgan Stanley Reverses Course on Dollar Forecast",
-      "facts": "Morgan Stanley just admitted it got the dollar completely wrong. The bank's now changing its forecast after rising bond yields and expected Federal Reserve rate hikes shredded its earlier predictions about where the buck was headed."
-    },
-    {
-      "title": "Trump and Xi Meet With Little Progress on Trade or Tech",
-      "facts": "President Trump and Chinese leader Xi Jinping exchanged warm words and gifts at a White House state dinner Thursday night, but the diplomacy didn't translate into breakthroughs on the issues dividing the world's two largest economies. Prominent tech executives attended the dinner as the countries remained locked in disputes over tariffs, trade rules, and potential regulation of artificial intelligence."
-    },
-    {
-      "title": "Akamai Surges on Twelve Billion Dollar Cloud Deal With Anthropic",
-      "facts": "Akamai's stock is jumping after the company announced a massive cloud-computing agreement with Anthropic, the AI startup behind Claude. The deal is worth twelve billion dollars and positions Akamai to supply cloud infrastructure for one of the hottest names in artificial intelligence."
-    },
-    {
-      "title": "Chicago Faces Rent Control Showdown",
-      "facts": "Chicago's city council is heading toward a clash over two competing rent control proposals that could reshape the city's housing market. The two ordinances represent fundamentally different approaches\u2014one focused on aggressive renter protections, the other trying to balance tenant safeguards with incentives to keep developers building new housing."
-    },
-    {
-      "title": "California Sues Costa Mesa Over Housing Plan",
-      "facts": "Costa Mesa just approved plans for 2,300 new homes, but California isn't satisfied\u2014and it's taking the Orange County city to court. The state requires Costa Mesa to plan for 11,760 homes by 2029 under California's housing mandate, and the city's latest approval represents just a fraction of that target."
-    },
-    {
-      "title": "Klopp Takes Charge of Germany After Nearly Two-Year Absence",
-      "facts": "J\u00fcrgen Klopp is back in the dugout after 858 days away from management, and this time he's leading Germany. The former Liverpool boss drew 1-1 with the Netherlands in his first match as national team manager, giving the soccer world a glimpse of what's to come."
-    },
-    {
-      "title": "NBA Hall of Famer Bob Pettit Dies at 93",
-      "facts": "Bob Pettit, the NBA's first-ever Most Valuable Player and one of the league's greatest scorers and rebounders, has died at 93. The Naismith Basketball Hall of Fame announced his death Thursday."
-    },
-    {
-      "title": "Knicks and Karl-Anthony Towns Extension Talks Hit a Wall",
-      "facts": "Contract negotiations between the Knicks and Karl-Anthony Towns have ground to a halt, with sources telling ESPN that a deal is unlikely as training camp gets underway. The talks have stagnated entirely, leaving one of the team's key players in limbo heading into the season."
-    },
-    {
-      "title": "Claude Discovers New Gene-Editing System in AI's First Wet-Lab Breakthrough",
-      "facts": "Anthropic's Claude just made biological history\u2014it discovered an entirely new enzyme system similar to CRISPR, marking the first time an AI model has helped identify a novel genetic tool from scratch. The discovery came out of Anthropic's secretive wet lab, a facility the company had been running quietly until now."
-    }
-  ],
   "2026-09-26": [
     {
       "title": "Bangkok Declares Emergency as Floods Submerge Capital",
@@ -619,6 +573,72 @@
     {
       "title": "Voice Data Collection Powers Claude's Next Leap",
       "facts": "Anthropic's rolling out a new opt-in program asking Claude users to share voice recordings\u2014and it's targeting exactly the data gap that's held voice mode back from launch. The company wants recordings of actual Claude conversations to train better speech recognition and natural-language understanding, moving beyond the synthetic and licensed audio datasets that most voice AI relies on."
+    }
+  ],
+  "2026-10-06": [
+    {
+      "title": "U.S. Deploys Reaper Drones to Colombia and Ecuador in Cartel Crackdown",
+      "facts": "The United States has shifted MQ-9 Reaper drones from Africa to Colombia and Ecuador, marking a major escalation in Washington's fight against Latin American drug cartels. These are the same drones known for high-profile lethal strikes in counterterrorism operations around the world."
+    },
+    {
+      "title": "India Removes 130 Million Names from Voter Rolls, Sparking Mass Protests",
+      "facts": "India has deleted 130 million people from its voter rolls, and the backlash is intensifying against Prime Minister Narendra Modi's government. Critics say the purge undermines the world's largest democracy and disproportionately disenfranchises Muslims under Modi's Hindu nationalist administration."
+    },
+    {
+      "title": "Jim Bakker Dies at 86",
+      "facts": "Television evangelist Jim Bakker, who built a broadcasting empire on the prosperity gospel before it all came crashing down in sex and financial scandals, has died at 86. Bakker and his wife Tammy Faye became household names in the 1980s with their PTL ministry, which combined faith, flashy production values, and a message that God wanted believers to be wealthy."
+    },
+    {
+      "title": "U.S. Bombers Withdrawn from British Base Over Iranian Drone Threat",
+      "facts": "Twelve B-1 bombers were quietly pulled out of a British air base after U.S. and British officials detected plans for an Iranian drone attack on the aircraft."
+    },
+    {
+      "title": "Tennessee Execution Attempt Fails, Reigniting Debate Over Death Penalty Methods",
+      "facts": "Tennessee's attempt to execute Christa Pike by lethal injection failed, and the botched procedure is now fueling a national debate over how\u2014and whether\u2014the United States should carry out executions. Officials haven't released full details about what went wrong during the procedure, but the failure has put a spotlight on the five methods currently used across states that still have the death penalty."
+    },
+    {
+      "title": "Trade Blockages in Persian Gulf Reshape Global Commerce",
+      "facts": "Conflict with Iran is forcing a harsh geography lesson on the global economy. Trade blockages in the Persian Gulf are disrupting the flow of goods through one of the world's most vital chokepoints, reminding policymakers and businesses that physical location still trumps technology when it comes to moving commodities."
+    },
+    {
+      "title": "Elon Musk's Personal Wealth Tops $1 Trillion",
+      "facts": "Elon Musk's personal fortune has crossed the trillion-dollar threshold, putting his net worth above the entire GDP of countries like Poland and Ireland. The milestone cements Musk's position as the wealthiest individual in modern history, driven largely by his stakes in Tesla and SpaceX."
+    },
+    {
+      "title": "OpenAI Admits Security Response to Australian Hack 'Not Good Enough'",
+      "facts": "OpenAI has acknowledged its response to a security breach involving the Australian government was inadequate. Top executive Jason Kwon told a hearing that the company has since added \"more precautions\" to its training environments after the incident exposed vulnerabilities in how it handles sensitive data."
+    },
+    {
+      "title": "Goldman Sachs Stays Bullish Despite Market Headwinds",
+      "facts": "Goldman Sachs is doubling down on optimism for U.S. stocks, even as the market faces what one insider calls \"rate chaos and narrow breadth.\" The firm's hedge fund research team is forecasting a record high for the S&P 500 before the end of the year, despite concerns that have rattled other investors."
+    },
+    {
+      "title": "Federal Judge Lets Antitrust Suit Against Zillow Proceed",
+      "facts": "A federal judge just refused to throw out an antitrust lawsuit against Zillow, and the decision could force major changes to how the real estate giant operates. The court's letting the case move forward, citing Zillow's referral fees\u2014which the lawsuit claims run between 35 and 40 percent of agents' commissions\u2014as a central concern."
+    },
+    {
+      "title": "Better.com Founder Seizes Board Control After Shareholder Vote",
+      "facts": "Vishal Garg is back in command at Better.com, the online mortgage lender he founded, after winning a shareholder vote that ousted five directors including the interim CEO. Garg secured 52 percent support from shareholders to remove the directors, a move that gives him control of the company's board once again."
+    },
+    {
+      "title": "NFL Suspends Two Officials for On-Field Conduct",
+      "facts": "The NFL just handed down suspensions to two of its own officials for how they treated players during games. Line judge Jeff Seeman is sitting out two games for apparently swearing at Cardinals tight end Trey McBride during a match."
+    },
+    {
+      "title": "White Sox One Win From First Home Clinch in Over a Century",
+      "facts": "The White Sox are on the verge of something they haven't done since 1899: clinching a playoff series at home. Chicago beat the Guardians 4-3 on Monday night to take a commanding 2-0 lead in their American League Division Series."
+    },
+    {
+      "title": "Clippers Lose Max Strus to Serious Foot Injury",
+      "facts": "Max Strus is facing a lengthy absence after suffering a partial tear of the plantar fascia in his right foot. The Clippers wing will be reevaluated in four weeks, according to league sources, which means he'll miss a significant chunk of the early regular season."
+    },
+    {
+      "title": "Trail Blazers Fire New Announcer Hours After Hiring Him",
+      "facts": "The Portland Trail Blazers hired and fired their new play-by-play announcer on the same day after old social media posts resurfaced. Braiden Bell was named to the role, then let go within hours when the team discovered inappropriate posts he'd made as a teenager back in 2012 and 2013."
+    },
+    {
+      "title": "Pentagon and Major Tech Firms Pull Back From Anthropic's Claude",
+      "facts": "The Pentagon has stopped using Anthropic's AI tools entirely after adding the company to an internal blacklist, according to a BBC report. It's a serious blow to Anthropic's enterprise credibility\u2014and it's not happening in isolation."
     }
   ]
 }
