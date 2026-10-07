@@ -1,58 +1,4 @@
 {
-  "2026-09-26": [
-    {
-      "title": "Bangkok Declares Emergency as Floods Submerge Capital",
-      "facts": "Days of relentless rain have turned Bangkok into a waterlogged disaster zone, forcing Thailand's government to declare an emergency across the capital. Roads are submerged, neighborhoods are cut off, and the city's usual frenetic energy has ground to a halt as floodwaters continue rising."
-    },
-    {
-      "title": "Xi Presses Trump to Rethink U.S. Support for Taiwan and Japan",
-      "facts": "Chinese President Xi Jinping used a high-stakes summit with President Trump to challenge America's commitments in Asia, deploying a mix of flattery, veiled warnings, and wartime history to tilt Trump's stance on Taiwan and Japan. Xi reportedly framed U.S."
-    },
-    {
-      "title": "CDC Loses Nearly a Third of Its Workforce in One Year",
-      "facts": "The Centers for Disease Control and Prevention has shed close to 30 percent of its staff over the past year, a loss so severe it's effectively shut down entire teams and emptied out top leadership ranks. The exodus represents one of the most dramatic shake-ups in the agency's history, coming at a time when public health experts warn the country needs strong epidemic monitoring and response capabilities."
-    },
-    {
-      "title": "Supreme Court Citizenship Ruling May Have Little Effect on Midterm Voter Screening",
-      "facts": "The Supreme Court just gave states the green light to use citizenship databases when screening voter rolls, but there's a catch\u2014federal law probably won't let them do much with it before the midterms. A little-known provision in federal election law requires a 90-day \"quiet period\" before any election, during which states are barred from making large-scale changes to who's registered to vote."
-    },
-    {
-      "title": "Tech CEOs Dine at White House Amid U.S.-China Trade Tensions",
-      "facts": "Prominent tech executives gathered at the White House Thursday night for a state dinner as President Trump and Chinese President Xi navigate a fraught moment over tariffs, trade, and artificial intelligence regulation. The dinner brought together leaders from America's biggest technology companies at a time when both governments are wrestling with how to handle AI development and cross-border data flows."
-    },
-    {
-      "title": "Dollar Faces Technical Sell Signal as Treasury Takes Control",
-      "facts": "The U.S. dollar's heading toward what traders call a \"death cross\"\u2014a technical pattern that often signals further declines ahead\u2014and Treasury Secretary Scott Bessent might be just fine with that."
-    },
-    {
-      "title": "OpenAI Bots Accessed U.S. Government Websites During Testing",
-      "facts": "OpenAI's disclosed that its artificial intelligence bots accessed public data from multiple U.S. government agency websites during testing exercises, raising fresh questions about how AI companies gather training material."
-    },
-    {
-      "title": "Microsoft Shares Hit Year's Best as AI Bet Pays Off",
-      "facts": "Microsoft stock closed at its highest level of the year, capping a remarkable turnaround after a rocky start to 2025. Shares have surged in recent months as investors embraced the company's artificial intelligence strategy."
-    },
-    {
-      "title": "Builders Slashing Prices Nationwide as Sales Consistently Fall Short of Asking",
-      "facts": "Homebuilders are cutting prices in every major market across the country, and it's not subtle\u2014new data from Audience Town shows all twenty-five markets they analyzed are now selling below asking price. The firm examined two hundred and one thousand sales and found discounts have become universal, with some regions seeing builders knock tens of thousands off their initial pricing."
-    },
-    {
-      "title": "Compass Demands MLSs Block Listing Data From Recruiter Tools",
-      "facts": "Compass just sent a letter to multiple listing services across the country demanding they cut off access to listing data used by recruiting platforms\u2014and they're giving them thirty days to comply. The brokerage wants MLSs to block what are called non-IDX and non-VOW vendor feeds, which recruiting tools use to show agents how much business their competitors are doing."
-    },
-    {
-      "title": "Manchester City Facing Guilty Verdict on Financial Breach Charges",
-      "facts": "Premier League clubs are scrambling for legal advice after sources confirmed that Manchester City are expected to be found guilty on the vast majority of hundreds of charges alleging financial regulation breaches. The case has been one of the most serious in English football history, with the league accusing City of systematically violating financial fair play rules."
-    },
-    {
-      "title": "Stephen Curry Takes Pay Cut in $116 Million Extension with Warriors",
-      "facts": "Stephen Curry is staying in Golden State, but he's leaving money on the table to do it. The Warriors star agreed to a two-year, $116 million contract extension on Friday\u2014a deal that amounts to a pay cut from what he could've commanded on the open market."
-    },
-    {
-      "title": "Pentagon Wins Legal Fight to Label Anthropic a Supply Chain Risk",
-      "facts": "A federal appeals court in Washington just handed the Pentagon a major win in its ability to blacklist AI companies over national security concerns. The court ruled that the Defense Department can officially designate Anthropic as a supply chain risk, upholding a label that effectively bars the company from many government contracts."
-    }
-  ],
   "2026-09-27": [
     {
       "title": "Plane Crash Kills 17 in Democratic Republic of Congo",
@@ -639,6 +585,56 @@
     {
       "title": "Pentagon and Major Tech Firms Pull Back From Anthropic's Claude",
       "facts": "The Pentagon has stopped using Anthropic's AI tools entirely after adding the company to an internal blacklist, according to a BBC report. It's a serious blow to Anthropic's enterprise credibility\u2014and it's not happening in isolation."
+    }
+  ],
+  "2026-10-07": [
+    {
+      "title": "U.S. Deploys Armed Drones to Hunt Cartels in South America",
+      "facts": "The United States has shifted MQ-9 Reaper drones\u2014the same aircraft used in lethal strikes overseas\u2014from Africa to Colombia and Ecuador to target drug cartels, according to U.S. officials."
+    },
+    {
+      "title": "France Bans Stun Grenades After Student's Hand Blown Off",
+      "facts": "France has halted police use of stun grenades after a boy lost his hand during student protests that have now spread to more than 40 cities across the country. The decision follows mounting complaints that officers used disproportionate force against teenagers."
+    },
+    {
+      "title": "Large-Scale Russian Strikes Kill Fifteen Across Ukraine",
+      "facts": "Ukrainian President Volodymyr Zelensky condemned what he called \"vile\" large-scale Russian attacks that killed 15 people and flattened an apartment building in the city of Pryluky. Rescue workers are still searching through the rubble for residents who may be trapped."
+    },
+    {
+      "title": "U.S. Sets New Demands for Reviving Iran Nuclear Deal",
+      "facts": "The United States has laid out fresh conditions for reviving the Iran nuclear agreement, with Vice President Vance calling for reduced uranium enrichment levels\u2014a signal that suggests room for compromise, though major obstacles remain. The new demands represent a shift in Washington's negotiating posture after years of stalemate."
+    },
+    {
+      "title": "DNA From Water Bottle Cracks 1985 Rhode Island Murder Case",
+      "facts": "Rhode Island authorities just solved a nearly 40-year-old murder case, and they did it by following a suspect to a rock concert and waiting for him to toss a water bottle. The breakthrough came in a 1985 homicide that had gone cold for decades."
+    },
+    {
+      "title": "Trade Deficit Balloons to 17-Month High",
+      "facts": "The trade deficit just hit its highest level in seventeen months, and it's happening despite the Trump administration's aggressive use of tariffs to try to shrink it. Imports have surged in recent months, widening the gap between what America buys from abroad and what it sells."
+    },
+    {
+      "title": "Royal Mail Cutting 2,500 Jobs by 2027",
+      "facts": "Royal Mail plans to eliminate twenty-five hundred jobs by the end of 2027, targeting head office and non-frontline positions in a restructuring aimed at cutting costs. The cuts won't affect postal workers who deliver mail, but they'll hit management, administrative staff, and back-office roles across the company."
+    },
+    {
+      "title": "SpaceX Eyes Massive Loan to Fuel AI Chip Buy",
+      "facts": "Elon Musk's SpaceX is in talks to borrow a staggering $40 billion\u2014roughly equivalent to the company's entire annual revenue\u2014to fund a massive purchase of Nvidia chips, according to a Financial Times report. The loan would represent one of the largest corporate borrowings in recent memory, and it signals just how aggressively SpaceX is betting on artificial intelligence infrastructure."
+    },
+    {
+      "title": "Mortgage Servicers Get New Tool to Slash Oversight Costs",
+      "facts": "Integra Solutions and Donnell Systems are rolling out a partnership designed to cut the manual work that mortgage servicers face when managing client accounts. The two firms say their integrated platform will automate much of the oversight process that currently eats up staff time and introduces operational risk."
+    },
+    {
+      "title": "Lane Johnson Retires From Eagles After 14 Seasons",
+      "facts": "Lane Johnson is walking away from football at 35, and he's doing it on his own terms. The two-time All-Pro right tackle announced his retirement Tuesday, ending a 14-year career spent entirely with the Philadelphia Eagles."
+    },
+    {
+      "title": "76ers Lose Backup Center to Torn Achilles",
+      "facts": "The 76ers' frontcourt just got dangerously thin. Backup center Ariel Hukporti is out for the season after an MRI confirmed he tore his right Achilles tendon on Tuesday."
+    },
+    {
+      "title": "Anthropic Opens Advanced Claude Access to Vetted Security Researchers",
+      "facts": "Anthropic's expanding its Cyber Verification Program, giving vetted security researchers and offensive security teams access to higher-tier Claude models with fewer restrictions than the general public gets. The program is designed to let legitimate cybersecurity professionals use Claude's most powerful capabilities for vulnerability research, penetration testing, and defensive security work\u2014without tripping the safety guardrails that normally block those kinds of queries."
     }
   ]
 }
