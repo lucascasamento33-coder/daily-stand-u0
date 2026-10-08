@@ -1,50 +1,4 @@
 {
-  "2026-09-27": [
-    {
-      "title": "Plane Crash Kills 17 in Democratic Republic of Congo",
-      "facts": "A military plane carrying Congolese officials has crashed in the Democratic Republic of Congo, killing seventeen people. The victims include thirteen members of a military delegation and four civilians who were on the ground when the aircraft went down."
-    },
-    {
-      "title": "Myanmar Military Turns Motorized Paragliders Into Bombers",
-      "facts": "Myanmar's military has found a new weapon in its war against rebel forces\u2014motorized paragliders and gyrocopters that it's using to bomb towns and villages in rebel-held territory. Years after the coup that toppled the country's elected government, the junta is deploying these lightweight recreational aircraft to strike areas it can't easily reach by conventional means."
-    },
-    {
-      "title": "Trump Rejects Iran Cease-Fire as Midterms Loom",
-      "facts": "President Trump's rejected Iran's proposal to reopen the Strait of Hormuz, calling the deal \"not acceptable\" and leaving the door open to more military strikes after November's midterm elections. The decision keeps tensions in the Middle East at a boiling point, with global oil markets already reacting to the standoff."
-    },
-    {
-      "title": "Sea Lion Found Shot Twelve Times in Seattle",
-      "facts": "A 700-pound California sea lion was found dead on a beach off the Duwamish River in West Seattle this month, and investigators say it had been shot at least twelve times. The animal's death is now under investigation, though authorities haven't identified a motive or any suspects."
-    },
-    {
-      "title": "Treasury Market Braces for Jobs Report That Could Push Rates Even Higher",
-      "facts": "The next jobs report could send shockwaves through the bond market if it comes in hot. Analysts are warning that another strong employment number might push yields on ten-year and thirty-year Treasury bonds sharply higher, continuing a trend that's already made borrowing more expensive across the economy."
-    },
-    {
-      "title": "Homebuilders Slashing Prices Nationwide as Sales Slow",
-      "facts": "Builders are discounting homes in every major market across the country, according to new data that lays bare just how hard it's gotten to move new construction. Audience Town analyzed 201,000 sales across 25 markets and found that every single one sold below asking price\u2014a clean sweep that signals builders are feeling real pressure."
-    },
-    {
-      "title": "Compass Pushes to Block Listing Data From Rival Recruiting Platforms",
-      "facts": "Compass is asking multiple listing services nationwide to cut off the flow of listing data to competitors' recruiting tools, setting up a potential showdown over how agent performance information gets used. The brokerage sent a letter demanding an opt-out from what it calls non-IDX and VOW vendor feeds\u2014essentially, third-party platforms that aren't consumer-facing home search sites."
-    },
-    {
-      "title": "Guardians Rally From Six Back to Clinch Division and First-Round Bye",
-      "facts": "The Cleveland Guardians just wrapped up one of the more improbable late-season surges you'll see this year. They clinched their third straight AL Central title with an 11-5 win over Kansas City on Saturday night, and the timing couldn't be sweeter\u2014they were six games behind the White Sox as recently as mid-August."
-    },
-    {
-      "title": "Warriors Lock Up Curry With $116 Million Extension",
-      "facts": "Stephen Curry's staying in the Bay Area through his early forties. The Warriors' star just agreed to a two-year, $116 million contract extension that will keep him in Golden State through the 2028-29 season."
-    },
-    {
-      "title": "Bulls Send Dillingham to Hornets in Trade for Hield",
-      "facts": "Chicago's shaking up its roster with a weekend trade that sends Rob Dillingham to Charlotte in exchange for Buddy Hield and cash. The deal gives the Bulls a proven veteran shooter in Hield, who's built his career on elite three-point marksmanship and instant offense off the bench."
-    },
-    {
-      "title": "Pentagon Wins Right to Block Claude Over National Security Concerns",
-      "facts": "A federal appeals court just handed the Pentagon a major win in its standoff with Anthropic. The D.C."
-    }
-  ],
   "2026-09-28": [
     {
       "title": "Brazil Braces for Election Interference from Washington",
@@ -635,6 +589,56 @@
     {
       "title": "Anthropic Opens Advanced Claude Access to Vetted Security Researchers",
       "facts": "Anthropic's expanding its Cyber Verification Program, giving vetted security researchers and offensive security teams access to higher-tier Claude models with fewer restrictions than the general public gets. The program is designed to let legitimate cybersecurity professionals use Claude's most powerful capabilities for vulnerability research, penetration testing, and defensive security work\u2014without tripping the safety guardrails that normally block those kinds of queries."
+    }
+  ],
+  "2026-10-08": [
+    {
+      "title": "Russian Strike on Buses in Eastern Ukraine Kills Dozens",
+      "facts": "A Russian attack on civilian buses in the eastern Ukrainian city of Kramatorsk has killed at least 33 people and wounded 18 more, according to local authorities. Ukrainian officials say the strike deliberately targeted the crowded buses, aiming to maximize civilian casualties in the frontline city."
+    },
+    {
+      "title": "Myanmar's Military Leader Seeks Legitimacy in Malaysia Visit",
+      "facts": "Myanmar's military strongman is on a charm offensive, and Malaysia is his latest stop. U Min Aung Hlaing has traded in his military uniform for civilian clothes and is now visiting Malaysia as the country's president\u2014his ninth international trip in a quest for global legitimacy."
+    },
+    {
+      "title": "U.S.S. Abraham Lincoln Returns After Brutal 11-Month Deployment",
+      "facts": "The aircraft carrier U.S.S. Abraham Lincoln is finally heading home after nearly eleven months at sea\u2014one of the longest carrier deployments in recent memory."
+    },
+    {
+      "title": "California Governor Weighs Emptying Nation's Largest Death Row",
+      "facts": "Governor Gavin Newsom is ramping up discussions about commuting the sentences of all 563 prisoners on California's death row, a move that would effectively end capital punishment in the nation's most populous state. The talks intensified after Tennessee's botched execution attempt, which saw officials fail to carry out a lethal injection and left the condemned prisoner alive."
+    },
+    {
+      "title": "Treasury Yields Pummel Early 2026 Stock Winners",
+      "facts": "Treasury yields are surging, and they're quietly hammering the parts of the stock market that were winning big earlier this year. Rising yields on government bonds have begun to crush stocks that thrived in the first half of 2026, even as attention stays fixed on a handful of flashy tech names."
+    },
+    {
+      "title": "French Bonds Hit Worst Decade Since Napoleon Era",
+      "facts": "French government bonds are suffering through their worst decade in more than two centuries\u2014and the pain isn't over yet. The gap between France's ten-year bond yields and Germany's equivalent hit its widest point last week in available data stretching back to 1990, according to Bloomberg."
+    },
+    {
+      "title": "France Urges Britain to Rejoin EU Fully",
+      "facts": "France's finance minister is making a direct pitch to Britain: come all the way back into the European Union. Roland Lescure told the BBC that being inside the bloc gives member countries better tools to tackle the challenges the world is facing right now."
+    },
+    {
+      "title": "Howard Hughes Plans Massive Desert Community West of Phoenix",
+      "facts": "Howard Hughes Corporation is drawing up plans for what could become one of America's largest new communities\u2014a 400,000-resident development called Teravalis west of Phoenix. Once complete, the project would deliver more than 130,000 homes and 60 million square feet of commercial space, transforming a stretch of Arizona desert into a small city."
+    },
+    {
+      "title": "Tishman Speyer Plans Major Chrysler Building Renovation",
+      "facts": "Tishman Speyer is stepping in to restore one of New York's most iconic Art Deco landmarks, with plans to renovate the Chrysler Building and breathe new life into its long-neglected concourse. The real estate giant is also planning to add a private club high up in the building, taking advantage of those storied upper floors."
+    },
+    {
+      "title": "Ravens Land Two-Time Pro Bowl Center Jurgens in Trade With Eagles",
+      "facts": "The Baltimore Ravens just pulled off a significant midseason move, landing two-time Pro Bowl center Cam Jurgens in a trade with the Philadelphia Eagles. The deal brings one of the league's top young centers to Baltimore, where the offensive line has been under scrutiny after inconsistent play in recent weeks."
+    },
+    {
+      "title": "Haliburton Returns After 16 Months Out with Torn Achilles",
+      "facts": "Tyrese Haliburton made it back onto the court Wednesday night, more than 16 months after tearing his Achilles tendon. The Pacers star played 16 minutes against the Timberwolves, scoring seven points in what he called a highly anticipated return."
+    },
+    {
+      "title": "Claude Haiku 5.5 Cuts API Prices 90 Percent While Boosting Speed",
+      "facts": "Anthropic just dropped Claude Haiku 5.5, and the headline isn't subtle\u2014API prices are down ninety percent while the model got faster and smarter. The new Haiku is now Anthropic's third model in the Claude 5.5 family, joining Sonnet and Opus, and it's positioned as the speed-and-cost option for developers running high-volume workloads."
     }
   ]
 }
