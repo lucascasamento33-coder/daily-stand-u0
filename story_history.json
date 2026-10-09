@@ -1,62 +1,4 @@
 {
-  "2026-09-28": [
-    {
-      "title": "Brazil Braces for Election Interference from Washington",
-      "facts": "Brazil's gearing up for elections next month, and the country's taking the unusual step of actively preparing to fend off potential meddling from the United States. Latin America's largest democracy is implementing measures to shield its electoral process from what officials there see as a real threat of American interference."
-    },
-    {
-      "title": "Serbia's President Steps Down to Become Prime Minister",
-      "facts": "Aleksandar Vu\u010di\u0107 just resigned as Serbia's president after years in power, but don't mistake this for a retirement\u2014he's clearing the path to become prime minister instead. Vu\u010di\u0107 has been one of Europe's longest-serving leaders, and his decision to switch posts is paving the way for early elections scheduled for next month."
-    },
-    {
-      "title": "Russia's North Ossetia Keeps Faith in War Despite Heavy Losses",
-      "facts": "The Russian region of North Ossetia has paid a staggering price for the war in Ukraine, losing more sons per capita than almost any other part of the country. Yet interviews with families there reveal something striking\u2014many still support the Kremlin's narrative that the fighting must continue until victory is achieved."
-    },
-    {
-      "title": "Oil Surges Past $107 as Trump Rejects Iran's Hormuz Proposal",
-      "facts": "Brent crude jumped more than three percent Monday, topping $107 a barrel, after President Trump rejected Iran's latest proposal to reopen the Strait of Hormuz and de-escalate their conflict. Tehran had floated a plan aimed at ending the standoff and restoring tanker traffic through the critical waterway, but Washington dismissed it outright."
-    },
-    {
-      "title": "Trump Offered Arms Sales to China, Ambassador Says",
-      "facts": "President Trump offered to sell weapons to China during discussions with President Xi Jinping, according to the U.S. Ambassador to China."
-    },
-    {
-      "title": "Trump Administration Scales Back Commodity Market Enforcement",
-      "facts": "The Commodity Futures Trading Commission has quietly pulled back from policing agricultural markets under the Trump administration, and it's farmers who are sounding the alarm. The agency's shift isn't just about crypto cases\u2014it's affecting the bread-and-butter enforcement actions that have protected farmers and ranchers for decades."
-    },
-    {
-      "title": "Goldman Warns Diesel Export Ban Could Spike Gas Prices",
-      "facts": "Here's an unexpected way your gas bill could jump: restrict diesel exports. Goldman Sachs strategists are warning that if the U.S."
-    },
-    {
-      "title": "Britain Nationalizes Another Rail Line as Overhaul Continues",
-      "facts": "Avanti West Coast is being taken back into public hands this March, making it the latest private rail operator to return to government control as Britain continues its ambitious railway overhaul. The move is part of a broader plan to improve infrastructure, cut delays, and deliver better experiences for passengers who've grown frustrated with the privatized system."
-    },
-    {
-      "title": "Nvidia Announces Historic $150 Billion Buyback",
-      "facts": "Nvidia just announced it's going to buy back a hundred-and-fifty billion dollars' worth of its own stock\u2014easily the largest repurchase program in corporate history. The chip giant says it'll execute the buyback through January 2028, framing the move as a vote of confidence in what it calls \"the long-term opportunity ahead.\" That opportunity, of course, is artificial intelligence, where Nvidia has emerged as the dominant player supplying the processors that power everything from ChatGPT to autonomous vehicles."
-    },
-    {
-      "title": "Mortgage Rates Surge Past 7.5% as Volatility Hammers Housing Demand",
-      "facts": "Mortgage rates have climbed near 7.5%, and the spike is delivering a measurable blow to homebuyer demand across the country. Weekly applications for purchase loans dropped sharply as the combination of higher rates and wild day-to-day swings spooked borrowers who were already on the fence."
-    },
-    {
-      "title": "Phillies Grab Final Wild Card in Season Finale Nail-Biter",
-      "facts": "The Philadelphia Phillies are headed to the postseason after a 7-3 victory over the Rays on Sunday clinched the National League's final wild-card spot on the last day of the regular season. It came down to the wire\u2014the Phillies needed the win to secure their place in October baseball, and they delivered when it mattered most."
-    },
-    {
-      "title": "Mariners Part Ways with Manager After Disappointing Season",
-      "facts": "The Seattle Mariners have fired manager Dan Wilson following what he called a \"very difficult\" season that ended far short of expectations. Wilson, who's fifty-seven and led the Mariners to the American League Championship Series just last year, told reporters on Sunday that he won't be returning for next season."
-    },
-    {
-      "title": "LeBron James Joins the Sixers in Blockbuster Move",
-      "facts": "LeBron James is taking his talents to Philadelphia. The four-time NBA champion has signed with the 76ers, ending his long tenure with the Lakers and setting up what could be one of the league's most formidable trios."
-    },
-    {
-      "title": "Warriors Lock Up Stephen Curry With Two-Year Extension",
-      "facts": "Stephen Curry's staying in Golden State, but he's doing it on his own terms. The Warriors star agreed to a two-year, $116 million contract extension\u2014and here's the twist: he took less than the max to get it done."
-    }
-  ],
   "2026-09-29": [
     {
       "title": "Argentina Pitches Itself as AI Free-For-All Zone",
@@ -639,6 +581,64 @@
     {
       "title": "Claude Haiku 5.5 Cuts API Prices 90 Percent While Boosting Speed",
       "facts": "Anthropic just dropped Claude Haiku 5.5, and the headline isn't subtle\u2014API prices are down ninety percent while the model got faster and smarter. The new Haiku is now Anthropic's third model in the Claude 5.5 family, joining Sonnet and Opus, and it's positioned as the speed-and-cost option for developers running high-volume workloads."
+    }
+  ],
+  "2026-10-09": [
+    {
+      "title": "El Salvador's Leader Opens New Crypt for National Hero",
+      "facts": "Nayib Bukele's standing over a newly built crypt with a sword in hand, and he's not there for ceremony alone. El Salvador's president has exhumed the remains of a national hero and created an elaborate new resting place that's designed to project his power well beyond his country's borders."
+    },
+    {
+      "title": "Nobel Peace Prize Awarded to Human Rights Lawyer Navi Pillay",
+      "facts": "Navi Pillay just learned she's won the Nobel Peace Prize, and her first reaction says a lot\u2014she thought it might be an April Fool's joke. The South African human rights lawyer has spent decades as a judge on international courts investigating war crimes, including tribunals for Rwanda and the former Yugoslavia."
+    },
+    {
+      "title": "Justice Department Probe Into Trump's Political Enemies Hits Crisis Point",
+      "facts": "The sprawling Justice Department investigation launched to prove what the president's allies call a \"grand conspiracy\" against Donald Trump is buckling under its own weight. The inquiry, designed as a revenge campaign to vindicate Trump's claims of being targeted by the previous administration, has been plagued by staffing shake-ups and internal disputes among investigators."
+    },
+    {
+      "title": "Mortgage Rates Hit 7.4 Percent, Highest in Three Years",
+      "facts": "The average rate on a 30-year fixed mortgage just climbed to 7.4 percent\u2014the highest we've seen in three years. That's a brutal number for anyone trying to buy a home right now, and it's adding serious pressure to an already strained housing market."
+    },
+    {
+      "title": "AI Spending Offsets Middle East Trade Disruption, W.T.O. Reports",
+      "facts": "Global trade proved more resilient than expected this year, and the World Trade Organization is crediting artificial intelligence for keeping things afloat. The W.T.O."
+    },
+    {
+      "title": "White House Blocks Microsoft From Foreign Worker Program",
+      "facts": "Microsoft's been cut off from a key visa program that tech companies have relied on for years to hire highly skilled workers from abroad. The White House moved to block the company from participating in the international visa scheme, though details on the exact reasoning haven't been fully disclosed yet."
+    },
+    {
+      "title": "Bull Market Enters Rare Territory With Room to Run",
+      "facts": "The current stock market rally just hit its fourth birthday, and if history's any guide, that's actually good news for investors. Truist Advisory Services dug into the data and found that bull markets which make it past year four rarely fizzle out on their own."
+    },
+    {
+      "title": "Tishman Speyer Takes On the Chrysler Building",
+      "facts": "Tishman Speyer is stepping in to rescue one of New York's most iconic skyscrapers from years of neglect. The real estate giant plans a major renovation of the Chrysler Building, aiming to restore the Art Deco landmark's faded luster after previous owners let it slide."
+    },
+    {
+      "title": "HUD Lays Out Seven-Step Plan to Overhaul Manufactured Housing Standards",
+      "facts": "The Department of Housing and Urban Development has outlined a seven-step process to update the federal code governing manufactured housing, and it's going to take a while. HUD's plan follows Congress passing the ROAD to Housing Act back in July, which directed the agency to modernize standards that have lagged behind site-built home codes for years."
+    },
+    {
+      "title": "Major League Baseball Proposes Radical Schedule Overhaul",
+      "facts": "Major League Baseball's putting a dramatic proposal on the table that would fundamentally reshape the sport's calendar and postseason structure. The league wants to shorten the regular season from 162 games to 154 starting in 2029, rolling back a schedule length that's been standard for more than sixty years."
+    },
+    {
+      "title": "Undrafted Rookie Quarterback Makes History in Tampa Bay's First Win",
+      "facts": "Jalon Daniels just did something no undrafted rookie quarterback has ever done in the modern era. The Tampa Bay signal-caller became the first undrafted rookie starting quarterback in the common draft era to win a game for a team that entered winless, leading the Buccaneers to a 24-16 victory over Dallas on Thursday night."
+    },
+    {
+      "title": "Lakers Siblings Take Legal Fight Over Team Sale Public",
+      "facts": "Five members of the Buss family have officially filed a lawsuit against their sister Jeanie Buss over her refusal to let them sell the family's remaining stake in the Lakers. The case, which had been brewing behind closed doors, is now a matter of public record as the siblings push to liquidate shares in one of the NBA's most valuable franchises."
+    },
+    {
+      "title": "Haliburton Returns to Court After Sixteen-Month Achilles Recovery",
+      "facts": "Tyrese Haliburton played competitive basketball again Wednesday night, logging sixteen minutes in his first game since tearing his Achilles more than a year ago. The Pacers star finished with seven points against the Timberwolves, a modest stat line that mattered far less than simply being back on the floor."
+    },
+    {
+      "title": "Anthropic Bans Abusive Treatment of Claude in Policy Update",
+      "facts": "Anthropic just updated its usage policy with a rule that's raising eyebrows across the AI world\u2014users can now be banned for what the company calls \"needless abusive or cruel behavior\" toward Claude. The new policy explicitly prohibits extended patterns of harassment, bullying, or degrading treatment of the chatbot, marking the first time a major AI lab has formally banned mistreatment of its models."
     }
   ]
 }
