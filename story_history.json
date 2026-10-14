@@ -1,62 +1,4 @@
 {
-  "2026-10-03": [
-    {
-      "title": "American Teens Arming Mexican Cartels",
-      "facts": "Teenagers in Arizona are becoming key suppliers in a deadly pipeline, buying and stealing firearms that end up in the hands of Mexican drug cartels. The lure is straightforward\u2014money and status in communities where both are hard to come by."
-    },
-    {
-      "title": "Russia Strikes Second Kyiv Bridge",
-      "facts": "Russian forces have hit another major bridge in Kyiv, targeting the city's Northern Bridge in what appears to be a systematic campaign against the capital's infrastructure. The strike follows repeated attacks on a separate bridge in recent days, suggesting Moscow is trying to isolate parts of the city or disrupt military and civilian logistics."
-    },
-    {
-      "title": "G7 Unlocks Emergency Oil Reserves",
-      "facts": "The world's largest economies are opening the taps on their strategic reserves, releasing one hundred million barrels of oil and diesel in a coordinated effort to prevent energy prices from spiraling further. The G7 move comes as crude and fuel costs have jumped due to the U.S."
-    },
-    {
-      "title": "Yemeni Families Flee New Houthi Offensive",
-      "facts": "Displaced families in Yemen are on the move again, spending days on dangerous roads as Houthi forces capture more territory along the Red Sea coast. One family's weeklong journey has become emblematic of a broader crisis\u2014civilians who've already been uprooted multiple times during Yemen's civil war are now fleeing a fresh offensive."
-    },
-    {
-      "title": "Botched Execution Leaves Christa Pike in Medical Limbo",
-      "facts": "Tennessee tried to execute Christa Pike on Wednesday, and it went catastrophically wrong. Pike's legal team had warned state officials repeatedly that the execution could fail\u2014and they were proven right when the procedure left her hovering between life and death rather than completing the sentence."
-    },
-    {
-      "title": "Hiring Slowdown and Rising Joblessness Hit Economy Ahead of Midterms",
-      "facts": "The U.S. economy added fewer jobs in September than expected, and unemployment ticked up as the labor market downshifts into what some economists are calling a lower gear."
-    },
-    {
-      "title": "Bond Yields Hit Generational Highs as Investors Brace for Fallout",
-      "facts": "Treasury yields have surged to levels not seen in a generation, and investors around the world are watching nervously to see what breaks. The spike in bond yields is making borrowing more expensive across the economy, from mortgages to corporate debt, and traders are starting to ask which markets or institutions might crack under the pressure."
-    },
-    {
-      "title": "Tesla Deliveries Crush Expectations, Shares Jump",
-      "facts": "Tesla just posted its best quarterly sales numbers of the year, and Wall Street's reacting with enthusiasm. The electric vehicle maker delivered far more cars than analysts expected in the third quarter, sending shares sharging higher in today's trading."
-    },
-    {
-      "title": "Storage Giants Tumble on Toshiba Production Fears",
-      "facts": "Western Digital and Seagate are both getting hammered today after investors caught wind of a potential threat to their pricing power. The worry centers on Toshiba, which is reportedly planning to ramp up production of a key storage product used in artificial intelligence systems."
-    },
-    {
-      "title": "MLS Leaders Warn Legal Fights Are the New Normal in Real Estate",
-      "facts": "Multiple listing services are bracing for a wave of lawsuits and legal threats that leaders now say have become a permanent feature of the industry. At the CMLS Open House conference, MLS legal experts told executives to start scenario planning around core issues like cooperation rules, participation requirements, and data access\u2014areas where demand letters and litigation are piling up."
-    },
-    {
-      "title": "View Homes CEO Overhauls Builder Operations After Takeover",
-      "facts": "View Homes is rebuilding its entire operating system from the ground up under CEO Gandhi, who's rolling out leadership changes, standardized pricing concessions, and a major technology overhaul. The builder's implementing a twelve-to-eighteen-month systems rollout designed to bring consistency to how the company runs across its markets."
-    },
-    {
-      "title": "49ers Owner Suspended Six Games After Prostitution Arrest",
-      "facts": "San Francisco 49ers owner Jed York will miss six games and pay a half-million-dollar fine after the NFL found he violated its personal conduct policy. The league handed down the punishment following York's August arrest in Ohio, where police say he tried to engage in prostitution."
-    },
-    {
-      "title": "Duren Ends Standoff with Pistons in $200 Million Deal",
-      "facts": "Jalen Duren's marathon contract standoff with Detroit just wrapped up hours before the deadline, with the center signing a five-year, $200 million fully guaranteed deal to stay with the Pistons. The agreement came Thursday night, right up against Duren's deadline to either accept the contract or take a one-year qualifying offer that would've made him a free agent next summer."
-    },
-    {
-      "title": "Anthropic Launches $100 Million Academy to Train 10,000 AI Engineers",
-      "facts": "Anthropic's putting $100 million into a new initiative called the Claude Frontier Academy, with the goal of training 10,000 engineers over the next few years. The program's designed to turn developers into advanced AI practitioners who can build production systems with Claude\u2014not just use it casually, but architect complex autonomous workflows, multi-agent systems, and enterprise integrations."
-    }
-  ],
   "2026-10-04": [
     {
       "title": "Brazil Heads to the Polls in High-Stakes Presidential Race",
@@ -611,6 +553,64 @@
     {
       "title": "Anthropic Slashes Claude Reasoning Token Theft by 99 Percent",
       "facts": "Anthropic just rolled out new defenses that cut unauthorized extraction of Claude's reasoning tokens by up to 99 percent\u2014a major step in the arms race against what the company calls \"distillation attacks.\" These attacks work by prompting Claude to reveal its internal reasoning process, then using those outputs to train cheaper competitor models without permission. It's industrial-scale IP theft, and it's been a growing problem as Claude's extended thinking mode produces valuable multi-step reasoning that other AI labs would love to replicate on the cheap."
+    }
+  ],
+  "2026-10-14": [
+    {
+      "title": "Haitian-Canadian Author Admits Plagiarism After Weeks of Silence",
+      "facts": "Th\u00e9lyson Or\u00e9lien has finally broken his silence, and the acclaimed Haitian-Canadian writer is admitting to plagiarism in his new novel \"It Was Either That or Die.\" After weeks of mounting accusations, Or\u00e9lien confirmed he lifted passages from other works without attribution. He's still rejecting claims that he used artificial intelligence to generate parts of the book, drawing a line between what he calls human error and automated deception."
+    },
+    {
+      "title": "Russia Detains Japanese Reporter on Espionage Charges",
+      "facts": "Moscow's security service has detained a Japanese journalist in Russia's far east, accusing him of spying on military recruitment operations. The FSB says it arrested a reporter for the Hokkaido Shimbun newspaper on the island of Sakhalin, where he'd been covering Russia's efforts to enlist soldiers for the war in Ukraine."
+    },
+    {
+      "title": "Serial Killer Suspected in Michigan Trail Murders",
+      "facts": "Five bodies have been discovered along a greenway trail in Lansing, Michigan, and police are now investigating whether a serial killer is responsible for the string of attacks. The city's police chief said the pattern of deaths along the trail suggests the murders may be connected, raising alarm in a community where residents routinely walk, jog, and bike along the route."
+    },
+    {
+      "title": "Supreme Court Takes Up Privacy Law From the VHS Era",
+      "facts": "The Supreme Court is diving into a legal relic from 1988, and the case could reshape how your streaming data is protected in 2025. The justices are considering how the Video Privacy Protection Act\u2014written in the age of VHS tapes and \"Be Kind, Rewind\" stickers\u2014applies to today's world of Netflix queues, targeted ads, and email newsletters based on what you watch."
+    },
+    {
+      "title": "Federal Judge Blocks Sanctions on Groups Aiding War Crimes Court",
+      "facts": "A federal judge has blocked the Trump administration from imposing sanctions on two human rights organizations that provide information to the International Criminal Court. The ruling prevents the government from penalizing the groups for their work supporting the ICC's war crimes investigations, which have included probes into actions by U.S."
+    },
+    {
+      "title": "I.M.F. Warns Conflicts and Energy Costs Will Widen Global Inequality",
+      "facts": "The International Monetary Fund is sounding the alarm on a growing economic divide between rich and poor countries, and it's pointing to three big culprits: persistent conflicts in the Middle East and elsewhere, stubbornly high energy costs, and rapid technological change that's leaving developing nations behind. The organization's latest forecast predicts that these forces will slow global growth while pushing prices higher, particularly in countries that can least afford it."
+    },
+    {
+      "title": "Goldman Sachs Puts a Number on How Much A.I. Is Fueling Inflation",
+      "facts": "Goldman Sachs economists have crunched the numbers on artificial intelligence's impact on inflation, and they've come up with a specific figure for how much the tech boom is adding to price pressures. The calculations suggest that the massive spending on A.I."
+    },
+    {
+      "title": "U.K. Regulators Fine Wayfair and Others Millions for Misleading Sales Tactics",
+      "facts": "Britain's Competition and Markets Authority just hit three major retailers with fines totaling six million pounds for misleading customers about sales and discounts. The companies on the hook are Wayfair, Appliances Direct, and Gold's Gym\u2014each penalized for tactics regulators say crossed the line into deception."
+    },
+    {
+      "title": "Bank of America Hit With Double Blow",
+      "facts": "Bank of America's stock tumbled Wednesday after the bank reported weaker-than-expected earnings alongside a massive $1.2 billion government fine. The timing couldn't be worse\u2014investors were already bracing for a lackluster quarter, and the fine just compounded the disappointment."
+    },
+    {
+      "title": "Miami's Little Havana Faces Historic Density Overhaul",
+      "facts": "Miami's Little Havana could soon see apartment towers eight stories tall and density like nowhere else in the city. A new plan under consideration would allow up to 150 units per acre in the historic neighborhood\u2014a dramatic shift for an area known for its low-rise streetscape and Cuban cultural heritage."
+    },
+    {
+      "title": "HUD Signals Fresh Push on 203(k) Renovation Loans",
+      "facts": "The federal government's about to take another swing at making home renovation loans easier to get. HUD is eyeing changes to its 203(k) program\u2014the mortgage product that lets buyers finance both a home purchase and repairs in a single loan\u2014with an eye toward boosting housing supply by making older homes more viable."
+    },
+    {
+      "title": "NFL Suspends Rams Tackle Two Games for Post-Game Punch",
+      "facts": "The NFL handed down a two-game suspension without pay to Rams left tackle Alaric Jackson after he punched Bills outside linebacker Bradley Chubb following Monday night's game in Los Angeles. The incident happened after the final whistle, away from the field of play, making it a clear violation of league conduct rules."
+    },
+    {
+      "title": "Celtics Lock Up Pritchard With $44 Million Extension",
+      "facts": "The Celtics are betting big on their sharpshooting bench guard. Payton Pritchard has agreed to a two-year, $44.2 million extension that keeps him in Boston through at least 2028."
+    },
+    {
+      "title": "Anthropic Reinvents Source Control as Claude Pushes 30,000 Code Merges Daily",
+      "facts": "Anthropic's engineering team hit a breaking point in September when Claude agents started pushing 30,000 code merges per day\u2014and the company's entire source control system couldn't keep up. The sheer volume of AI-generated code overwhelmed traditional Git workflows, forcing Anthropic to redesign how it manages version control from the ground up."
     }
   ]
 }
