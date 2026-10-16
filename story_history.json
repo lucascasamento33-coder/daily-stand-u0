@@ -1,54 +1,4 @@
 {
-  "2026-10-05": [
-    {
-      "title": "Brazil Heads to Runoff After Bolsonaro Son Wins First Round",
-      "facts": "Fl\u00e1vio Bolsonaro has won the first round of Brazil's presidential election, but he didn't clear the 50 percent threshold needed to avoid a runoff. The son of former President Jair Bolsonaro will face his opponent again on October 25th in what's shaping up to be a decisive moment for Latin America's largest democracy."
-    },
-    {
-      "title": "US Pulls All Bombers from British Airbase After Security Incident",
-      "facts": "The U.S. Air Force has withdrawn every aircraft from RAF Fairford in England, an abrupt move that follows a security scare last week involving suspicious vehicles near the base."
-    },
-    {
-      "title": "Supreme Court Opens New Term With Climate Liability Case",
-      "facts": "The Supreme Court's starting its new term Monday with a blockbuster environmental fight that could reshape how cities and states deal with climate change. The justices will hear arguments on whether local governments can sue oil companies in state court for damages linked to rising seas, extreme weather, and other climate impacts."
-    },
-    {
-      "title": "Democrats Project Record Number of Women in House After Midterms",
-      "facts": "Democrats are increasingly confident they'll send a historic number of women to the House of Representatives after November's elections. The party backed female candidates in several competitive districts that polling now suggests are leaning their way, setting up what could be a significant milestone for representation in Congress."
-    },
-    {
-      "title": "Treasury Chief Walks Back \"I Am the House\" Declaration as Bond Yields Keep Climbing",
-      "facts": "Treasury Secretary Scott Bessent's backing away from one of his bolder pronouncements about the bond market\u2014and it's a sign of just how uncomfortable things have gotten. In a televised interview with Axios, Bessent walked back his \"I am the house\" declaration from a month ago, a line he'd used to project confidence that the Treasury had control over bond yields."
-    },
-    {
-      "title": "Intel Shares Slide on TSMC Chip Partnership Rumors",
-      "facts": "Intel's stock took a hit Monday after reports surfaced that Taiwan Semiconductor Manufacturing Company may be joining Elon Musk's massive chip factory venture. The speculation centers on Musk's so-called Terafab project, an ambitious plan to build cutting-edge semiconductor manufacturing capacity."
-    },
-    {
-      "title": "Mortgage Rates Hit 7.57% as Housing Demand Softens Further",
-      "facts": "Mortgage rates climbed to 7.57 percent last week, and the housing market's feeling the squeeze. Demand softened noticeably as borrowing costs continue their march upward, leaving prospective buyers on the sidelines and current homeowners locked into lower rates they secured years ago."
-    },
-    {
-      "title": "Brewers One Win From Pennant After Walk-Off Comeback",
-      "facts": "Jackson Chourio delivered a two-run single off the Padres' closer with two outs in the ninth inning Sunday night, giving Milwaukee a 2-0 lead in their National League Division Series. The Brewers are now one win away from advancing to the pennant race after rallying past San Diego's Mason Miller in dramatic fashion."
-    },
-    {
-      "title": "Haaland Injury Scare Clouds Norway's Campaign",
-      "facts": "Erling Haaland asked to be substituted during Norway's match Sunday night, raising immediate concerns about his fitness heading into the club season's crucial stretch. The striker's decision to pull himself from the game signals something's bothering him, though the specifics haven't been disclosed yet."
-    },
-    {
-      "title": "Grizzlies Cut Ties With Recent Trade Acquisition Hawkins",
-      "facts": "Memphis just pulled the plug on a trade barely three weeks old. The Grizzlies and guard Jordan Hawkins have agreed to part ways via waivers, ending one of the shortest tenures you'll see for a lottery pick."
-    },
-    {
-      "title": "Raptors Lock Up Shead With Three-Year Extension",
-      "facts": "Toronto's betting big on a young guard who impressed during his rookie season. The Raptors have agreed to a three-year, $24 million contract extension with Jamal Shead, keeping him in Toronto through at least the 2027-28 season."
-    },
-    {
-      "title": "Voice Data Collection Powers Claude's Next Leap",
-      "facts": "Anthropic's rolling out a new opt-in program asking Claude users to share voice recordings\u2014and it's targeting exactly the data gap that's held voice mode back from launch. The company wants recordings of actual Claude conversations to train better speech recognition and natural-language understanding, moving beyond the synthetic and licensed audio datasets that most voice AI relies on."
-    }
-  ],
   "2026-10-06": [
     {
       "title": "U.S. Deploys Reaper Drones to Colombia and Ecuador in Cartel Crackdown",
@@ -595,6 +545,60 @@
     {
       "title": "Claude Discovers Mystery DNA Pattern That Has Scientists Stumped",
       "facts": "Claude just spotted something in the genome that looks a lot like CRISPR\u2014but nobody, including Anthropic's own scientists, can figure out what it actually does. The AI identified a repeating DNA pattern while analyzing genetic sequences, and the structure shares key similarities with CRISPR's famous gene-editing machinery."
+    }
+  ],
+  "2026-10-16": [
+    {
+      "title": "Venezuela Withdraws from International Criminal Court Amid Deadly Police Raids Investigation",
+      "facts": "Venezuela is pulling out of the International Criminal Court just as the tribunal investigates a blood-soaked anti-crime campaign that's killed thousands. Crime in Caracas has plunged dramatically, but it came at a brutal cost\u2014police raids that left thousands dead in what critics are calling extrajudicial killings."
+    },
+    {
+      "title": "Poland Scrambles Jets as Russia Strikes Western Ukraine",
+      "facts": "Fighter jets scrambled over Poland as Russian strikes hit western Ukraine, bringing the war closer than ever to NATO's eastern border. Countries along the alliance's eastern flank are growing increasingly worried about the risk of escalation, and this latest attack shows why."
+    },
+    {
+      "title": "El Ni\u00f1o Batters India's Sugar Crop, Threatening Global Supply",
+      "facts": "India's sugarcane harvest is in trouble, and that's bad news for consumers and energy planners around the world. The country is the second-largest sugar producer globally, and a poor crop driven by El Ni\u00f1o weather patterns is sending ripples through international markets."
+    },
+    {
+      "title": "Nearly One Million in Gaza Face Flooding as Winter Nears",
+      "facts": "The United Nations is warning that nearly one million displaced Palestinians in Gaza are at serious risk of flooding as winter weather approaches. Makeshift shelters and damaged infrastructure mean that thousands of people have no protection from the seasonal rains that are just weeks away."
+    },
+    {
+      "title": "Elon Musk Becomes Top Midterm Donor",
+      "facts": "Elon Musk has poured more money into this year's midterm elections than any other single donor in America. New campaign finance reports show the world's richest man has become the central financial player in Republican efforts to hold Congress, marking a dramatic turnaround from his brief falling-out with President Trump and the party earlier this year."
+    },
+    {
+      "title": "Energy Costs Push U.S. Inflation to 3.7 Percent",
+      "facts": "Higher energy prices drove U.S. inflation up to 3.7 percent in September, according to the latest Consumer Price Index report, and the timing couldn't be worse for President Trump heading into next month's midterm elections."
+    },
+    {
+      "title": "Homeownership Slips Further from Reach as Rates Hit 7.4 Percent",
+      "facts": "The dream of homeownership just got even harder to reach. Mortgage rates have climbed above 7 percent\u2014hovering around 7.4 percent for a thirty-year fixed loan\u2014the highest level since 2023."
+    },
+    {
+      "title": "Ship Attacks Near Hormuz Reach Record High",
+      "facts": "Twelve vessels were struck near the Strait of Hormuz in just one week, according to data analyzed by BBC Verify from a U.K. maritime agency\u2014a record number of attacks that's starting to choke off oil exports from the region."
+    },
+    {
+      "title": "Nearly 40 Percent of S&P 500 Stocks in Bear Market Territory",
+      "facts": "The S&P 500 might look healthy on the surface, but there's trouble brewing underneath. Nearly 40 percent of the index's stocks are down at least 20 percent from their 52-week highs\u2014the technical definition of a bear market."
+    },
+    {
+      "title": "Housing Deal Activity Surges While Investment-Grade Financing Dries Up",
+      "facts": "Housing mergers and acquisitions are suddenly looking a lot healthier, even as the money behind them is getting harder to find. New data from Zelman shows deal value in the housing sector jumped 56 percent through August of this year, a notable rebound for an industry that's been consolidating steadily."
+    },
+    {
+      "title": "Brewers Sweep Dodgers to Reach First World Series in Four Decades",
+      "facts": "Milwaukee's back in the World Series for the first time since 1982, and they got there by dismantling the defending champions. The Brewers completed a four-game sweep of the Dodgers Wednesday night with a 6-4 victory, ending Los Angeles's quest for a three-peat in such dominant fashion that the Dodgers acknowledged they'd simply been outplayed."
+    },
+    {
+      "title": "NBA GMs Predict Spurs Championship Behind Wembanyama's Historic Season",
+      "facts": "The league's general managers are making a bold prediction\u2014they expect the San Antonio Spurs to win the NBA championship this season, according to the annual GM survey released Thursday. It's a stunning projection for a team that's been rebuilding, and it's driven entirely by Victor Wembanyama."
+    },
+    {
+      "title": "Code Review for Claude Code Now Open to Everyone",
+      "facts": "Anthropic just made Code Review for Claude Code generally available, and if you're running autonomous agents, the power move here isn't just turning it on\u2014it's configuring review triggers based on risk scoring, not blanket everything. Code Review lets you set up human checkpoints before Claude Code executes certain actions, but the non-obvious pattern is using it selectively: flag high-stakes operations like database mutations, API calls that cost money, or file deletions, while letting low-risk reads and analyses run headless."
     }
   ]
 }
