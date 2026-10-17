@@ -1,70 +1,4 @@
 {
-  "2026-10-06": [
-    {
-      "title": "U.S. Deploys Reaper Drones to Colombia and Ecuador in Cartel Crackdown",
-      "facts": "The United States has shifted MQ-9 Reaper drones from Africa to Colombia and Ecuador, marking a major escalation in Washington's fight against Latin American drug cartels. These are the same drones known for high-profile lethal strikes in counterterrorism operations around the world."
-    },
-    {
-      "title": "India Removes 130 Million Names from Voter Rolls, Sparking Mass Protests",
-      "facts": "India has deleted 130 million people from its voter rolls, and the backlash is intensifying against Prime Minister Narendra Modi's government. Critics say the purge undermines the world's largest democracy and disproportionately disenfranchises Muslims under Modi's Hindu nationalist administration."
-    },
-    {
-      "title": "Jim Bakker Dies at 86",
-      "facts": "Television evangelist Jim Bakker, who built a broadcasting empire on the prosperity gospel before it all came crashing down in sex and financial scandals, has died at 86. Bakker and his wife Tammy Faye became household names in the 1980s with their PTL ministry, which combined faith, flashy production values, and a message that God wanted believers to be wealthy."
-    },
-    {
-      "title": "U.S. Bombers Withdrawn from British Base Over Iranian Drone Threat",
-      "facts": "Twelve B-1 bombers were quietly pulled out of a British air base after U.S. and British officials detected plans for an Iranian drone attack on the aircraft."
-    },
-    {
-      "title": "Tennessee Execution Attempt Fails, Reigniting Debate Over Death Penalty Methods",
-      "facts": "Tennessee's attempt to execute Christa Pike by lethal injection failed, and the botched procedure is now fueling a national debate over how\u2014and whether\u2014the United States should carry out executions. Officials haven't released full details about what went wrong during the procedure, but the failure has put a spotlight on the five methods currently used across states that still have the death penalty."
-    },
-    {
-      "title": "Trade Blockages in Persian Gulf Reshape Global Commerce",
-      "facts": "Conflict with Iran is forcing a harsh geography lesson on the global economy. Trade blockages in the Persian Gulf are disrupting the flow of goods through one of the world's most vital chokepoints, reminding policymakers and businesses that physical location still trumps technology when it comes to moving commodities."
-    },
-    {
-      "title": "Elon Musk's Personal Wealth Tops $1 Trillion",
-      "facts": "Elon Musk's personal fortune has crossed the trillion-dollar threshold, putting his net worth above the entire GDP of countries like Poland and Ireland. The milestone cements Musk's position as the wealthiest individual in modern history, driven largely by his stakes in Tesla and SpaceX."
-    },
-    {
-      "title": "OpenAI Admits Security Response to Australian Hack 'Not Good Enough'",
-      "facts": "OpenAI has acknowledged its response to a security breach involving the Australian government was inadequate. Top executive Jason Kwon told a hearing that the company has since added \"more precautions\" to its training environments after the incident exposed vulnerabilities in how it handles sensitive data."
-    },
-    {
-      "title": "Goldman Sachs Stays Bullish Despite Market Headwinds",
-      "facts": "Goldman Sachs is doubling down on optimism for U.S. stocks, even as the market faces what one insider calls \"rate chaos and narrow breadth.\" The firm's hedge fund research team is forecasting a record high for the S&P 500 before the end of the year, despite concerns that have rattled other investors."
-    },
-    {
-      "title": "Federal Judge Lets Antitrust Suit Against Zillow Proceed",
-      "facts": "A federal judge just refused to throw out an antitrust lawsuit against Zillow, and the decision could force major changes to how the real estate giant operates. The court's letting the case move forward, citing Zillow's referral fees\u2014which the lawsuit claims run between 35 and 40 percent of agents' commissions\u2014as a central concern."
-    },
-    {
-      "title": "Better.com Founder Seizes Board Control After Shareholder Vote",
-      "facts": "Vishal Garg is back in command at Better.com, the online mortgage lender he founded, after winning a shareholder vote that ousted five directors including the interim CEO. Garg secured 52 percent support from shareholders to remove the directors, a move that gives him control of the company's board once again."
-    },
-    {
-      "title": "NFL Suspends Two Officials for On-Field Conduct",
-      "facts": "The NFL just handed down suspensions to two of its own officials for how they treated players during games. Line judge Jeff Seeman is sitting out two games for apparently swearing at Cardinals tight end Trey McBride during a match."
-    },
-    {
-      "title": "White Sox One Win From First Home Clinch in Over a Century",
-      "facts": "The White Sox are on the verge of something they haven't done since 1899: clinching a playoff series at home. Chicago beat the Guardians 4-3 on Monday night to take a commanding 2-0 lead in their American League Division Series."
-    },
-    {
-      "title": "Clippers Lose Max Strus to Serious Foot Injury",
-      "facts": "Max Strus is facing a lengthy absence after suffering a partial tear of the plantar fascia in his right foot. The Clippers wing will be reevaluated in four weeks, according to league sources, which means he'll miss a significant chunk of the early regular season."
-    },
-    {
-      "title": "Trail Blazers Fire New Announcer Hours After Hiring Him",
-      "facts": "The Portland Trail Blazers hired and fired their new play-by-play announcer on the same day after old social media posts resurfaced. Braiden Bell was named to the role, then let go within hours when the team discovered inappropriate posts he'd made as a teenager back in 2012 and 2013."
-    },
-    {
-      "title": "Pentagon and Major Tech Firms Pull Back From Anthropic's Claude",
-      "facts": "The Pentagon has stopped using Anthropic's AI tools entirely after adding the company to an internal blacklist, according to a BBC report. It's a serious blow to Anthropic's enterprise credibility\u2014and it's not happening in isolation."
-    }
-  ],
   "2026-10-07": [
     {
       "title": "U.S. Deploys Armed Drones to Hunt Cartels in South America",
@@ -599,6 +533,68 @@
     {
       "title": "Code Review for Claude Code Now Open to Everyone",
       "facts": "Anthropic just made Code Review for Claude Code generally available, and if you're running autonomous agents, the power move here isn't just turning it on\u2014it's configuring review triggers based on risk scoring, not blanket everything. Code Review lets you set up human checkpoints before Claude Code executes certain actions, but the non-obvious pattern is using it selectively: flag high-stakes operations like database mutations, API calls that cost money, or file deletions, while letting low-risk reads and analyses run headless."
+    }
+  ],
+  "2026-10-17": [
+    {
+      "title": "Three Men Sentenced to 158 Years Each for Murdering Surfers in Mexico",
+      "facts": "Three men have just been sentenced to 158 years in prison each for the murders of Australian brothers Jake and Callum Robinson and their American friend Carter Rhoad during a surf trip in Mexico. This is the sentencing phase following convictions we reported earlier\u2014the men were found guilty of killing the three friends in what investigators described as a botched robbery that turned deadly."
+    },
+    {
+      "title": "Amazon Deforestation Hits Record Low as Brazil Heads to Elections",
+      "facts": "Brazil has just recorded its sharpest drop in Amazon deforestation on record, a dramatic reversal as the country heads into a key election. The Amazon rainforest, one of the world's most crucial buffers against climate change, had seen deforestation expand significantly under former president Jair Bolsonaro."
+    },
+    {
+      "title": "School Shooting in Oregon Leaves Community Searching for Answers",
+      "facts": "A gunman opened fire at Silver Rail Elementary School in Bend, Oregon, leaving the city grappling with both heroism and heartbreak. Authorities say several people worked to stop the shooter, though investigators are still piecing together exactly what happened and why."
+    },
+    {
+      "title": "Justice Department Demands Judge Step Down From Trump Golf Course Case",
+      "facts": "The Justice Department is trying to force a federal judge off a case involving a Trump golf course, escalating what's become an open confrontation between the administration and the judiciary. Prosecutors filed a motion demanding that Judge Ana C."
+    },
+    {
+      "title": "Pennsylvania Emerges as Bellwether for Nationwide Midterm Battles",
+      "facts": "Four congressional districts in Pennsylvania are crystallizing the forces that'll decide control of Congress this November. The battleground seats reveal fault lines that are showing up in races nationwide\u2014suburban revolt, economic anxiety, and the lingering shadow of the 2020 election."
+    },
+    {
+      "title": "Federal Reserve Rate Decision Harder to Call Than Markets Expect",
+      "facts": "The Federal Reserve's next interest rate decision is shaping up to be far less certain than Wall Street seems to think. Economists are making the case against another rate hike this month, but others aren't convinced those arguments hold water."
+    },
+    {
+      "title": "Senate Race Becomes Most Expensive Midterm Battle Over Data Centers",
+      "facts": "One Senate race has turned into the most expensive midterm clash in the country, and the unlikely flashpoint is data centers. Money is flooding into the contest, fueling a barrage of negative ads that voters say are impossible to escape."
+    },
+    {
+      "title": "Ship Attacks Near Strait of Hormuz Hit Record High",
+      "facts": "Twelve vessels were struck near the Strait of Hormuz in a single week, marking a record high for attacks in the critical waterway, according to analysis of UK maritime agency data. The surge in strikes comes as oil exports through the region have started to slow."
+    },
+    {
+      "title": "Tech Stocks Take Their Worst Hit Since 2023",
+      "facts": "The S&P 500's technology sector just wrapped its worst week in a year and a half, marking a dramatic shift in what's been driving the market higher. While big tech names stumbled, the broader market actually held up\u2014an equal-weighted version of the S&P 500 notched its second straight weekly gain."
+    },
+    {
+      "title": "Compass Sues California MLS Over Agent Marketing Fines",
+      "facts": "Compass is taking California's largest multiple listing service to court over fines that could cost its agents up to twenty-five hundred dollars for marketing properties outside the MLS\u2014even when their clients ask them to do it in writing. The brokerage filed suit against CRMLS and promised to cover any fines levied against its agents while the legal battle plays out."
+    },
+    {
+      "title": "First Horizon Unloads Mortgage Portfolio at a Loss",
+      "facts": "First Horizon just sold four-and-a-half billion dollars' worth of mortgages at a discount, marking a significant retreat from the broader home-loan market. The bank is refocusing its mortgage business to serve only its core relationship clients rather than chasing volume in the open market."
+    },
+    {
+      "title": "Brewers Sweep Dodgers to Reach World Series for First Time in Four Decades",
+      "facts": "Milwaukee just punched its ticket to the World Series for the first time since 1982, sweeping the Dodgers in a four-game blowout that ended Los Angeles's hopes of a three-peat. The Brewers closed it out last night with a 6-4 victory, completing a National League Championship Series that was never really close."
+    },
+    {
+      "title": "Spanish Club Challenges Thunder Rookie's NBA Eligibility",
+      "facts": "A Spanish basketball team is trying to block Thunder rookie Aday Mara from playing in the NBA this season, claiming he's still under contract with them. The overseas club has filed a challenge to Mara's eligibility, setting up what could be a lengthy international legal dispute."
+    },
+    {
+      "title": "Basketball Hall of Famer Cliff Hagan Dies at 94",
+      "facts": "Cliff Hagan, a Basketball Hall of Famer who spent his entire NBA career with the St. Louis Hawks, has died at the age of 94."
+    },
+    {
+      "title": "Claude Cracks 25-Year Cryptography Mystery",
+      "facts": "Claude just solved a puzzle that's stumped mathematicians and cryptographers for a quarter century\u2014revealing the hidden mathematical origins behind a set of encryption curves published by the National Security Agency back in the late 1990s. The curves in question are part of something called ECDSA, the elliptic curve digital signature algorithm that secures everything from your Bitcoin wallet to encrypted web traffic."
     }
   ]
 }
