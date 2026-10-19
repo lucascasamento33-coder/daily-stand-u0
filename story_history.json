@@ -1,54 +1,4 @@
 {
-  "2026-10-08": [
-    {
-      "title": "Russian Strike on Buses in Eastern Ukraine Kills Dozens",
-      "facts": "A Russian attack on civilian buses in the eastern Ukrainian city of Kramatorsk has killed at least 33 people and wounded 18 more, according to local authorities. Ukrainian officials say the strike deliberately targeted the crowded buses, aiming to maximize civilian casualties in the frontline city."
-    },
-    {
-      "title": "Myanmar's Military Leader Seeks Legitimacy in Malaysia Visit",
-      "facts": "Myanmar's military strongman is on a charm offensive, and Malaysia is his latest stop. U Min Aung Hlaing has traded in his military uniform for civilian clothes and is now visiting Malaysia as the country's president\u2014his ninth international trip in a quest for global legitimacy."
-    },
-    {
-      "title": "U.S.S. Abraham Lincoln Returns After Brutal 11-Month Deployment",
-      "facts": "The aircraft carrier U.S.S. Abraham Lincoln is finally heading home after nearly eleven months at sea\u2014one of the longest carrier deployments in recent memory."
-    },
-    {
-      "title": "California Governor Weighs Emptying Nation's Largest Death Row",
-      "facts": "Governor Gavin Newsom is ramping up discussions about commuting the sentences of all 563 prisoners on California's death row, a move that would effectively end capital punishment in the nation's most populous state. The talks intensified after Tennessee's botched execution attempt, which saw officials fail to carry out a lethal injection and left the condemned prisoner alive."
-    },
-    {
-      "title": "Treasury Yields Pummel Early 2026 Stock Winners",
-      "facts": "Treasury yields are surging, and they're quietly hammering the parts of the stock market that were winning big earlier this year. Rising yields on government bonds have begun to crush stocks that thrived in the first half of 2026, even as attention stays fixed on a handful of flashy tech names."
-    },
-    {
-      "title": "French Bonds Hit Worst Decade Since Napoleon Era",
-      "facts": "French government bonds are suffering through their worst decade in more than two centuries\u2014and the pain isn't over yet. The gap between France's ten-year bond yields and Germany's equivalent hit its widest point last week in available data stretching back to 1990, according to Bloomberg."
-    },
-    {
-      "title": "France Urges Britain to Rejoin EU Fully",
-      "facts": "France's finance minister is making a direct pitch to Britain: come all the way back into the European Union. Roland Lescure told the BBC that being inside the bloc gives member countries better tools to tackle the challenges the world is facing right now."
-    },
-    {
-      "title": "Howard Hughes Plans Massive Desert Community West of Phoenix",
-      "facts": "Howard Hughes Corporation is drawing up plans for what could become one of America's largest new communities\u2014a 400,000-resident development called Teravalis west of Phoenix. Once complete, the project would deliver more than 130,000 homes and 60 million square feet of commercial space, transforming a stretch of Arizona desert into a small city."
-    },
-    {
-      "title": "Tishman Speyer Plans Major Chrysler Building Renovation",
-      "facts": "Tishman Speyer is stepping in to restore one of New York's most iconic Art Deco landmarks, with plans to renovate the Chrysler Building and breathe new life into its long-neglected concourse. The real estate giant is also planning to add a private club high up in the building, taking advantage of those storied upper floors."
-    },
-    {
-      "title": "Ravens Land Two-Time Pro Bowl Center Jurgens in Trade With Eagles",
-      "facts": "The Baltimore Ravens just pulled off a significant midseason move, landing two-time Pro Bowl center Cam Jurgens in a trade with the Philadelphia Eagles. The deal brings one of the league's top young centers to Baltimore, where the offensive line has been under scrutiny after inconsistent play in recent weeks."
-    },
-    {
-      "title": "Haliburton Returns After 16 Months Out with Torn Achilles",
-      "facts": "Tyrese Haliburton made it back onto the court Wednesday night, more than 16 months after tearing his Achilles tendon. The Pacers star played 16 minutes against the Timberwolves, scoring seven points in what he called a highly anticipated return."
-    },
-    {
-      "title": "Claude Haiku 5.5 Cuts API Prices 90 Percent While Boosting Speed",
-      "facts": "Anthropic just dropped Claude Haiku 5.5, and the headline isn't subtle\u2014API prices are down ninety percent while the model got faster and smarter. The new Haiku is now Anthropic's third model in the Claude 5.5 family, joining Sonnet and Opus, and it's positioned as the speed-and-cost option for developers running high-volume workloads."
-    }
-  ],
   "2026-10-09": [
     {
       "title": "El Salvador's Leader Opens New Crypt for National Hero",
@@ -611,6 +561,56 @@
     {
       "title": "Claude Cracks 25-Year NSA Number Theory Puzzle",
       "facts": "Claude just solved a math problem that's stumped researchers for a quarter century\u2014and it wasn't even trying. The AI model cracked an open question about integer sequences that the National Security Agency first posed in the late 1990s, discovering a pattern that human mathematicians had missed for decades."
+    }
+  ],
+  "2026-10-19": [
+    {
+      "title": "Venezuela's Opposition Leader Pushes for Return as Trump Ties Deepen",
+      "facts": "Mar\u00eda Corina Machado, the leader of Venezuela's opposition, is blocked from entering her own country\u2014but she's not giving up. In a new interview, Machado spoke about her ongoing efforts to return to Venezuela and her relationship with the Trump administration, which has taken a keen interest in the political crisis there."
+    },
+    {
+      "title": "Australian Lawmaker Critically Hurt in Suspected Deliberate Attack",
+      "facts": "An Australian member of parliament is in critical condition after being struck by a car outside her office in what the prime minister is calling a deliberate act. Helen Haines, 65, was hit in what authorities are treating as a targeted attack, and a suspect is now in custody."
+    },
+    {
+      "title": "Republicans Pouring Cash Into Senate Races as House Majority Slips",
+      "facts": "The money map for November's midterms looks lopsided\u2014and it's telling us where Republicans think they can actually win. The GOP is vastly outspending Democrats on Senate race advertising, while letting House contests go comparatively quiet."
+    },
+    {
+      "title": "Inflation and AI Define the Economic Backdrop as Americans Vote",
+      "facts": "Voters are heading to the polls with the economy front and center\u2014and the picture they're seeing is complicated. Inflation remains high, squeezing household budgets on everything from groceries to gas."
+    },
+    {
+      "title": "France and the United States Face Strikingly Similar Debt Traps",
+      "facts": "France and the United States are grappling with nearly identical debt problems\u2014but only one of them has a global escape hatch. Both countries are running up debt at unsustainable rates, with deficits that look alarmingly similar when you put the numbers side by side."
+    },
+    {
+      "title": "Home Sellers Slash Asking Prices at Fastest Pace in Fifteen Years",
+      "facts": "Home sellers across Britain are cutting their asking prices faster than they have in a decade and a half, with three thousand properties a day seeing reductions. New data shared with the B-B-C shows more homes are being repriced downward than at any point since the financial crisis, a sign that the U-K housing market is under serious strain."
+    },
+    {
+      "title": "Tech Stocks Stumble Ahead of Critical Earnings Week",
+      "facts": "Tech stocks took a hit as Wall Street braces for a crucial week of corporate earnings that could make or break the market's momentum. The stumble comes at a pivotal moment\u2014investors are about to get results from the very companies that have powered this year's rally, and the question now is whether those firms can justify their sky-high valuations."
+    },
+    {
+      "title": "Federal Housing Finance Just Opened the Door for Build-to-Rent",
+      "facts": "The Department of Housing and Urban Development just extended FHA multifamily financing programs to build-to-rent developments\u2014and that's a big deal for anyone watching the housing market. Until now, BTR projects were largely shut out of FHA-backed loans, which offer some of the most favorable terms in real estate finance."
+    },
+    {
+      "title": "Brewers Sweep Dodgers to Reach World Series for First Time in Four Decades",
+      "facts": "The Milwaukee Brewers are heading to the World Series for the first time since 1982 after completing a stunning four-game sweep of the Los Angeles Dodgers in the National League Championship Series. It's a historic achievement for a franchise that's been waiting 44 years to get back to baseball's biggest stage."
+    },
+    {
+      "title": "Rodgers Ties Peyton Manning on All-Time Touchdown List in Steelers' Overtime Win",
+      "facts": "Aaron Rodgers just joined some rarified air, tying Peyton Manning for third place on the NFL's all-time passing touchdown list with 539 career scoring throws. The milestone came during the Pittsburgh Steelers' overtime victory, where Rodgers threw two touchdown passes to help his team pull out the win."
+    },
+    {
+      "title": "Kings Guard Ben Simmons Suffers Season-Ending Achilles Tear",
+      "facts": "Ben Simmons' comeback attempt with the Sacramento Kings just came to a crashing halt. The Kings announced Sunday that Simmons tore his Achilles tendon and will need surgery\u2014an injury that's almost certainly going to end his season before it even started."
+    },
+    {
+      "title": "Thunder Lock Up Guard Cason Wallace With $139 Million Extension",
+      "facts": "The Oklahoma City Thunder are betting big on their young defensive specialist. Cason Wallace has agreed to a five-year, $139 million rookie-scale contract extension with the Thunder, locking him in through the 2030 season."
     }
   ]
 }
