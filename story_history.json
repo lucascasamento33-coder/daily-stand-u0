@@ -1,50 +1,4 @@
 {
-  "2026-10-13": [
-    {
-      "title": "FIFA Leases Trump Tower Office for Millions Despite Rare Use",
-      "facts": "FIFA is paying millions of dollars for office space in Trump Tower that sources say is rarely used, according to a new report. The deal is the latest sign of how Gianni Infantino, who leads soccer's global governing body, has cultivated closer ties to President Trump."
-    },
-    {
-      "title": "Bougainville Copper Mine Reopening Stirs Hopes and Fears of New Violence",
-      "facts": "Rising global demand for copper has put a long-shuttered mine in Bougainville back on the map, but reopening it risks reigniting the violence that closed it four decades ago. The Panguna mine sparked a brutal civil war in the 1990s, and it's been idle ever since."
-    },
-    {
-      "title": "Six Flags Shuts Down Rides Nationwide After Georgia Fatality",
-      "facts": "One person is dead and several others injured following an incident on a roller coaster at Six Flags Over Georgia, and the company's response has been swift and sweeping. Six Flags announced it's temporarily closing nine rides across the United States and Canada as a precaution while investigators work to determine what went wrong."
-    },
-    {
-      "title": "IMF Warns Mideast Conflict Will Deepen Global Inequality",
-      "facts": "The International Monetary Fund just issued a sobering forecast: the war in the Middle East is going to widen the economic gap between rich and poor countries. Persistent conflicts in the region, combined with high energy costs and rapid technological change, will slow global growth and push prices higher, according to the IMF's latest outlook."
-    },
-    {
-      "title": "Iran War Disrupts Global Banana Supply Chain",
-      "facts": "One banana's journey from farm to grocery store is revealing just how far the economic ripple effects of the Iran conflict have spread. America's most popular fruit is getting caught in the crossfire, with supply chains facing unexpected disruptions tied to the war."
-    },
-    {
-      "title": "BlackRock Shifts Strategy on Government Bonds After Six Years",
-      "facts": "The world's largest fund manager just reversed course on a bet it's held for six years. BlackRock is now finding opportunities in government bonds after years of steering clients away from them, marking a significant shift in strategy for a firm that oversees trillions in assets."
-    },
-    {
-      "title": "Global Home Equity Market Set to Double by 2035",
-      "facts": "The global equity release market is on track to hit $52 billion by 2035, according to a new industry survey\u2014and North America's expected to drive much of that growth. Equity release products let homeowners, typically retirees, tap the value locked in their homes without selling or making monthly payments."
-    },
-    {
-      "title": "FIFA President Received Undisclosed $1.7 Million World Cup Payment",
-      "facts": "Gianni Infantino appears to have broken FIFA's own rules after an IRS filing revealed he received a $1.72 million payment tied to the World Cup that was never publicly disclosed. The payment came on top of Infantino's declared salary for 2024, raising serious questions about transparency at the top of world soccer's governing body."
-    },
-    {
-      "title": "Michael Jordan Finals Jersey Sells for Record $14 Million",
-      "facts": "A game-worn Michael Jordan jersey from the 1998 NBA Finals just became the most expensive piece of basketball memorabilia ever sold. The autographed road jersey fetched $14 million in a private sale, setting a new record for sports collectibles."
-    },
-    {
-      "title": "Tyrese Haliburton Returns After 16-Month Achilles Recovery",
-      "facts": "Tyrese Haliburton is back on the court for the Indiana Pacers after a torn Achilles tendon cost him the entire 2025-26 season. The injury happened nearly sixteen months ago and sidelined one of the league's emerging stars during what should have been a prime year for both him and the franchise."
-    },
-    {
-      "title": "Anthropic Slashes Claude Reasoning Token Theft by 99 Percent",
-      "facts": "Anthropic just rolled out new defenses that cut unauthorized extraction of Claude's reasoning tokens by up to 99 percent\u2014a major step in the arms race against what the company calls \"distillation attacks.\" These attacks work by prompting Claude to reveal its internal reasoning process, then using those outputs to train cheaper competitor models without permission. It's industrial-scale IP theft, and it's been a growing problem as Claude's extended thinking mode produces valuable multi-step reasoning that other AI labs would love to replicate on the cheap."
-    }
-  ],
   "2026-10-14": [
     {
       "title": "Haitian-Canadian Author Admits Plagiarism After Weeks of Silence",
@@ -603,6 +557,56 @@
     {
       "title": "Anthropic Launches Claude Duet, a Personal AI Agent App",
       "facts": "Anthropic just released Claude Duet, a new AI agent app designed to act as a persistent personal assistant\u2014and the key architectural shift here is that it's built to remember context across sessions and proactively surface relevant information, not just respond to one-off prompts. Claude Duet competes directly with OpenAI's ChatGPT Dots and Meta's Muse, but Anthropic is positioning it around professional workflows rather than casual consumer tasks."
+    }
+  ],
+  "2026-10-24": [
+    {
+      "title": "Brazil's Presidential Candidates Debate Ahead of Runoff Vote",
+      "facts": "Brazil's heading to the polls tomorrow for a presidential runoff that's too close to call. Former president Lula and incumbent Jair Bolsonaro squared off in their final debate, with polls showing them neck and neck going into Sunday's vote."
+    },
+    {
+      "title": "Second Ebola Death Reported in Kenya",
+      "facts": "Kenya's confirmed a second Ebola death, raising fears of a potential outbreak in East Africa. The victim was a sixty-five-year-old woman who was a close family member of the first patient, a man who'd traveled from the Democratic Republic of Congo."
+    },
+    {
+      "title": "Toddler Found Alive in Hospital Morgue After Being Declared Dead",
+      "facts": "Vincent Fiordilino was just 18 months old when staff at an Arizona hospital declared him dead this past February\u2014only to discover later that he was still alive in the morgue. His family is now recounting the harrowing ordeal, saying the child they got back isn't quite the same."
+    },
+    {
+      "title": "Washington Takes Equity Stake in Japanese-Funded Chip Plant",
+      "facts": "The Trump administration's brokering a new kind of deal in upstate New York\u2014one where the U.S. government actually takes an ownership stake in a semiconductor factory funded by Japan."
+    },
+    {
+      "title": "Fed Chair Warsh Under Pressure to Prove He Can Communicate Strategy",
+      "facts": "Investors aren't asking the Federal Reserve for perfect economic forecasting right now\u2014they're asking for clarity, and they're not getting it. Economists say what really matters is whether Fed Chairman Kevin Warsh can successfully communicate the central bank's strategy, and so far the \"non-answers\" aren't cutting it."
+    },
+    {
+      "title": "White House Reshuffles Tariffs on Canadian Goods Ahead of Midterms",
+      "facts": "Starting October thirtieth, the White House is easing tariffs on some Canadian imports while slapping new duties on others\u2014a last-minute trade shuffle that's landing just days before the midterm elections. Tariffs will be lifted on certain machinery and other products that American manufacturers have been clamoring for, giving them relief on input costs."
+    },
+    {
+      "title": "Semiconductor ETF Suffers After Record Inflows",
+      "facts": "Traders just poured a record amount of money into a leveraged semiconductor ETF, and the timing couldn't have been worse. The bullish bet on chip stocks has gotten crushed this month as fresh doubts emerged about whether the massive investments in artificial intelligence infrastructure will actually pay off."
+    },
+    {
+      "title": "Appraisers Sound Alarm on Private Listings",
+      "facts": "Real estate appraisers are raising concerns that the growing trend of private, off-market listings could slow down the home-buying process and create serious risks for property valuations. More sellers are choosing to keep their listings private, hiding interior photos and details from public view\u2014and in some cases skipping the MLS entirely."
+    },
+    {
+      "title": "Bayern Munich Coach Kompany Hospitalized After Training Collapse",
+      "facts": "Vincent Kompany collapsed during a training session Friday and is now undergoing tests in a Munich hospital, Bayern confirmed. The club hasn't released details about what caused the collapse or how serious his condition might be."
+    },
+    {
+      "title": "World Series Underway as Brewers Edge Rays in Game One",
+      "facts": "Milwaukee took Game One of the World Series last night with a 3-2 win over the Rays, surviving a late scare that nearly turned the opener upside down. The Brewers had what looked like a game-ending double play overturned on review, forcing them to close out the win the hard way."
+    },
+    {
+      "title": "Jaylen Brown Trade Fuels Celtics-76ers Rivalry",
+      "facts": "Jayson Tatum spent most of his postgame Friday night batting down talk of friction with Jaylen Brown after the Celtics met the 76ers for the first time since Brown's stunning move to Philadelphia over the summer. The star forward made it clear this isn't some Shaq-and-Kobe feud\u2014he and Brown remain close despite now being division rivals."
+    },
+    {
+      "title": "Claude Now Proves Its Own Code Safe Before You Run It",
+      "facts": "Anthropic just rolled out something that changes the game for anyone running automated code\u2014Claude can now formally verify that the code it writes is safe before executing it, catching bugs and security holes that would normally slip through. This is formal verification, the mathematical gold standard used in aerospace and cryptography, now baked directly into an LLM workflow."
     }
   ]
 }
