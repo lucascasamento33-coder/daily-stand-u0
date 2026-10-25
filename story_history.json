@@ -1,62 +1,4 @@
 {
-  "2026-10-14": [
-    {
-      "title": "Haitian-Canadian Author Admits Plagiarism After Weeks of Silence",
-      "facts": "Th\u00e9lyson Or\u00e9lien has finally broken his silence, and the acclaimed Haitian-Canadian writer is admitting to plagiarism in his new novel \"It Was Either That or Die.\" After weeks of mounting accusations, Or\u00e9lien confirmed he lifted passages from other works without attribution. He's still rejecting claims that he used artificial intelligence to generate parts of the book, drawing a line between what he calls human error and automated deception."
-    },
-    {
-      "title": "Russia Detains Japanese Reporter on Espionage Charges",
-      "facts": "Moscow's security service has detained a Japanese journalist in Russia's far east, accusing him of spying on military recruitment operations. The FSB says it arrested a reporter for the Hokkaido Shimbun newspaper on the island of Sakhalin, where he'd been covering Russia's efforts to enlist soldiers for the war in Ukraine."
-    },
-    {
-      "title": "Serial Killer Suspected in Michigan Trail Murders",
-      "facts": "Five bodies have been discovered along a greenway trail in Lansing, Michigan, and police are now investigating whether a serial killer is responsible for the string of attacks. The city's police chief said the pattern of deaths along the trail suggests the murders may be connected, raising alarm in a community where residents routinely walk, jog, and bike along the route."
-    },
-    {
-      "title": "Supreme Court Takes Up Privacy Law From the VHS Era",
-      "facts": "The Supreme Court is diving into a legal relic from 1988, and the case could reshape how your streaming data is protected in 2025. The justices are considering how the Video Privacy Protection Act\u2014written in the age of VHS tapes and \"Be Kind, Rewind\" stickers\u2014applies to today's world of Netflix queues, targeted ads, and email newsletters based on what you watch."
-    },
-    {
-      "title": "Federal Judge Blocks Sanctions on Groups Aiding War Crimes Court",
-      "facts": "A federal judge has blocked the Trump administration from imposing sanctions on two human rights organizations that provide information to the International Criminal Court. The ruling prevents the government from penalizing the groups for their work supporting the ICC's war crimes investigations, which have included probes into actions by U.S."
-    },
-    {
-      "title": "I.M.F. Warns Conflicts and Energy Costs Will Widen Global Inequality",
-      "facts": "The International Monetary Fund is sounding the alarm on a growing economic divide between rich and poor countries, and it's pointing to three big culprits: persistent conflicts in the Middle East and elsewhere, stubbornly high energy costs, and rapid technological change that's leaving developing nations behind. The organization's latest forecast predicts that these forces will slow global growth while pushing prices higher, particularly in countries that can least afford it."
-    },
-    {
-      "title": "Goldman Sachs Puts a Number on How Much A.I. Is Fueling Inflation",
-      "facts": "Goldman Sachs economists have crunched the numbers on artificial intelligence's impact on inflation, and they've come up with a specific figure for how much the tech boom is adding to price pressures. The calculations suggest that the massive spending on A.I."
-    },
-    {
-      "title": "U.K. Regulators Fine Wayfair and Others Millions for Misleading Sales Tactics",
-      "facts": "Britain's Competition and Markets Authority just hit three major retailers with fines totaling six million pounds for misleading customers about sales and discounts. The companies on the hook are Wayfair, Appliances Direct, and Gold's Gym\u2014each penalized for tactics regulators say crossed the line into deception."
-    },
-    {
-      "title": "Bank of America Hit With Double Blow",
-      "facts": "Bank of America's stock tumbled Wednesday after the bank reported weaker-than-expected earnings alongside a massive $1.2 billion government fine. The timing couldn't be worse\u2014investors were already bracing for a lackluster quarter, and the fine just compounded the disappointment."
-    },
-    {
-      "title": "Miami's Little Havana Faces Historic Density Overhaul",
-      "facts": "Miami's Little Havana could soon see apartment towers eight stories tall and density like nowhere else in the city. A new plan under consideration would allow up to 150 units per acre in the historic neighborhood\u2014a dramatic shift for an area known for its low-rise streetscape and Cuban cultural heritage."
-    },
-    {
-      "title": "HUD Signals Fresh Push on 203(k) Renovation Loans",
-      "facts": "The federal government's about to take another swing at making home renovation loans easier to get. HUD is eyeing changes to its 203(k) program\u2014the mortgage product that lets buyers finance both a home purchase and repairs in a single loan\u2014with an eye toward boosting housing supply by making older homes more viable."
-    },
-    {
-      "title": "NFL Suspends Rams Tackle Two Games for Post-Game Punch",
-      "facts": "The NFL handed down a two-game suspension without pay to Rams left tackle Alaric Jackson after he punched Bills outside linebacker Bradley Chubb following Monday night's game in Los Angeles. The incident happened after the final whistle, away from the field of play, making it a clear violation of league conduct rules."
-    },
-    {
-      "title": "Celtics Lock Up Pritchard With $44 Million Extension",
-      "facts": "The Celtics are betting big on their sharpshooting bench guard. Payton Pritchard has agreed to a two-year, $44.2 million extension that keeps him in Boston through at least 2028."
-    },
-    {
-      "title": "Anthropic Reinvents Source Control as Claude Pushes 30,000 Code Merges Daily",
-      "facts": "Anthropic's engineering team hit a breaking point in September when Claude agents started pushing 30,000 code merges per day\u2014and the company's entire source control system couldn't keep up. The sheer volume of AI-generated code overwhelmed traditional Git workflows, forcing Anthropic to redesign how it manages version control from the ground up."
-    }
-  ],
   "2026-10-15": [
     {
       "title": "Brazil Passes Shorter Working Week Ahead of Presidential Run-Off",
@@ -607,6 +549,72 @@
     {
       "title": "Claude Now Proves Its Own Code Safe Before You Run It",
       "facts": "Anthropic just rolled out something that changes the game for anyone running automated code\u2014Claude can now formally verify that the code it writes is safe before executing it, catching bugs and security holes that would normally slip through. This is formal verification, the mathematical gold standard used in aerospace and cryptography, now baked directly into an LLM workflow."
+    }
+  ],
+  "2026-10-25": [
+    {
+      "title": "Brazil Votes in Lula vs. Bolsonaro Family Showdown",
+      "facts": "Brazil heads to the polls today in an election that's become a rematch with a twist. Leftist incumbent Luiz In\u00e1cio Lula da Silva is facing off against Fl\u00e1vio Bolsonaro\u2014the son of Brazil's imprisoned former president, Jair Bolsonaro."
+    },
+    {
+      "title": "Mass Protests Rock France as Over 1,300 Arrested",
+      "facts": "France erupted in another day of massive demonstrations, with more than 1,300 people arrested as clashes broke out across the country. Hundreds of thousands took to the streets in what's become one of the largest protest movements in recent French history."
+    },
+    {
+      "title": "Student Movement Challenges Serbia's Longtime Leader",
+      "facts": "Serbia's voting today in a parliamentary election that's turned into a genuine contest for the first time in over a decade. A student-led movement is mounting a serious challenge to the governing party of Aleksandar Vucic, who's dominated Serbian politics since he rose to power more than ten years ago."
+    },
+    {
+      "title": "Iran Expands Mobilization Campaign Amid Attack Fears",
+      "facts": "Iran's Revolutionary Guard is taking its \"self-sacrifice\" mobilization campaign nationwide, a move that underscores how seriously Tehran is preparing for potential military strikes. The IRGC announced it plans to use main squares in the capital of all 31 provinces for what it's calling the Janfada campaign."
+    },
+    {
+      "title": "Democrats Lead in Pennsylvania House Battles That Could Decide Control",
+      "facts": "Democrats are ahead in four critical House races in Pennsylvania that could determine which party controls Congress after the midterms. New polling shows Democratic candidates leading outright in two of those contests, holding a narrow edge in a third, and tied in the fourth."
+    },
+    {
+      "title": "Young Americans Ditch Car Ownership as Costs Soar",
+      "facts": "Vehicle ownership has become so expensive that a growing number of young Americans are simply walking away from it altogether. With car prices at record highs and the full cost of ownership\u2014insurance, maintenance, gas, parking\u2014increasingly out of reach, some young adults are choosing to go car-free entirely."
+    },
+    {
+      "title": "Britain Pledges One Billion Pounds for Affordable Housing",
+      "facts": "Britain's government is injecting another billion pounds into social and affordable housing, bringing total funding for a ten-year housing program to more than forty billion pounds. The announcement comes as the U-K housing market shows serious signs of strain, with sellers slashing asking prices at the fastest pace in fifteen years."
+    },
+    {
+      "title": "California Voters Weigh Historic Billionaire Tax",
+      "facts": "California voters are deciding whether to impose what could be the world's first state-level tax specifically targeting billionaires. The ballot measure would require the ultra-wealthy to hand over billions of dollars to fund improvements to healthcare across the state."
+    },
+    {
+      "title": "Financial Conditions Trump Interest Rates in Fed Policy",
+      "facts": "Wall Street's obsessing over the next Fed rate move, but the real signal investors should watch has nothing to do with the rate itself. It's all about financial conditions\u2014a broader measure that captures everything from credit spreads to stock valuations to how easily money flows through the system."
+    },
+    {
+      "title": "Forty Percent of Americans Have No Retirement Plan",
+      "facts": "More than forty percent of Americans are heading into retirement without doing the math\u2014and that's a recipe for financial trouble down the road. A new study found nearly half of Americans haven't calculated what they'll actually need to live on once they stop working."
+    },
+    {
+      "title": "Mortgage Rates Edge Down as Bond Market Whipsaws",
+      "facts": "Mortgage rates dipped closer to seven-point-three percent this week, offering a sliver of relief to prospective buyers who've been sitting on the sidelines. The move lower came as the ten-year Treasury yield dropped below five percent in what was, by all accounts, a volatile week for the bond market."
+    },
+    {
+      "title": "Appraisers Sound Alarm on Private Real Estate Listings",
+      "facts": "Real estate appraisers are warning that the growing trend of private, off-market listings is creating serious problems for home valuations. More and more sellers are keeping their properties hidden from public view, with interiors never photographed and sales happening entirely outside the MLS."
+    },
+    {
+      "title": "Brewers Rally From Four Down to Take Commanding World Series Lead",
+      "facts": "Milwaukee's doing it again\u2014grinding out wins when it counts most. The Brewers rallied from a 4-0 first-inning deficit to beat Tampa Bay 5-4 in Game 2 on Saturday, and they're now two wins away from their first championship since 1982."
+    },
+    {
+      "title": "Chiefs OT Josh Simmons Kicked Out of Team Meeting",
+      "facts": "Things got tense inside the Chiefs' locker room this week. Offensive tackle Josh Simmons was kicked out of a team meeting by head coach Andy Reid and quarterback Patrick Mahomes, according to sources who spoke to NFL Network."
+    },
+    {
+      "title": "Magic Star Banchero Sidelined Multiple Weeks With Ankle Injury",
+      "facts": "Paolo Banchero is facing a multi-week absence after sustaining a low-grade high ankle sprain, the Magic announced. It's a significant blow for Orlando, which has been riding Banchero's stellar play early in the season."
+    },
+    {
+      "title": "Claude Duet Launches as Anthropic's New AI Agent for Work",
+      "facts": "Anthropic just released Claude Duet, a new AI agent designed to compete directly with apps like Muse and Dots in the personal productivity space. Unlike the main Claude interface, Duet is built specifically as a proactive assistant that can manage tasks, organize information, and work alongside you throughout the day rather than waiting for you to prompt it."
     }
   ]
 }
