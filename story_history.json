@@ -1,54 +1,4 @@
 {
-  "2026-10-15": [
-    {
-      "title": "Brazil Passes Shorter Working Week Ahead of Presidential Run-Off",
-      "facts": "Brazil's Congress just handed President Lula da Silva a legislative win he badly needs. Lawmakers approved a bill to shorten the country's standard working week, and the timing couldn't be more deliberate\u2014there's a presidential run-off election in ten days."
-    },
-    {
-      "title": "School Roof Collapse in Pakistan Kills at Least 20 Children",
-      "facts": "At least twenty children are dead and more than forty people injured after a school roof collapsed in Peshawar, Pakistan. A teacher was also killed in the disaster, which happened suddenly while students were inside the building."
-    },
-    {
-      "title": "Trump Calls for Military Leakers to Be Shot",
-      "facts": "At a rally in Arizona, President Trump said people who leak military plans to the press should be shot\u2014a dramatic escalation in his long-running attacks on journalists and their sources. The comment marks one of the most explicit calls for violence against government employees who speak to reporters that Trump has made from a campaign stage."
-    },
-    {
-      "title": "Migrant Children Facing Deportation Hearings Without Lawyers",
-      "facts": "Thousands of unaccompanied migrant children are now going through deportation proceedings without legal representation, a sharp break from years of government practice. The Trump administration is in a contract dispute with an organization that's long helped provide lawyers to minors at the southern border, and that fight has left many kids to face immigration judges alone."
-    },
-    {
-      "title": "Inflation Jumps to 3.7 Percent as Energy Costs Surge Ahead of Midterms",
-      "facts": "September's inflation report brought unwelcome news for the White House, with consumer prices climbing 3.7 percent\u2014driven almost entirely by a massive spike in energy costs. Gas prices are up 34 percent from a year ago, a surge that's been building since the start of the conflict with Iran."
-    },
-    {
-      "title": "CoreWeave AI Bonds Collapse to 81 Cents on the Dollar",
-      "facts": "The artificial intelligence boom just hit a speed bump in the bond market, and it's raising uncomfortable questions about how much of the AI frenzy is built on solid ground. CoreWeave, one of the big players providing computing infrastructure for AI companies, saw its bonds\u2014issued just a few months ago\u2014plunge to 81 cents on the dollar earlier Wednesday."
-    },
-    {
-      "title": "UK Economy Defies Expectations with August Growth",
-      "facts": "Britain's economy managed to eke out growth in August, surprising analysts who'd been bracing for a contraction. The economy grew 0.1 percent during the month, a modest figure but enough to defy expectations and provide a bit of breathing room for the government ahead of its upcoming budget."
-    },
-    {
-      "title": "Fannie and Freddie Deploy Tech to Catch Occupancy and Income Defects Early",
-      "facts": "The government-backed mortgage giants are rolling out new technology to flag borrowers who aren't actually living in the homes they claimed as primary residences\u2014and to catch income discrepancies before loans close. Fannie Mae and Freddie Mac are deploying these tools upfront in the underwriting process, aiming to slash the costly buyback requests that have plagued lenders for years."
-    },
-    {
-      "title": "Court Ruling Puts Reverse Mortgage Warehouse Lenders on Notice",
-      "facts": "A federal appeals court just sided with Ginnie Mae in a closely watched case against Texas Capital Bank, and the decision has big implications for anyone financing reverse mortgages. The ruling signals that warehouse and bankruptcy lenders who use HMBS-related payment streams\u2014known as tails\u2014as collateral could be in trouble if Ginnie Mae decides to extinguish those securities."
-    },
-    {
-      "title": "Brewers One Win From World Series After Crushing Dodgers in Game 3",
-      "facts": "The Milwaukee Brewers are on the verge of the World Series, sitting just one victory away after beating the Dodgers 6-2 in Game 3 of the National League Championship Series. Jake Bauers delivered the knockout punch with a go-ahead two-run homer in the seventh inning that gave Milwaukee the cushion it needed."
-    },
-    {
-      "title": "Celtics Lock Down Pritchard With $44 Million Extension",
-      "facts": "The Boston Celtics are betting big on Payton Pritchard, handing their backup guard a two-year extension worth $44.2 million. The deal includes a mutual option for the 2029-30 season, giving both sides flexibility down the road."
-    },
-    {
-      "title": "Claude Discovers Mystery DNA Pattern That Has Scientists Stumped",
-      "facts": "Claude just spotted something in the genome that looks a lot like CRISPR\u2014but nobody, including Anthropic's own scientists, can figure out what it actually does. The AI identified a repeating DNA pattern while analyzing genetic sequences, and the structure shares key similarities with CRISPR's famous gene-editing machinery."
-    }
-  ],
   "2026-10-16": [
     {
       "title": "Venezuela Withdraws from International Criminal Court Amid Deadly Police Raids Investigation",
@@ -615,6 +565,60 @@
     {
       "title": "Claude Duet Launches as Anthropic's New AI Agent for Work",
       "facts": "Anthropic just released Claude Duet, a new AI agent designed to compete directly with apps like Muse and Dots in the personal productivity space. Unlike the main Claude interface, Duet is built specifically as a proactive assistant that can manage tasks, organize information, and work alongside you throughout the day rather than waiting for you to prompt it."
+    }
+  ],
+  "2026-10-26": [
+    {
+      "title": "Lula Defeats Bolsonaro's Son in Brazil Presidential Race",
+      "facts": "Brazil's president Luiz In\u00e1cio Lula da Silva has won reelection, defeating Fl\u00e1vio Bolsonaro in a contest that's reshaped Latin America's political landscape. Fl\u00e1vio is the eldest son of Jair Bolsonaro, the right-wing leader Lula first defeated four years ago."
+    },
+    {
+      "title": "Xi Jinping Purges Officials Ahead of Expected Fourth Term",
+      "facts": "China's Xi Jinping is conducting another round of purges targeting officials he says can't be trusted, clearing the path for what's expected to be his fourth term in power in 2027. Xi has complained openly that officials throughout the government are unreliable, using language about needing to \"pull out the sick trees\" from the system."
+    },
+    {
+      "title": "Midterm Elections Eight Days Out",
+      "facts": "Eight days from the midterms, control of Congress remains up for grabs. Democrats are mounting an ambitious offensive, targeting Republican strongholds in what they're calling a once-in-a-generation opportunity to expand their Senate majority."
+    },
+    {
+      "title": "Data Center Super PAC Backs South Carolina Senate Candidate",
+      "facts": "The artificial intelligence industry just made its first major political bet. A new super PAC aligned with data center companies is pouring money into a South Carolina Senate race to support Darline Graham, a Republican facing an unexpectedly close contest."
+    },
+    {
+      "title": "North Carolina Bridge Rebuilding Lags Two Years After Hurricane",
+      "facts": "Two years after Hurricane Helene devastated western North Carolina, hundreds of families still can't reach their homes by car. The 2024 storm destroyed private bridges that rural households depend on to cross creeks and ravines\u2014and the state has rebuilt just forty-four of them so far."
+    },
+    {
+      "title": "Anthropic's Coming IPO Could Reshape the Tech Economy",
+      "facts": "Anthropic sits at the center of an enormous web of business partnerships and suppliers\u2014and its plan to go public is being watched as a barometer for the entire economy. The AI company's initial public offering is expected to send ripples far beyond Silicon Valley, affecting everything from cloud computing providers to chip manufacturers who've built their strategies around servicing AI firms."
+    },
+    {
+      "title": "Goldman Slashes Korea Stock Forecast as AI Trade Cools",
+      "facts": "Goldman Sachs just cut its forecast for South Korea's Kospi index by twenty-five percent, a dramatic downgrade driven by fading optimism around artificial intelligence stocks. The move matters because the Kospi has become a leading indicator for the global AI trade\u2014it's packed with semiconductor and tech hardware companies that supply the chips and components powering AI systems worldwide."
+    },
+    {
+      "title": "Verizon Stock Jumps on Subscriber Surge",
+      "facts": "Verizon just delivered a surprise that has Wall Street buzzing\u2014the telecom giant added more than double the number of new subscribers that analysts expected. The stock climbed sharply as investors digested the news, marking a significant win for a company that's been battling intense competition in the wireless market."
+    },
+    {
+      "title": "Mortgage Rates Hit 7.28%, Adding $215 to Monthly Payments",
+      "facts": "Mortgage rates just climbed to 7.28%, and that's pushing the cost of homeownership further out of reach for many buyers. On a median-priced home of about $429,100 with a standard 20% down payment, the monthly principal and interest payment has jumped from roughly $2,130 to $2,350."
+    },
+    {
+      "title": "Home Equity Investments Gain Ground as Mortgage Rates Stay High",
+      "facts": "There's a growing push for home equity investments to grab market share while mortgage rates stay elevated, according to Michael Gifford at Splitero. HEIs\u2014home equity investments\u2014let homeowners tap their equity without taking on debt, and that's become more attractive as traditional borrowing costs have surged."
+    },
+    {
+      "title": "Brewers Rally From Four Down to Take Command of World Series",
+      "facts": "The Milwaukee Brewers are two wins away from their first championship in over four decades after a stunning comeback gave them a 2-0 stranglehold on the World Series. Down 4-0 in the first inning Sunday night, the Brewers chipped away at Tampa Bay's lead before rallying to win 5-4, taking full control of the series as it shifts to Florida."
+    },
+    {
+      "title": "Thunder Guard Jalen Williams Suffers Serious Leg Injury",
+      "facts": "Jalen Williams was stretchered off the court over the weekend after suffering what appeared to be a significant leg injury, and the Thunder are still waiting for answers. Coach Mark Daigneault told reporters the team would get a full briefing Monday morning, but didn't offer any details about what happened or how severe the damage might be."
+    },
+    {
+      "title": "Luka Doncic Drops NBA's First 50-Point Game as Lakers Stay Perfect",
+      "facts": "Luka Doncic put up 52 points on Sunday, hitting eight three-pointers, to power the Lakers past the Jazz 132-123 and keep Los Angeles undefeated at 3-0. It's the first 50-point performance of the NBA season, and Doncic made it look effortless\u2014torching Utah's defense from every spot on the floor."
     }
   ]
 }
