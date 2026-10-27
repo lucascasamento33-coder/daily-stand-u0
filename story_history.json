@@ -1,58 +1,4 @@
 {
-  "2026-10-16": [
-    {
-      "title": "Venezuela Withdraws from International Criminal Court Amid Deadly Police Raids Investigation",
-      "facts": "Venezuela is pulling out of the International Criminal Court just as the tribunal investigates a blood-soaked anti-crime campaign that's killed thousands. Crime in Caracas has plunged dramatically, but it came at a brutal cost\u2014police raids that left thousands dead in what critics are calling extrajudicial killings."
-    },
-    {
-      "title": "Poland Scrambles Jets as Russia Strikes Western Ukraine",
-      "facts": "Fighter jets scrambled over Poland as Russian strikes hit western Ukraine, bringing the war closer than ever to NATO's eastern border. Countries along the alliance's eastern flank are growing increasingly worried about the risk of escalation, and this latest attack shows why."
-    },
-    {
-      "title": "El Ni\u00f1o Batters India's Sugar Crop, Threatening Global Supply",
-      "facts": "India's sugarcane harvest is in trouble, and that's bad news for consumers and energy planners around the world. The country is the second-largest sugar producer globally, and a poor crop driven by El Ni\u00f1o weather patterns is sending ripples through international markets."
-    },
-    {
-      "title": "Nearly One Million in Gaza Face Flooding as Winter Nears",
-      "facts": "The United Nations is warning that nearly one million displaced Palestinians in Gaza are at serious risk of flooding as winter weather approaches. Makeshift shelters and damaged infrastructure mean that thousands of people have no protection from the seasonal rains that are just weeks away."
-    },
-    {
-      "title": "Elon Musk Becomes Top Midterm Donor",
-      "facts": "Elon Musk has poured more money into this year's midterm elections than any other single donor in America. New campaign finance reports show the world's richest man has become the central financial player in Republican efforts to hold Congress, marking a dramatic turnaround from his brief falling-out with President Trump and the party earlier this year."
-    },
-    {
-      "title": "Energy Costs Push U.S. Inflation to 3.7 Percent",
-      "facts": "Higher energy prices drove U.S. inflation up to 3.7 percent in September, according to the latest Consumer Price Index report, and the timing couldn't be worse for President Trump heading into next month's midterm elections."
-    },
-    {
-      "title": "Homeownership Slips Further from Reach as Rates Hit 7.4 Percent",
-      "facts": "The dream of homeownership just got even harder to reach. Mortgage rates have climbed above 7 percent\u2014hovering around 7.4 percent for a thirty-year fixed loan\u2014the highest level since 2023."
-    },
-    {
-      "title": "Ship Attacks Near Hormuz Reach Record High",
-      "facts": "Twelve vessels were struck near the Strait of Hormuz in just one week, according to data analyzed by BBC Verify from a U.K. maritime agency\u2014a record number of attacks that's starting to choke off oil exports from the region."
-    },
-    {
-      "title": "Nearly 40 Percent of S&P 500 Stocks in Bear Market Territory",
-      "facts": "The S&P 500 might look healthy on the surface, but there's trouble brewing underneath. Nearly 40 percent of the index's stocks are down at least 20 percent from their 52-week highs\u2014the technical definition of a bear market."
-    },
-    {
-      "title": "Housing Deal Activity Surges While Investment-Grade Financing Dries Up",
-      "facts": "Housing mergers and acquisitions are suddenly looking a lot healthier, even as the money behind them is getting harder to find. New data from Zelman shows deal value in the housing sector jumped 56 percent through August of this year, a notable rebound for an industry that's been consolidating steadily."
-    },
-    {
-      "title": "Brewers Sweep Dodgers to Reach First World Series in Four Decades",
-      "facts": "Milwaukee's back in the World Series for the first time since 1982, and they got there by dismantling the defending champions. The Brewers completed a four-game sweep of the Dodgers Wednesday night with a 6-4 victory, ending Los Angeles's quest for a three-peat in such dominant fashion that the Dodgers acknowledged they'd simply been outplayed."
-    },
-    {
-      "title": "NBA GMs Predict Spurs Championship Behind Wembanyama's Historic Season",
-      "facts": "The league's general managers are making a bold prediction\u2014they expect the San Antonio Spurs to win the NBA championship this season, according to the annual GM survey released Thursday. It's a stunning projection for a team that's been rebuilding, and it's driven entirely by Victor Wembanyama."
-    },
-    {
-      "title": "Code Review for Claude Code Now Open to Everyone",
-      "facts": "Anthropic just made Code Review for Claude Code generally available, and if you're running autonomous agents, the power move here isn't just turning it on\u2014it's configuring review triggers based on risk scoring, not blanket everything. Code Review lets you set up human checkpoints before Claude Code executes certain actions, but the non-obvious pattern is using it selectively: flag high-stakes operations like database mutations, API calls that cost money, or file deletions, while letting low-risk reads and analyses run headless."
-    }
-  ],
   "2026-10-17": [
     {
       "title": "Three Men Sentenced to 158 Years Each for Murdering Surfers in Mexico",
@@ -619,6 +565,48 @@
     {
       "title": "Luka Doncic Drops NBA's First 50-Point Game as Lakers Stay Perfect",
       "facts": "Luka Doncic put up 52 points on Sunday, hitting eight three-pointers, to power the Lakers past the Jazz 132-123 and keep Los Angeles undefeated at 3-0. It's the first 50-point performance of the NBA season, and Doncic made it look effortless\u2014torching Utah's defense from every spot on the floor."
+    }
+  ],
+  "2026-10-27": [
+    {
+      "title": "Brazil's Lula Charts Independent Course, Complicating Trump's Regional Strategy",
+      "facts": "Brazil's leftist president Lula da Silva is back in power, and he's already proving to be a complication for President Trump's Latin America policy. The relationship between the two leaders has thawed somewhat since Lula's recent electoral victory, but analysts say several flashpoints could easily reignite tensions."
+    },
+    {
+      "title": "India Defeats New Zealand to Seal T20 Series",
+      "facts": "India wrapped up its five-match Twenty20 series against New Zealand with a convincing six-wicket win in the third game. Abhishek Sharma led the charge with a century, anchoring a 133-run opening partnership that put India firmly in control from the start."
+    },
+    {
+      "title": "Election Officials Brace for Federal Interference at Polls",
+      "facts": "State and local election officials across the country are drawing up contingency plans to respond to potential federal interference on Election Day next week. The preparations include protocols for handling possible I.C.E."
+    },
+    {
+      "title": "AI Debt Crunch Could Shape Fed Strategy on Rate Cuts",
+      "facts": "The artificial intelligence gold rush is running into a credit wall, and it might give the Federal Reserve cover to slow down on rate cuts. Financing for AI projects has gotten harder and more expensive to come by as investors take a harder look at the massive capital spending that's been fueling the boom."
+    },
+    {
+      "title": "Chinese Brands Drop Mbapp\u00e9 Over Mao Joke Backlash",
+      "facts": "Major Chinese companies are severing ties with soccer star Kylian Mbapp\u00e9 after he allegedly joked about a meme comparing his face to \"a Chinese dictator.\" The comment\u2014which appears to reference Mao Zedong\u2014has triggered a swift and severe corporate backlash across China's massive consumer market. Chinese brands that had endorsement deals with Mbapp\u00e9 are now cutting him loose as public anger spreads on social media."
+    },
+    {
+      "title": "Options Traders Take Control of S&P 500",
+      "facts": "The S&P 500's been stuck in neutral since June, and there's a surprising reason why\u2014options traders have effectively seized control of the index. A team at UBS says the explosive growth in options trading volume is now shaping daily market moves more than traditional stock buyers and sellers."
+    },
+    {
+      "title": "FICO Slashes Mortgage Credit Scores to $10 in Defensive Industry Play",
+      "facts": "FICO's making a drastic move to protect its turf in the mortgage market, and it's slashing prices to do it. The credit scoring giant just announced its Preferred Program, locking in mortgage credit pulls at ten dollars per score\u2014a dramatic discount from current pricing."
+    },
+    {
+      "title": "Rust Belt City Eliminates Lot Size Minimums to Jumpstart Housing Revival",
+      "facts": "A Rust Belt city just wiped minimum lot sizes off the books entirely, and it's opened the door for hundreds of vacant parcels to finally get built on. The zoning rewrite allows homes to go up on any lot that meets basic yard setback rules, no matter how small\u2014a dramatic departure from old rules that kept oddball and undersized lots undevelopable."
+    },
+    {
+      "title": "Harry Kane Wins Ballon d'Or After Years of Waiting",
+      "facts": "Harry Kane's finally got his hands on the Ballon d'Or, and it's been a long time coming. The award ceremony wrapped up with Kane taking home the men's prize after what organizers called a remarkable year for both Bayern Munich and England."
+    },
+    {
+      "title": "Thunder Hit With Double Surgery Blow as Playoff Hopes Take Major Hit",
+      "facts": "The Oklahoma City Thunder are facing a personnel crisis that could derail their season before it really gets going. Guards Jalen Williams and Cason Wallace are both headed for surgery\u2014Williams on his ankle, Wallace on his shoulder\u2014and there's no timetable for either to return."
     }
   ]
 }
