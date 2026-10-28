@@ -1,66 +1,4 @@
 {
-  "2026-10-17": [
-    {
-      "title": "Three Men Sentenced to 158 Years Each for Murdering Surfers in Mexico",
-      "facts": "Three men have just been sentenced to 158 years in prison each for the murders of Australian brothers Jake and Callum Robinson and their American friend Carter Rhoad during a surf trip in Mexico. This is the sentencing phase following convictions we reported earlier\u2014the men were found guilty of killing the three friends in what investigators described as a botched robbery that turned deadly."
-    },
-    {
-      "title": "Amazon Deforestation Hits Record Low as Brazil Heads to Elections",
-      "facts": "Brazil has just recorded its sharpest drop in Amazon deforestation on record, a dramatic reversal as the country heads into a key election. The Amazon rainforest, one of the world's most crucial buffers against climate change, had seen deforestation expand significantly under former president Jair Bolsonaro."
-    },
-    {
-      "title": "School Shooting in Oregon Leaves Community Searching for Answers",
-      "facts": "A gunman opened fire at Silver Rail Elementary School in Bend, Oregon, leaving the city grappling with both heroism and heartbreak. Authorities say several people worked to stop the shooter, though investigators are still piecing together exactly what happened and why."
-    },
-    {
-      "title": "Justice Department Demands Judge Step Down From Trump Golf Course Case",
-      "facts": "The Justice Department is trying to force a federal judge off a case involving a Trump golf course, escalating what's become an open confrontation between the administration and the judiciary. Prosecutors filed a motion demanding that Judge Ana C."
-    },
-    {
-      "title": "Pennsylvania Emerges as Bellwether for Nationwide Midterm Battles",
-      "facts": "Four congressional districts in Pennsylvania are crystallizing the forces that'll decide control of Congress this November. The battleground seats reveal fault lines that are showing up in races nationwide\u2014suburban revolt, economic anxiety, and the lingering shadow of the 2020 election."
-    },
-    {
-      "title": "Federal Reserve Rate Decision Harder to Call Than Markets Expect",
-      "facts": "The Federal Reserve's next interest rate decision is shaping up to be far less certain than Wall Street seems to think. Economists are making the case against another rate hike this month, but others aren't convinced those arguments hold water."
-    },
-    {
-      "title": "Senate Race Becomes Most Expensive Midterm Battle Over Data Centers",
-      "facts": "One Senate race has turned into the most expensive midterm clash in the country, and the unlikely flashpoint is data centers. Money is flooding into the contest, fueling a barrage of negative ads that voters say are impossible to escape."
-    },
-    {
-      "title": "Ship Attacks Near Strait of Hormuz Hit Record High",
-      "facts": "Twelve vessels were struck near the Strait of Hormuz in a single week, marking a record high for attacks in the critical waterway, according to analysis of UK maritime agency data. The surge in strikes comes as oil exports through the region have started to slow."
-    },
-    {
-      "title": "Tech Stocks Take Their Worst Hit Since 2023",
-      "facts": "The S&P 500's technology sector just wrapped its worst week in a year and a half, marking a dramatic shift in what's been driving the market higher. While big tech names stumbled, the broader market actually held up\u2014an equal-weighted version of the S&P 500 notched its second straight weekly gain."
-    },
-    {
-      "title": "Compass Sues California MLS Over Agent Marketing Fines",
-      "facts": "Compass is taking California's largest multiple listing service to court over fines that could cost its agents up to twenty-five hundred dollars for marketing properties outside the MLS\u2014even when their clients ask them to do it in writing. The brokerage filed suit against CRMLS and promised to cover any fines levied against its agents while the legal battle plays out."
-    },
-    {
-      "title": "First Horizon Unloads Mortgage Portfolio at a Loss",
-      "facts": "First Horizon just sold four-and-a-half billion dollars' worth of mortgages at a discount, marking a significant retreat from the broader home-loan market. The bank is refocusing its mortgage business to serve only its core relationship clients rather than chasing volume in the open market."
-    },
-    {
-      "title": "Brewers Sweep Dodgers to Reach World Series for First Time in Four Decades",
-      "facts": "Milwaukee just punched its ticket to the World Series for the first time since 1982, sweeping the Dodgers in a four-game blowout that ended Los Angeles's hopes of a three-peat. The Brewers closed it out last night with a 6-4 victory, completing a National League Championship Series that was never really close."
-    },
-    {
-      "title": "Spanish Club Challenges Thunder Rookie's NBA Eligibility",
-      "facts": "A Spanish basketball team is trying to block Thunder rookie Aday Mara from playing in the NBA this season, claiming he's still under contract with them. The overseas club has filed a challenge to Mara's eligibility, setting up what could be a lengthy international legal dispute."
-    },
-    {
-      "title": "Basketball Hall of Famer Cliff Hagan Dies at 94",
-      "facts": "Cliff Hagan, a Basketball Hall of Famer who spent his entire NBA career with the St. Louis Hawks, has died at the age of 94."
-    },
-    {
-      "title": "Claude Cracks 25-Year Cryptography Mystery",
-      "facts": "Claude just solved a puzzle that's stumped mathematicians and cryptographers for a quarter century\u2014revealing the hidden mathematical origins behind a set of encryption curves published by the National Security Agency back in the late 1990s. The curves in question are part of something called ECDSA, the elliptic curve digital signature algorithm that secures everything from your Bitcoin wallet to encrypted web traffic."
-    }
-  ],
   "2026-10-18": [
     {
       "title": "Pope Leo Addresses Public After Lung Surgery",
@@ -607,6 +545,76 @@
     {
       "title": "Thunder Hit With Double Surgery Blow as Playoff Hopes Take Major Hit",
       "facts": "The Oklahoma City Thunder are facing a personnel crisis that could derail their season before it really gets going. Guards Jalen Williams and Cason Wallace are both headed for surgery\u2014Williams on his ankle, Wallace on his shoulder\u2014and there's no timetable for either to return."
+    }
+  ],
+  "2026-10-28": [
+    {
+      "title": "Mexico Battles Massive Seaweed Invasion",
+      "facts": "Mexico's Navy has declared war on sargassum\u2014and it's a fight the country's tourism industry can't afford to lose. Thousands of tons of seaweed are washing up on Caribbean beaches daily, turning the water what officials describe as \"the color of chocolate.\" The massive bloom threatens Mexico's tourism-reliant economy, forcing the military to mount an unprecedented cleanup operation along some of the country's most valuable coastline."
+    },
+    {
+      "title": "Ukraine Ceasefire Holds in Kherson Region",
+      "facts": "A ceasefire across Ukraine's Kherson region has been extended, with both Russian and Ukrainian officials reporting no breaches so far. The truce was originally arranged to allow stranded residents of Oleshky to evacuate or receive assistance, but it's now holding across a wider area."
+    },
+    {
+      "title": "Moscow Monument Dispute Breaks Wartime Silence",
+      "facts": "Russians are speaking out against their own government's plans to tear down a beloved landmark\u2014and that's a rarity in the middle of a war. A state broadcaster says it can't afford to restore a 1922 steel tower often called Russia's \"Eiffel Tower,\" so it plans to dismantle the Modernist structure instead."
+    },
+    {
+      "title": "Oil Spill Shuts Down UAE Beaches",
+      "facts": "An oil spill in the Strait of Hormuz has reached the United Arab Emirates, forcing authorities to close multiple beaches. The spill came from a damaged tanker, and crude has now spread far enough to foul UAE coastline\u2014a major problem for a country that markets itself as a luxury tourism and business destination."
+    },
+    {
+      "title": "South Carolina Senate Race in Dead Heat as GOP Faces Uphill Battle",
+      "facts": "Senator Darline Graham is fighting for her political life in South Carolina\u2014a state that's been reliably Republican for decades. A new poll shows the Senate race there is now a statistical tossup, a stunning development that underscores the headwinds Republicans are facing heading into the midterms."
+    },
+    {
+      "title": "Trump Administration Reverses Course on Opioid-Related Substance After Industry Pressure",
+      "facts": "Health officials are backing away from a proposed ban on kratom, a powerful substance marketed as a natural product, after intensive lobbying from the industry. The administration will now allow some levels of the substance to remain in consumer products, a significant reversal from its earlier stance."
+    },
+    {
+      "title": "Federal Judge Keeps Ilhan Omar Search Warrant Sealed",
+      "facts": "The Justice Department is refusing to unseal the warrant that authorized a search of Representative Ilhan Omar's home earlier this month. More than a dozen news organizations have asked a federal judge to make the documents public, arguing the public has a right to know why law enforcement searched a sitting member of Congress's residence."
+    },
+    {
+      "title": "AI Spending Scrambles Gold-Platinum Stock Signal",
+      "facts": "The artificial intelligence boom is rewriting the rulebook on one of Wall Street's oldest market indicators. For decades, the relationship between gold and platinum prices served as a reliable signal for stock market direction\u2014when the spread between the two metals hit certain levels, investors could anticipate broader market moves with reasonable confidence."
+    },
+    {
+      "title": "UK Minimum Wage Set to Rise as Budget Looms",
+      "facts": "Britain's minimum wage is set to increase, Chancellor John Healey will announce in the Budget on October 28th. The pay rise will apply to most workers, but there's a notable exception\u201418-to-20-year-olds will not receive the larger increase that older workers are getting."
+    },
+    {
+      "title": "Memory Chip Shortage Set to Stretch Through the Decade",
+      "facts": "SK Hynix just told Wall Street something that's going to reshape the AI arms race for years to come. The South Korean memory-chip giant delivered solid third-quarter results, but it's the company's outlook that's got investors sitting up\u2014SK Hynix says supply constraints for the advanced memory chips that power AI systems will last all the way through 2030."
+    },
+    {
+      "title": "Alexander Brothers Sentenced to 30 Years After Real Estate Rape Allegations",
+      "facts": "Tal and Oren Alexander\u2014once among New York's most powerful luxury real estate brokers\u2014have been sentenced to 30 years in prison after being accused of raping or sexually assaulting more than a dozen women. Their brother Alon was also sentenced alongside them."
+    },
+    {
+      "title": "Manhattan Judge Halts Late-Night Construction on Chinatown Jail",
+      "facts": "A Manhattan judge just handed Chinatown residents a rare and surprisingly swift victory\u2014temporarily blocking construction on a new jail from running after 6 p.m. The ruling comes after residents of a senior center sued to stop round-the-clock construction noise that's been rattling their building since work began."
+    },
+    {
+      "title": "Colts Trade Buckner Back to 49ers, Continue Teardown",
+      "facts": "The Indianapolis Colts are in full rebuild mode, shipping defensive tackle DeForest Buckner back to the San Francisco 49ers for a 2027 fourth-round pick. It's the second major trade the Colts have made in quick succession\u2014guard Quenton Nelson went to a contender just days ago."
+    },
+    {
+      "title": "Rays Storm Back in Twelfth to Stave Off World Series Elimination",
+      "facts": "The Tampa Bay Rays pulled off a stunning rally in the bottom of the twelfth inning to beat the Milwaukee Brewers and keep the World Series alive. Milwaukee was three outs away from their first championship in franchise history before the Rays stormed back to force a Game 5."
+    },
+    {
+      "title": "Edwards Faces Two Months on Sideline After Knee Procedure",
+      "facts": "Anthony Edwards is heading into surgery Thursday for an arthroscopic procedure on his right knee that'll keep him out of action for up to two months. The timing couldn't be worse for Minnesota\u2014Edwards just made history in the season opener, putting up 40 points to join Michael Jordan and Wilt Chamberlain as the only players with multiple 40-point opening nights."
+    },
+    {
+      "title": "Kawhi Leonard Sidelined for Weeks with Knee Swelling",
+      "facts": "The Raptors will be without Kawhi Leonard for weeks due to swelling in his left knee. There's no firm timetable yet, but sources say Leonard is expected to miss a significant period as the team takes a cautious approach with the injury."
+    },
+    {
+      "title": "Claude Lands on Every Federal Desktop",
+      "facts": "The General Services Administration just locked in a new deal that'll put Claude on the desktop of every federal worker who wants it\u2014and at a steep discount. The expanded OneGov agreement with Anthropic means agencies across all levels of government can now tap Claude without negotiating their own contracts, cutting through the usual procurement red tape that can drag on for months."
     }
   ]
 }
