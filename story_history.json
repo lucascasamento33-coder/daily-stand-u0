@@ -1,70 +1,4 @@
 {
-  "2026-10-18": [
-    {
-      "title": "Pope Leo Addresses Public After Lung Surgery",
-      "facts": "Pope Leo made his first public appearance since undergoing lung surgery, speaking to the faithful in his weekly address just one day after being discharged from the hospital. The pontiff said \"this experience has made me feel a special closeness to all those who are battling illness and infirmity.\" The Vatican hasn't disclosed many details about the surgery or what led to it, but the Pope's return to the public eye suggests he's recovering."
-    },
-    {
-      "title": "South Korea's AI Dating Show Blurs Reality and Romance",
-      "facts": "Three South Korean celebrities are dating artificial intelligence avatars on a new reality TV show, and it's become a cultural phenomenon in a country where AI is hugely popular. The program features singing, dancing, and yes\u2014getting dumped by a computer."
-    },
-    {
-      "title": "New Evidence Emerges in O.J. Simpson Murder Case",
-      "facts": "Newly unsealed court records are upending what we thought we knew about the O.J. Simpson case\u2014and they reveal authorities had an \"extremely reliable\" informant who told them about the missing murder weapon."
-    },
-    {
-      "title": "Rural Republican Voters Waver Amid Economic Strain",
-      "facts": "Farmers and ranchers who've stood by Republicans for a decade are starting to reconsider their allegiance\u2014and it's economic pain that's driving the shift. President Trump's base in farm country is showing cracks as multiple pressures converge: the war in Iran, tariffs that have disrupted export markets, and rising costs that are squeezing family budgets."
-    },
-    {
-      "title": "Arizona Voters Question Health Movement's GOP Alliance",
-      "facts": "Some voters who were energized by the MAHA movement's alliance with President Trump's campaign are now having second thoughts about their Republican ties. MAHA\u2014which stands for \"Make America Healthy Again\"\u2014had merged its agenda with Trump's MAGA coalition heading into the 2024 race, bringing health-focused voters into the Republican fold."
-    },
-    {
-      "title": "Inflation, Spending, and AI Shape Voter Anxieties as Election Day Nears",
-      "facts": "Americans are heading to the polls with three big economic forces on their minds\u2014and they're pulling in different directions. Inflation remains stubbornly high, making everything from groceries to gas more expensive than it was a few years ago."
-    },
-    {
-      "title": "Seven Percent Mortgages Aren't Stopping Cash Buyers and Second-Home Hunters",
-      "facts": "While first-time buyers are getting priced out by mortgage rates hovering around seven percent, there's a segment of the market that couldn't care less about borrowing costs. Individual investors and second-home buyers made up one in five home purchases in September\u2014the highest share in more than a year."
-    },
-    {
-      "title": "IMF Gathering in Bangkok Dominated by China Worries and AI Uncertainty",
-      "facts": "Finance ministers and central bankers gathered in Bangkok this week for the International Monetary Fund's annual meeting, and two issues dominated the hallway conversations\u2014China's economic slowdown and the unpredictable impact of artificial intelligence. Global finance leaders are grappling with what happens if the world's second-largest economy continues to sputter, potentially dragging down growth in emerging markets that depend on Chinese demand."
-    },
-    {
-      "title": "Silver's Steep Drop Signals Economic Trouble Ahead",
-      "facts": "Silver prices have cratered more than fifty percent from their record high earlier this year, and that sharp decline is flashing a warning sign about the economy's direction. The metal's collapse matters because silver has historically served as a reliable indicator of industrial demand\u2014it's used in everything from solar panels to electronics."
-    },
-    {
-      "title": "Apple Enters Foldable Phone Market With Two-Thousand-Dollar iPhone Duo",
-      "facts": "Apple's finally jumped into the foldable phone game. Preorders opened Friday for the iPhone Duo, the company's first-ever foldable device, carrying a two-thousand-dollar price tag that puts it squarely in luxury territory."
-    },
-    {
-      "title": "Mortgage Rates Could Dip Below 7% by Year-End\u2014If the Stars Align",
-      "facts": "Mortgage rates might finally slip back under 7% before the holidays, but it's far from a sure thing. The path exists, according to new industry analysis, but whether borrowers actually see that relief depends on two big wildcards: mortgage spreads and global geopolitical stability."
-    },
-    {
-      "title": "Compass Sues MLS Over Fines for Agent Marketing Outside the System",
-      "facts": "Compass is taking its fight with a major California MLS to court, and the brokerage says it'll cover any fines levied against its agents in the dispute. The lawsuit targets the California Regional Multiple Listing Service, alleging that agents are being hit with fines as high as $2,500 for marketing listings publicly outside the MLS\u2014even when their own clients have directed them in writing to do exactly that."
-    },
-    {
-      "title": "Brewers Sweep Dodgers to Reach World Series for First Time in Four Decades",
-      "facts": "Milwaukee's long wait is over. The Brewers completed a stunning four-game sweep of the Dodgers in the National League Championship Series, punching their ticket to the World Series for the first time since 1982."
-    },
-    {
-      "title": "Kevin Durant and Suns Owner Trade Barbs on Social Media",
-      "facts": "Kevin Durant is publicly firing back at his own team's owner. Mat Ishbia, who runs the Phoenix Suns, apparently framed the team's acquisition of Durant as a mistake\u2014and Durant didn't let that slide."
-    },
-    {
-      "title": "Wizards' Top Pick Dybantsa Leaves Preseason With Ankle Injury",
-      "facts": "The Washington Wizards are holding their breath after losing their franchise centerpiece to injury. AJ Dybantsa, the first overall pick in this year's draft, exited the team's preseason finale after landing awkwardly on his ankle."
-    },
-    {
-      "title": "Claude Cracks 25-Year NSA Number Theory Puzzle",
-      "facts": "Claude just solved a math problem that's stumped researchers for a quarter century\u2014and it wasn't even trying. The AI model cracked an open question about integer sequences that the National Security Agency first posed in the late 1990s, discovering a pattern that human mathematicians had missed for decades."
-    }
-  ],
   "2026-10-19": [
     {
       "title": "Venezuela's Opposition Leader Pushes for Return as Trump Ties Deepen",
@@ -615,6 +549,68 @@
     {
       "title": "Claude Lands on Every Federal Desktop",
       "facts": "The General Services Administration just locked in a new deal that'll put Claude on the desktop of every federal worker who wants it\u2014and at a steep discount. The expanded OneGov agreement with Anthropic means agencies across all levels of government can now tap Claude without negotiating their own contracts, cutting through the usual procurement red tape that can drag on for months."
+    }
+  ],
+  "2026-10-29": [
+    {
+      "title": "Fl\u00e1vio Bolsonaro Lands in Miami Amid Coup Claims",
+      "facts": "Fl\u00e1vio Bolsonaro touched down in Miami and immediately pushed back against accusations he's fleeing Brazil. The son of the defeated presidential candidate insists he's the victim of a coup d'\u00e9tat and political persecution, though he's offering no evidence to back that up."
+    },
+    {
+      "title": "China Cracks Down on AI-Generated Videos of Classic Characters",
+      "facts": "Beijing isn't amused by the latest internet trend. Fan-made videos featuring beloved characters from Chinese literary classics\u2014some created with artificial intelligence\u2014have caught the attention of authorities, and not in a good way."
+    },
+    {
+      "title": "Chinese Spy Operation Targeted Nvidia Chief",
+      "facts": "Nvidia CEO Jensen Huang was at the center of a Chinese intelligence operation that made it all the way to a presidential briefing, according to new reporting. A Chinese businesswoman who'd developed a close relationship with Huang was found to be passing intelligence back to Beijing\u2014a breach serious enough that President Trump was personally briefed on the matter."
+    },
+    {
+      "title": "Michigan House Race Splits Voters on Data Center Plans",
+      "facts": "One of the most competitive House races in the country is being fought over something you wouldn't expect: data centers. In battleground Michigan, voters are sharply divided on a proposal to build massive data facilities in their district, and they can't agree on which candidate has the better solution."
+    },
+    {
+      "title": "California Wealth Tax Campaign Goes All-In on Social Media",
+      "facts": "A billionaire tax initiative in California is running one of the cheapest\u2014and most unconventional\u2014campaigns in recent memory. Supporters of the wealth tax measure are short on cash, so they've ditched traditional advertising almost entirely and are instead betting everything on influencers and social media to spread the word."
+    },
+    {
+      "title": "Fed Keeps Rates Steady But December Hike Looms",
+      "facts": "The Federal Reserve held interest rates unchanged today, but officials are making it clear that another increase is likely coming in December. Fed Chairman Kevin Warsh told reporters that the central bank will use what he called an \"information-rich\" period before the next meeting to decide whether inflation's stubborn enough to warrant action."
+    },
+    {
+      "title": "Poundland Teeters on Brink of Collapse",
+      "facts": "One of Britain's most recognizable discount retailers is on the edge of administration, and the fallout could ripple through high streets across the country. Poundland's management has filed a notice of intention to appoint administrators, a formal step that buys the company time to find a buyer or restructure but signals just how dire things have gotten."
+    },
+    {
+      "title": "Eli Lilly Raises Outlook Again as Weight-Loss Drug Soars",
+      "facts": "Eli Lilly just lifted its annual forecast for the third time this year, and it's all thanks to one blockbuster product: Zepbound. The GLP-1 drug has become the dominant player in America's prescription weight-loss market, racking up sales that keep blowing past Wall Street's expectations."
+    },
+    {
+      "title": "ServiceNow Plunges Toward Record Drop After Earnings Miss",
+      "facts": "ServiceNow is headed for its worst single-day decline ever, with shares down nearly eighteen percent in premarket trading after the software company's third-quarter earnings disappointed investors. The company's results came in below expectations, raising concerns about whether demand for its enterprise software is cooling amid tighter corporate budgets."
+    },
+    {
+      "title": "New Home Construction Faces Steep Decline Through 2035",
+      "facts": "Single-family home construction could collapse over the next decade as America's demographics shift in ways builders aren't prepared for. New research from analyst Scott Cox projects that single-family permits could plunge anywhere from 24 to 86 percent by 2035, dropping from today's roughly 880,000 permits annually down to a range between just 123,000 and 670,000 a year."
+    },
+    {
+      "title": "Alexander Brothers Sentenced to 30 Years for Sexual Assault",
+      "facts": "Tal and Oren Alexander, once among New York's most elite real estate brokers, have been sentenced to 30 years in prison for raping or assaulting more than a dozen women. The brothers built glittering careers brokering luxury properties across Manhattan, but prosecutors say they used that wealth and access to lure victims over years of predatory behavior."
+    },
+    {
+      "title": "Brewers Win First World Series in Franchise History",
+      "facts": "The Milwaukee Brewers are World Series champions for the first time in their 57-year existence. They closed out the Tampa Bay Rays in Game 5 on Wednesday night, ending one of baseball's longest championship droughts."
+    },
+    {
+      "title": "Jefferson's Quiet Start Amid Vikings' Perfect Record",
+      "facts": "Justin Jefferson's having the quietest hot start you'll ever see. The Vikings receiver has just 23 catches through seven weeks\u2014a career low for him at this point in a season\u2014yet Minnesota is sitting at 6-0."
+    },
+    {
+      "title": "Jokic Closes In on Triple-Double Crown with 200th",
+      "facts": "Nikola Jokic just hit a milestone that puts him within striking distance of NBA history. The Denver center notched his 200th career triple-double Wednesday night against the Pelicans, putting up 21 points, 13 rebounds, and 10 assists as the Nuggets rolled to a win."
+    },
+    {
+      "title": "Pacers Lose Haliburton for Two Weeks to Hamstring Injury",
+      "facts": "Indiana's taking a hit that'll test their depth for the next couple of weeks. Tyrese Haliburton is out with what the Pacers are calling a mild left hamstring strain, and coach Rick Carlisle says he'll miss at least two weeks."
     }
   ]
 }
