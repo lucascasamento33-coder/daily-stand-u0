@@ -1,58 +1,4 @@
 {
-  "2026-10-20": [
-    {
-      "title": "Haiti Mayor Killed After Warnings Ignored",
-      "facts": "The mayor of Kenscoff, a town near Haiti's capital, spent months sounding the alarm about gang threats closing in on his community. He wrote hundreds of letters to government officials, pleading for help and warning that lives were at stake."
-    },
-    {
-      "title": "Ukraine Accuses U.S. of Withholding Missile Warnings",
-      "facts": "A senior adviser to President Zelensky is accusing the United States of restricting intelligence sharing in a way that's costing Ukrainian lives. Serhii Beskrestnov told the BBC that Ukraine hasn't been getting enough advance warning about incoming Russian missile attacks, leaving civilians and defenders with little time to seek shelter."
-    },
-    {
-      "title": "RNC Transfers $50 Million to Midterm Candidates in Massive Cash Infusion",
-      "facts": "The Republican National Committee is moving $50 million directly into congressional races, taking advantage of both its bulging war chest and a Supreme Court campaign finance ruling from earlier this year that loosened restrictions on party-to-candidate transfers. It's one of the largest single cash infusions from a national party committee to down-ballot races in recent memory."
-    },
-    {
-      "title": "Mississippi Won't Charge Officers Who Shot Toddler During Diaper Theft Response",
-      "facts": "Mississippi Attorney General Lynn Fitch announced the state won't bring criminal charges against police officers who shot a toddler after surrounding a car with guns drawn in response to a report of stolen diapers. The statement was terse, offering little explanation months after the incident put a spotlight on use-of-force policies in the state."
-    },
-    {
-      "title": "Neil Armstrong's Boyhood Home Sold to Historical Society After $400,000 Donation",
-      "facts": "The house where Neil Armstrong spent his high school years in Wapakoneta, Ohio, now belongs to a local historical society, thanks to a $400,000 gift from a retired pilot. The home is where the first man to walk on the moon lived during his formative teenage years before heading off to Purdue and eventually NASA."
-    },
-    {
-      "title": "Iran Taunts White House as Midterm Vote Looms",
-      "facts": "Iran's openly taunting President Trump over gas prices as the U.S. heads into midterm elections, and both sides are watching the vote closely before making their next moves in the conflict."
-    },
-    {
-      "title": "Britain's Small Businesses Pull Back on Hiring",
-      "facts": "The U.K.'s unemployment rate just fell, but there's a catch\u2014small businesses are cutting back on new hires, and they're pointing directly at labor costs as the reason. The Office for National Statistics released the mixed data, showing the jobless rate ticking down even as smaller firms tap the brakes on expansion."
-    },
-    {
-      "title": "South Korea's AI Stock Flop Signals Broader Investor Doubts",
-      "facts": "October's turned into a graveyard for artificial intelligence IPOs, and the latest casualty is a South Korean offering that just flopped in spectacular fashion. Three separate flotations for data-center providers\u2014backed by heavyweights like Nvidia, Blackstone, and SoftBank\u2014have been shelved this month alone, and investors are making their skepticism loud and clear."
-    },
-    {
-      "title": "AI Earnings Reality Check Arrives This Week",
-      "facts": "The AI boom has dominated Wall Street for months, but we're about to find out whether the rest of the economy can keep up. Earnings season is shifting into higher gear this week, with a wave of companies outside the tech sector set to report results that'll reveal how consumer spending and corporate America are really holding up."
-    },
-    {
-      "title": "California's Starter Home Laws Unlock Small-Scale Development",
-      "facts": "California's new starter home laws are beginning to reshape how small developers approach residential projects, stacking state tools to make marginal lots suddenly pencil out. The playbook ranges from backyard accessory units all the way up to ten-home subdivisions, and builders are layering these programs together to unlock projects that wouldn't have been feasible under old zoning."
-    },
-    {
-      "title": "Rays Punch World Series Ticket, End Cleveland's 78-Year Wait",
-      "facts": "The Tampa Bay Rays are heading to the World Series after beating the Cleveland Guardians in six games to clinch the American League pennant. Junior Caminero's first career postseason home run off All-Star closer Cade Smith in the seventh inning Monday night sealed the deal and sent the Rays to face the Milwaukee Brewers in the Fall Classic."
-    },
-    {
-      "title": "Hornets Lock In Brandon Miller With $209 Million Extension",
-      "facts": "The Charlotte Hornets just made Brandon Miller one of the richest young players in basketball. Miller agreed to a five-year, $209 million rookie-scale contract extension that locks him in through the end of the decade."
-    },
-    {
-      "title": "Ben Simmons Tears Achilles Tendon in Sacramento",
-      "facts": "Ben Simmons is facing another devastating injury setback after tearing his Achilles tendon during training camp with the Kings. Sacramento announced Sunday that Simmons will undergo surgery\u2014an injury that's almost certainly going to cost him the entire season."
-    }
-  ],
   "2026-10-21": [
     {
       "title": "Brazil's Election Flooded With AI-Generated Content",
@@ -627,6 +573,60 @@
     {
       "title": "Malicious Code Injected Into Official Claude Extension",
       "facts": "Up to five thousand developers just had a backdoor installed on their machines through what looked like a legitimate update to the official Claude Code extension. The compromised version\u20142.1.313\u2014was uploaded to the Cursor marketplace and planted a persistent SSH backdoor that gave attackers remote access to infected systems."
+    }
+  ],
+  "2026-10-31": [
+    {
+      "title": "Spain's Rail Safety Under Scrutiny After Second Fatal Crash",
+      "facts": "Spain's heading into a snap general election with yet another train disaster hanging over the government. Prime Minister Pedro S\u00e1nchez had hoped to campaign on inequality and affordable housing\u2014instead, he's defending his administration's competence after the country's second major rail accident this year."
+    },
+    {
+      "title": "US Approves Major Patriot Missile Sale to Ukraine",
+      "facts": "Washington's approved the sale of 500 Patriot interceptor missiles to Ukraine in what amounts to a massive boost for Kyiv's air defenses. These American-made interceptors are the only effective weapon Ukraine has for shooting down Russia's ballistic missiles, which have been pounding cities and critical infrastructure throughout the war."
+    },
+    {
+      "title": "Vietnam Launches Massive Campaign to Recover War Dead",
+      "facts": "Vietnam's government has wrapped up a 500-day operation to find and identify soldiers who fell during the war\u2014and it's unearthing hundreds of bodies across the countryside. The campaign is giving some families long-awaited closure decades after losing loved ones."
+    },
+    {
+      "title": "Binance Scrambles to Recover $6.3 Billion After Massive Hack",
+      "facts": "Crypto giant Binance is racing to recover $6.3 billion stolen in what the company's calling a highly complex hack\u2014and investigators believe North Korea's elite cyber operatives are behind it. If confirmed, this would be the largest crypto heist in history by a wide margin."
+    },
+    {
+      "title": "Nebraska Senate Race Tightens as Voters Question Independent's Label",
+      "facts": "Pete Ricketts is leading independent candidate Dan Osborn in Nebraska's Senate race, according to new polling from the Times and Siena College. But there's a twist that's complicating Osborn's pitch to voters."
+    },
+    {
+      "title": "U.S. Economy Accelerates to Fastest Growth in a Year",
+      "facts": "The U.S. economy expanded at a 3.4 percent annual rate in the third quarter, the fastest pace of growth in a year."
+    },
+    {
+      "title": "Fed Officials Split on How Much to Say About Rate Plans",
+      "facts": "Fed Chair Warsh is pushing for the central bank to say less about its interest rate plans, but he's facing pushback from at least two officials who want more transparency, not less. The division comes as Fed officials signal that more rate hikes are still needed to bring down inflation."
+    },
+    {
+      "title": "Intel Suffers Historic Stock Collapse",
+      "facts": "Intel just posted its worst single-day stock performance in decades, wiping out a staggering one hundred and forty billion dollars in market value. The chipmaker's shares cratered on Friday as its core PC business buckled under multiple pressures hitting all at once."
+    },
+    {
+      "title": "JPMorgan's New Tower Becomes New York's Priciest Office Ever Built",
+      "facts": "JPMorgan's new headquarters at 270 Park Avenue just set a record nobody was aiming for\u2014it's now the most expensive office tower ever constructed in New York City. The bank's latest estimates peg the total cost at six billion dollars, billions more than other recent high-end office projects in Manhattan."
+    },
+    {
+      "title": "Brooklyn and Queens Renters Scammed by Fake Agent With Multiple Aliases",
+      "facts": "A man from Long Island is facing charges after allegedly scamming fifteen would-be renters across Brooklyn and Queens, operating under at least a dozen different names. Rajat Verma posed as a real estate agent, according to prosecutors, convincing renters to hand over deposits and fees for apartments that either didn't exist or weren't actually available."
+    },
+    {
+      "title": "Colts Open Door to Jonathan Taylor Trade",
+      "facts": "The Indianapolis Colts have reversed course and are now willing to trade running back Jonathan Taylor, according to multiple reports. Sources say the team is actively in talks with several franchises interested in acquiring the star running back."
+    },
+    {
+      "title": "Lakers Sold for $12.5 Billion in Sudden Deal",
+      "facts": "Mark Walter is selling the Los Angeles Lakers to Josh Kushner in what's being called one of the most stunning transactions in sports history. The two men finalized terms Thursday at a valuation of twelve-point-five billion dollars, sources confirmed to ESPN, and they're expected to sign the formal agreement soon."
+    },
+    {
+      "title": "Malicious Extensions Hit Thousands of Claude Developers in Supply Chain Attack",
+      "facts": "A supply chain attack has compromised Claude developer tools, delivering malware to thousands of machines worldwide. Multiple sources confirm that malicious versions of the Claude Code extension\u2014used by developers to integrate Claude into their workflows\u2014made it onto developer laptops, turning them into targets for remote access trojans."
     }
   ]
 }
