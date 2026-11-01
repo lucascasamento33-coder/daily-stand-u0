@@ -1,58 +1,4 @@
 {
-  "2026-10-21": [
-    {
-      "title": "Brazil's Election Flooded With AI-Generated Content",
-      "facts": "Artificial intelligence has become the wildcard in Brazil's high-stakes presidential run-off, and election authorities are scrambling to keep up. AI-generated videos are flooding Brazilian social media just days before voters head to the polls, overwhelming a system that spent years learning to combat traditional electoral misinformation."
-    },
-    {
-      "title": "Australian Lawmaker Loses Both Legs in Alleged Attack",
-      "facts": "Helen Haines, a sitting member of Australia's Parliament, has lost both legs after a driver allegedly ran a car into her in what authorities are treating as a deliberate attack. Her husband confirmed the devastating injuries as the 43-year-old alleged attacker, Brendan Nugent, appeared in court for the first time Wednesday facing multiple charges."
-    },
-    {
-      "title": "Russia Frees American Prisoner in Gesture to White House",
-      "facts": "Russia has released American citizen Stephen Hubbard from prison, according to state media reports\u2014a move that appears designed to curry favor with President Trump while costing Moscow very little. The release comes as the White House has been engaged in quiet diplomacy with the Kremlin over Americans detained in Russia."
-    },
-    {
-      "title": "Trump's Poll Numbers Crater as Midterms Loom",
-      "facts": "President Trump's approval rating has hit a new low just two weeks before midterm elections, and a New York Times/Siena poll shows Democrats opening up a commanding lead in the battle for Congress. Likely voters now favor Democratic candidates over Republicans by eleven percentage points in their own congressional districts\u2014a margin wide enough to potentially flip control of the House."
-    },
-    {
-      "title": "Body Camera Footage Released in Fatal Police Shooting of Toddler",
-      "facts": "Newly released body camera and surveillance video shows the chaotic moments before police shot and killed one-year-old Kohen Wiley in a Walmart parking lot. The footage provides the first public glimpse of a confrontation that's sparked outrage and calls for accountability since the shooting occurred."
-    },
-    {
-      "title": "Iran Turns Gas Prices Into Weapon Against Trump Ahead of Midterms",
-      "facts": "Iran's making sure American voters see the price at the pump before they head to the polls. Tehran's publicly taunting President Trump over surging gas costs, and it's no accident\u2014the midterm elections are just days away, and both sides in the ongoing conflict know energy prices could sway the outcome."
-    },
-    {
-      "title": "British Inflation Jumps to 3.5 Percent as Budget Looms",
-      "facts": "Britain's inflation rate just jumped to 3.5 percent in September, up from 3.1 percent the month before\u2014and it's the highest reading in a year. The surge is driven largely by petrol and diesel prices, which pushed the overall cost of living higher across the board."
-    },
-    {
-      "title": "Musk Confirms Tesla and SpaceX Merger Under Consideration",
-      "facts": "Elon Musk just confirmed what Wall Street's been whispering about for months\u2014he's seriously considering merging Tesla and SpaceX into a single mega-company. Musk says special committees within both companies have already been formed to explore the possibility, signaling this isn't just idle speculation."
-    },
-    {
-      "title": "SpaceX Stock Surge Lifts AI Sector",
-      "facts": "SpaceX's stock is climbing, and it's taking a big chunk of the artificial intelligence sector along for the ride. The space company's shares are surging on news that demand for its computing power has exploded beyond expectations."
-    },
-    {
-      "title": "Compass MLS Strategy Triggers Appraisal Warning From Rival Brokerages",
-      "facts": "Compass is demanding changes to how its listings flow into multiple listing services, and leaders at rival brokerages say the move could blow up the data foundation that appraisals and pricing decisions depend on. Executives from Brown Harris Stevens, NextHome, and Lamacchia Realty are calling it a potential case of \"mutually assured destruction\"\u2014warning that if Compass withholds or delays MLS data, it'll undermine comparable sales information everyone uses to value properties."
-    },
-    {
-      "title": "Kvaratskhelia Out for Season After ACL Rupture",
-      "facts": "Paris Saint-Germain's star winger Khvicha Kvaratskhelia is done for the season after rupturing his anterior cruciate ligament during Tuesday's Champions League thriller against Barcelona. The injury happened in a match that's already being called one of the best games of the tournament\u2014a back-and-forth showdown between what many are saying are the two best clubs in the world right now."
-    },
-    {
-      "title": "Pistons Stage Historic Opening Night Comeback Against Celtics",
-      "facts": "The Pistons just pulled off the biggest comeback in NBA opening night history. Detroit erased a 22-point deficit against the Celtics to steal a win on the first day of the season\u2014the largest such rally in the play-by-play era."
-    },
-    {
-      "title": "Claude Just Designed Protein Binders Against Scorpion Venom in 64 Hours",
-      "facts": "Anthropic published results this week showing Claude designed hundreds of thousands of candidate proteins in just 64 hours\u2014specifically targeting neurotoxins found in scorpion venom. The work demonstrates Claude's ability to tackle computational biology at a scale and speed that would've taken traditional methods months or years."
-    }
-  ],
   "2026-10-22": [
     {
       "title": "El Salvador Threatens Action Over Kidnapped Soldiers in Haiti",
@@ -627,6 +573,72 @@
     {
       "title": "Malicious Extensions Hit Thousands of Claude Developers in Supply Chain Attack",
       "facts": "A supply chain attack has compromised Claude developer tools, delivering malware to thousands of machines worldwide. Multiple sources confirm that malicious versions of the Claude Code extension\u2014used by developers to integrate Claude into their workflows\u2014made it onto developer laptops, turning them into targets for remote access trojans."
+    }
+  ],
+  "2026-11-01": [
+    {
+      "title": "India Opposition Mounts Mass Protest in New Delhi",
+      "facts": "India's Congress Party is staging what could become one of the largest demonstrations in a string of recent rallies, with protesters still streaming into New Delhi as organizers try to build momentum. The opposition is demanding the resignation of the country's election chief over fears that a voter roll revision exercise could leave as many as 130 million voters off the rolls."
+    },
+    {
+      "title": "German Protests Turn Violent as Shops Looted",
+      "facts": "Cost-of-living protests across Germany escalated into violence, with shops looted in cities including Berlin, Hamburg, and Frankfurt. The demonstrations drew tens of thousands to the streets, many of them young people demanding better education and lower living costs."
+    },
+    {
+      "title": "Korean Language Surges in Popularity Across Japan",
+      "facts": "Japanese speakers are increasingly peppering their conversations with Korean words and phrases, a striking cultural shift that would have been unthinkable just a generation ago. The rise of Korean terms in everyday Japanese represents a complete reversal from colonial times, when Japan suppressed Korean language and culture across the peninsula it occupied."
+    },
+    {
+      "title": "Qatar LNG Carrier Struck in Gulf Incident",
+      "facts": "A Qatari liquefied natural gas carrier was hit by what the company described as \"unidentified objects\" while transiting the Gulf. Qatar Gas Transport Company reported the incident but said there were no injuries to crew members and no environmental damage from the strike."
+    },
+    {
+      "title": "Midterm Vote Tuesday Hinges on Inflation Concerns",
+      "facts": "The midterm elections wrap up Tuesday, and one issue has dominated the campaign more than any other: the cost of living. Voters across the country are linking high prices directly to the current administration's policies, turning inflation into the defining concern of this cycle."
+    },
+    {
+      "title": "Alaska Decides Fate of Ranked Choice Voting",
+      "facts": "Alaskans head to the polls Tuesday to vote not just on Senate and governor's races, but on whether to scrap the state's ranked choice voting system entirely. The unique ballot format\u2014which lets voters rank candidates by preference rather than picking just one\u2014has faced growing criticism since it was adopted."
+    },
+    {
+      "title": "California Billionaire Tax Could Set National Precedent",
+      "facts": "California voters are deciding whether to impose what would be the world's first state-level tax targeting billionaires, and the result could reshape the national conversation on taxing the ultra-wealthy. The ballot measure would require billionaires to contribute billions of dollars specifically earmarked for healthcare improvements across the state."
+    },
+    {
+      "title": "Medicare Tests AI for Treatment Approvals as Services Drop Sharply",
+      "facts": "Medicare's experimenting with artificial intelligence to decide whether patients can get certain medical treatments\u2014and the early results show a significant decline in approved services. The program uses AI to conduct prior authorizations, which are the gatekeeping decisions that determine whether Medicare will cover a particular procedure or test before it happens."
+    },
+    {
+      "title": "Caregivers Now Spending Over $11,000 Annually Out of Pocket",
+      "facts": "Taking care of an aging parent or sick relative is costing American families more than eleven thousand dollars a year out of their own pockets\u2014a sixty percent jump in just five years. That's according to a new study from AARP that lays bare the financial toll caregiving is taking on millions of households."
+    },
+    {
+      "title": "North Korea Behind Massive $6.3 Billion Binance Hack",
+      "facts": "North Korea just pulled off what appears to be the largest cryptocurrency heist in history\u2014a six-point-three billion dollar theft from the crypto exchange Binance. The FBI confirmed that North Korean hackers were responsible for the breach, which the company described as an extremely complex operation."
+    },
+    {
+      "title": "Mortgage Rates Dip Below 7.3% as Housing Demand Steadies",
+      "facts": "Mortgage rates have pulled back to just below 7.3 percent, and for the first time in weeks, there's a sign that buyers might be coming off the sidelines. The drop marks a retreat from the 7.28% rate reported just days ago, when monthly payments on a median-priced home had climbed to $2,350."
+    },
+    {
+      "title": "Colts Shopping Jonathan Taylor in Trade Talks",
+      "facts": "Indianapolis has reversed course and is now actively shopping running back Jonathan Taylor, according to multiple reports. The team that refused to deal Taylor during previous trade windows is fielding calls from several interested clubs, with sources telling ESPN and NFL Network that the Colts are engaged in ongoing discussions."
+    },
+    {
+      "title": "Manchester United Staring Down Relegation Fight",
+      "facts": "Manchester United lost 2-0 at Chelsea and now face the unthinkable: a genuine battle to avoid relegation from the Premier League. The defeat was grim on multiple fronts\u2014United squandered chances, saw defender Lisandro Mart\u00ednez sent off, and looked every bit a team in crisis."
+    },
+    {
+      "title": "Lakers Sold for $12.5 Billion in Stunning Three-Day Deal",
+      "facts": "Mark Walter is selling the Lakers to Josh Kushner in a deal that values the franchise at $12.5 billion, sources told ESPN. The transaction came together in just 72 hours of secret negotiations, with Walter and the Thrive Capital founder finalizing terms Thursday and expected to sign the formal agreement soon."
+    },
+    {
+      "title": "Thunder Lose Holmgren for Two Months After Latest Injury Wave",
+      "facts": "Chet Holmgren will miss eight to ten weeks with a knee injury, the Thunder announced, delivering another major blow to a team already reeling from injuries. The timing couldn't be worse for Oklahoma City\u2014Holmgren went down just days after the Thunder lost both Jalen Williams and Cason Wallace to extended absences earlier this week."
+    },
+    {
+      "title": "Anthropic Blocks Claude from Video Game Reverse-Engineering",
+      "facts": "Anthropic just rolled out sweeping new restrictions that prevent Claude from reverse-engineering or cloning video games\u2014and the policy is catching a lot more than just piracy attempts. The company says it's cracking down on users who try to recreate existing games by feeding Claude screenshots, code snippets, or gameplay descriptions and asking it to rebuild the mechanics or assets."
     }
   ]
 }
