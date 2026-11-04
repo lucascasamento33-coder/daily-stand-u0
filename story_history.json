@@ -1,54 +1,4 @@
 {
-  "2026-10-24": [
-    {
-      "title": "Brazil's Presidential Candidates Debate Ahead of Runoff Vote",
-      "facts": "Brazil's heading to the polls tomorrow for a presidential runoff that's too close to call. Former president Lula and incumbent Jair Bolsonaro squared off in their final debate, with polls showing them neck and neck going into Sunday's vote."
-    },
-    {
-      "title": "Second Ebola Death Reported in Kenya",
-      "facts": "Kenya's confirmed a second Ebola death, raising fears of a potential outbreak in East Africa. The victim was a sixty-five-year-old woman who was a close family member of the first patient, a man who'd traveled from the Democratic Republic of Congo."
-    },
-    {
-      "title": "Toddler Found Alive in Hospital Morgue After Being Declared Dead",
-      "facts": "Vincent Fiordilino was just 18 months old when staff at an Arizona hospital declared him dead this past February\u2014only to discover later that he was still alive in the morgue. His family is now recounting the harrowing ordeal, saying the child they got back isn't quite the same."
-    },
-    {
-      "title": "Washington Takes Equity Stake in Japanese-Funded Chip Plant",
-      "facts": "The Trump administration's brokering a new kind of deal in upstate New York\u2014one where the U.S. government actually takes an ownership stake in a semiconductor factory funded by Japan."
-    },
-    {
-      "title": "Fed Chair Warsh Under Pressure to Prove He Can Communicate Strategy",
-      "facts": "Investors aren't asking the Federal Reserve for perfect economic forecasting right now\u2014they're asking for clarity, and they're not getting it. Economists say what really matters is whether Fed Chairman Kevin Warsh can successfully communicate the central bank's strategy, and so far the \"non-answers\" aren't cutting it."
-    },
-    {
-      "title": "White House Reshuffles Tariffs on Canadian Goods Ahead of Midterms",
-      "facts": "Starting October thirtieth, the White House is easing tariffs on some Canadian imports while slapping new duties on others\u2014a last-minute trade shuffle that's landing just days before the midterm elections. Tariffs will be lifted on certain machinery and other products that American manufacturers have been clamoring for, giving them relief on input costs."
-    },
-    {
-      "title": "Semiconductor ETF Suffers After Record Inflows",
-      "facts": "Traders just poured a record amount of money into a leveraged semiconductor ETF, and the timing couldn't have been worse. The bullish bet on chip stocks has gotten crushed this month as fresh doubts emerged about whether the massive investments in artificial intelligence infrastructure will actually pay off."
-    },
-    {
-      "title": "Appraisers Sound Alarm on Private Listings",
-      "facts": "Real estate appraisers are raising concerns that the growing trend of private, off-market listings could slow down the home-buying process and create serious risks for property valuations. More sellers are choosing to keep their listings private, hiding interior photos and details from public view\u2014and in some cases skipping the MLS entirely."
-    },
-    {
-      "title": "Bayern Munich Coach Kompany Hospitalized After Training Collapse",
-      "facts": "Vincent Kompany collapsed during a training session Friday and is now undergoing tests in a Munich hospital, Bayern confirmed. The club hasn't released details about what caused the collapse or how serious his condition might be."
-    },
-    {
-      "title": "World Series Underway as Brewers Edge Rays in Game One",
-      "facts": "Milwaukee took Game One of the World Series last night with a 3-2 win over the Rays, surviving a late scare that nearly turned the opener upside down. The Brewers had what looked like a game-ending double play overturned on review, forcing them to close out the win the hard way."
-    },
-    {
-      "title": "Jaylen Brown Trade Fuels Celtics-76ers Rivalry",
-      "facts": "Jayson Tatum spent most of his postgame Friday night batting down talk of friction with Jaylen Brown after the Celtics met the 76ers for the first time since Brown's stunning move to Philadelphia over the summer. The star forward made it clear this isn't some Shaq-and-Kobe feud\u2014he and Brown remain close despite now being division rivals."
-    },
-    {
-      "title": "Claude Now Proves Its Own Code Safe Before You Run It",
-      "facts": "Anthropic just rolled out something that changes the game for anyone running automated code\u2014Claude can now formally verify that the code it writes is safe before executing it, catching bugs and security holes that would normally slip through. This is formal verification, the mathematical gold standard used in aerospace and cryptography, now baked directly into an LLM workflow."
-    }
-  ],
   "2026-10-25": [
     {
       "title": "Brazil Votes in Lula vs. Bolsonaro Family Showdown",
@@ -639,6 +589,64 @@
     {
       "title": "Gilgeous-Alexander Drops Forty-Three to Hand Cavs First Home Loss",
       "facts": "Shai Gilgeous-Alexander had what his teammates are calling \"the look\" Monday night, and Cleveland found out what that means the hard way. He poured in a season-high forty-three points, including a go-ahead three-pointer with just over thirty seconds left, as Oklahoma City handed the Cavaliers their first home loss of the season, 117-112."
+    }
+  ],
+  "2026-11-04": [
+    {
+      "title": "World Leaders Grapple With Trump's Midterm Losses",
+      "facts": "World leaders and commentators are trying to decode what President Trump's electoral losses in the midterms will mean for their countries. The administration's foreign policy faces new constraints now that Democrats have taken Congress, and that's raising questions from Tehran to Caracas."
+    },
+    {
+      "title": "Democrats Flip South Carolina Senate Seat in Historic Upset",
+      "facts": "Annie Andrews has defeated Darline Graham in South Carolina's Senate race, becoming the state's first Democratic senator in almost three decades. Graham had been handpicked by President Trump to fill the seat after her brother's death, making the loss particularly stinging for the White House."
+    },
+    {
+      "title": "Delhi Chokes on Toxic Air as Diwali Approaches",
+      "facts": "Delhi's air has turned toxic again, with the city's air quality index hitting 377 on Wednesday morning\u2014a reading that puts it in the \"very poor\" category. The timing couldn't be worse, as Diwali celebrations are just around the corner and firework restrictions have now entered force."
+    },
+    {
+      "title": "Houthi Blockade Traps Yemenis in Taiz",
+      "facts": "A monthlong siege by Houthi forces on the Yemeni city of Taiz is creating what aid groups are calling a looming catastrophe. The blockade has cut off food, water, fuel, and medical supplies to the trapped population, leaving residents in increasingly desperate conditions."
+    },
+    {
+      "title": "Democrats Seize Congress in Historic Midterm Sweep",
+      "facts": "Democrats have taken control of Congress for the remainder of Donald Trump's presidency, pulling off wins in races that weren't supposed to be close. Two Senate contests that looked like toss-ups a year ago turned into comfortable Democratic victories, part of a night that saw the party push deep into traditionally Republican territory."
+    },
+    {
+      "title": "England Trials Multi-Cancer Blood Test in Primary Care",
+      "facts": "A blood test that can detect multiple types of cancer at once is coming to some GP surgeries in England, marking a significant shift in how hard-to-diagnose cancers might be caught. The test is designed to identify abdominal cancers\u2014including liver, ovarian, and pancreatic cancer\u2014that are notoriously difficult to diagnose in their early stages."
+    },
+    {
+      "title": "Americans Cast Ballots from Space Station and Antarctica",
+      "facts": "Astronauts aboard the International Space Station joined Americans in Antarctica and remote Alaskan villages in casting absentee ballots in the midterm elections, demonstrating just how far the reach of U.S. voting extends."
+    },
+    {
+      "title": "Trump Administration Targets Pregnancy Workplace Protections",
+      "facts": "The Trump administration is preparing to roll back workplace protections for pregnant workers that were only recently put in place. The move would scale back a Biden-era law designed to help women stay in their jobs during pregnancy."
+    },
+    {
+      "title": "Canva Slashes Workforce After Toughest Year on Record",
+      "facts": "Canva is cutting more than a thousand jobs in what CEO Melanie Perkins is calling the company's hardest year yet. The Australian design software giant says some employees will lose their jobs outright, while others will be asked to switch roles as the company restructures."
+    },
+    {
+      "title": "Super Micro Delivers Earnings Beat on AI Server Boom",
+      "facts": "Super Micro's stock surged Wednesday after the company's latest earnings report showed just how much money there is to be made building the infrastructure behind artificial intelligence. The chip and server maker posted results that blew past Wall Street's expectations, driven by what CFO Mark Long called a \"high-quality customer base\" that's snapping up AI servers as fast as the company can build them."
+    },
+    {
+      "title": "Mortgage Servicing Rights Hit Highest Valuations in Decades",
+      "facts": "Mortgage servicing rights are trading at their richest levels in more than twenty years, and lenders are splitting into two very different camps on what to do about it. The financial instruments that represent the right to service a loan\u2014collecting payments, managing escrow, handling defaults\u2014have become suddenly valuable as interest rates stay elevated and refinancing activity stays low."
+    },
+    {
+      "title": "Spanish Police Investigate Player's Death After On-Field Collision",
+      "facts": "Tenerife forward Jes\u00fas de Miguel has died at age 30 following an on-field collision during a Spanish second-division match on Monday, and now police have opened an investigation into the incident. The collision happened during a LaLiga 2 game, and de Miguel's club confirmed his death shortly after."
+    },
+    {
+      "title": "Dumont Family Takes Control of Mavericks",
+      "facts": "Sivan and Patrick Dumont are now running the Dallas Mavericks after purchasing Miriam Adelson's shares last month, giving the Dumont family nearly 70 percent of the franchise. It's a major ownership shift for one of the NBA's marquee teams."
+    },
+    {
+      "title": "Message Threads Cut Claude Code Latency Without Hiking Your Bill",
+      "facts": "Anthropic just shipped a performance upgrade to Claude Code that'll change how you structure long-running tasks\u2014and it's one of those rare optimizations where you get speed without paying for it. The new message threads feature lets Claude Code maintain context across multiple back-and-forth exchanges within a single session, but here's the non-obvious win: because threads reuse the same context window instead of re-sending the full conversation history with every turn, you're cutting latency by up to 40% on multi-step workflows without inflating your token count."
     }
   ]
 }
