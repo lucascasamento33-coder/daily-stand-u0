@@ -1,58 +1,4 @@
 {
-  "2026-10-26": [
-    {
-      "title": "Lula Defeats Bolsonaro's Son in Brazil Presidential Race",
-      "facts": "Brazil's president Luiz In\u00e1cio Lula da Silva has won reelection, defeating Fl\u00e1vio Bolsonaro in a contest that's reshaped Latin America's political landscape. Fl\u00e1vio is the eldest son of Jair Bolsonaro, the right-wing leader Lula first defeated four years ago."
-    },
-    {
-      "title": "Xi Jinping Purges Officials Ahead of Expected Fourth Term",
-      "facts": "China's Xi Jinping is conducting another round of purges targeting officials he says can't be trusted, clearing the path for what's expected to be his fourth term in power in 2027. Xi has complained openly that officials throughout the government are unreliable, using language about needing to \"pull out the sick trees\" from the system."
-    },
-    {
-      "title": "Midterm Elections Eight Days Out",
-      "facts": "Eight days from the midterms, control of Congress remains up for grabs. Democrats are mounting an ambitious offensive, targeting Republican strongholds in what they're calling a once-in-a-generation opportunity to expand their Senate majority."
-    },
-    {
-      "title": "Data Center Super PAC Backs South Carolina Senate Candidate",
-      "facts": "The artificial intelligence industry just made its first major political bet. A new super PAC aligned with data center companies is pouring money into a South Carolina Senate race to support Darline Graham, a Republican facing an unexpectedly close contest."
-    },
-    {
-      "title": "North Carolina Bridge Rebuilding Lags Two Years After Hurricane",
-      "facts": "Two years after Hurricane Helene devastated western North Carolina, hundreds of families still can't reach their homes by car. The 2024 storm destroyed private bridges that rural households depend on to cross creeks and ravines\u2014and the state has rebuilt just forty-four of them so far."
-    },
-    {
-      "title": "Anthropic's Coming IPO Could Reshape the Tech Economy",
-      "facts": "Anthropic sits at the center of an enormous web of business partnerships and suppliers\u2014and its plan to go public is being watched as a barometer for the entire economy. The AI company's initial public offering is expected to send ripples far beyond Silicon Valley, affecting everything from cloud computing providers to chip manufacturers who've built their strategies around servicing AI firms."
-    },
-    {
-      "title": "Goldman Slashes Korea Stock Forecast as AI Trade Cools",
-      "facts": "Goldman Sachs just cut its forecast for South Korea's Kospi index by twenty-five percent, a dramatic downgrade driven by fading optimism around artificial intelligence stocks. The move matters because the Kospi has become a leading indicator for the global AI trade\u2014it's packed with semiconductor and tech hardware companies that supply the chips and components powering AI systems worldwide."
-    },
-    {
-      "title": "Verizon Stock Jumps on Subscriber Surge",
-      "facts": "Verizon just delivered a surprise that has Wall Street buzzing\u2014the telecom giant added more than double the number of new subscribers that analysts expected. The stock climbed sharply as investors digested the news, marking a significant win for a company that's been battling intense competition in the wireless market."
-    },
-    {
-      "title": "Mortgage Rates Hit 7.28%, Adding $215 to Monthly Payments",
-      "facts": "Mortgage rates just climbed to 7.28%, and that's pushing the cost of homeownership further out of reach for many buyers. On a median-priced home of about $429,100 with a standard 20% down payment, the monthly principal and interest payment has jumped from roughly $2,130 to $2,350."
-    },
-    {
-      "title": "Home Equity Investments Gain Ground as Mortgage Rates Stay High",
-      "facts": "There's a growing push for home equity investments to grab market share while mortgage rates stay elevated, according to Michael Gifford at Splitero. HEIs\u2014home equity investments\u2014let homeowners tap their equity without taking on debt, and that's become more attractive as traditional borrowing costs have surged."
-    },
-    {
-      "title": "Brewers Rally From Four Down to Take Command of World Series",
-      "facts": "The Milwaukee Brewers are two wins away from their first championship in over four decades after a stunning comeback gave them a 2-0 stranglehold on the World Series. Down 4-0 in the first inning Sunday night, the Brewers chipped away at Tampa Bay's lead before rallying to win 5-4, taking full control of the series as it shifts to Florida."
-    },
-    {
-      "title": "Thunder Guard Jalen Williams Suffers Serious Leg Injury",
-      "facts": "Jalen Williams was stretchered off the court over the weekend after suffering what appeared to be a significant leg injury, and the Thunder are still waiting for answers. Coach Mark Daigneault told reporters the team would get a full briefing Monday morning, but didn't offer any details about what happened or how severe the damage might be."
-    },
-    {
-      "title": "Luka Doncic Drops NBA's First 50-Point Game as Lakers Stay Perfect",
-      "facts": "Luka Doncic put up 52 points on Sunday, hitting eight three-pointers, to power the Lakers past the Jazz 132-123 and keep Los Angeles undefeated at 3-0. It's the first 50-point performance of the NBA season, and Doncic made it look effortless\u2014torching Utah's defense from every spot on the floor."
-    }
-  ],
   "2026-10-27": [
     {
       "title": "Brazil's Lula Charts Independent Course, Complicating Trump's Regional Strategy",
@@ -627,6 +573,64 @@
     {
       "title": "Claude Marketplace Opens to Third-Party Agents and Products",
       "facts": "Anthropic just opened up Claude's ecosystem in a way that could change how you build and deploy AI tools. The company's expanding its marketplace to include partner-built agents and products\u2014not just Anthropic's own creations\u2014which means you'll soon be able to plug specialized third-party capabilities directly into your Claude workflows."
+    }
+  ],
+  "2026-11-06": [
+    {
+      "title": "Pope Leo Begins 12-Day South America Tour After Recent Lung Surgery",
+      "facts": "Pope Leo XIV touched down in Uruguay this morning, launching an ambitious 12-day journey across three South American nations less than a month after undergoing surgery to remove part of his lung. The 12-plane itinerary will take the pontiff through Uruguay, Argentina, and Peru in what's being described as his most demanding trip since the operation last month."
+    },
+    {
+      "title": "Bus Crash in France Leaves Two Dead, More Injured",
+      "facts": "Two people are dead after a bus crash in France, according to local authorities who responded to the scene. Officials confirmed that one child and one young adult were killed in the accident, though they haven't released their names or ages yet."
+    },
+    {
+      "title": "Tanzania Opposition Leader Convicted of Incitement, Cleared of Treason",
+      "facts": "A Tanzanian court has found an opposition leader guilty of inciting unrest while acquitting him of the more serious charge of treason. The 58-year-old politician, who's been in detention since April of last year, has maintained throughout that the charges against him are politically motivated."
+    },
+    {
+      "title": "Satellite Images Show Major Construction Near Iranian Missile Sites",
+      "facts": "New satellite imagery from November is revealing significant construction activity near known Iranian missile bases, including evidence of digging and new buildings visible from space. The images suggest Iran may be expanding or modifying facilities associated with its ballistic missile program, though the exact purpose of the construction hasn't been confirmed."
+    },
+    {
+      "title": "Officer Killed in Colorado Bus Shootout",
+      "facts": "One police officer is dead and three more are wounded after a shootout on a public bus in Lakewood, Colorado. The gunman opened fire on officers who'd pursued him onto the bus, also injuring a civilian bystander before police shot him dead."
+    },
+    {
+      "title": "YouTuber Arrested on Child Sexual Abuse Charges",
+      "facts": "A YouTuber known for posting rants about professional football is now facing child sexual abuse charges after discussing his behavior in a documentary. The man, whose online presence attracted a following for his sports commentary, spoke openly in the film about accusations that he had a sexual interest in minors."
+    },
+    {
+      "title": "Fed Holds Rates Steady, December Hike Still on the Table",
+      "facts": "The Federal Reserve kept interest rates unchanged at its meeting last week, but markets are betting that won't last much longer. The central bank's widely expected to resume raising rates in December as it continues its fight against inflation."
+    },
+    {
+      "title": "Tesla to Wind Down Cybertruck Production at Texas Factory",
+      "facts": "Elon Musk announced that Tesla's Texas Gigafactory will shift away from Cybertruck production next year, signaling what could be the end of the line for the controversial electric pickup. Musk said the change is needed to make room for the company's Cybercabs\u2014autonomous taxis designed to operate without a driver."
+    },
+    {
+      "title": "UK Pushes Salary Transparency as New Pay Law Looms",
+      "facts": "British companies are being told to start publishing salary ranges in job adverts ahead of a new law aimed at preventing pay discrimination. The government's pushing the change as a way to help jobseekers make better decisions and to close gaps in compensation that often disadvantage women and minorities."
+    },
+    {
+      "title": "Los Angeles Elects First YIMBO Mayor in Housing Policy Earthquake",
+      "facts": "Los Angeles just elected a mayor who ran on building more housing\u2014and voters threw out the incumbent to do it. Councilmember Nithya Raman defeated Mayor Karen Bass, who becomes the first Los Angeles mayor to lose reelection in more than two decades."
+    },
+    {
+      "title": "Chiefs' Rashee Rice Files for Bankruptcy With $3.45 Million in Debts",
+      "facts": "Rashee Rice just filed for bankruptcy in federal court, and the numbers are staggering for an NFL player on a rookie contract. The Chiefs wide receiver says he owes more than three point four five million dollars in debts\u2014a financial collapse that's raising questions about what went wrong."
+    },
+    {
+      "title": "Wembanyama Erupts for Career Night as MVP Chants Rain Down",
+      "facts": "Victor Wembanyama just delivered the kind of performance that makes you stop what you're doing and watch. The Spurs center dropped career highs of 52 points and 24 rebounds while swatting eight shots in Wednesday night's win over the Mavericks\u2014and the crowd in San Antonio let him know what they think, chanting \"M-V-P\" as he left the court."
+    },
+    {
+      "title": "Warriors Withhold Porzingis Paychecks in Salary Dispute",
+      "facts": "Golden State's got a messy situation on its hands with Kristaps Porzingis. The Warriors are withholding the veteran center's semimonthly paychecks on his $20 million salary, according to league sources who spoke to ESPN."
+    },
+    {
+      "title": "Claude Can Now Read Your Bank Account\u2014Here's the Privacy Fine Print",
+      "facts": "Anthropic just rolled out something that'll either sound incredibly useful or deeply uncomfortable, depending on how you feel about AI reading your financial life. Claude can now connect directly to your bank account and credit cards to analyze your spending, spot patterns, and answer questions about where your money's going."
     }
   ]
 }
