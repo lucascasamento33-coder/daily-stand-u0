@@ -1,46 +1,4 @@
 {
-  "2026-10-27": [
-    {
-      "title": "Brazil's Lula Charts Independent Course, Complicating Trump's Regional Strategy",
-      "facts": "Brazil's leftist president Lula da Silva is back in power, and he's already proving to be a complication for President Trump's Latin America policy. The relationship between the two leaders has thawed somewhat since Lula's recent electoral victory, but analysts say several flashpoints could easily reignite tensions."
-    },
-    {
-      "title": "India Defeats New Zealand to Seal T20 Series",
-      "facts": "India wrapped up its five-match Twenty20 series against New Zealand with a convincing six-wicket win in the third game. Abhishek Sharma led the charge with a century, anchoring a 133-run opening partnership that put India firmly in control from the start."
-    },
-    {
-      "title": "Election Officials Brace for Federal Interference at Polls",
-      "facts": "State and local election officials across the country are drawing up contingency plans to respond to potential federal interference on Election Day next week. The preparations include protocols for handling possible I.C.E."
-    },
-    {
-      "title": "AI Debt Crunch Could Shape Fed Strategy on Rate Cuts",
-      "facts": "The artificial intelligence gold rush is running into a credit wall, and it might give the Federal Reserve cover to slow down on rate cuts. Financing for AI projects has gotten harder and more expensive to come by as investors take a harder look at the massive capital spending that's been fueling the boom."
-    },
-    {
-      "title": "Chinese Brands Drop Mbapp\u00e9 Over Mao Joke Backlash",
-      "facts": "Major Chinese companies are severing ties with soccer star Kylian Mbapp\u00e9 after he allegedly joked about a meme comparing his face to \"a Chinese dictator.\" The comment\u2014which appears to reference Mao Zedong\u2014has triggered a swift and severe corporate backlash across China's massive consumer market. Chinese brands that had endorsement deals with Mbapp\u00e9 are now cutting him loose as public anger spreads on social media."
-    },
-    {
-      "title": "Options Traders Take Control of S&P 500",
-      "facts": "The S&P 500's been stuck in neutral since June, and there's a surprising reason why\u2014options traders have effectively seized control of the index. A team at UBS says the explosive growth in options trading volume is now shaping daily market moves more than traditional stock buyers and sellers."
-    },
-    {
-      "title": "FICO Slashes Mortgage Credit Scores to $10 in Defensive Industry Play",
-      "facts": "FICO's making a drastic move to protect its turf in the mortgage market, and it's slashing prices to do it. The credit scoring giant just announced its Preferred Program, locking in mortgage credit pulls at ten dollars per score\u2014a dramatic discount from current pricing."
-    },
-    {
-      "title": "Rust Belt City Eliminates Lot Size Minimums to Jumpstart Housing Revival",
-      "facts": "A Rust Belt city just wiped minimum lot sizes off the books entirely, and it's opened the door for hundreds of vacant parcels to finally get built on. The zoning rewrite allows homes to go up on any lot that meets basic yard setback rules, no matter how small\u2014a dramatic departure from old rules that kept oddball and undersized lots undevelopable."
-    },
-    {
-      "title": "Harry Kane Wins Ballon d'Or After Years of Waiting",
-      "facts": "Harry Kane's finally got his hands on the Ballon d'Or, and it's been a long time coming. The award ceremony wrapped up with Kane taking home the men's prize after what organizers called a remarkable year for both Bayern Munich and England."
-    },
-    {
-      "title": "Thunder Hit With Double Surgery Blow as Playoff Hopes Take Major Hit",
-      "facts": "The Oklahoma City Thunder are facing a personnel crisis that could derail their season before it really gets going. Guards Jalen Williams and Cason Wallace are both headed for surgery\u2014Williams on his ankle, Wallace on his shoulder\u2014and there's no timetable for either to return."
-    }
-  ],
   "2026-10-28": [
     {
       "title": "Mexico Battles Massive Seaweed Invasion",
@@ -631,6 +589,72 @@
     {
       "title": "Claude Can Now Read Your Bank Account\u2014Here's the Privacy Fine Print",
       "facts": "Anthropic just rolled out something that'll either sound incredibly useful or deeply uncomfortable, depending on how you feel about AI reading your financial life. Claude can now connect directly to your bank account and credit cards to analyze your spending, spot patterns, and answer questions about where your money's going."
+    }
+  ],
+  "2026-11-07": [
+    {
+      "title": "Paraguay's President Ousted and Detained After Banking Crisis",
+      "facts": "Paraguay's Congress has impeached President Santiago Pe\u00f1a and placed him under house arrest following a banking crisis that's left millions of people unable to access their money. The dramatic ousting marks one of the fastest presidential downfalls in recent Latin American history."
+    },
+    {
+      "title": "European Investigators Launch Fraud Probe Into Spain's Rail Authorities",
+      "facts": "European prosecutors have opened a fraud investigation into Spain's rail authorities over EU funds meant for upgrading the railway line where a crash killed sixty-nine people. The inquiry focuses on whether money earmarked for safety improvements was properly spent before the Urda rail disaster."
+    },
+    {
+      "title": "Pakistan to Send Astronaut to China's Space Station",
+      "facts": "Pakistan will send an astronaut to China's space station as part of the upcoming Shenzhou-24 mission, making them the first foreign national to visit the Chinese orbital outpost. The landmark mission represents a major deepening of space cooperation between Beijing and Islamabad."
+    },
+    {
+      "title": "Flooding Hits Gaza Displacement Camps as Storm Sweeps Through",
+      "facts": "Thousands of displaced families in Gaza saw their tents flooded as heavy rains swept through the encampment areas overnight. Gaza's Civil Defence reported receiving fifteen hundred distress calls in just ten hours as the storm battered the makeshift shelters."
+    },
+    {
+      "title": "North Carolina Republicans Lose Supermajority in Stunning Upset",
+      "facts": "North Carolina Republicans watched their carefully constructed legislative fortress crumble this week in what party insiders are calling a complete implosion. The GOP had relied on aggressive gerrymandering to protect incumbents and maintain their supermajority in the state legislature, even as Democrats continued winning the governor's mansion."
+    },
+    {
+      "title": "Two Skydivers Killed After Midair Collision in California",
+      "facts": "Two skydivers died after colliding in midair during a jump in Southern California, even though both of their parachutes successfully deployed. The accident happened during an event hosted by a skydiving company, though the exact location hasn't been released."
+    },
+    {
+      "title": "Labor Market Holds Firm Despite AI and Inflation Pressures",
+      "facts": "Unemployment fell in October, extending a remarkable streak of stability for American workers who've been facing down twin threats from inflation and artificial intelligence. The strong hiring numbers reinforce what's become a surprisingly sturdy job market, defying predictions that either price pressures or automation would start eating into employment."
+    },
+    {
+      "title": "Commerce Department Approves Chinese Firms for Advanced Nvidia Chips Despite Red Flags",
+      "facts": "The Commerce Department has cleared dozens of Chinese companies to handle Nvidia's cutting-edge H200 chips, and some of those firms are raising serious questions about oversight. Several of the approved companies operate out of what appear to be empty offices, and investigators have found ties to other Chinese firms already under U.S."
+    },
+    {
+      "title": "AI Stock Selloff Reverses as Investors Reconsider Election Impact",
+      "facts": "Artificial intelligence stocks are climbing again after trillions of dollars in market value were wiped out earlier this week. Investors had been dumping tech shares partly over fears that the Democratic midterm victory would bring heavier AI regulation and slow the industry's breakneck development."
+    },
+    {
+      "title": "Chip Stocks Bounce Back After Brutal Selloff",
+      "facts": "Nvidia, AMD, and the rest of the semiconductor sector clawed back some ground after what analysts are calling a \"violent\" selloff that rattled tech investors. The rebound offered a brief respite for chip stocks that had been hammered in recent sessions, but experts warn this might just be a temporary breather."
+    },
+    {
+      "title": "Musk Signals SpaceX Could Make Major Acquisition",
+      "facts": "Elon Musk just opened the door for SpaceX to make a significant acquisition as the rocket and satellite company sets its sights on challenging traditional telecom giants. The move signals that SpaceX isn't content just launching satellites\u2014it wants to compete head-to-head with established communications providers."
+    },
+    {
+      "title": "Mortgage Rates Hold Steady Despite Strong Jobs Report",
+      "facts": "Mortgage rates barely budged after Friday's jobs report showed the economy added 165,000 payrolls last month\u2014a surprise to anyone who expected borrowing costs to shoot back up. Normally, strong employment data sends rates climbing as investors anticipate the Fed will keep tightening, but this time the market's shrugging it off."
+    },
+    {
+      "title": "Browns Turn to Sanders With Watson Sidelined",
+      "facts": "The Cleveland Browns are handing the ball to Shedeur Sanders for Sunday's game against the Saints, with Deshaun Watson stuck in the concussion protocol. It's a sudden turn for the Browns, who'd been leaning on Watson as their starter this season."
+    },
+    {
+      "title": "Doncic Averaging 40 Points Per Game After 53-Point Explosion",
+      "facts": "Luka Doncic is putting up numbers we haven't seen in the NBA in decades. The Dallas star dropped 53 points in Friday's win over Portland, pushing his season scoring average to 40.1 points per game."
+    },
+    {
+      "title": "Porzingis Steps Away From Warriors to Address Health Concerns",
+      "facts": "Kristaps Porzingis is stepping away from basketball entirely to focus on his health. The Warriors forward made the announcement without providing a specific timeline for his return, saying only that he needs to prioritize getting right physically."
+    },
+    {
+      "title": "Claude Now Plays MMORPGs Autonomously in Anthropic's Latest Experiment",
+      "facts": "Anthropic's research team has taught Claude to play massively multiplayer online role-playing games\u2014and we're not talking about simple puzzle games here. The company's Project EVE demonstrates Claude navigating complex virtual worlds, interacting with other players, and making strategic decisions in real time."
     }
   ]
 }
