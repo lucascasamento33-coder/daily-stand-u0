@@ -1,70 +1,4 @@
 {
-  "2026-10-30": [
-    {
-      "title": "Syria Faces Economic Crisis as Post-Assad Recovery Stalls",
-      "facts": "Syrians are finding out that overthrowing a dictator doesn't automatically bring relief\u2014especially not to their wallets. The end of government subsidies and soaring prices are fueling widespread discontent across the country, and it's creating the first major test for Ahmed al-Sharaa's government since it took power after Assad's fall."
-    },
-    {
-      "title": "Evacuation Corridor Opens in Frontline Ukrainian Town of Oleshky",
-      "facts": "Several hundred residents have left the devastated town of Oleshky after an evacuation corridor opened this week, though many others are choosing to stay despite conditions that sound nearly uninhabitable. The frontline town, under Russian occupation, has no gas, electricity, or running water, and bombardment has been constant for months."
-    },
-    {
-      "title": "Call of Duty Faces Backlash for Using Real Disaster Footage",
-      "facts": "The latest Call of Duty game is under fire for a decision that's hard to defend: it used actual footage from a deadly crowd crush in South Korea that killed more than 150 people. Call of Duty: Modern Warfare 4 incorporated visuals from the Halloween disaster in Seoul, where a narrow alleyway turned into a death trap as crowds surged and people were trampled."
-    },
-    {
-      "title": "U.S. Weighs New Strikes on Iran as Diplomatic Signals Cross",
-      "facts": "Washington and Tehran are sending such mixed signals right now that analysts can't tell whether the two countries are heading toward war or a deal. The U.S."
-    },
-    {
-      "title": "South Carolina Senate Race in Dead Heat as Graham's Sister Fights to Hold Seat",
-      "facts": "Darline Graham is running in a race that was supposed to be a lock. The sister of the late Senator Lindsey Graham is now in a virtual tie with her Democratic opponent, Dr."
-    },
-    {
-      "title": "Michigan Senate Race Seen as Bellwether for 2028 Democratic Primary",
-      "facts": "The outcome of Michigan's Senate race on Tuesday will do more than determine one seat\u2014it's being watched as a critical signal for the future of the Democratic Party heading into 2028. Dr."
-    },
-    {
-      "title": "U.S. Economy Grows 3.4% in Third Quarter Despite Voter Pessimism",
-      "facts": "The U.S. economy grew 3.4 percent in the third quarter\u2014the fastest pace in a year\u2014powered by strong consumer spending that's defying widespread gloom about the state of things."
-    },
-    {
-      "title": "Fed to Cut Back Rate-Setting Meetings Starting in 2027",
-      "facts": "The Federal Reserve's planning to meet less often starting next year, a procedural shift that reflects growing confidence the central bank won't need to adjust rates as frequently going forward. Chairman Kevin Warsh announced the Fed will hold just seven rate-setting meetings in 2027 and six in 2028, down from the traditional eight per year."
-    },
-    {
-      "title": "Google Loses Half a Trillion Dollars as AI Search Hurts Ad Revenue",
-      "facts": "Google just watched half a trillion dollars evaporate from its market value, and the culprit is the very technology the company's been betting its future on. The tech giant's stock plunged to a six-month low after it revealed that its AI-powered search summaries are cannibalizing traditional ad revenue\u2014a stunning admission that spooked investors and raised questions about whether artificial intelligence will actually pay off."
-    },
-    {
-      "title": "Intel Shares Plunge in Worst Selloff Since 2022",
-      "facts": "Intel's stock is headed for its worst single-day loss in two years, wiping out a staggering $128 billion in market value. The chipmaker's PC business is under serious pressure as falling memory-chip prices are dampening demand for new computers."
-    },
-    {
-      "title": "AI Slashes Permit Wait Times in Half as Cities Race to Speed Housing",
-      "facts": "Artificial intelligence is starting to deliver real results in the fight to build housing faster. Seattle's now processing development applications in half the time it used to take, thanks to AI tools that review plans and flag issues automatically."
-    },
-    {
-      "title": "Rocket's $709 Million Quarter Masks Warning Signs for Refinance Market",
-      "facts": "Rocket just posted a $709 million profit for the third quarter, but the company's forward guidance tells a much less rosy story. The nation's largest mortgage lender is warning that refinance volume could plunge nearly 50 percent in the fourth quarter compared to where it was this summer."
-    },
-    {
-      "title": "Bears Land All-Pro Defensive Tackle in Blockbuster Deal with Tennessee",
-      "facts": "The Chicago Bears just pulled off one of the biggest trades of the season, acquiring All-Pro defensive tackle Jeffery Simmons from the Tennessee Titans. It's a massive addition for a Bears defense that's been looking to upgrade its interior line all year."
-    },
-    {
-      "title": "Lakers Sold in Secret 72-Hour Deal, Buss Family Feud Reignites",
-      "facts": "The Los Angeles Lakers have a new owner after three days of secret negotiations ended with Mark Walter buying the franchise from the Buss family. Walter, who already owns the Dodgers, closed the deal in a stunning 72-hour window that caught the basketball world completely off guard."
-    },
-    {
-      "title": "Jokic Closing In on Triple-Double Record with 200th Career Mark",
-      "facts": "Nikola Jokic just hit 200 career triple-doubles, and he's now within striking distance of the all-time NBA record. The Denver center posted 21 points, 13 rebounds, and 10 assists in Wednesday night's win over the Pelicans, becoming just the second player ever to reach that milestone."
-    },
-    {
-      "title": "Malicious Code Injected Into Official Claude Extension",
-      "facts": "Up to five thousand developers just had a backdoor installed on their machines through what looked like a legitimate update to the official Claude Code extension. The compromised version\u20142.1.313\u2014was uploaded to the Cursor marketplace and planted a persistent SSH backdoor that gave attackers remote access to infected systems."
-    }
-  ],
   "2026-10-31": [
     {
       "title": "Spain's Rail Safety Under Scrutiny After Second Fatal Crash",
@@ -651,6 +585,64 @@
     {
       "title": "Claude Code's \"Don't Ask Again\" Button Leaks Developer Secrets",
       "facts": "Claude Code's \"don't ask again\" checkbox\u2014the one that stops Claude from repeatedly asking permission before running tools\u2014has been leaking developer secrets to anyone who knows where to look. Security researchers discovered that when developers check that box, Claude Code stores their approval decisions in a local file that includes full context from the conversation, including API keys, database credentials, and other sensitive data that happened to be on screen at the time."
+    }
+  ],
+  "2026-11-10": [
+    {
+      "title": "CIA Built Secret Operations Base in Northern Mexico",
+      "facts": "A local partner in a Mexican border state quietly helped the CIA establish an operating presence on Mexican soil, despite President Claudia Sheinbaum's firm ban on U.S. forces working inside the country."
+    },
+    {
+      "title": "Nvidia Spy Scandal Fuels Debate Over Chip Exports to China",
+      "facts": "President Trump says the FBI is investigating Nvidia CEO Jensen Huang's alleged affair with a woman accused of being a Chinese spy, and the scandal is now pushing U.S. lawmakers to call for tighter restrictions on chip sales to China."
+    },
+    {
+      "title": "Defense Secretary Faces Impeachment Vote as Crisis Deepens",
+      "facts": "Defense Secretary Pete Hegseth says he'll hold a rare news conference as the House prepares to vote on his impeachment. Democrats who now control Congress are moving forward with charges that Hegseth violated the Constitution and federal law, though the specific allegations haven't been detailed in the headlines."
+    },
+    {
+      "title": "Justice Department Sues Lyft Over Disability Access",
+      "facts": "The Justice Department is taking Lyft to court, accusing the ride-hailing company of systematically discriminating against passengers with disabilities. Federal prosecutors say Lyft and its drivers routinely deny rides to people who use stowable wheelchairs or travel with service animals."
+    },
+    {
+      "title": "ICE Conceals Detainee Locations Under New Deportation Policy",
+      "facts": "Immigration and Customs Enforcement has started hiding the locations of thousands of detainees from their lawyers and families, removing them from the public database the agency has long maintained. The new policy is explicitly designed to speed up deportations by making it harder for legal representation to reach immigrants before they're removed from the country."
+    },
+    {
+      "title": "Commerce Department Approved Chinese Shell Companies for Advanced AI Chips",
+      "facts": "The Commerce Department has cleared dozens of Chinese companies to buy Nvidia's most advanced H200 AI chips\u2014and some of those firms have empty offices, no visible employees, and direct ties to companies already under U.S. sanctions."
+    },
+    {
+      "title": "Voter Backlash Against AI Could Slow Data Center Boom",
+      "facts": "The recent midterm results are raising an unexpected economic question: could voter anger over artificial intelligence actually be good for the broader economy? Some economists are making that case, arguing that the backlash evident in Tuesday's elections could threaten the massive data center construction boom that's been underway across the country."
+    },
+    {
+      "title": "Fed Official Floats December Rate Hike as Inflation Concerns Linger",
+      "facts": "Federal Reserve Governor Chris Waller just put something unexpected on the table: a half-point interest rate hike in December. That'd be a sharp reversal from the rate cuts the Fed's been making, and it all depends on how October's consumer price data looks when it comes out."
+    },
+    {
+      "title": "California Voters Block Measure to Fast-Track Housing Projects",
+      "facts": "California voters have rejected a ballot measure that would've slashed environmental red tape standing in the way of new housing construction. The measure was designed to speed up approvals for residential projects across the state, but opponents successfully argued it could've done a lot more than just unlock apartments and single-family homes."
+    },
+    {
+      "title": "Reverse Mortgage Endorsements Climb But Remain Near Historic Lows",
+      "facts": "Reverse mortgage endorsements rebounded in October, climbing eleven percent from the month before, but they're still hovering near the lowest levels seen in a decade. The uptick in Home Equity Conversion Mortgage endorsements\u2014the government-backed reverse mortgages that let older homeowners tap their equity\u2014suggests some renewed interest after months of weak activity."
+    },
+    {
+      "title": "Jaguars Land Jordan Davis in Blockbuster Trade",
+      "facts": "The Jacksonville Jaguars made one of the boldest moves of the NFL trade season Monday, landing defensive tackle Jordan Davis from the Philadelphia Eagles. The price tag?"
+    },
+    {
+      "title": "Wembanyama's 40-Point Explosion Powers Spurs to Ninth Straight Win",
+      "facts": "Victor Wembanyama put on a show Monday night that San Antonio fans won't soon forget. He finished with 40 points, 11 rebounds, and nine blocks in just 25 minutes of court time as the Spurs crushed the Suns 122-96."
+    },
+    {
+      "title": "Miami Set to Host 2028 NBA All-Star Weekend",
+      "facts": "The NBA is bringing its annual showcase back to South Beach. League sources confirmed Monday that Miami is being finalized as the host city for the 2028 All-Star Weekend."
+    },
+    {
+      "title": "Claude Fable Can Now Design Working Electronics From Scratch",
+      "facts": "Anthropic just released two new frontier models\u2014Claude Fable 5.2 and Mythos 5.2\u2014and one of them can do something no AI has pulled off before: design a complete electronic device from schematic to enclosure. Fable 5.2 successfully created three working electronic prototypes, handling everything from circuit design to the physical housing."
     }
   ]
 }
