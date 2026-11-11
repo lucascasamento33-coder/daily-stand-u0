@@ -1,58 +1,4 @@
 {
-  "2026-10-31": [
-    {
-      "title": "Spain's Rail Safety Under Scrutiny After Second Fatal Crash",
-      "facts": "Spain's heading into a snap general election with yet another train disaster hanging over the government. Prime Minister Pedro S\u00e1nchez had hoped to campaign on inequality and affordable housing\u2014instead, he's defending his administration's competence after the country's second major rail accident this year."
-    },
-    {
-      "title": "US Approves Major Patriot Missile Sale to Ukraine",
-      "facts": "Washington's approved the sale of 500 Patriot interceptor missiles to Ukraine in what amounts to a massive boost for Kyiv's air defenses. These American-made interceptors are the only effective weapon Ukraine has for shooting down Russia's ballistic missiles, which have been pounding cities and critical infrastructure throughout the war."
-    },
-    {
-      "title": "Vietnam Launches Massive Campaign to Recover War Dead",
-      "facts": "Vietnam's government has wrapped up a 500-day operation to find and identify soldiers who fell during the war\u2014and it's unearthing hundreds of bodies across the countryside. The campaign is giving some families long-awaited closure decades after losing loved ones."
-    },
-    {
-      "title": "Binance Scrambles to Recover $6.3 Billion After Massive Hack",
-      "facts": "Crypto giant Binance is racing to recover $6.3 billion stolen in what the company's calling a highly complex hack\u2014and investigators believe North Korea's elite cyber operatives are behind it. If confirmed, this would be the largest crypto heist in history by a wide margin."
-    },
-    {
-      "title": "Nebraska Senate Race Tightens as Voters Question Independent's Label",
-      "facts": "Pete Ricketts is leading independent candidate Dan Osborn in Nebraska's Senate race, according to new polling from the Times and Siena College. But there's a twist that's complicating Osborn's pitch to voters."
-    },
-    {
-      "title": "U.S. Economy Accelerates to Fastest Growth in a Year",
-      "facts": "The U.S. economy expanded at a 3.4 percent annual rate in the third quarter, the fastest pace of growth in a year."
-    },
-    {
-      "title": "Fed Officials Split on How Much to Say About Rate Plans",
-      "facts": "Fed Chair Warsh is pushing for the central bank to say less about its interest rate plans, but he's facing pushback from at least two officials who want more transparency, not less. The division comes as Fed officials signal that more rate hikes are still needed to bring down inflation."
-    },
-    {
-      "title": "Intel Suffers Historic Stock Collapse",
-      "facts": "Intel just posted its worst single-day stock performance in decades, wiping out a staggering one hundred and forty billion dollars in market value. The chipmaker's shares cratered on Friday as its core PC business buckled under multiple pressures hitting all at once."
-    },
-    {
-      "title": "JPMorgan's New Tower Becomes New York's Priciest Office Ever Built",
-      "facts": "JPMorgan's new headquarters at 270 Park Avenue just set a record nobody was aiming for\u2014it's now the most expensive office tower ever constructed in New York City. The bank's latest estimates peg the total cost at six billion dollars, billions more than other recent high-end office projects in Manhattan."
-    },
-    {
-      "title": "Brooklyn and Queens Renters Scammed by Fake Agent With Multiple Aliases",
-      "facts": "A man from Long Island is facing charges after allegedly scamming fifteen would-be renters across Brooklyn and Queens, operating under at least a dozen different names. Rajat Verma posed as a real estate agent, according to prosecutors, convincing renters to hand over deposits and fees for apartments that either didn't exist or weren't actually available."
-    },
-    {
-      "title": "Colts Open Door to Jonathan Taylor Trade",
-      "facts": "The Indianapolis Colts have reversed course and are now willing to trade running back Jonathan Taylor, according to multiple reports. Sources say the team is actively in talks with several franchises interested in acquiring the star running back."
-    },
-    {
-      "title": "Lakers Sold for $12.5 Billion in Sudden Deal",
-      "facts": "Mark Walter is selling the Los Angeles Lakers to Josh Kushner in what's being called one of the most stunning transactions in sports history. The two men finalized terms Thursday at a valuation of twelve-point-five billion dollars, sources confirmed to ESPN, and they're expected to sign the formal agreement soon."
-    },
-    {
-      "title": "Malicious Extensions Hit Thousands of Claude Developers in Supply Chain Attack",
-      "facts": "A supply chain attack has compromised Claude developer tools, delivering malware to thousands of machines worldwide. Multiple sources confirm that malicious versions of the Claude Code extension\u2014used by developers to integrate Claude into their workflows\u2014made it onto developer laptops, turning them into targets for remote access trojans."
-    }
-  ],
   "2026-11-01": [
     {
       "title": "India Opposition Mounts Mass Protest in New Delhi",
@@ -643,6 +589,68 @@
     {
       "title": "Claude Fable Can Now Design Working Electronics From Scratch",
       "facts": "Anthropic just released two new frontier models\u2014Claude Fable 5.2 and Mythos 5.2\u2014and one of them can do something no AI has pulled off before: design a complete electronic device from schematic to enclosure. Fable 5.2 successfully created three working electronic prototypes, handling everything from circuit design to the physical housing."
+    }
+  ],
+  "2026-11-11": [
+    {
+      "title": "El Salvador Troops Destroy Haitian Gang Headquarters",
+      "facts": "El Salvador's president says his military has destroyed the headquarters of one of Haiti's most notorious gangs in a dramatic escalation of foreign intervention. The target was 400 Mawozo, a gang that's been at the center of Haiti's spiraling violence crisis for years."
+    },
+    {
+      "title": "GPS Jamming in Ukraine Convinces Phones They're in Peru",
+      "facts": "Ukrainians are opening their phones and being told they're standing in Lima, Peru\u2014thousands of miles from where they actually are. The bizarre glitch is the result of a Russian jamming system designed to thwart airstrikes by confusing GPS signals."
+    },
+    {
+      "title": "ICE Agent Under Investigation for Fatal Shooting Had History of Anti-Immigrant Statements",
+      "facts": "An ICE officer who fatally shot a Colombian-born motorist in Maine this past July had repeatedly expressed anti-immigrant hatred in internal communications, according to emails obtained by The New York Times. The agent talked about foreign bloodlines, denounced noncitizens, and made other inflammatory statements, all while working in immigration enforcement."
+    },
+    {
+      "title": "Trump's Proposed Triumphal Arch at Arlington Draws Legal Challenge Ahead of Cemetery Visit",
+      "facts": "President Trump's plan to build a 250-foot triumphal arch is facing an expanding legal fight, and the controversy is hanging over his Veterans Day visit to Arlington National Cemetery. The proposed arch\u2014which would tower over the hallowed grounds\u2014has drawn opposition from veterans' groups, preservationists, and now a growing number of plaintiffs in court."
+    },
+    {
+      "title": "Prosecutors Used Green Card Interview to Pressure Ilhan Omar Bodyguard, Lawyer Says",
+      "facts": "Federal prosecutors indicted a former bodyguard to Minnesota Congresswoman Ilhan Omar in what his attorney says was a bid to pressure the man into providing incriminating evidence against the lawmaker. The bodyguard, who is Somali-born, was charged based partly on statements he made during a green card interview\u2014a process that's supposed to be about immigration status, not criminal investigation."
+    },
+    {
+      "title": "Inflation Broadens in October, Keeping Fed Rate Hikes on the Table",
+      "facts": "October's inflation report came in hotter than anyone wanted to see. The Consumer Price Index showed price pressures spreading beyond the usual suspects, a pattern that's got Federal Reserve officials worried their grip on inflation is slipping."
+    },
+    {
+      "title": "Heating Bills Set to Jump 7 Percent This Winter",
+      "facts": "Americans are facing a sharp increase in heating costs this winter, with bills expected to rise 7 percent on average across the country. But that average masks some brutal numbers for certain households: people who heat with oil are looking at increases around 70 percent, a spike driven by supply disruptions tied to the war in Iran."
+    },
+    {
+      "title": "Lebanon's Economy Nears Collapse as War Compounds Years of Crisis",
+      "facts": "Lebanon's economy is teetering on the edge of what officials are calling a catastrophe. Hezbollah's conflict with Israel and the broader U.S.-Israel war with Iran have taken systemic economic problems that were already severe and made them exponentially worse."
+    },
+    {
+      "title": "CoreWeave Shares Jump on Revenue Beat and New Financing Plan",
+      "facts": "CoreWeave's stock surged after the AI infrastructure company posted a third-quarter revenue beat and unveiled a financing strategy that's easing investor worries about its debt load. The company announced it's planning $9 billion in prepayments, a move that's giving the market renewed confidence in its business model."
+    },
+    {
+      "title": "Goldman Sachs Reverses Course on Fed Rate Cuts After Hot Inflation Data",
+      "facts": "Goldman Sachs just tore up its Federal Reserve forecast and now expects the central bank to keep tightening, not easing. The investment bank's about-face comes on the heels of Tuesday's consumer price index report, which showed inflation running hotter than economists expected."
+    },
+    {
+      "title": "New York City Gives Nonprofits First Shot at Buying Apartment Buildings",
+      "facts": "Mamdani's rolling out a program that could reshape who gets to buy apartment buildings in New York City\u2014and it's designed to keep corporate landlords at bay. The Community Opportunity to Purchase Act, known as COPA, gives nonprofit organizations the first chance to buy rental properties when they go up for sale, essentially creating a right of first refusal before for-profit investors can make their move."
+    },
+    {
+      "title": "Vikings Trade for Kirk Cousins in Blockbuster Deal",
+      "facts": "The Minnesota Vikings just made their biggest move of the season, acquiring quarterback Kirk Cousins from the Las Vegas Raiders in exchange for a 2027 third-round pick. It's a reunion for Cousins, who played in Minnesota earlier in his career, and it signals the Vikings are making a serious push for a playoff run."
+    },
+    {
+      "title": "Pat Murphy Makes History as Three-Time Manager of the Year",
+      "facts": "Milwaukee Brewers skipper Pat Murphy has done something no National League manager has ever done before: win Manager of the Year three seasons in a row. Murphy picked up his third consecutive award on Tuesday, cementing his status as one of baseball's best tacticians."
+    },
+    {
+      "title": "Brown Gives Tatum the Cold Shoulder in Boston Return",
+      "facts": "Jayson Tatum got iced by his former teammate Tuesday night, and it had nothing to do with defense. Jaylen Brown\u2014now with the 76ers\u2014kept his distance from Tatum during pregame warmups, then refused Tatum's attempt at a handshake before tip-off."
+    },
+    {
+      "title": "LeBron and Durant Back New League for Elite Teenage Players",
+      "facts": "A new basketball league targeting the nation's top high school players is set to launch in April 2027, backed by some of the biggest names in the sport. The Futures Basketball League announced Tuesday it'll recruit the top 120 under-18 players in the country\u2014a direct challenge to the traditional college basketball pipeline."
     }
   ]
 }
