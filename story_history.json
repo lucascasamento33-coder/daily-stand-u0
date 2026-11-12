@@ -1,70 +1,4 @@
 {
-  "2026-11-01": [
-    {
-      "title": "India Opposition Mounts Mass Protest in New Delhi",
-      "facts": "India's Congress Party is staging what could become one of the largest demonstrations in a string of recent rallies, with protesters still streaming into New Delhi as organizers try to build momentum. The opposition is demanding the resignation of the country's election chief over fears that a voter roll revision exercise could leave as many as 130 million voters off the rolls."
-    },
-    {
-      "title": "German Protests Turn Violent as Shops Looted",
-      "facts": "Cost-of-living protests across Germany escalated into violence, with shops looted in cities including Berlin, Hamburg, and Frankfurt. The demonstrations drew tens of thousands to the streets, many of them young people demanding better education and lower living costs."
-    },
-    {
-      "title": "Korean Language Surges in Popularity Across Japan",
-      "facts": "Japanese speakers are increasingly peppering their conversations with Korean words and phrases, a striking cultural shift that would have been unthinkable just a generation ago. The rise of Korean terms in everyday Japanese represents a complete reversal from colonial times, when Japan suppressed Korean language and culture across the peninsula it occupied."
-    },
-    {
-      "title": "Qatar LNG Carrier Struck in Gulf Incident",
-      "facts": "A Qatari liquefied natural gas carrier was hit by what the company described as \"unidentified objects\" while transiting the Gulf. Qatar Gas Transport Company reported the incident but said there were no injuries to crew members and no environmental damage from the strike."
-    },
-    {
-      "title": "Midterm Vote Tuesday Hinges on Inflation Concerns",
-      "facts": "The midterm elections wrap up Tuesday, and one issue has dominated the campaign more than any other: the cost of living. Voters across the country are linking high prices directly to the current administration's policies, turning inflation into the defining concern of this cycle."
-    },
-    {
-      "title": "Alaska Decides Fate of Ranked Choice Voting",
-      "facts": "Alaskans head to the polls Tuesday to vote not just on Senate and governor's races, but on whether to scrap the state's ranked choice voting system entirely. The unique ballot format\u2014which lets voters rank candidates by preference rather than picking just one\u2014has faced growing criticism since it was adopted."
-    },
-    {
-      "title": "California Billionaire Tax Could Set National Precedent",
-      "facts": "California voters are deciding whether to impose what would be the world's first state-level tax targeting billionaires, and the result could reshape the national conversation on taxing the ultra-wealthy. The ballot measure would require billionaires to contribute billions of dollars specifically earmarked for healthcare improvements across the state."
-    },
-    {
-      "title": "Medicare Tests AI for Treatment Approvals as Services Drop Sharply",
-      "facts": "Medicare's experimenting with artificial intelligence to decide whether patients can get certain medical treatments\u2014and the early results show a significant decline in approved services. The program uses AI to conduct prior authorizations, which are the gatekeeping decisions that determine whether Medicare will cover a particular procedure or test before it happens."
-    },
-    {
-      "title": "Caregivers Now Spending Over $11,000 Annually Out of Pocket",
-      "facts": "Taking care of an aging parent or sick relative is costing American families more than eleven thousand dollars a year out of their own pockets\u2014a sixty percent jump in just five years. That's according to a new study from AARP that lays bare the financial toll caregiving is taking on millions of households."
-    },
-    {
-      "title": "North Korea Behind Massive $6.3 Billion Binance Hack",
-      "facts": "North Korea just pulled off what appears to be the largest cryptocurrency heist in history\u2014a six-point-three billion dollar theft from the crypto exchange Binance. The FBI confirmed that North Korean hackers were responsible for the breach, which the company described as an extremely complex operation."
-    },
-    {
-      "title": "Mortgage Rates Dip Below 7.3% as Housing Demand Steadies",
-      "facts": "Mortgage rates have pulled back to just below 7.3 percent, and for the first time in weeks, there's a sign that buyers might be coming off the sidelines. The drop marks a retreat from the 7.28% rate reported just days ago, when monthly payments on a median-priced home had climbed to $2,350."
-    },
-    {
-      "title": "Colts Shopping Jonathan Taylor in Trade Talks",
-      "facts": "Indianapolis has reversed course and is now actively shopping running back Jonathan Taylor, according to multiple reports. The team that refused to deal Taylor during previous trade windows is fielding calls from several interested clubs, with sources telling ESPN and NFL Network that the Colts are engaged in ongoing discussions."
-    },
-    {
-      "title": "Manchester United Staring Down Relegation Fight",
-      "facts": "Manchester United lost 2-0 at Chelsea and now face the unthinkable: a genuine battle to avoid relegation from the Premier League. The defeat was grim on multiple fronts\u2014United squandered chances, saw defender Lisandro Mart\u00ednez sent off, and looked every bit a team in crisis."
-    },
-    {
-      "title": "Lakers Sold for $12.5 Billion in Stunning Three-Day Deal",
-      "facts": "Mark Walter is selling the Lakers to Josh Kushner in a deal that values the franchise at $12.5 billion, sources told ESPN. The transaction came together in just 72 hours of secret negotiations, with Walter and the Thrive Capital founder finalizing terms Thursday and expected to sign the formal agreement soon."
-    },
-    {
-      "title": "Thunder Lose Holmgren for Two Months After Latest Injury Wave",
-      "facts": "Chet Holmgren will miss eight to ten weeks with a knee injury, the Thunder announced, delivering another major blow to a team already reeling from injuries. The timing couldn't be worse for Oklahoma City\u2014Holmgren went down just days after the Thunder lost both Jalen Williams and Cason Wallace to extended absences earlier this week."
-    },
-    {
-      "title": "Anthropic Blocks Claude from Video Game Reverse-Engineering",
-      "facts": "Anthropic just rolled out sweeping new restrictions that prevent Claude from reverse-engineering or cloning video games\u2014and the policy is catching a lot more than just piracy attempts. The company says it's cracking down on users who try to recreate existing games by feeding Claude screenshots, code snippets, or gameplay descriptions and asking it to rebuild the mechanics or assets."
-    }
-  ],
   "2026-11-02": [
     {
       "title": "Pope Flies Commercial on Global Tours",
@@ -651,6 +585,68 @@
     {
       "title": "LeBron and Durant Back New League for Elite Teenage Players",
       "facts": "A new basketball league targeting the nation's top high school players is set to launch in April 2027, backed by some of the biggest names in the sport. The Futures Basketball League announced Tuesday it'll recruit the top 120 under-18 players in the country\u2014a direct challenge to the traditional college basketball pipeline."
+    }
+  ],
+  "2026-11-12": [
+    {
+      "title": "Ukraine Opens Battlefield Video Vault to Global Arms Developers",
+      "facts": "Ukraine's government has just made five million battlefield videos available to defense companies around the world\u2014a massive data dump aimed at accelerating the development of A.I.-powered weapons. The footage, captured across the frontlines of the war with Russia, offers precisely the kind of real-world combat scenarios that artificial intelligence systems need for training."
+    },
+    {
+      "title": "Power Grid Attacks Leave Ukrainian Families in the Dark",
+      "facts": "Parents across Ukraine are trying to keep family life together with just a few hours of electricity each day, and it's wearing them down. Russia's renewed strikes on the country's power grid have plunged parts of Ukraine into blackouts that mean no light, no water, and no heat for long stretches."
+    },
+    {
+      "title": "Chinese Espionage Spotlight Falls on Nvidia CEO's Relationship",
+      "facts": "Jensen Huang is under investigation for an affair with a woman U.S. intelligence officials believe is a Chinese spy, shining a spotlight on how romance plays into modern espionage."
+    },
+    {
+      "title": "U.S. Envoys Head to Moscow for Ukraine Negotiations with Putin",
+      "facts": "Jared Kushner and Steve Witkoff touched down in Moscow on Thursday for direct talks with Vladimir Putin about the war in Ukraine, a high-stakes diplomatic mission aimed at breaking the stalemate. The envoys will meet with the Russian president before traveling to Dublin to sit down with Ukraine's Volodymyr Zelensky."
+    },
+    {
+      "title": "Mississippi Elects First Black Senator Since Reconstruction",
+      "facts": "Scott Colom's headed to the U.S. Senate, and he's making history."
+    },
+    {
+      "title": "Regulators Green-Light Stock Betting as Exchanges Sue Over Safeguards",
+      "facts": "You can now bet on stock prices the same way you'd wager on a football game, and Wall Street's fighting back. The Commodity Futures Trading Commission just approved a new product called \"perpetual trades\" that lets people speculate on stocks and cryptocurrencies through platforms like Kalshi without actually owning the assets."
+    },
+    {
+      "title": "San Antonio Sues to Block ICE Detention Warehouse",
+      "facts": "San Antonio's taking the Trump administration to court over plans to turn a warehouse into an immigration detention center. The city filed a lawsuit challenging the proposal, joining a growing wave of legal resistance slowing the administration's push to build new detention facilities nationwide."
+    },
+    {
+      "title": "Heating Bills to Jump Seven Percent This Winter",
+      "facts": "Home heating costs are set to climb seven percent on average this winter, but if you rely on heating oil, brace yourself for something much worse. Those bills are expected to surge around 70 percent compared to last year, driven by a dramatic supply crunch tied to the war in Iran."
+    },
+    {
+      "title": "Lebanon's Economy Nears Collapse After War and Mismanagement",
+      "facts": "Lebanon is staring down what analysts are calling an economic catastrophe, with years of corruption and mismanagement now compounded by the fallout from Hezbollah's conflict with Israel and the broader U.S.-Israel war with Iran. The cost of living has soared to levels that are driving many Lebanese to despair, as the currency continues its freefall and basic goods become unaffordable."
+    },
+    {
+      "title": "UK Economy Posts Strongest Growth in Over Two Years",
+      "facts": "Britain's economy grew 0.7 percent in the three months ending in September, marking its fastest expansion in more than two years according to official figures released this week. The numbers suggest the UK is finally gaining some momentum after a long stretch of sluggish performance that had economists worried about stagnation."
+    },
+    {
+      "title": "Nvidia Stock Plunges on Reports Board May Oust CEO Huang",
+      "facts": "Nvidia's stock dropped 8 percent in after-hours trading Wednesday on reports the company's board met to discuss removing CEO Jensen Huang. The sudden selloff dragged down futures for the Nasdaq-100 and sent shockwaves through the chip sector."
+    },
+    {
+      "title": "Mortgage Rates Hold Steady Despite Fed Action",
+      "facts": "Freddie Mac's pegging the 30-year fixed mortgage at 7.24 percent as of late October, and here's the thing\u2014that number barely budged even after the Federal Reserve held its benchmark rate in the 3.75 to 4 percent range. It's a reminder that mortgage rates and Fed policy don't move in lockstep the way a lot of people assume."
+    },
+    {
+      "title": "Florida Housing Markets Tell Wildly Different Stories",
+      "facts": "Pending home listings just jumped 20 percent in one Florida metro area, but don't assume that means the entire state's market is heating up\u2014because neighboring cities are telling very different stories. The uneven recovery across Florida highlights how hyperlocal real estate has become in this environment."
+    },
+    {
+      "title": "Manchester United Sack Carrick After Relegation Zone Slide",
+      "facts": "Manchester United have sacked Michael Carrick just ten months after handing him the manager's job, the club confirmed today. It's a stunning fall for the former United midfielder, who now leaves with the club sitting in the relegation zone\u2014a position almost unthinkable for one of the world's biggest football clubs."
+    },
+    {
+      "title": "Curry Injury Casts Shadow Over Warriors Season",
+      "facts": "Stephen Curry's limping off the court in the first quarter Wednesday night, and the Warriors are holding their breath. He injured his right abdomen and went straight for an MRI, with head coach Steve Kerr telling reporters afterward that the team's \"concern is high\" as they wait for test results."
     }
   ]
 }
