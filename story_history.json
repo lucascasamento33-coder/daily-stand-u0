@@ -1,66 +1,4 @@
 {
-  "2026-11-02": [
-    {
-      "title": "Pope Flies Commercial on Global Tours",
-      "facts": "Pope Leo the Fourteenth doesn't have Air Force One. He doesn't even have a private jet."
-    },
-    {
-      "title": "Cyberattack Targets Supermarket Freezers Across Europe",
-      "facts": "Supermarket freezers in Belgium and Sweden were hit by what authorities are calling a suspected cyberattack over the weekend. One store in Sweden reported that the temperature controls for its freezers were remotely reset to fifty degrees Celsius\u2014that's a hundred and twenty-two degrees Fahrenheit\u2014hot enough to spoil everything inside."
-    },
-    {
-      "title": "China Tightens Grip on Critical Technology Exports",
-      "facts": "Beijing is making it harder for other countries to break free from their dependence on Chinese technology. It's not just rare earth minerals anymore."
-    },
-    {
-      "title": "Fighting Escalates in Yemen as Coalition Intercepts Missile",
-      "facts": "A Saudi-led coalition intercepted a missile over the weekend as fighting intensified in Yemen's northern al-Jawf province. Houthi-affiliated media reported that seven people were wounded in airstrikes on the port city of Hodeidah, a critical gateway for humanitarian aid."
-    },
-    {
-      "title": "Elon Musk's Record-Breaking Election Spending",
-      "facts": "Elon Musk is testing the limits of what money can buy in American politics this election cycle. The billionaire has spent nearly half a billion dollars on the midterms\u2014a sum that eclipses anything ever spent by a single person who wasn't actually running for office."
-    },
-    {
-      "title": "Judge to Hear Motion in Lindsay Clancy Murder Case",
-      "facts": "A Massachusetts judge will hear arguments Monday on whether to dismiss charges against Lindsay Clancy, in a hearing that could reshape one of the state's most closely watched murder cases. Clancy is facing first-degree murder charges in connection with the deaths of her children, a case that's drawn intense public scrutiny since it began."
-    },
-    {
-      "title": "Senate Control Hangs in the Balance After Midterms",
-      "facts": "Control of the U.S. Senate after Tuesday's midterms could come down to scenarios that sound more like political fiction than reality."
-    },
-    {
-      "title": "Goldman Predicts Oil Could Hit $130 a Barrel",
-      "facts": "Goldman Sachs is warning that oil prices could surge to an average of $130 per barrel next year if the Middle East crisis escalates. The investment bank's analysts say Brent crude could spike as high as $140 a barrel if tensions between the U.S., Israel, and Iran continue to worsen."
-    },
-    {
-      "title": "Virgin Media O2 Planning Thousands of Job Cuts",
-      "facts": "Virgin Media O2 is preparing to cut thousands of jobs as the British broadband and mobile provider looks to slash costs. The company hasn't finalized the exact number, but the BBC reports it's likely to be a sizable chunk of the workforce."
-    },
-    {
-      "title": "Deutsche Bank Calls Time to Buy Tech Again",
-      "facts": "Tech stocks have staged dramatic V-shaped recoveries five times in the past thirty months\u2014and Deutsche Bank thinks we're about to see number six. The bank's analysts say investor positioning in technology has gotten so pessimistic that it no longer reflects the sector's actual earnings growth, which remains strong."
-    },
-    {
-      "title": "Mortgage Rates Could Drop Below Seven Percent Soon",
-      "facts": "Mortgage rates below seven percent are back in play for the first time in a while. Rates have been falling lately, and the recent drop has started to breathe some life back into housing demand over the past two weeks."
-    },
-    {
-      "title": "Ravens Lose Jackson for Season With Thumb Injury",
-      "facts": "Lamar Jackson's season is over. The Ravens quarterback needs surgery on his right thumb and will be placed on injured reserve, head coach Jesse Minter announced Sunday."
-    },
-    {
-      "title": "Thunder lose Holmgren for up to ten weeks as injuries mount",
-      "facts": "Chet Holmgren's going to miss eight to ten weeks with a knee injury, and it couldn't have come at a worse time for Oklahoma City. The Thunder already lost Jalen Williams and Cason Wallace to extended absences earlier this week, meaning their roster depth is suddenly looking razor-thin."
-    },
-    {
-      "title": "Lakers' family feud spills into public as ownership battle intensifies",
-      "facts": "Jeanie Buss is accusing her own siblings of working behind her back in a legal fight that's turning the Lakers' ownership dispute into a full-blown family drama. The accusation, filed in court documents, claims her brothers and sisters used what she calls \"cloak and dagger\" tactics as they push to sell their shares in the franchise."
-    },
-    {
-      "title": "Claude Now Blocks Video Game Recreation",
-      "facts": "Anthropic's putting new guardrails on what Claude can build\u2014specifically, it's now blocking attempts to recreate existing video games. The update went live this week, preventing Claude from coding up clones of commercial titles, even if users are just tinkering for educational purposes."
-    }
-  ],
   "2026-11-03": [
     {
       "title": "US Strikes Iranian Island Ahead of Midterm Elections",
@@ -647,6 +585,68 @@
     {
       "title": "Curry Injury Casts Shadow Over Warriors Season",
       "facts": "Stephen Curry's limping off the court in the first quarter Wednesday night, and the Warriors are holding their breath. He injured his right abdomen and went straight for an MRI, with head coach Steve Kerr telling reporters afterward that the team's \"concern is high\" as they wait for test results."
+    }
+  ],
+  "2026-11-13": [
+    {
+      "title": "Mexico Faces Fresh Pressure on Border Despite Migration Drop",
+      "facts": "Mexico has cooperated to significantly slow the flow of migrants heading north, but the new White House chief of staff says that's not enough. The pointed message comes despite Mexico's efforts having already reduced crossings substantially, setting up fresh tension between the two countries."
+    },
+    {
+      "title": "Microsoft Services Crash Worldwide in Hours-Long Outage",
+      "facts": "Microsoft is struggling to restore services after a global outage knocked out Teams, Outlook, and even its AI software Copilot for users around the world. The company says the disruption wasn't caused by a cyber-security incident, but efforts to fix the connectivity problems have so far been largely unsuccessful."
+    },
+    {
+      "title": "China's Military Inquisitor Rises After Xi's General Purge",
+      "facts": "Zhang Shengmin is on the rise in China's military hierarchy, and his ascent tells you everything you need to know about what's happening inside the People's Liberation Army. Zhang has built his career investigating and purging generals, and his promotion suggests that China's top brass remains embroiled in anti-corruption probes that show no sign of ending."
+    },
+    {
+      "title": "Iran Threatens Unlimited Response After Reported U.S. Strike in Bahrain",
+      "facts": "Iran's Islamic Revolutionary Guard Corps says it destroyed a U.S. early-warning radar installation in Bahrain and is threatening an unlimited response over what it calls American aggression in the Strait of Hormuz."
+    },
+    {
+      "title": "Mississippi Democrat Stuns GOP in Senate Upset",
+      "facts": "Scott Colom just pulled off one of the biggest political surprises of the midterm cycle, toppling a Republican incumbent in Mississippi's Senate race. The Democrat had been running a largely under-the-radar campaign that few national observers were watching closely."
+    },
+    {
+      "title": "White House Clamps Down on Lobbyist Access After Influence Claims",
+      "facts": "The White House is restricting how often lobbyists can meet with senior officials after facing accusations of influence peddling. Stephen Miller's office outlined the new policy, which is designed to show the administration isn't in the pocket of special interests."
+    },
+    {
+      "title": "Van Hollen Eyes Challenge to Schumer for Senate Democratic Leadership",
+      "facts": "Chris Van Hollen is positioning himself to challenge Chuck Schumer for Senate Majority Leader, setting up what could be the first real leadership fight among Democrats in years. Van Hollen has emerged as the favorite of senators who want an alternative to Schumer's long tenure at the top."
+    },
+    {
+      "title": "Fed Chairman Warsh Overhauls Central Bank Meeting Structure",
+      "facts": "The Federal Reserve won't hold a policy vote at its October 2027 meeting\u2014and that's just the opening move in a major overhaul of how the central bank operates. Fed Chairman Kevin Warsh is converting next October's session into a strategy meeting instead, the first step in what's described as a broader plan to reshape the Fed's decision-making process."
+    },
+    {
+      "title": "Jensen Huang Out as Nvidia CEO After Alleged Affair Scandal",
+      "facts": "Jensen Huang just lost his job running one of the world's most valuable companies. Nvidia's CEO abruptly resigned on Thursday after revelations surfaced about alleged extramarital affairs, including one reportedly involving a woman described as an alleged Chinese spy."
+    },
+    {
+      "title": "Goldman Sachs Says Earnings Growth Will Slow Sharply\u2014But the Bull Market Isn't Over",
+      "facts": "Goldman Sachs is telling investors to brace for a major slowdown in corporate earnings growth over the next couple years, but the firm says that doesn't mean stocks are headed for a crash. The investment bank's forecasting that earnings growth across major indices will nearly halve by 2027 compared to current levels\u2014a significant deceleration that's already being priced into the market."
+    },
+    {
+      "title": "California Threatens Cities That Block Housing Projects",
+      "facts": "California's housing enforcement just got teeth. State officials are sending formal warning letters to cities across the state, putting them on notice that blocking or scaling back residential projects that comply with new housing laws will have consequences."
+    },
+    {
+      "title": "Homebuilders Face Mounting Inventory as They Search for a Bottom",
+      "facts": "Homebuilders are staring down a supply problem that's starting to squeeze their margins. New-home inventory has climbed to 8.4 months of supply, well above the overall housing market's 5.1 months, and that gap is forcing builders into tougher competition for buyers."
+    },
+    {
+      "title": "Pochettino Takes the Reins at Manchester United",
+      "facts": "Mauricio Pochettino has agreed to become Manchester United's next manager, with an official announcement expected as soon as Friday. Sources told ESPN the deal is done to replace Michael Carrick in the Old Trafford hot seat."
+    },
+    {
+      "title": "Curry Faces Month-Long Absence With Oblique Tear",
+      "facts": "Stephen Curry's going to be out at least two weeks with a torn oblique, but the Warriors are quietly preparing for a much longer absence. Sources told ESPN the team's bracing for Curry to miss close to a month with the abdominal injury, a timeline that would keep him sidelined deep into December."
+    },
+    {
+      "title": "Claude Joins Your Video Calls\u2014and Can Actually Do Things",
+      "facts": "Anthropic just shipped something that's going to change how you run meetings: Claude can now join your Google Meet calls and actively work on documents and whiteboards while you're talking. This isn't passive transcription\u2014the AI can draft contracts, sketch out diagrams, update spreadsheets, and collaborate in real time as the conversation unfolds."
     }
   ]
 }
