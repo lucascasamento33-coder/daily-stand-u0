@@ -1,54 +1,4 @@
 {
-  "2026-11-03": [
-    {
-      "title": "US Strikes Iranian Island Ahead of Midterm Elections",
-      "facts": "American forces have launched strikes on Iran's Qeshm Island in the Strait of Hormuz, marking the first attack on that location since June. US officials described the operation as limited and defensive, but the timing\u2014just hours before midterm elections\u2014has raised questions about the strategic calculus behind the move."
-    },
-    {
-      "title": "Australian Court Hears Challenge to Social Media Age Ban",
-      "facts": "Reddit and an Australian digital rights group are taking the government to court over a new law that bans children under 16 from using major social media platforms. The challengers argue the restriction violates constitutional rights to free expression and access to information."
-    },
-    {
-      "title": "Midterm Elections Underway With Control of Senate in Question",
-      "facts": "Voters across the country are heading to the polls today in midterm elections that could reshape the balance of power in Washington. Republicans are bracing for potential losses amid what's being described as a backlash to the president's economic leadership and the Iran war."
-    },
-    {
-      "title": "Trump Voting Fraud Crackdown Yields Just 236 Charges",
-      "facts": "The Trump administration's effort to prove widespread noncitizen voting has led to just 236 people being charged with voting-fraud-related offenses so far. That's a strikingly small number given the administration's repeated and unsubstantiated claims that fraud is rampant across the country."
-    },
-    {
-      "title": "Trump Administration Moves to Scale Back Workplace Protections for Pregnant Workers",
-      "facts": "The Trump administration is preparing to roll back parts of a Biden-era law that was designed to help pregnant women stay in the workforce. The Pregnant Workers Fairness Act required employers to make accommodations for pregnancy-related conditions, but some conservatives have argued that the regulations implementing it went too far."
-    },
-    {
-      "title": "Michigan Voters to Weigh In on Trump's Trade War at the Polls",
-      "facts": "President Trump's tariff strategy is facing a real-world test in Michigan, where voters head to the polls with trade policy squarely on their minds. The president's tariffs and his ongoing trade battles with Canada have become a central issue in the state, which has deep ties to both manufacturing and cross-border commerce."
-    },
-    {
-      "title": "UK and EU Reach Deal to Cut Post-Brexit Food Export Red Tape",
-      "facts": "Britain and the European Union have agreed to a draft deal that would eliminate a significant chunk of the bureaucratic burden that's been choking food exports since Brexit. The agreement is the most substantial piece of the so-called Brexit reset that the two sides have managed to finalize so far."
-    },
-    {
-      "title": "Nasdaq-100 Slides Into Third Correction of the Year",
-      "facts": "The Nasdaq-100 has tumbled into its third correction of 2025, and this time it's artificial intelligence worries driving the selloff. The tech-heavy index dropped enough to meet the technical definition of a correction\u2014a decline of at least ten percent from recent highs."
-    },
-    {
-      "title": "Los Angeles Faces $20 Million Fine Over Blocked Housing Project",
-      "facts": "A developer is seeking twenty million dollars in damages from the City of Los Angeles, claiming officials illegally delayed approval of a new housing project. The developer's legal team says the city's denial violates both AB 2011 and the Housing Accountability Act\u2014state laws designed to speed up housing construction in California."
-    },
-    {
-      "title": "Spanish Soccer Player Dies After On-Field Collision",
-      "facts": "Jes\u00fas de Miguel has died at age 30 following an on-field collision during a match on Monday. The Tenerife forward collapsed after the incident during a Spanish second-division game, and his club confirmed his death Tuesday."
-    },
-    {
-      "title": "Thunder to Retire Westbrook's Number Zero",
-      "facts": "The Oklahoma City Thunder are bringing Russell Westbrook's number zero back home permanently. The franchise announced it'll retire his jersey later this season, honoring the former MVP who spent the first eleven years of his career in Oklahoma City."
-    },
-    {
-      "title": "Gilgeous-Alexander Drops Forty-Three to Hand Cavs First Home Loss",
-      "facts": "Shai Gilgeous-Alexander had what his teammates are calling \"the look\" Monday night, and Cleveland found out what that means the hard way. He poured in a season-high forty-three points, including a go-ahead three-pointer with just over thirty seconds left, as Oklahoma City handed the Cavaliers their first home loss of the season, 117-112."
-    }
-  ],
   "2026-11-04": [
     {
       "title": "World Leaders Grapple With Trump's Midterm Losses",
@@ -647,6 +597,68 @@
     {
       "title": "Claude Joins Your Video Calls\u2014and Can Actually Do Things",
       "facts": "Anthropic just shipped something that's going to change how you run meetings: Claude can now join your Google Meet calls and actively work on documents and whiteboards while you're talking. This isn't passive transcription\u2014the AI can draft contracts, sketch out diagrams, update spreadsheets, and collaborate in real time as the conversation unfolds."
+    }
+  ],
+  "2026-11-14": [
+    {
+      "title": "Trump Lays Claim to Venezuela's Oil Reserves",
+      "facts": "The United States is making an unprecedented move to take control of Venezuela's oil reserves, and it's shaking the foundation of how Venezuelans see their country. For decades, sovereign control over oil has been a bedrock principle in Venezuela\u2014something that's defined the nation's identity since the industry was first nationalized."
+    },
+    {
+      "title": "Ukraine Proposes Ceding Donbas for NATO Membership",
+      "facts": "Ukrainian President Zelensky says American envoys have floated the idea of Ukraine giving up the Donbas region in exchange for NATO membership as part of a broader effort to end the war with Russia. It's a stunning potential trade-off that would mean Ukraine formally surrendering territory it's been fighting to reclaim since 2014."
+    },
+    {
+      "title": "Trump, Putin and Xi to Meet in China for Nuclear Talks",
+      "facts": "President Trump, Russian President Putin, and Chinese President Xi are planning a historic joint meeting in China next week, the White House confirmed. It'll be the first time the leaders of all three nuclear superpowers have sat down together, and the stakes couldn't be higher."
+    },
+    {
+      "title": "Eisenkot Accuses Netanyahu of Stoking Anti-Arab Hostility",
+      "facts": "Gadi Eisenkot has sharply criticized Prime Minister Benjamin Netanyahu, accusing him of fueling what Eisenkot calls \"racist\" hostility against Arabs. The rebuke came just days after Netanyahu delivered a divisive speech attacking Arab lawmakers, and Eisenkot didn't mince words in his response."
+    },
+    {
+      "title": "Bomb Evacuates Peoria Ethanol Plant",
+      "facts": "A bomb was found at an ethanol plant in Peoria, Illinois, forcing authorities to clear out everyone within a one-mile radius. The mayor confirmed the discovery at the industrial site along the Illinois River, though officials haven't said whether the device was live or how it got there."
+    },
+    {
+      "title": "Alaska's Lone House Race Features Candidate Behind Bars",
+      "facts": "The Democratic candidate in Alaska's House race is currently serving time in a New York prison, raising questions about what Republicans are calling ballot manipulation tactics. While the Alaska Senate race between Dan Sullivan and Mary Peltola continues its vote count and remains the only uncalled Senate contest in the country, the House race has drawn attention for a different reason entirely."
+    },
+    {
+      "title": "White House Girds for Democratic Oversight Push",
+      "facts": "The Trump administration has been quietly building what officials describe as an aggressive defense against Democratic oversight efforts now that Congress has flipped. Democrats, newly empowered after their midterm victories, are planning investigations into various aspects of the administration's operations."
+    },
+    {
+      "title": "Air Travel Chaos After Nationwide Ground Stop",
+      "facts": "The FAA lifted a rare nationwide ground stop this morning, but air travelers shouldn't expect things to get back to normal anytime soon. Homeland Security Secretary Mullin said there's \"zero evidence\" of a cyberattack causing the halt, but recovery could take days as airlines scramble to rebook passengers."
+    },
+    {
+      "title": "Microsoft Services Back Online After Daylong Outage",
+      "facts": "Microsoft says it's finally fixed the problem that knocked out Outlook, Teams, and Copilot for users around the world\u2014but the outage stretched through an entire business day. The tech giant confirmed that efforts to restore service are complete, ending a disruption that left millions of workers unable to access email or collaborate on projects."
+    },
+    {
+      "title": "Nvidia Hits Longest Losing Streak Since 2011",
+      "facts": "Nvidia just capped off its worst run in fourteen years. The chip giant's stock fell for a sixth consecutive week, erasing $573 billion in market value\u2014a staggering loss that's got investors wondering if the AI boom is finally cooling off."
+    },
+    {
+      "title": "Apartment Rents Split Along Regional Lines",
+      "facts": "San Francisco rents are climbing while Sun Belt markets slide, marking a sharp reversal in the pandemic-era migration story. Northern California grabbed the top three growth spots nationwide, while San Antonio posted the steepest decline among the fifty largest U.S."
+    },
+    {
+      "title": "Pochettino Exits USMNT for Manchester United",
+      "facts": "Mauricio Pochettino's brief stint leading the U.S. men's national team is over after less than a year."
+    },
+    {
+      "title": "Dejounte Murray Requests Trade From Pelicans",
+      "facts": "Dejounte Murray wants out of New Orleans. The Pelicans guard has requested a trade from the franchise, and his agent Rich Paul is already working with team officials to find a resolution."
+    },
+    {
+      "title": "Federal Prosecutors Allege Betting Scheme Involving Terry Rozier",
+      "facts": "Federal prosecutors say they've uncovered evidence of a planned betting scheme involving Terry Rozier and another Hornets player. Court filings reveal that a co-defendant in an NBA betting case told a gambler that he and Rozier were plotting to wager on the unders for one of Rozier's teammates."
+    },
+    {
+      "title": "Anthropic Rolls Out Self-Hosted Managed Agents With Eight-Hour Safety Tripwire",
+      "facts": "Anthropic just released self-hosted Claude Managed Agents\u2014meaning you can now run autonomous Claude agents on your own infrastructure instead of relying on Anthropic's cloud. The big catch?"
     }
   ]
 }
