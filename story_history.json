@@ -1,62 +1,4 @@
 {
-  "2026-11-04": [
-    {
-      "title": "World Leaders Grapple With Trump's Midterm Losses",
-      "facts": "World leaders and commentators are trying to decode what President Trump's electoral losses in the midterms will mean for their countries. The administration's foreign policy faces new constraints now that Democrats have taken Congress, and that's raising questions from Tehran to Caracas."
-    },
-    {
-      "title": "Democrats Flip South Carolina Senate Seat in Historic Upset",
-      "facts": "Annie Andrews has defeated Darline Graham in South Carolina's Senate race, becoming the state's first Democratic senator in almost three decades. Graham had been handpicked by President Trump to fill the seat after her brother's death, making the loss particularly stinging for the White House."
-    },
-    {
-      "title": "Delhi Chokes on Toxic Air as Diwali Approaches",
-      "facts": "Delhi's air has turned toxic again, with the city's air quality index hitting 377 on Wednesday morning\u2014a reading that puts it in the \"very poor\" category. The timing couldn't be worse, as Diwali celebrations are just around the corner and firework restrictions have now entered force."
-    },
-    {
-      "title": "Houthi Blockade Traps Yemenis in Taiz",
-      "facts": "A monthlong siege by Houthi forces on the Yemeni city of Taiz is creating what aid groups are calling a looming catastrophe. The blockade has cut off food, water, fuel, and medical supplies to the trapped population, leaving residents in increasingly desperate conditions."
-    },
-    {
-      "title": "Democrats Seize Congress in Historic Midterm Sweep",
-      "facts": "Democrats have taken control of Congress for the remainder of Donald Trump's presidency, pulling off wins in races that weren't supposed to be close. Two Senate contests that looked like toss-ups a year ago turned into comfortable Democratic victories, part of a night that saw the party push deep into traditionally Republican territory."
-    },
-    {
-      "title": "England Trials Multi-Cancer Blood Test in Primary Care",
-      "facts": "A blood test that can detect multiple types of cancer at once is coming to some GP surgeries in England, marking a significant shift in how hard-to-diagnose cancers might be caught. The test is designed to identify abdominal cancers\u2014including liver, ovarian, and pancreatic cancer\u2014that are notoriously difficult to diagnose in their early stages."
-    },
-    {
-      "title": "Americans Cast Ballots from Space Station and Antarctica",
-      "facts": "Astronauts aboard the International Space Station joined Americans in Antarctica and remote Alaskan villages in casting absentee ballots in the midterm elections, demonstrating just how far the reach of U.S. voting extends."
-    },
-    {
-      "title": "Trump Administration Targets Pregnancy Workplace Protections",
-      "facts": "The Trump administration is preparing to roll back workplace protections for pregnant workers that were only recently put in place. The move would scale back a Biden-era law designed to help women stay in their jobs during pregnancy."
-    },
-    {
-      "title": "Canva Slashes Workforce After Toughest Year on Record",
-      "facts": "Canva is cutting more than a thousand jobs in what CEO Melanie Perkins is calling the company's hardest year yet. The Australian design software giant says some employees will lose their jobs outright, while others will be asked to switch roles as the company restructures."
-    },
-    {
-      "title": "Super Micro Delivers Earnings Beat on AI Server Boom",
-      "facts": "Super Micro's stock surged Wednesday after the company's latest earnings report showed just how much money there is to be made building the infrastructure behind artificial intelligence. The chip and server maker posted results that blew past Wall Street's expectations, driven by what CFO Mark Long called a \"high-quality customer base\" that's snapping up AI servers as fast as the company can build them."
-    },
-    {
-      "title": "Mortgage Servicing Rights Hit Highest Valuations in Decades",
-      "facts": "Mortgage servicing rights are trading at their richest levels in more than twenty years, and lenders are splitting into two very different camps on what to do about it. The financial instruments that represent the right to service a loan\u2014collecting payments, managing escrow, handling defaults\u2014have become suddenly valuable as interest rates stay elevated and refinancing activity stays low."
-    },
-    {
-      "title": "Spanish Police Investigate Player's Death After On-Field Collision",
-      "facts": "Tenerife forward Jes\u00fas de Miguel has died at age 30 following an on-field collision during a Spanish second-division match on Monday, and now police have opened an investigation into the incident. The collision happened during a LaLiga 2 game, and de Miguel's club confirmed his death shortly after."
-    },
-    {
-      "title": "Dumont Family Takes Control of Mavericks",
-      "facts": "Sivan and Patrick Dumont are now running the Dallas Mavericks after purchasing Miriam Adelson's shares last month, giving the Dumont family nearly 70 percent of the franchise. It's a major ownership shift for one of the NBA's marquee teams."
-    },
-    {
-      "title": "Message Threads Cut Claude Code Latency Without Hiking Your Bill",
-      "facts": "Anthropic just shipped a performance upgrade to Claude Code that'll change how you structure long-running tasks\u2014and it's one of those rare optimizations where you get speed without paying for it. The new message threads feature lets Claude Code maintain context across multiple back-and-forth exchanges within a single session, but here's the non-obvious win: because threads reuse the same context window instead of re-sending the full conversation history with every turn, you're cutting latency by up to 40% on multi-step workflows without inflating your token count."
-    }
-  ],
   "2026-11-05": [
     {
       "title": "Joshua Wong Sentenced to 10 Years Under National Security Law",
@@ -659,6 +601,52 @@
     {
       "title": "Anthropic Rolls Out Self-Hosted Managed Agents With Eight-Hour Safety Tripwire",
       "facts": "Anthropic just released self-hosted Claude Managed Agents\u2014meaning you can now run autonomous Claude agents on your own infrastructure instead of relying on Anthropic's cloud. The big catch?"
+    }
+  ],
+  "2026-11-15": [
+    {
+      "title": "Ukraine Floats NATO-for-Territory Trade in Peace Talks",
+      "facts": "Ukraine's president says the United States has floated a proposal that would trade land for security: give up the Donbas region to Russia in exchange for NATO membership. Volodymyr Zelensky confirmed the discussions publicly, though a U.S."
+    },
+    {
+      "title": "India's Cricket Team Wins Asia Cup Amid Post-Match Chaos",
+      "facts": "India's Under-19 cricket team pulled off a one-wicket comeback victory over Pakistan in the Asia Cup final\u2014then followed it up with a display of aggression that's drawing sharp criticism. The thrilling finish saw India chase down Pakistan's total in dramatic fashion, clinching the title in one of youth cricket's marquee tournaments."
+    },
+    {
+      "title": "Commerce Secretary Faces Conflict of Interest Questions Over Chip Export Rules",
+      "facts": "Commerce Secretary Howard Lutnick is drafting new rules governing Southeast Asian data centers at the same time some of those facilities are clients of his former firm. The regulations would determine which companies can access advanced American semiconductor technology\u2014a multibillion-dollar question that sits at the heart of U.S.-China tech competition."
+    },
+    {
+      "title": "Black Women in Georgia to Hold Seven of Eight Top State Leadership Roles",
+      "facts": "Black women will hold seven of Georgia's eight top elected leadership positions, a historic concentration of power that reflects years of organizing work on the ground. Their success in recent elections stems directly from voter registration drives and turnout efforts that made Democrats competitive again in a state that was reliably red for decades."
+    },
+    {
+      "title": "Microsoft Recovers From Day-Long Global Outage",
+      "facts": "Microsoft says it's fully restored service after a day-long outage knocked out some of its most critical business tools for millions of users worldwide. Outlook, Teams, and Copilot all went dark, leaving workers unable to send emails, join meetings, or access AI assistants they've come to rely on."
+    },
+    {
+      "title": "SpaceX Catches Starship Rocket in Historic First",
+      "facts": "SpaceX just pulled off something that looked like science fiction\u2014catching a rocket out of midair as it returned from space. The company successfully caught its Starship rocket using giant mechanical arms, a milestone that gets SpaceX much closer to what it calls \"rapid reusability\" of rockets."
+    },
+    {
+      "title": "Housing Inventory Drops as Seasonal Slowdown Takes Hold",
+      "facts": "The number of homes for sale across the country just fell below 896,000\u2014down nearly 7,000 in a single week as the usual fall and winter slowdown kicks in. It's a sharp reminder that the supply crunch isn't going anywhere."
+    },
+    {
+      "title": "Red Sox Sign Jake Bauers to Four-Year Deal",
+      "facts": "The Red Sox just locked down first baseman Jake Bauers with a four-year, fifty-eight-million-dollar contract following his breakout season with the Brewers. It's the first major signing of baseball's offseason, and Boston's paying a premium for a player who parlayed a career year into serious money."
+    },
+    {
+      "title": "Patriots Place Running Back on Injured Reserve with Unexplained Illness",
+      "facts": "The Patriots have placed running back TreVeyon Henderson on injured reserve while he deals with what the team is calling an unexplained neurological issue. That's all New England has said publicly, and the lack of detail is raising questions about the severity of Henderson's condition."
+    },
+    {
+      "title": "Spurs Extend Win Streak to Eleven With Rout of Short-Handed Warriors",
+      "facts": "Victor Wembanyama and the Spurs just put an exclamation point on their best stretch of the season, demolishing the Warriors 123-85 for their eleventh straight win. San Antonio came out firing with an 18-0 run to open the game, and Golden State never recovered."
+    },
+    {
+      "title": "Embiid Sidelined Again as 76ers Manage Plantar Fascia Issue",
+      "facts": "Joel Embiid won't play Sunday against the Pacers, ruled out by the 76ers for what the team is calling right foot plantar fascia management. It's the latest in a series of absences for Philadelphia's star center, who's been dealing with the painful foot condition for weeks now."
     }
   ]
 }
