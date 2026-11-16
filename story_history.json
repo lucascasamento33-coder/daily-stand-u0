@@ -1,50 +1,4 @@
 {
-  "2026-11-05": [
-    {
-      "title": "Joshua Wong Sentenced to 10 Years Under National Security Law",
-      "facts": "Joshua Wong, one of Hong Kong's most recognizable pro-democracy activists, has been sentenced to 10 years in prison. The 30-year-old was convicted of conspiracy to collude with foreign forces under the national security law that Beijing imposed on the territory in 2020."
-    },
-    {
-      "title": "Typhoons Hammer East Asia as El Ni\u00f1o Fuels Wild Weather",
-      "facts": "East Asia's being battered by an unusually fierce typhoon season that meteorologists are linking to El Ni\u00f1o. Even countries where typhoons are routine\u2014Japan, the Philippines, Taiwan\u2014are reporting that the last few months have brought storms beyond what they normally see."
-    },
-    {
-      "title": "Democrats Prepare to Reverse Trump Tax and Trade Policies After Midterm Wins",
-      "facts": "Democrats are wasting no time signaling what they'll do with their new congressional majorities\u2014and rolling back some of the president's signature economic policies is at the top of the list. Fresh off Tuesday's midterm victories, Democratic leaders say they're planning to target Trump's tax cuts and his tariff-heavy trade agenda when they take control in January."
-    },
-    {
-      "title": "Democrats' Congressional Sweep Sends Stocks Soaring on Iran War Optimism",
-      "facts": "The Dow just posted its best single day in a year and a half, surging on Wednesday after Democrats clinched full control of Congress. Investors are betting that unified Democratic leadership could accelerate an end to the war with Iran, which has been rattling markets for months."
-    },
-    {
-      "title": "UK Interest Rates Expected to Rise for First Time in Three Years",
-      "facts": "British borrowers are bracing for their first interest rate hike in more than three years. Most analysts expect the Bank of England to raise its benchmark rate from 3.75 percent to 4 percent, reversing a long stretch of cuts that had brought relief to mortgage holders and businesses."
-    },
-    {
-      "title": "Zillow Shifts Strategy as Losses Mount",
-      "facts": "Zillow's doubling down on a controversial bet that's turning off home sellers even as the company bleeds cash. The real estate platform announced it's pushing to route one hundred percent of buyer connections through its Preferred agent program\u2014essentially steering users exclusively to agents who pay Zillow for the privilege."
-    },
-    {
-      "title": "New Credit Scoring Model Could Expand Homebuyer Pool",
-      "facts": "A long-awaited credit scoring overhaul is finally reaching lenders, and it could unlock homeownership for thousands of Americans who've been shut out under the old system. VantageScore 4.0 got the green light from federal housing regulators back in 2022, but it's only been widely available to lenders backed by Fannie Mae and Freddie Mac since September."
-    },
-    {
-      "title": "Ronaldo Ends Portugal Career After Falling Out With New Boss",
-      "facts": "Cristiano Ronaldo has retired from international football, bringing down the curtain on a career with Portugal that produced 146 goals in 234 appearances. But this isn't the graceful exit you might expect for one of the game's all-time greats\u2014Ronaldo's walking away after a reported falling-out with Portugal's manager, Jorge Jesus."
-    },
-    {
-      "title": "Ravens Trade for Brissett as Lamar Jackson Injury Creates Crisis",
-      "facts": "The Baltimore Ravens are finalizing a trade with the Arizona Cardinals to acquire quarterback Jacoby Brissett, a move that underscores just how serious their situation has become. Lamar Jackson is out, and the Ravens clearly don't trust their current backup options enough to ride out whatever's keeping their franchise quarterback off the field."
-    },
-    {
-      "title": "Wembanyama Erupts for Career-Best 52 Points in Spurs Win",
-      "facts": "Victor Wembanyama put up numbers Wednesday night that'll have you double-checking the box score. The Spurs' big man dropped a career-high 52 points and grabbed 24 rebounds\u2014also a personal best\u2014while swatting away eight shots in a win over the Mavericks."
-    },
-    {
-      "title": "Claude Marketplace Opens to Third-Party Agents and Products",
-      "facts": "Anthropic just opened up Claude's ecosystem in a way that could change how you build and deploy AI tools. The company's expanding its marketplace to include partner-built agents and products\u2014not just Anthropic's own creations\u2014which means you'll soon be able to plug specialized third-party capabilities directly into your Claude workflows."
-    }
-  ],
   "2026-11-06": [
     {
       "title": "Pope Leo Begins 12-Day South America Tour After Recent Lung Surgery",
@@ -647,6 +601,56 @@
     {
       "title": "Embiid Sidelined Again as 76ers Manage Plantar Fascia Issue",
       "facts": "Joel Embiid won't play Sunday against the Pacers, ruled out by the 76ers for what the team is calling right foot plantar fascia management. It's the latest in a series of absences for Philadelphia's star center, who's been dealing with the painful foot condition for weeks now."
+    }
+  ],
+  "2026-11-16": [
+    {
+      "title": "Pope Leo Defies Health Concerns on South America Tour",
+      "facts": "Pope Leo the Fourteenth is proving his doctors wrong. The 87-year-old pontiff is moving through his South America trip without visible strain, just weeks after surgeons removed part of his lung in what many feared would be a career-ending procedure."
+    },
+    {
+      "title": "South Korea Launches Probe Into K-Pop Contracts for Minors",
+      "facts": "South Korean authorities will investigate how the K-pop industry treats underage performers, following a New York Times report on restrictive contracts signed by teenage stars. The announcement targets practices like those involving the group NewJeans, whose members signed deals when they were between 14 and 17 years old."
+    },
+    {
+      "title": "Democrats Prepare to Reshape Policy in State Capitals",
+      "facts": "Democrats are about to wield power in statehouses across the country in a way they haven't for years. While the incoming Democratic Congress has grabbed headlines, the real action might happen at the state level\u2014where Democrats will now control a dozen new legislative chambers."
+    },
+    {
+      "title": "International Students Turning Away From American Universities",
+      "facts": "For the second year running, international students are avoiding American universities\u2014and the numbers suggest Trump administration policies are driving them away. Universities that have built entire budgets around tuition from foreign students are now scrambling as those revenue streams dry up."
+    },
+    {
+      "title": "Router Failure Behind Nationwide Aviation Ground Stop",
+      "facts": "A new piece of networking equipment caused a nationwide aviation ground stop after it started flooding the system with data, according to aviation experts and federal officials. The router malfunction created a cascade that forced airlines to halt departures across the country, stranding thousands of travelers."
+    },
+    {
+      "title": "Commerce Chief Faces Conflict Questions Over Chip Export Rules",
+      "facts": "Commerce Secretary Howard Lutnick is writing new semiconductor export regulations that could directly affect clients of his family's former business. The rules target data centers in Southeast Asia\u2014and some of those facilities were customers of Lutnick's old firm before he took the cabinet post."
+    },
+    {
+      "title": "Wall Street Divided on Whether AI Boom Will Crater Markets",
+      "facts": "A former White House economist is putting a number on what happens if artificial intelligence turns out to be a bubble: he thinks the stock market could drop twenty-five percent if the AI hype implodes. Jason Furman's forecast comes as Wall Street's split wide open on whether we're witnessing a genuine technological revolution or a speculative frenzy that'll end badly."
+    },
+    {
+      "title": "Intel Hit With Investor Lawsuit Over Hidden PC Sales Slump",
+      "facts": "Intel's facing a proposed class-action lawsuit from shareholders who claim the chipmaker concealed how badly slowing PC sales were hammering its business. The suit alleges Intel knew its core market was deteriorating faster than it let on, leaving investors in the dark until the damage showed up in quarterly results."
+    },
+    {
+      "title": "Housing Inventory Drops as Seasonal Slowdown Takes Hold",
+      "facts": "Housing inventory across the country has fallen to just under 896,000 available homes, marking a sharp decline as the market hits its typical seasonal slowdown. The drop of nearly 7,000 homes in just one week reflects what happens every year as we head into the holidays\u2014sellers pull their listings and buyers sit on the sidelines."
+    },
+    {
+      "title": "Mortgage Lenders Face Surging Costs as Industry Efficiency Lags",
+      "facts": "The cost of originating a single mortgage loan has climbed to nearly $11,000, according to new data from the Mortgage Bankers Association covering the second quarter of this year. That's a staggering figure that helps explain why getting a mortgage feels like such a heavy lift for both borrowers and the lenders processing their applications."
+    },
+    {
+      "title": "Bauers Signs $58 Million Deal with Red Sox After Breakout Season",
+      "facts": "Jake Bauers just landed a massive payday. The first baseman agreed to a four-year, $58 million contract with the Red Sox after putting together a career season with the Brewers."
+    },
+    {
+      "title": "Celtics Set Franchise Record with Historic First Quarter Blowout",
+      "facts": "The Celtics absolutely demolished the Mavericks on Sunday, jumping out to a 42-9 lead after just one quarter\u2014and that's not just a big margin, it's a franchise record. The 33-point cushion marks the largest scoring advantage in any NBA quarter since 1987, a stat that puts Boston's dominance in truly rare air."
     }
   ]
 }
