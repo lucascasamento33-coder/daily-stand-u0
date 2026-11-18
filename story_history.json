@@ -1,70 +1,4 @@
 {
-  "2026-11-07": [
-    {
-      "title": "Paraguay's President Ousted and Detained After Banking Crisis",
-      "facts": "Paraguay's Congress has impeached President Santiago Pe\u00f1a and placed him under house arrest following a banking crisis that's left millions of people unable to access their money. The dramatic ousting marks one of the fastest presidential downfalls in recent Latin American history."
-    },
-    {
-      "title": "European Investigators Launch Fraud Probe Into Spain's Rail Authorities",
-      "facts": "European prosecutors have opened a fraud investigation into Spain's rail authorities over EU funds meant for upgrading the railway line where a crash killed sixty-nine people. The inquiry focuses on whether money earmarked for safety improvements was properly spent before the Urda rail disaster."
-    },
-    {
-      "title": "Pakistan to Send Astronaut to China's Space Station",
-      "facts": "Pakistan will send an astronaut to China's space station as part of the upcoming Shenzhou-24 mission, making them the first foreign national to visit the Chinese orbital outpost. The landmark mission represents a major deepening of space cooperation between Beijing and Islamabad."
-    },
-    {
-      "title": "Flooding Hits Gaza Displacement Camps as Storm Sweeps Through",
-      "facts": "Thousands of displaced families in Gaza saw their tents flooded as heavy rains swept through the encampment areas overnight. Gaza's Civil Defence reported receiving fifteen hundred distress calls in just ten hours as the storm battered the makeshift shelters."
-    },
-    {
-      "title": "North Carolina Republicans Lose Supermajority in Stunning Upset",
-      "facts": "North Carolina Republicans watched their carefully constructed legislative fortress crumble this week in what party insiders are calling a complete implosion. The GOP had relied on aggressive gerrymandering to protect incumbents and maintain their supermajority in the state legislature, even as Democrats continued winning the governor's mansion."
-    },
-    {
-      "title": "Two Skydivers Killed After Midair Collision in California",
-      "facts": "Two skydivers died after colliding in midair during a jump in Southern California, even though both of their parachutes successfully deployed. The accident happened during an event hosted by a skydiving company, though the exact location hasn't been released."
-    },
-    {
-      "title": "Labor Market Holds Firm Despite AI and Inflation Pressures",
-      "facts": "Unemployment fell in October, extending a remarkable streak of stability for American workers who've been facing down twin threats from inflation and artificial intelligence. The strong hiring numbers reinforce what's become a surprisingly sturdy job market, defying predictions that either price pressures or automation would start eating into employment."
-    },
-    {
-      "title": "Commerce Department Approves Chinese Firms for Advanced Nvidia Chips Despite Red Flags",
-      "facts": "The Commerce Department has cleared dozens of Chinese companies to handle Nvidia's cutting-edge H200 chips, and some of those firms are raising serious questions about oversight. Several of the approved companies operate out of what appear to be empty offices, and investigators have found ties to other Chinese firms already under U.S."
-    },
-    {
-      "title": "AI Stock Selloff Reverses as Investors Reconsider Election Impact",
-      "facts": "Artificial intelligence stocks are climbing again after trillions of dollars in market value were wiped out earlier this week. Investors had been dumping tech shares partly over fears that the Democratic midterm victory would bring heavier AI regulation and slow the industry's breakneck development."
-    },
-    {
-      "title": "Chip Stocks Bounce Back After Brutal Selloff",
-      "facts": "Nvidia, AMD, and the rest of the semiconductor sector clawed back some ground after what analysts are calling a \"violent\" selloff that rattled tech investors. The rebound offered a brief respite for chip stocks that had been hammered in recent sessions, but experts warn this might just be a temporary breather."
-    },
-    {
-      "title": "Musk Signals SpaceX Could Make Major Acquisition",
-      "facts": "Elon Musk just opened the door for SpaceX to make a significant acquisition as the rocket and satellite company sets its sights on challenging traditional telecom giants. The move signals that SpaceX isn't content just launching satellites\u2014it wants to compete head-to-head with established communications providers."
-    },
-    {
-      "title": "Mortgage Rates Hold Steady Despite Strong Jobs Report",
-      "facts": "Mortgage rates barely budged after Friday's jobs report showed the economy added 165,000 payrolls last month\u2014a surprise to anyone who expected borrowing costs to shoot back up. Normally, strong employment data sends rates climbing as investors anticipate the Fed will keep tightening, but this time the market's shrugging it off."
-    },
-    {
-      "title": "Browns Turn to Sanders With Watson Sidelined",
-      "facts": "The Cleveland Browns are handing the ball to Shedeur Sanders for Sunday's game against the Saints, with Deshaun Watson stuck in the concussion protocol. It's a sudden turn for the Browns, who'd been leaning on Watson as their starter this season."
-    },
-    {
-      "title": "Doncic Averaging 40 Points Per Game After 53-Point Explosion",
-      "facts": "Luka Doncic is putting up numbers we haven't seen in the NBA in decades. The Dallas star dropped 53 points in Friday's win over Portland, pushing his season scoring average to 40.1 points per game."
-    },
-    {
-      "title": "Porzingis Steps Away From Warriors to Address Health Concerns",
-      "facts": "Kristaps Porzingis is stepping away from basketball entirely to focus on his health. The Warriors forward made the announcement without providing a specific timeline for his return, saying only that he needs to prioritize getting right physically."
-    },
-    {
-      "title": "Claude Now Plays MMORPGs Autonomously in Anthropic's Latest Experiment",
-      "facts": "Anthropic's research team has taught Claude to play massively multiplayer online role-playing games\u2014and we're not talking about simple puzzle games here. The company's Project EVE demonstrates Claude navigating complex virtual worlds, interacting with other players, and making strategic decisions in real time."
-    }
-  ],
   "2026-11-08": [
     {
       "title": "Pope Leo to Navigate Tensions in Argentina Visit",
@@ -659,6 +593,76 @@
     {
       "title": "Claude Mythos Slashes Hardware Onboarding From a Year to Three Days",
       "facts": "Anthropic's latest Claude Mythos Preview just solved one of the thorniest problems in AI infrastructure: getting new chips up and running. The model cut onboarding time for AMD's MI355X accelerators from up to twelve months down to around three days, according to Anthropic's announcement."
+    }
+  ],
+  "2026-11-18": [
+    {
+      "title": "Ecuadorean Fishermen Sue Over Deadly U.S. Military Campaign",
+      "facts": "Ecuadorean fishermen who survived a U.S. military boat strike have filed the first lawsuit against the Trump administration over what they're calling a secretive campaign that's killed more than 240 people."
+    },
+    {
+      "title": "Ukraine Destroys Key Section of Putin's Crimean Bridge",
+      "facts": "Ukraine's military severely damaged the strategic bridge linking Russia to occupied Crimea in what officials in Kyiv are calling an unprecedented attack. President Zelensky says the missile and drone assault took weeks of planning and execution."
+    },
+    {
+      "title": "Beijing Ramps Up Campaign Painting Japan as Military Threat",
+      "facts": "China's running a coordinated campaign to portray Japan as an aggressor and emerging military danger, according to an analysis by The Times tracking Beijing's rhetoric. The effort represents an intensification of China's war of words against its neighbor, with state media and official channels pushing the narrative systematically."
+    },
+    {
+      "title": "Sudan's War Trauma Fuels Wave of Drug Addiction",
+      "facts": "The anguish and trauma from Sudan's ongoing civil war are driving a surge in drug addiction among the country's young people. Health workers say they're seeing growing numbers of youth turning to drugs as a way to cope with the psychological toll of the conflict."
+    },
+    {
+      "title": "Democrats Win Senate Majority After Alaska Upset",
+      "facts": "Mary Peltola just pulled off one of the year's biggest political surprises, defeating two-term incumbent Dan Sullivan in Alaska to flip a seat that hasn't gone blue in nearly a decade. The win gives Democrats 56 seats in the Senate, a significant majority that'll reshape the balance of power in Washington."
+    },
+    {
+      "title": "Federal Judge Rules Trump's U.S. Attorney Pick Acted Unlawfully",
+      "facts": "A federal judge has declared that Bill Essayli is operating unlawfully as U.S. attorney in Los Angeles, delivering a sharp rebuke to the Trump administration's appointment process."
+    },
+    {
+      "title": "A.I. Gun Detector Mistakes Doritos for Weapon in Baltimore School",
+      "facts": "Four Baltimore high school students are suing after police handcuffed and searched them because an artificial intelligence system flagged a bag of Doritos as a gun. The school had installed A.I.-powered gun-detection technology meant to spot weapons and prevent shootings, but the system apparently confused the chip bag's shape or packaging for a firearm."
+    },
+    {
+      "title": "Debt Ceiling Crisis Looms as February Deadline Approaches",
+      "facts": "The federal government could slam into its borrowing limit as soon as February, according to new projections from the Bipartisan Policy Center. That's the moment when the Treasury Department runs out of room to issue new debt\u2014and it's coming up fast."
+    },
+    {
+      "title": "Federal Reserve Governor Refuses White House Hearing Over Due Process Concerns",
+      "facts": "Federal Reserve Governor Lisa Cook won't show up to a White House hearing unless the process gets a major overhaul, her lawyers announced. They're calling the proceeding a \"facade\" and arguing it doesn't meet basic standards of fairness or due process."
+    },
+    {
+      "title": "Britain Braces for 26 Percent Surge in Energy Bills This January",
+      "facts": "Household energy bills in the UK are forecast to jump 26 percent starting in January, adding \u00a3443 a year to what families are already paying. The increase is hitting just as new inflation figures show prices rising again across the board, compounding the squeeze on British households."
+    },
+    {
+      "title": "S&P 500 Breaks Through Key Technical Level",
+      "facts": "The S&P 500 just punched through its 200-day moving average, a line in the sand that technical analysts watch religiously. Breaking below that level is typically read as a bearish signal\u2014a sign that the market's losing momentum and could be headed for more pain."
+    },
+    {
+      "title": "Homebuilder Confidence Hits 14-Year Low as Buyers Pull Back",
+      "facts": "Homebuilders are facing their worst stretch of confidence since the financial crisis, and the numbers tell a pretty stark story. The National Association of Home Builders reported that builder sentiment has sunk to a 14-year low, with affordability woes keeping potential buyers on the sidelines."
+    },
+    {
+      "title": "White Sox Lock Down Dustin May in Three-Year Deal",
+      "facts": "The Chicago White Sox just landed starting pitcher Dustin May on a three-year contract worth $52.5 million, addressing what's been a glaring hole in their rotation. It's a significant investment for a team that's struggled to find consistent pitching, and May brings both upside and risk to the South Side."
+    },
+    {
+      "title": "Pochettino Exits USMNT on a High Note",
+      "facts": "Mauricio Pochettino coached his final game for the United States men's national team, and he's leaving on the best terms imaginable. Christian Pulisic delivered a stunning bicycle kick that helped the Americans punch their ticket to the Concacaf Nations League semifinals, capping off what players and fans are calling a perfect farewell."
+    },
+    {
+      "title": "LeBron James Sues AI Sports-Betting App Over Unauthorized Use of Identity",
+      "facts": "LeBron James is taking legal action against the makers of an AI-powered sports-betting app that's been marketing itself as \"Bron.\" The NBA superstar filed suit Tuesday, alleging the company deliberately violated his publicity rights and trademarks by using his nickname and artificially generated images of him to promote their platform. James's legal team is calling it a \"willful, bad-faith tactic\" designed to capitalize on his fame without permission or compensation."
+    },
+    {
+      "title": "Kansas Star Tyran Stokes Leaves Game Injured, MRI Scheduled",
+      "facts": "Tyran Stokes, the Kansas freshman who's projected to be the number one pick in the 2027 NBA draft, had to be helped off the court Tuesday night during the Jayhawks' win at UNLV. Stokes left the game early in the second half and is now scheduled for an MRI to determine the extent of the injury."
+    },
+    {
+      "title": "Extended Claude for Teachers Access",
+      "facts": "Anthropic's pushing its free Claude for Teachers program all the way to July 2028, giving U.S. K-12 educators another three years of no-cost access to the full platform."
     }
   ]
 }
