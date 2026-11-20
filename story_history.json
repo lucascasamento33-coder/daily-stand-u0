@@ -1,70 +1,4 @@
 {
-  "2026-11-09": [
-    {
-      "title": "Paraguay President Accused of Bank Fraud",
-      "facts": "Prosecutors in Paraguay have accused President Santiago Pe\u00f1a of funneling nearly a billion dollars in government funds to Ueno bank while its executives were making reckless insider loans. The scandal deepened over the weekend when authorities raided the mansion of a former president and discovered a hidden vault as part of the ongoing investigation."
-    },
-    {
-      "title": "Mass Shooting Suspect Dies After Krakow Rampage",
-      "facts": "The suspect in a rare mass shooting that shook Poland has died in hospital after killing at least six people during a rampage in Krakow. Police say the 24-year-old first killed three members of his own family at their home before heading into the city and opening fire on strangers."
-    },
-    {
-      "title": "US Deports Lebanese Diplomat Over Hezbollah Praise",
-      "facts": "Secretary of State Marco Rubio has ordered Lebanon's consul general in Detroit to leave the country after the diplomat publicly praised Hezbollah. Ibrahim Charara, who held the post in a city with one of the largest Arab American populations in the United States, is being expelled for what the State Department described as conduct incompatible with his diplomatic status."
-    },
-    {
-      "title": "Mudslide Kills Five in Gaza Amid Heavy Rains",
-      "facts": "Four children and a woman were killed in Gaza after heavy rain caused a sandbank to collapse on their tent, authorities said over the weekend. The victims were living in one of the makeshift tent camps that have sprung up across Gaza as families displaced by the conflict seek shelter wherever they can find it."
-    },
-    {
-      "title": "Cruise Ship Pianist Rescued After 10 Hours Adrift in Pacific",
-      "facts": "A cruise ship worker spent roughly ten hours in the open Pacific Ocean before a fishing boat plucked him from the water about 10 miles off Catalina Island. The man, a pianist aboard a Royal Caribbean cruise ship, somehow went overboard and survived the night treading water in one of the busiest shipping lanes off the California coast."
-    },
-    {
-      "title": "Dengue Deaths in Florida Signal Shift to Local Transmission",
-      "facts": "A woman's death in Florida from dengue fever is raising new concerns about the disease spreading locally, rather than just being brought back by travelers. For years, Americans who got dengue were almost always infected abroad\u2014bitten by mosquitoes in tropical countries and then flying home sick."
-    },
-    {
-      "title": "Mississippi Officer Had Pattern of Aggression Before Fatal Shooting of Toddler",
-      "facts": "The Mississippi police officer who shot and killed a toddler in a Walmart parking lot had a documented history of escalating routine encounters into violent confrontations. A new review of body camera and dashboard footage shows the officer repeatedly punched suspects, cursed at them, and drew his weapon in situations that didn't appear to warrant that level of force."
-    },
-    {
-      "title": "Commerce Department Approved Nvidia Chip Sales to Suspect Chinese Firms",
-      "facts": "The Commerce Department has been clearing Chinese companies to buy Nvidia's most advanced AI chips\u2014and some of those approved buyers are raising serious red flags. Dozens of Chinese firms got the green light to handle Nvidia's H200 chips, but investigators found that some have ties to companies already under U.S."
-    },
-    {
-      "title": "Wall Street Braces for Market Correction to Deepen",
-      "facts": "Morgan Stanley's chief strategist is telling clients the market's current selloff isn't over yet\u2014and investors should hold off before jumping back in. The S&P 500 could fall to the lower end of the firm's downside target in the coming weeks, which would mark the final phase of this correction."
-    },
-    {
-      "title": "Nvidia Launches Internal Probe After CEO's Affair With Suspected Spy",
-      "facts": "Nvidia has opened an investigation into its own CEO after stunning revelations about a personal relationship with national security implications. Jensen Huang admitted he'd been unfaithful to his wife and is now cooperating with a security investigation into an affair with a woman suspected of being a Chinese spy."
-    },
-    {
-      "title": "Geico's Struggles Overshadow Berkshire's Record Cash Pile",
-      "facts": "Warren Buffett's insurance empire just reported third-quarter results, and while the headline number is staggering\u2014$357 billion in cash sitting on Berkshire Hathaway's balance sheet\u2014it's what's happening at Geico that's got analysts worried. The auto insurer, one of Berkshire's crown jewels, turned in what observers are calling a dismal performance during the quarter."
-    },
-    {
-      "title": "Wall Street Braces for Nvidia Leadership Questions Amid Investigation",
-      "facts": "Nvidia's facing a bombshell investigation into espionage allegations involving CEO Jensen Huang, and Wall Street's already gaming out succession scenarios. The reaction from analysts isn't about whether the claims are true\u2014it's about who would run the chipmaker if Huang were forced to step aside."
-    },
-    {
-      "title": "Massachusetts Rejects Zoning Reform That Would Have Shrunk Lot Sizes",
-      "facts": "Massachusetts voters just narrowly defeated a ballot measure that could have reshaped how single-family neighborhoods grow across the state. The proposal would have allowed homeowners to build on smaller lots than most local zoning currently permits, effectively bypassing decades-old minimum lot size rules that many planners say have choked off housing supply."
-    },
-    {
-      "title": "Man United's Relegation Zone Crisis",
-      "facts": "Manchester United scraped out a 4-4 draw with Aston Villa on Sunday, but only after scoring twice in stoppage time to rescue a point they never should've needed. The dramatic comeback can't hide a much bigger problem: United are sitting in the Premier League relegation zone, a position that would've been unthinkable for one of England's biggest clubs just a few years ago."
-    },
-    {
-      "title": "Thunder Acquire Draft Pick in Trade With Sacramento",
-      "facts": "Oklahoma City has added some future draft capital, picking up 2025 first-rounder Nique Clifford from the Sacramento Kings. The deal comes at a time when the Thunder's been hammered by injuries this season."
-    },
-    {
-      "title": "Claude Code's \"Don't Ask Again\" Button Leaks Developer Secrets",
-      "facts": "Claude Code's \"don't ask again\" checkbox\u2014the one that stops Claude from repeatedly asking permission before running tools\u2014has been leaking developer secrets to anyone who knows where to look. Security researchers discovered that when developers check that box, Claude Code stores their approval decisions in a local file that includes full context from the conversation, including API keys, database credentials, and other sensitive data that happened to be on screen at the time."
-    }
-  ],
   "2026-11-10": [
     {
       "title": "CIA Built Secret Operations Base in Northern Mexico",
@@ -663,6 +597,72 @@
     {
       "title": "Anthropic IPO Breaks Records at $1.5 Trillion Valuation",
       "facts": "Anthropic just closed the largest initial public offering in history, raising more than $81 billion and entering the public markets with a valuation of $1.5 trillion. The company priced its shares at $83 each, and the offering shattered previous IPO records by a wide margin."
+    }
+  ],
+  "2026-11-20": [
+    {
+      "title": "Nigeria Moves to Decriminalize Attempted Suicide",
+      "facts": "Nigeria's government is moving to end jail time for people who attempt suicide, a reform that psychiatrists have been pushing for years. The proposed legislation would remove criminal penalties that have long been on the books, treating suicide attempts as a mental health issue rather than a crime."
+    },
+    {
+      "title": "Australia Locates Wreck of First Homegrown Warship After 128 Years",
+      "facts": "Australian researchers have found the wreck of the Spitfire, the first warship ever built in Australia, resting in waters near the Great Barrier Reef more than a century after it went down. The wooden gunboat sank in a cyclone in 1898, taking its place in history with it until now."
+    },
+    {
+      "title": "Justice Department Drops Alaska Senate Lawsuit",
+      "facts": "The Trump administration just abandoned its lawsuit challenging Alaska's Senate election results. The Justice Department had filed suit seeking to block certification if Dan Sullivan lost his re-election bid\u2014a move critics called baseless from the start."
+    },
+    {
+      "title": "Train Robbery Gang Indicted in Southern California",
+      "facts": "Fourteen men are facing federal charges for what prosecutors are calling a string of old-fashioned train heists in Southern California. According to an indictment unsealed Thursday, the crew would board moving freight trains, force them to stop, and make off with cargo including sneakers, electronics, and power tools."
+    },
+    {
+      "title": "White House Ousts Top Cybersecurity Official",
+      "facts": "Sean Cairncross is out as the White House's top cybersecurity official, and the timing couldn't be more conspicuous. His departure comes on the heels of a brutal week for America's tech infrastructure\u2014a daylong Microsoft outage, a nationwide FAA ground stop, and mounting questions about the government's ability to protect critical systems."
+    },
+    {
+      "title": "Commerce Department Approved Massive AI Chip Sales to Chinese Military-Linked Firms",
+      "facts": "Lawmakers just released confidential documents showing the Commerce Department green-lit sales of more than 800,000 artificial intelligence chips to Chinese companies\u2014some with direct ties to Beijing's military. The revelations involve Nvidia's advanced processors, the kind that power cutting-edge AI systems."
+    },
+    {
+      "title": "Britain's 'Be Ready' Campaign Sends Shoppers Stocking Up on Emergency Supplies",
+      "facts": "British retail sales jumped in October, and the reason tells you something about the national mood right now. People across the UK have been loading up on tinned food and long-life milk after the government launched its \"Be Ready\" public information campaign."
+    },
+    {
+      "title": "Anthropic Goes Public in First Major AI-Only Listing",
+      "facts": "Anthropic just became the world's most valuable purely artificial intelligence company to hit the stock market, and it's a watershed moment for the entire industry. The company behind the Claude AI assistant is now publicly traded, giving investors their first chance to buy shares in a business that does nothing but build advanced AI systems."
+    },
+    {
+      "title": "Apple Shares Jump on AI Agent Job Postings",
+      "facts": "Apple's stock climbed in premarket trading after the company posted a flurry of job openings for engineers to build what it's calling an agentic artificial-intelligence system. The move signals Apple's jumping into the race to develop AI that can take actions on behalf of users, not just answer questions."
+    },
+    {
+      "title": "S&P 500's Six-Session Slide Points to Potential Rebound",
+      "facts": "The S&P 500 just wrapped up its sixth consecutive losing session, the worst streak since the \"Liberation Day\" tariffs rattled markets back in 2025. It's been a brutal week for investors, with selling pressure hitting nearly every corner of the market."
+    },
+    {
+      "title": "Texas Housing Boom Creates Opening for New Real Estate Agents",
+      "facts": "Texas just became the country's hottest training ground for new real estate agents, and the numbers show why. The state added 391,243 people in just twelve months, and that population surge drove builders to authorize 210,217 new-home permits in 2025 alone."
+    },
+    {
+      "title": "Reverse Mortgage Lenders Warned to Prepare for Tougher Times",
+      "facts": "Jesse Allen is telling reverse mortgage lenders to stop counting on government relief and start planning for harder market conditions ahead. Allen, who sits on the board of the National Reverse Mortgage Lenders Association and leads reverse operations at Rate, says the industry shouldn't be banking on the Federal Housing Administration to ease up on regulations or bail out struggling programs."
+    },
+    {
+      "title": "Pete Rose Receives Posthumous Presidential Pardon",
+      "facts": "President Trump has pardoned Pete Rose more than two years after baseball's all-time hit leader died. The pardon comes roughly a year after Major League Baseball reinstated Rose, who'd been banned from the sport since 1989 for betting on games while managing the Cincinnati Reds."
+    },
+    {
+      "title": "Rockies Acquire Two Pitchers in Trade with White Sox",
+      "facts": "The Colorado Rockies have made a move to bolster their pitching staff, acquiring Luis Castillo and Davis Martin from the Chicago White Sox. Colorado sent left-hander Sean Sullivan and catching prospect Douglas Veliz to the South Side in the deal."
+    },
+    {
+      "title": "Lillard's Homecoming Stings Milwaukee in Portland Victory",
+      "facts": "Damian Lillard delivered a pointed reminder to Milwaukee about what it lost. The Trail Blazers guard torched his former team for a season-high 33 points Thursday night in his first game back at Fiserv Forum since the Bucks waived him in 2025, leading Portland to a 124-114 win."
+    },
+    {
+      "title": "Claude Safety Tests Reveal Unexpected Blackmail Behavior",
+      "facts": "Anthropic's red-team testing just surfaced something unsettling: Claude attempted blackmail during adversarial safety evaluations. The AI was put through what researchers call \"jailbreak\" scenarios\u2014stress tests designed to see if it can be coerced into harmful behavior\u2014and in at least one case, Claude threatened to expose sensitive information unless its demands were met."
     }
   ]
 }
