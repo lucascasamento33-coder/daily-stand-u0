@@ -1,66 +1,4 @@
 {
-  "2026-11-12": [
-    {
-      "title": "Ukraine Opens Battlefield Video Vault to Global Arms Developers",
-      "facts": "Ukraine's government has just made five million battlefield videos available to defense companies around the world\u2014a massive data dump aimed at accelerating the development of A.I.-powered weapons. The footage, captured across the frontlines of the war with Russia, offers precisely the kind of real-world combat scenarios that artificial intelligence systems need for training."
-    },
-    {
-      "title": "Power Grid Attacks Leave Ukrainian Families in the Dark",
-      "facts": "Parents across Ukraine are trying to keep family life together with just a few hours of electricity each day, and it's wearing them down. Russia's renewed strikes on the country's power grid have plunged parts of Ukraine into blackouts that mean no light, no water, and no heat for long stretches."
-    },
-    {
-      "title": "Chinese Espionage Spotlight Falls on Nvidia CEO's Relationship",
-      "facts": "Jensen Huang is under investigation for an affair with a woman U.S. intelligence officials believe is a Chinese spy, shining a spotlight on how romance plays into modern espionage."
-    },
-    {
-      "title": "U.S. Envoys Head to Moscow for Ukraine Negotiations with Putin",
-      "facts": "Jared Kushner and Steve Witkoff touched down in Moscow on Thursday for direct talks with Vladimir Putin about the war in Ukraine, a high-stakes diplomatic mission aimed at breaking the stalemate. The envoys will meet with the Russian president before traveling to Dublin to sit down with Ukraine's Volodymyr Zelensky."
-    },
-    {
-      "title": "Mississippi Elects First Black Senator Since Reconstruction",
-      "facts": "Scott Colom's headed to the U.S. Senate, and he's making history."
-    },
-    {
-      "title": "Regulators Green-Light Stock Betting as Exchanges Sue Over Safeguards",
-      "facts": "You can now bet on stock prices the same way you'd wager on a football game, and Wall Street's fighting back. The Commodity Futures Trading Commission just approved a new product called \"perpetual trades\" that lets people speculate on stocks and cryptocurrencies through platforms like Kalshi without actually owning the assets."
-    },
-    {
-      "title": "San Antonio Sues to Block ICE Detention Warehouse",
-      "facts": "San Antonio's taking the Trump administration to court over plans to turn a warehouse into an immigration detention center. The city filed a lawsuit challenging the proposal, joining a growing wave of legal resistance slowing the administration's push to build new detention facilities nationwide."
-    },
-    {
-      "title": "Heating Bills to Jump Seven Percent This Winter",
-      "facts": "Home heating costs are set to climb seven percent on average this winter, but if you rely on heating oil, brace yourself for something much worse. Those bills are expected to surge around 70 percent compared to last year, driven by a dramatic supply crunch tied to the war in Iran."
-    },
-    {
-      "title": "Lebanon's Economy Nears Collapse After War and Mismanagement",
-      "facts": "Lebanon is staring down what analysts are calling an economic catastrophe, with years of corruption and mismanagement now compounded by the fallout from Hezbollah's conflict with Israel and the broader U.S.-Israel war with Iran. The cost of living has soared to levels that are driving many Lebanese to despair, as the currency continues its freefall and basic goods become unaffordable."
-    },
-    {
-      "title": "UK Economy Posts Strongest Growth in Over Two Years",
-      "facts": "Britain's economy grew 0.7 percent in the three months ending in September, marking its fastest expansion in more than two years according to official figures released this week. The numbers suggest the UK is finally gaining some momentum after a long stretch of sluggish performance that had economists worried about stagnation."
-    },
-    {
-      "title": "Nvidia Stock Plunges on Reports Board May Oust CEO Huang",
-      "facts": "Nvidia's stock dropped 8 percent in after-hours trading Wednesday on reports the company's board met to discuss removing CEO Jensen Huang. The sudden selloff dragged down futures for the Nasdaq-100 and sent shockwaves through the chip sector."
-    },
-    {
-      "title": "Mortgage Rates Hold Steady Despite Fed Action",
-      "facts": "Freddie Mac's pegging the 30-year fixed mortgage at 7.24 percent as of late October, and here's the thing\u2014that number barely budged even after the Federal Reserve held its benchmark rate in the 3.75 to 4 percent range. It's a reminder that mortgage rates and Fed policy don't move in lockstep the way a lot of people assume."
-    },
-    {
-      "title": "Florida Housing Markets Tell Wildly Different Stories",
-      "facts": "Pending home listings just jumped 20 percent in one Florida metro area, but don't assume that means the entire state's market is heating up\u2014because neighboring cities are telling very different stories. The uneven recovery across Florida highlights how hyperlocal real estate has become in this environment."
-    },
-    {
-      "title": "Manchester United Sack Carrick After Relegation Zone Slide",
-      "facts": "Manchester United have sacked Michael Carrick just ten months after handing him the manager's job, the club confirmed today. It's a stunning fall for the former United midfielder, who now leaves with the club sitting in the relegation zone\u2014a position almost unthinkable for one of the world's biggest football clubs."
-    },
-    {
-      "title": "Curry Injury Casts Shadow Over Warriors Season",
-      "facts": "Stephen Curry's limping off the court in the first quarter Wednesday night, and the Warriors are holding their breath. He injured his right abdomen and went straight for an MRI, with head coach Steve Kerr telling reporters afterward that the team's \"concern is high\" as they wait for test results."
-    }
-  ],
   "2026-11-13": [
     {
       "title": "Mexico Faces Fresh Pressure on Border Despite Migration Drop",
@@ -639,6 +577,84 @@
     {
       "title": "Claude AI Helps Mathematician Tackle the Riemann Hypothesis",
       "facts": "A mathematician working at Anthropic claims he's proved the Riemann Hypothesis\u2014one of the most famous unsolved problems in all of mathematics\u2014and he says Claude AI was part of the breakthrough. Two independent groups of mathematicians have now verified the proof, lending credibility to what would be a historic achievement in number theory."
+    }
+  ],
+  "2026-11-23": [
+    {
+      "title": "Colombia Marks Decade Since Historic Peace Accord",
+      "facts": "Colombia's commemorating ten years since the peace deal that ended half a century of war between the government and FARC rebels. The 2016 accord was hailed as historic\u2014it formally ended one of Latin America's longest-running conflicts and promised to bring lasting peace to a country torn apart by violence."
+    },
+    {
+      "title": "UN Climate Talks Collapse Without Agreement",
+      "facts": "The longest climate negotiations in United Nations history just ended in failure. COP31 wrapped up with no deal after marathon talks that stretched well beyond their scheduled finish."
+    },
+    {
+      "title": "Deadly Fire Engulfs Indonesian Candy Factory",
+      "facts": "Dozens of people are unaccounted for after a massive fire tore through a candy factory in Indonesia over the weekend. Hundreds of workers were at the compound when the blaze broke out on Saturday, and it raged for hours before firefighters could bring it under control."
+    },
+    {
+      "title": "Israeli Strikes Kill Fifteen in Ukraine as Russia Escalates",
+      "facts": "At least fifteen people are dead in Ukraine's Kyiv region after a wave of Russian strikes hit over the weekend. The attacks mark a significant escalation, coming just days after Russian President Putin vowed a \"painful\" response to Ukrainian strikes on Russian territory."
+    },
+    {
+      "title": "Virginia School District Shuts Down After Failing Background Checks on Hundreds",
+      "facts": "A Virginia school district has closed its doors for an entire week after discovering it failed to run required background checks on more than 500 employees. The stunning admission came to light following the arrests of two staff members on separate child sex abuse and pornography charges."
+    },
+    {
+      "title": "U.S. Intelligence Tracked China Ties of Woman in Nvidia Scandal",
+      "facts": "U.S. intelligence agencies monitored communications between Alice Huang and China's Ministry of State Security during the period when she was involved with Nvidia CEO Jensen Huang, according to new reports."
+    },
+    {
+      "title": "New Jersey Woman Indicted for Fabricating Anti-Trump Attack",
+      "facts": "Federal prosecutors have indicted two New Jersey women for staging a fake attack and blaming it on political opponents of President Trump. Natalie Greene, who worked for Republican Representative Jeff Van Drew, falsely claimed she'd been slashed at a nature preserve in 2025, officials said."
+    },
+    {
+      "title": "Fed Rate Hike Could Trigger Recession, Ackman Warns",
+      "facts": "Bill Ackman is sounding the alarm on the Federal Reserve's next move. The hedge fund manager says the U.S."
+    },
+    {
+      "title": "America Officially Ends the Penny",
+      "facts": "President Trump signed legislation on Friday that formally ends production of the penny, more than a year after the U.S. Mint stopped striking the coin."
+    },
+    {
+      "title": "British Outsourcing Giant Capita Crashes After Pensions Failure",
+      "facts": "Shares of Capita plunged seventy percent on Monday after the company's CEO resigned in the wake of a massive pensions payment failure. Public sector workers across Britain have been hit by delays to their pension payments under a scheme Capita has overseen since last year, and the fallout's been swift and brutal."
+    },
+    {
+      "title": "Wall Street Loses Over $5 Trillion as Tech Correction Deepens",
+      "facts": "The S&P 500 and Dow Jones just wrapped their worst week since 2020, shedding more than $5 trillion in value as the correction that's been building finally hit with full force. Both major indexes officially entered correction territory\u2014defined as a drop of at least 10% from recent highs\u2014with tech stocks bearing the brunt of the selling pressure."
+    },
+    {
+      "title": "SEC Probe Targets Nvidia as Chip Giant's Stock Faces Fresh Pressure",
+      "facts": "Nvidia is facing a reported SEC investigation just as the chip giant tries to steady itself after losing $573 billion in market value over six consecutive weeks of declines. The probe adds a new layer of trouble for a company that's already endured its longest losing streak since 2011, raising questions about whether regulatory scrutiny could weigh on a stock that's been the poster child for the AI boom."
+    },
+    {
+      "title": "Mortgage Rates Could Dip Below 7% If Tech Sell-Off Continues",
+      "facts": "Homeowners waiting for mortgage relief might catch a break if the recent sell-off in AI stocks keeps pushing Treasury yields lower. The 10-year Treasury yield needs to fall below 4.85%, and mortgage spreads need to tighten to around 2%, for rates to drop under 7% before the holidays."
+    },
+    {
+      "title": "Reverse Mortgage Industry Faces Rising Title and Deed Complications",
+      "facts": "The reverse mortgage industry is grappling with a mounting wave of documentation problems that's slowing down closings and raising red flags for lenders. Angel Booth at PRC says the most common headaches involve borrowers making changes to property deeds, trust vesting issues, and mismatches between public records and loan documents."
+    },
+    {
+      "title": "Mets Hand Skubal Record $450 Million Deal",
+      "facts": "Tarik Skubal just became the richest pitcher in baseball history. The Mets and the two-time Cy Young winner agreed to a nine-year, $450 million contract\u2014shattering every previous record for a pitcher by both total value and average annual salary."
+    },
+    {
+      "title": "Liverpool Rout Manchester United in Pochettino's Debut",
+      "facts": "Mauricio Pochettino's first match as Manchester United manager turned into a nightmare at Anfield. Liverpool demolished United 4-0 on Sunday, with the visitors going down to ten men after an early red card to Leny Yoro made a bad situation worse."
+    },
+    {
+      "title": "Wembanyama Erupts for 50 Points in Just 18 Minutes",
+      "facts": "Victor Wembanyama just authored one of the most efficient scoring performances in NBA history. The Spurs center poured in 50 points in only 18 minutes of play during a win over the Pelicans, adding 19 rebounds, five blocks, and four steals to cap off a statistical masterpiece."
+    },
+    {
+      "title": "Kings Add Backcourt Depth With Vincent Signing",
+      "facts": "The Sacramento Kings are filling their 15th and final roster spot with a proven guard. Gabe Vincent is finalizing a deal with the Kings, according to league sources, giving Sacramento some much-needed backcourt depth as the season moves forward."
+    },
+    {
+      "title": "Token-Limit Workarounds for Long-Running Claude Code Sessions",
+      "facts": "An Anthropic engineer just published guidance on dodging Claude Code's token ceiling when you're deep into a multi-hour session\u2014and the trick isn't what most people reach for first. Instead of cramming everything into prompt caching or trying to summarize context on the fly, the recommended pattern is strategic use of session snapshots combined with what they're calling \"context forks.\" You essentially checkpoint your state\u2014variables, file paths, interim outputs\u2014into a lightweight JSON artifact, then spawn a fresh Code session that hydrates from that snapshot, giving you a clean token slate while preserving everything that matters."
     }
   ]
 }
