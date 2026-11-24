@@ -1,66 +1,4 @@
 {
-  "2026-11-13": [
-    {
-      "title": "Mexico Faces Fresh Pressure on Border Despite Migration Drop",
-      "facts": "Mexico has cooperated to significantly slow the flow of migrants heading north, but the new White House chief of staff says that's not enough. The pointed message comes despite Mexico's efforts having already reduced crossings substantially, setting up fresh tension between the two countries."
-    },
-    {
-      "title": "Microsoft Services Crash Worldwide in Hours-Long Outage",
-      "facts": "Microsoft is struggling to restore services after a global outage knocked out Teams, Outlook, and even its AI software Copilot for users around the world. The company says the disruption wasn't caused by a cyber-security incident, but efforts to fix the connectivity problems have so far been largely unsuccessful."
-    },
-    {
-      "title": "China's Military Inquisitor Rises After Xi's General Purge",
-      "facts": "Zhang Shengmin is on the rise in China's military hierarchy, and his ascent tells you everything you need to know about what's happening inside the People's Liberation Army. Zhang has built his career investigating and purging generals, and his promotion suggests that China's top brass remains embroiled in anti-corruption probes that show no sign of ending."
-    },
-    {
-      "title": "Iran Threatens Unlimited Response After Reported U.S. Strike in Bahrain",
-      "facts": "Iran's Islamic Revolutionary Guard Corps says it destroyed a U.S. early-warning radar installation in Bahrain and is threatening an unlimited response over what it calls American aggression in the Strait of Hormuz."
-    },
-    {
-      "title": "Mississippi Democrat Stuns GOP in Senate Upset",
-      "facts": "Scott Colom just pulled off one of the biggest political surprises of the midterm cycle, toppling a Republican incumbent in Mississippi's Senate race. The Democrat had been running a largely under-the-radar campaign that few national observers were watching closely."
-    },
-    {
-      "title": "White House Clamps Down on Lobbyist Access After Influence Claims",
-      "facts": "The White House is restricting how often lobbyists can meet with senior officials after facing accusations of influence peddling. Stephen Miller's office outlined the new policy, which is designed to show the administration isn't in the pocket of special interests."
-    },
-    {
-      "title": "Van Hollen Eyes Challenge to Schumer for Senate Democratic Leadership",
-      "facts": "Chris Van Hollen is positioning himself to challenge Chuck Schumer for Senate Majority Leader, setting up what could be the first real leadership fight among Democrats in years. Van Hollen has emerged as the favorite of senators who want an alternative to Schumer's long tenure at the top."
-    },
-    {
-      "title": "Fed Chairman Warsh Overhauls Central Bank Meeting Structure",
-      "facts": "The Federal Reserve won't hold a policy vote at its October 2027 meeting\u2014and that's just the opening move in a major overhaul of how the central bank operates. Fed Chairman Kevin Warsh is converting next October's session into a strategy meeting instead, the first step in what's described as a broader plan to reshape the Fed's decision-making process."
-    },
-    {
-      "title": "Jensen Huang Out as Nvidia CEO After Alleged Affair Scandal",
-      "facts": "Jensen Huang just lost his job running one of the world's most valuable companies. Nvidia's CEO abruptly resigned on Thursday after revelations surfaced about alleged extramarital affairs, including one reportedly involving a woman described as an alleged Chinese spy."
-    },
-    {
-      "title": "Goldman Sachs Says Earnings Growth Will Slow Sharply\u2014But the Bull Market Isn't Over",
-      "facts": "Goldman Sachs is telling investors to brace for a major slowdown in corporate earnings growth over the next couple years, but the firm says that doesn't mean stocks are headed for a crash. The investment bank's forecasting that earnings growth across major indices will nearly halve by 2027 compared to current levels\u2014a significant deceleration that's already being priced into the market."
-    },
-    {
-      "title": "California Threatens Cities That Block Housing Projects",
-      "facts": "California's housing enforcement just got teeth. State officials are sending formal warning letters to cities across the state, putting them on notice that blocking or scaling back residential projects that comply with new housing laws will have consequences."
-    },
-    {
-      "title": "Homebuilders Face Mounting Inventory as They Search for a Bottom",
-      "facts": "Homebuilders are staring down a supply problem that's starting to squeeze their margins. New-home inventory has climbed to 8.4 months of supply, well above the overall housing market's 5.1 months, and that gap is forcing builders into tougher competition for buyers."
-    },
-    {
-      "title": "Pochettino Takes the Reins at Manchester United",
-      "facts": "Mauricio Pochettino has agreed to become Manchester United's next manager, with an official announcement expected as soon as Friday. Sources told ESPN the deal is done to replace Michael Carrick in the Old Trafford hot seat."
-    },
-    {
-      "title": "Curry Faces Month-Long Absence With Oblique Tear",
-      "facts": "Stephen Curry's going to be out at least two weeks with a torn oblique, but the Warriors are quietly preparing for a much longer absence. Sources told ESPN the team's bracing for Curry to miss close to a month with the abdominal injury, a timeline that would keep him sidelined deep into December."
-    },
-    {
-      "title": "Claude Joins Your Video Calls\u2014and Can Actually Do Things",
-      "facts": "Anthropic just shipped something that's going to change how you run meetings: Claude can now join your Google Meet calls and actively work on documents and whiteboards while you're talking. This isn't passive transcription\u2014the AI can draft contracts, sketch out diagrams, update spreadsheets, and collaborate in real time as the conversation unfolds."
-    }
-  ],
   "2026-11-14": [
     {
       "title": "Trump Lays Claim to Venezuela's Oil Reserves",
@@ -655,6 +593,64 @@
     {
       "title": "Token-Limit Workarounds for Long-Running Claude Code Sessions",
       "facts": "An Anthropic engineer just published guidance on dodging Claude Code's token ceiling when you're deep into a multi-hour session\u2014and the trick isn't what most people reach for first. Instead of cramming everything into prompt caching or trying to summarize context on the fly, the recommended pattern is strategic use of session snapshots combined with what they're calling \"context forks.\" You essentially checkpoint your state\u2014variables, file paths, interim outputs\u2014into a lightweight JSON artifact, then spawn a fresh Code session that hydrates from that snapshot, giving you a clean token slate while preserving everything that matters."
+    }
+  ],
+  "2026-11-24": [
+    {
+      "title": "Malaysia to Return Thousands of Rohingya Refugees to Myanmar",
+      "facts": "Malaysia's planning to send thousands of Rohingya refugees back to Myanmar, just days after the world's top court ruled that Myanmar committed genocide against the minority group. The timing is stunning\u2014the International Court of Justice issued its genocide ruling only five days ago."
+    },
+    {
+      "title": "Japan Breaks with U.S. to Defend International Criminal Court",
+      "facts": "Japan's new prime minister is openly defying Washington on one of the Trump administration's biggest international targets. Sanae Takaichi welcomed the president of the International Criminal Court this week and pledged to accelerate Japan's financial support for the tribunal\u2014precisely as the White House is working to cripple it."
+    },
+    {
+      "title": "Family Separations at the Northern Border",
+      "facts": "Deportation fears are splitting Haitian families apart at the Canadian border, and it's happening in a way that echoes the chaos of earlier immigration crackdowns. Some family members fleeing north are being denied entry into Canada, then turned back and detained by U.S."
+    },
+    {
+      "title": "Chicago's Tax Incentive Gap",
+      "facts": "A major tax incentive program credited with transforming downtown Chicago has left some of the city's poorest neighborhoods almost entirely behind, according to a new investigation by The Times. The program, designed to spur development and investment, funneled resources and projects into the urban core while low-income areas saw little to none of the benefit."
+    },
+    {
+      "title": "Senior FBI Official Retiring",
+      "facts": "Christopher Raia, the FBI's number-two official, is stepping down before the end of the year, according to sources familiar with the decision. Raia is a veteran agent who's spent years in senior leadership at the bureau, and his departure marks another high-level exit in recent months."
+    },
+    {
+      "title": "Commerce Department Approved Massive AI Chip Sales to Chinese Military-Linked Firms",
+      "facts": "The Commerce Department signed off on sales of more than 800,000 Nvidia AI chips to Chinese companies\u2014some with direct ties to Beijing's military\u2014according to confidential documents lawmakers just released. The approvals are now at the center of a firestorm on Capitol Hill, where members are questioning how such a massive transfer of cutting-edge technology got the green light."
+    },
+    {
+      "title": "French Drugmaker Sanofi Pays $41 Billion for U.S. Biotech Insmed",
+      "facts": "Sanofi just struck the biggest biotech deal in nearly three years, agreeing to pay $41 billion for U.S.-based Insmed in a move that reshapes the global pharmaceutical landscape. The French drugmaker is shelling out that hefty sum to help offset looming patent cliffs\u2014those dreaded moments when blockbuster drugs lose exclusivity and generic competition floods in."
+    },
+    {
+      "title": "Bank of America Maps Out Bull and Bear Traps for Global Investors",
+      "facts": "Bank of America's chief strategist Michael Hartnett is telling clients to stay defensive until global interest rate hikes finally stop\u2014and he's penciling that in for next spring. Hartnett's tactical playbook calls for steering clear of risk until central banks around the world finish their tightening campaigns and financial conditions start to ease."
+    },
+    {
+      "title": "Chip Stocks Power Market's Best Day in Months",
+      "facts": "The S&P 500 just posted its strongest single-day rally since April, riding a three trillion dollar surge in chip stocks back from the brink. Nvidia and its semiconductor peers led the charge on Monday, pulling the broader market out of correction territory\u2014at least temporarily."
+    },
+    {
+      "title": "Raleigh's Zoning Overhaul Delivers a 15% Drop in Rents",
+      "facts": "Raleigh just proved that building more housing actually works. A new study from Pew Research found that the city's inflation-adjusted rents fell 15% between 2022 and 2025, right in the middle of a building boom triggered by zoning reforms."
+    },
+    {
+      "title": "Skubal Signs Record $450 Million Deal With Mets",
+      "facts": "Tarik Skubal just reset the market for elite pitchers. The reigning American League Cy Young winner agreed to a $450 million contract with the New York Mets, making it the largest deal ever handed to a pitcher in baseball history."
+    },
+    {
+      "title": "U.S. Set to Co-Host 2031 Women's World Cup",
+      "facts": "The United States will co-host the Women's World Cup in 2031, FIFA confirmed, bringing the tournament back to American soil for the first time since 2003. The announcement also awarded the 2035 edition to the United Kingdom, mapping out the next decade of women's soccer's marquee event."
+    },
+    {
+      "title": "Nets Lose Rookie Traore for Two Months With Hamstring Injury",
+      "facts": "The Brooklyn Nets will be without rookie guard Nolan Traore for at least the next two months after he strained his right hamstring. The team announced Monday that Traore will be reevaluated in eight to ten weeks, which means he'll miss a significant chunk of his first NBA season."
+    },
+    {
+      "title": "Anthropic Ships Claude Ship: AI That Reviews and Approves Your Pull Requests",
+      "facts": "Anthropic just dropped Claude Ship, and it's a full-loop code review agent\u2014meaning Claude can now review your pull requests, propose fixes, and merge them without you touching the keyboard. The feature went live for GitHub integrations, letting teams route routine PRs straight to Claude for analysis, security checks, and approval."
     }
   ]
 }
