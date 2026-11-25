@@ -1,66 +1,4 @@
 {
-  "2026-11-14": [
-    {
-      "title": "Trump Lays Claim to Venezuela's Oil Reserves",
-      "facts": "The United States is making an unprecedented move to take control of Venezuela's oil reserves, and it's shaking the foundation of how Venezuelans see their country. For decades, sovereign control over oil has been a bedrock principle in Venezuela\u2014something that's defined the nation's identity since the industry was first nationalized."
-    },
-    {
-      "title": "Ukraine Proposes Ceding Donbas for NATO Membership",
-      "facts": "Ukrainian President Zelensky says American envoys have floated the idea of Ukraine giving up the Donbas region in exchange for NATO membership as part of a broader effort to end the war with Russia. It's a stunning potential trade-off that would mean Ukraine formally surrendering territory it's been fighting to reclaim since 2014."
-    },
-    {
-      "title": "Trump, Putin and Xi to Meet in China for Nuclear Talks",
-      "facts": "President Trump, Russian President Putin, and Chinese President Xi are planning a historic joint meeting in China next week, the White House confirmed. It'll be the first time the leaders of all three nuclear superpowers have sat down together, and the stakes couldn't be higher."
-    },
-    {
-      "title": "Eisenkot Accuses Netanyahu of Stoking Anti-Arab Hostility",
-      "facts": "Gadi Eisenkot has sharply criticized Prime Minister Benjamin Netanyahu, accusing him of fueling what Eisenkot calls \"racist\" hostility against Arabs. The rebuke came just days after Netanyahu delivered a divisive speech attacking Arab lawmakers, and Eisenkot didn't mince words in his response."
-    },
-    {
-      "title": "Bomb Evacuates Peoria Ethanol Plant",
-      "facts": "A bomb was found at an ethanol plant in Peoria, Illinois, forcing authorities to clear out everyone within a one-mile radius. The mayor confirmed the discovery at the industrial site along the Illinois River, though officials haven't said whether the device was live or how it got there."
-    },
-    {
-      "title": "Alaska's Lone House Race Features Candidate Behind Bars",
-      "facts": "The Democratic candidate in Alaska's House race is currently serving time in a New York prison, raising questions about what Republicans are calling ballot manipulation tactics. While the Alaska Senate race between Dan Sullivan and Mary Peltola continues its vote count and remains the only uncalled Senate contest in the country, the House race has drawn attention for a different reason entirely."
-    },
-    {
-      "title": "White House Girds for Democratic Oversight Push",
-      "facts": "The Trump administration has been quietly building what officials describe as an aggressive defense against Democratic oversight efforts now that Congress has flipped. Democrats, newly empowered after their midterm victories, are planning investigations into various aspects of the administration's operations."
-    },
-    {
-      "title": "Air Travel Chaos After Nationwide Ground Stop",
-      "facts": "The FAA lifted a rare nationwide ground stop this morning, but air travelers shouldn't expect things to get back to normal anytime soon. Homeland Security Secretary Mullin said there's \"zero evidence\" of a cyberattack causing the halt, but recovery could take days as airlines scramble to rebook passengers."
-    },
-    {
-      "title": "Microsoft Services Back Online After Daylong Outage",
-      "facts": "Microsoft says it's finally fixed the problem that knocked out Outlook, Teams, and Copilot for users around the world\u2014but the outage stretched through an entire business day. The tech giant confirmed that efforts to restore service are complete, ending a disruption that left millions of workers unable to access email or collaborate on projects."
-    },
-    {
-      "title": "Nvidia Hits Longest Losing Streak Since 2011",
-      "facts": "Nvidia just capped off its worst run in fourteen years. The chip giant's stock fell for a sixth consecutive week, erasing $573 billion in market value\u2014a staggering loss that's got investors wondering if the AI boom is finally cooling off."
-    },
-    {
-      "title": "Apartment Rents Split Along Regional Lines",
-      "facts": "San Francisco rents are climbing while Sun Belt markets slide, marking a sharp reversal in the pandemic-era migration story. Northern California grabbed the top three growth spots nationwide, while San Antonio posted the steepest decline among the fifty largest U.S."
-    },
-    {
-      "title": "Pochettino Exits USMNT for Manchester United",
-      "facts": "Mauricio Pochettino's brief stint leading the U.S. men's national team is over after less than a year."
-    },
-    {
-      "title": "Dejounte Murray Requests Trade From Pelicans",
-      "facts": "Dejounte Murray wants out of New Orleans. The Pelicans guard has requested a trade from the franchise, and his agent Rich Paul is already working with team officials to find a resolution."
-    },
-    {
-      "title": "Federal Prosecutors Allege Betting Scheme Involving Terry Rozier",
-      "facts": "Federal prosecutors say they've uncovered evidence of a planned betting scheme involving Terry Rozier and another Hornets player. Court filings reveal that a co-defendant in an NBA betting case told a gambler that he and Rozier were plotting to wager on the unders for one of Rozier's teammates."
-    },
-    {
-      "title": "Anthropic Rolls Out Self-Hosted Managed Agents With Eight-Hour Safety Tripwire",
-      "facts": "Anthropic just released self-hosted Claude Managed Agents\u2014meaning you can now run autonomous Claude agents on your own infrastructure instead of relying on Anthropic's cloud. The big catch?"
-    }
-  ],
   "2026-11-15": [
     {
       "title": "Ukraine Floats NATO-for-Territory Trade in Peace Talks",
@@ -651,6 +589,68 @@
     {
       "title": "Anthropic Ships Claude Ship: AI That Reviews and Approves Your Pull Requests",
       "facts": "Anthropic just dropped Claude Ship, and it's a full-loop code review agent\u2014meaning Claude can now review your pull requests, propose fixes, and merge them without you touching the keyboard. The feature went live for GitHub integrations, letting teams route routine PRs straight to Claude for analysis, security checks, and approval."
+    }
+  ],
+  "2026-11-25": [
+    {
+      "title": "Mexico Probes Ex-Prosecutor Who Worked with CIA",
+      "facts": "A former Mexican prosecutor who fled to the United States is now under investigation for suspected collusion with drug cartels. The twist?"
+    },
+    {
+      "title": "Russia's Leaked Data Reveals Nearly Half a Million Dead in Ukraine",
+      "facts": "Leaked Russian government figures show the country has lost close to 500,000 people since launching its full-scale invasion of Ukraine. The data reveals how profoundly the war has altered mortality patterns across Russia, painting a stark picture of the conflict's human cost."
+    },
+    {
+      "title": "Solomon Islands Signs Security Deal with Australia, Sidelining China",
+      "facts": "The Solomon Islands just signed a new security treaty with Australia that effectively shuts the door on Chinese military ambitions in the Pacific. The accord comes two years after a controversial 2022 agreement between the Solomons and Beijing raised alarm bells across the region, with fears China would establish a military foothold on the strategically located island nation."
+    },
+    {
+      "title": "Israeli Opposition Moves to Form Government as Iran War Looms",
+      "facts": "Israeli opposition leader Eisenkot is making moves to form a new government, but the timing couldn't be more precarious\u2014there's growing speculation that Prime Minister Netanyahu might drag the country into another war with Iran to hold onto power. The question hanging over Israeli politics right now is whether Netanyahu would escalate regional conflict to derail coalition talks and save his own political career."
+    },
+    {
+      "title": "Six Dead in Plane Crash Off Mississippi Coast",
+      "facts": "Divers recovered the remains of six people from a plane that went down near Horn Island off the Mississippi coast, the Coast Guard confirmed. The aircraft crashed in waters near the barrier island, though officials haven't yet released details about what caused it to go down or when exactly the crash occurred."
+    },
+    {
+      "title": "Measles Surge Pushes Families to Cancel Thanksgiving Travel",
+      "facts": "Some new parents are skipping Thanksgiving travel altogether this year, too worried about measles exposure to risk planes, trains, or even long car trips. Measles cases have been climbing across the country, and that's got families with infants rethinking holiday plans they'd normally take for granted."
+    },
+    {
+      "title": "Fuel Leak at Honolulu-Area Power Plant Sparks Backlash",
+      "facts": "A fuel leak at a power plant near Honolulu has set off a political firestorm, with Hawaii's governor and the city's mayor both going after the facility's operator. Governor Josh Green signed an executive order this week requiring immediate reporting of any oil spill, a direct response to what local officials are calling unacceptable delays in notification."
+    },
+    {
+      "title": "Commerce Department Approved Massive Nvidia Chip Sales to Chinese Military-Linked Firms",
+      "facts": "Lawmakers just disclosed that the Commerce Department greenlit sales of more than 800,000 artificial intelligence chips from Nvidia to Chinese companies\u2014and some of those buyers have ties to China's military. The confidential information, now made public, reveals the scale of approvals that went through despite growing national security concerns about advanced semiconductor technology reaching Beijing."
+    },
+    {
+      "title": "White House Set to Unveil Sweeping New Tariffs on Major Trading Partners",
+      "facts": "The United States is preparing to announce a new round of tariffs that would hit many of America's biggest trading partners, including China and the European Union. Details of the plan haven't been fully released yet, but officials say the levies could reshape trade relationships across multiple continents."
+    },
+    {
+      "title": "Britain Faces Another Energy Bill Shock as Gas Prices Surge",
+      "facts": "Household energy bills in the UK are about to jump 26 percent starting in January, pushing the typical annual cost from \u00a31,723 to \u00a32,166. The increase is being driven by a surge in wholesale gas prices, and the regulator Ofgem is raising the price cap that affects millions of homes across Britain."
+    },
+    {
+      "title": "JPMorgan Sees S&P 500 Climbing to 8,200",
+      "facts": "JPMorgan's strategists are calling the current market downturn exactly what investors need to hear\u2014it's actually part of the path to much higher prices. The firm is now projecting the S&P 500 will climb to 8,200, a significant jump from current levels."
+    },
+    {
+      "title": "Pennsylvania Mortgage Company Settles Federal Kickback Case",
+      "facts": "A Pennsylvania mortgage lender just agreed to pay sixty-five thousand dollars to settle allegations that its joint venture arrangement violated federal anti-kickback rules. The case offers a window into how the government's enforcing RESPA\u2014the Real Estate Settlement Procedures Act\u2014when it comes to partnerships between lenders and real estate firms."
+    },
+    {
+      "title": "Steelers Bench Rodgers, Hand Starting Job to Rudolph",
+      "facts": "The Pittsburgh Steelers are making a quarterback change. Coach Mike McCarthy has benched Aaron Rodgers and named Mason Rudolph the new starter."
+    },
+    {
+      "title": "Lakers Join Growing Number of NBA Teams Partnering With Prediction Markets",
+      "facts": "The Los Angeles Lakers announced a partnership with Kalshi on Tuesday, making them the latest NBA franchise to jump into the prediction markets business. It's a sign of how quickly these platforms are spreading through professional sports."
+    },
+    {
+      "title": "Claude Can Now Build You a Desktop App in One Conversation",
+      "facts": "Anthropic just flipped the script on desktop software\u2014Claude can now turn any Artifact you create in a conversation into a standalone Mac or Windows app that runs outside the browser. You chat with Claude, build a tool or interface using Artifacts, and then export it as a native desktop application with one click."
     }
   ]
 }
