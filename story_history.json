@@ -1,50 +1,4 @@
 {
-  "2026-11-15": [
-    {
-      "title": "Ukraine Floats NATO-for-Territory Trade in Peace Talks",
-      "facts": "Ukraine's president says the United States has floated a proposal that would trade land for security: give up the Donbas region to Russia in exchange for NATO membership. Volodymyr Zelensky confirmed the discussions publicly, though a U.S."
-    },
-    {
-      "title": "India's Cricket Team Wins Asia Cup Amid Post-Match Chaos",
-      "facts": "India's Under-19 cricket team pulled off a one-wicket comeback victory over Pakistan in the Asia Cup final\u2014then followed it up with a display of aggression that's drawing sharp criticism. The thrilling finish saw India chase down Pakistan's total in dramatic fashion, clinching the title in one of youth cricket's marquee tournaments."
-    },
-    {
-      "title": "Commerce Secretary Faces Conflict of Interest Questions Over Chip Export Rules",
-      "facts": "Commerce Secretary Howard Lutnick is drafting new rules governing Southeast Asian data centers at the same time some of those facilities are clients of his former firm. The regulations would determine which companies can access advanced American semiconductor technology\u2014a multibillion-dollar question that sits at the heart of U.S.-China tech competition."
-    },
-    {
-      "title": "Black Women in Georgia to Hold Seven of Eight Top State Leadership Roles",
-      "facts": "Black women will hold seven of Georgia's eight top elected leadership positions, a historic concentration of power that reflects years of organizing work on the ground. Their success in recent elections stems directly from voter registration drives and turnout efforts that made Democrats competitive again in a state that was reliably red for decades."
-    },
-    {
-      "title": "Microsoft Recovers From Day-Long Global Outage",
-      "facts": "Microsoft says it's fully restored service after a day-long outage knocked out some of its most critical business tools for millions of users worldwide. Outlook, Teams, and Copilot all went dark, leaving workers unable to send emails, join meetings, or access AI assistants they've come to rely on."
-    },
-    {
-      "title": "SpaceX Catches Starship Rocket in Historic First",
-      "facts": "SpaceX just pulled off something that looked like science fiction\u2014catching a rocket out of midair as it returned from space. The company successfully caught its Starship rocket using giant mechanical arms, a milestone that gets SpaceX much closer to what it calls \"rapid reusability\" of rockets."
-    },
-    {
-      "title": "Housing Inventory Drops as Seasonal Slowdown Takes Hold",
-      "facts": "The number of homes for sale across the country just fell below 896,000\u2014down nearly 7,000 in a single week as the usual fall and winter slowdown kicks in. It's a sharp reminder that the supply crunch isn't going anywhere."
-    },
-    {
-      "title": "Red Sox Sign Jake Bauers to Four-Year Deal",
-      "facts": "The Red Sox just locked down first baseman Jake Bauers with a four-year, fifty-eight-million-dollar contract following his breakout season with the Brewers. It's the first major signing of baseball's offseason, and Boston's paying a premium for a player who parlayed a career year into serious money."
-    },
-    {
-      "title": "Patriots Place Running Back on Injured Reserve with Unexplained Illness",
-      "facts": "The Patriots have placed running back TreVeyon Henderson on injured reserve while he deals with what the team is calling an unexplained neurological issue. That's all New England has said publicly, and the lack of detail is raising questions about the severity of Henderson's condition."
-    },
-    {
-      "title": "Spurs Extend Win Streak to Eleven With Rout of Short-Handed Warriors",
-      "facts": "Victor Wembanyama and the Spurs just put an exclamation point on their best stretch of the season, demolishing the Warriors 123-85 for their eleventh straight win. San Antonio came out firing with an 18-0 run to open the game, and Golden State never recovered."
-    },
-    {
-      "title": "Embiid Sidelined Again as 76ers Manage Plantar Fascia Issue",
-      "facts": "Joel Embiid won't play Sunday against the Pacers, ruled out by the 76ers for what the team is calling right foot plantar fascia management. It's the latest in a series of absences for Philadelphia's star center, who's been dealing with the painful foot condition for weeks now."
-    }
-  ],
   "2026-11-16": [
     {
       "title": "Pope Leo Defies Health Concerns on South America Tour",
@@ -651,6 +605,76 @@
     {
       "title": "Claude Can Now Build You a Desktop App in One Conversation",
       "facts": "Anthropic just flipped the script on desktop software\u2014Claude can now turn any Artifact you create in a conversation into a standalone Mac or Windows app that runs outside the browser. You chat with Claude, build a tool or interface using Artifacts, and then export it as a native desktop application with one click."
+    }
+  ],
+  "2026-11-26": [
+    {
+      "title": "Brazil Recruits Duped Into Russian Front Lines",
+      "facts": "Dozens of Brazilians thought they were signing up for high-paying security jobs in Russia\u2014instead, they wound up on the front lines of the war in Ukraine with almost no training. The men say they were lured by recruiters who promised lucrative salaries and adventure, but those paychecks turned out to be a mirage."
+    },
+    {
+      "title": "Germany's Channel Boat Supplier Faces Extradition",
+      "facts": "A German boat dealer is under scrutiny after a BBC investigation found that nearly a third of migrant crossings in the English Channel early this year allegedly involved boats or engines from his company. Marvin Reuter is now fighting extradition to France, where he could face charges of smuggling, criminal conspiracy, and involuntary manslaughter."
+    },
+    {
+      "title": "Hong Kong Marks Anniversary of Deadly Tower Fire",
+      "facts": "Hong Kong residents quietly mourned the 168 people who died in a high-rise fire one year ago, but the memorial took place under the watchful eye of authorities. Officials warned the public against using the disaster to \"sow division,\" a phrase that's become familiar in Hong Kong's tightly controlled political climate."
+    },
+    {
+      "title": "Iran Executes Female Protesters at Unprecedented Rate",
+      "facts": "Women protesters and dissidents in Iran are being sentenced to death in numbers not seen in decades, according to a human rights organization monitoring the country. Desperate appeals are coming from women on death row, many of whom were arrested during the widespread protests that have rocked Iran."
+    },
+    {
+      "title": "FedEx Jet Overshoots Runway at Miami Airport",
+      "facts": "A FedEx cargo plane overran a runway after landing at Miami International Airport on Wednesday, coming to rest near a perimeter fence and triggering widespread flight disruptions. The company says there were no injuries among the crew, but the incident shut down operations on one of the airport's busiest runways during the holiday travel rush."
+    },
+    {
+      "title": "ICE Detains Lottery Winner Days After He Claimed Prize",
+      "facts": "Ariel Velasquez-Morales won a million dollars in the Massachusetts lottery, posed with one of those giant novelty checks, and then found himself in federal custody days later. Immigration and Customs Enforcement arrested the El Salvador native after the widely-circulated photo led agents directly to him."
+    },
+    {
+      "title": "Congress Struggles to Move on AI Regulation Despite Bipartisan Interest",
+      "facts": "Both parties say they want to regulate artificial intelligence, but lawmaking on Capitol Hill is moving at a crawl despite the urgency lawmakers publicly claim. Members from across the political spectrum agree that AI policy needs attention, yet turf battles between committees and the glacial pace of the legislative process keep getting in the way."
+    },
+    {
+      "title": "Fed Set to Raise Rates as Inflation Stays Hot",
+      "facts": "Another month, another inflation reading that won't give the Federal Reserve any reason to pause. The latest data came in hot, keeping the central bank on track to raise interest rates again when policymakers meet next month."
+    },
+    {
+      "title": "Poundland Collapses, Putting 11,000 Jobs at Risk",
+      "facts": "Poundland just went into administration, and eleven thousand jobs are now hanging in the balance. The British discount retailer's owners couldn't find a buyer, and the whole chain has collapsed into insolvency proceedings."
+    },
+    {
+      "title": "Trump Ties U.S. Fortunes to Nvidia in Economic Standoff",
+      "facts": "Presidents have bailed out companies before, but what's happening with Nvidia is something different. The Trump administration has effectively staked America's position in a global economic war on the fortunes of the chipmaker and its CEO."
+    },
+    {
+      "title": "Wall Street Eyes Black Friday Rebound After Tech Selloff",
+      "facts": "Futures are pointing toward a strong Friday for U.S. stocks after the S&P 500 managed to claw back from its lows on Wednesday, calming jittery markets worldwide."
+    },
+    {
+      "title": "New Home Sales Jump Despite Stubborn Prices and Mortgage Rates",
+      "facts": "New home sales surged in October to an annual pace of 701,000 units, a surprisingly strong showing in a housing market that's otherwise been frozen in place. The gain came even as mortgage rates have remained stubbornly elevated, keeping most buyers on the sidelines."
+    },
+    {
+      "title": "NYC Court Upholds Mayor's Rent Freeze Decision",
+      "facts": "A New York City judge has dismissed a legal challenge to the city's rent freeze, backing Mayor Mamdani's handling of the decision. Judge Lantry ruled that the mayor didn't predetermine the outcome, as critics had claimed, and pointed to the rent guidelines board's 42-page explanatory statement as evidence of a proper process."
+    },
+    {
+      "title": "Steelers Cut Aaron Rodgers After Explosive McCarthy Interview",
+      "facts": "The Pittsburgh Steelers have waived Aaron Rodgers, ending one of the most dramatic quarterback experiments in recent NFL history just hours after Rodgers torched head coach Mike McCarthy on \"The Pat McAfee Show.\" The quarterback didn't hold back, leveling a series of allegations about McCarthy's coaching methods and leadership\u2014and multiple NFL sources have since told ESPN that Rodgers' account is accurate, confirming the star's claims with a simple phrase: \"It's all true.\" Despite the bombshell, McCarthy isn't going anywhere. The Steelers organization has given him their full support and made clear he'll remain as head coach."
+    },
+    {
+      "title": "NBA Targets Eleven Billion Dollars for European Arena Push",
+      "facts": "The NBA's long-discussed plan for a full-fledged European league just got a lot more real. The league unveiled a nearly eleven billion dollar initiative targeting development and renovation of arenas across the continent, marking the biggest step yet toward launching competitive basketball operations in Europe."
+    },
+    {
+      "title": "LeBron James Carries 76ers to NBA Cup Victory with Triple-Double",
+      "facts": "LeBron James is about to turn 42, and he's still doing things that shouldn't be possible at that age. James put up a 25-point triple-double Wednesday night to lead the 76ers past Miami in NBA Cup play, a performance that had his coach talking about dusting off the superhero cape."
+    },
+    {
+      "title": "Claude Can Now Build Mac Apps From Your Prompts",
+      "facts": "Anthropic just shipped a feature that's genuinely wild: Claude can now take your workflow and turn it directly into a native Mac application you can install and run. It's not generating code for you to fiddle with\u2014it's outputting the actual software package, ready to go."
     }
   ]
 }
