@@ -629,60 +629,69 @@
   ],
   "2026-11-27": [
     {
-      "title": "Venezuela to Repeal Law That Bars Opposition Leaders From Office",
-      "facts": "Venezuela says it's scrapping the law that's kept opposition figures off the ballot for years. The announcement comes exactly one month after opposition leader Maria Corina Machado returned to Venezuela, her first time back in the country after fleeing abroad."
+      "section": "US Real Estate (NYC Focus)",
+      "title": "Fed Hikes Rates as Mortgage Markets Hold Above 7%",
+      "facts": "The Federal Reserve raised interest rates for the first time since 2023, and it's landing right in the middle of an already tight financing environment for multifamily owners. The 30-year mortgage rate sits at 7.21%, while the 10-year Treasury yield has pulled back slightly to 4.85%\u2014that's the benchmark you're watching if you've got a refi coming up or you're trying to pencil out an acquisition."
     },
     {
-      "title": "Russia Accelerates Stalin Rehabilitation as Gulag Memorials Disappear",
-      "facts": "Plaque by plaque, Russia is erasing the physical memory of Stalin's Gulag. The Kremlin's rehabilitation of Joseph Stalin, who presided over the brutal labor camp system that imprisoned and killed millions, has picked up speed during the war in Ukraine."
+      "section": "US Real Estate (NYC Focus)",
+      "title": "Mamdani Administration Expands Rent Freeze to $75K Income Threshold",
+      "facts": "Mayor Mamdani just widened the city's rent freeze program, raising the income eligibility cap to $75,000\u2014a significant expansion that could affect tens of thousands more tenants across the five boroughs. The move comes right on the heels of a court victory for the administration, with a judge dismissing a landlord challenge to the freeze and backing the mayor's handling of the Rent Guidelines Board process."
     },
     {
-      "title": "New York's First Female Senate Majority Leader Dies at 76",
-      "facts": "Andrea Stewart-Cousins has died at age 76. She made history as the first woman to lead New York's state senate, holding the position of Majority Leader and wielding enormous influence over legislation in Albany."
+      "section": "US Real Estate (NYC Focus)",
+      "title": "Walker & Dunlop Closes $203.5M Construction Loan for Manhattan Mixed-Use Project",
+      "facts": "Walker & Dunlop just arranged a $203.5 million construction loan for a mixed-use development in Manhattan, one of the larger construction financings to close in recent weeks as lenders remain cautious on ground-up deals. Details on the specific project, borrower, and location weren't disclosed, but the size of the facility signals that there's still appetite for well-sponsored developments in strong submarkets despite elevated rates and tighter underwriting."
     },
     {
-      "title": "Thanksgiving Storm Leaves Hundreds of Thousands in the Dark",
-      "facts": "More than 400,000 people are still without power across the East Coast after a massive Thanksgiving storm tore through the region. Heavy rain and fierce winds battered states from Virginia all the way up to New York, knocking down trees and power lines throughout the holiday."
+      "section": "US Real Estate (NYC Focus)",
+      "title": "Berkadia Places $219M Fannie Mae Loan for Harlem Affordable Housing Rehab",
+      "facts": "Berkadia closed a $219 million Fannie Mae loan to finance the rehabilitation of an affordable housing project in Harlem, one of the larger agency deals tied to preservation and rehab in recent months. The financing underscores Fannie Mae's continued role as the dominant capital source for affordable and rent-stabilized properties, especially as bank lenders have scaled back on multifamily exposure."
     },
     {
-      "title": "Pacifica's Historic Pier Crumbles Into the Sea",
-      "facts": "A section of the pier in Pacifica, California, has collapsed into the ocean, and now the town is facing the prospect of losing the landmark entirely. The pier had been deteriorating for years\u2014everyone knew it was crumbling\u2014but this week fierce waves finally claimed a portion of it."
+      "section": "Economy",
+      "title": "Medicare Advantage Drops Drug Coverage for Hundreds of Thousands",
+      "facts": "Nearly 640,000 Americans are about to lose prescription drug coverage through their Medicare Advantage plans, and it's a sign that the all-in-one model that made these plans popular is starting to crack. Starting next year, some insurers are stripping out drug benefits entirely, forcing seniors to cobble together coverage from separate plans\u2014exactly the kind of hassle Medicare Advantage was supposed to eliminate."
     },
     {
-      "title": "Networks of Rogue Tradespeople Running Industrial-Scale Scams",
-      "facts": "Plumbers and electricians are running organized scam operations across Britain, and the scale is staggering. The BBC has uncovered networks of tradespeople who are systematically defrauding customers, turning what should be simple home repairs into financial nightmares."
+      "section": "US Stocks",
+      "title": "Wall Street Wraps Best Thanksgiving Week in Nearly Two Decades",
+      "facts": "Wall Street just delivered its strongest Thanksgiving week since 2007, capping a roller coaster five days with a bang. The S&P 500 surged 5.6 percent for the week, its largest weekly gain of the year, while the Dow notched its biggest weekly jump since October 2022."
     },
     {
-      "title": "Britain Agrees to Pay EU 'Participation Fee' Under New Trade Arrangement",
-      "facts": "Britain will pay the European Union what's being called a \"participation fee\" to maintain access to certain trade deals, according to newly released legal documents. The fee represents a contribution toward EU running costs, and it marks a significant shift in the post-Brexit relationship between London and Brussels."
+      "section": "World News",
+      "title": "Venezuela Repeals Ban on Opposition Leaders",
+      "facts": "Venezuela's government says it'll repeal a law that's kept opposition figures out of office, a stunning reversal that comes just a month after opposition leader Maria Corina Machado returned to the country. The law had barred certain politicians from holding public positions, effectively sidelining critics of the government and tilting the playing field in elections."
     },
     {
-      "title": "Asian Markets Whipsawed After Leadership Change at Nvidia",
-      "facts": "Asian stocks have been on a wild ride since Jensen Huang made a shock return as Nvidia's CEO, and it's exposing just how much the region has bet on artificial intelligence. Asian investors poured billions into Nvidia shares and related tech stocks, making the company's leadership and strategy critical to markets from Tokyo to Hong Kong."
+      "section": "World News",
+      "title": "Taiwan Mayoral Race Could Bring China Critic to Power",
+      "facts": "Puma Shen might be Taiwan's next political star\u2014and Beijing isn't happy about it. Shen's running to become mayor of Taipei, and he's been sanctioned by China for his work preparing Taiwanese civilians for a potential invasion."
     },
     {
-      "title": "Nvidia Leads Wild Week of Stock Swings",
-      "facts": "Nvidia shares surged this week after Jensen Huang returned to the company, capping off one of the most volatile stretches investors have seen in months. But the rally doesn't tell the whole story."
+      "section": "US News",
+      "title": "New York Senate Leader Andrea Stewart-Cousins Dies at 76",
+      "facts": "Andrea Stewart-Cousins, who made history as New York's first female Senate majority leader, has died at 76. She spent two decades in the state senate, rising to become one of the most powerful voices in Albany."
     },
     {
-      "title": "San Francisco Home Prices Surge as Anthropic IPO Looms",
-      "facts": "San Francisco's housing market is hitting new heights, and the Anthropic IPO could pour fuel on an already white-hot fire. The median single-family home price jumped 29% in October to $2.39 million, with 86% of homes selling above asking."
+      "section": "US News",
+      "title": "California's Pacifica Pier Crumbles Into the Pacific",
+      "facts": "A chunk of the historic Pacifica Pier just collapsed into the ocean, and now the entire structure's future is in doubt. Fierce waves this week finally did what years of erosion had threatened\u2014a section of the century-old pier gave way and toppled into the sea."
     },
     {
-      "title": "Pirates Trade Former Top Pick Davis to Diamondbacks",
-      "facts": "The Pittsburgh Pirates have shipped Henry Davis to the Arizona Diamondbacks, moving on from the catcher they selected first overall in the 2021 draft. It's a quick turnaround for a player who was supposed to anchor the franchise for years to come."
+      "section": "Sports",
+      "title": "Blue Jays Land Jazz Chisholm in $34.5 Million Deal",
+      "facts": "The Toronto Blue Jays just locked down one of baseball's most dynamic players. Jazz Chisholm Jr."
     },
     {
-      "title": "NBA Targets $11 Billion European Arena Investment for New League",
-      "facts": "The NBA's long-discussed plan to launch a professional league in Europe just got its most concrete sign of life yet. The league unveiled an $11 billion initiative to fund the development and renovation of arenas across the continent\u2014infrastructure that would be essential for a European NBA-backed competition to actually work."
+      "section": "Basketball (NBA & College)",
+      "title": "Lakers Land Walker Kessler in Doncic's Star Power Play",
+      "facts": "Luka Doncic wanted an A-list center the moment he arrived in Los Angeles, and after a year of waiting, he's finally got one. The Lakers have acquired Walker Kessler, fulfilling Doncic's first request when he joined the franchise."
     },
     {
-      "title": "Doncic Lands Walker Kessler as Lakers Build Around New Star",
-      "facts": "Luka Doncic got exactly what he asked for. When Doncic joined the Lakers, his first request to management was clear: bring in an \"A-list\" big man who could anchor the paint and complement his playmaking."
-    },
-    {
-      "title": "Claude Ship Can Now Review and Approve Your Pull Requests",
-      "facts": "Anthropic just launched Claude Ship, a new feature that lets the AI review, fix, and even approve GitHub pull requests without you lifting a finger. It's a major shift in how autonomous agents can plug into your development workflow\u2014not just reading code or suggesting edits, but actually handling the entire PR lifecycle from review to merge."
+      "section": "Claude & AI",
+      "title": "Claude's Memory Feature Just Got Counterintuitive\u2014And Way More Powerful",
+      "facts": "Anthropic just published internal tests that flip conventional wisdom on its head: when it comes to Claude's memory feature, less is dramatically more. The company's engineers found that tiny, hyper-focused memory notes\u2014think one or two sentences per topic\u2014outperform massive archives of context by a wide margin."
     }
   ]
 }
