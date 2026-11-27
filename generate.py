@@ -33,11 +33,11 @@ GMAIL_APP_PASS    = os.environ["GMAIL_APP_PASS"]
 YOUR_EMAIL        = os.environ["YOUR_EMAIL"]
 
 SECTION_ORDER = [
-    "World News",
-    "US News",
+    "US Real Estate (NYC Focus)",
     "Economy",
     "US Stocks",
-    "US Real Estate (NYC Focus)",
+    "World News",
+    "US News",
     "Sports",
     "Basketball (NBA & College)",
     "Claude & AI",
@@ -86,12 +86,20 @@ FEEDS = {
         ],
     },
     "US Real Estate (NYC Focus)": [
-        "https://www.curbed.com/rss/index.xml",
+        # Deals & players (NYC trade press)
         "https://therealdeal.com/new-york/feed/",
-        "https://www.housingwire.com/feed/",
+        "https://commercialobserver.com/feed/",
+        "https://www.crainsnewyork.com/rss/real-estate",
+        "https://news.google.com/rss/search?hl=en-US&gl=US&ceid=US:en&q=%22multifamily%22+(Brooklyn+OR+Queens+OR+Bronx+OR+Manhattan)+(sale+OR+sells+OR+buys+OR+refinance+OR+loan)+when:3d",
+        # Law, regulation & policy
+        "https://news.google.com/rss/search?hl=en-US&gl=US&ceid=US:en&q=(%22rent+stabilized%22+OR+%22Rent+Guidelines+Board%22+OR+%22Good+Cause+Eviction%22+OR+%22rent+freeze%22)+New+York+when:3d",
+        "https://news.google.com/rss/search?hl=en-US&gl=US&ceid=US:en&q=(NYC+landlords+OR+HPD+OR+%22Housing+Court%22+OR+%22Local+Law+97%22+OR+%22property+tax%22)+(law+OR+bill+OR+rule+OR+City+Council+OR+Albany)+when:3d",
+        # Interest rates & financing
+        "https://news.google.com/rss/search?hl=en-US&gl=US&ceid=US:en&q=(%22multifamily%22+OR+%22commercial+real+estate%22)+(%22interest+rates%22+OR+lending+OR+refinancing+OR+Fannie+OR+Freddie)+when:3d",
+        "https://news.google.com/rss/search?hl=en-US&gl=US&ceid=US:en&q=(%2210-year+Treasury%22+OR+%22Federal+Reserve%22+rate+OR+%22mortgage+rates%22)+when:2d",
+        # General NYC housing
         "https://www.6sqft.com/feed/",
-        "https://therealdeal.com/miami/feed/",
-        "https://therealdeal.com/new-jersey/feed/",
+        "https://www.curbed.com/rss/index.xml",
     ],
     "US Stocks": [
         "https://feeds.marketwatch.com/marketwatch/topstories/",
@@ -228,7 +236,7 @@ def fetch_nyc_weather():
     return "Good morning. Let's get into today's news."
 
 
-def fetch_headlines(urls, count=8, seen_titles=None, max_age_hours=40):
+def fetch_headlines(urls, count=8, seen_titles=None, max_age_hours=40, per_feed=None):
     """Fetch deduplicated headlines, skipping stories older than max_age_hours."""
     import time, calendar
     if seen_titles is None:
@@ -238,7 +246,10 @@ def fetch_headlines(urls, count=8, seen_titles=None, max_age_hours=40):
     for url in urls:
         try:
             feed = fetch_feed(url)
+            from_this_feed = 0
             for entry in feed.entries:
+                if per_feed and from_this_feed >= per_feed:
+                    break
                 title   = entry.get("title", "").strip()
                 summary = re.sub(r"<[^>]+>", "",
                     entry.get("summary", entry.get("description", ""))).strip()[:600]
@@ -251,6 +262,7 @@ def fetch_headlines(urls, count=8, seen_titles=None, max_age_hours=40):
                 if title and len(title) > 10 and key not in seen_titles:
                     seen_titles.add(key)
                     items.append(f"- {title}. {summary}")
+                    from_this_feed += 1
                 if len(items) >= count:
                     break
         except Exception as e:
@@ -310,35 +322,82 @@ def save_story_history(history, sha=None):
     requests.put(url, headers=headers, json=payload, timeout=60)
 
 
-def get_recent_titles(history, is_monday=False):
+def get_recent_titles(history, is_monday=False, section=None):
+    """Previously reported stories, NEWEST FIRST.
+    Same-section stories from the whole window come first, then every other section's
+    stories from the last 2 days (so cross-section repeats are also caught)."""
     today = datetime.date.today()
     cutoff = MAX_HISTORY_DAYS + (2 if is_monday else 0)
-    seen = []
-    for date_key, entries in history.items():
+    same, other = [], []
+    def _fmt(e, d):
+        if isinstance(e, dict):
+            title = e.get("title", "").strip()
+            facts = e.get("facts", "").strip()
+            line = f"[{d.isoformat()}] {title}"
+            return f"{line} — already reported: {facts}" if facts else line
+        return f"[{d.isoformat()}] {e}"
+    for date_key in sorted(history.keys(), reverse=True):
         try:
             d = datetime.date.fromisoformat(date_key)
-            if (today - d).days <= cutoff:
-                for e in entries:
-                    if isinstance(e, dict):
-                        title = e.get("title", "").strip()
-                        facts = e.get("facts", "").strip()
-                        seen.append(f"{title} — already reported: {facts}" if facts else title)
-                    else:
-                        seen.append(str(e))
         except Exception:
-            pass
-    return seen
+            continue
+        age = (today - d).days
+        if age <= 0 or age > cutoff:
+            continue
+        for e in history[date_key]:
+            sec = e.get("section") if isinstance(e, dict) else None
+            if section is None or sec == section or sec is None:
+                same.append(_fmt(e, d))
+            elif age <= (4 if is_monday else 2):
+                other.append(_fmt(e, d))
+    return same + other
+
+
+def _tok(text):
+    return {w for w in re.findall(r"[a-z0-9]+", text.lower()) if len(w) > 3}
+
+
+def drop_repeats(stories, history, section, days=3):
+    """Hard guard: drop a story that is near-identical to one reported in the last few days."""
+    today = datetime.date.today()
+    prior = []
+    for k, entries in history.items():
+        try:
+            age = (today - datetime.date.fromisoformat(k)).days
+        except Exception:
+            continue
+        if 0 < age <= days:
+            for e in entries:
+                if isinstance(e, dict):
+                    prior.append((_tok(e.get("title", "")), _tok(e.get("facts", "")), e.get("title", "")))
+    kept = []
+    for st in stories:
+        t_tok = _tok(st["title"])
+        sents = re.split(r'(?<=[.!?])\s+', st["body"].strip())
+        f_tok = _tok(" ".join(sents[:2]))
+        dup = None
+        for pt, pf, ptitle in prior:
+            t_sim = len(t_tok & pt) / max(len(t_tok | pt), 1)
+            f_sim = len(f_tok & pf) / max(min(len(f_tok), len(pf)), 1) if f_tok and pf else 0
+            if t_sim >= 0.6 or f_sim >= 0.55:
+                dup = ptitle
+                break
+        if dup:
+            print(f"  REPEAT DROPPED [{section}]: '{st['title']}' ~ recent '{dup}'")
+        else:
+            kept.append(st)
+    return kept
 
 
 def update_history(history, sections_data):
     today_key = datetime.date.today().isoformat()
     today_entries = []
-    for stories in sections_data.values():
+    for sec_name, stories in sections_data.items():
         for story in stories:
             body = story.get("body", "")
             sentences = re.split(r'(?<=[.!?])\s+', body.strip())
             facts = " ".join(sentences[:2]).strip()
-            today_entries.append({"title": story["title"], "facts": facts})
+            today_entries.append({"section": sec_name, "title": story["title"], "facts": facts})
     history[today_key] = today_entries
     cutoff = datetime.date.today() - datetime.timedelta(days=MAX_HISTORY_DAYS + 3)
     history = {k: v for k, v in history.items()
@@ -403,7 +462,7 @@ SECTION_STORY_COUNTS = {
     "US News": 3,
     "Economy": 3,
     "US Stocks": 2,
-    "US Real Estate (NYC Focus)": 2,
+    "US Real Estate (NYC Focus)": 4,
     "Sports": 2,
     "Basketball (NBA & College)": 2,
     "Claude & AI": 1,
@@ -422,11 +481,12 @@ Do not skip major Monday morning news just because it's also a weekend recap bri
 
     recent_note = ""
     if recent_titles:
-        titles_list = "\n".join(f"- {t}" for t in recent_titles[:25])
+        titles_list = "\n".join(f"- {t}" for t in recent_titles[:60])
         recent_note = f"""
 ONGOING STORIES — TANGIBLE-UPDATE RULE (last 7 days):
 
 Below is what was already reported recently, with the key facts that were covered.
+Items tagged [TODAY - <section>] are ALREADY IN TODAY'S BRIEF in another section: do NOT cover that same event, deal, bill, or data release again in any form. Items are listed newest first; anything from yesterday must NOT be repeated unless there is a concrete new development.
 
 For any of today’s headlines that continues one of these stories:
 
@@ -496,11 +556,12 @@ Label weekend stories naturally and Monday news as current.
 """
         recent_note = ""
         if recent_titles:
-            titles_list = "\n".join(f"- {t}" for t in recent_titles[:30])
+            titles_list = "\n".join(f"- {t}" for t in recent_titles[:60])
             recent_note = f"""
 ONGOING STORIES — TANGIBLE-UPDATE RULE (last 7 days):
 
 Below is what was already reported recently, with the key facts that were covered.
+Items tagged [TODAY - <section>] are ALREADY IN TODAY'S BRIEF in another section: do NOT cover that same event, deal, bill, or data release again in any form. Items are listed newest first; anything from yesterday must NOT be repeated unless there is a concrete new development.
 
 For any of today’s headlines that continues one of these stories:
 
@@ -558,12 +619,40 @@ def summarize_standard(client, section, headlines, is_monday=False, recent_title
 
     if section == "US Real Estate (NYC Focus)":
         extra = """
-REAL ESTATE AUDIENCE NOTE:
-Write for a residential property OWNER ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ not an agent or developer.
-PRIMARY FOCUS: NYC (Manhattan, Brooklyn, Queens, Bronx, Staten Island). If there is not enough fresh NYC news, expand to cover Miami or New Jersey real estate markets.
-COVER: mortgage rate trends and forecasts, rent growth, neighborhood trends (up-and-coming areas, quality of life, crime trends), property tax and policy changes affecting owners, housing supply, economic factors affecting home values, regional market comparisons.
-DO NOT COVER: individual home sales, broker tips, luxury condo launches, commercial real estate.
-If covering Miami or NJ, clearly note which market you are discussing.
+NYC REAL ESTATE SECTION - INDUSTRY INSIDER BRIEF:
+AUDIENCE: Lucas runs Alyssa Gray Realty, an NYC property management company that owns and manages
+multifamily apartment buildings across several boroughs (rent-stabilized AND free-market units).
+He is an industry operator, not a homebuyer. Write like a sharp trade-press briefing (The Real Deal /
+Crain's / Commercial Observer level) - assume he knows the jargon (cap rates, DSCR, IAI/MCI, HSTPA,
+J-51, 485-x, RGB, Good Cause, HPD/DOB, LL97, Housing Court). Do NOT explain basics.
+
+WRITE EXACTLY 4 STORIES, ONE FROM EACH BUCKET BELOW (in this order):
+1. INTEREST RATES & FINANCING (REQUIRED EVERY DAY): Fed moves/expectations, 10-year Treasury, multifamily
+   and CRE lending rates, refi conditions, Fannie/Freddie/agency lending, bank CRE exposure, distressed
+   rent-stabilized loans. Give the actual numbers (rate levels, bp moves) and say plainly what it means
+   for an NYC multifamily owner refinancing or buying right now. If no fresh rate headline exists, use the
+   most recent rate data in the headlines and frame it as "where rates stand."
+2. LAW, REGULATION & POLICY: NYC/Albany legislation, Rent Guidelines Board, rent-stabilization rules,
+   Good Cause Eviction, HPD/DOB enforcement, Local Law 97, property tax, Housing Court, FARE Act/broker
+   fees, tax incentives (485-x, J-51), Mayor/City Council housing moves. State what changed, who it
+   applies to, effective dates, and the practical impact on a landlord's operations or compliance.
+3. DEALS & PLAYERS: Notable NYC building sales, acquisitions, refinancings, foreclosures, and portfolio
+   trades - prioritize multifamily/rent-stabilized deals in the outer boroughs and Manhattan. Name the
+   buyer, seller, lender, price, unit count, and price per unit or per sq ft when available. Mention who
+   the active players are (owners, lenders, brokers, landlord groups like RSA/CHIP) and what the deal
+   signals about valuations.
+4. WILDCARD - most important remaining NYC real estate story: another deal, a policy fight, a market
+   data release (rents, vacancy, sales volume, valuations), or a key person in the industry making news.
+
+RULES:
+- NYC first. National stories are allowed ONLY for interest rates/financing or federal housing policy
+  that directly affects NYC owners.
+- NO homebuyer content: no "is now a good time to buy a home", no single-family listings, no celebrity
+  condo sales, no luxury condo launches, no consumer mortgage advice.
+- Office/retail CRE only if it is a major NYC market signal (e.g. a big distressed loan or lender pullback).
+- Never invent deal terms, prices, names, or dates. If a number is not in the headline material, leave it out.
+- Each of the 4 stories must be a DIFFERENT topic - no two stories on the same deal, bill, or rate move.
+- Do not repeat the Economy section's Fed story verbatim; here focus on what rates mean for real estate.
 """
 
     if section == "US Stocks":
@@ -614,7 +703,7 @@ CLAUDE CAPABILITY SPOTLIGHT - DAILY TUTORIAL (NOT NEWS): - FIRST CHECK the headl
 
     msg = client.messages.create(
         model="claude-sonnet-4-5-20250929",
-        max_tokens=2500,
+        max_tokens=4500 if section == "US Real Estate (NYC Focus)" else 2500,
         messages=[{"role": "user", "content": prompt}]
     )
     return msg.content[0].text.strip()
@@ -966,7 +1055,12 @@ def generate_audio(sections_data, date_str, brief_label=None):
                 },
                 timeout=120,
             )
-            r.raise_for_status()
+            if r.status_code == 429 and "insufficient_quota" not in r.text and _tts_attempt < 2:
+                print(f"  TTS rate-limited (429), retrying in 20s... {r.text[:200]}")
+                time.sleep(20)
+                continue
+            if r.status_code >= 400:
+                raise RuntimeError(f"OpenAI TTS {r.status_code}: {r.text[:500]}")
             if len(r.content) >= 1000:
                 chunk_audio = r.content
                 break
@@ -1106,9 +1200,11 @@ def main():
     recent_titles = get_recent_titles(history, is_monday=is_monday)
     print(f"  {len(recent_titles)} recent stories loaded for deduplication")
 
+    today_covered = []
     for section in SECTION_ORDER:
         print(f"\n[{section}]")
         feed_cfg = FEEDS[section]
+        recent_titles = today_covered + get_recent_titles(history, is_monday=is_monday, section=section)
 
         if section == "World News":
             feed_cfg = FEEDS[section]
@@ -1137,6 +1233,13 @@ def main():
                 continue
             raw = summarize_standard(client, section, headlines,
                                      is_monday=is_monday, recent_titles=recent_titles)
+        elif section == "US Real Estate (NYC Focus)":
+            headlines = fetch_headlines(feed_cfg, count=30, per_feed=4, max_age_hours=72 if is_monday else 48)
+            print(f"  {len(headlines)} headlines")
+            if not headlines:
+                continue
+            raw = summarize_standard(client, section, headlines,
+                                     is_monday=is_monday, recent_titles=recent_titles)
         else:
             headlines = fetch_headlines(feed_cfg, count=8)
             print(f"  {len(headlines)} headlines")
@@ -1147,6 +1250,10 @@ def main():
                                      is_monday=is_monday, recent_titles=recent_titles)
 
         stories = parse_stories(raw, section)
+        stories = drop_repeats(stories, history, section)
+        for st in stories:
+            first = re.split(r'(?<=[.!?])\s+', st["body"].strip())[0]
+            today_covered.append(f"[TODAY - {section}] {st['title']} — already covered today: {first}")
         print(f"  ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ {len(stories)} stories written")
         sections_data[section] = stories
 
@@ -1219,7 +1326,13 @@ def main():
 
     print("Building HTML...")
     print("Generating audio...")
-    audio_url, est_mins = generate_audio(sections_data, date_str, brief_label=brief_label)
+    try:
+        audio_url, est_mins = generate_audio(sections_data, date_str, brief_label=brief_label)
+    except Exception as audio_err:
+        # Audio is optional: still publish the written brief and email it.
+        print(f"  AUDIO FAILED, continuing with text-only brief: {audio_err}")
+        send_mms_alert(f"Audio failed (text brief still sent): {audio_err}")
+        audio_url = page_url
     html = build_html(sections_data, date_str, brief_label=brief_label, est_mins=est_mins)
 
     print("Pushing to GitHub Pages...")
