@@ -1,54 +1,4 @@
 {
-  "2026-11-16": [
-    {
-      "title": "Pope Leo Defies Health Concerns on South America Tour",
-      "facts": "Pope Leo the Fourteenth is proving his doctors wrong. The 87-year-old pontiff is moving through his South America trip without visible strain, just weeks after surgeons removed part of his lung in what many feared would be a career-ending procedure."
-    },
-    {
-      "title": "South Korea Launches Probe Into K-Pop Contracts for Minors",
-      "facts": "South Korean authorities will investigate how the K-pop industry treats underage performers, following a New York Times report on restrictive contracts signed by teenage stars. The announcement targets practices like those involving the group NewJeans, whose members signed deals when they were between 14 and 17 years old."
-    },
-    {
-      "title": "Democrats Prepare to Reshape Policy in State Capitals",
-      "facts": "Democrats are about to wield power in statehouses across the country in a way they haven't for years. While the incoming Democratic Congress has grabbed headlines, the real action might happen at the state level\u2014where Democrats will now control a dozen new legislative chambers."
-    },
-    {
-      "title": "International Students Turning Away From American Universities",
-      "facts": "For the second year running, international students are avoiding American universities\u2014and the numbers suggest Trump administration policies are driving them away. Universities that have built entire budgets around tuition from foreign students are now scrambling as those revenue streams dry up."
-    },
-    {
-      "title": "Router Failure Behind Nationwide Aviation Ground Stop",
-      "facts": "A new piece of networking equipment caused a nationwide aviation ground stop after it started flooding the system with data, according to aviation experts and federal officials. The router malfunction created a cascade that forced airlines to halt departures across the country, stranding thousands of travelers."
-    },
-    {
-      "title": "Commerce Chief Faces Conflict Questions Over Chip Export Rules",
-      "facts": "Commerce Secretary Howard Lutnick is writing new semiconductor export regulations that could directly affect clients of his family's former business. The rules target data centers in Southeast Asia\u2014and some of those facilities were customers of Lutnick's old firm before he took the cabinet post."
-    },
-    {
-      "title": "Wall Street Divided on Whether AI Boom Will Crater Markets",
-      "facts": "A former White House economist is putting a number on what happens if artificial intelligence turns out to be a bubble: he thinks the stock market could drop twenty-five percent if the AI hype implodes. Jason Furman's forecast comes as Wall Street's split wide open on whether we're witnessing a genuine technological revolution or a speculative frenzy that'll end badly."
-    },
-    {
-      "title": "Intel Hit With Investor Lawsuit Over Hidden PC Sales Slump",
-      "facts": "Intel's facing a proposed class-action lawsuit from shareholders who claim the chipmaker concealed how badly slowing PC sales were hammering its business. The suit alleges Intel knew its core market was deteriorating faster than it let on, leaving investors in the dark until the damage showed up in quarterly results."
-    },
-    {
-      "title": "Housing Inventory Drops as Seasonal Slowdown Takes Hold",
-      "facts": "Housing inventory across the country has fallen to just under 896,000 available homes, marking a sharp decline as the market hits its typical seasonal slowdown. The drop of nearly 7,000 homes in just one week reflects what happens every year as we head into the holidays\u2014sellers pull their listings and buyers sit on the sidelines."
-    },
-    {
-      "title": "Mortgage Lenders Face Surging Costs as Industry Efficiency Lags",
-      "facts": "The cost of originating a single mortgage loan has climbed to nearly $11,000, according to new data from the Mortgage Bankers Association covering the second quarter of this year. That's a staggering figure that helps explain why getting a mortgage feels like such a heavy lift for both borrowers and the lenders processing their applications."
-    },
-    {
-      "title": "Bauers Signs $58 Million Deal with Red Sox After Breakout Season",
-      "facts": "Jake Bauers just landed a massive payday. The first baseman agreed to a four-year, $58 million contract with the Red Sox after putting together a career season with the Brewers."
-    },
-    {
-      "title": "Celtics Set Franchise Record with Historic First Quarter Blowout",
-      "facts": "The Celtics absolutely demolished the Mavericks on Sunday, jumping out to a 42-9 lead after just one quarter\u2014and that's not just a big margin, it's a franchise record. The 33-point cushion marks the largest scoring advantage in any NBA quarter since 1987, a stat that puts Boston's dominance in truly rare air."
-    }
-  ],
   "2026-11-17": [
     {
       "title": "Canada and China Forge New Trade Deal",
@@ -675,6 +625,72 @@
     {
       "title": "Claude Can Now Build Mac Apps From Your Prompts",
       "facts": "Anthropic just shipped a feature that's genuinely wild: Claude can now take your workflow and turn it directly into a native Mac application you can install and run. It's not generating code for you to fiddle with\u2014it's outputting the actual software package, ready to go."
+    }
+  ],
+  "2026-11-27": [
+    {
+      "title": "Spain's Far Right Eyes Historic Comeback in Sunday's Election",
+      "facts": "Spain could be on the verge of a political shift that would have been unthinkable just a few years ago. Santiago Abascal's Vox party is polling strong enough to potentially join the national government\u2014which would make it the first far-right group to hold power in Spain since Francisco Franco's dictatorship ended in 1975."
+    },
+    {
+      "title": "Taiwan Mayoral Race Could Elevate Beijing's Most Vocal Critic",
+      "facts": "Puma Shen might be the last person Beijing wants running Taipei. The outspoken critic of China is leading in polls ahead of Taiwan's mayoral election, and if he wins, he'll become one of the island's most prominent political figures."
+    },
+    {
+      "title": "Thanksgiving Storm Knocks Out Power for Half a Million",
+      "facts": "Half a million people woke up without electricity along the East Coast after a powerful Thanksgiving storm tore through the region overnight. The system brought heavy rain and strong winds from Virginia all the way up to New York, hitting right in the middle of one of the busiest travel weeks of the year."
+    },
+    {
+      "title": "Pregnant Inmate Escapes During Prenatal Appointment",
+      "facts": "A 26-year-old pregnant inmate pulled off a brazen escape in New Mexico by taking control of the prison transport vehicle that was supposed to bring her back from a doctor's visit. Rebecca Taylor was being returned to prison after a prenatal appointment when she made her move in a Whataburger parking lot, according to authorities."
+    },
+    {
+      "title": "Evidence Shows Army Knew of Iowa Explosion Risk a Year Earlier",
+      "facts": "The Army began efforts to dispose of unstable explosives at an Iowa ammunition plant more than a year before this week's massive detonation\u2014but never finished the job. That's according to new evidence that's emerged since Wednesday's controversial blast, which the military carried out intentionally in what it called a controlled disposal."
+    },
+    {
+      "title": "SAP to Cut 10,000 Jobs in AI Transition",
+      "facts": "SAP is slashing about 10,000 jobs, cutting roughly nine to ten percent of its workforce as the German software giant repositions itself for the artificial intelligence era. It's the latest blow in what's been a brutal year for tech layoffs, with companies across the sector trimming staff to fund AI investments."
+    },
+    {
+      "title": "Goldman Warns of $100 Billion Automated Selloff Friday",
+      "facts": "Stocks are set to open higher Friday, but they're headed straight into a buzzsaw\u2014Goldman Sachs is warning that trend-following funds are poised to dump roughly $100 billion worth of equities in automated selling. The firm's traders say this represents one final large wave of selling for the year from systematic investors, the kind of funds that use algorithms to follow market momentum."
+    },
+    {
+      "title": "Britain Pays EU Fee to Secure New Trade Deals",
+      "facts": "Britain will pay a \"participation fee\" to the European Union as part of newly finalized trade arrangements, according to legal documents just made public. The payment represents a contribution toward EU running costs, a detail that's surfaced now that the terms of the agreements have been formalized."
+    },
+    {
+      "title": "Wall Street Futures Surge After Brutal Week for Tech Stocks",
+      "facts": "Wall Street futures jumped sharply Friday morning as investors looked to snap a punishing stretch that's hammered technology and growth stocks. U.S."
+    },
+    {
+      "title": "Stock Market Flashes Rare Signal Seen Only Six Times in Over a Century",
+      "facts": "The stock market's current behavior is triggering a warning sign that's appeared just six times in the past 156 years\u2014and history suggests certain stocks could face the steepest losses. Market technicians are watching closely as the pattern unfolds, noting its rarity makes it particularly significant for investors trying to gauge what comes next."
+    },
+    {
+      "title": "NYC Court Upholds Rent Freeze Despite Legal Challenge",
+      "facts": "A New York judge has dismissed a legal challenge to the city's rent freeze, handing Mayor Mamdani a significant win on one of his signature housing policies. Judge Lantry ruled against claims that the mayor had predetermined the outcome before the rent board even voted."
+    },
+    {
+      "title": "Chase Rolls Out Two-Week Rate Sale on Mortgages",
+      "facts": "Chase is slashing mortgage rates for a limited time, hoping to lure home buyers and refinancers during what's traditionally a slow stretch of the year. The sale runs from November 30th through December 13th and applies to both purchase loans and refinances locked during that window."
+    },
+    {
+      "title": "Rockies Open Checkbook for Two Pitchers in Major Spending Spree",
+      "facts": "The Colorado Rockies just committed $74 million to overhaul their pitching staff, signing two starters in a surprising show of financial muscle. David Peterson is heading to Denver on a two-year, $32 million deal, while Patrick Sandoval locked in three years and $42 million."
+    },
+    {
+      "title": "NBA Plans $11 Billion European Arena Project",
+      "facts": "The NBA is making its most ambitious move yet to plant roots in Europe, unveiling plans for nearly $11 billion in funding to build and renovate arenas across the continent. The massive infrastructure initiative is designed to support a European professional league that's been in the works for years, bringing NBA-level basketball to cities from London to Berlin."
+    },
+    {
+      "title": "LaMelo Ball Injured in Timberwolves Victory",
+      "facts": "LaMelo Ball limped off the court late in the Timberwolves' win over the Thunder after hurting his left ankle, and the team isn't saying yet how serious it is. The injury happened in the closing minutes of what was otherwise a successful night for Minnesota, casting uncertainty over Ball's availability going forward."
+    },
+    {
+      "title": "Claude Used Itself to Rewrite Its Own Backend\u2014and Slashed Server Costs by 70 Percent",
+      "facts": "Anthropic just shipped one of the more recursive engineering feats you'll see: they had Claude rewrite Claude's own API backend from Python to Rust, and the result was a 70 percent drop in CPU usage per request. That's not a small optimization\u2014it's the kind of server-cost reduction that changes unit economics at scale."
     }
   ]
 }
